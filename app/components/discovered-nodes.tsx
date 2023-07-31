@@ -34,7 +34,7 @@ export default function DiscoveredNodes() {
               );
             }}
           >
-            Backup
+            {dict.settings.backup}
           </button>
         ) : (
           <a
@@ -44,7 +44,7 @@ export default function DiscoveredNodes() {
             download="diablo_4_map_discovered_nodes.json"
             className="p-1 uppercase hover:text-white"
           >
-            Backup
+            {dict.settings.backup}
           </a>
         )}
         <label className="p-1 uppercase hover:text-white cursor-pointer">
@@ -82,7 +82,7 @@ export default function DiscoveredNodes() {
               reader.readAsText(file);
             }}
           />
-          Restore
+          {dict.settings.restore}
         </label>
         <button
           className="p-1 uppercase hover:text-white"
@@ -94,7 +94,7 @@ export default function DiscoveredNodes() {
             }
           }}
         >
-          Reset
+          {dict.settings.reset}
         </button>
       </div>
       {Object.keys(staticNodes).map((_key) => {

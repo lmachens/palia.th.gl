@@ -134,5 +134,16 @@
     "Kehj_Alcarnus": "Alcarnus",
     "Kehj_WorldEvent_01": "Cuenca Socarrada",
     "Kehj_Ridge": "Arenas Erosivas"
+  },
+  "settings": {
+    "rightClickToggle": "Right click to toggle discovered",
+    "showEventsTimers": "Show Event Timers",
+    "stackEventsTimers": "Stack Event Timers",
+    "showTerritoryNames": "Show Territory Names",
+    "alternativeDiscoveredWaypointsIcon": "Alternative Discovered Waypoints Icon",
+    "iconSize": "Icon Size",
+    "backup": "Backup",
+    "restore": "Restore",
+    "reset": "Reset"
   }
 }

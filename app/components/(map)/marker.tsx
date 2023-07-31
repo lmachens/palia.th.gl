@@ -97,7 +97,7 @@ const Marker = memo(function Marker({
       div.innerHTML = tooltipContent;
       const note = document.createElement("p");
       note.className = "text-gray-300 text-xs italic mt-2 hide-on-print";
-      note.innerHTML = "Right click to toggle discovered";
+      note.innerHTML = dict.settings.rightClickToggle;
 
       div.append(note);
       return div;
