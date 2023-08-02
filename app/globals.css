@@ -70,3 +70,50 @@
 .print .hide-on-print {
   display: none;
 }
+
+.twitch-embed-close {
+  position: fixed;
+  display: block;
+  cursor: pointer;
+  z-index: 10001;
+  background: rgb(238 238 238);
+  margin: 5px;
+  padding: 0 5px;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  opacity: 0.8;
+  border: 1px solid rgb(34 34 34);
+  border-radius: 12px;
+  color: rgb(34 34 34);
+  bottom: 200px;
+  right: 0;
+}
+
+@media screen and (width >= 426px) {
+  .twitch-embed-close {
+    bottom: 207px;
+    right: 7px;
+  }
+}
+
+.twitch-embed {
+  display: block;
+  z-index: 10000;
+  overflow: hidden;
+  border-radius: 5px;
+  height: 200px;
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+@media screen and (width >= 426px) {
+  .twitch-embed {
+    width: 361px;
+    height: 203px;
+    bottom: 7px;
+    right: 7px;
+  }
+}

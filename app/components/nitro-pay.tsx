@@ -1,6 +1,7 @@
 import Script from "next/script";
 import { useEffect, useState } from "react";
 import { useAccountStore } from "../lib/storage/account";
+import TwitchEmbed from "./twitch-embed";
 
 type NitroAds = {
   // eslint-disable-next-line no-unused-vars
@@ -66,7 +67,7 @@ export default function NitroPay() {
         onError={() => setShowFallback(true)}
       />
       <div id="diablo4-video" className={showFallback ? "" : "w-full h-56"} />
-      {/* {showFallback && <div>Fallback</div>} */}
+      {showFallback && <TwitchEmbed onClose={() => setShowFallback(false)} />}
     </>
   );
 }
