@@ -92,7 +92,7 @@
 
 @media screen and (width >= 426px) {
   .twitch-embed-close {
-    bottom: 207px;
+    bottom: 232px;
     right: 7px;
   }
 }
@@ -111,8 +111,8 @@
 
 @media screen and (width >= 426px) {
   .twitch-embed {
-    width: 361px;
-    height: 203px;
+    width: 400px;
+    height: 225px;
     bottom: 7px;
     right: 7px;
   }

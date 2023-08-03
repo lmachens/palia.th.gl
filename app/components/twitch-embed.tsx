@@ -23,6 +23,7 @@ export default function TwitchEmbed({ onClose }: { onClose: () => void }) {
       autoplay: true,
       muted: true,
       parent: ["diablo4.th.gl"],
+      quality: "mobile",
     });
 
     twitchEmbed.addEventListener(window.Twitch.Player.ONLINE, () => {
