@@ -57,6 +57,8 @@ export const territories = [
       [-26.235025829654226, 86.0035930834794],
       [-27.485913689253746, 85.02750544795856],
     ],
+    levelMin: 10,
+    levelMax: 35,
   },
   {
     id: "Scos_CMP_HopesLight",
@@ -74,6 +76,8 @@ export const territories = [
       [-22.666645597767847, 96.95778185557329],
       [-21.081923248900367, 97.19500648158869],
     ],
+    levelMin: 25,
+    levelMax: 75,
   },
   {
     id: "Scosglen_Lowlands",
@@ -118,6 +122,8 @@ export const territories = [
       [-65.97327361558648, 84.99290209149495],
       [-68.63079610492841, 87.65042458083688],
     ],
+    levelMin: 10,
+    levelMax: 45,
   },
   {
     id: "Scosglen_Estate",
@@ -131,6 +137,8 @@ export const territories = [
       [-61.031204556141944, 101.97566819026848],
       [-59.943047470091464, 100.26421828240916],
     ],
+    levelMin: 10,
+    levelMax: 45,
   },
   {
     id: "Scosglen_Hills",
@@ -171,6 +179,8 @@ export const territories = [
       [-39.21073853700574, 120.88839964306035],
       [-37.65117432423551, 121.799119802048],
     ],
+    levelMin: 12,
+    levelMax: 45,
   },
   {
     id: "Scos_LochRaeth_WorldBoss",
@@ -253,6 +263,8 @@ export const territories = [
       [-48.406243655877574, 136.90366397541595],
       [-48.361950486057786, 138.713507965034],
     ],
+    levelMin: 20,
+    levelMax: 75,
   },
   {
     id: "Scosglen_Moors",
@@ -300,6 +312,8 @@ export const territories = [
       [-59.01121587866873, 136.072481307377],
       [-58.32516093244167, 137.03304383964132],
     ],
+    levelMin: 12,
+    levelMax: 45,
   },
   {
     id: "Scos_CMP_TurDulra",
@@ -324,6 +338,8 @@ export const territories = [
       [-45.99836653031604, 84.9305374306852],
       [-44.7628618226843, 84.91801514315209],
     ],
+    levelMin: 15,
+    levelMax: 75,
   },
   {
     id: "Scosglen_Deep_Forest",
@@ -383,6 +399,8 @@ export const territories = [
       [-38.911328327190986, 85.17992619021288],
       [-38.59932376226575, 84.4936594089857],
     ],
+    levelMin: 10,
+    levelMax: 50,
   },
   {
     id: "Scosglen_Downs",
@@ -420,6 +438,8 @@ export const territories = [
       [-61.1946117821785, 128.6738682149584],
       [-60.00956147626448, 128.5114262576853],
     ],
+    levelMin: 0,
+    levelMax: 50,
   },
   {
     id: "Scosglen_Highlands",
@@ -466,6 +486,8 @@ export const territories = [
       [-64.41982586546159, 126.38173707830495],
       [-65.89809566710167, 125.15858213279385],
     ],
+    levelMin: 0,
+    levelMax: 50,
   },
   {
     id: "Scosglen_High_Forest",
@@ -499,6 +521,8 @@ export const territories = [
       [-51.78309993319288, 93.68504903241698],
       [-53.6548456040328, 95.73927854460099],
     ],
+    levelMin: 0,
+    levelMax: 0,
   },
   {
     id: "Step_CentralCanyon",
@@ -529,6 +553,8 @@ export const territories = [
       [-69.80367845556466, 71.30591078583974],
       [-71.42564008713438, 72.10442391074099],
     ],
+    levelMin: 15,
+    levelMax: 50,
   },
   {
     id: "Step_Grassland",
@@ -592,6 +618,8 @@ export const territories = [
       [-55.43438408543716, 70.17610737553802],
       [-54.21499194101075, 69.75461250580632],
     ],
+    levelMin: 0,
+    levelMax: 50,
   },
   {
     id: "Step_Volcano",
@@ -638,6 +666,8 @@ export const territories = [
       [-84.01460104864054, 83.26273863604737],
       [-85.84448637636312, 85.07602221458494],
     ],
+    levelMin: 18,
+    levelMax: 50,
   },
   {
     id: "Step_OnyxWatchtower",
@@ -656,6 +686,8 @@ export const territories = [
       [-79.97369991838426, 73.29194253117966],
       [-79.45982096607261, 71.88190543823937],
     ],
+    levelMin: 20,
+    levelMax: 75,
   },
   {
     id: "Step_Central",
@@ -724,6 +756,8 @@ export const territories = [
       [-71.83740365005626, 88.77461108783635],
       [-69.45854027598084, 88.60268405464275],
     ],
+    levelMin: 0,
+    levelMax: 50,
   },
   {
     id: "Step_Basin",
@@ -760,6 +794,8 @@ export const territories = [
       [-89.47105134957228, 82.3311581892124],
       [-89.56050250014019, 79.85965958796926],
     ],
+    levelMin: 15,
+    levelMax: 50,
   },
   {
     id: "Step_QaraYisu",
@@ -783,6 +819,8 @@ export const territories = [
       [-103.59646084840985, 87.27487442957286],
       [-104.43064633217223, 86.65250865887283],
     ],
+    levelMin: 25,
+    levelMax: 75,
   },
   {
     id: "Step_WorldBoss",
@@ -799,6 +837,8 @@ export const territories = [
       [-101.96440293142828, 97.73568174246631],
       [-101.12431882565215, 97.9935537293959],
     ],
+    levelMin: 0,
+    levelMax: 0,
   },
   {
     id: "Step_Eastern",
@@ -861,6 +901,8 @@ export const territories = [
       [-99.06980295404139, 84.24426955752502],
       [-99.59380958483838, 83.63703797807098],
     ],
+    levelMin: 0,
+    levelMax: 50,
   },
   {
     id: "Step_South",
@@ -926,6 +968,8 @@ export const territories = [
       [-113.12272338938286, 78.41763486404372],
       [-112.45201829116738, 79.9709723289366],
     ],
+    levelMin: 20,
+    levelMax: 50,
   },
   {
     id: "Step_TempleOfRot",
@@ -947,6 +991,8 @@ export const territories = [
       [-99.85164335411329, 58.42584048911133],
       [-100.52538893974035, 57.71881715367095],
     ],
+    levelMin: 30,
+    levelMax: 75,
   },
   {
     id: "Step_WesternFlats",
@@ -986,6 +1032,8 @@ export const territories = [
       [-76.90166219498481, 61.745373560233226],
       [-75.38907949105656, 59.69844252815658],
     ],
+    levelMin: 20,
+    levelMax: 50,
   },
   {
     id: "Step_ZoneEvent",
@@ -1004,6 +1052,8 @@ export const territories = [
       [-75.29755148394104, 53.63480104929145],
       [-74.34933216219942, 54.51646487140641],
     ],
+    levelMin: 0,
+    levelMax: 0,
   },
   {
     id: "Step_Coast",
@@ -1044,6 +1094,8 @@ export const territories = [
       [-77.22719144192828, 52.80290316514381],
       [-76.02969473782399, 52.73664030355856],
     ],
+    levelMin: 0,
+    levelMax: 50,
   },
   {
     id: "Step_PvP",
@@ -1085,6 +1137,8 @@ export const territories = [
       [-93.1725054549903, 44.69315615554271],
       [-94.415696278941, 44.47850942796839],
     ],
+    levelMin: 0,
+    levelMax: 50,
   },
   {
     id: "Frac_Taiga_E",
@@ -1118,6 +1172,8 @@ export const territories = [
       [-96.4662361495507, 129.26850489333543],
       [-95.76834246584248, 128.65218297173692],
     ],
+    levelMin: 6,
+    levelMax: 50,
   },
   {
     id: "Frac_Nostrava",
@@ -1136,6 +1192,8 @@ export const territories = [
       [-100.04716119008813, 108.46146474884958],
       [-100.74177921131698, 109.3056426478981],
     ],
+    levelMin: 15,
+    levelMax: 75,
   },
   {
     id: "Frac_Taiga_W",
@@ -1189,6 +1247,8 @@ export const territories = [
       [-80.3339034974357, 108.58632332803685],
       [-79.62280070034343, 106.87694918479218],
     ],
+    levelMin: 8,
+    levelMax: 50,
   },
   {
     id: "Frac_Malnok",
@@ -1213,6 +1273,8 @@ export const territories = [
       [-90.74147389036884, 144.10962787631695],
       [-90.05939139636061, 143.42754538230872],
     ],
+    levelMin: 15,
+    levelMax: 75,
   },
   {
     id: "Frac_Tundra_N",
@@ -1295,6 +1357,8 @@ export const territories = [
       [-74.09549104590366, 133.31518289507707],
       [-74.22059312614776, 132.49138647125955],
     ],
+    levelMin: 1,
+    levelMax: 50,
   },
   {
     id: "Frac_KorDragan",
@@ -1316,6 +1380,8 @@ export const territories = [
       [-75.3656766372413, 116.40603819431064],
       [-76.6632200636852, 116.53856773924663],
     ],
+    levelMin: 30,
+    levelMax: 75,
   },
   {
     id: "Frac_Tundra_S",
@@ -1377,6 +1443,8 @@ export const territories = [
       [-68.31896734121462, 108.997942755804],
       [-69.19219052131433, 108.02489069399627],
     ],
+    levelMin: 7,
+    levelMax: 50,
   },
   {
     id: "Frac_Taiga_Central",
@@ -1444,6 +1512,8 @@ export const territories = [
       [-79.00741456531762, 148.6571105707105],
       [-79.7266009423373, 148.60916597697104],
     ],
+    levelMin: 12,
+    levelMax: 40,
   },
   {
     id: "Frac_WorldBoss",
@@ -1465,6 +1535,8 @@ export const territories = [
       [-100.13749175618814, 153.03621064639705],
       [-100.77506487764451, 153.4397781602935],
     ],
+    levelMin: 0,
+    levelMax: 0,
   },
   {
     id: "Frac_Glacier",
@@ -1510,6 +1582,8 @@ export const territories = [
       [-78.59665448881385, 144.90159377100815],
       [-77.41815305100936, 143.64366075975502],
     ],
+    levelMin: 12,
+    levelMax: 40,
   },
   {
     id: "Frac_GaleValley",
@@ -1537,6 +1611,8 @@ export const territories = [
       [-102.51238486191073, 149.8923259160998],
       [-101.41964820889878, 148.81104145629047],
     ],
+    levelMin: 7,
+    levelMax: 40,
   },
   {
     id: "Hawe_WorldEvent_03",
@@ -1616,6 +1692,8 @@ export const territories = [
       [-132.93547241995768, 113.36873977303209],
       [-133.3044780708442, 111.26259539875575],
     ],
+    levelMin: 0,
+    levelMax: 0,
   },
   {
     id: "Hawe_ZakFort",
@@ -1639,6 +1717,8 @@ export const territories = [
       [-132.3555074992052, 114.49056552090646],
       [-133.59694795457239, 114.04688694054316],
     ],
+    levelMin: 35,
+    levelMax: 50,
   },
   {
     id: "Hawe_KeironsPyre",
@@ -1658,6 +1738,8 @@ export const territories = [
       [-117.61463706793197, 131.83682737669722],
       [-116.82070569385813, 132.29234687840767],
     ],
+    levelMin: 35,
+    levelMax: 75,
   },
   {
     id: "Hawe_Verge",
@@ -1711,6 +1793,8 @@ export const territories = [
       [-111.66295147856549, 105.1301817962936],
       [-110.96423775318152, 102.23562140147762],
     ],
+    levelMin: 36,
+    levelMax: 50,
   },
   {
     id: "Hawe_Marsh",
@@ -1750,6 +1834,8 @@ export const territories = [
       [-146.55326574814964, 120.85912928732152],
       [-147.04678451792358, 120.90904372817553],
     ],
+    levelMin: 35,
+    levelMax: 50,
   },
   {
     id: "Hawe_SnakeCultist",
@@ -1773,6 +1859,8 @@ export const territories = [
       [-151.44220025635167, 115.69983653844547],
       [-152.397001750159, 115.45413196082716],
     ],
+    levelMin: 40,
+    levelMax: 75,
   },
   {
     id: "Hawe_Fens",
@@ -1821,6 +1909,8 @@ export const territories = [
       [-156.46255763540395, 110.0793003751237],
       [-158.94958461570263, 107.94163080348352],
     ],
+    levelMin: 0,
+    levelMax: 0,
   },
   {
     id: "Hawe_Delta",
@@ -1860,6 +1950,8 @@ export const territories = [
       [-119.12407063711609, 149.7966856893427],
       [-122.15499926729557, 148.5768938974418],
     ],
+    levelMin: 38,
+    levelMax: 50,
   },
   {
     id: "Hawe_Camp_03",
@@ -1882,6 +1974,8 @@ export const territories = [
       [-123.8142826225083, 95.48713320023921],
       [-120.83205174684836, 92.8311500634304],
     ],
+    levelMin: 35,
+    levelMax: 75,
   },
   {
     id: "Hawe_Crossway",
@@ -1928,6 +2022,8 @@ export const territories = [
       [-125.94157337107538, 97.57914577775469],
       [-127.67313231688462, 97.04773474935027],
     ],
+    levelMin: 0,
+    levelMax: 0,
   },
   {
     id: "Hawe_WorldEvent_02",
@@ -1980,6 +2076,8 @@ export const territories = [
       [-139.8426736273072, 140.18769721308922],
       [-138.90694601897493, 137.45113624617514],
     ],
+    levelMin: 0,
+    levelMax: 50,
   },
   {
     id: "Hawe_Bog",
@@ -2012,6 +2110,8 @@ export const territories = [
       [-120.28017652928891, 131.12325353524784],
       [-122.85858628961539, 129.1604100788906],
     ],
+    levelMin: 37,
+    levelMax: 50,
   },
   {
     id: "Kehj_AltarOfRuin",
@@ -2034,6 +2134,8 @@ export const territories = [
       [-107.7868467860927, 43.853073414682804],
       [-108.88479141350203, 43.819811497897845],
     ],
+    levelMin: 45,
+    levelMax: 75,
   },
   {
     id: "Kehj_HighDesert",
@@ -2111,6 +2213,8 @@ export const territories = [
       [-98.30456757895347, 37.69793313790964],
       [-97.922037519032, 36.2507198213973],
     ],
+    levelMin: 0,
+    levelMax: 50,
   },
   {
     id: "Kehj_Oasis",
@@ -2158,6 +2262,8 @@ export const territories = [
       [-117.93870094080242, 34.47479263537518],
       [-118.11338182899763, 33.37683435880348],
     ],
+    levelMin: 0,
+    levelMax: 50,
   },
   {
     id: "Kehj_WorldEvent_03",
@@ -2216,6 +2322,8 @@ export const territories = [
       [-133.2642239611556, 43.57859503785302],
       [-134.96937778339267, 44.8179586366726],
     ],
+    levelMin: 0,
+    levelMax: 50,
   },
   {
     id: "Kehj_CMP_Omaths",
@@ -2235,6 +2343,8 @@ export const territories = [
       [-150.365244218916, 48.69809884049439],
       [-149.97632171028587, 49.39640090714101],
     ],
+    levelMin: 45,
+    levelMax: 75,
   },
   {
     id: "Kehj_LowDesert",
@@ -2298,6 +2408,8 @@ export const territories = [
       [-139.11164632894034, 26.452240842783983],
       [-139.75440613210077, 25.69333867903998],
     ],
+    levelMin: 0,
+    levelMax: 50,
   },
   {
     id: "Kehj_PvP",
@@ -2337,6 +2449,8 @@ export const territories = [
       [-148.59694554974757, 52.090701337496775],
       [-150.67517431589704, 54.00255227390949],
     ],
+    levelMin: 0,
+    levelMax: 50,
   },
   {
     id: "Kehj_Alcarnus",
@@ -2362,6 +2476,8 @@ export const territories = [
       [-121.78152324274666, 61.8985127943952],
       [-122.91687203473977, 62.90913117283579],
     ],
+    levelMin: 40,
+    levelMax: 75,
   },
   {
     id: "Kehj_WorldEvent_01",
@@ -2461,6 +2577,8 @@ export const territories = [
       [-140.85004745056253, 65.67062546134659],
       [-141.75668010768862, 68.22419007366528],
     ],
+    levelMin: 0,
+    levelMax: 50,
   },
 ] as const;
 
