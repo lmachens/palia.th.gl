@@ -23,23 +23,23 @@ const Territories = dynamic(() => import("./territories"), {
 
 const DISCOVER_LINKS = [
   {
-    href: "https://www.d4ut.net/?ref=diablo4thgl",
+    href: "https://www.d4ut.net/?ref=diablo4.th.gl",
     text: "Diablo 4 Build Calculator",
   },
   {
-    href: "https://d4.money/?ref=diablo4thgl",
+    href: "https://d4.money/?ref=diablo4.th.gl",
     text: "Sell and Buy Items",
   },
   {
-    href: "https://lilith.mom/?ref=diablo4thgl",
+    href: "https://lilith.mom/?ref=diablo4.th.gl",
     text: "Lilith Discord Bot",
   },
   {
-    href: "https://www.th.gl/?ref=diablo4thgl",
+    href: "https://www.th.gl/?ref=diablo4.th.gl",
     text: "Gaming Apps & Tools",
   },
   {
-    href: "https://www.studioloot.com/diablo4?ref=diablo4thgl",
+    href: "https://www.studioloot.com/diablo4?ref=diablo4.th.gl",
     text: "Diablo 4 News & Guides",
   },
 ];
