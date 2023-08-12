@@ -4,7 +4,7 @@
   "meta": {
     "name": "Diablo 4 Map-DEV",
     "author": "Leon Machens",
-    "version": "1.9.0",
+    "version": "1.10.0",
     "minimum-overwolf-version": "0.218.0",
     "description": "Diablo 4 Map",
     "dock_button_title": "Diablo 4 Map",
@@ -78,14 +78,20 @@
     },
     "game_targeting": {
       "type": "dedicated",
-      "game_ids": [22700]
+      "game_ids": [
+        22700
+      ]
     },
-    "game_events": [22700],
+    "game_events": [
+      22700
+    ],
     "launch_events": [
       {
         "event": "GameLaunch",
         "event_data": {
-          "game_ids": [22700]
+          "game_ids": [
+            22700
+          ]
         },
         "start_minimized": false
       }
