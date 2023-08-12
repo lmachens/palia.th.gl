@@ -10,7 +10,7 @@ export default function Territories() {
   const localeTerritories = territories
     .map((territory) => ({
       ...territory,
-      name: dict.territories[territory.id],
+      name: dict.generated.territories[territory.id].name,
     }))
     .sort((a, b) => a.name.localeCompare(b.name));
 

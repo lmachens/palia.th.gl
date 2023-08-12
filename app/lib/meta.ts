@@ -12,23 +12,37 @@ export function generateMetadata({
   const dict = loadDictionary(lang);
   const title = name ? decodeURIComponent(name) : "Sanctuary";
 
-  const node = nodes.find((node) =>
-    "name" in node ? node.name : node.type === title,
-  );
+  const node = nodes.find((node) => {
+    const name =
+      (dict.generated as any)[node.type]?.[
+        "termId" in node ? node.termId : node.id
+      ]?.name ?? "";
+    return (name || node.type) === title;
+  });
   const type = node?.type;
 
   let description = dict.meta.description;
   if (node) {
     const territory = getTerritoryByPoint([node.x, node.y]);
-    description = "name" in node ? node.name : "";
+    const name =
+      (dict.generated as any)[node.type]?.[
+        "termId" in node ? node.termId : node.id
+      ]?.name ?? "";
+
+    description = name;
     if (type) {
       description += ` (${dict.nodes[type]})`;
     }
     if (territory) {
-      description += ` in ${dict.territories[territory.id]}`;
+      description += ` in ${dict.generated.territories[territory.id].name}`;
     }
     if ("description" in node) {
-      description += `. ${node.description?.replace(/<\/?[^>]+(>|$)/g, "")}`;
+      const nodeDescription =
+        (dict.generated as any)[node.type]?.[
+          "termId" in node ? node.termId : node.id
+        ]?.description ?? "";
+
+      description += `. ${nodeDescription?.replace(/<\/?[^>]+(>|$)/g, "")}`;
     }
   }
 

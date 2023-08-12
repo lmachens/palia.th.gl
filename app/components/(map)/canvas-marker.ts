@@ -92,7 +92,6 @@ export type CanvasMarkerOptions = {
   id: string;
   type: string;
   attribute?: string;
-  aspect?: string;
   isHighlighted?: boolean;
   isDiscovered?: boolean;
   isAlternativeDiscoveredStyle?: boolean;

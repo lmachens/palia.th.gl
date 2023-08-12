@@ -4,15 +4,15 @@ import { altars } from "./altars";
 import { campaignDungeons } from "./campaignDungeons";
 import { campaignQuests } from "./campaignQuests";
 import { cellars } from "./cellars";
-import { chestsAny } from "./chests_any";
-import { chestsT1 } from "./chests_t1";
-import { chestsT2 } from "./chests_t2";
-import { chestsT3 } from "./chests_t3";
+import { chestAny } from "./chestAny";
+import { chestT1 } from "./chestT1";
+import { chestT2 } from "./chestT2";
+import { chestT3 } from "./chestT3";
 import { dungeons } from "./dungeons";
 import { events } from "./events";
-import { harbingers } from "./harbingers";
+import { harbinger } from "./harbinger";
 import { healers } from "./healers";
-import { highValueTargets } from "./high_value_targets";
+import { highValueTarget } from "./highValueTarget";
 import { jewelers } from "./jewelers";
 import { banditMonsters } from "./monsters_bandit";
 import { cannibalMonsters } from "./monsters_cannibal";
@@ -38,12 +38,12 @@ import { strongholds } from "./strongholds";
 import { waypoints } from "./waypoints";
 
 export const spawnNodes = {
-  chestsAny,
-  chestsT1,
-  chestsT2,
-  chestsT3,
-  harbingers,
-  highValueTargets,
+  chestsAny: chestAny,
+  chestsT1: chestT1,
+  chestsT2: chestT2,
+  chestsT3: chestT3,
+  harbingers: harbinger,
+  highValueTargets: highValueTarget,
   banditMonsters,
   cannibalMonsters,
   cultistMonsters,
@@ -86,23 +86,17 @@ export type SIMPLE_NODE = (typeof spawnNodes &
   typeof staticNodes)[NODE_TYPE][number];
 export type NODE = SIMPLE_NODE & { id: string; type: NODE_TYPE };
 
-export function getID(node: SIMPLE_NODE, type: NODE_TYPE) {
-  return `${type}:${"name" in node ? node.name : type}${node.x},${node.y}`;
-}
-
 export const nodes: NODE[] = [];
 Object.keys(staticNodes).forEach((_type) => {
   const type = _type as keyof typeof staticNodes;
   staticNodes[type].forEach((node) => {
-    const id = getID(node, type);
-    nodes.push({ ...node, id, type });
+    nodes.push({ ...node, type });
   });
 });
 Object.keys(spawnNodes).forEach((_type) => {
   const type = _type as keyof typeof spawnNodes;
   spawnNodes[type].forEach((node) => {
-    const id = getID(node, type);
-    nodes.push({ ...node, id, type });
+    nodes.push({ ...node, type });
   });
 });
 

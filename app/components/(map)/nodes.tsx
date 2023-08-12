@@ -73,16 +73,19 @@ export default function Nodes() {
     if (location.pathname.startsWith("/embed")) {
       return;
     }
+    const name =
+      dict.generated[node.type]?.["termId" in node ? node.termId : node.id]
+        ?.name ?? "";
     if ("update" in router) {
       router.update({
-        name: encodeURIComponent("name" in node ? node.name : node.type),
+        name: encodeURIComponent(name || node.type),
         coordinates: `@${node.x},${node.y}`,
       });
     } else {
       router.push(
-        `${params.lang ?? ""}/nodes/${encodeURIComponent(
-          "name" in node ? node.name : node.type
-        )}/@${node.x},${node.y}${location.search}`
+        `${params.lang ?? ""}/nodes/${encodeURIComponent(name || node.type)}/@${
+          node.x
+        },${node.y}${location.search}`
       );
     }
   }, []);
@@ -92,10 +95,14 @@ export default function Nodes() {
       {nodes.map((node) => {
         let isHighlighted = false;
         if (selectedName && coordinates) {
+          const name =
+            dict.generated[node.type]?.[
+              "termId" in node ? node.termId : node.id
+            ]?.name ?? "";
           if (
             node.x === coordinates[0] &&
             node.y === coordinates[1] &&
-            ("name" in node ? node.name : node.type) === selectedName
+            (name || node.type) === selectedName
           ) {
             isHighlighted = true;
           } else if (isScreenshot) {
@@ -107,12 +114,20 @@ export default function Nodes() {
         if (!filters.includes(node.type) && !isHighlighted) {
           isTrivial = true;
         } else if (search && !isHighlighted) {
+          const name =
+            dict.generated[node.type]?.[
+              "termId" in node ? node.termId : node.id
+            ]?.name ?? "";
+
           isTrivial = !(
-            ("name" in node && node.name.toLowerCase().includes(search)) ||
+            name.toLowerCase().includes(search) ||
             dict.nodes[node.type].toLowerCase().includes(search) ||
             ("attribute" in node &&
               node.attribute?.toLowerCase().includes(search)) ||
-            ("aspect" in node && node.aspect.toLowerCase().includes(search)) ||
+            ("aspectId" in node &&
+              dict.generated.aspects[node.aspectId]?.name
+                .toLowerCase()
+                .includes(search)) ||
             ("className" in node &&
               node.className.toLowerCase().includes(search))
           );

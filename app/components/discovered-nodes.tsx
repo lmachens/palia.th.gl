@@ -117,8 +117,16 @@ export default function DiscoveredNodes() {
               {dict.nodes[key as keyof typeof ICONS]}
             </span>
             <span>
-              {discoveredNodes.filter((node) => node.startsWith(key)).length}/
-              {staticNodes[key].length}
+              {
+                discoveredNodes.filter(
+                  (node) =>
+                    staticNodes[key].some(
+                      (staticNode) =>
+                        "id" in staticNode && staticNode.id === node
+                    ) || node.startsWith(key)
+                ).length
+              }
+              /{staticNodes[key].length}
             </span>
           </button>
         );

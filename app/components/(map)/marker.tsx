@@ -36,12 +36,7 @@ const Marker = memo(function Marker({
   useEffect(() => {
     const icon = ICONS[type];
     const attribute = "attribute" in node ? node.attribute : undefined;
-    const aspect = "aspect" in node ? node.aspect : undefined;
     const latLng = [node.x, node.y] as [number, number];
-    if ("offset" in node && node.offset) {
-      latLng[0] += 0.05;
-      latLng[1] += 0.05;
-    }
     marker.current = new CanvasMarker(latLng, {
       id,
       type,
@@ -51,7 +46,6 @@ const Marker = memo(function Marker({
       isHighlighted,
       isDiscovered,
       isAlternativeDiscoveredStyle,
-      aspect,
       pmIgnore: true,
       snapIgnore: false,
     });
@@ -73,17 +67,22 @@ const Marker = memo(function Marker({
       const attributeColor =
         "attribute" in icon && attribute && icon.attribute(attribute);
       let tooltipContent = "";
-      if ("name" in node) {
-        tooltipContent += `<p class="font-bold text-base">${node.name}</p>`;
-      }
+      tooltipContent += `<p class="font-bold text-base">${
+        dict.generated[type]?.["termId" in node ? node.termId : node.id]
+          ?.name ?? ""
+      }</p>`;
       tooltipContent += `<p class="text-gray-300 text-sm">${dict.nodes[type]}</p>`;
       if (territory) {
         tooltipContent += `<p class="text-amber-50 text-sm">${
-          dict.territories[territory.id]
+          dict.generated.territories[territory.id].name
         }</p>`;
       }
-      if ("aspect" in node) {
-        tooltipContent += `<p class="border-t border-t-gray-700 mt-2 pt-2 text-base font-bold">${node.aspect}</p><p class="text-orange-500 text-lg">${node.className}</p>`;
+      if ("aspectId" in node) {
+        tooltipContent += `<p class="border-t border-t-gray-700 mt-2 pt-2 text-base font-bold">${
+          dict.generated.generic.aspect.name
+        } ${
+          dict.generated.aspects[node.aspectId].name
+        }</p><p class="text-orange-500 text-lg">${node.className}</p>`;
       }
 
       if ("description" in node) {
@@ -92,6 +91,12 @@ const Marker = memo(function Marker({
             ? `<div class="inline-block w-2 h-2 rounded-full mr-1" style="background: ${attributeColor}"></div>`
             : ""
         }${node.description}</p>`;
+      } else if ("id" in node) {
+        tooltipContent += `<p class="border-t border-t-gray-700 mt-2 pt-2 max-w-md whitespace-normal">${
+          attributeColor
+            ? `<div class="inline-block w-2 h-2 rounded-full mr-1" style="background: ${attributeColor}"></div>`
+            : ""
+        }${dict.generated[type]?.[node.id]?.description ?? ""}</p>`;
       }
       const div = document.createElement("div");
       div.innerHTML = tooltipContent;

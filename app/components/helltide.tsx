@@ -1,7 +1,7 @@
 "use client";
 
 import { RECENT_EVENTS } from "../lib/events";
-import { chestsT3 } from "../lib/nodes/chests_t3";
+import { chestT3 } from "../lib/nodes/chestT3";
 import { useGlobalSettingsStore } from "../lib/storage/global-settings";
 import { useDict } from "./(i18n)/i18n-provider";
 import { useMap } from "./(map)/map";
@@ -55,7 +55,7 @@ export default function Helltide({
     if (!recentEvents) {
       return;
     }
-    const chestBounds = chestsT3
+    const chestBounds = chestT3
       .filter(
         (chest) => chest.zone.toLowerCase() === recentEvents.helltide.zone
       )

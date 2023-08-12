@@ -35,7 +35,7 @@ export default function Territories() {
         icon: leaflet.divIcon({
           className: "text-white text-shadow !w-auto text-sm",
           html: `<div class="-translate-x-1/2 whitespace-nowrap">${
-            dict.territories[territory.id]
+            dict.generated.territories[territory.id].name
           }${
             "levelMin" in territory &&
             "levelMax" in territory &&

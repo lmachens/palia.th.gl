@@ -13,7 +13,7 @@ export const ICONS = {
           return "#FFC107";
         case "Strength":
           return "#FF5722";
-        case "Max Obols":
+        case "Obol_Cap":
           return "#9C27B0";
         case "Intelligence":
           return "#3F51B5";
