@@ -131,6 +131,7 @@ const Marker = memo(function Marker({
     isDiscovered,
     iconSize,
     isAlternativeDiscoveredStyle,
+    dict,
   ]);
 
   return <></>;
