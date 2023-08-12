@@ -33,7 +33,7 @@ export const useGlobalSettingsStore = create(
       let filters = ALL_FILTERS;
       if (typeof window !== "undefined" && typeof overwolf === "undefined") {
         const filtersString = new URLSearchParams(window.location.search).get(
-          "filters"
+          "filters",
         );
         if (filtersString) {
           filters = filtersString.split(",");
@@ -89,6 +89,6 @@ export const useGlobalSettingsStore = create(
         }
         return { ...currentState, ...persistentState };
       },
-    }
-  )
+    },
+  ),
 );

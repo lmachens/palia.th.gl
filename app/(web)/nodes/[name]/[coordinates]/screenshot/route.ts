@@ -13,7 +13,7 @@ const contentType = "image/jpeg";
 async function _GET(request: NextRequest) {
   const url = `https://diablo4.th.gl/embed/${request.nextUrl.pathname.replace(
     "/screenshot",
-    ""
+    "",
   )}?screenshot=true`;
   const screenshot = await takeScreenshot(url, size);
   const response = new NextResponse(screenshot, {

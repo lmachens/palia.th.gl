@@ -7,7 +7,7 @@ const declaredWindows: {
   [windowName: string]: overwolf.windows.WindowInfo;
 } = {};
 export async function obtainDeclaredWindow(
-  windowName: string
+  windowName: string,
 ): Promise<overwolf.windows.WindowInfo> {
   return new Promise((resolve, reject) => {
     overwolf.windows.obtainDeclaredWindow(windowName, (result) => {
@@ -42,7 +42,7 @@ export async function restoreWindow(windowName: string): Promise<string> {
     overwolf.windows.restore(windowName, async (result) => {
       if (result.success) {
         await new Promise((resolve) =>
-          overwolf.windows.bringToFront(windowName, resolve)
+          overwolf.windows.bringToFront(windowName, resolve),
         );
         console.log(`Window ${windowName} restored`);
 
@@ -106,13 +106,13 @@ export async function togglePreferedWindow(): Promise<void> {
 
 export async function getCurrentWindow(): Promise<overwolf.windows.WindowInfo> {
   return new Promise<overwolf.windows.WindowInfo>((resolve) =>
-    overwolf.windows.getCurrentWindow((result) => resolve(result.window))
+    overwolf.windows.getCurrentWindow((result) => resolve(result.window)),
   );
 }
 
 export async function moveToOtherScreen(
   windowId: string,
-  monitorHandleValue: number
+  monitorHandleValue: number,
 ) {
   const monitors = await getMonitorsList();
   const hasSecondScreen = monitors.length > 1;
@@ -121,11 +121,11 @@ export async function moveToOtherScreen(
   }
   const desktopWindow = await obtainDeclaredWindow(WINDOWS.DESKTOP);
   const otherScreens = monitors.filter(
-    (monitor) => monitor.handle.value !== monitorHandleValue
+    (monitor) => monitor.handle.value !== monitorHandleValue,
   );
   const secondScreen =
     otherScreens.find(
-      (secondScreen) => desktopWindow.monitorId === secondScreen.id
+      (secondScreen) => desktopWindow.monitorId === secondScreen.id,
     ) || otherScreens[0];
 
   if (desktopWindow.monitorId === secondScreen.id) {
@@ -139,7 +139,7 @@ export async function moveToOtherScreen(
     secondScreen.y +
     Math.floor(secondScreen.height / 2 - desktopWindow.height / 2);
   return new Promise((resolve) =>
-    overwolf.windows.changePosition(windowId, x, y, resolve)
+    overwolf.windows.changePosition(windowId, x, y, resolve),
   );
 }
 
@@ -178,7 +178,7 @@ export async function setInputPassThrough(inputPassThrough: boolean) {
         "InputPassThrough" as overwolf.windows.enums.WindowStyle.InputPassThrough,
         () => {
           resolve();
-        }
+        },
       );
     } else {
       overwolf.windows.removeWindowStyle(
@@ -186,7 +186,7 @@ export async function setInputPassThrough(inputPassThrough: boolean) {
         "InputPassThrough" as overwolf.windows.enums.WindowStyle.InputPassThrough,
         () => {
           resolve();
-        }
+        },
       );
     }
   });

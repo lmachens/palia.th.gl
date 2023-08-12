@@ -18,7 +18,7 @@ export default function useFilters() {
         : [...globalSettingsStore.filters, key];
       setFilters(newFilters);
     },
-    [globalSettingsStore.filters]
+    [globalSettingsStore.filters],
   );
   return [globalSettingsStore.filters, toggleFilter, setFilters] as const;
 }

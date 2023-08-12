@@ -2584,7 +2584,7 @@ export const territories = [
 
 export const isPointInsidePolygon = (
   point: readonly [number, number],
-  polygon: readonly (readonly [number, number])[]
+  polygon: readonly (readonly [number, number])[],
 ) => {
   const x = point[0];
   const y = point[1];
@@ -2606,6 +2606,6 @@ export const isPointInsidePolygon = (
 
 export const getTerritoryByPoint = (point: [number, number]) => {
   return territories.find((territory) =>
-    isPointInsidePolygon(point, territory.points)
+    isPointInsidePolygon(point, territory.points),
   );
 };

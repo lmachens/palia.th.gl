@@ -13,7 +13,7 @@ export function generateMetadata({
   const title = name ? decodeURIComponent(name) : "Sanctuary";
 
   const node = nodes.find((node) =>
-    "name" in node ? node.name : node.type === title
+    "name" in node ? node.name : node.type === title,
   );
   const type = node?.type;
 
@@ -36,13 +36,16 @@ export function generateMetadata({
   if (name) {
     canonical += `/nodes/${name}`;
   }
-  const alternativeLanguages = LOCALES.reduce((acc, locale) => {
-    acc[locale] = API_BASE_URI + `/${locale}`;
-    if (name) {
-      acc[locale] += `/nodes/${name}`;
-    }
-    return acc;
-  }, {} as Record<string, string>);
+  const alternativeLanguages = LOCALES.reduce(
+    (acc, locale) => {
+      acc[locale] = API_BASE_URI + `/${locale}`;
+      if (name) {
+        acc[locale] += `/nodes/${name}`;
+      }
+      return acc;
+    },
+    {} as Record<string, string>,
+  );
 
   return {
     title: `${title} | ${dict.meta.subtitle} | diablo4.th.gl`,

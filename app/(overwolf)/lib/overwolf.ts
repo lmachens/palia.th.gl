@@ -11,7 +11,7 @@ export function waitForOverwolf(): Promise<void> {
           get() {
             return overwolf;
           },
-        }
+        },
       );
       return resolve();
     }
@@ -20,7 +20,7 @@ export function waitForOverwolf(): Promise<void> {
     }
     if (!isOverwolfLoading()) {
       overwolf.extensions.current.getManifest((manifest) =>
-        console.log(`v${manifest.meta.version}`)
+        console.log(`v${manifest.meta.version}`),
       );
       resolve();
     } else {

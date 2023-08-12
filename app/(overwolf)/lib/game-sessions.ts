@@ -19,7 +19,7 @@ export function startNewGameSession() {
       JSON.stringify(newSession),
       "UTF8" as overwolf.io.enums.eEncoding.UTF8,
       true,
-      () => resolve(newSession)
+      () => resolve(newSession),
     );
 
     return newSession;
@@ -39,7 +39,7 @@ export function getGameSessionNames(): Promise<string[]> {
         } else {
           resolve([]);
         }
-      }
+      },
     );
   });
 }
@@ -60,7 +60,7 @@ export async function getGameSession(name: string): Promise<GameSession> {
         } else {
           reject();
         }
-      }
+      },
     );
   });
 }
@@ -73,7 +73,7 @@ export async function getLatestGameSession(): Promise<GameSession> {
   }
   const sortedGameSessionNames = gameSessionNames.sort();
   return getGameSession(
-    sortedGameSessionNames[sortedGameSessionNames.length - 1]
+    sortedGameSessionNames[sortedGameSessionNames.length - 1],
   );
 }
 
@@ -84,7 +84,7 @@ export async function setGameSession(gameSession: GameSession): Promise<void> {
       JSON.stringify(gameSession),
       "UTF8" as overwolf.io.enums.eEncoding.UTF8,
       true,
-      () => resolve()
+      () => resolve(),
     );
   });
 }

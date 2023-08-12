@@ -60,7 +60,7 @@ function isSupporter(currentUser: any) {
 
 function toCookieString(token: PatreonToken) {
   return `patreon_token=${JSON.stringify(
-    token
+    token,
   )}; path=/; Max-Age=2592000; HttpOnly; SameSite=Lax;`;
 }
 
@@ -79,12 +79,12 @@ export async function POST(request: NextRequest) {
   if (!requestBody.code || !requestBody.redirectURI) {
     return NextResponse.json(
       { error: "No code provided" },
-      { status: 400, headers: CORS_HEADERS }
+      { status: 400, headers: CORS_HEADERS },
     );
   }
   const tokenResponse = await postToken(
     requestBody.code,
-    requestBody.redirectURI
+    requestBody.redirectURI,
   );
   const tokenResult = await tokenResponse.json();
   if (!tokenResponse.ok) {
@@ -115,7 +115,7 @@ export async function POST(request: NextRequest) {
           ...CORS_HEADERS,
           "Set-Cookie": toCookieStringEmpty(),
         },
-      }
+      },
     );
   }
 
@@ -127,7 +127,7 @@ export async function POST(request: NextRequest) {
         ...CORS_HEADERS,
         "Set-Cookie": toCookieString(token),
       },
-    }
+    },
   );
 }
 
@@ -142,7 +142,7 @@ export async function GET(request: NextRequest) {
           ...CORS_HEADERS,
           "Set-Cookie": toCookieStringEmpty(),
         },
-      }
+      },
     );
   }
   try {
@@ -179,7 +179,7 @@ export async function GET(request: NextRequest) {
             ...CORS_HEADERS,
             "Set-Cookie": toCookieStringEmpty(),
           },
-        }
+        },
       );
     }
 
@@ -191,7 +191,7 @@ export async function GET(request: NextRequest) {
           ...CORS_HEADERS,
           "Set-Cookie": toCookieString(token),
         },
-      }
+      },
     );
   } catch (error) {
     return NextResponse.json(
@@ -202,7 +202,7 @@ export async function GET(request: NextRequest) {
           ...CORS_HEADERS,
           "Set-Cookie": toCookieStringEmpty(),
         },
-      }
+      },
     );
   }
 }

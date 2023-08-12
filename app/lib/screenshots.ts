@@ -1,6 +1,6 @@
 export async function takeScreenshot(
   url: string,
-  size: { width: number; height: number }
+  size: { width: number; height: number },
 ) {
   const response = await fetch(
     `https://chrome.browserless.io/screenshot?token=${process.env.BROWSERLESS_API_KEY}`,
@@ -24,7 +24,7 @@ export async function takeScreenshot(
           ...size,
         },
       }),
-    }
+    },
   );
   const result = await response.arrayBuffer();
   return result;

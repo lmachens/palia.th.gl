@@ -36,18 +36,18 @@ function filterDiscoveredNodes(discoveredNodes: string[]) {
                 type as keyof typeof staticNodes
               ] as (typeof staticNodes)[keyof typeof staticNodes]
             ).find(
-              (node) => ("name" in node && (node.name as string)) === name
+              (node) => ("name" in node && (node.name as string)) === name,
             );
             if (!node) {
               if (type === "dungeons") {
                 node = staticNodes.campaignDungeons.find(
-                  (node) => node.name === name
+                  (node) => node.name === name,
                 );
                 if (node) {
                   return getID(node, "campaignDungeons");
                 }
                 node = staticNodes.sideQuestDungeons.find(
-                  (node) => node.name === name
+                  (node) => node.name === name,
                 );
                 if (node) {
                   return getID(node, "sideQuestDungeons");
@@ -60,7 +60,7 @@ function filterDiscoveredNodes(discoveredNodes: string[]) {
             }
             return getID(node, type as NODE_TYPE);
           })
-          .filter(Boolean) as string[]
+          .filter(Boolean) as string[],
       ),
     ];
   } catch (error) {
@@ -97,13 +97,13 @@ export const useDiscoveredNodesStore = create(
       merge: (persistentState: any, currentState) => {
         if (persistentState?.discoveredNodes) {
           persistentState.discoveredNodes = filterDiscoveredNodes(
-            persistentState.discoveredNodes
+            persistentState.discoveredNodes,
           );
         }
         return { ...currentState, ...persistentState };
       },
-    }
-  )
+    },
+  ),
 );
 
 withStorageDOMEvents(useDiscoveredNodesStore);

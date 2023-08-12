@@ -70,8 +70,8 @@ export const useSettingsStore = create(
     },
     {
       name: "settings-storage",
-    }
-  )
+    },
+  ),
 );
 
 withStorageDOMEvents(useSettingsStore);

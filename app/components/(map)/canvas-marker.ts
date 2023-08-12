@@ -106,7 +106,7 @@ class CanvasMarker extends leaflet.CircleMarker {
 
   constructor(
     latLng: leaflet.LatLngExpression,
-    options: leaflet.CircleMarkerOptions & CanvasMarkerOptions
+    options: leaflet.CircleMarkerOptions & CanvasMarkerOptions,
   ) {
     options.renderer = renderer;
     super(latLng, options);

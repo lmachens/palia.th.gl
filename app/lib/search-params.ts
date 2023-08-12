@@ -34,7 +34,7 @@ export function useUpdateSearchParams() {
         router.push(url);
       }
     },
-    [searchParams, pathname]
+    [searchParams, pathname],
   );
 
   return updateSearchParams;

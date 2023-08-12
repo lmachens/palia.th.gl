@@ -9,10 +9,13 @@ async function _GET(request: NextRequest) {
     return NextResponse.json(staticNodes);
   }
   const result = {
-    ...Object.keys(staticNodes).reduce((acc, key) => {
-      acc[key as NODE_TYPE] = [];
-      return acc;
-    }, {} as Record<NODE_TYPE, SIMPLE_NODE[]>),
+    ...Object.keys(staticNodes).reduce(
+      (acc, key) => {
+        acc[key as NODE_TYPE] = [];
+        return acc;
+      },
+      {} as Record<NODE_TYPE, SIMPLE_NODE[]>,
+    ),
   };
 
   Object.entries(staticNodes).forEach(([key, items]) => {

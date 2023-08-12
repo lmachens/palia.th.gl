@@ -79,6 +79,6 @@ export const useRoutesStore = create(
     }),
     {
       name: "routes-storage",
-    }
-  )
+    },
+  ),
 );
