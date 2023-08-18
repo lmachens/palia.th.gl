@@ -36,12 +36,6 @@ export default function Territories() {
           className: "text-white text-shadow !w-auto text-sm",
           html: `<div class="-translate-x-1/2 whitespace-nowrap">${
             dict.generated.territories[territory.id].name
-          }${
-            "levelMin" in territory &&
-            "levelMax" in territory &&
-            territory.levelMin !== territory.levelMax
-              ? `<p class="text-center">${territory.levelMin}-${territory.levelMax}</p>`
-              : ""
           }</div>`,
         }),
         pane: "overlayPane",

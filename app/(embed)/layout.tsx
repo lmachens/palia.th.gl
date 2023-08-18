@@ -47,7 +47,7 @@ function Layout({
             <Nodes />
           </Map>
           <a
-            href="https://diablo4.th.gl"
+            href="https://palia.th.gl"
             target="_blank"
             className="absolute top-3 left-3 z-[400] bg-neutral-900 font-semibold text-gray-200 text-sm py-2 px-4 border border-gray-600 rounded-2xl outline-none hover:bg-neutral-800 flex gap-1.5 items-center"
           >
@@ -63,7 +63,7 @@ function Layout({
               <path d="M9 4l0 13"></path>
               <path d="M15 7l0 13"></path>
             </svg>
-            diablo4.th.gl
+            palia.th.gl
           </a>
         </I18NProvider>
 

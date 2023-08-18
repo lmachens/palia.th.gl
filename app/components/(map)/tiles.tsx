@@ -8,10 +8,10 @@ import { useMap } from "./map";
 
 export const BOUNDS: LatLngBoundsExpression = [
   [0, 0],
-  [-190, 190],
+  [-1, 1],
 ];
-export const MIN_NATIVE_ZOOM = 0;
-export const MAX_NATIVE_ZOOM = 6;
+export const MIN_NATIVE_ZOOM = 9;
+export const MAX_NATIVE_ZOOM = 11;
 export const TILE_SIZE = 512;
 
 export default function Tiles() {
@@ -23,17 +23,20 @@ export default function Tiles() {
     if (isOverlay && mapFilter === "full") {
       return;
     }
-    const canvasLayer = createCanvasLayer("/map_tiles/{z}/{y}/{x}.webp", {
-      minNativeZoom: MIN_NATIVE_ZOOM,
-      maxNativeZoom: MAX_NATIVE_ZOOM,
-      minZoom: map.getMinZoom(),
-      maxZoom: map.getMaxZoom(),
-      bounds: BOUNDS,
-      tileSize: TILE_SIZE,
-      updateInterval: 100,
-      keepBuffer: 8,
-      filter: isOverlay ? mapFilter : "none",
-    }).addTo(map);
+    const canvasLayer = createCanvasLayer(
+      "/maps/kilima-valley/{z}/{x}_{y}.webp",
+      {
+        minNativeZoom: MIN_NATIVE_ZOOM,
+        maxNativeZoom: MAX_NATIVE_ZOOM,
+        minZoom: map.getMinZoom(),
+        maxZoom: map.getMaxZoom(),
+        bounds: BOUNDS,
+        tileSize: TILE_SIZE,
+        updateInterval: 100,
+        keepBuffer: 8,
+        filter: isOverlay ? mapFilter : "none",
+      }
+    ).addTo(map);
 
     return () => {
       canvasLayer.remove();

@@ -15,11 +15,11 @@ export function startNewGameSession() {
       traceLine: [],
     };
     overwolf.io.writeFileContents(
-      `${overwolf.io.paths.documents}\\Diablo 4 Map\\sessions\\${newSession.name}.json`,
+      `${overwolf.io.paths.documents}\\Palia Map\\sessions\\${newSession.name}.json`,
       JSON.stringify(newSession),
       "UTF8" as overwolf.io.enums.eEncoding.UTF8,
       true,
-      () => resolve(newSession),
+      () => resolve(newSession)
     );
 
     return newSession;
@@ -29,7 +29,7 @@ export function startNewGameSession() {
 export function getGameSessionNames(): Promise<string[]> {
   return new Promise((resolve) => {
     overwolf.io.dir(
-      `${overwolf.io.paths.documents}\\Diablo 4 Map\\sessions`,
+      `${overwolf.io.paths.documents}\\Palia Map\\sessions`,
       (result) => {
         if (result.data) {
           const gameSessions = result.data
@@ -39,7 +39,7 @@ export function getGameSessionNames(): Promise<string[]> {
         } else {
           resolve([]);
         }
-      },
+      }
     );
   });
 }
@@ -47,7 +47,7 @@ export function getGameSessionNames(): Promise<string[]> {
 export async function getGameSession(name: string): Promise<GameSession> {
   return new Promise((resolve, reject) => {
     overwolf.io.readFileContents(
-      `${overwolf.io.paths.documents}\\Diablo 4 Map\\sessions\\${name}`,
+      `${overwolf.io.paths.documents}\\Palia Map\\sessions\\${name}`,
       "UTF8" as overwolf.io.enums.eEncoding.UTF8,
       (result) => {
         if (result.content) {
@@ -60,7 +60,7 @@ export async function getGameSession(name: string): Promise<GameSession> {
         } else {
           reject();
         }
-      },
+      }
     );
   });
 }
@@ -73,18 +73,18 @@ export async function getLatestGameSession(): Promise<GameSession> {
   }
   const sortedGameSessionNames = gameSessionNames.sort();
   return getGameSession(
-    sortedGameSessionNames[sortedGameSessionNames.length - 1],
+    sortedGameSessionNames[sortedGameSessionNames.length - 1]
   );
 }
 
 export async function setGameSession(gameSession: GameSession): Promise<void> {
   return new Promise((resolve) => {
     overwolf.io.writeFileContents(
-      `${overwolf.io.paths.documents}\\Diablo 4 Map\\sessions\\${gameSession.name}.json`,
+      `${overwolf.io.paths.documents}\\Palia Map\\sessions\\${gameSession.name}.json`,
       JSON.stringify(gameSession),
       "UTF8" as overwolf.io.enums.eEncoding.UTF8,
       true,
-      () => resolve(),
+      () => resolve()
     );
   });
 }

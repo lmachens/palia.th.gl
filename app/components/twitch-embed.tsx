@@ -17,7 +17,7 @@ export default function TwitchEmbed({ onClose }: { onClose: () => void }) {
       layout: "video",
       autoplay: true,
       muted: true,
-      parent: ["diablo4.th.gl"],
+      parent: ["palia.th.gl"],
       quality: "160p30",
     });
 

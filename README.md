@@ -1,17 +1,17 @@
 <div align="center">
-  <a href="https://github.com/lmachens/diablo4.th.gl">
+  <a href="https://github.com/lmachens/palia.th.gl">
     <img src="assets/store/app-icon.png" alt="Logo" >
   </a>
 
-<h3 align="center">Diablo 4 Map</h3>
+<h3 align="center">Palia Map</h3>
 
   <p align="center">
-    Diablo 4 Interactive Map
+    Palia Interactive Map
     <br />
     <br />
     <a href="https://www.overwolf.com/app/Leon_Machens-Diablo_4_Map">Overwolf</a>
     ·
-    <a href="https://diablo4.th.gl/">Web-Version</a>
+    <a href="https://palia.th.gl/">Web-Version</a>
     ·
     <a href="https://discord.com/invite/NTZu8Px">Discord</a>
   </p>
@@ -31,16 +31,16 @@
 
 ## About The Project
 
-![Diablo 4 Map Screen Shot](assets/store/screenshot1.jpg)
-![Diablo 4 Map Screen Shot](assets/store/screenshot2.jpg)
-![Diablo 4 Map Screen Shot](assets/store/screenshot3.jpg)
-![Diablo 4 Map Screen Shot](assets/store/screenshot4.jpg)
+![Palia Map Screen Shot](assets/store/screenshot1.jpg)
+![Palia Map Screen Shot](assets/store/screenshot2.jpg)
+![Palia Map Screen Shot](assets/store/screenshot3.jpg)
+![Palia Map Screen Shot](assets/store/screenshot4.jpg)
 
 ## Installation
 
-Head over to the [Diablo 4 Map](https://www.overwolf.com/app/Leon_Machens-Diablo_4_Map) page on Overwolf and click the "Download" button.
+Head over to the [Palia Map](https://www.overwolf.com/app/Leon_Machens-Diablo_4_Map) page on Overwolf and click the "Download" button.
 
-You can also use the web-version of the app [here](https://diablo4.th.gl/).
+You can also use the web-version of the app [here](https://palia.th.gl/).
 
 Join the [Discord](https://discord.com/invite/NTZu8Px) to get the latest news and updates.
 

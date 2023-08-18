@@ -11,8 +11,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
         "termId" in node ? node.termId : node.id
       ]?.name ?? "";
     return {
-      url: `https://diablo4.th.gl/nodes/${encodeURIComponent(
-        name || node.type,
+      url: `https://palia.th.gl/nodes/${encodeURIComponent(
+        name || node.type
       )}/@${node.x},${node.y}`,
       lastModified: now,
     };
@@ -20,7 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     {
-      url: "https://diablo4.th.gl",
+      url: "https://palia.th.gl",
       lastModified: now,
     },
     ...nodesMap,

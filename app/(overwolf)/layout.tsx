@@ -9,8 +9,8 @@ const inter = Inter({ subsets: ["latin"] });
 export function generateMetadata(): Metadata {
   return {
     title: {
-      default: "Sanctuary | Diablo 4 Map",
-      template: "%s | Diablo 4 Map",
+      default: "Sanctuary | Palia Map",
+      template: "%s | Palia Map",
     },
     twitter: {},
     openGraph: {},

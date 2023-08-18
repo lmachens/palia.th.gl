@@ -49,18 +49,5 @@ export async function middleware(req: NextRequest) {
 }
 
 export const config = {
-  matcher: [
-    "/",
-    "/en",
-    "/de",
-    "/fr",
-    "/ru",
-    "/es",
-    "/en/(nodes/.*)",
-    "/de/(nodes/.*)",
-    "/fr/(nodes/.*)",
-    "/ru/(nodes/.*)",
-    "/es/(nodes/.*)",
-    "/(nodes/.*)",
-  ],
+  matcher: ["/", "/en", "/en/(nodes/.*)", "/(nodes/.*)"],
 };

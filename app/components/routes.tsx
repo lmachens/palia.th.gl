@@ -421,14 +421,14 @@ export default function Routes() {
                       className="hover:text-white"
                       onClick={() => {
                         overwolf.io.writeFileContents(
-                          `${overwolf.io.paths.documents}\\Diablo 4 Map\\${filename}`,
+                          `${overwolf.io.paths.documents}\\Palia Map\\${filename}`,
                           JSON.stringify(route),
                           "UTF8" as overwolf.io.enums.eEncoding.UTF8,
                           true,
                           () => console.log
                         );
                         overwolf.utils.openWindowsExplorer(
-                          `${overwolf.io.paths.documents}\\Diablo 4 Map`,
+                          `${overwolf.io.paths.documents}\\Palia Map`,
                           console.log
                         );
                       }}

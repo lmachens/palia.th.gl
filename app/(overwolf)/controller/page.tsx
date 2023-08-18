@@ -5,7 +5,7 @@ const Init = dynamic(() => import("./init"), {
 });
 
 export const metadata = {
-  title: "Controller - Diablo 4 Map",
+  title: "Controller - Palia Map",
 };
 
 export default async function Controller() {

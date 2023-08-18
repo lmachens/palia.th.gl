@@ -9,20 +9,6 @@ export default function Settings() {
   return (
     <>
       <div className="flex">
-        <span className="w-1/2">{dict.settings.showEventsTimers}</span>
-        <Toggle
-          checked={!!globalSettingsStore.showTimers}
-          onChange={globalSettingsStore.toggleShowTimers}
-        />
-      </div>
-      <div className="flex">
-        <span className="w-1/2">{dict.settings.stackEventsTimers}</span>
-        <Toggle
-          checked={!!globalSettingsStore.stackTimers}
-          onChange={globalSettingsStore.toggleStackTimers}
-        />
-      </div>
-      <div className="flex">
         <span className="w-1/2">{dict.settings.showTerritoryNames}</span>
         <Toggle
           checked={!!globalSettingsStore.showTerritoryNames}

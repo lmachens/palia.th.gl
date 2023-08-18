@@ -20,12 +20,8 @@ export const useGlobalSettingsStore = create(
     toggleShowFilters: () => void;
     showRoutes: boolean;
     toggleShowRoutes: () => void;
-    showTimers: boolean;
-    toggleShowTimers: () => void;
     showSidebar: boolean;
     toggleShowSidebar: () => void;
-    stackTimers: boolean;
-    toggleStackTimers: () => void;
     isAlternativeDiscoveredStyle: boolean;
     toggleIsAlternativeDiscoveredStyle: () => void;
   }>(
@@ -33,7 +29,7 @@ export const useGlobalSettingsStore = create(
       let filters = ALL_FILTERS;
       if (typeof window !== "undefined" && typeof overwolf === "undefined") {
         const filtersString = new URLSearchParams(window.location.search).get(
-          "filters",
+          "filters"
         );
         if (filtersString) {
           filters = filtersString.split(",");
@@ -56,9 +52,6 @@ export const useGlobalSettingsStore = create(
         showRoutes: false,
         toggleShowRoutes: () =>
           set((state) => ({ showRoutes: !state.showRoutes })),
-        showTimers: true,
-        toggleShowTimers: () =>
-          set((state) => ({ showTimers: !state.showTimers })),
         showSidebar:
           typeof document !== "undefined"
             ? document.body.clientWidth >= 768 &&
@@ -68,9 +61,6 @@ export const useGlobalSettingsStore = create(
           set((state) => ({
             showSidebar: !state.showSidebar,
           })),
-        stackTimers: false,
-        toggleStackTimers: () =>
-          set((state) => ({ stackTimers: !state.stackTimers })),
         isAlternativeDiscoveredStyle: true,
         toggleIsAlternativeDiscoveredStyle: () =>
           set((state) => ({
@@ -89,6 +79,6 @@ export const useGlobalSettingsStore = create(
         }
         return { ...currentState, ...persistentState };
       },
-    },
-  ),
+    }
+  )
 );

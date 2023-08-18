@@ -79,7 +79,7 @@ function Ads() {
       >
         {(!settingsStore.lockedWindow || !isOverlay) && (
           <div className="flex w-fit rounded-t-lg bg-opacity-50 bg-neutral-800 ml-auto text-neutral-300">
-            <p className="px-1.5 font-xs font-mono">Diablo 4 Map</p>
+            <p className="px-1.5 font-xs font-mono">Palia Map</p>
             <div className="cursor-move flex items-center p-1">
               <svg className="w-[16px] h-[16px]">
                 <use xlinkHref="#icon-move" />

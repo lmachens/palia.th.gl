@@ -5,7 +5,7 @@ const Exit = dynamic(() => import("./exit"), {
 });
 
 export const metadata = {
-  title: "Patreon - Diablo 4 Map",
+  title: "Patreon - Palia Map",
 };
 
 export default function PatreonExit() {

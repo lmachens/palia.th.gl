@@ -5,7 +5,7 @@ const App = dynamic(() => import("./app"), {
 });
 
 export const metadata = {
-  title: "Diablo 4 Map",
+  title: "Palia Map",
 };
 
 export default function Page() {

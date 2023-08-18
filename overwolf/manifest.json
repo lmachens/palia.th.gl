@@ -2,12 +2,12 @@
   "manifest_version": 1,
   "type": "WebApp",
   "meta": {
-    "name": "Diablo 4 Map-DEV",
+    "name": "Palia Map-DEV",
     "author": "Leon Machens",
     "version": "1.10.0",
     "minimum-overwolf-version": "0.218.0",
-    "description": "Diablo 4 Map",
-    "dock_button_title": "Diablo 4 Map",
+    "description": "Palia Map",
+    "dock_button_title": "Palia Map",
     "icon": "icons/iconMouseOver.png",
     "icon_gray": "icons/iconMouseNormal.png",
     "launcher_icon": "icons/launcherIcon.ico"
@@ -125,7 +125,7 @@
     "externally_connectable": {
       "matches": [
         "https://*.patreon.com",
-        "https://diablo4.th.gl",
+        "https://palia.th.gl",
         "http://localhost:3666",
         "https://d4armory.io"
       ]

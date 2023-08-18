@@ -50,19 +50,16 @@ export function generateMetadata({
   if (name) {
     canonical += `/nodes/${name}`;
   }
-  const alternativeLanguages = LOCALES.reduce(
-    (acc, locale) => {
-      acc[locale] = API_BASE_URI + `/${locale}`;
-      if (name) {
-        acc[locale] += `/nodes/${name}`;
-      }
-      return acc;
-    },
-    {} as Record<string, string>,
-  );
+  const alternativeLanguages = LOCALES.reduce((acc, locale) => {
+    acc[locale] = API_BASE_URI + `/${locale}`;
+    if (name) {
+      acc[locale] += `/nodes/${name}`;
+    }
+    return acc;
+  }, {} as Record<string, string>);
 
   return {
-    title: `${title} | ${dict.meta.subtitle} | diablo4.th.gl`,
+    title: `${title} | ${dict.meta.subtitle} | palia.th.gl`,
     description: description,
     creator: "Leon Machens",
     themeColor: "black",
@@ -74,10 +71,10 @@ export function generateMetadata({
       card: "summary_large_image",
     },
     openGraph: {
-      title: `Sanctuary | ${dict.meta.subtitle} | diablo4.th.gl`,
+      title: `Sanctuary | ${dict.meta.subtitle} | palia.th.gl`,
       description: description,
       type: name ? "article" : "website",
-      url: "https://diablo4.th.gl",
+      url: "https://palia.th.gl",
     },
   };
 }

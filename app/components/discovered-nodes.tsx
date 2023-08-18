@@ -22,14 +22,14 @@ export default function DiscoveredNodes() {
               overwolf.io.writeFileContents(
                 `${
                   overwolf.io.paths.documents
-                }\\Diablo 4 Map\\discovered_nodes_${Date.now()}.json`,
+                }\\Palia Map\\discovered_nodes_${Date.now()}.json`,
                 JSON.stringify(discoveredNodes),
                 "UTF8" as overwolf.io.enums.eEncoding.UTF8,
                 true,
                 () => console.log
               );
               overwolf.utils.openWindowsExplorer(
-                `${overwolf.io.paths.documents}\\Diablo 4 Map`,
+                `${overwolf.io.paths.documents}\\Palia Map`,
                 console.log
               );
             }}

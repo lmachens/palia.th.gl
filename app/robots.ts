@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://diablo4.th.gl/sitemap.xml",
+    sitemap: "https://palia.th.gl/sitemap.xml",
   };
 }

@@ -65,7 +65,7 @@ export default function Header() {
             : overwolf.windows.maximize(currentWindow!.id)
         }
       >
-        <h1 className="font-mono ml-2 truncate">Diablo 4 Map v{version}</h1>
+        <h1 className="font-mono ml-2 truncate">Palia Map v{version}</h1>
         <a
           href="https://discord.com/invite/NTZu8Px"
           target="_blank"

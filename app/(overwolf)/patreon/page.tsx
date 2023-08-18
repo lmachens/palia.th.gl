@@ -5,7 +5,7 @@ const Redirect = dynamic(() => import("./redirect"), {
 });
 
 export const metadata = {
-  title: "Patreon - Diablo 4 Map",
+  title: "Patreon - Palia Map",
 };
 
 export default function Patreon() {

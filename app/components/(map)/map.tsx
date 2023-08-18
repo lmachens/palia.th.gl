@@ -37,20 +37,17 @@ export default function Map({ children }: { children?: React.ReactNode }) {
   const params = useParams()!;
 
   useEffect(() => {
-    const worldCRS = leaflet.extend({}, leaflet.CRS.Simple, {
-      transformation: new leaflet.Transformation(1.65, 0, -1.65, 0),
-    });
+    const worldCRS = leaflet.extend({}, leaflet.CRS.Simple, {});
 
     const map = leaflet.map(mapRef.current!, {
       zoomControl: false,
       attributionControl: false,
-      minZoom: 0,
-      maxZoom: 8,
+      minZoom: 5,
+      maxZoom: 13,
       zoomSnap: 0,
       zoomDelta: 0.4,
       wheelPxPerZoomLevel: 120,
       crs: worldCRS,
-      maxBounds: MAX_BOUNDS,
       renderer: leaflet.canvas(),
       pmIgnore: false,
     });
@@ -68,7 +65,7 @@ export default function Map({ children }: { children?: React.ReactNode }) {
     if (coordinates) {
       map.setView(coordinates as [number, number], 3);
     } else {
-      map.setView([-100, 100], 3);
+      map.setView([-0.5, 0.5], 10);
     }
 
     setMap(map);

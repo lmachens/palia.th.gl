@@ -14,7 +14,6 @@ import { useDict } from "./(i18n)/i18n-provider";
 import AppDownload from "./app-download";
 import Filters from "./filters";
 import Routes from "./routes";
-import Timers from "./timers";
 import useFilters from "./use-filters";
 
 export default function Search() {
@@ -46,15 +45,8 @@ export default function Search() {
         globalSettingsStore.showSidebar ? "md:left-[412px]" : "md:left-3"
       } md:space-y-1`}
     >
-      <div
-        className={`bg-black md:bg-transparent flex overflow-auto md:gap-1 ${
-          globalSettingsStore.stackTimers
-            ? "md:flex-col text-left items-start"
-            : ""
-        }`}
-      >
+      <div className={`bg-black md:bg-transparent flex overflow-auto md:gap-1`}>
         {!("value" in router) && <AppDownload />}
-        {globalSettingsStore.showTimers && <Timers />}
       </div>
       {(!settingsStore.lockedWindow || !isOverlay) && (
         <div className={`relative pointer-events-auto flex md:w-fit`}>

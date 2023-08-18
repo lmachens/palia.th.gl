@@ -8,7 +8,6 @@ import { useGlobalSettingsStore } from "../lib/storage/global-settings";
 import { useDict } from "./(i18n)/i18n-provider";
 import Drawer from "./drawer";
 import ExternalLink from "./external-link";
-import LocaleSelect from "./locale-select";
 import Settings from "./settings";
 import SpawnNodes from "./spawn-nodes";
 const NitroPay = dynamic(() => import("./nitro-pay"), {
@@ -23,24 +22,8 @@ const Territories = dynamic(() => import("./territories"), {
 
 const DISCOVER_LINKS = [
   {
-    href: "https://www.d4ut.net/?ref=diablo4.th.gl",
-    text: "Diablo 4 Build Calculator",
-  },
-  {
-    href: "https://d4.money/?ref=diablo4.th.gl",
-    text: "Sell and Buy Items",
-  },
-  {
-    href: "https://lilith.mom/?ref=diablo4.th.gl",
-    text: "Lilith Discord Bot",
-  },
-  {
-    href: "https://www.th.gl/?ref=diablo4.th.gl",
+    href: "https://www.th.gl/?ref=palia.th.gl",
     text: "Gaming Apps & Tools",
-  },
-  {
-    href: "https://www.studioloot.com/diablo4?ref=diablo4.th.gl",
-    text: "Diablo 4 News & Guides",
   },
 ];
 export default function Menu() {
@@ -56,7 +39,6 @@ export default function Menu() {
         <header className="p-2 my-2 flex justify-between">
           <div className="flex gap-2 items-center">
             <h1 className="text-xl font-bold">{dict.meta.subtitle}</h1>
-            <LocaleSelect />
           </div>
           <button onClick={globalSettingsStore.toggleShowSidebar}>
             <svg
@@ -144,7 +126,7 @@ export default function Menu() {
           ))}
           <h2 className="category-title">{dict.menu.contribute}</h2>
           <ExternalLink
-            href="https://github.com/lmachens/diablo4.th.gl"
+            href="https://github.com/lmachens/palia.th.gl"
             text="GitHub"
           />
         </div>
