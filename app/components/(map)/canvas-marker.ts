@@ -4,14 +4,7 @@ import leaflet from "leaflet";
 const cachedImages: Record<string, HTMLImageElement> = {};
 leaflet.Canvas.include({
   updateCanvasImg(layer: CanvasMarker) {
-    const {
-      type,
-      icon,
-      attribute = "",
-      isHighlighted,
-      isDiscovered,
-      isAlternativeDiscoveredStyle,
-    } = layer.options;
+    const { type, icon, isHighlighted, isDiscovered } = layer.options;
 
     let radius = layer.getRadius();
     if (isHighlighted) {
@@ -23,7 +16,7 @@ leaflet.Canvas.include({
     const dy = p.y - radius;
 
     const layerContext = this._ctx as CanvasRenderingContext2D;
-    const key = `${type}-${attribute}-${isHighlighted}-${radius}-${isDiscovered}-${isAlternativeDiscoveredStyle}`;
+    const key = `${type}-${isHighlighted}-${radius}-${isDiscovered}`;
     if (cachedImages[key]) {
       layerContext.drawImage(cachedImages[key], dx, dy);
       return;
@@ -35,7 +28,7 @@ leaflet.Canvas.include({
     canvas.width = imageSize;
     canvas.height = imageSize;
     const ctx = canvas.getContext("2d")!;
-    ctx.globalAlpha = isDiscovered && !isAlternativeDiscoveredStyle ? 0.5 : 1;
+    ctx.globalAlpha = isDiscovered ? 0.5 : 1;
 
     const path2D = new Path2D(icon.path);
     ctx.lineWidth = icon.lineWidth;
@@ -48,17 +41,15 @@ leaflet.Canvas.include({
       ctx.shadowColor = "#999999";
     }
 
-    ctx.fillStyle =
-      isDiscovered && !isAlternativeDiscoveredStyle ? "#5f5d57" : icon.color;
+    ctx.fillStyle = isDiscovered ? "#5f5d57" : icon.color;
     ctx.fill(path2D);
     ctx.strokeStyle = "black";
     ctx.lineWidth = icon.lineWidth + 1;
     ctx.stroke(path2D);
-    ctx.strokeStyle = "strokeColor" in icon ? icon.strokeColor : "black";
     ctx.lineWidth = icon.lineWidth;
     ctx.stroke(path2D);
 
-    if (isDiscovered && isAlternativeDiscoveredStyle) {
+    if (isDiscovered) {
       const checkMarkPath = new Path2D("m5 12 5 5L20 7");
       ctx.scale(1.5, 1.5);
       ctx.translate(radius * 1.7, radius * 0.3);
@@ -70,16 +61,6 @@ leaflet.Canvas.include({
       ctx.stroke(checkMarkPath);
     }
 
-    if ("attribute" in icon && attribute) {
-      const attributeColor = icon.attribute(attribute);
-      if (attributeColor) {
-        ctx.arc(75, 20, radius / 2, 0, Math.PI * 2, true);
-        ctx.fillStyle = attributeColor;
-        ctx.fill();
-        ctx.strokeStyle = "#333";
-        ctx.stroke();
-      }
-    }
     img.src = ctx.canvas.toDataURL("image/webp");
     this._ctx.drawImage(img, dx, dy);
   },
@@ -91,10 +72,8 @@ const renderer = leaflet.canvas({ pane: "markerPane" }) as leaflet.Canvas & {
 export type CanvasMarkerOptions = {
   id: string;
   type: string;
-  attribute?: string;
   isHighlighted?: boolean;
   isDiscovered?: boolean;
-  isAlternativeDiscoveredStyle?: boolean;
   icon: ICON;
 };
 
@@ -105,7 +84,7 @@ class CanvasMarker extends leaflet.CircleMarker {
 
   constructor(
     latLng: leaflet.LatLngExpression,
-    options: leaflet.CircleMarkerOptions & CanvasMarkerOptions,
+    options: leaflet.CircleMarkerOptions & CanvasMarkerOptions
   ) {
     options.renderer = renderer;
     super(latLng, options);

@@ -32,9 +32,6 @@ export default function Nodes() {
   const isScreenshot = searchParams.get("screenshot") === "true";
   const dict = useDict();
   const iconSize = useGlobalSettingsStore((state) => state.iconSize);
-  const isAlternativeDiscoveredStyle = useGlobalSettingsStore(
-    (state) => state.isAlternativeDiscoveredStyle
-  );
 
   const paramsName = isOverwolf ? router.value.name : params.name;
   const paramsCoordinates = isOverwolf
@@ -73,9 +70,7 @@ export default function Nodes() {
     if (location.pathname.startsWith("/embed")) {
       return;
     }
-    const name =
-      dict.generated[node.type]?.["termId" in node ? node.termId : node.id]
-        ?.name ?? "";
+    const name = dict.generated[node.type]?.[node.id]?.name ?? "";
     if ("update" in router) {
       router.update({
         name: encodeURIComponent(name || node.type),
@@ -95,10 +90,7 @@ export default function Nodes() {
       {nodes.map((node) => {
         let isHighlighted = false;
         if (selectedName && coordinates) {
-          const name =
-            dict.generated[node.type]?.[
-              "termId" in node ? node.termId : node.id
-            ]?.name ?? "";
+          const name = dict.generated[node.type]?.[node.id]?.name ?? "";
           if (
             node.x === coordinates[0] &&
             node.y === coordinates[1] &&
@@ -114,22 +106,11 @@ export default function Nodes() {
         if (!filters.includes(node.type) && !isHighlighted) {
           isTrivial = true;
         } else if (search && !isHighlighted) {
-          const name =
-            dict.generated[node.type]?.[
-              "termId" in node ? node.termId : node.id
-            ]?.name ?? "";
+          const name = dict.generated[node.type]?.[node.id]?.name ?? "";
 
           isTrivial = !(
             name.toLowerCase().includes(search) ||
-            dict.nodes[node.type].toLowerCase().includes(search) ||
-            ("attribute" in node &&
-              node.attribute?.toLowerCase().includes(search)) ||
-            ("aspectId" in node &&
-              dict.generated.aspects[node.aspectId]?.name
-                .toLowerCase()
-                .includes(search)) ||
-            ("className" in node &&
-              node.className.toLowerCase().includes(search))
+            dict.nodes[node.type].toLowerCase().includes(search)
           );
         }
 
@@ -145,9 +126,6 @@ export default function Nodes() {
             isHighlighted={isHighlighted}
             isDiscovered={discoveredNodes.includes(node.id)}
             iconSize={iconSize}
-            isAlternativeDiscoveredStyle={
-              node.type === "waypoints" && isAlternativeDiscoveredStyle
-            }
             onClick={onMarkerClick}
             onContextMenu={toggleDiscoveredNode}
             featureGroup={featureGroup}

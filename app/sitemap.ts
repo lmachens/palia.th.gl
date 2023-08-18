@@ -6,10 +6,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
   const nodesMap = nodes.map((node) => {
     const dict = loadDictionary("en");
-    const name =
-      (dict.generated as any)[node.type]?.[
-        "termId" in node ? node.termId : node.id
-      ]?.name ?? "";
+    const name = (dict.generated as any)[node.type]?.[node.id]?.name ?? "";
     return {
       url: `https://palia.th.gl/nodes/${encodeURIComponent(
         name || node.type

@@ -41,7 +41,7 @@ export default function DiscoveredNodes() {
             href={`data:text/json;charset=utf-8,${encodeURIComponent(
               JSON.stringify(discoveredNodes)
             )}`}
-            download="diablo_4_map_discovered_nodes.json"
+            download="palia_map_discovered_nodes.json"
             className="p-1 uppercase hover:text-white"
           >
             {dict.settings.backup}

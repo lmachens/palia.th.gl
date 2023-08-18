@@ -52,7 +52,7 @@ export default function NitroPay() {
 
   const handleLoad = () => {
     setShowFallback(false);
-    window["nitroAds"].createAd("diablo4-video", {
+    window["nitroAds"].createAd("palia-video", {
       format: "video-nc",
     });
   };
@@ -66,7 +66,7 @@ export default function NitroPay() {
         onLoad={handleLoad}
         onError={() => setShowFallback(true)}
       />
-      <div id="diablo4-video" className={showFallback ? "" : "w-full h-56"} />
+      <div id="palia-video" className={showFallback ? "" : "w-full h-56"} />
       {showFallback && <TwitchEmbed onClose={() => setShowFallback(false)} />}
     </>
   );

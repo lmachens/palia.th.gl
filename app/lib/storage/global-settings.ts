@@ -22,8 +22,6 @@ export const useGlobalSettingsStore = create(
     toggleShowRoutes: () => void;
     showSidebar: boolean;
     toggleShowSidebar: () => void;
-    isAlternativeDiscoveredStyle: boolean;
-    toggleIsAlternativeDiscoveredStyle: () => void;
   }>(
     (set) => {
       let filters = ALL_FILTERS;
@@ -60,11 +58,6 @@ export const useGlobalSettingsStore = create(
         toggleShowSidebar: () =>
           set((state) => ({
             showSidebar: !state.showSidebar,
-          })),
-        isAlternativeDiscoveredStyle: true,
-        toggleIsAlternativeDiscoveredStyle: () =>
-          set((state) => ({
-            isAlternativeDiscoveredStyle: !state.isAlternativeDiscoveredStyle,
           })),
       };
     },

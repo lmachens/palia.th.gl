@@ -1,7 +1,7 @@
 import { GAME_CLASS_ID, INTERESTED_IN_FEATURES } from "./config";
 
 export function getRunningGameInfo(
-  gameId: number,
+  gameId: number
 ): Promise<overwolf.games.GetRunningGameInfoResult | null> {
   return new Promise((resolve) => {
     overwolf.games.getRunningGameInfo((result) => {
@@ -11,7 +11,7 @@ export function getRunningGameInfo(
 }
 
 export function listenToGameInfo(
-  callback: (gameInfo: overwolf.games.RunningGameInfo | undefined) => void,
+  callback: (gameInfo: overwolf.games.RunningGameInfo | undefined) => void
 ) {
   overwolf.games.onGameInfoUpdated.addListener((event) => {
     if (event.gameChanged) {
@@ -39,7 +39,7 @@ export function listenToGameLaunched(callback: () => void) {
 }
 
 export function gameLaunched(
-  gameInfoResult: overwolf.games.GameInfoUpdatedEvent,
+  gameInfoResult: overwolf.games.GameInfoUpdatedEvent
 ) {
   if (!gameInfoResult) {
     return false;
@@ -80,20 +80,6 @@ export function gameRunning(gameInfo: overwolf.games.RunningGameInfo) {
   }
 
   return true;
-}
-
-export function listenToOverlayEnablement(
-  callback: (enabled: boolean) => void,
-) {
-  overwolf.settings.games.onOverlayEnablementChanged.addListener((event) => {
-    if (event.gameId === GAME_CLASS_ID) {
-      callback(event.enabled);
-    }
-  });
-
-  overwolf.settings.games.getOverlayEnabled(GAME_CLASS_ID, (event) => {
-    callback(event.enabled);
-  });
 }
 
 export function setFeatures() {

@@ -13,10 +13,7 @@ export function generateMetadata({
   const title = name ? decodeURIComponent(name) : "Sanctuary";
 
   const node = nodes.find((node) => {
-    const name =
-      (dict.generated as any)[node.type]?.[
-        "termId" in node ? node.termId : node.id
-      ]?.name ?? "";
+    const name = (dict.generated as any)[node.type]?.[node.id]?.name ?? "";
     return (name || node.type) === title;
   });
   const type = node?.type;
@@ -24,10 +21,7 @@ export function generateMetadata({
   let description = dict.meta.description;
   if (node) {
     const territory = getTerritoryByPoint([node.x, node.y]);
-    const name =
-      (dict.generated as any)[node.type]?.[
-        "termId" in node ? node.termId : node.id
-      ]?.name ?? "";
+    const name = (dict.generated as any)[node.type]?.[node.id]?.name ?? "";
 
     description = name;
     if (type) {
@@ -38,9 +32,7 @@ export function generateMetadata({
     }
     if ("description" in node) {
       const nodeDescription =
-        (dict.generated as any)[node.type]?.[
-          "termId" in node ? node.termId : node.id
-        ]?.description ?? "";
+        (dict.generated as any)[node.type]?.[node.id]?.description ?? "";
 
       description += `. ${nodeDescription?.replace(/<\/?[^>]+(>|$)/g, "")}`;
     }

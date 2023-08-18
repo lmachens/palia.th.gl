@@ -30,6 +30,8 @@ export function useMap() {
   return map;
 }
 
+export const transformation = [26772, -2230];
+
 export default function Map({ children }: { children?: React.ReactNode }) {
   const mapRef = useRef<HTMLDivElement>(null);
   const { map, setMap } = useMapStore();
@@ -37,7 +39,9 @@ export default function Map({ children }: { children?: React.ReactNode }) {
   const params = useParams()!;
 
   useEffect(() => {
-    const worldCRS = leaflet.extend({}, leaflet.CRS.Simple, {});
+    const worldCRS = leaflet.extend({}, leaflet.CRS.Simple, {
+      // transformation: new leaflet.Transformation(1, 0, 1, 0),
+    });
 
     const map = leaflet.map(mapRef.current!, {
       zoomControl: false,
@@ -98,6 +102,32 @@ export default function Map({ children }: { children?: React.ReactNode }) {
         }
       });
     }
+
+    const divElement = leaflet.DomUtil.create("div", "leaflet-position");
+    const handleMouseMove = (event: leaflet.LeafletMouseEvent) => {
+      divElement.innerHTML = `<span>[${event.latlng.lng * transformation[0]}, ${
+        event.latlng.lat * transformation[1]
+      }]</span> <span>[${event.latlng.lng}, ${event.latlng.lat}]</span>`;
+    };
+    const handleMouseOut = () => {
+      divElement.innerHTML = ``;
+    };
+    const CoordinatesControl = leaflet.Control.extend({
+      onAdd(map: leaflet.Map) {
+        map.on("mousemove", handleMouseMove);
+        map.on("mouseout", handleMouseOut);
+        return divElement;
+      },
+      onRemove(map: leaflet.Map) {
+        map.off("mousemove", handleMouseMove);
+        map.off("mouseout", handleMouseOut);
+      },
+    });
+    const coordinatesControl = new CoordinatesControl({
+      position: "topright",
+    });
+
+    coordinatesControl.addTo(map);
 
     return () => {
       setMap(null);

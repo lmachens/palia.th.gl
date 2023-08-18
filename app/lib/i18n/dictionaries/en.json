@@ -29,7 +29,6 @@
   "settings": {
     "rightClickToggle": "Right click to toggle discovered",
     "showTerritoryNames": "Show Territory Names",
-    "alternativeDiscoveredWaypointsIcon": "Alternative Discovered Waypoints Icon",
     "iconSize": "Icon Size",
     "backup": "Backup",
     "restore": "Restore",

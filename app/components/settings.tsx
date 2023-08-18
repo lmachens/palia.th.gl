@@ -16,15 +16,6 @@ export default function Settings() {
         />
       </div>
       <div className="flex">
-        <span className="w-1/2">
-          {dict.settings.alternativeDiscoveredWaypointsIcon}
-        </span>
-        <Toggle
-          checked={!!globalSettingsStore.isAlternativeDiscoveredStyle}
-          onChange={globalSettingsStore.toggleIsAlternativeDiscoveredStyle}
-        />
-      </div>
-      <div className="flex">
         <span className="w-1/2">{dict.settings.iconSize}</span>
         <input
           className="w-5/12"

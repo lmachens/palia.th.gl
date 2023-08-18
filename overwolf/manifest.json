@@ -4,7 +4,7 @@
   "meta": {
     "name": "Palia Map-DEV",
     "author": "Leon Machens",
-    "version": "1.10.0",
+    "version": "0.0.1",
     "minimum-overwolf-version": "0.218.0",
     "description": "Palia Map",
     "dock_button_title": "Palia Map",
@@ -24,13 +24,13 @@
     "windows": {
       "controller": {
         "file": "controller.html",
-        "debug_url": "http://localhost:3666/controller",
+        "debug_url": "http://localhost:3668/controller",
         "block_top_window_navigation": false,
         "is_background_page": true
       },
       "desktop": {
         "file": "app.html",
-        "debug_url": "http://localhost:3666/app",
+        "debug_url": "http://localhost:3668/app",
         "block_top_window_navigation": false,
         "resizable": true,
         "override_on_update": true,
@@ -53,7 +53,7 @@
       },
       "overlay": {
         "file": "app.html",
-        "debug_url": "http://localhost:3666/app",
+        "debug_url": "http://localhost:3668/app",
         "block_top_window_navigation": false,
         "resizable": true,
         "override_on_update": true,
@@ -79,18 +79,18 @@
     "game_targeting": {
       "type": "dedicated",
       "game_ids": [
-        22700
+        23186
       ]
     },
     "game_events": [
-      22700
+      23186
     ],
     "launch_events": [
       {
         "event": "GameLaunch",
         "event_data": {
           "game_ids": [
-            22700
+            23186
           ]
         },
         "start_minimized": false
@@ -126,7 +126,7 @@
       "matches": [
         "https://*.patreon.com",
         "https://palia.th.gl",
-        "http://localhost:3666",
+        "http://localhost:3668",
         "https://d4armory.io"
       ]
     },

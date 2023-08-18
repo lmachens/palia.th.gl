@@ -14,7 +14,6 @@ const Marker = memo(function Marker({
   isHighlighted,
   isDiscovered,
   iconSize,
-  isAlternativeDiscoveredStyle,
   onClick,
   onContextMenu,
   featureGroup,
@@ -25,7 +24,6 @@ const Marker = memo(function Marker({
   isHighlighted: boolean;
   isDiscovered: boolean;
   iconSize: number;
-  isAlternativeDiscoveredStyle?: boolean;
   onClick: (node: NODE) => void;
   onContextMenu: (id: string) => void;
   featureGroup: leaflet.FeatureGroup;
@@ -35,17 +33,14 @@ const Marker = memo(function Marker({
 
   useEffect(() => {
     const icon = ICONS[type];
-    const attribute = "attribute" in node ? node.attribute : undefined;
     const latLng = [node.x, node.y] as [number, number];
     marker.current = new CanvasMarker(latLng, {
       id,
       type,
-      attribute,
       icon,
       radius: icon.radius * iconSize,
       isHighlighted,
       isDiscovered,
-      isAlternativeDiscoveredStyle,
       pmIgnore: true,
       snapIgnore: false,
     });
@@ -64,12 +59,10 @@ const Marker = memo(function Marker({
 
     const tooltipContent = () => {
       const territory = getTerritoryByPoint([node.x, node.y]);
-      const attributeColor =
-        "attribute" in icon && attribute && icon.attribute(attribute);
+
       let tooltipContent = "";
       tooltipContent += `<p class="font-bold text-base">${
-        dict.generated[type]?.["termId" in node ? node.termId : node.id]
-          ?.name ?? ""
+        dict.generated[type]?.[node.id]?.name ?? ""
       }</p>`;
       tooltipContent += `<p class="text-gray-300 text-sm">${dict.nodes[type]}</p>`;
       if (territory) {
@@ -77,26 +70,13 @@ const Marker = memo(function Marker({
           dict.generated.territories[territory.id].name
         }</p>`;
       }
-      if ("aspectId" in node) {
-        tooltipContent += `<p class="border-t border-t-gray-700 mt-2 pt-2 text-base font-bold">${
-          dict.generated.generic.aspect.name
-        } ${
-          dict.generated.aspects[node.aspectId].name
-        }</p><p class="text-orange-500 text-lg">${node.className}</p>`;
-      }
 
       if ("description" in node) {
-        tooltipContent += `<p class="border-t border-t-gray-700 mt-2 pt-2 max-w-md whitespace-normal">${
-          attributeColor
-            ? `<div class="inline-block w-2 h-2 rounded-full mr-1" style="background: ${attributeColor}"></div>`
-            : ""
-        }${node.description}</p>`;
+        tooltipContent += `<p class="border-t border-t-gray-700 mt-2 pt-2 max-w-md whitespace-normal">${node.description}</p>`;
       } else if ("id" in node) {
         tooltipContent += `<p class="border-t border-t-gray-700 mt-2 pt-2 max-w-md whitespace-normal">${
-          attributeColor
-            ? `<div class="inline-block w-2 h-2 rounded-full mr-1" style="background: ${attributeColor}"></div>`
-            : ""
-        }${dict.generated[type]?.[node.id]?.description ?? ""}</p>`;
+          dict.generated[type]?.[node.id]?.description ?? ""
+        }</p>`;
       }
       const div = document.createElement("div");
       div.innerHTML = tooltipContent;
@@ -125,14 +105,7 @@ const Marker = memo(function Marker({
         marker.current = null;
       }
     };
-  }, [
-    type,
-    isHighlighted,
-    isDiscovered,
-    iconSize,
-    isAlternativeDiscoveredStyle,
-    dict,
-  ]);
+  }, [type, isHighlighted, isDiscovered, iconSize, dict]);
 
   return <></>;
 });

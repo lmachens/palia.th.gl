@@ -34,6 +34,7 @@ export default function Tiles() {
         tileSize: TILE_SIZE,
         updateInterval: 100,
         keepBuffer: 8,
+        // zoomOffset: 2,
         filter: isOverlay ? mapFilter : "none",
       }
     ).addTo(map);
