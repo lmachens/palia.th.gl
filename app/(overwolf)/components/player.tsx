@@ -1,4 +1,4 @@
-import { transformation, useMap } from "@/app/components/(map)/map";
+import { useMap } from "@/app/components/(map)/map";
 import { useGameInfoStore } from "@/app/lib/storage/game-info";
 import { useSettingsStore } from "@/app/lib/storage/settings";
 import leaflet from "leaflet";
@@ -93,15 +93,7 @@ export default function Player() {
       return;
     }
 
-    marker.current.updatePosition({
-      ...gameInfo.player,
-      position: {
-        ...gameInfo.player.position,
-        x: gameInfo.player.position.x / transformation[0],
-        y: gameInfo.player.position.y / transformation[1],
-      },
-    });
-    console.log(gameInfo.player);
+    marker.current.updatePosition(gameInfo.player);
     if (followPlayerPosition) {
       map.panTo(marker.current.getLatLng(), {
         duration: 1,

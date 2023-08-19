@@ -6,13 +6,13 @@ import { useEffect } from "react";
 import { createCanvasLayer } from "./canvas-layer";
 import { useMap } from "./map";
 
+export const MIN_NATIVE_ZOOM = 0;
+export const MAX_NATIVE_ZOOM = 2;
+export const TILE_SIZE = 512;
 export const BOUNDS: LatLngBoundsExpression = [
   [0, 0],
-  [-1, 1],
+  [-TILE_SIZE, TILE_SIZE],
 ];
-export const MIN_NATIVE_ZOOM = 9;
-export const MAX_NATIVE_ZOOM = 11;
-export const TILE_SIZE = 512;
 
 export default function Tiles() {
   const map = useMap();
@@ -24,13 +24,13 @@ export default function Tiles() {
       return;
     }
     const canvasLayer = createCanvasLayer(
-      "/maps/kilima-valley/{z}/{x}_{y}.webp",
+      "/maps/kilima-valley/{z}/{y}/{x}.jpg",
       {
         minNativeZoom: MIN_NATIVE_ZOOM,
         maxNativeZoom: MAX_NATIVE_ZOOM,
         minZoom: map.getMinZoom(),
         maxZoom: map.getMaxZoom(),
-        bounds: BOUNDS,
+        // bounds: BOUNDS,
         tileSize: TILE_SIZE,
         updateInterval: 100,
         keepBuffer: 8,

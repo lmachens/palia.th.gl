@@ -29,7 +29,7 @@ export const ICONS = {
     color: "#ded3bd",
     lineWidth: 2,
     path: CIRCLE_PATH,
-    radius: 13,
+    radius: 10,
   },
 } as const;
 export type ICON = (typeof ICONS)[keyof typeof ICONS];

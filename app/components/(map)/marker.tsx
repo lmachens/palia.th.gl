@@ -33,7 +33,7 @@ const Marker = memo(function Marker({
 
   useEffect(() => {
     const icon = ICONS[type];
-    const latLng = [node.x, node.y] as [number, number];
+    const latLng = [node.y, node.x] as [number, number];
     marker.current = new CanvasMarker(latLng, {
       id,
       type,
@@ -65,6 +65,7 @@ const Marker = memo(function Marker({
         dict.generated[type]?.[node.id]?.name ?? ""
       }</p>`;
       tooltipContent += `<p class="text-gray-300 text-sm">${dict.nodes[type]}</p>`;
+      tooltipContent += `<p class="text-gray-300 text-xs font-bold">${node.id}</p>`;
       if (territory) {
         tooltipContent += `<p class="text-amber-50 text-sm">${
           dict.generated.territories[territory.id].name

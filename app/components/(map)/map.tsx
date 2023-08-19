@@ -21,16 +21,14 @@ export const useMapStore = create<{
 }));
 
 export const MAX_BOUNDS: LatLngBoundsExpression = [
-  [194, -194],
-  [-388, 388],
+  [0, 0],
+  [-512, 512],
 ];
 
 export function useMap() {
   const map = useMapStore((store) => store.map)!;
   return map;
 }
-
-export const transformation = [26772, -2230];
 
 export default function Map({ children }: { children?: React.ReactNode }) {
   const mapRef = useRef<HTMLDivElement>(null);
@@ -40,14 +38,14 @@ export default function Map({ children }: { children?: React.ReactNode }) {
 
   useEffect(() => {
     const worldCRS = leaflet.extend({}, leaflet.CRS.Simple, {
-      // transformation: new leaflet.Transformation(1, 0, 1, 0),
+      transformation: new leaflet.Transformation(1 / 215, 250, 1 / 215, 290),
     });
 
     const map = leaflet.map(mapRef.current!, {
       zoomControl: false,
       attributionControl: false,
-      minZoom: 5,
-      maxZoom: 13,
+      minZoom: -2,
+      maxZoom: 5,
       zoomSnap: 0,
       zoomDelta: 0.4,
       wheelPxPerZoomLevel: 120,
@@ -67,9 +65,9 @@ export default function Map({ children }: { children?: React.ReactNode }) {
       .split(",")
       .map(Number);
     if (coordinates) {
-      map.setView(coordinates as [number, number], 3);
+      map.setView(coordinates as [number, number], 2);
     } else {
-      map.setView([-0.5, 0.5], 10);
+      map.setView([-256, 256], 1);
     }
 
     setMap(map);
@@ -105,9 +103,7 @@ export default function Map({ children }: { children?: React.ReactNode }) {
 
     const divElement = leaflet.DomUtil.create("div", "leaflet-position");
     const handleMouseMove = (event: leaflet.LeafletMouseEvent) => {
-      divElement.innerHTML = `<span>[${event.latlng.lng * transformation[0]}, ${
-        event.latlng.lat * transformation[1]
-      }]</span> <span>[${event.latlng.lng}, ${event.latlng.lat}]</span>`;
+      divElement.innerHTML = `<span>[${event.latlng.lng}, ${event.latlng.lat}]</span>`;
     };
     const handleMouseOut = () => {
       divElement.innerHTML = ``;
