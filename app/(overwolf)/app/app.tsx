@@ -27,8 +27,6 @@ export default function App() {
   const [ready, setReady] = useState(false);
   const locale = useSettingsStore((state) => state.locale);
   const dict = loadDictionary(locale);
-  const territory = useGameInfoStore((state) => state.player?.territory);
-  const isWorldTerritory = territory !== -1;
   const setIsOverlay = useGameInfoStore((state) => state.setIsOverlay);
 
   useEffect(() => {
@@ -57,14 +55,11 @@ export default function App() {
         <Header />
         <MapContainer>
           <Map>
-            {isWorldTerritory && (
-              <>
-                <Tiles />
-                <Territories />
-                <Nodes />
-                <ActiveRoutes />
-              </>
-            )}
+            <Tiles />
+            <Territories />
+            <Nodes />
+            <ActiveRoutes />
+
             <Player />
             <TraceLine />
           </Map>

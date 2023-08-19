@@ -26,12 +26,10 @@ export default function TraceLine() {
     z: 0,
   });
   const layerGroup = useRef<leaflet.LayerGroup | null>(null);
-  const unknownLayerGroup = useRef<leaflet.LayerGroup | null>(null);
   const settingsStore = useSettingsStore();
 
   useEffect(() => {
     layerGroup.current = new leaflet.LayerGroup();
-    unknownLayerGroup.current = new leaflet.LayerGroup();
 
     // getLatestGameSession().then(gameSession => {
     //    gameSession.traceLine.forEach((position) => {
@@ -45,29 +43,20 @@ export default function TraceLine() {
     if (!settingsStore.showTraceLine) {
       return;
     }
-    const targetLayerGroup =
-      player?.territory === -1
-        ? unknownLayerGroup.current!
-        : layerGroup.current!;
+    const targetLayerGroup = layerGroup.current!;
 
     targetLayerGroup.addTo(map);
 
     return () => {
       targetLayerGroup.removeFrom(map);
-      if (player?.territory === -1) {
-        targetLayerGroup.clearLayers();
-      }
     };
-  }, [settingsStore.showTraceLine, player?.territory]);
+  }, [settingsStore.showTraceLine]);
 
   useEffect(() => {
     if (!player?.position) {
       return;
     }
-    const targetLayerGroup =
-      player.territory === -1
-        ? unknownLayerGroup.current!
-        : layerGroup.current!;
+    const targetLayerGroup = layerGroup.current!;
     if (
       Math.abs(player.position.x - lastPosition.current.x) > 0.05 ||
       Math.abs(player.position.y - lastPosition.current.y) > 0.05
