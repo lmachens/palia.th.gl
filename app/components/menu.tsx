@@ -16,9 +16,6 @@ const NitroPay = dynamic(() => import("./nitro-pay"), {
 const DiscoveredNodes = dynamic(() => import("./discovered-nodes"), {
   ssr: false,
 });
-const Territories = dynamic(() => import("./territories"), {
-  ssr: false,
-});
 
 const DISCOVER_LINKS = [
   {
@@ -98,8 +95,6 @@ export default function Menu() {
           <DiscoveredNodes />
           <h2 className="category-title">{dict.menu.spawnNodes}</h2>
           <SpawnNodes />
-          <h2 className="category-title">{dict.menu.territories}</h2>
-          <Territories />
           <h2 className="category-title">{dict.menu.apps}</h2>
           <ExternalLink
             href="https://www.overwolf.com/app/Leon_Machens-Diablo_4_Map"

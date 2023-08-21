@@ -1,57 +1,9 @@
 export const area = [
   {
-    id: "MapMarker_Apothecary_UAID_6C02E03F65D9936101_1437953323",
-    name: "DefaultSceneRoot",
-    x: -556.85547,
-    y: 18259.395,
-  },
-  {
     id: "MapMarker_Apothecary_UAID_CC96E5156C5D4B9101_1701465443",
     name: "DefaultSceneRoot",
     x: -19096.855,
     y: -30860.605,
-  },
-  {
-    id: "MapMarker_Blacksmith_UAID_6C02E03F65D9936101_1437952314",
-    name: "DefaultSceneRoot",
-    x: 2320,
-    y: 7030,
-  },
-  {
-    id: "MapMarker_CityHall_UAID_6C02E03F65D9936101_1437952315",
-    name: "DefaultSceneRoot",
-    x: 7490,
-    y: 2570,
-  },
-  {
-    id: "MapMarker_DragonShrine_UAID_6C02E03F65D9936101_1437953321",
-    name: "DefaultSceneRoot",
-    x: 33740,
-    y: -22330,
-  },
-  {
-    id: "MapMarker_FamilyFarm_UAID_6C02E03F65D9936101_1437954324",
-    name: "DefaultSceneRoot",
-    x: -29530,
-    y: -3340,
-  },
-  {
-    id: "MapMarker_FurnitureStore_UAID_6C02E03F65D9936101_1437953318",
-    name: "DefaultSceneRoot",
-    x: 2890,
-    y: -1790,
-  },
-  {
-    id: "MapMarker_GeneralStore_UAID_6C02E03F65D9936101_1437952316",
-    name: "DefaultSceneRoot",
-    x: 780,
-    y: -570,
-  },
-  {
-    id: "MapMarker_Library_UAID_6C02E03F65D9936101_1437953317",
-    name: "DefaultSceneRoot",
-    x: 5290,
-    y: -4190,
   },
   {
     id: "MapMarker_MayorsEstate_UAID_6C02E03F65D9936101_1437953322",
@@ -114,12 +66,6 @@ export const area = [
     y: -19080,
   },
   {
-    id: "MapMarker_PhoenixFalls_UAID_6C02E03F65D9936101_1437954325",
-    name: "DefaultSceneRoot",
-    x: 670,
-    y: -35620,
-  },
-  {
     id: "MapMarker_RemembranceGarden_UAID_6C02E03F65D9936101_1437953320",
     name: "DefaultSceneRoot",
     x: -7330,
@@ -136,17 +82,5 @@ export const area = [
     name: "DefaultSceneRoot",
     x: -1090,
     y: 37380,
-  },
-  {
-    id: "MapMarker_Tailor_UAID_6C02E03F65D9936101_1437953319",
-    name: "DefaultSceneRoot",
-    x: -2350,
-    y: 1070,
-  },
-  {
-    id: "MapMarker_Tavern_UAID_6C02E03F65D9936101_1437952313",
-    name: "DefaultSceneRoot",
-    x: -1360,
-    y: 5170,
   },
 ];

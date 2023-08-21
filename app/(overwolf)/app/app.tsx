@@ -3,7 +3,6 @@ import { I18NProvider } from "@/app/components/(i18n)/i18n-provider";
 import ActiveRoutes from "@/app/components/(map)/active-routes";
 import Map from "@/app/components/(map)/map";
 import Nodes from "@/app/components/(map)/nodes";
-import Territories from "@/app/components/(map)/territories";
 import Tiles from "@/app/components/(map)/tiles";
 import Menu from "@/app/components/menu";
 import Search from "@/app/components/search";
@@ -56,7 +55,6 @@ export default function App() {
         <MapContainer>
           <Map>
             <Tiles />
-            <Territories />
             <Nodes />
             <ActiveRoutes />
 

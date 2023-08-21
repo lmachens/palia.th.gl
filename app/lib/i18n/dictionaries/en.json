@@ -11,7 +11,6 @@
     "discoveredNodes": "Discovered Nodes",
     "spawnNodes": "Spawn Nodes",
     "settings": "Settings",
-    "territories": "Territories",
     "apps": "Apps",
     "community": "Community",
     "discover": "Discover",
@@ -27,7 +26,9 @@
     "copper": "Copper",
     "area": "Area",
     "landmark": "Landmark",
-    "stable": "Stable"
+    "stable": "Stable",
+    "housingPlot": "Housing Plot",
+    "zone": "Zone"
   },
   "settings": {
     "rightClickToggle": "Right click to toggle discovered",

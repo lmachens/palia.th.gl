@@ -49,5 +49,13 @@ export const ICONS = {
     src: "/icons/Icon_Compass_Stable_01.png",
     radius: 14,
   },
+  housingPlot: {
+    src: "/icons/Icon_Compass_Home_01.png",
+    radius: 14,
+  },
+  zone: {
+    src: "/icons/WT_Icon_Compass_Zone.png",
+    radius: 14,
+  },
 } as const;
 export type ICON = (typeof ICONS)[keyof typeof ICONS];

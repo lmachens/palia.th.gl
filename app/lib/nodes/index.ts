@@ -1,8 +1,10 @@
 import { area } from "./area";
 import { copper } from "./copper";
+import { housingPlot } from "./housingPlot";
 import { landmark } from "./landmark";
 import { recipe } from "./recipe";
 import { stable } from "./stable";
+import { zone } from "./zone";
 
 export const spawnNodes = {
   copper: copper,
@@ -13,6 +15,8 @@ export const staticNodes = {
   landmark: landmark,
   recipe: recipe,
   stable: stable,
+  housingPlot: housingPlot,
+  zone: zone,
 } as const;
 
 export type NODE_TYPE = keyof typeof staticNodes | keyof typeof spawnNodes;

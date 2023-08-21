@@ -2,7 +2,6 @@ import { Metadata } from "next";
 import { API_BASE_URI } from "./env";
 import { DEFAULT_LOCALE, LOCALES, loadDictionary } from "./i18n";
 import { nodes } from "./nodes";
-import { getTerritoryByPoint } from "./territories";
 
 export function generateMetadata({
   params: { lang = DEFAULT_LOCALE, name },
@@ -20,15 +19,11 @@ export function generateMetadata({
 
   let description = dict.meta.description;
   if (node) {
-    const territory = getTerritoryByPoint([node.x, node.y]);
     const name = (dict.generated as any)[node.type]?.[node.id]?.name ?? "";
 
     description = name;
     if (type) {
       description += ` (${dict.nodes[type]})`;
-    }
-    if (territory) {
-      description += ` in ${dict.generated.territories[territory.id].name}`;
     }
     if ("description" in node) {
       const nodeDescription =

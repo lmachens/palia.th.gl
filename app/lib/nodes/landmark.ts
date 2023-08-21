@@ -48,22 +48,10 @@ export const landmark = [
     y: -4190,
   },
   {
-    id: "MapMarker_MayorsEstate",
-    name: "DefaultSceneRoot",
-    x: 13500,
-    y: 20930,
-  },
-  {
     id: "MapMarker_PhoenixFalls",
     name: "DefaultSceneRoot",
     x: 670,
     y: -35620,
-  },
-  {
-    id: "MapMarker_RemembranceGarden",
-    name: "DefaultSceneRoot",
-    x: -7330,
-    y: 27000,
   },
   {
     id: "MapMarker_Tailor",

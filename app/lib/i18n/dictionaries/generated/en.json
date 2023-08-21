@@ -1,31 +1,7 @@
 {
   "area": {
-    "MapMarker_Apothecary_UAID_6C02E03F65D9936101_1437953323": {
-      "name": "Apothecary"
-    },
     "MapMarker_Apothecary_UAID_CC96E5156C5D4B9101_1701465443": {
       "name": "Mirror Pond Ruins"
-    },
-    "MapMarker_Blacksmith_UAID_6C02E03F65D9936101_1437952314": {
-      "name": "Blacksmith"
-    },
-    "MapMarker_CityHall_UAID_6C02E03F65D9936101_1437952315": {
-      "name": "City Hall"
-    },
-    "MapMarker_DragonShrine_UAID_6C02E03F65D9936101_1437953321": {
-      "name": "Dragon Shrine"
-    },
-    "MapMarker_FamilyFarm_UAID_6C02E03F65D9936101_1437954324": {
-      "name": "Family Farm"
-    },
-    "MapMarker_FurnitureStore_UAID_6C02E03F65D9936101_1437953318": {
-      "name": "Furniture Store"
-    },
-    "MapMarker_GeneralStore_UAID_6C02E03F65D9936101_1437952316": {
-      "name": "General Store"
-    },
-    "MapMarker_Library_UAID_6C02E03F65D9936101_1437953317": {
-      "name": "Library"
     },
     "MapMarker_MayorsEstate_UAID_6C02E03F65D9936101_1437953322": {
       "name": "Mayor's Estate"
@@ -57,9 +33,6 @@
     "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_2094865648": {
       "name": "Mirror Fields"
     },
-    "MapMarker_PhoenixFalls_UAID_6C02E03F65D9936101_1437954325": {
-      "name": "Phoenix Falls"
-    },
     "MapMarker_RemembranceGarden_UAID_6C02E03F65D9936101_1437953320": {
       "name": "Remembrance Garden"
     },
@@ -68,12 +41,6 @@
     },
     "MapMarker_RemembranceGarden_UAID_CC96E5156C5D4A9101_1765151639": {
       "name": "Remembrance Beach"
-    },
-    "MapMarker_Tailor_UAID_6C02E03F65D9936101_1437953319": {
-      "name": "Tailor"
-    },
-    "MapMarker_Tavern_UAID_6C02E03F65D9936101_1437952313": {
-      "name": "Tavern"
     }
   },
   "landmark": {
@@ -101,94 +68,13 @@
     "MapMarker_Library": {
       "name": "Library"
     },
-    "MapMarker_MayorsEstate": {
-      "name": "Mayor's Estate"
-    },
     "MapMarker_PhoenixFalls": {
       "name": "Phoenix Falls"
-    },
-    "MapMarker_RemembranceGarden": {
-      "name": "Remembrance Garden"
     },
     "MapMarker_Tailor": {
       "name": "Tailor"
     },
     "MapMarker_Tavern": {
-      "name": "Tavern"
-    },
-    "MapMarker_Apothecary_UAID_6C02E03F65D9936101_1437953323": {
-      "name": "Apothecary"
-    },
-    "MapMarker_Apothecary_UAID_CC96E5156C5D4B9101_1701465443": {
-      "name": "Mirror Pond Ruins"
-    },
-    "MapMarker_Blacksmith_UAID_6C02E03F65D9936101_1437952314": {
-      "name": "Blacksmith"
-    },
-    "MapMarker_CityHall_UAID_6C02E03F65D9936101_1437952315": {
-      "name": "City Hall"
-    },
-    "MapMarker_DragonShrine_UAID_6C02E03F65D9936101_1437953321": {
-      "name": "Dragon Shrine"
-    },
-    "MapMarker_FamilyFarm_UAID_6C02E03F65D9936101_1437954324": {
-      "name": "Family Farm"
-    },
-    "MapMarker_FurnitureStore_UAID_6C02E03F65D9936101_1437953318": {
-      "name": "Furniture Store"
-    },
-    "MapMarker_GeneralStore_UAID_6C02E03F65D9936101_1437952316": {
-      "name": "General Store"
-    },
-    "MapMarker_Library_UAID_6C02E03F65D9936101_1437953317": {
-      "name": "Library"
-    },
-    "MapMarker_MayorsEstate_UAID_6C02E03F65D9936101_1437953322": {
-      "name": "Mayor's Estate"
-    },
-    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1821434640": {
-      "name": "Fisherman's Lagoon"
-    },
-    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1856820641": {
-      "name": "Whispering Banks"
-    },
-    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1893206642": {
-      "name": "Maji's Hollow"
-    },
-    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1928571643": {
-      "name": "Chapaa Crossing"
-    },
-    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1972807644": {
-      "name": "Phoenix Falls"
-    },
-    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1999525645": {
-      "name": "Kilima Village"
-    },
-    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_2035310646": {
-      "name": "Leafhopper Hills"
-    },
-    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_2068254647": {
-      "name": "Gillyfin Cove"
-    },
-    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_2094865648": {
-      "name": "Mirror Fields"
-    },
-    "MapMarker_PhoenixFalls_UAID_6C02E03F65D9936101_1437954325": {
-      "name": "Phoenix Falls"
-    },
-    "MapMarker_RemembranceGarden_UAID_6C02E03F65D9936101_1437953320": {
-      "name": "Remembrance Garden"
-    },
-    "MapMarker_RemembranceGarden_UAID_CC96E5156C5D479101_1753509996": {
-      "name": "Reflection Fields"
-    },
-    "MapMarker_RemembranceGarden_UAID_CC96E5156C5D4A9101_1765151639": {
-      "name": "Remembrance Beach"
-    },
-    "MapMarker_Tailor_UAID_6C02E03F65D9936101_1437953319": {
-      "name": "Tailor"
-    },
-    "MapMarker_Tavern_UAID_6C02E03F65D9936101_1437952313": {
       "name": "Tavern"
     }
   },
@@ -209,9 +95,9 @@
       "name": "Kilima - Leafhopper Hills"
     }
   },
-  "territories": {
-    "territories:1": {
-      "name": "Test"
+  "zone": {
+    "BP_Teleporter_FromVillageEast_to_AZ1": {
+      "name": "To Bahari Bay"
     }
   }
 }

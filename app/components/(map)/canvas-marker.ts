@@ -25,7 +25,7 @@ leaflet.Canvas.include({
       layerContext.textAlign = "center";
       layerContext.strokeStyle = "#594f42";
 
-      layerContext.font = "normal 800 14px Arial";
+      layerContext.font = "normal 700 14px Arial";
 
       const lineheight = 15;
 

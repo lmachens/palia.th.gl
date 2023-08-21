@@ -8,7 +8,6 @@ import { notFound } from "next/navigation";
 import { I18NProvider } from "../components/(i18n)/i18n-provider";
 import ActiveRoutes from "../components/(map)/active-routes";
 import Nodes from "../components/(map)/nodes";
-import Territories from "../components/(map)/territories";
 import Tiles from "../components/(map)/tiles";
 import Menu from "../components/menu";
 import PlausibleTracker from "../components/plausible-tracker";
@@ -53,7 +52,6 @@ function Layout({
         >
           <Map>
             <Tiles />
-            <Territories />
             <Nodes />
             <ActiveRoutes />
             <Search />
