@@ -38,6 +38,7 @@ const Marker = memo(function Marker({
       id,
       type,
       icon,
+      name: dict.generated[type]?.[node.id]?.name,
       radius: icon.radius * iconSize,
       isHighlighted,
       isDiscovered,

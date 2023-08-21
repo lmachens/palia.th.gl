@@ -19,7 +19,7 @@ export default function Player() {
     mounted.current = true;
 
     const icon = leaflet.icon({
-      iconUrl: "/icons/player.webp",
+      iconUrl: "/icons/Icon_PlayerMarker.png",
       className: "player",
       iconSize: [36, 36],
     });

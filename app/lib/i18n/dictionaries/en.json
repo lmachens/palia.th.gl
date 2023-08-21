@@ -24,7 +24,10 @@
     "showAll": "Show All",
     "hideAll": "Hide All",
     "recipe": "Recipe",
-    "copper": "Copper"
+    "copper": "Copper",
+    "area": "Area",
+    "landmark": "Landmark",
+    "stable": "Stable"
   },
   "settings": {
     "rightClickToggle": "Right click to toggle discovered",

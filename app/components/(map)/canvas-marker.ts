@@ -4,7 +4,7 @@ import leaflet from "leaflet";
 const cachedImages: Record<string, HTMLImageElement> = {};
 leaflet.Canvas.include({
   updateCanvasImg(layer: CanvasMarker) {
-    const { type, icon, isHighlighted, isDiscovered } = layer.options;
+    const { type, icon, name, isHighlighted, isDiscovered } = layer.options;
 
     let radius = layer.getRadius();
     if (isHighlighted) {
@@ -16,6 +16,27 @@ leaflet.Canvas.include({
     const dy = p.y - radius;
 
     const layerContext = this._ctx as CanvasRenderingContext2D;
+    if ("src" in icon) {
+      layerContext.drawImage(layer.imageElement, dx, dy, imageSize, imageSize);
+      return;
+    } else if (!("path" in icon)) {
+      const text = name ?? "";
+      layerContext.fillStyle = "#e6e5e3";
+      layerContext.textAlign = "center";
+      layerContext.strokeStyle = "#594f42";
+
+      layerContext.font = "normal 800 14px Arial";
+
+      const lineheight = 15;
+
+      text.split(" ").forEach((line, i) => {
+        layerContext.lineWidth = 3;
+        layerContext.strokeText(line, p.x, p.y - imageSize + i * lineheight);
+        layerContext.lineWidth = 1;
+        layerContext.fillText(line, p.x, p.y - imageSize + i * lineheight);
+      });
+      return;
+    }
     const key = `${type}-${isHighlighted}-${radius}-${isDiscovered}`;
     if (cachedImages[key]) {
       layerContext.drawImage(cachedImages[key], dx, dy);
@@ -30,7 +51,6 @@ leaflet.Canvas.include({
     const ctx = canvas.getContext("2d")!;
     ctx.globalAlpha = isDiscovered ? 0.5 : 1;
 
-    const path2D = new Path2D(icon.path);
     ctx.lineWidth = icon.lineWidth;
 
     const scale = imageSize / 100;
@@ -42,6 +62,7 @@ leaflet.Canvas.include({
     }
 
     ctx.fillStyle = isDiscovered ? "#5f5d57" : icon.color;
+    const path2D = new Path2D(icon.path);
     ctx.fill(path2D);
     ctx.strokeStyle = "black";
     ctx.lineWidth = icon.lineWidth + 1;
@@ -62,7 +83,7 @@ leaflet.Canvas.include({
     }
 
     img.src = ctx.canvas.toDataURL("image/webp");
-    this._ctx.drawImage(img, dx, dy);
+    layerContext.drawImage(img, dx, dy);
   },
 });
 const renderer = leaflet.canvas({ pane: "markerPane" }) as leaflet.Canvas & {
@@ -72,15 +93,21 @@ const renderer = leaflet.canvas({ pane: "markerPane" }) as leaflet.Canvas & {
 export type CanvasMarkerOptions = {
   id: string;
   type: string;
+  name?: string;
   isHighlighted?: boolean;
   isDiscovered?: boolean;
   icon: ICON;
 };
 
+const imageElements: {
+  [src: string]: HTMLImageElement;
+} = {};
 class CanvasMarker extends leaflet.CircleMarker {
   declare options: leaflet.CircleMarkerOptions & CanvasMarkerOptions;
   private _renderer: typeof renderer;
   declare _point: leaflet.Point;
+  declare imageElement: HTMLImageElement;
+  private _onImageLoad: (() => void) | undefined = undefined;
 
   constructor(
     latLng: leaflet.LatLngExpression,
@@ -89,6 +116,14 @@ class CanvasMarker extends leaflet.CircleMarker {
     options.renderer = renderer;
     super(latLng, options);
     this._renderer = renderer;
+
+    if ("src" in options.icon) {
+      if (!imageElements[options.icon.src]) {
+        imageElements[options.icon.src] = document.createElement("img");
+        imageElements[options.icon.src].src = options.icon.src;
+      }
+      this.imageElement = imageElements[options.icon.src];
+    }
   }
 
   update() {
@@ -98,8 +133,16 @@ class CanvasMarker extends leaflet.CircleMarker {
     this.redraw();
   }
 
-  _updatePath() {
-    this._renderer.updateCanvasImg(this);
+  _updatePath(): void {
+    if (!this.imageElement || this.imageElement.complete) {
+      this._renderer.updateCanvasImg(this);
+    } else if (!this._onImageLoad) {
+      this._onImageLoad = () => {
+        this.imageElement.removeEventListener("load", this._onImageLoad!);
+        this._renderer.updateCanvasImg(this);
+      };
+      this.imageElement.addEventListener("load", this._onImageLoad);
+    }
   }
 }
 
