@@ -69,7 +69,9 @@ const Marker = memo(function Marker({
         tooltipContent += `<p class="text-gray-300 text-xs font-bold">${node.id}</p>`;
 
         if ("description" in node) {
-          tooltipContent += `<p class="border-t border-t-gray-700 mt-2 pt-2 max-w-md whitespace-normal">${node.description}</p>`;
+          tooltipContent += `<p class="border-t border-t-gray-700 mt-2 pt-2 max-w-md whitespace-normal">${
+            dict.generated[type]?.[node.id]?.description ?? ""
+          }</p>`;
         } else if ("id" in node) {
           tooltipContent += `<p class="border-t border-t-gray-700 mt-2 pt-2 max-w-md whitespace-normal">${
             dict.generated[type]?.[node.id]?.description ?? ""

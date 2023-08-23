@@ -22,11 +22,12 @@
   "nodes": {
     "showAll": "Show All",
     "hideAll": "Hide All",
-    "recipe": "Recipe",
+    "location": "Location",
     "copper": "Copper",
     "area": "Area",
     "landmark": "Landmark",
     "stable": "Stable",
+    "recipe": "Recipe",
     "housingPlot": "Housing Plot",
     "zone": "Zone"
   },

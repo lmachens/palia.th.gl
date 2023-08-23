@@ -38,7 +38,7 @@ export default function Map({ children }: { children?: React.ReactNode }) {
 
   useEffect(() => {
     const worldCRS = leaflet.extend({}, leaflet.CRS.Simple, {
-      transformation: new leaflet.Transformation(1 / 215, 250, 1 / 215, 290),
+      transformation: new leaflet.Transformation(1 / 214, 250, 1 / 214, 294),
     });
 
     const map = leaflet.map(mapRef.current!, {

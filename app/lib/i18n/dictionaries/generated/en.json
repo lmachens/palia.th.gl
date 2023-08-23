@@ -1,89 +1,539 @@
 {
-  "area": {
-    "MapMarker_Apothecary_UAID_CC96E5156C5D4B9101_1701465443": {
-      "name": "Mirror Pond Ruins"
+  "sceneComponent": {
+    "AncientPlaybill_3": {
+      "name": "AncientPlaybill",
+      "description": null
     },
-    "MapMarker_MayorsEstate_UAID_6C02E03F65D9936101_1437953322": {
-      "name": "Mayor's Estate"
+    "BP_AncientTablet_Embras_1": {
+      "name": "AncientTablet_EmbrasEmbrace_1",
+      "description": null
     },
-    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1821434640": {
-      "name": "Fisherman's Lagoon"
+    "BP_TeleporterToHomeEAST": {
+      "name": "To Housing Plot",
+      "description": null
     },
-    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1856820641": {
-      "name": "Whispering Banks"
+    "Letter_From_Tomlin": {
+      "name": "Hassian_Letterfromdad",
+      "description": null
     },
-    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1893206642": {
-      "name": "Maji's Hollow"
+    "LetterfromMa_0": {
+      "name": "Zeki_LetterfromMom_1",
+      "description": null
     },
-    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1928571643": {
-      "name": "Chapaa Crossing"
+    "LetterfromMa_1": {
+      "name": "Zeki_LetterfromMom_2",
+      "description": null
     },
-    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1972807644": {
-      "name": "Phoenix Falls"
+    "LetterfromMa_2": {
+      "name": "Zeki_LetterfromMom_3",
+      "description": null
     },
-    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1999525645": {
-      "name": "Kilima Village"
+    "Library_Book_Tamala_Level3": {
+      "name": "Tamala_Quest_Lvl2",
+      "description": null
     },
-    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_2035310646": {
-      "name": "Leafhopper Hills"
+    "Naio_LetterfromKenyatta_Farm": {
+      "name": "Kenyatta_Letter_1",
+      "description": null
     },
-    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_2068254647": {
-      "name": "Gillyfin Cove"
+    "Poem_4": {
+      "name": "Poetry_Haiku_Hassian",
+      "description": null
     },
-    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_2094865648": {
-      "name": "Mirror Fields"
+    "Poem_5": {
+      "name": "Poetry_Villanelle_Hassian",
+      "description": null
     },
-    "MapMarker_RemembranceGarden_UAID_6C02E03F65D9936101_1437953320": {
-      "name": "Remembrance Garden"
+    "Poem_6": {
+      "name": "Hassian_Poem_Eyes",
+      "description": null
     },
-    "MapMarker_RemembranceGarden_UAID_CC96E5156C5D479101_1753509996": {
-      "name": "Reflection Fields"
+    "Jina_Scavenger_Hunt_1": {
+      "name": "Jina_Letter_1",
+      "description": null
     },
-    "MapMarker_RemembranceGarden_UAID_CC96E5156C5D4A9101_1765151639": {
-      "name": "Remembrance Beach"
+    "Jina_Scavenger_Hunt_3": {
+      "name": "Jina_Letter_2",
+      "description": null
+    },
+    "Library_Book_Caleri_Lvl1": {
+      "name": "Caleri_Lvl1_Book",
+      "description": null
+    },
+    "Library_Book_Hassian_Romance": {
+      "name": "Hassian_DatingBook",
+      "description": null
+    },
+    "Sifuu_BadBook": {
+      "name": "Sifuu_AwfulBook",
+      "description": null
+    },
+    "Sifuu_Better_Book": {
+      "name": "Sifuu_BetterBook",
+      "description": null
+    },
+    "BP_GateTeleporter_Parent_C_1": {
+      "name": "Go Home",
+      "description": "Talk to Ashura before going to your housing plot."
+    },
+    "AncientPlaybill_UAID_6C02E03F65D9936101_1438208554": {
+      "name": "AncientPlaybill",
+      "description": null
+    },
+    "BP_AncientTablet_Embras_UAID_6C02E03F65D9936101_1437947307": {
+      "name": "AncientTablet_EmbrasEmbrace_1",
+      "description": null
+    },
+    "Jina_Scavenger_Hunt_UAID_6C02E03F65D9936101_1532415961": {
+      "name": "Jina_Letter_2",
+      "description": null
+    },
+    "Letter_From_Tomlin_UAID_6C02E03F65D9936101_1437923274": {
+      "name": "Hassian_Letterfromdad",
+      "description": null
+    },
+    "Library_Book_Caleri_Lvl1_UAID_6C02E03F65D9936101_1532415962": {
+      "name": "Caleri_Lvl1_Book",
+      "description": null
+    },
+    "Library_Book_Hassian_Romance_UAID_6C02E03F65D9936101_1532416963": {
+      "name": "Hassian_DatingBook",
+      "description": null
+    },
+    "Library_Book_Tamala_Level3_UAID_6C02E03F65D9936101_1437897247": {
+      "name": "Tamala_Quest_Lvl2",
+      "description": null
+    },
+    "MapMarker_Apothecary_UAID_6C02E03F65D9936101_1437953323": {
+      "name": "Apothecary",
+      "description": null
+    },
+    "MapMarker_Blacksmith_UAID_6C02E03F65D9936101_1437952314": {
+      "name": "Blacksmith",
+      "description": null
+    },
+    "MapMarker_CityHall_UAID_6C02E03F65D9936101_1437952315": {
+      "name": "City Hall",
+      "description": null
+    },
+    "MapMarker_DragonShrine_UAID_6C02E03F65D9936101_1437953321": {
+      "name": "Dragon Shrine",
+      "description": null
+    },
+    "MapMarker_FamilyFarm_UAID_6C02E03F65D9936101_1437954324": {
+      "name": "Family Farm",
+      "description": null
+    },
+    "MapMarker_FurnitureStore_UAID_6C02E03F65D9936101_1437953318": {
+      "name": "Furniture Store",
+      "description": null
+    },
+    "MapMarker_GeneralStore_UAID_6C02E03F65D9936101_1437952316": {
+      "name": "General Store",
+      "description": null
+    },
+    "MapMarker_Library_UAID_6C02E03F65D9936101_1437953317": {
+      "name": "Library",
+      "description": null
+    },
+    "MapMarker_PhoenixFalls_UAID_6C02E03F65D9936101_1437954325": {
+      "name": "Phoenix Falls",
+      "description": null
+    },
+    "MapMarker_Tailor_UAID_6C02E03F65D9936101_1437953319": {
+      "name": "Tailor",
+      "description": null
+    },
+    "MapMarker_Tavern_UAID_6C02E03F65D9936101_1437952313": {
+      "name": "Tavern",
+      "description": null
+    },
+    "Sifuu_BadBook_UAID_6C02E03F65D9936101_1532417964": {
+      "name": "Sifuu_AwfulBook",
+      "description": null
+    },
+    "Sifuu_Better_Book_UAID_6C02E03F65D9936101_1532417965": {
+      "name": "Sifuu_BetterBook",
+      "description": null
+    },
+    "BP_ConfigurableBook_C_1": {
+      "name": "Watershrine_Book_SCrusher",
+      "description": null
+    },
+    "BP_DoorTeleporter_Parent_C_1": {
+      "name": "Return to Village"
+    },
+    "Fishing_Log_EinarCave_01": {
+      "name": "FishingLog_1",
+      "description": null
+    },
+    "Fishing_Log_EinarCave_02": {
+      "name": "FishingLog_2",
+      "description": null
+    },
+    "Fishing_Log_EinarCave_03": {
+      "name": "FishingLog_3",
+      "description": null
+    },
+    "Fishing_Log_EinarCave_04": {
+      "name": "FishingLog_4",
+      "description": null
+    },
+    "BP_DoorTeleporter_Parent_C_0": {
+      "name": "Chayne's Room"
+    },
+    "BP_DoorTeleporter_Parent_C_2": {
+      "name": "The Trial of Courage",
+      "description": "The door is still locked..."
+    },
+    "BP_DoorTeleporter_Parent_C_3": {
+      "name": "Return to Village"
+    },
+    "BP_DoorTeleporter_Parent_C_4": {
+      "name": "Mysterious Chamber",
+      "description": "The door is still locked..."
+    },
+    "BP_DoorTeleporter_Parent_C_5": {
+      "name": "Return to Foyer",
+      "description": "The door doesn't budge..."
+    },
+    "BP_DoorTeleporter_Parent_C_6": {
+      "name": "Mysterious Chamber",
+      "description": "The door is still locked..."
+    },
+    "BP_DoorTeleporter_Parent_C_7": {
+      "name": "Return to Foyer",
+      "description": "The door doesn't budge..."
+    },
+    "BP_ConfigurableBook_C_0": {
+      "name": "Watershrine_Book_CurativeFlow",
+      "description": null
+    },
+    "BP_ConfigurableBook_C_2": {
+      "name": "Watershrine_Book_LockedIn",
+      "description": null
+    },
+    "BP_ConfigurableBook_C_3": {
+      "name": "Watershrine_Book_LoveInterest",
+      "description": null
+    },
+    "BP_ConfigurableBook_C_4": {
+      "name": "Watershrine_Book_LastGuard",
+      "description": null
+    },
+    "Letter_From_Kobe_02_Tavern": {
+      "name": "Ashura_Quest_Lvl3_2",
+      "description": null
+    },
+    "Letter_From_Duchess": {
+      "name": "Eshe_Bedroom_LetterfromDuchess",
+      "description": null
+    },
+    "Naio_LetterfromKenyatta_Farm_0": {
+      "name": "Kenyatta_Letter_1",
+      "description": null
+    },
+    "Sifuu_Better_Book_0": {
+      "name": "Sifuu_BetterBook",
+      "description": null
+    },
+    "Auni_Diary_Treehouse": {
+      "name": "Auni_Diary",
+      "description": null
+    },
+    "BP_DoorTeleporter_Caleri_C_1": {
+      "name": "Library"
+    },
+    "BP_ConfigurableBook_C_UAID_00BE43BC7D556A9301_1673777316": {
+      "name": "PrismRemembrance",
+      "description": null
+    },
+    "BP_Register_MajiMarket_ChapaaChase_2_C_UAID_6C02E03F66F24C7F01_1237371159": {
+      "name": "Chapaa Hut",
+      "description": null
+    },
+    "BP_Register_MajiMarket_Delaila_2_C_UAID_6C02E03F66F24D7F01_1647040165": {
+      "name": "Delaila's Sweet Treats",
+      "description": null
+    },
+    "BP_Register_MajiMarket_ExperimentalFood_C_UAID_6C02E03F66F24D7F01_1524786164": {
+      "name": "Reth's Street Specialties",
+      "description": null
+    },
+    "BP_Register_MajiMarket_Fireworks_2_C_UAID_6C02E03F66F24D7F01_1498023163": {
+      "name": "Pavel Fireworks Booth",
+      "description": null
+    },
+    "BP_StandaloneTeleportDestination_C_UAID_CC96E503E0F4046E01_1132393500": {
+      "name": "Phoenix Shrine Exit"
+    }
+  },
+  "recipe": {
+    "Ashura_Recipe_Cearnuk_Noodle_Tavern": {
+      "name": "Recipe_Cearnuk_Noodle",
+      "description": null
+    },
+    "BP_RecipeScrap_ValerianOnion_1_MayorEstate": {
+      "name": "Recipe_ValerianOnion_1",
+      "description": null
+    },
+    "BP_RecipeScrap_ValerianOnion_2_CityHall": {
+      "name": "Recipe_ValerianOnion_2",
+      "description": null
+    },
+    "Library_Book_Recipe_Carrot_Soup": {
+      "name": "Recipe_CarrotSoup",
+      "description": null
+    },
+    "Recipe_Mushrooms_Farm": {
+      "name": "Recipe_MushroomDinner",
+      "description": null
+    },
+    "Reth_Recipe_TomatoSoup_Tavern_Basement": {
+      "name": "Recipe_TomatoSoup",
+      "description": null
+    },
+    "Library_Book_Recipe_Carrot_Soup_UAID_6C02E03F65D9936101_1437912268": {
+      "name": "Recipe_CarrotSoup",
+      "description": null
+    },
+    "Recipe_Mushrooms_Farm_UAID_6C02E03F65D9936101_1437956330": {
+      "name": "Recipe_MushroomDinner",
+      "description": null
+    },
+    "Einar_Recipe_TroutDinner_EinarCave": {
+      "name": "Recipe_TroutDinner",
+      "description": null
+    },
+    "BP_ConfigurableBook_C_1": {
+      "name": "Recipe_ApplePie",
+      "description": null
+    },
+    "Reth_Recipe_TomatoSoup_Tavern_Basement_2": {
+      "name": "Recipe_TomatoSoup",
+      "description": null
     }
   },
   "landmark": {
     "MapMarker_Apothecary": {
-      "name": "Apothecary"
+      "name": "Apothecary",
+      "description": null
     },
     "MapMarker_Blacksmith": {
-      "name": "Blacksmith"
+      "name": "Blacksmith",
+      "description": null
     },
     "MapMarker_CityHall": {
-      "name": "City Hall"
+      "name": "City Hall",
+      "description": null
     },
     "MapMarker_DragonShrine": {
-      "name": "Dragon Shrine"
+      "name": "Dragon Shrine",
+      "description": null
     },
     "MapMarker_FamilyFarm": {
-      "name": "Family Farm"
+      "name": "Family Farm",
+      "description": null
     },
     "MapMarker_FurnitureStore": {
-      "name": "Furniture Store"
+      "name": "Furniture Store",
+      "description": null
     },
     "MapMarker_GeneralStore": {
-      "name": "General Store"
+      "name": "General Store",
+      "description": null
     },
     "MapMarker_Library": {
-      "name": "Library"
+      "name": "Library",
+      "description": null
+    },
+    "MapMarker_MayorsEstate": {
+      "name": "Mayor's Estate",
+      "description": null
     },
     "MapMarker_PhoenixFalls": {
-      "name": "Phoenix Falls"
+      "name": "Phoenix Falls",
+      "description": null
+    },
+    "MapMarker_RemembranceGarden": {
+      "name": "Remembrance Garden",
+      "description": null
     },
     "MapMarker_Tailor": {
-      "name": "Tailor"
+      "name": "Tailor",
+      "description": null
     },
     "MapMarker_Tavern": {
-      "name": "Tavern"
+      "name": "Tavern",
+      "description": null
     }
   },
-  "stable": {
+  "zone": {
+    "BP_Teleporter_FromVillageEast_to_AZ1": {
+      "name": "To Bahari Bay",
+      "description": null
+    }
+  },
+  "staticMeshComponent": {
+    "BP_TeleporterToHomeEAST": {
+      "name": "To Housing Plot",
+      "description": null
+    },
+    "Library_Book_Tamala_Level3": {
+      "name": "Tamala_Quest_Lvl2",
+      "description": null
+    },
+    "Library_Book_Caleri_Lvl1": {
+      "name": "Caleri_Lvl1_Book",
+      "description": null
+    },
+    "BP_Stables_Sign_UAID_B04F1306EDBFF47501_2119042900": {
+      "name": "Kilima - Leafhopper Hills"
+    },
+    "Library_Book_Caleri_Lvl1_UAID_6C02E03F65D9936101_1532415962": {
+      "name": "Caleri_Lvl1_Book",
+      "description": null
+    },
+    "Library_Book_Tamala_Level3_UAID_6C02E03F65D9936101_1437897247": {
+      "name": "Tamala_Quest_Lvl2",
+      "description": null
+    },
+    "BP_DoorTeleporter_Parent_C_1": {
+      "name": "Return to Village"
+    },
+    "BP_DoorTeleporter_Parent_C_0": {
+      "name": "Return to Bahari Bay"
+    },
+    "BP_DoorTeleporter_Parent_C_2": {
+      "name": "The Trial of Courage",
+      "description": "The door is still locked..."
+    },
+    "BP_DoorTeleporter_Parent_C_3": {
+      "name": "Return to Foyer",
+      "description": "The door doesn't budge..."
+    },
+    "BP_DoorTeleporter_Parent_C_4": {
+      "name": "Mysterious Chamber",
+      "description": "The door is still locked..."
+    },
+    "BP_DoorTeleporter_Parent_C_5": {
+      "name": "Return to Foyer",
+      "description": "The door doesn't budge..."
+    },
+    "BP_DoorTeleporter_Parent_C_6": {
+      "name": "Mysterious Chamber",
+      "description": "The door is still locked..."
+    },
+    "BP_DoorTeleporter_Parent_C_7": {
+      "name": "Return to Foyer",
+      "description": "The door doesn't budge..."
+    },
+    "BP_ConfigurableBook_C_2": {
+      "name": "Watershrine_Book_LockedIn",
+      "description": null
+    },
+    "BP_ConfigurableBook_C_3": {
+      "name": "Watershrine_Book_LoveInterest",
+      "description": null
+    },
+    "BP_ConfigurableBook_C_4": {
+      "name": "Watershrine_Book_LastGuard",
+      "description": null
+    },
+    "Letter_From_Duchess": {
+      "name": "Eshe_Bedroom_LetterfromDuchess",
+      "description": null
+    },
+    "MapIntroPrivateSpaceTeleportConfig": {
+      "name": "Phoenix Shrine"
+    },
+    "LetterfromMa_0": {
+      "name": "Zeki_LetterfromMom_1",
+      "description": null
+    },
+    "BP_Teleporter_C_0": {
+      "name": "Mayor's Estate"
+    },
+    "BP_ConfigurableBook_C_UAID_00BE43BC7D556A9301_1673777316": {
+      "name": "PrismRemembrance",
+      "description": null
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63027A01_1846573965": {
+      "name": "Kenli's Records Room",
+      "description": "You need a key from Kenli to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE630D7901_1180776852": {
+      "name": "The Sewers",
+      "description": "Finish the Housing Plot Tutorial First"
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE630D7901_2065472831": {
+      "name": "Pull out loose book",
+      "description": "It reveals a hidden lock. Perhaps you need a key?"
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63117A01_1306167092": {
+      "name": "Zeki's Room",
+      "description": "You need a key from Zeki to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63117A01_1565504093": {
+      "name": "Enter Ruins",
+      "description": "You need a key from Jina to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63117A01_1634586094": {
+      "name": "Hekla's Tent",
+      "description": "You need a key from Hekla to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63147901_1235260488": {
+      "name": "Einar's Cave",
+      "description": "You need a key from Einar to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63197A01_1883867172": {
+      "name": "City Hall Storage Room",
+      "description": "You need a key to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63197A01_2067513173": {
+      "name": "City Hall Lobby",
+      "description": "You need a key!"
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE631B7A01_2127635217": {
+      "name": "Night Sky Temple",
+      "description": "Finish the Housing Plot Tutorial First"
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63F77901_1205368166": {
+      "name": "Elouisa's Room",
+      "description": "You need a key from Elouisa to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63F77901_1545949167": {
+      "name": "Tish's Room",
+      "description": "You need a key from Tish to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63F87901_1276917346": {
+      "name": "Jel's Room",
+      "description": "You need a key from Jel to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63FC7901_1561438987": {
+      "name": "Kenyatta's Room",
+      "description": "You need a key from Kenyatta to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63FC7901_1912430989": {
+      "name": "Eshe's Room",
+      "description": "You need a key from Eshe to enter."
+    }
+  },
+  "arrowComponent": {
+    "BP_Stables_Sign_UAID_B04F1306EDBFF47501_2055973898": {
+      "name": "Kilima - Mirror Fields"
+    },
+    "BP_Stables_Sign_UAID_B04F1306EDBFF47501_2119042900": {
+      "name": "Kilima - Leafhopper Hills"
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE630D7901_2065472831": {
+      "name": "Pull out loose book",
+      "description": "It reveals a hidden lock. Perhaps you need a key?"
+    }
+  },
+  "childActorComponent": {
     "BP_Stables_Sign_UAID_6C02E03F65D9936101_1437950312": {
       "name": "Kilima - Central Stables"
-    },
-    "BP_Stables_Sign_UAID_6C02E03F66F2966401_1438105510": {
-      "name": "Maji Market"
     },
     "BP_Stables_Sign_UAID_B04F1306EDBFF47501_2055973898": {
       "name": "Kilima - Mirror Fields"
@@ -95,9 +545,428 @@
       "name": "Kilima - Leafhopper Hills"
     }
   },
-  "zone": {
-    "BP_Teleporter_FromVillageEast_to_AZ1": {
-      "name": "To Bahari Bay"
+  "stable": {
+    "BP_Stables_Sign_UAID_6C02E03F65D9936101_1437950312": {
+      "name": "Kilima - Central Stables"
+    },
+    "BP_Stables_Sign_UAID_6C02E03F66F2966401_1438105510": {
+      "name": "Maji Market",
+      "description": "Not available until tutorial quests are completed."
+    },
+    "BP_Stables_Sign_UAID_B04F1306EDBFF47501_2055973898": {
+      "name": "Kilima - Mirror Fields"
+    },
+    "BP_Stables_Sign_UAID_B04F1306EDBFF47501_2116097899": {
+      "name": "Kilima - Whispering Banks"
+    },
+    "BP_Stables_Sign_UAID_B04F1306EDBFF47501_2119042900": {
+      "name": "Kilima - Leafhopper Hills"
+    }
+  },
+  "area": {
+    "MapMarker_Apothecary_UAID_CC96E5156C5D4B9101_1701465443": {
+      "name": "Mirror Pond Ruins",
+      "description": null
+    },
+    "MapMarker_MayorsEstate_UAID_6C02E03F65D9936101_1437953322": {
+      "name": "Mayor's Estate",
+      "description": null
+    },
+    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1821434640": {
+      "name": "Fisherman's Lagoon",
+      "description": null
+    },
+    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1856820641": {
+      "name": "Whispering Banks",
+      "description": null
+    },
+    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1893206642": {
+      "name": "Maji's Hollow",
+      "description": null
+    },
+    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1928571643": {
+      "name": "Chapaa Crossing",
+      "description": null
+    },
+    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1972807644": {
+      "name": "Phoenix Falls",
+      "description": null
+    },
+    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1999525645": {
+      "name": "Kilima Village",
+      "description": null
+    },
+    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_2035310646": {
+      "name": "Leafhopper Hills",
+      "description": null
+    },
+    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_2068254647": {
+      "name": "Gillyfin Cove",
+      "description": null
+    },
+    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_2094865648": {
+      "name": "Mirror Fields",
+      "description": null
+    },
+    "MapMarker_RemembranceGarden_UAID_6C02E03F65D9936101_1437953320": {
+      "name": "Remembrance Garden",
+      "description": null
+    },
+    "MapMarker_RemembranceGarden_UAID_CC96E5156C5D479101_1753509996": {
+      "name": "Reflection Fields",
+      "description": null
+    },
+    "MapMarker_RemembranceGarden_UAID_CC96E5156C5D4A9101_1765151639": {
+      "name": "Remembrance Beach",
+      "description": null
+    }
+  },
+  "teleportDestinationComponent": {
+    "BP_Stables_Sign_UAID_6C02E03F65D9936101_1437950312": {
+      "name": "Kilima - Central Stables"
+    },
+    "BP_Stables_Sign_UAID_6C02E03F66F2966401_1438105510": {
+      "name": "Maji Market",
+      "description": "Not available until tutorial quests are completed."
+    },
+    "BP_Stables_Sign_UAID_B04F1306EDBFF47501_2055973898": {
+      "name": "Kilima - Mirror Fields"
+    },
+    "BP_Stables_Sign_UAID_B04F1306EDBFF47501_2116097899": {
+      "name": "Kilima - Whispering Banks"
+    },
+    "BP_Stables_Sign_UAID_B04F1306EDBFF47501_2119042900": {
+      "name": "Kilima - Leafhopper Hills"
+    },
+    "BP_DoorTeleporter_Parent_C_0": {
+      "name": "Return to Bahari Bay"
+    },
+    "BP_DoorTeleporter_Parent_C_2": {
+      "name": "The Trial of Courage",
+      "description": "The door is still locked..."
+    },
+    "BP_DoorTeleporter_Parent_C_3": {
+      "name": "Return to Foyer",
+      "description": "The door doesn't budge..."
+    },
+    "BP_DoorTeleporter_Parent_C_4": {
+      "name": "Mysterious Chamber",
+      "description": "The door is still locked..."
+    },
+    "BP_DoorTeleporter_Parent_C_5": {
+      "name": "Return to Foyer",
+      "description": "The door doesn't budge..."
+    },
+    "BP_DoorTeleporter_Parent_C_6": {
+      "name": "Mysterious Chamber",
+      "description": "The door is still locked..."
+    },
+    "BP_DoorTeleporter_Parent_C_7": {
+      "name": "Return to Foyer",
+      "description": "The door doesn't budge..."
+    },
+    "BP_DoorTeleporter_Parent_C_1": {
+      "name": "Return to Village"
+    },
+    "BP_Teleporter_C_0": {
+      "name": "Mayor's Estate"
+    },
+    "BP_GateTeleporter_Parent_C_UAID_CC96E503E0F4268201_1876024839": {
+      "name": "To Housing Plot",
+      "description": null
+    },
+    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE63617801_2105154458": {
+      "name": "To Housing Plot",
+      "description": null
+    },
+    "BP_DoorTeleporter_Chayne_C_UAID_CC96E503DD7EDC7701_1659484090": {
+      "name": "Chayne's Room",
+      "description": "You need a key from Chayne to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63027A01_1846573965": {
+      "name": "Kenli's Records Room",
+      "description": "You need a key from Kenli to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE630D7901_1180776852": {
+      "name": "The Sewers",
+      "description": "Finish the Housing Plot Tutorial First"
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE630D7901_2065472831": {
+      "name": "Pull out loose book",
+      "description": "It reveals a hidden lock. Perhaps you need a key?"
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63107901_1465714255": {
+      "name": "Sifuu's Room",
+      "description": "You need a key from Sifuu to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63117A01_1306167092": {
+      "name": "Zeki's Room",
+      "description": "You need a key from Zeki to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63117A01_1565504093": {
+      "name": "Enter Ruins",
+      "description": "You need a key from Jina to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63117A01_1634586094": {
+      "name": "Hekla's Tent",
+      "description": "You need a key from Hekla to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63117A01_1765929095": {
+      "name": "Badruu's Barn",
+      "description": "You need a key from Badruu to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63117A01_1905855096": {
+      "name": "Auni's Treehouse",
+      "description": "You need a key from Auni to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63117A01_2054381097": {
+      "name": "Nai'o and Auni's Room",
+      "description": "You need a key from Nai'o to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63127A01_1110902274": {
+      "name": "Delaila and Badruu's Room",
+      "description": "You need a key from Delaila to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63147901_1235260488": {
+      "name": "Einar's Cave",
+      "description": "You need a key from Einar to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63177A01_1613718543": {
+      "name": "Enter Ruins",
+      "description": "Need Battery"
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63197A01_1883867172": {
+      "name": "City Hall Storage Room",
+      "description": "You need a key to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63197A01_2067513173": {
+      "name": "City Hall Lobby",
+      "description": "You need a key!"
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE631B7A01_2127635217": {
+      "name": "Night Sky Temple",
+      "description": "Finish the Housing Plot Tutorial First"
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63F77901_1205368166": {
+      "name": "Elouisa's Room",
+      "description": "You need a key from Elouisa to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63F77901_1545949167": {
+      "name": "Tish's Room",
+      "description": "You need a key from Tish to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63F77901_1705194168": {
+      "name": "Reth's Storeroom",
+      "description": "You need a key from Reth to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63F77901_1825970169": {
+      "name": "Ashura's Room",
+      "description": "You need a key from Ashura to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63F87901_1276917346": {
+      "name": "Jel's Room",
+      "description": "You need a key from Jel to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63FC7901_1561438987": {
+      "name": "Kenyatta's Room",
+      "description": "You need a key from Kenyatta to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63FC7901_1912430989": {
+      "name": "Eshe's Room",
+      "description": "You need a key from Eshe to enter."
+    },
+    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE630E7901_1573823092": {
+      "name": "To Kilima Village",
+      "description": null
+    },
+    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE634E7A01_1976701586": {
+      "name": "Fairgrounds",
+      "description": null
+    },
+    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE63627801_1776598294": {
+      "name": "To Bahari Bay",
+      "description": null
+    }
+  },
+  "teleportToComponent": {
+    "BP_Stables_Sign_UAID_6C02E03F65D9936101_1437950312": {
+      "name": "Kilima - Central Stables"
+    },
+    "BP_Stables_Sign_UAID_6C02E03F66F2966401_1438105510": {
+      "name": "Maji Market",
+      "description": "Not available until tutorial quests are completed."
+    },
+    "BP_Stables_Sign_UAID_B04F1306EDBFF47501_2055973898": {
+      "name": "Kilima - Mirror Fields"
+    },
+    "BP_Stables_Sign_UAID_B04F1306EDBFF47501_2116097899": {
+      "name": "Kilima - Whispering Banks"
+    },
+    "BP_Stables_Sign_UAID_B04F1306EDBFF47501_2119042900": {
+      "name": "Kilima - Leafhopper Hills"
+    },
+    "MapIntroPrivateSpaceTeleportConfig": {
+      "name": "Phoenix Shrine"
+    },
+    "BP_Teleporter_C_0": {
+      "name": "Mayor's Estate"
+    }
+  },
+  "sphereComponent": {
+    "BP_ConfigurableBook_C_0": {
+      "name": "Watershrine_Book_CurativeFlow",
+      "description": null
+    },
+    "BP_ConfigurableBook_C_2": {
+      "name": "Watershrine_Book_LockedIn",
+      "description": null
+    },
+    "BP_ConfigurableBook_C_3": {
+      "name": "Watershrine_Book_LoveInterest",
+      "description": null
+    },
+    "BP_ConfigurableBook_C_4": {
+      "name": "Watershrine_Book_LastGuard",
+      "description": null
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE630D7901_1180776852": {
+      "name": "The Sewers",
+      "description": "Finish the Housing Plot Tutorial First"
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE630D7901_2065472831": {
+      "name": "Pull out loose book",
+      "description": "It reveals a hidden lock. Perhaps you need a key?"
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63117A01_1306167092": {
+      "name": "Zeki's Room",
+      "description": "You need a key from Zeki to enter."
+    }
+  },
+  "housingPlot": {
+    "BP_GateTeleporter_Parent_C_UAID_CC96E503E0F4268201_1876024839": {
+      "name": "To Housing Plot",
+      "description": null
+    }
+  },
+  "location": {
+    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE63617801_2105154458": {
+      "name": "To Housing Plot",
+      "description": null
+    },
+    "BP_DoorTeleporter_Chayne_C_UAID_CC96E503DD7EDC7701_1659484090": {
+      "name": "Chayne's Room",
+      "description": "You need a key from Chayne to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63027A01_1846573965": {
+      "name": "Kenli's Records Room",
+      "description": "You need a key from Kenli to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63087901_1447757851": {
+      "name": "Zeki's General Store",
+      "description": "You need a key from Zeki."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE630D7901_1180776852": {
+      "name": "The Sewers",
+      "description": "Finish the Housing Plot Tutorial First"
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE630D7901_1521224861": {
+      "name": "Crystal Lake"
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE630D7901_2065472831": {
+      "name": "Pull out loose book",
+      "description": "It reveals a hidden lock. Perhaps you need a key?"
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63107901_1465714255": {
+      "name": "Sifuu's Room",
+      "description": "You need a key from Sifuu to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63117A01_1306167092": {
+      "name": "Zeki's Room",
+      "description": "You need a key from Zeki to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63117A01_1565504093": {
+      "name": "Enter Ruins",
+      "description": "You need a key from Jina to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63117A01_1634586094": {
+      "name": "Hekla's Tent",
+      "description": "You need a key from Hekla to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63117A01_1765929095": {
+      "name": "Badruu's Barn",
+      "description": "You need a key from Badruu to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63117A01_1905855096": {
+      "name": "Auni's Treehouse",
+      "description": "You need a key from Auni to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63117A01_2054381097": {
+      "name": "Nai'o and Auni's Room",
+      "description": "You need a key from Nai'o to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63127A01_1110902274": {
+      "name": "Delaila and Badruu's Room",
+      "description": "You need a key from Delaila to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63147901_1235260488": {
+      "name": "Einar's Cave",
+      "description": "You need a key from Einar to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63177A01_1613718543": {
+      "name": "Enter Ruins",
+      "description": "Need Battery"
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63197A01_1883867172": {
+      "name": "City Hall Storage Room",
+      "description": "You need a key to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63197A01_2067513173": {
+      "name": "City Hall Lobby",
+      "description": "You need a key!"
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE631B7A01_2127635217": {
+      "name": "Night Sky Temple",
+      "description": "Finish the Housing Plot Tutorial First"
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63F77901_1205368166": {
+      "name": "Elouisa's Room",
+      "description": "You need a key from Elouisa to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63F77901_1545949167": {
+      "name": "Tish's Room",
+      "description": "You need a key from Tish to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63F77901_1705194168": {
+      "name": "Reth's Storeroom",
+      "description": "You need a key from Reth to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63F77901_1825970169": {
+      "name": "Ashura's Room",
+      "description": "You need a key from Ashura to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63F87901_1276917346": {
+      "name": "Jel's Room",
+      "description": "You need a key from Jel to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63FC7901_1561438987": {
+      "name": "Kenyatta's Room",
+      "description": "You need a key from Kenyatta to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63FC7901_1912430989": {
+      "name": "Eshe's Room",
+      "description": "You need a key from Eshe to enter."
+    },
+    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE630E7901_1573823092": {
+      "name": "To Kilima Village",
+      "description": null
+    },
+    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE634E7A01_1976701586": {
+      "name": "Fairgrounds",
+      "description": null
+    },
+    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE63627801_1776598294": {
+      "name": "To Bahari Bay",
+      "description": null
     }
   }
 }

@@ -24,7 +24,7 @@ export default function Tiles() {
       return;
     }
     const canvasLayer = createCanvasLayer(
-      "/maps/kilima-valley/{z}/{y}/{x}.jpg",
+      "/maps/kilima-valley/{z}/{y}/{x}.webp",
       {
         minNativeZoom: MIN_NATIVE_ZOOM,
         maxNativeZoom: MAX_NATIVE_ZOOM,
