@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { DEFAULT_LOCALE, LOCALES } from "./app/lib/i18n";
+import { DEFAULT_MAP, MAPS } from "./app/lib/maps";
 
 const COOKIE_NAME = "i18next";
 
@@ -13,41 +14,38 @@ function getUserLanguage(req: NextRequest) {
   return DEFAULT_LOCALE;
 }
 
-function getPathLanguage(pathname: string) {
-  const [, pathLanguage] = pathname.match(/\/(\w+)\/?/) ?? [];
+function getPathParams(pathname: string) {
+  const [, pathLanguage, map] = pathname.split("/") ?? [];
   if (pathLanguage && LOCALES.includes(pathLanguage)) {
-    return pathLanguage;
+    if (map && MAPS.includes(map)) {
+      return { pathLanguage, map };
+    }
+    return { pathLanguage, map: null };
   }
-  return null;
+  return { pathLanguage: null, map: null };
 }
 
 export async function middleware(req: NextRequest) {
+  console.log(req.nextUrl.pathname);
   const userLanguage = getUserLanguage(req);
-  const pathLanguage = getPathLanguage(req.nextUrl.pathname);
+  const { pathLanguage, map } = getPathParams(req.nextUrl.pathname);
   if (pathLanguage) {
-    let res: NextResponse<unknown>;
-    if (pathLanguage === DEFAULT_LOCALE) {
-      const path = req.nextUrl.pathname.replace(`/${pathLanguage}`, "") || "/";
-      res = NextResponse.redirect(new URL(path + req.nextUrl.search, req.url));
-    } else {
-      res = NextResponse.next();
-    }
-    if (req.nextUrl.pathname === `/${pathLanguage}`) {
+    if (!map) {
+      const res = NextResponse.redirect(
+        new URL(`/${pathLanguage}/${DEFAULT_MAP}`, req.url)
+      );
       res.cookies.set(COOKIE_NAME, pathLanguage, {
         maxAge: 60 * 60 * 24 * 30,
       });
       return res;
     }
-  } else if (userLanguage !== DEFAULT_LOCALE) {
+  } else {
     return NextResponse.redirect(
-      new URL(
-        `/${userLanguage}${req.nextUrl.pathname}${req.nextUrl.search}`,
-        req.url
-      )
+      new URL(`/${userLanguage}/${DEFAULT_MAP}`, req.url)
     );
   }
 }
 
 export const config = {
-  matcher: ["/", "/en", "/en/(nodes/.*)", "/(nodes/.*)"],
+  matcher: ["/((?!api|_next/static|_next/image|favicon.ico|maps|icons).*)"],
 };

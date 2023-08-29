@@ -14,7 +14,7 @@ export const BOUNDS: LatLngBoundsExpression = [
   [-TILE_SIZE, TILE_SIZE],
 ];
 
-export default function Tiles() {
+export default function Tiles({ map: mapName }: { map: string }) {
   const map = useMap();
   const mapFilter = useSettingsStore((state) => state.mapFilter);
   const isOverlay = useGameInfoStore((state) => state.isOverlay);
@@ -23,21 +23,18 @@ export default function Tiles() {
     if (isOverlay && mapFilter === "full") {
       return;
     }
-    const canvasLayer = createCanvasLayer(
-      "/maps/kilima-valley/{z}/{y}/{x}.webp",
-      {
-        minNativeZoom: MIN_NATIVE_ZOOM,
-        maxNativeZoom: MAX_NATIVE_ZOOM,
-        minZoom: map.getMinZoom(),
-        maxZoom: map.getMaxZoom(),
-        // bounds: BOUNDS,
-        tileSize: TILE_SIZE,
-        updateInterval: 100,
-        keepBuffer: 8,
-        // zoomOffset: 2,
-        filter: isOverlay ? mapFilter : "none",
-      }
-    ).addTo(map);
+    const canvasLayer = createCanvasLayer(`/maps/${mapName}/{z}/{y}/{x}.webp`, {
+      minNativeZoom: MIN_NATIVE_ZOOM,
+      maxNativeZoom: MAX_NATIVE_ZOOM,
+      minZoom: map.getMinZoom(),
+      maxZoom: map.getMaxZoom(),
+      // bounds: BOUNDS,
+      tileSize: TILE_SIZE,
+      updateInterval: 100,
+      keepBuffer: 8,
+      // zoomOffset: 2,
+      filter: isOverlay ? mapFilter : "none",
+    }).addTo(map);
 
     return () => {
       canvasLayer.remove();

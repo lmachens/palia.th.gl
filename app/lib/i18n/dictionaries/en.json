@@ -19,6 +19,10 @@
   "search": {
     "placeholder": "Search by name or type"
   },
+  "maps": {
+    "kilima-valley": "Kilima Valley",
+    "bahari-bay": "Bahari Bay"
+  },
   "nodes": {
     "showAll": "Show All",
     "hideAll": "Hide All",

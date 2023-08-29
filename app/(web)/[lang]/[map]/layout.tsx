@@ -1,35 +1,40 @@
+import "@/app/globals.css";
 import { Inter } from "next/font/google";
-import "../globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
+import { I18NProvider } from "@/app/components/(i18n)/i18n-provider";
+import ActiveRoutes from "@/app/components/(map)/active-routes";
+import Nodes from "@/app/components/(map)/nodes";
+import Tiles from "@/app/components/(map)/tiles";
+import Menu from "@/app/components/menu";
+import PlausibleTracker from "@/app/components/plausible-tracker";
+import SearchParams from "@/app/components/search-params";
+import {
+  DEFAULT_LOCALE,
+  LOCALES,
+  isLang,
+  loadDictionary,
+} from "@/app/lib/i18n";
 import dynamic from "next/dynamic";
 import { notFound } from "next/navigation";
-import { I18NProvider } from "../components/(i18n)/i18n-provider";
-import ActiveRoutes from "../components/(map)/active-routes";
-import Nodes from "../components/(map)/nodes";
-import Tiles from "../components/(map)/tiles";
-import Menu from "../components/menu";
-import PlausibleTracker from "../components/plausible-tracker";
-import SearchParams from "../components/search-params";
-import { DEFAULT_LOCALE, LOCALES, isLang, loadDictionary } from "../lib/i18n";
 
 export { generateMetadata } from "@/app/lib/meta";
 
-const Map = dynamic(() => import("../components/(map)/map"), {
+const Map = dynamic(() => import("@/app/components/(map)/map"), {
   ssr: false,
 });
 
-const Search = dynamic(() => import("../components/search"), {
+const Search = dynamic(() => import("@/app/components/search"), {
   ssr: false,
 });
 
 function Layout({
   // children,
-  params: { lang = "en" },
+  params: { lang, map },
 }: {
   children: React.ReactNode;
-  params: { lang?: string };
+  params: { lang: string; map: string };
 }) {
   if (!isLang(lang)) {
     notFound();
@@ -50,9 +55,9 @@ function Layout({
             dict,
           }}
         >
-          <Map>
-            <Tiles />
-            <Nodes />
+          <Map map={map}>
+            <Tiles map={map} />
+            <Nodes map={map} />
             <ActiveRoutes />
             <Search />
             <Menu />

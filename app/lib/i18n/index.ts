@@ -1,10 +1,7 @@
 import en from "./dictionaries/en.json";
 import { default as enGenerated } from "./dictionaries/generated/en.json";
 
-type GENERATED = Record<
-  string,
-  Record<string, { name: string; description?: string }>
->;
+type GENERATED = typeof enGenerated;
 export type DICT =
   | typeof en & {
       generated: GENERATED;

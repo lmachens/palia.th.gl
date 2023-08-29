@@ -8,7 +8,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const dict = loadDictionary("en");
     const name = (dict.generated as any)[node.type]?.[node.id]?.name ?? "";
     return {
-      url: `https://palia.th.gl/nodes/${encodeURIComponent(
+      url: `https://palia.th.gl/en/nodes/${encodeURIComponent(
         name || node.type
       )}/@${node.x},${node.y}`,
       lastModified: now,

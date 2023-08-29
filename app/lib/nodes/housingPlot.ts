@@ -5,6 +5,7 @@ export const housingPlot = [
     description: null,
     filepath:
       "..\\FModel\\Exports\\Palia\\Content\\Maps\\Village\\Village_Root\\_Generated_\\MainGrid_L11_X0_Y0_DL94C0B11C.umap.json#56",
+    mapName: "kilima-valley",
     x: 20423.076,
     y: -15635.923,
   },

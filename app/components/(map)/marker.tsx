@@ -66,6 +66,7 @@ const Marker = memo(function Marker({
           dict.generated[type]?.[node.id]?.name ?? ""
         }</p>`;
         tooltipContent += `<p class="text-gray-300 text-sm">${dict.nodes[type]}</p>`;
+        tooltipContent += `<p class="text-gray-300 text-xs font-bold">${node.mapName}</p>`;
         tooltipContent += `<p class="text-gray-300 text-xs font-bold">${node.id}</p>`;
 
         if ("description" in node) {

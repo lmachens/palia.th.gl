@@ -7,6 +7,7 @@ import { useParams } from "next/navigation";
 import { useEffect, useRef } from "react";
 import { create } from "zustand";
 
+import { TRANSFORMATIONS } from "@/app/lib/maps";
 import "@geoman-io/leaflet-geoman-free";
 import "@geoman-io/leaflet-geoman-free/dist/leaflet-geoman.css";
 
@@ -30,15 +31,28 @@ export function useMap() {
   return map;
 }
 
-export default function Map({ children }: { children?: React.ReactNode }) {
+export default function Map({
+  children,
+  map: mapName,
+}: {
+  children?: React.ReactNode;
+  map: string;
+}) {
   const mapRef = useRef<HTMLDivElement>(null);
   const { map, setMap } = useMapStore();
   const router = useOverwolfRouter();
   const params = useParams()!;
 
   useEffect(() => {
+    const transformation =
+      TRANSFORMATIONS[mapName as keyof typeof TRANSFORMATIONS];
     const worldCRS = leaflet.extend({}, leaflet.CRS.Simple, {
-      transformation: new leaflet.Transformation(1 / 214, 250, 1 / 214, 294),
+      transformation: new leaflet.Transformation(
+        transformation[0],
+        transformation[1],
+        transformation[2],
+        transformation[3]
+      ),
     });
 
     const map = leaflet.map(mapRef.current!, {

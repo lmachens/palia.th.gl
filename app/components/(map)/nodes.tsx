@@ -11,7 +11,7 @@ import useFilters from "../use-filters";
 import { useMap } from "./map";
 import Marker from "./marker";
 
-export default function Nodes() {
+export default function Nodes({ map: mapName }: { map: string }) {
   const map = useMap();
   const featureGroup = useMemo(() => {
     const featureGroup = new leaflet.FeatureGroup();
@@ -88,6 +88,9 @@ export default function Nodes() {
   return (
     <>
       {nodes.map((node) => {
+        if (mapName !== node.mapName) {
+          return <Fragment key={node.id} />;
+        }
         let isHighlighted = false;
         if (selectedName && coordinates) {
           const name = dict.generated[node.type]?.[node.id]?.name ?? "";
