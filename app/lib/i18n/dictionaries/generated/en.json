@@ -94,10 +94,6 @@
       "name": "To Kilima Village",
       "description": null
     },
-    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE63617801_2105154458": {
-      "name": "To Housing Plot",
-      "description": null
-    },
     "BP_DoorTeleporter_Chayne_C_UAID_CC96E503DD7EDC7701_1659484090": {
       "name": "Chayne's Room",
       "description": "You need a key from Chayne to enter."
@@ -233,10 +229,6 @@
     },
     "BP_Stables_Sign_UAID_B04F1306EDBFF27501_1164310342": {
       "name": "Bahari - Hideaway Bluffs"
-    },
-    "BP_Stables_Sign_UAID_7486E2271DBF409B01_2003868107": {
-      "name": "Kilima Village Fairgrounds",
-      "description": "Not available until tutorial quests are completed."
     },
     "BP_Stables_Sign_UAID_6C02E03F65D9936101_1437950312": {
       "name": "Kilima - Central Stables"
@@ -429,6 +421,16 @@
     "BP_GateTeleporter_Parent_C_UAID_CC96E503E0F4268201_1876024839": {
       "name": "To Housing Plot",
       "description": null
+    }
+  },
+  "spawnNodes": {
+    "sundropLillies": {
+      "name": "Sundrop Lily",
+      "description": "The Sundrop Lily grows in open fields where it can turn its petals to the sunlight."
+    },
+    "wildGarlic": {
+      "name": "Wild Garlic",
+      "description": "Garlic is a delicious addition to any dish you cook! Or can be eaten raw to perfume one's breath."
     }
   }
 }

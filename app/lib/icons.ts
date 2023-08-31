@@ -3,9 +3,15 @@ const CIRCLE_PATH =
   "M43 .44C85.9-5.06 115.91 42 91.64 78A50.02 50.02 0 0 1 78 91.64c-6.54 4.41-13.25 6.71-21 7.92-5.55.87-11.52.55-17-.56-40.84-8.33-53.92-59.51-23-86.82C25.02 5.1 32.71 2.34 43 .44Z";
 
 export const ICONS = {
-  copper: {
-    color: "#abcdef",
+  wildGarlic: {
+    color: "#4CAF50",
     lineWidth: 2,
+    path: CIRCLE_PATH,
+    radius: 8,
+  },
+  sundropLillies: {
+    color: "#FFC107",
+    lineWidth: 1,
     path: CIRCLE_PATH,
     radius: 8,
   },

@@ -74,13 +74,14 @@ export default function Nodes({ map: mapName }: { map: string }) {
     if ("update" in router) {
       router.update({
         name: encodeURIComponent(name || node.type),
+        mapName,
         coordinates: `@${node.x},${node.y}`,
       });
     } else {
       router.push(
-        `${params.lang ?? ""}/nodes/${encodeURIComponent(name || node.type)}/@${
-          node.x
-        },${node.y}${location.search}`
+        `${params.lang}/${mapName}/nodes/${encodeURIComponent(
+          name || node.type
+        )}/@${node.x},${node.y}${location.search}`
       );
     }
   }, []);
@@ -113,6 +114,7 @@ export default function Nodes({ map: mapName }: { map: string }) {
 
           isTrivial = !(
             name.toLowerCase().includes(search) ||
+            node.id.toLowerCase().includes(search) ||
             dict.nodes[node.type].toLowerCase().includes(search)
           );
         }

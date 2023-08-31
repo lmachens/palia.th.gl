@@ -27,13 +27,14 @@
     "showAll": "Show All",
     "hideAll": "Hide All",
     "location": "Location",
-    "copper": "Copper",
     "area": "Area",
     "landmark": "Landmark",
     "stable": "Stable",
     "recipe": "Recipe",
     "housingPlot": "Housing Plot",
-    "zone": "Zone"
+    "zone": "Zone",
+    "sundropLillies": "Sundrop Lillies",
+    "wildGarlic": "Wild Garlic"
   },
   "settings": {
     "rightClickToggle": "Right click to toggle discovered",

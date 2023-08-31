@@ -55,15 +55,21 @@ const Marker = memo(function Marker({
         }
       });
       marker.current.on("contextmenu", () => {
-        if (!useRoutesStore.getState().isCreating) {
+        if (!node.isSpawnNode && !useRoutesStore.getState().isCreating) {
           onContextMenu(id);
         }
       });
 
       const tooltipContent = () => {
+        const dictEntry = node.isSpawnNode
+          ? dict.generated.spawnNodes[
+              type as keyof typeof dict.generated.spawnNodes
+            ]
+          : // @ts-ignore
+            dict.generated[type]?.[node.id];
         let tooltipContent = "";
         tooltipContent += `<p class="font-bold text-base">${
-          dict.generated[type]?.[node.id]?.name ?? ""
+          dictEntry?.name ?? ""
         }</p>`;
         tooltipContent += `<p class="text-gray-300 text-sm">${dict.nodes[type]}</p>`;
         tooltipContent += `<p class="text-gray-300 text-xs font-bold">${node.mapName}</p>`;
@@ -71,20 +77,23 @@ const Marker = memo(function Marker({
 
         if ("description" in node) {
           tooltipContent += `<p class="border-t border-t-gray-700 mt-2 pt-2 max-w-md whitespace-normal">${
-            dict.generated[type]?.[node.id]?.description ?? ""
+            dictEntry?.description ?? ""
           }</p>`;
         } else if ("id" in node) {
           tooltipContent += `<p class="border-t border-t-gray-700 mt-2 pt-2 max-w-md whitespace-normal">${
-            dict.generated[type]?.[node.id]?.description ?? ""
+            dictEntry?.description ?? ""
           }</p>`;
         }
         const div = document.createElement("div");
         div.innerHTML = tooltipContent;
-        const note = document.createElement("p");
-        note.className = "text-gray-300 text-xs italic mt-2 hide-on-print";
-        note.innerHTML = dict.settings.rightClickToggle;
 
-        div.append(note);
+        if (!node.isSpawnNode) {
+          const note = document.createElement("p");
+          note.className = "text-gray-300 text-xs italic mt-2 hide-on-print";
+          note.innerHTML = dict.settings.rightClickToggle;
+
+          div.append(note);
+        }
         return div;
       };
       marker.current.bindTooltip(tooltipContent, {

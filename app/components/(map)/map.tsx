@@ -90,7 +90,8 @@ export default function Map({
       if (
         // @ts-ignore
         event.originalEvent.target.className !== "leaflet-zoom-animated" ||
-        location.pathname.startsWith("/embed")
+        location.pathname.startsWith("/embed") ||
+        !location.pathname.includes("/nodes/")
       ) {
         return;
       }

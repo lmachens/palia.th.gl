@@ -16,6 +16,7 @@ leaflet.Canvas.include({
     const dy = p.y - radius;
 
     const layerContext = this._ctx as CanvasRenderingContext2D;
+
     if ("src" in icon) {
       layerContext.drawImage(layer.imageElement, dx, dy, imageSize, imageSize);
       return;
@@ -37,53 +38,42 @@ leaflet.Canvas.include({
       });
       return;
     }
-    const key = `${type}-${isHighlighted}-${radius}-${isDiscovered}`;
-    if (cachedImages[key]) {
-      layerContext.drawImage(cachedImages[key], dx, dy);
-      return;
-    }
-    const img = new Image(imageSize, imageSize);
-    cachedImages[key] = img;
 
-    const canvas = document.createElement("canvas");
-    canvas.width = imageSize;
-    canvas.height = imageSize;
-    const ctx = canvas.getContext("2d")!;
-    ctx.globalAlpha = isDiscovered ? 0.5 : 1;
+    layerContext.save();
+    layerContext.globalAlpha = isDiscovered ? 0.5 : 1;
 
-    ctx.lineWidth = icon.lineWidth;
+    layerContext.lineWidth = icon.lineWidth - 1;
+    layerContext.translate(dx, dy);
 
     const scale = imageSize / 100;
-    ctx.scale(scale, scale);
+    layerContext.scale(scale, scale);
 
     if (isHighlighted) {
-      ctx.shadowBlur = 4;
-      ctx.shadowColor = "#999999";
+      layerContext.shadowBlur = 4;
+      layerContext.shadowColor = "#999999";
     }
 
-    ctx.fillStyle = isDiscovered ? "#5f5d57" : icon.color;
+    layerContext.fillStyle = isDiscovered ? "#5f5d57" : icon.color;
     const path2D = new Path2D(icon.path);
-    ctx.fill(path2D);
-    ctx.strokeStyle = "black";
-    ctx.lineWidth = icon.lineWidth + 1;
-    ctx.stroke(path2D);
-    ctx.lineWidth = icon.lineWidth;
-    ctx.stroke(path2D);
+    layerContext.fill(path2D);
+    layerContext.strokeStyle = "black";
+    layerContext.lineWidth = icon.lineWidth + 1;
+    layerContext.stroke(path2D);
+    layerContext.lineWidth = icon.lineWidth;
+    layerContext.stroke(path2D);
 
     if (isDiscovered) {
       const checkMarkPath = new Path2D("m5 12 5 5L20 7");
-      ctx.scale(1.5, 1.5);
-      ctx.translate(radius * 1.7, radius * 0.3);
-      ctx.lineWidth = 5;
-      ctx.strokeStyle = "#000";
-      ctx.stroke(checkMarkPath);
-      ctx.strokeStyle = "#23ff80";
-      ctx.lineWidth = 4;
-      ctx.stroke(checkMarkPath);
+      layerContext.scale(1.5, 1.5);
+      layerContext.translate(radius * 1.7, radius * 0.3);
+      layerContext.lineWidth = 5;
+      layerContext.strokeStyle = "#000";
+      layerContext.stroke(checkMarkPath);
+      layerContext.strokeStyle = "#23ff80";
+      layerContext.lineWidth = 4;
+      layerContext.stroke(checkMarkPath);
     }
-
-    img.src = ctx.canvas.toDataURL("image/webp");
-    layerContext.drawImage(img, dx, dy);
+    layerContext.restore();
   },
 });
 const renderer = leaflet.canvas({ pane: "markerPane" }) as leaflet.Canvas & {

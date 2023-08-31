@@ -4,6 +4,7 @@ import { createContext, useContext, useState } from "react";
 
 type Value = {
   name: string | null;
+  mapName: string | null;
   search: string | null;
   coordinates: string | null;
 };
@@ -20,6 +21,7 @@ export const OverwolfRouterProvider = ({
 }) => {
   const [value, setValue] = useState<Value>({
     name: null,
+    mapName: null,
     search: null,
     coordinates: null,
   });

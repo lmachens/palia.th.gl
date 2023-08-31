@@ -17,6 +17,7 @@ export function generateMetadata({
   });
   const type = node?.type;
 
+  let canonical = API_BASE_URI + `/${lang}`;
   let description = dict.meta.description;
   if (node) {
     const name = (dict.generated as any)[node.type]?.[node.id]?.name ?? "";
@@ -33,7 +34,6 @@ export function generateMetadata({
     }
   }
 
-  let canonical = API_BASE_URI + (lang === DEFAULT_LOCALE ? "" : `/${lang}`);
   if (name) {
     canonical += `/nodes/${name}`;
   }
