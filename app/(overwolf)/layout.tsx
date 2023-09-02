@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 export function generateMetadata(): Metadata {
   return {
     title: {
-      default: "Sanctuary | Palia Map",
+      default: "Palia Map",
       template: "%s | Palia Map",
     },
     twitter: {},

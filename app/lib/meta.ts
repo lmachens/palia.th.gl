@@ -9,7 +9,7 @@ export function generateMetadata({
   params: { lang: string; name: string };
 }): Metadata {
   const dict = loadDictionary(lang);
-  const title = name ? decodeURIComponent(name) : "Sanctuary";
+  const title = name ? decodeURIComponent(name) : "Palia Map";
 
   const node = nodes.find((node) => {
     const name = (dict.generated as any)[node.type]?.[node.id]?.name ?? "";
@@ -58,7 +58,7 @@ export function generateMetadata({
       card: "summary_large_image",
     },
     openGraph: {
-      title: `Sanctuary | ${dict.meta.subtitle} | palia.th.gl`,
+      title: `Palia Map | ${dict.meta.subtitle} | palia.th.gl`,
       description: description,
       type: name ? "article" : "website",
       url: "https://palia.th.gl",
