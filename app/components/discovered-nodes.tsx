@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { useOverwolfRouter } from "../(overwolf)/components/overwolf-router";
 import { ICONS } from "../lib/icons";
 import { staticNodes } from "../lib/nodes";
@@ -110,9 +111,19 @@ export default function DiscoveredNodes() {
               toggleFilter(key);
             }}
           >
-            <svg viewBox="0 0 100 100" fill={icon.color} className="h-5">
-              <path d={icon.path} />
-            </svg>
+            {"src" in icon ? (
+              <Image
+                src={icon.src as string}
+                width={20}
+                height={20}
+                alt=""
+                className="h-5 w-5"
+              />
+            ) : (
+              <svg viewBox="0 0 100 100" fill={icon.color} className="h-5 w-5">
+                <path d={icon.path} />
+              </svg>
+            )}
             <span className="flex-1 text-left mx-3">
               {dict.nodes[key as keyof typeof ICONS]}
             </span>

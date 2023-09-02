@@ -48,8 +48,10 @@ export const ICONS = {
     radius: 7,
   },
   area: {
-    color: "black",
+    src: "/icons/area.png",
+    color: "#fff",
     radius: 14,
+    isText: true,
   },
   landmark: {
     src: "/icons/Icon_Landmark_01.png",

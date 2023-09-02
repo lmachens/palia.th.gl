@@ -1,10 +1,9 @@
 import { ICON } from "@/app/lib/icons";
 import leaflet from "leaflet";
 
-const cachedImages: Record<string, HTMLImageElement> = {};
 leaflet.Canvas.include({
   updateCanvasImg(layer: CanvasMarker) {
-    const { type, icon, name, isHighlighted, isDiscovered } = layer.options;
+    const { icon, name, isHighlighted, isDiscovered } = layer.options;
 
     let radius = layer.getRadius();
     if (isHighlighted) {
@@ -17,7 +16,7 @@ leaflet.Canvas.include({
 
     const layerContext = this._ctx as CanvasRenderingContext2D;
 
-    if ("src" in icon) {
+    if ("src" in icon && !("isText" in icon)) {
       layerContext.drawImage(layer.imageElement, dx, dy, imageSize, imageSize);
       return;
     } else if (!("path" in icon)) {
@@ -82,7 +81,6 @@ const renderer = leaflet.canvas({ pane: "markerPane" }) as leaflet.Canvas & {
 
 export type CanvasMarkerOptions = {
   id: string;
-  type: string;
   name?: string;
   isHighlighted?: boolean;
   isDiscovered?: boolean;

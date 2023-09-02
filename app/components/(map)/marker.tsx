@@ -36,8 +36,8 @@ const Marker = memo(function Marker({
     const interactive = type !== "area";
     marker.current = new CanvasMarker(latLng, {
       id,
-      type,
       icon,
+      // @ts-ignore
       name: dict.generated[type]?.[node.id]?.name,
       radius: icon.radius * iconSize,
       isHighlighted,

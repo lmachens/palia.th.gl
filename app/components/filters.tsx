@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { ICONS } from "../lib/icons";
 import { spawnNodes, staticNodes } from "../lib/nodes";
 import { ALL_FILTERS } from "../lib/storage/global-settings";
@@ -44,13 +45,23 @@ export default function Filters() {
               }}
               title={dict.nodes[key]}
             >
-              <svg
-                viewBox="0 0 100 100"
-                fill={icon.color}
-                className="h-5 w-5 shrink-0"
-              >
-                <path d={icon.path} />
-              </svg>
+              {"src" in icon ? (
+                <Image
+                  src={icon.src as string}
+                  width={20}
+                  height={20}
+                  alt=""
+                  className="h-5 w-5 shrink-0"
+                />
+              ) : (
+                <svg
+                  viewBox="0 0 100 100"
+                  fill={icon.color}
+                  className="h-5 w-5 shrink-0"
+                >
+                  <path d={icon.path} />
+                </svg>
+              )}
               <span className="truncate">{dict.nodes[key]}</span>
             </button>
           );
@@ -71,13 +82,23 @@ export default function Filters() {
               }}
               title={dict.nodes[key as keyof typeof ICONS]}
             >
-              <svg
-                viewBox="0 0 100 100"
-                fill={icon.color}
-                className="h-5 w-5 shrink-0"
-              >
-                <path d={icon.path} />
-              </svg>
+              {"src" in icon ? (
+                <Image
+                  src={icon.src as string}
+                  width={20}
+                  height={20}
+                  alt=""
+                  className="h-5 w-5 shrink-0"
+                />
+              ) : (
+                <svg
+                  viewBox="0 0 100 100"
+                  fill={icon.color}
+                  className="h-5 w-5 shrink-0"
+                >
+                  <path d={icon.path} />
+                </svg>
+              )}
               <span className="truncate">
                 {dict.nodes[key as keyof typeof ICONS]}
               </span>
