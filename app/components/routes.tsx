@@ -2,11 +2,10 @@ import { nodes } from "@/app/lib/nodes";
 import leaflet, { Polyline } from "leaflet";
 import { nanoid } from "nanoid";
 import Link from "next/link";
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { useOverwolfRouter } from "../(overwolf)/components/overwolf-router";
 import { ROUTE, useRoutesStore } from "../lib/storage/routes";
 import { useMap } from "./(map)/map";
-import RouteTypes from "./route-types";
 import Toggle from "./toggle";
 
 export default function Routes() {
@@ -14,48 +13,16 @@ export default function Routes() {
   const routes = useRoutesStore();
   const router = useOverwolfRouter();
 
-  const nodeLatLngs = useMemo(() => {
-    return nodes.reduce((acc, cur) => {
-      acc[`${cur.x}-${cur.y}`] = { type: cur.type, id: cur.id };
-      return acc;
-    }, {} as Record<string, { id: string; type: string }>);
-  }, []);
-
   const setRoutePolylines = useCallback(
     (polylineLayers: leaflet.Polyline[]) => {
       const types: ROUTE["types"] = [];
       const positions: ROUTE["positions"] = [];
-      const visitedPositions: string[] = [];
       polylineLayers.forEach((polylineLayer) => {
         const latLngs = polylineLayer.getLatLngs() as leaflet.LatLng[];
         if (latLngs.length === 0) {
           return;
         }
         const layerPositions = latLngs.map((latLng) => {
-          const position = `${latLng.lat}-${latLng.lng}`;
-          const snappedNode = nodeLatLngs[position];
-          if (snappedNode) {
-            if (!visitedPositions.includes(position)) {
-              visitedPositions.push(position);
-
-              const existingType = types.find(
-                ({ type }) => type === snappedNode.type
-              );
-              if (existingType) {
-                existingType.count++;
-              } else {
-                types.push({
-                  type: snappedNode.type,
-                  count: 1,
-                });
-              }
-            }
-            return {
-              position: [latLng.lat, latLng.lng] as [number, number],
-              nodeId: snappedNode.id,
-              nodeType: snappedNode.type,
-            };
-          }
           return {
             position: [latLng.lat, latLng.lng] as [number, number],
           };
@@ -290,7 +257,6 @@ export default function Routes() {
               routes.updateTempRoute({ name: event.target.value })
             }
           />
-          <RouteTypes route={routes.tempRoute} />
           <p className="text-xs text-neutral-400">
             You can add multiple lines and connect every node on the map.
             Right-click in edit mode removes a vertex.
@@ -470,7 +436,6 @@ export default function Routes() {
                 </div>
               </div>
               <div className="truncate text-base">{route.name}</div>
-              <RouteTypes route={route} />
             </article>
           );
         })}

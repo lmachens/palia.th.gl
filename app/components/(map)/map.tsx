@@ -116,30 +116,6 @@ export default function Map({
       });
     }
 
-    const divElement = leaflet.DomUtil.create("div", "leaflet-position");
-    const handleMouseMove = (event: leaflet.LeafletMouseEvent) => {
-      divElement.innerHTML = `<span>[${event.latlng.lng}, ${event.latlng.lat}]</span>`;
-    };
-    const handleMouseOut = () => {
-      divElement.innerHTML = ``;
-    };
-    const CoordinatesControl = leaflet.Control.extend({
-      onAdd(map: leaflet.Map) {
-        map.on("mousemove", handleMouseMove);
-        map.on("mouseout", handleMouseOut);
-        return divElement;
-      },
-      onRemove(map: leaflet.Map) {
-        map.off("mousemove", handleMouseMove);
-        map.off("mouseout", handleMouseOut);
-      },
-    });
-    const coordinatesControl = new CoordinatesControl({
-      position: "topright",
-    });
-
-    coordinatesControl.addTo(map);
-
     return () => {
       setMap(null);
       // map.remove();

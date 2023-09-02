@@ -16,8 +16,13 @@ leaflet.Canvas.include({
 
     const layerContext = this._ctx as CanvasRenderingContext2D;
 
+    layerContext.save();
+    layerContext.globalAlpha = isDiscovered ? 0.5 : 1;
+
     if ("src" in icon && !("isText" in icon)) {
       layerContext.drawImage(layer.imageElement, dx, dy, imageSize, imageSize);
+      layerContext.restore();
+
       return;
     } else if (!("path" in icon)) {
       const text = name ?? "";
@@ -35,11 +40,10 @@ leaflet.Canvas.include({
         layerContext.lineWidth = 1;
         layerContext.fillText(line, p.x, p.y - imageSize + i * lineheight);
       });
+      layerContext.restore();
+
       return;
     }
-
-    layerContext.save();
-    layerContext.globalAlpha = isDiscovered ? 0.5 : 1;
 
     layerContext.lineWidth = icon.lineWidth - 1;
     layerContext.translate(dx, dy);

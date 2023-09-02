@@ -10,8 +10,6 @@ export type ROUTE = {
   }[];
   positions: {
     position: [number, number];
-    nodeId?: string;
-    nodeType?: string;
   }[][];
   texts?: {
     position: [number, number];
@@ -79,6 +77,6 @@ export const useRoutesStore = create(
     }),
     {
       name: "routes-storage",
-    },
-  ),
+    }
+  )
 );

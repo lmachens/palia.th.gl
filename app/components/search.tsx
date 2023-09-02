@@ -11,7 +11,6 @@ import {
 } from "../lib/storage/global-settings";
 import { useSettingsStore } from "../lib/storage/settings";
 import { useDict } from "./(i18n)/i18n-provider";
-import AppDownload from "./app-download";
 import Filters from "./filters";
 import Routes from "./routes";
 import useFilters from "./use-filters";
@@ -45,9 +44,9 @@ export default function Search() {
         globalSettingsStore.showSidebar ? "md:left-[412px]" : "md:left-3"
       } md:space-y-1`}
     >
-      <div className={`bg-black md:bg-transparent flex overflow-auto md:gap-1`}>
+      {/* <div className={`bg-black md:bg-transparent flex overflow-auto md:gap-1`}>
         {!("value" in router) && <AppDownload />}
-      </div>
+      </div> */}
       {(!settingsStore.lockedWindow || !isOverlay) && (
         <div className={`relative pointer-events-auto flex md:w-fit`}>
           <button
