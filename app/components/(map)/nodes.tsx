@@ -70,6 +70,7 @@ export default function Nodes({ map: mapName }: { map: string }) {
     if (location.pathname.startsWith("/embed")) {
       return;
     }
+    // @ts-ignore
     const name = dict.generated[node.type]?.[node.id]?.name ?? "";
     if ("update" in router) {
       router.update({
@@ -94,6 +95,7 @@ export default function Nodes({ map: mapName }: { map: string }) {
         }
         let isHighlighted = false;
         if (selectedName && coordinates) {
+          // @ts-ignore
           const name = dict.generated[node.type]?.[node.id]?.name ?? "";
           if (
             node.x === coordinates[0] &&
@@ -110,6 +112,7 @@ export default function Nodes({ map: mapName }: { map: string }) {
         if (!filters.includes(node.type) && !isHighlighted) {
           isTrivial = true;
         } else if (search && !isHighlighted) {
+          // @ts-ignore
           const name = dict.generated[node.type]?.[node.id]?.name ?? "";
 
           isTrivial = !(

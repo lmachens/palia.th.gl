@@ -27,7 +27,7 @@ export default function App() {
   const locale = useSettingsStore((state) => state.locale);
   const dict = loadDictionary(locale);
   const setIsOverlay = useGameInfoStore((state) => state.setIsOverlay);
-
+  const mapName = "kilima-valley";
   useEffect(() => {
     waitForOverwolf().then(() => {
       getCurrentWindow().then((currentWindow) => {
@@ -53,9 +53,9 @@ export default function App() {
       <AppContainer>
         <Header />
         <MapContainer>
-          <Map>
-            <Tiles />
-            <Nodes />
+          <Map map={mapName}>
+            <Tiles map={mapName} />
+            <Nodes map={mapName} />
             <ActiveRoutes />
 
             <Player />

@@ -9,7 +9,7 @@ const nextConfig =
     : {
         headers: async () => [
           {
-            source: "/map/:all*(webp)",
+            source: "/maps/:all*(webp)",
             headers: [
               {
                 key: "Cache-Control",

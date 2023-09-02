@@ -47,9 +47,9 @@ function Layout({
             locales: LOCALES,
           }}
         >
-          <Map>
+          <Map map={map}>
             <Tiles map={map} />
-            <Nodes />
+            <Nodes map={map} />
           </Map>
           <a
             href="https://palia.th.gl"
