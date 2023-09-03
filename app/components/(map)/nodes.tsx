@@ -118,7 +118,8 @@ export default function Nodes({ map: mapName }: { map: string }) {
           isTrivial = !(
             name.toLowerCase().includes(search) ||
             node.id.toLowerCase().includes(search) ||
-            dict.nodes[node.type].toLowerCase().includes(search)
+            dict.nodes[node.type]?.toLowerCase().includes(search) ||
+            dict.spawnNodes[node.type]?.name.toLowerCase().includes(search)
           );
         }
 

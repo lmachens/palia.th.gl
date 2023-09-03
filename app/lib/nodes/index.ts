@@ -3,18 +3,12 @@ import { housingPlot } from "./housingPlot";
 import { landmark } from "./landmark";
 import { location } from "./location";
 import { recipe } from "./recipe";
+import { spawnNodes } from "./spawn-nodes";
 import { stable } from "./stable";
-import { sundropLillies } from "./sundropLillies";
-import { waterFlower } from "./waterFlower";
-import { wildGarlic } from "./wildGarlic";
+
 import { zone } from "./zone";
 
-export const spawnNodes = {
-  sundropLillies: sundropLillies,
-  waterFlower: waterFlower,
-  wildGarlic: wildGarlic,
-} as const;
-
+export { spawnNodes };
 export const staticNodes = {
   area: area,
   landmark: landmark,

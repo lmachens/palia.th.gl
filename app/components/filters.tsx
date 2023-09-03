@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { ICONS } from "../lib/icons";
+import { ICONS, SPAWN_ICONS } from "../lib/icons";
 import { spawnNodes, staticNodes } from "../lib/nodes";
 import { ALL_FILTERS } from "../lib/storage/global-settings";
 import { useDict } from "./(i18n)/i18n-provider";
@@ -70,7 +70,7 @@ export default function Filters() {
       <div className="flex flex-wrap ">
         {Object.keys(spawnNodes).map((_key) => {
           const key = _key as keyof typeof spawnNodes;
-          const icon = ICONS[key];
+          const icon = SPAWN_ICONS[key];
           return (
             <button
               key={key}
@@ -80,7 +80,7 @@ export default function Filters() {
               onClick={() => {
                 toggleFilter(key);
               }}
-              title={dict.nodes[key as keyof typeof ICONS]}
+              title={dict.spawnNodes[key].name}
             >
               {"src" in icon ? (
                 <Image
@@ -99,9 +99,7 @@ export default function Filters() {
                   <path d={icon.path} />
                 </svg>
               )}
-              <span className="truncate">
-                {dict.nodes[key as keyof typeof ICONS]}
-              </span>
+              <span className="truncate">{dict.spawnNodes[key].name}</span>
             </button>
           );
         })}

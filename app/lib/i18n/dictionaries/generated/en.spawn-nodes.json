@@ -1,0 +1,182 @@
+{
+  "BP_Bug_BeetleC_C": {
+    "name": "Spotted Stinkbug",
+    "description": "A bug known more for his strong musk than its striking colors.\r\nFound all around Kilima and Bahari Bay."
+  },
+  "BP_Bug_ButterflyC_C": {
+    "name": "Common Blue Butterfly",
+    "description": "Ever resilient. Butterflies of this type can be found in almost every climate in Palia.\r\nFound all around Kilima and Bahari Bay during the morning and day."
+  },
+  "BP_Bug_CricketC_C": {
+    "name": "Common Field Cricket",
+    "description": "Field crickets can be found anywhere you can find a field.\r\nFound all around Kilima and Bahari Bay."
+  },
+  "BP_Bug_CricketU_C": {
+    "name": "Garden Leafhopper",
+    "description": "The Garden Leafhopper is such a delight in Palia that many children keep them as pets. They are said to bring good luck.\r\nFound in the fields and Badruu's Farm in Kilima. Also has a chance to be found when foraging in Kilima."
+  },
+  "BP_Bug_DragonflyC_C": {
+    "name": "Brushtail Dragonfly",
+    "description": "The tail of this Dragonfly is so bright and vibrant, some early Majiri were said to have used it as a paintbrush.\r\nFound around the lake in Kilima, as well as rivers and ponds in Bahari Bay."
+  },
+  "BP_Bug_DragonflyR_C": {
+    "name": "Firebreathing Dragonfly",
+    "description": "This Dragonfly is notoriously difficult to catch, in part due to its fiery breath.\r\nFound in the fields of Kilima."
+  },
+  "BP_Bug_LadybugR_C": {
+    "name": "Princess Ladybug",
+    "description": "A very regal looking lady bug, made popular by the children's fairytale, The Princess Who Turned Into A Ladybug.\r\nFound around the lake in Kilima."
+  },
+  "BP_Bug_MantisU_C": {
+    "name": "Garden Mantis",
+    "description": "Nothing to see here. Just your garden variety mantis.\r\nFound around the lake in Kilima. Also has a chance to be found when foraging around the lake in Kilima."
+  },
+  "BP_Bug_MothC_C": {
+    "name": "Kilima Night Moth",
+    "description": "While beautiful, the Kilima night moth is so prevalent on hot summer nights that some consider it to be a pest. Keep away from stored cloth.\r\nFound all around Kilima and Bahari Bay during the evening and night."
+  },
+  "BP_Bug_PedeU_C": {
+    "name": "Garden Millipede",
+    "description": "A brown and green millipede that loves feasting on garden crops.\r\nFound in the fields of Kilima. Also has a chance to be found when foraging in the fields of Kilima."
+  },
+  "BP_Gatherable_Elouisa_Dropoff_C": {
+    "name": "Flothinger Trap",
+    "description": "A perfectly normal place for Flothingers to gather and be trapped."
+  },
+  "BP_Gatherable_MushroomR_C": {
+    "name": "Mountain Morel",
+    "description": "A common mushroom, Mountain Morels can be found right at home! Super popular, raw or cooked."
+  },
+  "BP_Mining_Clay_C": {
+    "name": "Clay Node",
+    "description": "Missing Description"
+  },
+  "BP_Mining_Copper_Large_C": {
+    "name": "Large Copper Node",
+    "description": "Missing Description"
+  },
+  "BP_Mining_Copper_Medium_C": {
+    "name": "Medium Copper Node",
+    "description": "Missing Description"
+  },
+  "BP_Mining_Copper_Small_C": {
+    "name": "Small Copper Node",
+    "description": "Missing Description"
+  },
+  "BP_Mining_Stone_Large_C": {
+    "name": "Large Rock",
+    "description": "Missing Description"
+  },
+  "BP_Mining_Stone_Medium_C": {
+    "name": "Medium Rock",
+    "description": "Missing Description"
+  },
+  "BP_Mining_Stone_Small_C": {
+    "name": "Small Rock",
+    "description": "Missing Description"
+  },
+  "BP_Moss_EmeraldCarpet_C": {
+    "name": "Emerald Carpet Moss",
+    "description": "Filling your home with the bright color of Emerald Carpet Moss is said to bring good luck."
+  },
+  "BP_QuestItem_HealersKit_C": {
+    "name": "Healer's Kit",
+    "description": "A basic kit used to tend to minor wounds."
+  },
+  "BP_QuestItem_Kenyatta_CrypticBook_C": {
+    "name": "Cryptic Book",
+    "description": "A book of cryptic messages. Most of the words are too blurry or torn to understand."
+  },
+  "BP_QuestItem_MidnightLily_C": {
+    "name": "Midnight Lily",
+    "description": "A lily that only blooms at midnight."
+  },
+  "BP_QuestItem_ReliefFragment_2_C": {
+    "name": "Relief Fragment",
+    "description": "A fragment of an ancient relief."
+  },
+  "BP_QuestItem_RethCake_C": {
+    "name": "Cake Box",
+    "description": "It's definitely just a cake. No lies here!"
+  },
+  "BP_QuestItem_StarCharts_C": {
+    "name": "Old Star Charts",
+    "description": "These charts have been well used and well worn. They're covered in the careful scrawl of a child."
+  },
+  "BP_ShrubChoppable_Bush_C": {
+    "name": "Bush",
+    "description": "Missing Description"
+  },
+  "BP_Spiced_Sprouts_C": {
+    "name": "Spice Sprouts",
+    "description": "Spice Sprouts will lend a rich color and earthy flavor to any dish. And they're pretty easy to find, too.."
+  },
+  "BP_SundropLillies_C": {
+    "name": "Sundrop Lily",
+    "description": "The Sundrop Lily grows in open fields where it can turn its petals to the sunlight."
+  },
+  "BP_TreeChoppable_Birch_Large_C": {
+    "name": "Large Birch Tree",
+    "description": "Missing Description"
+  },
+  "BP_TreeChoppable_Birch_Medium_C": {
+    "name": "Medium Birch Tree",
+    "description": "Missing Description"
+  },
+  "BP_TreeChoppable_Birch_Sapling_C": {
+    "name": "Birch Sapling",
+    "description": "Missing Description"
+  },
+  "BP_TreeChoppable_Birch_Small_C": {
+    "name": "Small Birch Tree",
+    "description": "Missing Description"
+  },
+  "BP_TreeChoppable_Oak_Large_C": {
+    "name": "Large Oak Tree",
+    "description": "Missing Description"
+  },
+  "BP_TreeChoppable_Oak_Medium_C": {
+    "name": "Medium Oak Tree",
+    "description": "Missing Description"
+  },
+  "BP_TreeChoppable_Oak_Sapling_C": {
+    "name": "Oak Sapling",
+    "description": "Missing Description"
+  },
+  "BP_TreeChoppable_Oak_Small_C": {
+    "name": "Small Oak Tree",
+    "description": "Missing Description"
+  },
+  "BP_ValeriaHuntingCreature_Cearnuk_T1_C": {
+    "name": "ValeriaHuntingCreature_Cearnuk_T1_C",
+    "description": "Missing Description"
+  },
+  "BP_ValeriaHuntingCreature_Cearnuk_T2_C": {
+    "name": "ValeriaHuntingCreature_Cearnuk_T2_C",
+    "description": "Missing Description"
+  },
+  "BP_ValeriaHuntingCreature_Chapaa_T1_C": {
+    "name": "ValeriaHuntingCreature_Chapaa_T1_C",
+    "description": "Missing Description"
+  },
+  "BP_ValeriaHuntingCreature_Chapaa_T2_C": {
+    "name": "ValeriaHuntingCreature_Chapaa_T2_C",
+    "description": "Missing Description"
+  },
+  "BP_WaterFlower_C": {
+    "name": "Crystal Lake Lotus",
+    "description": "The Crystal Lake Lotus is named after where it was discovered and is now used to make dyes."
+  },
+  "BP_WaterPlane_Fishing_LakeVillage_SQ_C": {
+    "name": "WaterPlane_Fishing_LakeVillage_SQ_C",
+    "description": "Missing Description"
+  },
+  "BP_WaterPlane_Fishing_RiverVillage_SQ_C": {
+    "name": "WaterPlane_Fishing_RiverVillage_SQ_C",
+    "description": "Missing Description"
+  },
+  "BP_WildGarlic_C": {
+    "name": "Wild Garlic",
+    "description": "Garlic is a delicious addition to any dish you cook! Or can be eaten raw to perfume one's breath."
+  }
+}

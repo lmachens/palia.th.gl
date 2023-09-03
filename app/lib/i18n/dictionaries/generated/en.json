@@ -422,19 +422,5 @@
       "name": "To Housing Plot",
       "description": null
     }
-  },
-  "spawnNodes": {
-    "sundropLillies": {
-      "name": "Sundrop Lily",
-      "description": "The Sundrop Lily grows in open fields where it can turn its petals to the sunlight."
-    },
-    "waterFlower": {
-      "name": "Crystal Lake Lotus",
-      "description": "The Crystal Lake Lotus is named after where it was discovered and is now used to make dyes."
-    },
-    "wildGarlic": {
-      "name": "Wild Garlic",
-      "description": "Garlic is a delicious addition to any dish you cook! Or can be eaten raw to perfume one's breath."
-    }
   }
 }

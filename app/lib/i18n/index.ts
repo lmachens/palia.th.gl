@@ -1,15 +1,16 @@
 import en from "./dictionaries/en.json";
 import { default as enGenerated } from "./dictionaries/generated/en.json";
+import { default as enSpawnNodesGenerated } from "./dictionaries/generated/en.spawn-nodes.json";
 
-type GENERATED = typeof enGenerated;
-export type DICT =
-  | typeof en & {
-      generated: GENERATED;
-    };
+export type DICT = {
+  [key: string]: any;
+};
 
-const DICTIONARIES = {
-  en: { ...en, generated: enGenerated },
-} as const;
+const DICTIONARIES: {
+  en: DICT;
+} = {
+  en: { ...en, generated: enGenerated, spawnNodes: enSpawnNodesGenerated },
+};
 
 export const LOCALES = Object.keys(DICTIONARIES);
 export const DEFAULT_LOCALE = "en";

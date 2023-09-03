@@ -1,5 +1,5 @@
 "use client";
-import { ICONS } from "@/app/lib/icons";
+import { ICONS, SPAWN_ICONS } from "@/app/lib/icons";
 import { NODE, NODE_TYPE } from "@/app/lib/nodes";
 import { useRoutesStore } from "@/app/lib/storage/routes";
 import leaflet from "leaflet";
@@ -31,7 +31,9 @@ const Marker = memo(function Marker({
   const dict = useDict();
 
   useEffect(() => {
-    const icon = ICONS[type];
+    const icon = node.isSpawnNode
+      ? SPAWN_ICONS[type]
+      : ICONS[type as keyof typeof ICONS];
     const latLng = [node.y, node.x] as [number, number];
     const interactive = type !== "area";
     marker.current = new CanvasMarker(latLng, {
@@ -62,16 +64,17 @@ const Marker = memo(function Marker({
 
       const tooltipContent = () => {
         const dictEntry = node.isSpawnNode
-          ? dict.generated.spawnNodes[
-              type as keyof typeof dict.generated.spawnNodes
-            ]
+          ? dict.spawnNodes[type as keyof typeof dict.spawnNodes]
           : // @ts-ignore
             dict.generated[type]?.[node.id];
         let tooltipContent = "";
         tooltipContent += `<p class="font-bold text-base">${
           dictEntry?.name ?? ""
         }</p>`;
-        tooltipContent += `<p class="text-gray-300 text-sm">${dict.nodes[type]}</p>`;
+        tooltipContent += `<p class="text-gray-300 text-sm">${
+          // @ts-ignore
+          node.isSpawnNode ? dict.spawnNodes[type].name : dict.nodes[type]
+        }</p>`;
         tooltipContent += `<p class="text-gray-300 text-xs font-bold">${node.mapName}</p>`;
         tooltipContent += `<p class="text-gray-300 text-xs font-bold">${node.id}</p>`;
 
