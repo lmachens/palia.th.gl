@@ -27,8 +27,6 @@ export const spawnGroups = {
     "BP_TreeChoppable_Oak_Sapling_C",
     "BP_TreeChoppable_Oak_Small_C",
     "BP_WaterFlower_C",
-    "BP_WaterPlane_Fishing_LakeVillage_SQ_C",
-    "BP_WaterPlane_Fishing_RiverVillage_SQ_C",
     "BP_WildGarlic_C",
   ],
   mining: [
@@ -45,5 +43,9 @@ export const spawnGroups = {
     "BP_ValeriaHuntingCreature_Cearnuk_T2_C",
     "BP_ValeriaHuntingCreature_Chapaa_T1_C",
     "BP_ValeriaHuntingCreature_Chapaa_T2_C",
+  ],
+  fishing: [
+    "BP_WaterPlane_Fishing_LakeVillage_SQ_C",
+    "BP_WaterPlane_Fishing_RiverVillage_SQ_C",
   ],
 };

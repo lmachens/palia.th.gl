@@ -36,10 +36,16 @@ export const stable = [
     y: 3758.85,
   },
   {
+    id: "BP_Stables_Sign_UAID_7486E2271DBF409B01_2003868107",
+    mapName: "Events",
+    x: 4773.09,
+    y: 3656.13,
+  },
+  {
     id: "BP_Stables_Sign_UAID_6C02E03F65D9936101_1437950312",
     mapName: "kilima-valley",
-    x: 9914.04,
-    y: 11905.3,
+    x: 9880.85,
+    y: 11970.5,
   },
   {
     id: "BP_Stables_Sign_UAID_6C02E03F66F2966401_1438105510",

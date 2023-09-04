@@ -204,10 +204,6 @@
     "BP_GateTeleporter_Parent_C_UAID_CC96E503DE634E7A01_1976701586": {
       "name": "Fairgrounds",
       "description": null
-    },
-    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE63627801_1776598294": {
-      "name": "To Bahari Bay",
-      "description": null
     }
   },
   "stable": {
@@ -229,6 +225,10 @@
     },
     "BP_Stables_Sign_UAID_B04F1306EDBFF27501_1164310342": {
       "name": "Bahari - Hideaway Bluffs"
+    },
+    "BP_Stables_Sign_UAID_7486E2271DBF409B01_2003868107": {
+      "name": "Kilima Village Fairgrounds",
+      "description": "Not available until tutorial quests are completed."
     },
     "BP_Stables_Sign_UAID_6C02E03F65D9936101_1437950312": {
       "name": "Kilima - Central Stables"
@@ -408,12 +408,6 @@
     },
     "MapMarker_RemembranceGarden_UAID_CC96E5156C5D4A9101_1765151639": {
       "name": "Remembrance Beach",
-      "description": null
-    }
-  },
-  "zone": {
-    "BP_Teleporter_FromVillageEast_to_AZ1": {
-      "name": "To Bahari Bay",
       "description": null
     }
   },
