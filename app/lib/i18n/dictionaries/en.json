@@ -21,7 +21,9 @@
   },
   "maps": {
     "kilima-valley": "Kilima Valley",
-    "bahari-bay": "Bahari Bay"
+    "bahari-bay": "Bahari Bay",
+    "fairgrounds": "Faigrounds",
+    "housing": "Housing"
   },
   "nodes": {
     "showAll": "Show All",

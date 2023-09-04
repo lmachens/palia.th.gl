@@ -1,14 +1,10 @@
 "use client";
-import { BOUNDS } from "@/app/lib/maps";
+import { CONFIGS } from "@/app/lib/maps";
 import { useGameInfoStore } from "@/app/lib/storage/game-info";
 import { useSettingsStore } from "@/app/lib/storage/settings";
 import { useEffect } from "react";
 import { createCanvasLayer } from "./canvas-layer";
 import { useMap } from "./map";
-
-export const MIN_NATIVE_ZOOM = 0;
-export const MAX_NATIVE_ZOOM = 3;
-export const TILE_SIZE = 512;
 
 export default function Tiles({ map: mapName }: { map: string }) {
   const map = useMap();
@@ -19,13 +15,14 @@ export default function Tiles({ map: mapName }: { map: string }) {
     if (isOverlay && mapFilter === "full") {
       return;
     }
+    const config = CONFIGS[mapName as keyof typeof CONFIGS];
     const canvasLayer = createCanvasLayer(`/maps/${mapName}/{z}/{y}/{x}.webp`, {
-      minNativeZoom: MIN_NATIVE_ZOOM,
-      maxNativeZoom: MAX_NATIVE_ZOOM,
+      minNativeZoom: config.minNativeZoom,
+      maxNativeZoom: config.maxNativeZoom,
       minZoom: map.getMinZoom(),
       maxZoom: map.getMaxZoom(),
-      bounds: BOUNDS[mapName as keyof typeof BOUNDS],
-      tileSize: TILE_SIZE,
+      bounds: config.bounds,
+      tileSize: 512,
       updateInterval: 100,
       keepBuffer: 8,
       // zoomOffset: 2,
@@ -33,7 +30,7 @@ export default function Tiles({ map: mapName }: { map: string }) {
     }).addTo(map);
 
     return () => {
-      canvasLayer.remove();
+      canvasLayer.removeFrom(map);
     };
   }, [mapFilter, map]);
 

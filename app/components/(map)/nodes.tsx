@@ -15,8 +15,14 @@ export default function Nodes({ map: mapName }: { map: string }) {
   const map = useMap();
   const featureGroup = useMemo(() => {
     const featureGroup = new leaflet.FeatureGroup();
-    featureGroup.addTo(map);
     return featureGroup;
+  }, []);
+
+  useEffect(() => {
+    featureGroup.addTo(map);
+    return () => {
+      featureGroup.removeFrom(map);
+    };
   }, [map]);
 
   const router = useOverwolfRouter();
@@ -95,7 +101,8 @@ export default function Nodes({ map: mapName }: { map: string }) {
     return nodes.filter((node) => {
       return mapName === node.mapName;
     });
-  }, [featureGroup]);
+  }, [mapName]);
+
   return (
     <>
       {visibleNodes.map((node) => {

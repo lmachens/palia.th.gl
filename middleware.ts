@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { DEFAULT_LOCALE, LOCALES } from "./app/lib/i18n";
-import { DEFAULT_MAP, MAPS } from "./app/lib/maps";
+import { DEFAULT_MAP, isMap } from "./app/lib/maps";
 
 const COOKIE_NAME = "i18next";
 
@@ -17,7 +17,7 @@ function getUserLanguage(req: NextRequest) {
 function getPathParams(pathname: string) {
   const [, pathLanguage, map] = pathname.split("/") ?? [];
   if (pathLanguage && LOCALES.includes(pathLanguage)) {
-    if (map && MAPS.includes(map)) {
+    if (map && isMap(map)) {
       return { pathLanguage, map };
     }
     return { pathLanguage, map: null };

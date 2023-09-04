@@ -1,23 +1,47 @@
 import { LatLngBoundsExpression } from "leaflet";
 
-export const MAPS = ["kilima-valley", "bahari-bay"];
-export const TRANSFORMATIONS = {
-  "kilima-valley": [1 / 240, 250, 1 / 240, 290],
-  "bahari-bay": [1 / 300, -100, 1 / 300, 400],
+export const CONFIGS = {
+  "kilima-valley": {
+    transformation: [1 / 240, 250, 1 / 240, 290],
+    view: [-256, 256] as [number, number],
+    bounds: [
+      [50000, -59000],
+      [-60000, 62000],
+    ] as LatLngBoundsExpression,
+    minNativeZoom: 0,
+    maxNativeZoom: 3,
+  },
+  "bahari-bay": {
+    transformation: [1 / 300, -100, 1 / 300, 400],
+    view: [-34500, 110000] as [number, number],
+    bounds: [
+      [30000, 30000],
+      [-110000, 180000],
+    ] as LatLngBoundsExpression,
+    minNativeZoom: 0,
+    maxNativeZoom: 3,
+  },
+  fairgrounds: {
+    transformation: [1 / 240, 250, 1 / 240, 290],
+    view: [-256, 256] as [number, number],
+    bounds: [
+      [50000, -59000],
+      [-60000, 62000],
+    ] as LatLngBoundsExpression,
+    minNativeZoom: 0,
+    maxNativeZoom: 3,
+  },
+  housing: {
+    transformation: [1 / 240, 250, 1 / 240, 290],
+    view: [-256, 256] as [number, number],
+    bounds: [
+      [50000, -59000],
+      [-60000, 62000],
+    ] as LatLngBoundsExpression,
+    minNativeZoom: 0,
+    maxNativeZoom: 3,
+  },
 };
-export const VIEWS = {
-  "kilima-valley": [-256, 256] as [number, number],
-  "bahari-bay": [-34500, 110000] as [number, number],
-};
-export const BOUNDS = {
-  "kilima-valley": [
-    [50000, -59000],
-    [-60000, 62000],
-  ] as LatLngBoundsExpression,
-  "bahari-bay": [
-    [30000, 30000],
-    [-110000, 180000],
-  ] as LatLngBoundsExpression,
-};
+
 export const DEFAULT_MAP = "kilima-valley";
-export const isMap = (map: string) => MAPS.includes(map);
+export const isMap = (map: string) => Object.keys(CONFIGS).includes(map);

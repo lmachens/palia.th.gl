@@ -7,7 +7,7 @@ import { useParams } from "next/navigation";
 import { useEffect, useRef } from "react";
 import { create } from "zustand";
 
-import { TRANSFORMATIONS, VIEWS } from "@/app/lib/maps";
+import { CONFIGS } from "@/app/lib/maps";
 import "@geoman-io/leaflet-geoman-free";
 import "@geoman-io/leaflet-geoman-free/dist/leaflet-geoman.css";
 
@@ -44,14 +44,13 @@ export default function Map({
   const params = useParams()!;
 
   useEffect(() => {
-    const transformation =
-      TRANSFORMATIONS[mapName as keyof typeof TRANSFORMATIONS];
+    const config = CONFIGS[mapName as keyof typeof CONFIGS];
     const worldCRS = leaflet.extend({}, leaflet.CRS.Simple, {
       transformation: new leaflet.Transformation(
-        transformation[0],
-        transformation[1],
-        transformation[2],
-        transformation[3]
+        config.transformation[0],
+        config.transformation[1],
+        config.transformation[2],
+        config.transformation[3]
       ),
     });
 
@@ -81,7 +80,7 @@ export default function Map({
     if (coordinates) {
       map.setView([coordinates[1], coordinates[0]], 2);
     } else {
-      map.setView(VIEWS[mapName as keyof typeof VIEWS], 1);
+      map.setView(config.view, 1);
     }
 
     setMap(map);
@@ -145,7 +144,7 @@ export default function Map({
     }
 
     return () => {
-      // setMap(null);
+      setMap(null);
       // map.remove();
     };
   }, [mapName]);
