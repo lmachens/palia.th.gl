@@ -4,28 +4,33 @@ import { DEFAULT_LOCALE, LOCALES, loadDictionary } from "./i18n";
 import { nodes } from "./nodes";
 
 export function generateMetadata({
-  params: { lang = DEFAULT_LOCALE, name },
+  params: { lang = DEFAULT_LOCALE, map, name },
 }: {
-  params: { lang: string; name: string };
+  params: { lang: string; map: string; name?: string };
 }): Metadata {
   const dict = loadDictionary(lang);
-  const title = name ? decodeURIComponent(name) : "Palia Map";
+  const title = name && decodeURIComponent(name);
 
-  const node = nodes.find((node) => {
-    const name = (dict.generated as any)[node.type]?.[node.id]?.name ?? "";
-    return (name || node.type) === title;
-  });
-  const type = node?.type;
+  const node =
+    name &&
+    nodes.find((node) => {
+      if (node.type === title) {
+        return node;
+      }
+      if (!node.isSpawnNode) {
+        const name = dict.generated[node.type]?.[node.id]?.name ?? "";
+        return name === title;
+      }
+      return dict.spawnNodes[node.type].name === title;
+    });
 
-  let canonical = API_BASE_URI + `/${lang}`;
+  let canonical = API_BASE_URI + `/${lang}/${map}`;
   let description = dict.meta.description;
   if (node) {
     const name = (dict.generated as any)[node.type]?.[node.id]?.name ?? "";
 
     description = name;
-    if (type) {
-      description += ` (${dict.nodes[type]})`;
-    }
+    description += ` (${dict.nodes[node.type]})`;
     if ("description" in node) {
       const nodeDescription =
         (dict.generated as any)[node.type]?.[node.id]?.description ?? "";
@@ -46,7 +51,9 @@ export function generateMetadata({
   }, {} as Record<string, string>);
 
   return {
-    title: `${title} | ${dict.meta.subtitle} | palia.th.gl`,
+    title: title
+      ? `${title} | ${dict.maps[map]} | palia.th.gl`
+      : `${dict.maps[map]} | Palia Map | palia.th.gl`,
     description: description,
     creator: "Leon Machens",
     themeColor: "black",
@@ -58,7 +65,7 @@ export function generateMetadata({
       card: "summary_large_image",
     },
     openGraph: {
-      title: `Palia Map | ${dict.meta.subtitle} | palia.th.gl`,
+      title: `${title} | ${dict.maps[map]} | palia.th.gl`,
       description: description,
       type: name ? "article" : "website",
       url: "https://palia.th.gl",

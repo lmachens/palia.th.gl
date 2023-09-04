@@ -26,7 +26,6 @@ function getPathParams(pathname: string) {
 }
 
 export async function middleware(req: NextRequest) {
-  console.log(req.nextUrl.pathname);
   const userLanguage = getUserLanguage(req);
   const { pathLanguage, map } = getPathParams(req.nextUrl.pathname);
   if (pathLanguage) {
@@ -47,5 +46,7 @@ export async function middleware(req: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/((?!api|_next/static|_next/image|favicon.ico|maps|icons).*)"],
+  matcher: [
+    "/((?!api|_next/static|_next/image|favicon.ico|maps|icons|embed).*)",
+  ],
 };

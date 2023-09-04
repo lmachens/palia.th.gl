@@ -79,6 +79,7 @@ export default function Filters() {
               {group.map((_key) => {
                 const key = _key as keyof typeof spawnNodes;
                 const icon = SPAWN_ICONS[key];
+
                 return (
                   <button
                     key={key}

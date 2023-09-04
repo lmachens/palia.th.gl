@@ -70,8 +70,12 @@ export default function Nodes({ map: mapName }: { map: string }) {
     if (location.pathname.startsWith("/embed")) {
       return;
     }
-    // @ts-ignore
-    const name = dict.generated[node.type]?.[node.id]?.name ?? "";
+    let name = "";
+    if (!node.isSpawnNode) {
+      name = dict.generated[node.type]?.[node.id]?.name ?? "";
+    } else {
+      name = dict.spawnNodes[node.type].name;
+    }
     if ("update" in router) {
       router.update({
         name: encodeURIComponent(name || node.type),
@@ -80,7 +84,7 @@ export default function Nodes({ map: mapName }: { map: string }) {
       });
     } else {
       router.push(
-        `${params.lang}/${mapName}/nodes/${encodeURIComponent(
+        `/${params.lang}/${mapName}/nodes/${encodeURIComponent(
           name || node.type
         )}/@${node.x},${node.y}${location.search}`
       );
@@ -95,8 +99,10 @@ export default function Nodes({ map: mapName }: { map: string }) {
         }
         let isHighlighted = false;
         if (selectedName && coordinates) {
-          // @ts-ignore
-          const name = dict.generated[node.type]?.[node.id]?.name ?? "";
+          const name =
+            (!node.isSpawnNode
+              ? dict.generated[node.type]?.[node.id]?.name
+              : dict.spawnNodes[node.type].name) ?? "";
           if (
             node.x === coordinates[0] &&
             node.y === coordinates[1] &&

@@ -1,6 +1,8 @@
 import { LOCALES } from "@/app/lib/i18n";
 import { MAPS } from "@/app/lib/maps";
 
+export { generateMetadata } from "@/app/lib/meta";
+
 export default function Empty() {
   return <></>;
 }

@@ -13,6 +13,7 @@ import {
   isLang,
   loadDictionary,
 } from "@/app/lib/i18n";
+import { isMap } from "@/app/lib/maps";
 import dynamic from "next/dynamic";
 import { notFound } from "next/navigation";
 
@@ -28,12 +29,11 @@ function Layout({
   children: React.ReactNode;
   params: { lang: string; map: string };
 }) {
-  if (!isLang(lang)) {
+  if (!isLang(lang) || !isMap(map)) {
     notFound();
   }
 
   const dict = loadDictionary(lang);
-
   return (
     <html lang={lang}>
       <body

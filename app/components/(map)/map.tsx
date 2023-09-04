@@ -79,7 +79,7 @@ export default function Map({
       .split(",")
       .map(Number);
     if (coordinates) {
-      map.setView(coordinates as [number, number], 2);
+      map.setView([coordinates[1], coordinates[0]], 2);
     } else {
       map.setView([-256, 256], 1);
     }

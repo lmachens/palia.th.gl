@@ -4,3 +4,4 @@ export const TRANSFORMATIONS = {
   "bahari-bay": [1 / 300, -100, 1 / 300, 400],
 };
 export const DEFAULT_MAP = "kilima-valley";
+export const isMap = (map: string) => MAPS.includes(map);

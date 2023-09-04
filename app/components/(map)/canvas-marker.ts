@@ -22,9 +22,9 @@ leaflet.Canvas.include({
     if ("src" in icon && !("isText" in icon)) {
       layerContext.drawImage(layer.imageElement, dx, dy, imageSize, imageSize);
       layerContext.restore();
-
       return;
-    } else if (!("path" in icon)) {
+    }
+    if (!("path" in icon)) {
       const text = name ?? "";
       layerContext.fillStyle = "#e6e5e3";
       layerContext.textAlign = "center";
