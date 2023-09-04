@@ -50,10 +50,12 @@ export function generateMetadata({
     return acc;
   }, {} as Record<string, string>);
 
+  const metaTitle = title
+    ? `${title} | ${dict.maps[map]} | palia.th.gl`
+    : `${dict.maps[map]} | Palia Map | palia.th.gl`;
+
   return {
-    title: title
-      ? `${title} | ${dict.maps[map]} | palia.th.gl`
-      : `${dict.maps[map]} | Palia Map | palia.th.gl`,
+    title: metaTitle,
     description: description,
     creator: "Leon Machens",
     themeColor: "black",
@@ -65,7 +67,7 @@ export function generateMetadata({
       card: "summary_large_image",
     },
     openGraph: {
-      title: `${title} | ${dict.maps[map]} | palia.th.gl`,
+      title: metaTitle,
       description: description,
       type: name ? "article" : "website",
       url: "https://palia.th.gl",
