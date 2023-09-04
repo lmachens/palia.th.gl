@@ -1,3 +1,5 @@
+import { LatLngBoundsExpression } from "leaflet";
+
 export const MAPS = ["kilima-valley", "bahari-bay"];
 export const TRANSFORMATIONS = {
   "kilima-valley": [1 / 240, 250, 1 / 240, 290],
@@ -6,6 +8,16 @@ export const TRANSFORMATIONS = {
 export const VIEWS = {
   "kilima-valley": [-256, 256] as [number, number],
   "bahari-bay": [-34500, 110000] as [number, number],
+};
+export const BOUNDS = {
+  "kilima-valley": [
+    [50000, -59000],
+    [-60000, 62000],
+  ] as LatLngBoundsExpression,
+  "bahari-bay": [
+    [30000, 30000],
+    [-110000, 180000],
+  ] as LatLngBoundsExpression,
 };
 export const DEFAULT_MAP = "kilima-valley";
 export const isMap = (map: string) => MAPS.includes(map);

@@ -1,18 +1,14 @@
 "use client";
+import { BOUNDS } from "@/app/lib/maps";
 import { useGameInfoStore } from "@/app/lib/storage/game-info";
 import { useSettingsStore } from "@/app/lib/storage/settings";
-import { LatLngBoundsExpression } from "leaflet";
 import { useEffect } from "react";
 import { createCanvasLayer } from "./canvas-layer";
 import { useMap } from "./map";
 
 export const MIN_NATIVE_ZOOM = 0;
-export const MAX_NATIVE_ZOOM = 2;
+export const MAX_NATIVE_ZOOM = 3;
 export const TILE_SIZE = 512;
-export const BOUNDS: LatLngBoundsExpression = [
-  [0, 0],
-  [-TILE_SIZE, TILE_SIZE],
-];
 
 export default function Tiles({ map: mapName }: { map: string }) {
   const map = useMap();
@@ -28,7 +24,7 @@ export default function Tiles({ map: mapName }: { map: string }) {
       maxNativeZoom: MAX_NATIVE_ZOOM,
       minZoom: map.getMinZoom(),
       maxZoom: map.getMaxZoom(),
-      // bounds: BOUNDS,
+      bounds: BOUNDS[mapName as keyof typeof BOUNDS],
       tileSize: TILE_SIZE,
       updateInterval: 100,
       keepBuffer: 8,
