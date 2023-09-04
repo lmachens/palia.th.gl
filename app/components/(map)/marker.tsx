@@ -74,18 +74,9 @@ const Marker = memo(function Marker({
           // @ts-ignore
           node.isSpawnNode ? dict.spawnNodes[type].name : dict.nodes[type]
         }</p>`;
-        tooltipContent += `<p class="text-gray-300 text-xs font-bold">${node.mapName}</p>`;
-        tooltipContent += `<p class="text-gray-300 text-xs font-bold">${node.id}</p>`;
-
-        if ("description" in node) {
-          tooltipContent += `<p class="border-t border-t-gray-700 mt-2 pt-2 max-w-md whitespace-normal">${
-            dictEntry?.description ?? ""
-          }</p>`;
-        } else if ("id" in node) {
-          tooltipContent += `<p class="border-t border-t-gray-700 mt-2 pt-2 max-w-md whitespace-normal">${
-            dictEntry?.description ?? ""
-          }</p>`;
-        }
+        tooltipContent += `<p class="border-t border-t-gray-700 mt-2 pt-2 max-w-md whitespace-normal">${
+          dictEntry?.description ?? ""
+        }</p>`;
         const div = document.createElement("div");
         div.innerHTML = tooltipContent;
 
