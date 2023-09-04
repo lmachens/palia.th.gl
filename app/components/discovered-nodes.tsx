@@ -111,19 +111,13 @@ export default function DiscoveredNodes() {
               toggleFilter(key);
             }}
           >
-            {"src" in icon ? (
-              <Image
-                src={icon.src as string}
-                width={20}
-                height={20}
-                alt=""
-                className="h-5 w-5"
-              />
-            ) : (
-              <svg viewBox="0 0 100 100" fill={icon.color} className="h-5 w-5">
-                <path d={icon.path} />
-              </svg>
-            )}
+            <Image
+              src={icon.src as string}
+              width={20}
+              height={20}
+              alt=""
+              className="h-5 w-5"
+            />
             <span className="flex-1 text-left mx-3">
               {dict.nodes[key as keyof typeof ICONS]}
             </span>
