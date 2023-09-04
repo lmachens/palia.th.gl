@@ -1,5 +1,5 @@
 import { spawnNodes } from "./nodes";
-import { spawnIcons } from "./spawn-icons";
+import { spawnGroups } from "./spawn-groups";
 
 export const VIEWBOX = "0 0 100 100";
 export const CIRCLE_PATH =
@@ -9,12 +9,6 @@ export const ICONS = {
   location: {
     src: "/icons/Icon_Map_Marker.png",
     radius: 12,
-  },
-  recipe: {
-    color: "#abcdef",
-    lineWidth: 2,
-    path: CIRCLE_PATH,
-    radius: 7,
   },
   area: {
     src: "/icons/area.png",
@@ -41,19 +35,18 @@ export const ICONS = {
 } as const;
 
 export const SPAWN_ICONS = Object.keys(spawnNodes).reduce((acc, type) => {
-  if (type in spawnIcons) {
-    acc[type] = {
-      src: `/icons/spawn/${spawnIcons[type as keyof typeof spawnIcons]}.webp`,
-      radius: 8,
-    };
-    return acc;
-  }
-  acc[type] = {
-    color: "#abcdef",
-    lineWidth: 2,
-    path: CIRCLE_PATH,
-    radius: 8,
-  };
+  Object.entries(spawnGroups).find(([groupName, group]) => {
+    if (group.includes(type)) {
+      acc[type] = {
+        src: `/icons/spawn/Icon_ResourceTracker_${groupName[0].toUpperCase()}${groupName.slice(
+          1
+        )}.png`,
+        radius: 10,
+      };
+      return true;
+    }
+    return false;
+  });
   return acc;
 }, {} as Record<string, { color: string; lineWidth: number; path: string; radius: number } | { src: string; radius: number }>);
 

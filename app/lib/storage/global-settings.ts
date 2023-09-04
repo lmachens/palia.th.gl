@@ -10,8 +10,6 @@ export const ALL_FILTERS = [
 export const useGlobalSettingsStore = create(
   persist<{
     // App and Website
-    showTerritoryNames: boolean;
-    toggleShowTerritoryNames: () => void;
     iconSize: number;
     setIconSize: (iconSize: number) => void;
     filters: string[];
@@ -35,15 +33,10 @@ export const useGlobalSettingsStore = create(
       }
 
       return {
-        showTerritoryNames: true,
-        toggleShowTerritoryNames: () =>
-          set((state) => ({
-            showTerritoryNames: !state.showTerritoryNames,
-          })),
         iconSize: 1,
         setIconSize: (iconSize) => set({ iconSize }),
         filters,
-        setFilters: (filters) => set({ filters }),
+        setFilters: (filters) => set({ filters: [...new Set(filters)] }),
         showFilters: false,
         toggleShowFilters: () =>
           set((state) => ({ showFilters: !state.showFilters })),

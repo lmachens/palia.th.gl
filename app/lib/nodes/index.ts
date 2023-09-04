@@ -2,7 +2,6 @@ import { area } from "./area";
 import { housingPlot } from "./housingPlot";
 import { landmark } from "./landmark";
 import { location } from "./location";
-import { recipe } from "./recipe";
 import { spawnNodes } from "./spawn-nodes";
 import { stable } from "./stable";
 
@@ -15,7 +14,6 @@ export const staticNodes = {
   location: location,
   stable: stable,
   housingPlot: housingPlot,
-  recipe: recipe,
   zone: zone,
 } as const;
 

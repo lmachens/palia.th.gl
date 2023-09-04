@@ -17,7 +17,7 @@ leaflet.Canvas.include({
     const layerContext = this._ctx as CanvasRenderingContext2D;
 
     layerContext.save();
-    layerContext.globalAlpha = isDiscovered ? 0.5 : 1;
+    layerContext.globalAlpha = isDiscovered ? 0.4 : 1;
 
     if ("src" in icon && !("isText" in icon)) {
       layerContext.drawImage(layer.imageElement, dx, dy, imageSize, imageSize);

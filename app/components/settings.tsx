@@ -1,6 +1,5 @@
 import { useDict } from "../components/(i18n)/i18n-provider";
 import { useGlobalSettingsStore } from "../lib/storage/global-settings";
-import Toggle from "./toggle";
 
 export default function Settings() {
   const globalSettingsStore = useGlobalSettingsStore();
@@ -8,13 +7,6 @@ export default function Settings() {
 
   return (
     <>
-      <div className="flex">
-        <span className="w-1/2">{dict.settings.showTerritoryNames}</span>
-        <Toggle
-          checked={!!globalSettingsStore.showTerritoryNames}
-          onChange={globalSettingsStore.toggleShowTerritoryNames}
-        />
-      </div>
       <div className="flex">
         <span className="w-1/2">{dict.settings.iconSize}</span>
         <input

@@ -32,14 +32,17 @@
     "stable": "Stable",
     "recipe": "Recipe",
     "housingPlot": "Housing Plot",
-    "zone": "Zone",
-    "sundropLillies": "Sundrop Lillies",
-    "wildGarlic": "Wild Garlic",
-    "waterFlower": "Crystal Lake Lotus"
+    "zone": "Zone"
+  },
+  "groups": {
+    "foraging": "Foraging",
+    "mining": "Mining",
+    "fishing": "Fishing",
+    "hunting": "Hunting",
+    "insects": "Insects"
   },
   "settings": {
     "rightClickToggle": "Right click to toggle discovered",
-    "showTerritoryNames": "Show Territory Names",
     "iconSize": "Icon Size",
     "backup": "Backup",
     "restore": "Restore",

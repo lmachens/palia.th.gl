@@ -12,13 +12,22 @@ export default function useFilters() {
   }, []);
 
   const toggleFilter = useCallback(
-    (key: string) => {
-      const newFilters = globalSettingsStore.filters.includes(key)
-        ? globalSettingsStore.filters.filter((f) => f !== key)
-        : [...globalSettingsStore.filters, key];
-      setFilters(newFilters);
+    (key: string | string[]) => {
+      if (Array.isArray(key)) {
+        const newFilters = globalSettingsStore.filters.some((filter) =>
+          key.includes(filter)
+        )
+          ? globalSettingsStore.filters.filter((f) => !key.includes(f))
+          : [...globalSettingsStore.filters, ...key];
+        setFilters(newFilters);
+      } else {
+        const newFilters = globalSettingsStore.filters.includes(key)
+          ? globalSettingsStore.filters.filter((f) => f !== key)
+          : [...globalSettingsStore.filters, key];
+        setFilters(newFilters);
+      }
     },
-    [globalSettingsStore.filters],
+    [globalSettingsStore.filters]
   );
   return [globalSettingsStore.filters, toggleFilter, setFilters] as const;
 }
