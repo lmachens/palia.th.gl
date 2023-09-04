@@ -17,7 +17,7 @@ export default function Nodes({ map: mapName }: { map: string }) {
     const featureGroup = new leaflet.FeatureGroup();
     featureGroup.addTo(map);
     return featureGroup;
-  }, []);
+  }, [map]);
 
   const router = useOverwolfRouter();
   const params = useParams()!;
@@ -91,12 +91,14 @@ export default function Nodes({ map: mapName }: { map: string }) {
     }
   }, []);
 
+  const visibleNodes = useMemo(() => {
+    return nodes.filter((node) => {
+      return mapName === node.mapName;
+    });
+  }, [featureGroup]);
   return (
     <>
-      {nodes.map((node) => {
-        if (mapName !== node.mapName) {
-          return <Fragment key={node.id} />;
-        }
+      {visibleNodes.map((node) => {
         let isHighlighted = false;
         if (selectedName && coordinates) {
           const name =

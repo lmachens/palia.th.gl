@@ -24,12 +24,6 @@ export const location = [
     y: -23047.64,
   },
   {
-    id: "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63147A01_2092305998",
-    mapName: "bahari-bay",
-    x: 66339.17,
-    y: -24190.54,
-  },
-  {
     id: "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63157A01_1109767176",
     mapName: "bahari-bay",
     x: 78751.69,

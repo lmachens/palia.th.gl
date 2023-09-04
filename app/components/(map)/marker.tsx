@@ -3,7 +3,7 @@ import { ICONS, SPAWN_ICONS } from "@/app/lib/icons";
 import { NODE, NODE_TYPE } from "@/app/lib/nodes";
 import { useRoutesStore } from "@/app/lib/storage/routes";
 import leaflet from "leaflet";
-import { memo, useEffect, useRef } from "react";
+import { memo, useEffect } from "react";
 import { useDict } from "../(i18n)/i18n-provider";
 import CanvasMarker from "./canvas-marker";
 const Marker = memo(function Marker({
@@ -27,7 +27,6 @@ const Marker = memo(function Marker({
   onContextMenu: (id: string) => void;
   featureGroup: leaflet.FeatureGroup;
 }) {
-  const marker = useRef<CanvasMarker | null>(null);
   const dict = useDict();
 
   useEffect(() => {
@@ -36,7 +35,7 @@ const Marker = memo(function Marker({
       : ICONS[type as keyof typeof ICONS];
     const latLng = [node.y, node.x] as [number, number];
     const interactive = type !== "area";
-    marker.current = new CanvasMarker(latLng, {
+    const marker = new CanvasMarker(latLng, {
       id,
       icon,
       // @ts-ignore
@@ -48,15 +47,15 @@ const Marker = memo(function Marker({
       snapIgnore: false,
       interactive,
     });
-    marker.current.addTo(featureGroup);
+    marker.addTo(featureGroup);
 
     if (interactive) {
-      marker.current.on("click", () => {
+      marker.on("click", () => {
         if (!useRoutesStore.getState().isCreating) {
           onClick(node);
         }
       });
-      marker.current.on("contextmenu", () => {
+      marker.on("contextmenu", () => {
         if (!useRoutesStore.getState().isCreating) {
           onContextMenu(id);
         }
@@ -97,26 +96,23 @@ const Marker = memo(function Marker({
         div.append(note);
         return div;
       };
-      marker.current.bindTooltip(tooltipContent, {
+      marker.bindTooltip(tooltipContent, {
         permanent: isHighlighted,
         interactive: isHighlighted,
         direction: "top",
         offset: [0, -icon.radius * iconSize],
       });
       if (isDiscovered) {
-        marker.current.bringToBack();
+        marker.bringToBack();
       } else if (isHighlighted) {
-        marker.current.bringToFront();
+        marker.bringToFront();
       }
     } else {
-      marker.current.bringToBack();
+      marker.bringToBack();
     }
     return () => {
-      if (marker.current) {
-        featureGroup.removeLayer(marker.current);
-        marker.current.remove();
-        marker.current = null;
-      }
+      featureGroup.removeLayer(marker);
+      marker.remove();
     };
   }, [type, isHighlighted, isDiscovered, iconSize, dict]);
 

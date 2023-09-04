@@ -7,7 +7,7 @@ import { useParams } from "next/navigation";
 import { useEffect, useRef } from "react";
 import { create } from "zustand";
 
-import { TRANSFORMATIONS } from "@/app/lib/maps";
+import { TRANSFORMATIONS, VIEWS } from "@/app/lib/maps";
 import "@geoman-io/leaflet-geoman-free";
 import "@geoman-io/leaflet-geoman-free/dist/leaflet-geoman.css";
 
@@ -81,7 +81,7 @@ export default function Map({
     if (coordinates) {
       map.setView([coordinates[1], coordinates[0]], 2);
     } else {
-      map.setView([-256, 256], 1);
+      map.setView(VIEWS[mapName as keyof typeof VIEWS], 1);
     }
 
     setMap(map);
@@ -98,7 +98,7 @@ export default function Map({
       if ("update" in router) {
         router.update({ name: "", coordinates: "" });
       } else {
-        router.replace(`/${params.lang ?? ""}${location.search}`);
+        router.replace(`/${params.lang}/${params.map}${location.search}`);
       }
     });
 
@@ -117,10 +117,10 @@ export default function Map({
     }
 
     return () => {
-      setMap(null);
+      // setMap(null);
       // map.remove();
     };
-  }, []);
+  }, [mapName]);
 
   return (
     <>

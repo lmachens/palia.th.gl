@@ -515,12 +515,6 @@ export const spawnNodes = {
       mapName: "kilima-valley",
     },
     {
-      x: -2571.12,
-      y: 25951.07,
-      z: 1277.97,
-      mapName: "kilima-valley",
-    },
-    {
       x: -7148.7,
       y: 31050.86,
       z: 982,
@@ -10815,12 +10809,6 @@ export const spawnNodes = {
       mapName: "kilima-valley",
     },
     {
-      x: 30231.83,
-      y: 7041.19,
-      z: -863.14,
-      mapName: "kilima-valley",
-    },
-    {
       x: 32839.11,
       y: 8786.87,
       z: -1071.86,
@@ -10977,12 +10965,6 @@ export const spawnNodes = {
       mapName: "kilima-valley",
     },
     {
-      x: 47227.96,
-      y: 6788.53,
-      z: -93.34,
-      mapName: "kilima-valley",
-    },
-    {
       x: 48691.17,
       y: 4620.29,
       z: 224.46,
@@ -11045,12 +11027,6 @@ export const spawnNodes = {
       mapName: "kilima-valley",
     },
     {
-      x: 26316.3,
-      y: 11413.67,
-      z: 723.45,
-      mapName: "kilima-valley",
-    },
-    {
       x: 26182.2,
       y: 11073.49,
       z: 806.55,
@@ -11060,12 +11036,6 @@ export const spawnNodes = {
       x: 24415,
       y: 10298,
       z: 1013.58,
-      mapName: "kilima-valley",
-    },
-    {
-      x: 24415,
-      y: 10298,
-      z: 1010.62,
       mapName: "kilima-valley",
     },
   ],
@@ -11188,12 +11158,6 @@ export const spawnNodes = {
       x: 594.6,
       y: 23830.75,
       z: -243.66,
-      mapName: "kilima-valley",
-    },
-    {
-      x: -21675.31,
-      y: 24909.44,
-      z: -525.57,
       mapName: "kilima-valley",
     },
     {
