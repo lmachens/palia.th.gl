@@ -15,6 +15,7 @@ async function _GET(request: NextRequest) {
     "/screenshot",
     ""
   )}?screenshot=true`;
+  console.log(url);
   const screenshot = await takeScreenshot(url, size);
   const response = new NextResponse(screenshot, {
     headers: {

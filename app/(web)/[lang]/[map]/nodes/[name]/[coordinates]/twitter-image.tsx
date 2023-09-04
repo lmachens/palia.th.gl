@@ -11,11 +11,11 @@ export const size = {
 export const contentType = "image/jpeg";
 
 export default async function Image({
-  params: { name, coordinates },
+  params: { lang, name, map, coordinates },
 }: {
-  params: { name: string; coordinates: string };
+  params: { lang: string; name: string; map: string; coordinates: string };
 }) {
-  const url = `https://palia.th.gl/en/embed/nodes/${name}/${coordinates}?screenshot=true`;
+  const url = `https://palia.th.gl/embed/${lang}/${map}/nodes/${name}/${coordinates}?screenshot=true`;
   const screenshot = await takeScreenshot(url, size);
   const response = new NextResponse(screenshot, {
     headers: {
