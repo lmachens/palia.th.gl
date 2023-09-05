@@ -100,10 +100,10 @@ export default function Routes() {
             setRoutePolylines(polylines);
           }
         });
-        workingLayer.on("pm:vertexremoved", (e) => {
+        workingLayer.on("pm:vertexremoved", () => {
           setRoutePolylines(polylines);
         });
-        workingLayer.on("pm:markerdragend", (e) => {
+        workingLayer.on("pm:markerdragend", () => {
           setRoutePolylines(polylines);
         });
         workingLayer.on("pm:edit", () => {
