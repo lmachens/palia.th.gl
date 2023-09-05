@@ -1,7 +1,8 @@
 {
   "meta": {
-    "subtitle": "Palia Map",
-    "description": "Maximize your Palia gameplay with this Open Source Palia Map! Discover Kilima Valley and Bahari Bay, find the collectibles, quests and more with real-time position tracking."
+    "subtitle": "Palia Interactive Map",
+    "short": "Palia Map",
+    "description": "Maximize your Palia gameplay with this Interactive Palia Map! Discover Kilima Valley, Bahari Bay and Fairgrounds, find all locations with real-time position tracking."
   },
   "menu": {
     "patronInfo": "Get rid of ads and support me on Patreon",

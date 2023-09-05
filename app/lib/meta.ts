@@ -24,19 +24,20 @@ export function generateMetadata({
       return dict.spawnNodes[node.type].name === title;
     });
 
-  let canonical = API_BASE_URI + `/${lang}/${map}`;
+  let canonical =
+    (process.env.NODE_ENV === "development"
+      ? "http://localhost:3668"
+      : API_BASE_URI) + `/${lang}/${map}`;
   let description = dict.meta.description;
   if (node) {
-    const name = (dict.generated as any)[node.type]?.[node.id]?.name ?? "";
-
+    const terms = !node.isSpawnNode
+      ? dict.generated[node.type]?.[node.id]
+      : dict.spawnNodes[node.type];
+    const name = terms?.name ?? "";
     description = name;
     description += ` (${dict.nodes[node.type]})`;
-    if ("description" in node) {
-      const nodeDescription =
-        (dict.generated as any)[node.type]?.[node.id]?.description ?? "";
-
-      description += `. ${nodeDescription?.replace(/<\/?[^>]+(>|$)/g, "")}`;
-    }
+    const nodeDescription = terms?.description ?? "";
+    description += `. ${nodeDescription?.replace(/<\/?[^>]+(>|$)/g, "")}`;
   }
 
   if (name) {
@@ -52,7 +53,7 @@ export function generateMetadata({
 
   const metaTitle = title
     ? `${title} | ${dict.maps[map]} | palia.th.gl`
-    : `${dict.maps[map]} | Palia Map | palia.th.gl`;
+    : `${dict.maps[map]} | ${dict.meta.subtitle} | palia.th.gl`;
 
   return {
     title: metaTitle,
@@ -65,12 +66,14 @@ export function generateMetadata({
     },
     twitter: {
       card: "summary_large_image",
+      images: name ? canonical + "/screenshot" : "/social.webp",
     },
     openGraph: {
       title: metaTitle,
       description: description,
       type: name ? "article" : "website",
       url: "https://palia.th.gl",
+      images: name ? canonical + "/screenshot" : "/social.webp",
     },
   };
 }
