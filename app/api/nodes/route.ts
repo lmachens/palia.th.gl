@@ -5,13 +5,10 @@ import { NextRequest, NextResponse } from "next/server";
 
 async function _GET(request: NextRequest) {
   const result = {
-    ...Object.keys(staticNodes).reduce(
-      (acc, key) => {
-        acc[key as NODE_TYPE] = [];
-        return acc;
-      },
-      {} as Record<NODE_TYPE, SIMPLE_NODE[]>,
-    ),
+    ...Object.keys(staticNodes).reduce((acc, key) => {
+      acc[key as NODE_TYPE] = [];
+      return acc;
+    }, {} as Record<NODE_TYPE, SIMPLE_NODE[]>),
   };
 
   const search = request.nextUrl.search;
@@ -22,9 +19,10 @@ async function _GET(request: NextRequest) {
   if (!q) {
     Object.entries(staticNodes).forEach(([key, items]) => {
       items.forEach((node) => {
-        const terms = (dict.generated as any)[key]?.[
-          "termId" in node ? (node.termId as string) : node.id
-        ];
+        const terms =
+          dict.generated[key]?.[
+            "termId" in node ? (node.termId as string) : node.id
+          ];
 
         const langNode = { ...node };
         Object.assign(langNode, terms);
@@ -38,9 +36,10 @@ async function _GET(request: NextRequest) {
 
   Object.entries(staticNodes).forEach(([key, items]) => {
     items.forEach((node) => {
-      const terms = (dict.generated as any)[key]?.[
-        "termId" in node ? (node.termId as string) : node.id
-      ];
+      const terms =
+        dict.generated[key]?.[
+          "termId" in node ? (node.termId as string) : node.id
+        ];
       if (
         terms?.name?.toLowerCase().includes(q) ||
         terms?.description?.toLowerCase().includes(q) ||

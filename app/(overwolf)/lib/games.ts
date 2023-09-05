@@ -92,7 +92,7 @@ export function setFeatures() {
   });
 }
 
-export function getGameInfo(): Promise<any> {
+export function getGameInfo(): Promise<unknown> {
   return new Promise((resolve, reject) => {
     overwolf.games.events.getInfo((info) => {
       if (info.success) {
