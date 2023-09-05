@@ -31,7 +31,7 @@ const Search = dynamic(() => import("@/app/components/search"), {
 });
 
 function Layout({
-  // children,
+  children,
   params: { lang, map },
 }: {
   children: React.ReactNode;
@@ -63,6 +63,7 @@ function Layout({
             <Search />
             <Menu />
           </Map>
+          {children}
         </I18NProvider>
         <SearchParams />
         <PlausibleTracker

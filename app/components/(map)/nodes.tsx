@@ -89,11 +89,11 @@ export default function Nodes({ map: mapName }: { map: string }) {
         coordinates: `@${node.x},${node.y}`,
       });
     } else {
-      router.push(
-        `/${params.lang}/${mapName}/nodes/${encodeURIComponent(
-          name || node.type
-        )}/@${node.x},${node.y}${location.search}`
-      );
+      const url = `/${params.lang}/${mapName}/nodes/${encodeURIComponent(
+        name
+      )}/@${node.x},${node.y}${location.search}`;
+      router.prefetch(url);
+      router.push(url);
     }
   }, []);
 
