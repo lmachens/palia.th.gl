@@ -23,6 +23,11 @@ await fs.cp(
   path.resolve(__dirname, "../out/icons/"),
   { recursive: true }
 );
+await fs.cp(
+  path.resolve(__dirname, "../overwolf/plugins/"),
+  path.resolve(__dirname, "../out/plugins/"),
+  { recursive: true }
+);
 
 const removeableFiles = [
   "404.html",

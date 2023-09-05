@@ -16,6 +16,7 @@
     "Hotkeys",
     "GameInfo",
     "FileSystem",
+    "Extensions",
     "DesktopStreaming",
     "Clipboard"
   ],
@@ -132,6 +133,12 @@
     },
     "url_protocol": {
       "scheme": "overwolf-extension"
+    },
+    "extra-objects": {
+      "palia": {
+        "file": "plugins/Palia.dll",
+        "class": "Palia.Overwolf"
+      }
     }
   }
 }

@@ -24,6 +24,7 @@ const Map = dynamic(() => import("@/app/components/(map)/map"), {
 });
 
 function Layout({
+  children,
   params: { lang, map },
 }: {
   children: React.ReactNode;
@@ -70,6 +71,7 @@ function Layout({
             </svg>
             palia.th.gl
           </a>
+          {children}
         </I18NProvider>
 
         <PlausibleTracker

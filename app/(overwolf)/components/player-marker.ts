@@ -53,7 +53,7 @@ export default class PlayerMarker extends leaflet.Marker {
   }
 
   updatePosition({ position, rotation }: PlayerPosition) {
-    let playerRotation = 90 - rotation;
+    let playerRotation = rotation + 90;
 
     const oldRotation = this.rotation || playerRotation;
 

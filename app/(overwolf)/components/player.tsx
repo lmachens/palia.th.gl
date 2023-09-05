@@ -30,62 +30,43 @@ export default function Player() {
     marker.current.rotation = 0;
     marker.current.addTo(map);
 
-    let lastPosition = { x: 0, y: 0, z: 0 };
-    const parseLine = (line: string) => {
-      try {
-        const matched = line.match(/location (.* })/);
-        if (matched?.length === 2) {
-          const jsonString = matched[1]
-            .replaceAll(/ ([\w]+):/g, ', "$1":')
-            .replace("{,", "{");
-          const { map_name: map, x, y, z } = JSON.parse(jsonString);
-
-          const position = { x, y, z };
-          const rotation =
-            (Math.atan2(
-              position.y - (lastPosition.y || position.y),
-              position.x - (lastPosition.x || position.x)
-            ) *
-              180) /
-            Math.PI;
-          lastPosition = position;
-          gameInfo.setPlayer({
-            position,
-            rotation,
-            map,
-          });
-        }
-      } catch (err) {
-        //
+    overwolf.extensions.current.getExtraObject("palia", (result) => {
+      if (!result.success) {
+        console.error("failed to create object: ", result);
+        return;
       }
-    };
 
-    const filePath =
-      overwolf.io.paths.localAppData + "/Palia/Saved/Logs/Palia.log";
-    overwolf.io.readFileContents(
-      filePath,
-      "UTF8" as overwolf.io.enums.eEncoding.UTF8,
-      (result) => {
-        console.log(result);
-        if (result.content) {
-          const lines = result.content.split("\n").reverse();
-          const found = lines.find((line) => line.includes("location"));
-          if (found) {
-            parseLine(found);
+      const plugin = result.object;
+      console.log("Initialized plugin");
+
+      let prevPosition = { X: 0, Y: 0, Z: 0, R: 0 };
+      const getData = () => {
+        plugin.Listen(
+          (data: { X: number; Y: number; Z: number; R: number }) => {
+            if (
+              data.X !== prevPosition.X ||
+              data.Y !== prevPosition.Y ||
+              data.Z !== prevPosition.Z ||
+              data.R !== prevPosition.R
+            ) {
+              prevPosition = data;
+              console.log(data);
+              gameInfo.setPlayer({
+                position: {
+                  x: data.X,
+                  y: data.Y,
+                  z: data.Z,
+                },
+                rotation: data.R,
+                map: "kilima-valley",
+              });
+            }
+            setTimeout(getData, 100);
           }
-        }
-      }
-    );
-    overwolf.io.listenOnFile(
-      "Palia.log",
-      filePath,
-      { skipToEnd: true },
-      (result) => {
-        if (result.content) {
-          parseLine(result.content);
-        }
-      }
-    );
+        );
+      };
+      setTimeout(getData, 100);
+    });
   }, []);
 
   useEffect(() => {
