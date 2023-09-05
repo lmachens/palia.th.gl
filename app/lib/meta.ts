@@ -41,7 +41,7 @@ export function generateMetadata({
   }
 
   if (name && node) {
-    canonical += `/nodes/${encodeURIComponent(name)}/@${node.x},${node.y}`;
+    canonical += `/nodes/${name}/@${node.x},${node.y}`;
   }
   const alternativeLanguages = LOCALES.reduce((acc, locale) => {
     acc[locale] = API_BASE_URI + `/${locale}`;
