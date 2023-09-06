@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/lmachens/palia.th.gl">
-    <img src="assets/store/app-icon.png" alt="Logo" >
+    <img src="app/icon.png" alt="Logo" height="100" >
   </a>
 
 <h3 align="center">Palia Map</h3>
@@ -9,14 +9,14 @@
     Palia Interactive Map
     <br />
     <br />
-    <a href="https://www.overwolf.com/app/Leon_Machens-Diablo_4_Map">Overwolf</a>
+    <a href="#">Overwolf (coming soon)</a>
     ·
     <a href="https://palia.th.gl/">Web-Version</a>
     ·
     <a href="https://discord.com/invite/NTZu8Px">Discord</a>
   </p>
 </div>
-<div align="center">Available in:<br />  🇺🇸 | 🇫🇷 | 🇩🇪 | 🇪🇸 | 🇧🇷 | 🇷🇺</div
+<div align="center">Available in:<br />🇺🇸 (more locales coming soon)</div
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -31,14 +31,11 @@
 
 ## About The Project
 
-![Palia Map Screen Shot](assets/store/screenshot1.jpg)
-![Palia Map Screen Shot](assets/store/screenshot2.jpg)
-![Palia Map Screen Shot](assets/store/screenshot3.jpg)
-![Palia Map Screen Shot](assets/store/screenshot4.jpg)
+TBA
 
 ## Installation
 
-Head over to the [Palia Map](https://www.overwolf.com/app/Leon_Machens-Diablo_4_Map) page on Overwolf and click the "Download" button.
+Head over to the [Palia Map](#) page on Overwolf and click the "Download" button.
 
 You can also use the web-version of the app [here](https://palia.th.gl/).
 
@@ -46,15 +43,12 @@ Join the [Discord](https://discord.com/invite/NTZu8Px) to get the latest news an
 
 ## Features
 
-- Realtime player position ([Video](https://youtu.be/kSl2Fm6Fd1w))
-- Routes (e.g. All Altars Of Lilith)
-- Helltide event timers and zones
-- Hundreds of locations like bounty events, side quests or dungeons
+- Realtime player position ([Video](#))
+- Routes
+- Hundreds of locations like insects, foraging, mining or hunting
 - High-resolution map
 - Ability to mark nodes as discovered
-- Display of region borders
 - Filtering of node types
-- Node tooltips providing information about the region, type, and requirements
 - Search functionality for any nodes
 - Overlay mode with hotkey support (no need to use ALT+TAB to access the map)
 
