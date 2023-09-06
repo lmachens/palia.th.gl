@@ -19,6 +19,10 @@ const DiscoveredNodes = dynamic(() => import("./discovered-nodes"), {
 
 const DISCOVER_LINKS = [
   {
+    href: "https://paliapedia.com//?ref=palia.th.gl",
+    text: "Palia Database",
+  },
+  {
     href: "https://www.th.gl/?ref=palia.th.gl",
     text: "Gaming Apps & Tools",
   },
