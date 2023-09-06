@@ -193,7 +193,7 @@ export const location = [
   },
   {
     id: "BP_GateTeleporter_Parent_C_UAID_CC96E503DE630E7901_1573823092",
-    mapName: "kilima-valley",
+    mapName: "fairgrounds",
     x: 81801.3,
     y: 16557.43,
   },

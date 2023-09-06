@@ -7,9 +7,33 @@
     "name": "Common Blue Butterfly",
     "description": "Ever resilient. Butterflies of this type can be found in almost every climate in Palia.\r\nFound all around Kilima and Bahari Bay during the morning and day."
   },
+  "BP_Bug_CicadaC_C": {
+    "name": "Common Bark Cicada",
+    "description": "A common cicada.\r\nFound attached to trees in Bahari Bay during the morning and day."
+  },
+  "BP_Bug_CicadaR_C": {
+    "name": "Spitfire Cicada",
+    "description": "A spirited cicada, whose bark is worse than its bite.\r\nFound attached to trees in Bahari Bay during the morning and day."
+  },
+  "BP_Bug_CicadaU_C": {
+    "name": "Cerulean Cicada",
+    "description": "The call of this cicada is so soothing, it was said to be the inspiration for Ayana's fourth symphony.\r\nFound attached to trees in Bahari Bay during the morning and day."
+  },
+  "BP_Bug_CrabC_C": {
+    "name": "Bahari Crab",
+    "description": "A local crab, known to taste good with drawn butter.\r\nFound along the coast of Bahari Bay. Also has a chance to be found when foraging shells in Bahari Bay."
+  },
+  "BP_Bug_CrabU_C": {
+    "name": "Spineshell Crab",
+    "description": "A crab with a very spiny shell.\r\nFound along the coast of Bahari Bay."
+  },
   "BP_Bug_CricketC_C": {
     "name": "Common Field Cricket",
     "description": "Field crickets can be found anywhere you can find a field.\r\nFound all around Kilima and Bahari Bay."
+  },
+  "BP_Bug_CricketR_C": {
+    "name": "Azure Stonehopper",
+    "description": "This little blue beauty has been known to camouflage itself as a shiny blue pebble.\r\nFound in the fields of Bahari Bay."
   },
   "BP_Bug_CricketU_C": {
     "name": "Garden Leafhopper",
@@ -23,6 +47,10 @@
     "name": "Firebreathing Dragonfly",
     "description": "This Dragonfly is notoriously difficult to catch, in part due to its fiery breath.\r\nFound in the fields of Kilima."
   },
+  "BP_Bug_DragonflyU_C": {
+    "name": "Inky Dragonfly",
+    "description": "This stealthy Dragonfly is used as a component in various black dyes and inks.\r\nFound around rivers and ponds in Bahari Bay."
+  },
   "BP_Bug_LadybugR_C": {
     "name": "Princess Ladybug",
     "description": "A very regal looking lady bug, made popular by the children's fairytale, The Princess Who Turned Into A Ladybug.\r\nFound around the lake in Kilima."
@@ -35,17 +63,37 @@
     "name": "Kilima Night Moth",
     "description": "While beautiful, the Kilima night moth is so prevalent on hot summer nights that some consider it to be a pest. Keep away from stored cloth.\r\nFound all around Kilima and Bahari Bay during the evening and night."
   },
+  "BP_Bug_PedeR1_C": {
+    "name": "Hairy Millipede",
+    "description": "A millipede with a hair growth problem.\r\nFound in the forests of Bahari Bay."
+  },
   "BP_Bug_PedeU_C": {
     "name": "Garden Millipede",
     "description": "A brown and green millipede that loves feasting on garden crops.\r\nFound in the fields of Kilima. Also has a chance to be found when foraging in the fields of Kilima."
+  },
+  "BP_Bug_SnailU_C": {
+    "name": "Garden Snail",
+    "description": "A snail that has evolved over time to look like a leaf. Good for hiding from predators, bad for hiding from the Leafstalker Mantis.\r\nFound along the coast and in forests of Bahari Bay."
+  },
+  "BP_Coral_C": {
+    "name": "Coral",
+    "description": "Bring the beach home with you with this piece of coral. You can almost smell the reef!"
   },
   "BP_Gatherable_Elouisa_Dropoff_C": {
     "name": "Flothinger Trap",
     "description": "A perfectly normal place for Flothingers to gather and be trapped."
   },
+  "BP_Gatherable_MushroomBlue_C": {
+    "name": "Brightshroom",
+    "description": "Brightshrooms get their glow from absorbing Flow and thus have many alchemical uses."
+  },
   "BP_Gatherable_MushroomR_C": {
     "name": "Mountain Morel",
     "description": "A common mushroom, Mountain Morels can be found right at home! Super popular, raw or cooked."
+  },
+  "BP_Gatherable_Ruins_C": {
+    "name": "\"Ancient Burial Ground\"",
+    "description": "A great place to return a statue."
   },
   "BP_Mining_Clay_C": {
     "name": "Clay Node",
@@ -63,6 +111,30 @@
     "name": "Small Copper Node",
     "description": ""
   },
+  "BP_Mining_Iron_Large_C": {
+    "name": "Large Iron Node",
+    "description": ""
+  },
+  "BP_Mining_Iron_Medium_C": {
+    "name": "Medium Iron Node",
+    "description": ""
+  },
+  "BP_Mining_Iron_Small_C": {
+    "name": "Small Iron Node",
+    "description": ""
+  },
+  "BP_Mining_Palium_Large_C": {
+    "name": "Large Palium Node",
+    "description": ""
+  },
+  "BP_Mining_Palium_Medium_C": {
+    "name": "Medium Palium Node",
+    "description": ""
+  },
+  "BP_Mining_Palium_Small_C": {
+    "name": "Small Palium Node",
+    "description": ""
+  },
   "BP_Mining_Stone_Large_C": {
     "name": "Large Rock",
     "description": ""
@@ -75,13 +147,37 @@
     "name": "Small Rock",
     "description": ""
   },
+  "BP_Moss_DragonsBeard_C": {
+    "name": "Dragon's Beard Peat",
+    "description": "Dragon's Beard Peat is a rare, alchemical, moss named for its color, which resembles Maji's."
+  },
   "BP_Moss_EmeraldCarpet_C": {
     "name": "Emerald Carpet Moss",
     "description": "Filling your home with the bright color of Emerald Carpet Moss is said to bring good luck."
   },
+  "BP_Oyster_C": {
+    "name": "Unopened Oyster",
+    "description": "Open up this oyster! Even if you don't find a pearl, you can at least eat it."
+  },
+  "BP_PoisonFlower_C": {
+    "name": "Briar Daisy",
+    "description": "The mountainous Briar Daisy can survive even the harshest conditions."
+  },
+  "BP_Seashell_C": {
+    "name": "Shell",
+    "description": "Who sells sea shells by the sea shore? No one. You had to find this yourself."
+  },
   "BP_ShrubChoppable_Bush_C": {
     "name": "Bush",
     "description": ""
+  },
+  "BP_Spice_DariCloves_C": {
+    "name": "Dari Cloves",
+    "description": "The rare Dari Clove is a spice loved by chefs and alchemists alike. Said to have magical properties."
+  },
+  "BP_Spice_HeatRoot_C": {
+    "name": "Heat Root",
+    "description": "Don't sweat it! Whether it's cooking or healing, spicy Heat Root will warm you up from the inside out. "
   },
   "BP_Spiced_Sprouts_C": {
     "name": "Spice Sprouts",
@@ -90,6 +186,10 @@
   "BP_SundropLillies_C": {
     "name": "Sundrop Lily",
     "description": "The Sundrop Lily grows in open fields where it can turn its petals to the sunlight."
+  },
+  "BP_SweetLeaves_C": {
+    "name": "Sweet Leaf",
+    "description": "Those with sweet teeth will love this Sweet Leaf, one of Palia's favorite dessert ingredients."
   },
   "BP_TreeChoppable_Birch_Large_C": {
     "name": "Large Birch Tree",
@@ -105,6 +205,22 @@
   },
   "BP_TreeChoppable_Birch_Small_C": {
     "name": "Small Birch Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Large_C": {
+    "name": "Large Juniper Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Medium_C": {
+    "name": "Medium Juniper Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Sapling_C": {
+    "name": "Juniper Sapling",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Small_C": {
+    "name": "Small Juniper Tree",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Large_C": {
@@ -123,6 +239,22 @@
     "name": "Small Oak Tree",
     "description": ""
   },
+  "BP_TreeChoppable_Pine_Large_C": {
+    "name": "Large Pine Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Medium_C": {
+    "name": "Medium Pine Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Sapling_C": {
+    "name": "Pine Sapling",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Small_C": {
+    "name": "Small Pine Tree",
+    "description": ""
+  },
   "BP_ValeriaHuntingCreature_Cearnuk_T1_C": {
     "name": "Cearnuk T1",
     "description": ""
@@ -139,12 +271,20 @@
     "name": "Chapaa T2",
     "description": ""
   },
+  "BP_ValeriaHuntingCreature_Chapaa_T3_C": {
+    "name": "Chapaa T3",
+    "description": ""
+  },
   "BP_WaterFlower_C": {
     "name": "Crystal Lake Lotus",
     "description": "The Crystal Lake Lotus is named after where it was discovered and is now used to make dyes."
   },
   "BP_WaterPlane_Fishing_LakeVillage_SQ_C": {
     "name": "Lake",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_PondVillage_SQ_C": {
+    "name": "Pond",
     "description": ""
   },
   "BP_WaterPlane_Fishing_RiverVillage_SQ_C": {

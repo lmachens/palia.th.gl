@@ -66,8 +66,7 @@ const Marker = memo(function Marker({
           ? dict.spawnNodes[type as keyof typeof dict.spawnNodes]
           : // @ts-ignore
             dict.generated[type]?.[node.id];
-        let tooltipContent = "";
-        tooltipContent += `<p class="font-bold text-base">${
+        let tooltipContent = `<p class="font-bold text-base">${
           dictEntry?.name ?? ""
         }</p>`;
         tooltipContent += `<p class="text-gray-300 text-sm">${

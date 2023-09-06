@@ -62,6 +62,10 @@ export default function Player() {
               });
             }
             setTimeout(getData, 100);
+          },
+          (err: any) => {
+            console.error("Error: ", err);
+            setTimeout(getData, 1000);
           }
         );
       };
