@@ -1,33 +1,34 @@
 import { Metadata } from "next";
+import { notFound } from "next/navigation";
 import { API_BASE_URI } from "./env";
 import { DEFAULT_LOCALE, LOCALES, loadDictionary } from "./i18n";
+import { isMap } from "./maps";
 import { nodes } from "./nodes";
 
 export function generateMetadata({
-  params: { lang = DEFAULT_LOCALE, map, name },
+  params: { lang = DEFAULT_LOCALE, map, name, coordinates: paramsCoordinates },
 }: {
-  params: { lang: string; map: string; name?: string };
+  params: { lang: string; map: string; name?: string; coordinates?: string };
 }): Metadata {
   const dict = loadDictionary(lang);
   const title = name && decodeURIComponent(name);
+  const mapTitle = decodeURIComponent(map);
+  const coordinates =
+    (paramsCoordinates && decodeURIComponent(paramsCoordinates))
+      ?.replace("@", "")
+      .split(",")
+      .map(Number) ?? [];
 
   const node =
     name &&
     nodes.find((node) => {
-      if (node.type === title) {
-        return node;
-      }
-      if (!node.isSpawnNode) {
-        const name = dict.generated[node.type]?.[node.id]?.name ?? "";
-        return name === title;
-      }
-      return dict.spawnNodes[node.type].name === title;
+      return node.x === coordinates[0] && node.y === coordinates[1];
     });
 
   let canonical =
     (process.env.NODE_ENV === "development"
       ? "http://localhost:3668"
-      : API_BASE_URI) + `/${lang}/${map}`;
+      : API_BASE_URI) + `/${lang}/${mapTitle}`;
   let description = dict.meta.description;
   if (node) {
     const terms = !node.isSpawnNode
@@ -41,19 +42,36 @@ export function generateMetadata({
   }
 
   if (name && node) {
-    canonical += `/nodes/${name}/@${node.x},${node.y}`;
+    canonical += `/${name}/@${node.x},${node.y}`;
   }
+
+  const mapEntry = Object.entries(dict.maps).find(([, value]) => {
+    return value === mapTitle;
+  });
+  if (!mapEntry || !isMap(mapEntry[0])) {
+    notFound();
+  }
+
   const alternativeLanguages = LOCALES.reduce((acc, locale) => {
-    acc[locale] = API_BASE_URI + `/${locale}`;
-    if (name) {
-      acc[locale] += `/nodes/${name}`;
+    const altDict = loadDictionary(locale);
+    acc[locale] =
+      API_BASE_URI +
+      `/${locale}/${encodeURIComponent(altDict.maps[mapEntry[0]])}`;
+    if (node) {
+      const terms = !node.isSpawnNode
+        ? altDict.generated[node.type]?.[node.id]
+        : altDict.spawnNodes[node.type];
+      const altName = terms?.name ?? "";
+      acc[locale] += `/${encodeURIComponent(
+        altName || altDict.nodes[node.type]
+      )}/@${node.x},${node.y}`;
     }
     return acc;
   }, {} as Record<string, string>);
 
   const metaTitle = title
-    ? `${title} | ${decodeURIComponent(map)} | palia.th.gl`
-    : `${decodeURIComponent(map)} | ${dict.meta.subtitle} | palia.th.gl`;
+    ? `${title} | ${mapTitle} | palia.th.gl`
+    : `${mapTitle} | ${dict.meta.subtitle} | palia.th.gl`;
 
   return {
     title: metaTitle,

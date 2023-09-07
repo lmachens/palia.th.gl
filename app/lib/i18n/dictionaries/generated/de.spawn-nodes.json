@@ -1,0 +1,279 @@
+{
+  "BP_Bug_BeetleC_C": {
+    "name": "Gefleckter Stinkkäfer"
+  },
+  "BP_Bug_ButterflyC_C": {
+    "name": "Gemeiner Blaufalter"
+  },
+  "BP_Bug_CicadaC_C": {
+    "name": "Gemeine Rindenzikade"
+  },
+  "BP_Bug_CicadaR_C": {
+    "name": "Feuerkopf-Zikade"
+  },
+  "BP_Bug_CicadaU_C": {
+    "name": "Himmelblaue Zikade"
+  },
+  "BP_Bug_CrabC_C": {
+    "name": "Bahari-Krebs"
+  },
+  "BP_Bug_CrabU_C": {
+    "name": "Stachelpanzerkrebs"
+  },
+  "BP_Bug_CricketC_C": {
+    "name": "Gemeine Feldgrille"
+  },
+  "BP_Bug_CricketR_C": {
+    "name": "Himmelblauer Steinhüpfer"
+  },
+  "BP_Bug_CricketU_C": {
+    "name": "Garten-Blattgrille"
+  },
+  "BP_Bug_DragonflyC_C": {
+    "name": "Pinselschweif-Libelle"
+  },
+  "BP_Bug_DragonflyR_C": {
+    "name": "Feuerspuckende Libelle"
+  },
+  "BP_Bug_DragonflyU_C": {
+    "name": "Tintenlibelle"
+  },
+  "BP_Bug_LadybugR_C": {
+    "name": "Prinzessinnen-Marienkäfer"
+  },
+  "BP_Bug_MantisU_C": {
+    "name": "Garten-Gottesanbeterin"
+  },
+  "BP_Bug_MothC_C": {
+    "name": "Kilima-Nachtmotte"
+  },
+  "BP_Bug_PedeR1_C": {
+    "name": "Behaarter Tausendfüßler"
+  },
+  "BP_Bug_PedeU_C": {
+    "name": "Garten-Tausendfüßler"
+  },
+  "BP_Bug_SnailU_C": {
+    "name": "Gartenschnecke"
+  },
+  "BP_Coral_C": {
+    "name": "Koralle",
+    "description": "Holen Sie sich den Strand mit diesem Stück Koralle nach Hause. Man kann das Riff fast riechen!"
+  },
+  "BP_Gatherable_Elouisa_Dropoff_C": {
+    "name": "Flothinger-Falle",
+    "description": "Ein ganz normaler Ort, an dem Flothinger zusammenkommen, um sich fangen zu lassen."
+  },
+  "BP_Gatherable_MushroomBlue_C": {
+    "name": "Leuchtpilz",
+    "description": "Brightshrooms erhalten ihr Leuchten durch die Absorption von Flow und haben daher viele alchemistische Anwendungen."
+  },
+  "BP_Gatherable_MushroomR_C": {
+    "name": "Bergmorchel",
+    "description": "Die Bergmorchel ist ein weit verbreiteter Pilz, den man auch bei uns finden kann! Sehr beliebt, roh oder gekocht."
+  },
+  "BP_Gatherable_Ruins_C": {
+    "name": "„Uralte Begräbnisstätte“",
+    "description": "Der beste Ort, an den man eine Statue zurückbringen kann."
+  },
+  "BP_Mining_Clay_C": {
+    "name": "Clay Node",
+    "description": ""
+  },
+  "BP_Mining_Copper_Large_C": {
+    "name": "Large Copper Node",
+    "description": ""
+  },
+  "BP_Mining_Copper_Medium_C": {
+    "name": "Medium Copper Node",
+    "description": ""
+  },
+  "BP_Mining_Copper_Small_C": {
+    "name": "Small Copper Node",
+    "description": ""
+  },
+  "BP_Mining_Iron_Large_C": {
+    "name": "Large Iron Node",
+    "description": ""
+  },
+  "BP_Mining_Iron_Medium_C": {
+    "name": "Medium Iron Node",
+    "description": ""
+  },
+  "BP_Mining_Iron_Small_C": {
+    "name": "Small Iron Node",
+    "description": ""
+  },
+  "BP_Mining_Palium_Large_C": {
+    "name": "Large Palium Node",
+    "description": ""
+  },
+  "BP_Mining_Palium_Medium_C": {
+    "name": "Medium Palium Node",
+    "description": ""
+  },
+  "BP_Mining_Palium_Small_C": {
+    "name": "Small Palium Node",
+    "description": ""
+  },
+  "BP_Mining_Stone_Large_C": {
+    "name": "Large Rock",
+    "description": ""
+  },
+  "BP_Mining_Stone_Medium_C": {
+    "name": "Medium Rock",
+    "description": ""
+  },
+  "BP_Mining_Stone_Small_C": {
+    "name": "Small Rock",
+    "description": ""
+  },
+  "BP_Moss_DragonsBeard_C": {
+    "name": "Drachenbarttorf",
+    "description": "Drachenbarttorf ist ein seltenes, alchemistisches Moos, das nach seiner Farbe benannt ist, die der von Maji ähnelt."
+  },
+  "BP_Moss_EmeraldCarpet_C": {
+    "name": "Smaragdgrünes Teppichmoos",
+    "description": "Die leuchtende Farbe des smaragdgrünen Teppichmooses soll Glück bringen, wenn man sein Heim damit füllt."
+  },
+  "BP_Oyster_C": {
+    "name": "Geschlossene Auster",
+    "description": "Öffne diese Auster! Auch wenn du keine Perle findest, kannst du sie wenigstens essen."
+  },
+  "BP_PoisonFlower_C": {
+    "name": "Dornengänseblümchen",
+    "description": "Die bergige Briar Daisy kann selbst die härtesten Bedingungen überstehen."
+  },
+  "BP_Seashell_C": {
+    "name": "Muschel",
+    "description": "Wer verkauft Muscheln am Meeresufer? Keiner. Du musstest sie selbst finden."
+  },
+  "BP_ShrubChoppable_Bush_C": {
+    "name": "Bush",
+    "description": ""
+  },
+  "BP_Spice_DariCloves_C": {
+    "name": "Dari-Nelken",
+    "description": "Die seltene Dari-Nelke ist ein bei Köchen und Alchemisten gleichermaßen beliebtes Gewürz. Ihr werden magische Eigenschaften nachgesagt."
+  },
+  "BP_Spice_HeatRoot_C": {
+    "name": "Feuerwurzel",
+    "description": "Keine Panik! Ob beim Kochen oder Heilen, die würzige Heat Root wärmt Sie von innen heraus. "
+  },
+  "BP_Spiced_Sprouts_C": {
+    "name": "Gewürzsprossen",
+    "description": "Gewürzsprossen verleihen jedem Gericht eine satte Farbe und einen erdigen Geschmack. Und sie sind auch ziemlich leicht zu finden..."
+  },
+  "BP_SundropLillies_C": {
+    "name": "Sonnentropfenlilie",
+    "description": "Die Sundrop-Lilie wächst auf offenen Feldern, wo sie ihre Blütenblätter dem Sonnenlicht zuwenden kann."
+  },
+  "BP_SweetLeaves_C": {
+    "name": "Süßblatt",
+    "description": "Naschkatzen werden dieses Sweet Leaf lieben, eine von Palias Lieblingsdessertzutaten."
+  },
+  "BP_TreeChoppable_Birch_Large_C": {
+    "name": "Large Birch Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Medium_C": {
+    "name": "Medium Birch Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Sapling_C": {
+    "name": "Birch Sapling",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Small_C": {
+    "name": "Small Birch Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Large_C": {
+    "name": "Large Juniper Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Medium_C": {
+    "name": "Medium Juniper Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Sapling_C": {
+    "name": "Juniper Sapling",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Small_C": {
+    "name": "Small Juniper Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Large_C": {
+    "name": "Large Oak Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Medium_C": {
+    "name": "Medium Oak Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Sapling_C": {
+    "name": "Oak Sapling",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Small_C": {
+    "name": "Small Oak Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Large_C": {
+    "name": "Large Pine Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Medium_C": {
+    "name": "Medium Pine Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Sapling_C": {
+    "name": "Pine Sapling",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Small_C": {
+    "name": "Small Pine Tree",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Cearnuk_T1_C": {
+    "name": "Cearnuk T1",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Cearnuk_T2_C": {
+    "name": "Cearnuk T2",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Chapaa_T1_C": {
+    "name": "Chapaa T1",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Chapaa_T2_C": {
+    "name": "Chapaa T2",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Chapaa_T3_C": {
+    "name": "Chapaa T3",
+    "description": ""
+  },
+  "BP_WaterFlower_C": {
+    "name": "Kristallsee-Lotos",
+    "description": "Der Crystal Lake Lotus ist nach dem Ort benannt, an dem er entdeckt wurde, und wird heute zur Herstellung von Farbstoffen verwendet."
+  },
+  "BP_WaterPlane_Fishing_LakeVillage_SQ_C": {
+    "name": "Lake",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_PondVillage_SQ_C": {
+    "name": "Pond",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_RiverVillage_SQ_C": {
+    "name": "River",
+    "description": ""
+  },
+  "BP_WildGarlic_C": {
+    "name": "Knoblauch",
+    "description": "Knoblauch ist eine köstliche Ergänzung für jedes Gericht, das Sie kochen! Er kann auch roh gegessen werden, um den Atem zu parfümieren."
+  }
+}

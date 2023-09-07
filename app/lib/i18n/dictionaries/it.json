@@ -1,0 +1,54 @@
+{
+    "meta": {
+        "subtitle": "Mappa Interattiva di Palia",
+        "short": "Mappa di Palia",
+        "description": "Massimizza la tua esperienza di gioco in Palia con questa Mappa Interattiva di Palia! Scopri Kilima Valley, Bahari Bay e il Luna Park, trova tutte le posizioni con tracciamento in tempo reale."
+    },
+    "menu": {
+        "patronInfo": "Elimina gli annunci e sostienimi su Patreon",
+        "becomePatron": "Diventa un Patrono",
+        "linkPatreon": "Collega il tuo account Patreon",
+        "disconnectPatreon": "Scollega il tuo account Patreon",
+        "discoveredNodes": "Nodi Scoperti",
+        "spawnNodes": "Nodi di Spawn",
+        "settings": "Impostazioni",
+        "apps": "Applicazioni",
+        "community": "Comunità",
+        "discover": "Scopri",
+        "contribute": "Contribuisci"
+    },
+    "search": {
+        "placeholder": "Cerca per nome o tipo"
+    },
+    "maps": {
+        "kilima-valley": "Valle Kilima",
+        "bahari-bay": "Baia Bahari",
+        "fairgrounds": "Luna Park",
+        "housing": "Alloggi"
+    },
+    "nodes": {
+        "showAll": "Mostra Tutti",
+        "hideAll": "Nascondi Tutti",
+        "location": "Posizione",
+        "area": "Area",
+        "landmark": "Punto di Riferimento",
+        "stable": "Stalla",
+        "recipe": "Ricetta",
+        "housingPlot": "Terreno per Alloggio",
+        "zone": "Zona"
+    },
+    "groups": {
+        "foraging": "Raccolta",
+        "mining": "Miniera",
+        "fishing": "Pesca",
+        "hunting": "Caccia",
+        "insects": "Insetti"
+    },
+    "settings": {
+        "rightClickToggle": "Clic destro per attivare/disattivare la scoperta",
+        "iconSize": "Dimensione dell'Icona",
+        "backup": "Backup",
+        "restore": "Ripristina",
+        "reset": "Ripristina Impostazioni"
+    }
+}

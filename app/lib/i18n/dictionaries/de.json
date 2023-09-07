@@ -1,0 +1,54 @@
+{
+    "meta": {
+        "subtitle": "Palia Interaktive Karte",
+        "short": "Palia Karte",
+        "description": "Optimiere dein Palia-Spielerlebnis mit dieser interaktiven Palia-Karte! Entdecke Kilima Valley, Bahari Bay und den Jahrmarkt, finde alle Orte mit Echtzeit-Positionsverfolgung."
+    },
+    "menu": {
+        "patronInfo": "Werbung entfernen und mich auf Patreon unterstützen",
+        "becomePatron": "Werde ein Patron",
+        "linkPatreon": "Verknüpfe dein Patreon-Konto",
+        "disconnectPatreon": "Trenne dein Patreon-Konto",
+        "discoveredNodes": "Entdeckte Knoten",
+        "spawnNodes": "Spawnpunkte",
+        "settings": "Einstellungen",
+        "apps": "Apps",
+        "community": "Community",
+        "discover": "Entdecken",
+        "contribute": "Beitragen"
+    },
+    "search": {
+        "placeholder": "Nach Name oder Typ suchen"
+    },
+    "maps": {
+        "kilima-valley": "Kilima-Tal",
+        "bahari-bay": "Bahari-Bucht",
+        "fairgrounds": "Jahrmarkt",
+        "housing": "Wohngebiet"
+    },
+    "nodes": {
+        "showAll": "Alle anzeigen",
+        "hideAll": "Alle ausblenden",
+        "location": "Ort",
+        "area": "Gebiet",
+        "landmark": "Wahrzeichen",
+        "stable": "Stall",
+        "recipe": "Rezept",
+        "housingPlot": "Wohngrundstück",
+        "zone": "Zone"
+    },
+    "groups": {
+        "foraging": "Sammeln",
+        "mining": "Bergbau",
+        "fishing": "Angeln",
+        "hunting": "Jagen",
+        "insects": "Insekten"
+    },
+    "settings": {
+        "rightClickToggle": "Rechtsklick zum Umschalten von Entdeckungen",
+        "iconSize": "Symbolgröße",
+        "backup": "Sichern",
+        "restore": "Wiederherstellen",
+        "reset": "Zurücksetzen"
+    }
+}

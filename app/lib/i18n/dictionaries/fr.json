@@ -1,0 +1,54 @@
+{
+    "meta": {
+        "subtitle": "Carte Interactive de Palia",
+        "short": "Carte de Palia",
+        "description": "Optimisez votre expérience de jeu Palia avec cette Carte Interactive de Palia ! Découvrez Kilima Valley, Bahari Bay et le Champ de Foire, trouvez tous les lieux avec un suivi de position en temps réel."
+    },
+    "menu": {
+        "patronInfo": "Supprimez les publicités et soutenez-moi sur Patreon",
+        "becomePatron": "Devenir un Mécène",
+        "linkPatreon": "Liez votre compte Patreon",
+        "disconnectPatreon": "Déconnectez votre compte Patreon",
+        "discoveredNodes": "Nœuds Découverts",
+        "spawnNodes": "Nœuds d'Apparition",
+        "settings": "Paramètres",
+        "apps": "Applications",
+        "community": "Communauté",
+        "discover": "Découvrir",
+        "contribute": "Contribuer"
+    },
+    "search": {
+        "placeholder": "Rechercher par nom ou type"
+    },
+    "maps": {
+        "kilima-valley": "Vallée Kilima",
+        "bahari-bay": "Baie Bahari",
+        "fairgrounds": "Champ de Foire",
+        "housing": "Logements"
+    },
+    "nodes": {
+        "showAll": "Tout Afficher",
+        "hideAll": "Tout Masquer",
+        "location": "Emplacement",
+        "area": "Zone",
+        "landmark": "Point de Repère",
+        "stable": "Écurie",
+        "recipe": "Recette",
+        "housingPlot": "Parcelle de Logement",
+        "zone": "Zone"
+    },
+    "groups": {
+        "foraging": "Cueillette",
+        "mining": "Minage",
+        "fishing": "Pêche",
+        "hunting": "Chasse",
+        "insects": "Insectes"
+    },
+    "settings": {
+        "rightClickToggle": "Clic droit pour basculer la découverte",
+        "iconSize": "Taille de l'icône",
+        "backup": "Sauvegarde",
+        "restore": "Restaurer",
+        "reset": "Réinitialiser"
+    }
+}

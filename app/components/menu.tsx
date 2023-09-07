@@ -8,6 +8,7 @@ import { useGlobalSettingsStore } from "../lib/storage/global-settings";
 import { useDict } from "./(i18n)/i18n-provider";
 import Drawer from "./drawer";
 import ExternalLink from "./external-link";
+import LocaleSelect from "./locale-select";
 import Settings from "./settings";
 import SpawnNodes from "./spawn-nodes";
 const NitroPay = dynamic(() => import("./nitro-pay"), {
@@ -40,6 +41,7 @@ export default function Menu() {
         <header className="p-2 my-2 flex justify-between">
           <div className="flex gap-2 items-center">
             <h1 className="text-xl font-bold">{dict.meta.subtitle}</h1>
+            <LocaleSelect />
           </div>
           <button onClick={globalSettingsStore.toggleShowSidebar}>
             <svg

@@ -1,0 +1,279 @@
+{
+  "BP_Bug_BeetleC_C": {
+    "name": "Scarampeste"
+  },
+  "BP_Bug_ButterflyC_C": {
+    "name": "Papillon bleu commun"
+  },
+  "BP_Bug_CicadaC_C": {
+    "name": "Cigale commune"
+  },
+  "BP_Bug_CicadaR_C": {
+    "name": "Cigale enflammée"
+  },
+  "BP_Bug_CicadaU_C": {
+    "name": "Cigale céruléenne"
+  },
+  "BP_Bug_CrabC_C": {
+    "name": "Crabe de Bahari"
+  },
+  "BP_Bug_CrabU_C": {
+    "name": "Crabapic"
+  },
+  "BP_Bug_CricketC_C": {
+    "name": "Grillon champêtre"
+  },
+  "BP_Bug_CricketR_C": {
+    "name": "Sauteroche azur"
+  },
+  "BP_Bug_CricketU_C": {
+    "name": "Sautefeuille des jardins"
+  },
+  "BP_Bug_DragonflyC_C": {
+    "name": "Libellule queue-touffue"
+  },
+  "BP_Bug_DragonflyR_C": {
+    "name": "Libellule souffle-ardent"
+  },
+  "BP_Bug_DragonflyU_C": {
+    "name": "Libellule sépia"
+  },
+  "BP_Bug_LadybugR_C": {
+    "name": "Princesse coccinelle"
+  },
+  "BP_Bug_MantisU_C": {
+    "name": "Mante commune"
+  },
+  "BP_Bug_MothC_C": {
+    "name": "Phalène nocturne de Kilima"
+  },
+  "BP_Bug_PedeR1_C": {
+    "name": "Mille-pattes velu"
+  },
+  "BP_Bug_PedeU_C": {
+    "name": "Mille-pattes commun"
+  },
+  "BP_Bug_SnailU_C": {
+    "name": "Escargot commun"
+  },
+  "BP_Coral_C": {
+    "name": "Corail",
+    "description": "Ramenez la plage chez vous avec ce morceau de corail. Vous pouvez presque sentir l’odeur du récif !"
+  },
+  "BP_Gatherable_Elouisa_Dropoff_C": {
+    "name": "Piège à flothingers",
+    "description": "Un endroit tout à fait normal où rassembler et capturer des flothingers."
+  },
+  "BP_Gatherable_MushroomBlue_C": {
+    "name": "Champilumineux",
+    "description": "Les champignons brillants tirent leur éclat de l’absorption du flux et ont donc de nombreux usages alchimiques."
+  },
+  "BP_Gatherable_MushroomR_C": {
+    "name": "Morille des montagnes",
+    "description": "La morille des montagnes est un champignon commun que l’on peut trouver près de chez soi ! Cuite comme crue, son goût est apprécié de tous."
+  },
+  "BP_Gatherable_Ruins_C": {
+    "name": "« Cimetière ancien »",
+    "description": "Une certaine statue doit retrouver sa place ici."
+  },
+  "BP_Mining_Clay_C": {
+    "name": "Clay Node",
+    "description": ""
+  },
+  "BP_Mining_Copper_Large_C": {
+    "name": "Large Copper Node",
+    "description": ""
+  },
+  "BP_Mining_Copper_Medium_C": {
+    "name": "Medium Copper Node",
+    "description": ""
+  },
+  "BP_Mining_Copper_Small_C": {
+    "name": "Small Copper Node",
+    "description": ""
+  },
+  "BP_Mining_Iron_Large_C": {
+    "name": "Large Iron Node",
+    "description": ""
+  },
+  "BP_Mining_Iron_Medium_C": {
+    "name": "Medium Iron Node",
+    "description": ""
+  },
+  "BP_Mining_Iron_Small_C": {
+    "name": "Small Iron Node",
+    "description": ""
+  },
+  "BP_Mining_Palium_Large_C": {
+    "name": "Large Palium Node",
+    "description": ""
+  },
+  "BP_Mining_Palium_Medium_C": {
+    "name": "Medium Palium Node",
+    "description": ""
+  },
+  "BP_Mining_Palium_Small_C": {
+    "name": "Small Palium Node",
+    "description": ""
+  },
+  "BP_Mining_Stone_Large_C": {
+    "name": "Large Rock",
+    "description": ""
+  },
+  "BP_Mining_Stone_Medium_C": {
+    "name": "Medium Rock",
+    "description": ""
+  },
+  "BP_Mining_Stone_Small_C": {
+    "name": "Small Rock",
+    "description": ""
+  },
+  "BP_Moss_DragonsBeard_C": {
+    "name": "Tourbe Barbe-Dragon",
+    "description": "La tourbe de barbe de dragon est une mousse rare, alchimique, nommée pour sa couleur, qui ressemble à celle de Maji."
+  },
+  "BP_Moss_EmeraldCarpet_C": {
+    "name": "Tapis en mousse couleur émeraude",
+    "description": "Remplir sa maison de la couleur vive de la mousse de tapis émeraude est réputé porter chance."
+  },
+  "BP_Oyster_C": {
+    "name": "Huître fermée",
+    "description": "Ouvre cette huître ! Même si tu ne trouves pas de perle, tu pourras au moins la manger."
+  },
+  "BP_PoisonFlower_C": {
+    "name": "Marguerite à ronces",
+    "description": "La marguerite des montagnes peut survivre aux conditions les plus difficiles."
+  },
+  "BP_Seashell_C": {
+    "name": "Coquillage",
+    "description": "Qui vend des coquillages au bord de la mer ? Personne. Vous avez dû les trouver vous-même."
+  },
+  "BP_ShrubChoppable_Bush_C": {
+    "name": "Bush",
+    "description": ""
+  },
+  "BP_Spice_DariCloves_C": {
+    "name": "Gousses de Dari",
+    "description": "Le rare clou de girofle Dari est une épice appréciée des chefs et des alchimistes. On lui prête des propriétés magiques."
+  },
+  "BP_Spice_HeatRoot_C": {
+    "name": "Racine de feu",
+    "description": "Ne transpirez pas ! Qu’il s’agisse de cuisiner ou de guérir, la racine épicée Heat Root vous réchauffera de l’intérieur. "
+  },
+  "BP_Spiced_Sprouts_C": {
+    "name": "Pousses d’épice",
+    "description": "Les germes d’épices confèrent une couleur riche et une saveur terreuse à n’importe quel plat. Et elles sont assez faciles à trouver..."
+  },
+  "BP_SundropLillies_C": {
+    "name": "Lys perle-de-soleil",
+    "description": "Le lys Sundrop pousse dans les champs ouverts où il peut tourner ses pétales vers la lumière du soleil."
+  },
+  "BP_SweetLeaves_C": {
+    "name": "Stévia",
+    "description": "Ceux qui ont la dent sucrée adoreront cette feuille sucrée, l’un des ingrédients préférés de Palia pour les desserts."
+  },
+  "BP_TreeChoppable_Birch_Large_C": {
+    "name": "Large Birch Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Medium_C": {
+    "name": "Medium Birch Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Sapling_C": {
+    "name": "Birch Sapling",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Small_C": {
+    "name": "Small Birch Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Large_C": {
+    "name": "Large Juniper Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Medium_C": {
+    "name": "Medium Juniper Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Sapling_C": {
+    "name": "Juniper Sapling",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Small_C": {
+    "name": "Small Juniper Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Large_C": {
+    "name": "Large Oak Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Medium_C": {
+    "name": "Medium Oak Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Sapling_C": {
+    "name": "Oak Sapling",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Small_C": {
+    "name": "Small Oak Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Large_C": {
+    "name": "Large Pine Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Medium_C": {
+    "name": "Medium Pine Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Sapling_C": {
+    "name": "Pine Sapling",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Small_C": {
+    "name": "Small Pine Tree",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Cearnuk_T1_C": {
+    "name": "Cearnuk T1",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Cearnuk_T2_C": {
+    "name": "Cearnuk T2",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Chapaa_T1_C": {
+    "name": "Chapaa T1",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Chapaa_T2_C": {
+    "name": "Chapaa T2",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Chapaa_T3_C": {
+    "name": "Chapaa T3",
+    "description": ""
+  },
+  "BP_WaterFlower_C": {
+    "name": "Lotus du lac Crystallium",
+    "description": "Le lotus de Crystal Lake porte le nom de l’endroit où il a été découvert et est aujourd’hui utilisé pour fabriquer des teintures."
+  },
+  "BP_WaterPlane_Fishing_LakeVillage_SQ_C": {
+    "name": "Lake",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_PondVillage_SQ_C": {
+    "name": "Pond",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_RiverVillage_SQ_C": {
+    "name": "River",
+    "description": ""
+  },
+  "BP_WildGarlic_C": {
+    "name": "Ail des ours",
+    "description": "L’ail est un ajout délicieux à tous les plats que vous cuisinez ! Il peut également être consommé cru pour parfumer l’haleine."
+  }
+}

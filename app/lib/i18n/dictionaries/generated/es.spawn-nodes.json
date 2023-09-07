@@ -1,0 +1,278 @@
+{
+  "BP_Bug_BeetleC_C": {
+    "name": "Pestióptero moteado"
+  },
+  "BP_Bug_ButterflyC_C": {
+    "name": "Mariposa azul común"
+  },
+  "BP_Bug_CicadaC_C": {
+    "name": "Cigarra de corteza común"
+  },
+  "BP_Bug_CicadaR_C": {
+    "name": "Cigarra ígnea"
+  },
+  "BP_Bug_CicadaU_C": {
+    "name": "Cigarra celeste"
+  },
+  "BP_Bug_CrabC_C": {
+    "name": "Cangrejo de Bahari"
+  },
+  "BP_Bug_CrabU_C": {
+    "name": "Cangrejo espinoso"
+  },
+  "BP_Bug_CricketC_C": {
+    "name": "Grillo de campo común"
+  },
+  "BP_Bug_CricketR_C": {
+    "name": "Saltarrocas cerúleo"
+  },
+  "BP_Bug_CricketU_C": {
+    "name": "Chicharra de jardín"
+  },
+  "BP_Bug_DragonflyC_C": {
+    "name": "Libélula pincel"
+  },
+  "BP_Bug_DragonflyR_C": {
+    "name": "Libélula ígnea"
+  },
+  "BP_Bug_DragonflyU_C": {
+    "name": "Libélula negruzca"
+  },
+  "BP_Bug_LadybugR_C": {
+    "name": "Mariquita princesa"
+  },
+  "BP_Bug_MantisU_C": {
+    "name": "Mantis de jardín"
+  },
+  "BP_Bug_MothC_C": {
+    "name": "Polilla nocturna de Kilima"
+  },
+  "BP_Bug_PedeR1_C": {
+    "name": "Milpiés peludo"
+  },
+  "BP_Bug_PedeU_C": {
+    "name": "Milpiés de jardín"
+  },
+  "BP_Bug_SnailU_C": {
+    "name": "Caracol de jardín"
+  },
+  "BP_Coral_C": {
+    "description": "Llévate la playa a casa con este trozo de coral. ¡Casi puedes oler el arrecife!"
+  },
+  "BP_Gatherable_Elouisa_Dropoff_C": {
+    "name": "Trampa para flódinger",
+    "description": "Un sitio perfectamente normal para que los flódinger se junten y se queden atrapados."
+  },
+  "BP_Gatherable_MushroomBlue_C": {
+    "name": "Brillampiñón",
+    "description": "Los hongos brillantes obtienen su resplandor de la absorción del flujo, por lo que tienen muchos usos alquímicos."
+  },
+  "BP_Gatherable_MushroomR_C": {
+    "name": "Colmenilla de montaña",
+    "description": "Las colmenillas de montaña, una seta muy común, ¡se pueden encontrar en casa! Súper populares, crudas o cocinadas."
+  },
+  "BP_Gatherable_Ruins_C": {
+    "name": "«Antiguo cementerio»",
+    "description": "Un sitio ideal para devolver una estatua."
+  },
+  "BP_Mining_Clay_C": {
+    "name": "Clay Node",
+    "description": ""
+  },
+  "BP_Mining_Copper_Large_C": {
+    "name": "Large Copper Node",
+    "description": ""
+  },
+  "BP_Mining_Copper_Medium_C": {
+    "name": "Medium Copper Node",
+    "description": ""
+  },
+  "BP_Mining_Copper_Small_C": {
+    "name": "Small Copper Node",
+    "description": ""
+  },
+  "BP_Mining_Iron_Large_C": {
+    "name": "Large Iron Node",
+    "description": ""
+  },
+  "BP_Mining_Iron_Medium_C": {
+    "name": "Medium Iron Node",
+    "description": ""
+  },
+  "BP_Mining_Iron_Small_C": {
+    "name": "Small Iron Node",
+    "description": ""
+  },
+  "BP_Mining_Palium_Large_C": {
+    "name": "Large Palium Node",
+    "description": ""
+  },
+  "BP_Mining_Palium_Medium_C": {
+    "name": "Medium Palium Node",
+    "description": ""
+  },
+  "BP_Mining_Palium_Small_C": {
+    "name": "Small Palium Node",
+    "description": ""
+  },
+  "BP_Mining_Stone_Large_C": {
+    "name": "Large Rock",
+    "description": ""
+  },
+  "BP_Mining_Stone_Medium_C": {
+    "name": "Medium Rock",
+    "description": ""
+  },
+  "BP_Mining_Stone_Small_C": {
+    "name": "Small Rock",
+    "description": ""
+  },
+  "BP_Moss_DragonsBeard_C": {
+    "name": "Turba de barba de dragón",
+    "description": "La turba de barba de dragón es un musgo raro, alquímico, llamado así por su color, que se parece al de Maji."
+  },
+  "BP_Moss_EmeraldCarpet_C": {
+    "name": "Musgo alfombra esmeralda",
+    "description": "Se dice que llenar su casa con el brillante color del musgo alfombra esmeralda trae buena suerte."
+  },
+  "BP_Oyster_C": {
+    "name": "Ostra cerrada",
+    "description": "¡Abre esta ostra! Aunque no encuentres una perla, al menos puedes comértela."
+  },
+  "BP_PoisonFlower_C": {
+    "name": "Margarita salvaje",
+    "description": "La montañosa Briar Daisy puede sobrevivir incluso a las condiciones más duras."
+  },
+  "BP_Seashell_C": {
+    "name": "Concha",
+    "description": "¿Quién vende conchas marinas a orillas del mar? Nadie. Tuviste que encontrar esto tú mismo."
+  },
+  "BP_ShrubChoppable_Bush_C": {
+    "name": "Bush",
+    "description": ""
+  },
+  "BP_Spice_DariCloves_C": {
+    "name": "Claveros dari",
+    "description": "El raro clavo de Dari es una especia muy apreciada por cocineros y alquimistas. Se dice que tiene propiedades mágicas."
+  },
+  "BP_Spice_HeatRoot_C": {
+    "name": "Raíz caliente",
+    "description": "¡No sudes! Ya sea para cocinar o para curar, el picante Raíz Caliente te calentará de dentro a fuera. "
+  },
+  "BP_Spiced_Sprouts_C": {
+    "name": "Brotes de especias",
+    "description": "Los brotes de especias aportan un color intenso y un sabor terroso a cualquier plato. Y además son muy fáciles de encontrar..."
+  },
+  "BP_SundropLillies_C": {
+    "name": "Lirio de sol",
+    "description": "El lirio Sundrop crece en campos abiertos, donde puede dirigir sus pétalos hacia la luz del sol."
+  },
+  "BP_SweetLeaves_C": {
+    "name": "Hoja dulce",
+    "description": "A los golosos les encantará esta Hoja Dulce, uno de los postres favoritos de Palia."
+  },
+  "BP_TreeChoppable_Birch_Large_C": {
+    "name": "Large Birch Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Medium_C": {
+    "name": "Medium Birch Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Sapling_C": {
+    "name": "Birch Sapling",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Small_C": {
+    "name": "Small Birch Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Large_C": {
+    "name": "Large Juniper Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Medium_C": {
+    "name": "Medium Juniper Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Sapling_C": {
+    "name": "Juniper Sapling",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Small_C": {
+    "name": "Small Juniper Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Large_C": {
+    "name": "Large Oak Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Medium_C": {
+    "name": "Medium Oak Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Sapling_C": {
+    "name": "Oak Sapling",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Small_C": {
+    "name": "Small Oak Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Large_C": {
+    "name": "Large Pine Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Medium_C": {
+    "name": "Medium Pine Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Sapling_C": {
+    "name": "Pine Sapling",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Small_C": {
+    "name": "Small Pine Tree",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Cearnuk_T1_C": {
+    "name": "Cearnuk T1",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Cearnuk_T2_C": {
+    "name": "Cearnuk T2",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Chapaa_T1_C": {
+    "name": "Chapaa T1",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Chapaa_T2_C": {
+    "name": "Chapaa T2",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Chapaa_T3_C": {
+    "name": "Chapaa T3",
+    "description": ""
+  },
+  "BP_WaterFlower_C": {
+    "name": "Loto del Lago de Cristal",
+    "description": "El loto de Crystal Lake recibe su nombre del lugar donde se descubrió y ahora se utiliza para fabricar tintes."
+  },
+  "BP_WaterPlane_Fishing_LakeVillage_SQ_C": {
+    "name": "Lake",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_PondVillage_SQ_C": {
+    "name": "Pond",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_RiverVillage_SQ_C": {
+    "name": "River",
+    "description": ""
+  },
+  "BP_WildGarlic_C": {
+    "name": "Ajo silvestre",
+    "description": "El ajo es un complemento delicioso para cualquier plato que cocine. O puede comerse crudo para perfumar el aliento."
+  }
+}

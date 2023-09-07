@@ -84,16 +84,16 @@ export default function Nodes({ map: mapName }: { map: string }) {
     }
     if ("update" in router) {
       router.update({
-        name: encodeURIComponent(name || node.type),
+        name: encodeURIComponent(name || dict.nodes[node.type]),
         mapName,
         coordinates: `@${node.x},${node.y}`,
       });
     } else {
       const url = `/${params.lang}/${encodeURIComponent(
         dict.maps[mapName]
-      )}/nodes/${encodeURIComponent(name)}/@${node.x},${node.y}${
-        location.search
-      }`;
+      )}/${encodeURIComponent(name || dict.nodes[node.type])}/@${node.x},${
+        node.y
+      }${location.search}`;
       router.prefetch(url);
       router.push(url);
     }
@@ -110,15 +110,7 @@ export default function Nodes({ map: mapName }: { map: string }) {
       {visibleNodes.map((node) => {
         let isHighlighted = false;
         if (selectedName && coordinates) {
-          const name =
-            (!node.isSpawnNode
-              ? dict.generated[node.type]?.[node.id]?.name
-              : dict.spawnNodes[node.type].name) ?? "";
-          if (
-            node.x === coordinates[0] &&
-            node.y === coordinates[1] &&
-            (name || node.type) === selectedName
-          ) {
+          if (node.x === coordinates[0] && node.y === coordinates[1]) {
             isHighlighted = true;
           } else if (isScreenshot) {
             return <Fragment key={node.id} />;
