@@ -22,7 +22,7 @@ export const CONFIGS = {
     maxNativeZoom: 3,
   },
   fairgrounds: {
-    transformation: [1 / 115, -450, 1 / 115, 10],
+    transformation: [1 / 112, -470, 1 / 112, 0],
     view: [25000, 82000] as [number, number],
     bounds: [
       [50000, 50000],

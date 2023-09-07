@@ -106,10 +106,6 @@
       "name": "Camera di Tamala",
       "description": "Hai bisogno di una chiave da Tamala per entrare."
     },
-    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE63137A01_1673725565": {
-      "name": "To Kilima Village",
-      "description": null
-    },
     "BP_DoorTeleporter_Chayne_C_UAID_CC96E503DD7EDC7701_1659484090": {
       "name": "La stanza di Chayne",
       "description": "Hai bisogno di una chiave da Chayne per entrare."
@@ -212,14 +208,6 @@
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63FC7901_1912430989": {
       "name": "La stanza di Eshe",
       "description": "Hai bisogno di una chiave da Eshe per entrare."
-    },
-    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE630E7901_1573823092": {
-      "name": "To Kilima Village",
-      "description": null
-    },
-    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE634E7A01_1976701586": {
-      "name": "Fairgrounds",
-      "description": null
     }
   },
   "stable": {
@@ -261,6 +249,24 @@
     },
     "BP_Stables_Sign_UAID_B04F1306EDBFF47501_2119042900": {
       "name": "Kilima - Colline di Leafhopper"
+    }
+  },
+  "zone": {
+    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE63137A01_1673725565": {
+      "name": "To Kilima Village",
+      "description": null
+    },
+    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE630E7901_1573823092": {
+      "name": "To Kilima Village",
+      "description": null
+    },
+    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE634E7A01_1976701586": {
+      "name": "Fairgrounds",
+      "description": null
+    },
+    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE63627801_1776598294": {
+      "name": "To Bahari Bay",
+      "description": null
     }
   },
   "area": {

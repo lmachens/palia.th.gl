@@ -30,12 +30,6 @@ export const location = [
     y: -108676.52,
   },
   {
-    id: "BP_GateTeleporter_Parent_C_UAID_CC96E503DE63137A01_1673725565",
-    mapName: "bahari-bay",
-    x: 59135.84,
-    y: -10820.33,
-  },
-  {
     id: "BP_DoorTeleporter_Chayne_C_UAID_CC96E503DD7EDC7701_1659484090",
     mapName: "kilima-valley",
     x: 11250,
@@ -190,17 +184,5 @@ export const location = [
     mapName: "kilima-valley",
     x: 13339.7,
     y: 23134.44,
-  },
-  {
-    id: "BP_GateTeleporter_Parent_C_UAID_CC96E503DE630E7901_1573823092",
-    mapName: "fairgrounds",
-    x: 81801.3,
-    y: 16557.43,
-  },
-  {
-    id: "BP_GateTeleporter_Parent_C_UAID_CC96E503DE634E7A01_1976701586",
-    mapName: "kilima-valley",
-    x: 54908.11,
-    y: 21536.95,
   },
 ];
