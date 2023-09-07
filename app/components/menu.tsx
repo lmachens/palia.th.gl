@@ -20,8 +20,12 @@ const DiscoveredNodes = dynamic(() => import("./discovered-nodes"), {
 
 const DISCOVER_LINKS = [
   {
-    href: "https://paliapedia.com//?ref=palia.th.gl",
+    href: "https://paliapedia.com/?ref=palia.th.gl",
     text: "Palia Database",
+  },
+  {
+    href: "https://palia-garden-planner.vercel.app/?ref=palia.th.gl",
+    text: "Palia Garden Planner",
   },
   {
     href: "https://www.th.gl/?ref=palia.th.gl",
