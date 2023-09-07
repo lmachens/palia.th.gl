@@ -18,7 +18,9 @@ export default function Maps() {
             )}?${searchParams.toString()}`}
             key={map}
             className={`p-2 basis-1/2 hover:text-white w-1/2 text-center ${
-              map === params.map ? "text-gray-200" : "text-gray-500"
+              dict.maps[map] === decodeURIComponent(params.map as string)
+                ? "text-gray-200"
+                : "text-gray-500"
             }`}
           >
             {dict.maps[map]}
