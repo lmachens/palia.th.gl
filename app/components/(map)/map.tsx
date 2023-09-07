@@ -10,6 +10,7 @@ import { create } from "zustand";
 import { CONFIGS } from "@/app/lib/maps";
 import "@geoman-io/leaflet-geoman-free";
 import "@geoman-io/leaflet-geoman-free/dist/leaflet-geoman.css";
+import { useDict } from "../(i18n)/i18n-provider";
 
 leaflet.PM.setOptIn(true);
 
@@ -42,6 +43,7 @@ export default function Map({
   const { map, setMap } = useMapStore();
   const router = useOverwolfRouter();
   const params = useParams()!;
+  const dict = useDict();
 
   useEffect(() => {
     const config = CONFIGS[mapName as keyof typeof CONFIGS];
@@ -97,7 +99,11 @@ export default function Map({
       if ("update" in router) {
         router.update({ name: "", coordinates: "" });
       } else {
-        router.replace(`/${params.lang}/${params.map}${location.search}`);
+        router.replace(
+          `/${params.lang}/${encodeURIComponent(dict.maps[mapName])}${
+            location.search
+          }`
+        );
       }
     });
 

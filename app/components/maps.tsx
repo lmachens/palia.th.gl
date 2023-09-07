@@ -13,7 +13,9 @@ export default function Maps() {
       <div className="flex flex-wrap">
         {Object.keys(CONFIGS).map((map) => (
           <Link
-            href={`/${params.lang}/${map}?${searchParams.toString()}`}
+            href={`/${params.lang}/${encodeURIComponent(
+              dict.maps[map]
+            )}?${searchParams.toString()}`}
             key={map}
             className={`p-2 basis-1/2 hover:text-white w-1/2 text-center ${
               map === params.map ? "text-gray-200" : "text-gray-500"

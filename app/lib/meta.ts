@@ -52,8 +52,8 @@ export function generateMetadata({
   }, {} as Record<string, string>);
 
   const metaTitle = title
-    ? `${title} | ${dict.maps[map]} | palia.th.gl`
-    : `${dict.maps[map]} | ${dict.meta.subtitle} | palia.th.gl`;
+    ? `${title} | ${decodeURIComponent(map)} | palia.th.gl`
+    : `${decodeURIComponent(map)} | ${dict.meta.subtitle} | palia.th.gl`;
 
   return {
     title: metaTitle,

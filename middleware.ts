@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { DEFAULT_LOCALE, LOCALES } from "./app/lib/i18n";
+import { DEFAULT_LOCALE, LOCALES, loadDictionary } from "./app/lib/i18n";
 import { DEFAULT_MAP, isMap } from "./app/lib/maps";
 
 const COOKIE_NAME = "i18next";
@@ -17,8 +17,17 @@ function getUserLanguage(req: NextRequest) {
 function getPathParams(pathname: string) {
   const [, pathLanguage, map] = pathname.split("/") ?? [];
   if (pathLanguage && LOCALES.includes(pathLanguage)) {
-    if (map && isMap(map)) {
-      return { pathLanguage, map };
+    if (!map) {
+      return { pathLanguage, map: null };
+    }
+    const dict = loadDictionary(pathLanguage);
+    const mapTitle = decodeURIComponent(map);
+    const mapEntry = Object.entries(dict.maps).find(([, value]) => {
+      return value === mapTitle;
+    });
+
+    if (mapEntry && isMap(mapEntry[0])) {
+      return { pathLanguage, map: mapEntry[0] };
     }
     return { pathLanguage, map: null };
   }
@@ -27,11 +36,12 @@ function getPathParams(pathname: string) {
 
 export async function middleware(req: NextRequest) {
   const userLanguage = getUserLanguage(req);
+  const dict = loadDictionary(userLanguage);
   const { pathLanguage, map } = getPathParams(req.nextUrl.pathname);
   if (pathLanguage) {
     if (!map) {
       const res = NextResponse.redirect(
-        new URL(`/${pathLanguage}/${DEFAULT_MAP}`, req.url)
+        new URL(`/${pathLanguage}/${dict.maps[DEFAULT_MAP]}`, req.url)
       );
       res.cookies.set(COOKIE_NAME, pathLanguage, {
         maxAge: 60 * 60 * 24 * 30,
@@ -40,7 +50,7 @@ export async function middleware(req: NextRequest) {
     }
   } else {
     return NextResponse.redirect(
-      new URL(`/${userLanguage}/${DEFAULT_MAP}`, req.url)
+      new URL(`/${userLanguage}/${dict.maps[DEFAULT_MAP]}`, req.url)
     );
   }
 }
