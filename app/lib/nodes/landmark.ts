@@ -24,6 +24,30 @@ export const landmark = [
     y: -108283.5,
   },
   {
+    id: "BP_Register_MajiMarket_ChapaaChase_2_C_0",
+    mapName: "fairgrounds",
+    x: 76019.38,
+    y: 25569.48,
+  },
+  {
+    id: "BP_Register_MajiMarket_Delaila_2_C_0",
+    mapName: "fairgrounds",
+    x: 76182.48,
+    y: 27515.01,
+  },
+  {
+    id: "BP_Register_MajiMarket_ExperimentalFood_C_0",
+    mapName: "fairgrounds",
+    x: 78946.99,
+    y: 31821.64,
+  },
+  {
+    id: "BP_Register_MajiMarket_Fireworks_2_C_0",
+    mapName: "fairgrounds",
+    x: 79833.26,
+    y: 34336.56,
+  },
+  {
     id: "MapMarker_Apothecary",
     mapName: "kilima-valley",
     x: -556.86,

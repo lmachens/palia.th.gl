@@ -22,11 +22,11 @@ export const CONFIGS = {
     maxNativeZoom: 3,
   },
   fairgrounds: {
-    transformation: [1 / 240, 250, 1 / 240, 290],
-    view: [-256, 256] as [number, number],
+    transformation: [1 / 115, -450, 1 / 115, 10],
+    view: [25000, 82000] as [number, number],
     bounds: [
-      [50000, -59000],
-      [-60000, 62000],
+      [50000, 50000],
+      [0, 110000],
     ] as LatLngBoundsExpression,
     minNativeZoom: 0,
     maxNativeZoom: 3,

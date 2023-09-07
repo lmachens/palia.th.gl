@@ -32,6 +32,10 @@ export const ICONS = {
     src: "/icons/WT_Icon_Compass_Zone.png",
     radius: 14,
   },
+  wardrobe: {
+    src: "/icons/WT_Icon_Wardrobe.png",
+    radius: 14,
+  },
 } as const;
 
 export const SPAWN_ICONS = Object.keys(spawnNodes).reduce((acc, type) => {

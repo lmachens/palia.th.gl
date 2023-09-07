@@ -35,6 +35,7 @@
         "stable": "Stall",
         "recipe": "Rezept",
         "housingPlot": "Wohngrundstück",
+        "wardrobe": "Kleiderschrank",
         "zone": "Zone"
     },
     "groups": {

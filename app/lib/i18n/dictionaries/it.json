@@ -35,6 +35,7 @@
         "stable": "Stalla",
         "recipe": "Ricetta",
         "housingPlot": "Terreno per Alloggio",
+        "wardrobe": "Armadio",
         "zone": "Zona"
     },
     "groups": {

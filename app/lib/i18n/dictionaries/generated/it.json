@@ -1,53 +1,88 @@
 {
   "landmark": {
     "MapMarker_AncientRuins": {
-      "name": "Rovine antiche"
+      "name": "Rovine antiche",
+      "description": null
     },
-    "MapMarker_MiningFamily": {},
+    "MapMarker_MiningFamily": {
+      "name": "Hodari & Najuma's House",
+      "description": null
+    },
     "MapMarker_OldLighthouse": {
-      "name": "Il vecchio faro"
+      "name": "Il vecchio faro",
+      "description": null
     },
     "MapMarker_Tamalas": {
-      "name": "Casa di Tamala"
+      "name": "Casa di Tamala",
+      "description": null
+    },
+    "BP_Register_MajiMarket_ChapaaChase_2_C_0": {
+      "name": "Capanna Chapaa",
+      "description": null
+    },
+    "BP_Register_MajiMarket_Delaila_2_C_0": {
+      "name": " Delaila's Sweet Treats",
+      "description": null
+    },
+    "BP_Register_MajiMarket_ExperimentalFood_C_0": {
+      "name": "Specialità di Reth's Street",
+      "description": null
+    },
+    "BP_Register_MajiMarket_Fireworks_2_C_0": {
+      "name": "Fuochi d'artificio",
+      "description": null
     },
     "MapMarker_Apothecary": {
-      "name": "Farmacista"
+      "name": "Farmacista",
+      "description": null
     },
     "MapMarker_Blacksmith": {
-      "name": "Fabbro"
+      "name": "Fabbro",
+      "description": null
     },
     "MapMarker_CityHall": {
-      "name": "Municipio"
+      "name": "Municipio",
+      "description": null
     },
     "MapMarker_DragonShrine": {
-      "name": "Santuario del Drago"
+      "name": "Santuario del Drago",
+      "description": null
     },
     "MapMarker_FamilyFarm": {
-      "name": "Azienda agricola familiare"
+      "name": "Azienda agricola familiare",
+      "description": null
     },
     "MapMarker_FurnitureStore": {
-      "name": "Negozio di mobili"
+      "name": "Negozio di mobili",
+      "description": null
     },
     "MapMarker_GeneralStore": {
-      "name": "Negozio generale"
+      "name": "Negozio generale",
+      "description": null
     },
     "MapMarker_Library": {
-      "name": "Libreria"
+      "name": "Libreria",
+      "description": null
     },
     "MapMarker_MayorsEstate": {
-      "name": "Tenuta del Sindaco"
+      "name": "Tenuta del Sindaco",
+      "description": null
     },
     "MapMarker_PhoenixFalls": {
-      "name": "Cascate della Fenice"
+      "name": "Cascate della Fenice",
+      "description": null
     },
     "MapMarker_RemembranceGarden": {
-      "name": "Giardino della Memoria"
+      "name": "Giardino della Memoria",
+      "description": null
     },
     "MapMarker_Tailor": {
-      "name": "Sarto"
+      "name": "Sarto",
+      "description": null
     },
     "MapMarker_Tavern": {
-      "name": "Taverna"
+      "name": "Taverna",
+      "description": null
     }
   },
   "location": {
@@ -71,15 +106,20 @@
       "name": "Camera di Tamala",
       "description": "Hai bisogno di una chiave da Tamala per entrare."
     },
-    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE63137A01_1673725565": {},
+    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE63137A01_1673725565": {
+      "name": "To Kilima Village",
+      "description": null
+    },
     "BP_DoorTeleporter_Chayne_C_UAID_CC96E503DD7EDC7701_1659484090": {
       "name": "La stanza di Chayne",
       "description": "Hai bisogno di una chiave da Chayne per entrare."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63027A01_1846573965": {
+      "name": "Kenli's Records Room",
       "description": "Hai bisogno di una chiave da Kenli per entrare."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63087901_1447757851": {
+      "name": "Zeki's General Store",
       "description": "Hai bisogno di una chiave da Zeki."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE630D7901_1180776852": {
@@ -173,19 +213,29 @@
       "name": "La stanza di Eshe",
       "description": "Hai bisogno di una chiave da Eshe per entrare."
     },
-    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE630E7901_1573823092": {},
-    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE634E7A01_1976701586": {}
+    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE630E7901_1573823092": {
+      "name": "To Kilima Village",
+      "description": null
+    },
+    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE634E7A01_1976701586": {
+      "name": "Fairgrounds",
+      "description": null
+    }
   },
   "stable": {
     "BP_Stables_Sign_UAID_6C02E03F65D9C66301_1698475622": {
       "name": "Bahari - Scuderie Centrali",
       "description": "Non disponibile fino al completamento delle missioni tutorial."
     },
-    "BP_Stables_Sign_UAID_B04F1306EDBFF17501_2051031162": {},
+    "BP_Stables_Sign_UAID_B04F1306EDBFF17501_2051031162": {
+      "name": "Bahari - Coral Shores"
+    },
     "BP_Stables_Sign_UAID_B04F1306EDBFF27501_1076227339": {
       "name": "Bahari - La periferia"
     },
-    "BP_Stables_Sign_UAID_B04F1306EDBFF27501_1104149340": {},
+    "BP_Stables_Sign_UAID_B04F1306EDBFF27501_1104149340": {
+      "name": "Bahari - Pulsewater Plains"
+    },
     "BP_Stables_Sign_UAID_B04F1306EDBFF27501_1135505341": {
       "name": "Bahari - Baia Beachcomber"
     },
@@ -193,6 +243,7 @@
       "name": "Bahari - Bluff Hideaway"
     },
     "BP_Stables_Sign_UAID_7486E2271DBF409B01_2003868107": {
+      "name": "Kilima Village Fairgrounds",
       "description": "Non disponibile fino al completamento delle missioni tutorial."
     },
     "BP_Stables_Sign_UAID_6C02E03F65D9936101_1437950312": {
@@ -213,36 +264,123 @@
     }
   },
   "area": {
-    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3D9201_2102627787": {},
-    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3D9201_2130131788": {},
-    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1104990965": {},
-    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1136480966": {},
-    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1169627967": {},
-    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1196462968": {},
-    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1218807969": {},
-    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1251673970": {},
-    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1275559971": {},
-    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1547700974": {},
-    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1601927976": {},
-    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1649469977": {},
-    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1668547978": {},
-    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1912837980": {},
-    "MapMarker_Apothecary_UAID_CC96E5156C5D4B9101_1701465443": {},
-    "MapMarker_MayorsEstate_UAID_6C02E03F65D9936101_1437953322": {},
-    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1821434640": {},
-    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1856820641": {},
-    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1893206642": {},
-    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1928571643": {},
-    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1972807644": {},
-    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1999525645": {},
-    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_2035310646": {},
-    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_2068254647": {},
-    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_2094865648": {},
-    "MapMarker_RemembranceGarden_UAID_6C02E03F65D9936101_1437953320": {},
-    "MapMarker_RemembranceGarden_UAID_CC96E5156C5D479101_1753509996": {},
-    "MapMarker_RemembranceGarden_UAID_CC96E5156C5D4A9101_1765151639": {}
+    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3D9201_2102627787": {
+      "name": "Lighthouse Lagoon",
+      "description": null
+    },
+    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3D9201_2130131788": {
+      "name": "Coral Shores",
+      "description": null
+    },
+    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1104990965": {
+      "name": "Ancient Aquaduct",
+      "description": null
+    },
+    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1136480966": {
+      "name": "Flooded Fortress",
+      "description": null
+    },
+    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1169627967": {
+      "name": "Pavel Mines",
+      "description": null
+    },
+    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1196462968": {
+      "name": "Thorny Thicket",
+      "description": null
+    },
+    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1218807969": {
+      "name": "Hideaway Bluffs",
+      "description": null
+    },
+    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1251673970": {
+      "name": "Pulsewater Plains",
+      "description": null
+    },
+    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1275559971": {
+      "name": "Beachcomber Cove",
+      "description": null
+    },
+    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1547700974": {
+      "name": "Windy Ruins",
+      "description": null
+    },
+    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1601927976": {
+      "name": "Proudhorn Pass",
+      "description": null
+    },
+    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1649469977": {
+      "name": "Flooded Steps",
+      "description": null
+    },
+    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1668547978": {
+      "name": "Statue Garden",
+      "description": null
+    },
+    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1912837980": {
+      "name": "The Outskirts",
+      "description": null
+    },
+    "MapMarker_Apothecary_UAID_CC96E5156C5D4B9101_1701465443": {
+      "name": "Mirror Pond Ruins",
+      "description": null
+    },
+    "MapMarker_MayorsEstate_UAID_6C02E03F65D9936101_1437953322": {
+      "name": "Mayor's Estate",
+      "description": null
+    },
+    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1821434640": {
+      "name": "Fisherman's Lagoon",
+      "description": null
+    },
+    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1856820641": {
+      "name": "Whispering Banks",
+      "description": null
+    },
+    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1893206642": {
+      "name": "Maji's Hollow",
+      "description": null
+    },
+    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1928571643": {
+      "name": "Chapaa Crossing",
+      "description": null
+    },
+    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1972807644": {
+      "name": "Phoenix Falls",
+      "description": null
+    },
+    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1999525645": {
+      "name": "Kilima Village",
+      "description": null
+    },
+    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_2035310646": {
+      "name": "Leafhopper Hills",
+      "description": null
+    },
+    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_2068254647": {
+      "name": "Gillyfin Cove",
+      "description": null
+    },
+    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_2094865648": {
+      "name": "Mirror Fields",
+      "description": null
+    },
+    "MapMarker_RemembranceGarden_UAID_6C02E03F65D9936101_1437953320": {
+      "name": "Remembrance Garden",
+      "description": null
+    },
+    "MapMarker_RemembranceGarden_UAID_CC96E5156C5D479101_1753509996": {
+      "name": "Reflection Fields",
+      "description": null
+    },
+    "MapMarker_RemembranceGarden_UAID_CC96E5156C5D4A9101_1765151639": {
+      "name": "Remembrance Beach",
+      "description": null
+    }
   },
   "housingPlot": {
-    "BP_GateTeleporter_Parent_C_UAID_CC96E503E0F4268201_1876024839": {}
+    "BP_GateTeleporter_Parent_C_UAID_CC96E503E0F4268201_1876024839": {
+      "name": "To Housing Plot",
+      "description": null
+    }
   }
 }

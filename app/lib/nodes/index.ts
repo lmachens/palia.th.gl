@@ -4,6 +4,7 @@ import { landmark } from "./landmark";
 import { location } from "./location";
 import { spawnNodes } from "./spawn-nodes";
 import { stable } from "./stable";
+import { wardrobe } from "./wardrobe";
 
 import { zone } from "./zone";
 
@@ -15,6 +16,7 @@ export const staticNodes = {
   stable: stable,
   housingPlot: housingPlot,
   zone: zone,
+  wardrobe: wardrobe,
 } as const;
 
 export type NODE_TYPE = keyof typeof staticNodes | keyof typeof spawnNodes;
