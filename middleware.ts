@@ -50,7 +50,10 @@ export async function middleware(req: NextRequest) {
     }
   } else {
     return NextResponse.redirect(
-      new URL(`/${userLanguage}/${dict.maps[DEFAULT_MAP]}`, req.url)
+      new URL(
+        `/${userLanguage}/${dict.maps[DEFAULT_MAP]}${req.nextUrl.search}`,
+        req.url
+      )
     );
   }
 }
