@@ -126,7 +126,7 @@ function Ads() {
         <Modal onClose={() => setIsModalVisible(false)}>
           <p className="italic text-md text-center">{dict.menu.patronInfo}</p>
           <a
-            href="https://www.patreon.com/join/devleon/checkout?rid=9878731"
+            href="https://www.patreon.com/join/devleon/checkout?rid=10151819"
             target="_blank"
             className="mt-1 p-2 uppercase text-center bg-white text-[#ff424d] hover:bg-gray-100"
           >
