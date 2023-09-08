@@ -10,7 +10,11 @@ async function _GET(request: NextRequest) {
     `https://paliapedia.com/api/weekly-wants?k=${
       process.env.PALIAPEDIA_API_KEY
     }&random=${Math.random()}`,
-    {}
+    {
+      headers: {
+        "User-Agent": process.env.PALIAPEDIA_API_KEY!,
+      },
+    }
   );
   const data = (await response.json()) as WEEKLY_WANTS;
   const weeklyWants = Object.entries(data.preferences).reduce(
