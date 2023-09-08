@@ -5,6 +5,9 @@
   "BP_Bug_ButterflyC_C": {
     "name": "Papillon bleu commun"
   },
+  "BP_Bug_ButterflyU_C": {
+    "name": "Papillon crépusculaile"
+  },
   "BP_Bug_CicadaC_C": {
     "name": "Cigale commune"
   },
@@ -38,8 +41,14 @@
   "BP_Bug_DragonflyU_C": {
     "name": "Libellule sépia"
   },
+  "BP_Bug_GlowbugC_C": {
+    "name": "Luciole lampion"
+  },
   "BP_Bug_LadybugR_C": {
     "name": "Princesse coccinelle"
+  },
+  "BP_Bug_MantisE_C": {
+    "name": "Mante féérique"
   },
   "BP_Bug_MantisU_C": {
     "name": "Mante commune"
@@ -47,8 +56,14 @@
   "BP_Bug_MothC_C": {
     "name": "Phalène nocturne de Kilima"
   },
+  "BP_Bug_MothU_C": {
+    "name": "Phalène fée lunaire"
+  },
   "BP_Bug_PedeR1_C": {
     "name": "Mille-pattes velu"
+  },
+  "BP_Bug_PedeR2_C": {
+    "name": "Mille-pattes scintillant"
   },
   "BP_Bug_PedeU_C": {
     "name": "Mille-pattes commun"
@@ -75,6 +90,10 @@
   "BP_Gatherable_Ruins_C": {
     "name": "« Cimetière ancien »",
     "description": "Une certaine statue doit retrouver sa place ici."
+  },
+  "BP_HeartdropLilly_C": {
+    "name": "Lys cœur-battant",
+    "description": "Le lys Heartdrop est une fleur rare qui a une signification particulière pour les Paliens : l’épanouissement de l’amour romantique."
   },
   "BP_Mining_Clay_C": {
     "name": "Clay Node",
@@ -260,12 +279,20 @@
     "name": "Lotus du lac Crystallium",
     "description": "Le lotus de Crystal Lake porte le nom de l’endroit où il a été découvert et est aujourd’hui utilisé pour fabriquer des teintures."
   },
+  "BP_WaterPlane_Fishing_AZ1_Cave_SQ_C": {
+    "name": "WaterPlane_Fishing_AZ1_Cave_SQ_C",
+    "description": ""
+  },
   "BP_WaterPlane_Fishing_LakeVillage_SQ_C": {
     "name": "Lake",
     "description": ""
   },
   "BP_WaterPlane_Fishing_PondVillage_SQ_C": {
     "name": "Pond",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_RiverAZ1_SQ_C": {
+    "name": "River",
     "description": ""
   },
   "BP_WaterPlane_Fishing_RiverVillage_SQ_C": {

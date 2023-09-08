@@ -5,6 +5,9 @@
   "BP_Bug_ButterflyC_C": {
     "name": "Farfalla azzurra"
   },
+  "BP_Bug_ButterflyU_C": {
+    "name": "Farfalla crepuscolare"
+  },
   "BP_Bug_CicadaC_C": {
     "name": "Cicala di corteccia"
   },
@@ -38,8 +41,14 @@
   "BP_Bug_DragonflyU_C": {
     "name": "Libellula inchiostro"
   },
+  "BP_Bug_GlowbugC_C": {
+    "name": "Insetto lanterna"
+  },
   "BP_Bug_LadybugR_C": {
     "name": "Coccinella principessa"
+  },
+  "BP_Bug_MantisE_C": {
+    "name": "Mantide fatata"
   },
   "BP_Bug_MantisU_C": {
     "name": "Mantide da giardino"
@@ -47,8 +56,14 @@
   "BP_Bug_MothC_C": {
     "name": "Falena notturna di Kilima"
   },
+  "BP_Bug_MothU_C": {
+    "name": "Falena lunare"
+  },
   "BP_Bug_PedeR1_C": {
     "name": "Millepiedi peloso"
+  },
+  "BP_Bug_PedeR2_C": {
+    "name": "Centopiedi scintillino"
   },
   "BP_Bug_PedeU_C": {
     "name": "Millepiedi delle serre"
@@ -75,6 +90,10 @@
   "BP_Gatherable_Ruins_C": {
     "name": "Antico cimitero",
     "description": "Il posto ideale a cui restituire una statua."
+  },
+  "BP_HeartdropLilly_C": {
+    "name": "Giglio cuore",
+    "description": "Il giglio del cuore è un fiore raro che ha un significato speciale per i paliani: lo sbocciare dell'amore romantico."
   },
   "BP_Mining_Clay_C": {
     "name": "Clay Node",
@@ -260,12 +279,20 @@
     "name": "Loto di lago",
     "description": "Il Crystal Lake Lotus prende il nome dal luogo in cui è stato scoperto ed è oggi utilizzato per la produzione di tinture."
   },
+  "BP_WaterPlane_Fishing_AZ1_Cave_SQ_C": {
+    "name": "WaterPlane_Fishing_AZ1_Cave_SQ_C",
+    "description": ""
+  },
   "BP_WaterPlane_Fishing_LakeVillage_SQ_C": {
     "name": "Lake",
     "description": ""
   },
   "BP_WaterPlane_Fishing_PondVillage_SQ_C": {
     "name": "Pond",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_RiverAZ1_SQ_C": {
+    "name": "River",
     "description": ""
   },
   "BP_WaterPlane_Fishing_RiverVillage_SQ_C": {

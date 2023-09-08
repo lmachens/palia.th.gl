@@ -5,6 +5,9 @@
   "BP_Bug_ButterflyC_C": {
     "name": "Gemeiner Blaufalter"
   },
+  "BP_Bug_ButterflyU_C": {
+    "name": "Dämmerfalter"
+  },
   "BP_Bug_CicadaC_C": {
     "name": "Gemeine Rindenzikade"
   },
@@ -38,8 +41,14 @@
   "BP_Bug_DragonflyU_C": {
     "name": "Tintenlibelle"
   },
+  "BP_Bug_GlowbugC_C": {
+    "name": "Lampionwürmchen"
+  },
   "BP_Bug_LadybugR_C": {
     "name": "Prinzessinnen-Marienkäfer"
+  },
+  "BP_Bug_MantisE_C": {
+    "name": "Feen-Gottesanbeterin"
   },
   "BP_Bug_MantisU_C": {
     "name": "Garten-Gottesanbeterin"
@@ -47,8 +56,14 @@
   "BP_Bug_MothC_C": {
     "name": "Kilima-Nachtmotte"
   },
+  "BP_Bug_MothU_C": {
+    "name": "Mondfee-Motte"
+  },
   "BP_Bug_PedeR1_C": {
     "name": "Behaarter Tausendfüßler"
+  },
+  "BP_Bug_PedeR2_C": {
+    "name": "Glänzender Hundertfüßler"
   },
   "BP_Bug_PedeU_C": {
     "name": "Garten-Tausendfüßler"
@@ -75,6 +90,10 @@
   "BP_Gatherable_Ruins_C": {
     "name": "„Uralte Begräbnisstätte“",
     "description": "Der beste Ort, an den man eine Statue zurückbringen kann."
+  },
+  "BP_HeartdropLilly_C": {
+    "name": "Herztropfenlilie",
+    "description": "Die Heartdrop-Lilie ist eine seltene Blume, die für die Palianer eine besondere Bedeutung hat: das Aufblühen der romantischen Liebe."
   },
   "BP_Mining_Clay_C": {
     "name": "Clay Node",
@@ -260,12 +279,20 @@
     "name": "Kristallsee-Lotos",
     "description": "Der Crystal Lake Lotus ist nach dem Ort benannt, an dem er entdeckt wurde, und wird heute zur Herstellung von Farbstoffen verwendet."
   },
+  "BP_WaterPlane_Fishing_AZ1_Cave_SQ_C": {
+    "name": "WaterPlane_Fishing_AZ1_Cave_SQ_C",
+    "description": ""
+  },
   "BP_WaterPlane_Fishing_LakeVillage_SQ_C": {
     "name": "Lake",
     "description": ""
   },
   "BP_WaterPlane_Fishing_PondVillage_SQ_C": {
     "name": "Pond",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_RiverAZ1_SQ_C": {
+    "name": "River",
     "description": ""
   },
   "BP_WaterPlane_Fishing_RiverVillage_SQ_C": {

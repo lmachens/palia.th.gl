@@ -7,6 +7,10 @@
     "name": "Common Blue Butterfly",
     "description": "Ever resilient. Butterflies of this type can be found in almost every climate in Palia.\r\nFound all around Kilima and Bahari Bay during the morning and day."
   },
+  "BP_Bug_ButterflyU_C": {
+    "name": "Duskwing Butterfly",
+    "description": "A beautiful butterfly with wings the color of dusk. Unique to the Kilima Valley.\r\nFound around the Dragon Shrine in Kilima during the morning and day."
+  },
   "BP_Bug_CicadaC_C": {
     "name": "Common Bark Cicada",
     "description": "A common cicada.\r\nFound attached to trees in Bahari Bay during the morning and day."
@@ -51,9 +55,17 @@
     "name": "Inky Dragonfly",
     "description": "This stealthy Dragonfly is used as a component in various black dyes and inks.\r\nFound around rivers and ponds in Bahari Bay."
   },
+  "BP_Bug_GlowbugC_C": {
+    "name": "Paper Lantern Bug",
+    "description": "This bug glows as brightly as a colorful feast day lantern taking flight into the Palian night sky.\r\nFound along the coast and in forests of Bahari Bay during the evening and night."
+  },
   "BP_Bug_LadybugR_C": {
     "name": "Princess Ladybug",
     "description": "A very regal looking lady bug, made popular by the children's fairytale, The Princess Who Turned Into A Ladybug.\r\nFound around the lake in Kilima."
+  },
+  "BP_Bug_MantisE_C": {
+    "name": "Fairy Mantis",
+    "description": "A mantis from early Majiri legend only recently confirmed to exist by modern entomologists. Said to have magical properties.\r\nFound in the fields of Bahari Bay."
   },
   "BP_Bug_MantisU_C": {
     "name": "Garden Mantis",
@@ -63,9 +75,17 @@
     "name": "Kilima Night Moth",
     "description": "While beautiful, the Kilima night moth is so prevalent on hot summer nights that some consider it to be a pest. Keep away from stored cloth.\r\nFound all around Kilima and Bahari Bay during the evening and night."
   },
+  "BP_Bug_MothU_C": {
+    "name": "Lunar Fairy Moth",
+    "description": "The Lunar Fairy Moth is said to have a very special connection to the Dragon Moon, and is said to only appear at special times during its cycle.\r\nFound in the fields and forests of Bahari Bay during the evening and night."
+  },
   "BP_Bug_PedeR1_C": {
     "name": "Hairy Millipede",
     "description": "A millipede with a hair growth problem.\r\nFound in the forests of Bahari Bay."
+  },
+  "BP_Bug_PedeR2_C": {
+    "name": "Scintillating Centipede",
+    "description": "A rare centipede with a shiny hard shell.\r\nHas a chance to be found when mining in Bahari Bay."
   },
   "BP_Bug_PedeU_C": {
     "name": "Garden Millipede",
@@ -94,6 +114,10 @@
   "BP_Gatherable_Ruins_C": {
     "name": "\"Ancient Burial Ground\"",
     "description": "A great place to return a statue."
+  },
+  "BP_HeartdropLilly_C": {
+    "name": "Heartdrop Lily",
+    "description": "The Heartdrop Lily is a rare flower with a special meaning to Palians: the blossoming of romantic love."
   },
   "BP_Mining_Clay_C": {
     "name": "Clay Node",
@@ -279,12 +303,20 @@
     "name": "Crystal Lake Lotus",
     "description": "The Crystal Lake Lotus is named after where it was discovered and is now used to make dyes."
   },
+  "BP_WaterPlane_Fishing_AZ1_Cave_SQ_C": {
+    "name": "WaterPlane_Fishing_AZ1_Cave_SQ_C",
+    "description": ""
+  },
   "BP_WaterPlane_Fishing_LakeVillage_SQ_C": {
     "name": "Lake",
     "description": ""
   },
   "BP_WaterPlane_Fishing_PondVillage_SQ_C": {
     "name": "Pond",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_RiverAZ1_SQ_C": {
+    "name": "River",
     "description": ""
   },
   "BP_WaterPlane_Fishing_RiverVillage_SQ_C": {

@@ -5,6 +5,9 @@
   "BP_Bug_ButterflyC_C": {
     "name": "Mariposa azul común"
   },
+  "BP_Bug_ButterflyU_C": {
+    "name": "Mariposa crepuscular"
+  },
   "BP_Bug_CicadaC_C": {
     "name": "Cigarra de corteza común"
   },
@@ -38,8 +41,14 @@
   "BP_Bug_DragonflyU_C": {
     "name": "Libélula negruzca"
   },
+  "BP_Bug_GlowbugC_C": {
+    "name": "Bicho farolillo"
+  },
   "BP_Bug_LadybugR_C": {
     "name": "Mariquita princesa"
+  },
+  "BP_Bug_MantisE_C": {
+    "name": "Mantis feérica"
   },
   "BP_Bug_MantisU_C": {
     "name": "Mantis de jardín"
@@ -47,8 +56,14 @@
   "BP_Bug_MothC_C": {
     "name": "Polilla nocturna de Kilima"
   },
+  "BP_Bug_MothU_C": {
+    "name": "Polilla feérica lunar"
+  },
   "BP_Bug_PedeR1_C": {
     "name": "Milpiés peludo"
+  },
+  "BP_Bug_PedeR2_C": {
+    "name": "Ciempiés centella"
   },
   "BP_Bug_PedeU_C": {
     "name": "Milpiés de jardín"
@@ -74,6 +89,10 @@
   "BP_Gatherable_Ruins_C": {
     "name": "«Antiguo cementerio»",
     "description": "Un sitio ideal para devolver una estatua."
+  },
+  "BP_HeartdropLilly_C": {
+    "name": "Lirio corazón",
+    "description": "El lirio del corazón es una flor rara con un significado especial para los palienses: el florecimiento del amor romántico."
   },
   "BP_Mining_Clay_C": {
     "name": "Clay Node",
@@ -259,12 +278,20 @@
     "name": "Loto del Lago de Cristal",
     "description": "El loto de Crystal Lake recibe su nombre del lugar donde se descubrió y ahora se utiliza para fabricar tintes."
   },
+  "BP_WaterPlane_Fishing_AZ1_Cave_SQ_C": {
+    "name": "WaterPlane_Fishing_AZ1_Cave_SQ_C",
+    "description": ""
+  },
   "BP_WaterPlane_Fishing_LakeVillage_SQ_C": {
     "name": "Lake",
     "description": ""
   },
   "BP_WaterPlane_Fishing_PondVillage_SQ_C": {
     "name": "Pond",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_RiverAZ1_SQ_C": {
+    "name": "River",
     "description": ""
   },
   "BP_WaterPlane_Fishing_RiverVillage_SQ_C": {
