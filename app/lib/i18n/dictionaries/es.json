@@ -15,7 +15,8 @@
         "apps": "Aplicaciones",
         "community": "Comunidad",
         "discover": "Descubrir",
-        "contribute": "Contribuir"
+        "contribute": "Contribuir",
+        "weeklyWants": "Quiero Semanal"
     },
     "search": {
         "placeholder": "Buscar por nombre o tipo"

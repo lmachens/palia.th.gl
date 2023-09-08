@@ -15,6 +15,7 @@ import Filters from "./filters";
 import Maps from "./maps";
 import Routes from "./routes";
 import useFilters from "./use-filters";
+import WeeklyWants from "./weekly-wants";
 
 export default function Search() {
   const searchParams = useSearchParams()!;
@@ -41,13 +42,16 @@ export default function Search() {
     <div
       className={`absolute pointer-events-none ${
         "value" in router ? "top-[42px]" : "top-0 md:top-3"
-      }  md:right-1 w-full z-[400] transition-all duration-500 ${
+      }  md:right-1 z-[400] transition-all duration-500 ${
         globalSettingsStore.showSidebar ? "md:left-[412px]" : "md:left-3"
       } md:space-y-1`}
     >
-      {/* <div className={`bg-black md:bg-transparent flex overflow-auto md:gap-1`}>
-        {!("value" in router) && <AppDownload />}
-      </div> */}
+      <div
+        className={`bg-black md:bg-transparent flex overflow-auto pointer-events-auto pb-1`}
+      >
+        {/* {!("value" in router) && <AppDownload />} */}
+        <WeeklyWants />
+      </div>
       {(!settingsStore.lockedWindow || !isOverlay) && (
         <div className={`relative pointer-events-auto flex md:w-fit`}>
           <button

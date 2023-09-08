@@ -15,7 +15,8 @@
         "apps": "Apps",
         "community": "Community",
         "discover": "Entdecken",
-        "contribute": "Beitragen"
+        "contribute": "Beitragen",
+        "weeklyWants": "Wöchentliche Wünsche"
     },
     "search": {
         "placeholder": "Nach Name oder Typ suchen"
