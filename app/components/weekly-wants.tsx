@@ -63,9 +63,6 @@ export default function WeeklyWants() {
                       <path d="M5 12l5 5l10 -10"></path>
                     </svg>
                   )}
-                {/* <span className="text-orange-400 uppercase">
-              {villagerWants.name}
-            </span> */}
               </button>
             }
           >
@@ -94,7 +91,9 @@ export default function WeeklyWants() {
                             )
                           }
                         />
-                        <span>{item.name}</span>
+                        <span>
+                          {item.name} {item.rewardLevel === "Love" ? "💕" : ""}
+                        </span>
                       </label>
                     );
                   })}
