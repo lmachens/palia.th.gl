@@ -121,13 +121,9 @@ export default function Nodes({ map: mapName }: { map: string }) {
         if (!filters.includes(node.type) && !isHighlighted) {
           isTrivial = true;
         } else if (search && !isHighlighted) {
-          // @ts-ignore
-          const name = dict.generated[node.type]?.[node.id]?.name ?? "";
-
           isTrivial = !(
-            name.toLowerCase().includes(search) ||
+            dict.generated[node.type]?.[node.id]?.name.toLowerCase().includes(search) ||
             node.id.toLowerCase().includes(search) ||
-            dict.nodes[node.type]?.toLowerCase().includes(search) ||
             dict.spawnNodes[node.type]?.name.toLowerCase().includes(search)
           );
         }
