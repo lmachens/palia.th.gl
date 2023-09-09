@@ -30,11 +30,20 @@ function Layout({
   children: React.ReactNode;
   params: { lang: string; map: string };
 }) {
-  if (!isLang(lang) || !isMap(map)) {
+  if (!isLang(lang)) {
     notFound();
   }
 
   const dict = loadDictionary(lang);
+  const mapTitle = decodeURIComponent(map);
+  const mapEntry = Object.entries(dict.maps).find(([, value]) => {
+    return value === mapTitle;
+  });
+
+  if (!mapEntry || !isMap(mapEntry[0])) {
+    notFound();
+  }
+
   return (
     <html lang={lang}>
       <body
@@ -48,9 +57,9 @@ function Layout({
             locales: LOCALES,
           }}
         >
-          <Map map={map}>
-            <Tiles map={map} />
-            <Nodes map={map} />
+          <Map map={mapEntry[0]}>
+            <Tiles map={mapEntry[0]} />
+            <Nodes map={mapEntry[0]} />
           </Map>
           <a
             href="https://palia.th.gl"
