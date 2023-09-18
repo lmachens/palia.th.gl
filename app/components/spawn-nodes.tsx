@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Fragment } from "react";
+import { isOverwolfApp } from "../lib/env";
 import { SPAWN_ICONS } from "../lib/icons";
 import { spawnNodes } from "../lib/nodes";
 import { spawnGroups } from "../lib/spawn-groups";
@@ -48,6 +49,7 @@ export default function SpawnNodes() {
                       height={20}
                       alt=""
                       className="h-5 w-5 shrink-0"
+                      unoptimized={isOverwolfApp}
                     />
                   ) : (
                     <svg

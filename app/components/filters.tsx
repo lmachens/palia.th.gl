@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { Fragment } from "react";
+import { isOverwolfApp } from "../lib/env";
 import { ICONS, SPAWN_ICONS } from "../lib/icons";
 import { spawnNodes, staticNodes } from "../lib/nodes";
 import { spawnGroups } from "../lib/spawn-groups";
@@ -53,6 +54,7 @@ export default function Filters() {
                 height={20}
                 alt=""
                 className="h-5 w-5 shrink-0"
+                unoptimized={isOverwolfApp}
               />
               <span className="truncate">{dict.nodes[key]}</span>
             </button>
@@ -98,6 +100,7 @@ export default function Filters() {
                         height={20}
                         alt=""
                         className="h-5 w-5 shrink-0"
+                        unoptimized={isOverwolfApp}
                       />
                     ) : (
                       <svg

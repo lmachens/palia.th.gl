@@ -19,7 +19,7 @@ import WeeklyWants from "./weekly-wants";
 
 export default function Search() {
   const searchParams = useSearchParams()!;
-  const router = useOverwolfRouter();
+  const overwolfRouter = useOverwolfRouter();
   const [search, setSearch] = useState(() => searchParams.get("search") ?? "");
   const dict = useDict();
   const updateSearchParams = useUpdateSearchParams();
@@ -30,8 +30,8 @@ export default function Search() {
 
   useEffect(() => {
     const handle = setTimeout(() => {
-      if ("update" in router) {
-        router.update({ search });
+      if (overwolfRouter) {
+        overwolfRouter.update({ search });
       } else {
         updateSearchParams("search", search);
       }
@@ -41,7 +41,7 @@ export default function Search() {
   return (
     <div
       className={`absolute pointer-events-none ${
-        "value" in router ? "top-[42px]" : "top-0 md:top-3"
+        overwolfRouter ? "top-[42px]" : "top-0 md:top-3"
       }  md:right-1 z-[400] transition-all duration-500 ${
         globalSettingsStore.showSidebar ? "md:left-[412px]" : "md:left-3"
       } md:space-y-1`}
@@ -49,7 +49,7 @@ export default function Search() {
       <div
         className={`bg-black md:bg-transparent flex overflow-auto pointer-events-auto pb-1`}
       >
-        {/* {!("value" in router) && <AppDownload />} */}
+        {/* {!isOverwolfApp && <AppDownload />} */}
         {(!settingsStore.lockedWindow || !isOverlay) && <WeeklyWants />}
       </div>
       {(!settingsStore.lockedWindow || !isOverlay) && (

@@ -27,8 +27,10 @@ export default function App() {
   const locale = useSettingsStore((state) => state.locale);
   const dict = loadDictionary(locale);
   const setIsOverlay = useGameInfoStore((state) => state.setIsOverlay);
-  const router = useOverwolfRouter();
-  const mapName = "value" in router ? router.value.mapName : "kilima-valley";
+  const overwolfRouter = useOverwolfRouter();
+  const mapName = overwolfRouter
+    ? overwolfRouter.value.mapName
+    : "kilima-valley";
 
   useEffect(() => {
     getCurrentWindow().then((currentWindow) => {

@@ -10,15 +10,16 @@ export default function Maps() {
   const dict = useDict();
   const params = useParams();
   const searchParams = useSearchParams();
-  const router = useOverwolfRouter();
+  const overwolfRouter = useOverwolfRouter();
   const i18n = useI18N();
-  const isOverwolf = "value" in router;
 
   const search = useMemo(() => {
     return (
-      (isOverwolf ? router.value.search : searchParams.get("search")) ?? ""
+      (overwolfRouter
+        ? overwolfRouter.value.search
+        : searchParams.get("search")) ?? ""
     ).toLowerCase();
-  }, [searchParams, isOverwolf && router.value.search]);
+  }, [searchParams, overwolfRouter?.value.search]);
 
   const mapNodesCount = useMemo(() => {
     return nodes.reduce(
@@ -43,10 +44,9 @@ export default function Maps() {
     );
   }, [search]);
 
-  const mapName =
-    "update" in router
-      ? dict.maps[router.value.mapName!]
-      : decodeURIComponent(params.map as string);
+  const mapName = overwolfRouter
+    ? dict.maps[overwolfRouter.value.mapName!]
+    : decodeURIComponent(params.map as string);
   return (
     <div className="divide-y divide-neutral-700 border-t border-t-neutral-600 bg-neutral-900 text-sm w-full md:border md:border-gray-600 md:rounded-lg">
       <div className="flex flex-wrap">
@@ -60,8 +60,8 @@ export default function Maps() {
               dict.maps[map] === mapName ? "text-gray-200" : "text-gray-500"
             }`}
             onClick={(event) => {
-              if ("update" in router) {
-                router.update({ mapName: map });
+              if (overwolfRouter) {
+                overwolfRouter.update({ mapName: map });
                 event.preventDefault();
               }
             }}

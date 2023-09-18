@@ -1,9 +1,9 @@
 import Link from "next/link";
 import { useState } from "react";
-import { useOverwolfRouter } from "../(overwolf)/components/overwolf-router";
 import { useI18N } from "./(i18n)/i18n-provider";
 import Popover from "./popover";
 
+import { isOverwolfApp } from "../lib/env";
 import { useSettingsStore } from "../lib/storage/settings";
 import "/node_modules/flag-icons/css/flag-icons.min.css";
 
@@ -15,7 +15,6 @@ const getFlagCode = (locale: string) => {
 };
 
 export default function LocaleSelect({ className }: { className?: string }) {
-  const router = useOverwolfRouter();
   const i18n = useI18N();
   const [isOpen, setIsOpen] = useState(false);
   const settingsStore = useSettingsStore();
@@ -43,7 +42,7 @@ export default function LocaleSelect({ className }: { className?: string }) {
               href={`/${locale}`}
               onClick={(event) => {
                 setIsOpen(false);
-                if ("update" in router) {
+                if (isOverwolfApp) {
                   settingsStore.setLocale(locale);
                   event.preventDefault();
                 }

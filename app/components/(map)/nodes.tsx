@@ -4,7 +4,7 @@ import { NODE, nodes } from "@/app/lib/nodes";
 import { useDiscoveredNodesStore } from "@/app/lib/storage/discovered-nodes";
 import { useGlobalSettingsStore } from "@/app/lib/storage/global-settings";
 import leaflet from "leaflet";
-import { useParams, useSearchParams } from "next/navigation";
+import { useParams, useRouter, useSearchParams } from "next/navigation";
 import { Fragment, useCallback, useEffect, useMemo } from "react";
 import { useDict } from "../(i18n)/i18n-provider";
 import useFilters from "../use-filters";
@@ -25,23 +25,25 @@ export default function Nodes({ map: mapName }: { map: string }) {
     };
   }, [map]);
 
-  const router = useOverwolfRouter();
+  const overwolfRouter = useOverwolfRouter();
+  const router = useRouter();
   const params = useParams()!;
   const searchParams = useSearchParams()!;
   const { discoveredNodes, toggleDiscoveredNode } = useDiscoveredNodesStore();
-  const isOverwolf = "value" in router;
   const search = useMemo(() => {
     return (
-      (isOverwolf ? router.value.search : searchParams.get("search")) ?? ""
+      (overwolfRouter
+        ? overwolfRouter.value.search
+        : searchParams.get("search")) ?? ""
     ).toLowerCase();
-  }, [searchParams, isOverwolf && router.value.search]);
+  }, [searchParams, overwolfRouter?.value.search]);
   const isScreenshot = searchParams.get("screenshot") === "true";
   const dict = useDict();
   const iconSize = useGlobalSettingsStore((state) => state.iconSize);
 
-  const paramsName = isOverwolf ? router.value.name : params.name;
-  const paramsCoordinates = isOverwolf
-    ? router.value.coordinates
+  const paramsName = overwolfRouter ? overwolfRouter.value.name : params.name;
+  const paramsCoordinates = overwolfRouter
+    ? overwolfRouter.value.coordinates
     : params.coordinates;
   const [filters] = useFilters();
 
@@ -82,8 +84,8 @@ export default function Nodes({ map: mapName }: { map: string }) {
     } else {
       name = dict.spawnNodes[node.type].name;
     }
-    if ("update" in router) {
-      router.update({
+    if (overwolfRouter) {
+      overwolfRouter.update({
         name: encodeURIComponent(name || dict.nodes[node.type]),
         mapName,
         coordinates: `@${node.x},${node.y}`,
@@ -122,7 +124,9 @@ export default function Nodes({ map: mapName }: { map: string }) {
           isTrivial = true;
         } else if (search && !isHighlighted) {
           isTrivial = !(
-            dict.generated[node.type]?.[node.id]?.name.toLowerCase().includes(search) ||
+            dict.generated[node.type]?.[node.id]?.name
+              .toLowerCase()
+              .includes(search) ||
             node.id.toLowerCase().includes(search) ||
             dict.spawnNodes[node.type]?.name.toLowerCase().includes(search)
           );

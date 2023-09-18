@@ -1,6 +1,7 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 import Image from "next/image";
-import { useOverwolfRouter } from "../(overwolf)/components/overwolf-router";
+import { isOverwolfApp } from "../lib/env";
 import { ICONS } from "../lib/icons";
 import { staticNodes } from "../lib/nodes";
 import { useDiscoveredNodesStore } from "../lib/storage/discovered-nodes";
@@ -11,12 +12,11 @@ export default function DiscoveredNodes() {
   const { discoveredNodes, setDiscoveredNodes } = useDiscoveredNodesStore();
   const dict = useDict();
   const [filters, toggleFilter] = useFilters();
-  const router = useOverwolfRouter();
 
   return (
     <div>
       <div className="grid grid-cols-3 justify-items-center text-sm">
-        {"update" in router ? (
+        {isOverwolfApp ? (
           <button
             className="p-1 uppercase hover:text-white"
             onClick={() => {
@@ -112,8 +112,9 @@ export default function DiscoveredNodes() {
             }}
           >
             <Image
-              src={icon.src as string}
+              src={icon.src}
               width={20}
+              unoptimized={isOverwolfApp}
               height={20}
               alt=""
               className="h-5 w-5"

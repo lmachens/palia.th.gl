@@ -3,7 +3,7 @@ import { useOverwolfRouter } from "@/app/(overwolf)/components/overwolf-router";
 import { HOTKEYS } from "@/app/(overwolf)/lib/config";
 import leaflet, { LatLngBoundsExpression } from "leaflet";
 import "leaflet/dist/leaflet.css";
-import { useParams } from "next/navigation";
+import { useParams, useRouter } from "next/navigation";
 import { useEffect, useRef } from "react";
 import { create } from "zustand";
 
@@ -43,7 +43,8 @@ export default function Map({
 }) {
   const mapRef = useRef<HTMLDivElement>(null);
   const { map, setMap } = useMapStore();
-  const router = useOverwolfRouter();
+  const overwolfRouter = useOverwolfRouter();
+  const router = useRouter();
   const params = useParams()!;
   const dict = useDict();
 
@@ -71,9 +72,8 @@ export default function Map({
       pmIgnore: false,
     });
 
-    const isOverwolf = "value" in router;
-    const paramsCoordinates = isOverwolf
-      ? router.value.coordinates
+    const paramsCoordinates = overwolfRouter
+      ? overwolfRouter.value.coordinates
       : params.coordinates;
     const coordinates = (
       paramsCoordinates && decodeURIComponent(paramsCoordinates as string)
@@ -98,8 +98,8 @@ export default function Map({
       ) {
         return;
       }
-      if ("update" in router) {
-        router.update({ name: "", coordinates: "" });
+      if (overwolfRouter) {
+        overwolfRouter.update({ name: "", coordinates: "" });
       } else {
         router.replace(
           `/${params.lang}/${encodeURIComponent(dict.maps[mapName])}${
@@ -153,7 +153,7 @@ export default function Map({
 
     return () => {
       setMap(null);
-      if ("value" in router) {
+      if (overwolfRouter) {
         map.remove();
       }
     };

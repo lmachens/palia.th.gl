@@ -2,8 +2,7 @@
 
 import { useSearchParams } from "next/navigation";
 import { useEffect } from "react";
-import { useOverwolfRouter } from "../(overwolf)/components/overwolf-router";
-import { API_BASE_URI } from "../lib/env";
+import { API_BASE_URI, isOverwolfApp } from "../lib/env";
 import { useUpdateSearchParams } from "../lib/search-params";
 import { useAccountStore } from "../lib/storage/account";
 import { ALL_FILTERS } from "../lib/storage/global-settings";
@@ -12,15 +11,13 @@ import useFilters from "./use-filters";
 export default function SearchParams() {
   const searchParams = useSearchParams()!;
   const updateSearchParams = useUpdateSearchParams();
-  const router = useOverwolfRouter();
   const [filters] = useFilters();
   const code = searchParams.get("code");
   const filtersParam = searchParams.get("filters");
   const accountStore = useAccountStore();
 
-  const isOverwolf = "update" in router;
   useEffect(() => {
-    if (isOverwolf || filters.join(",") === filtersParam) {
+    if (isOverwolfApp || filters.join(",") === filtersParam) {
       return;
     }
 
@@ -34,7 +31,7 @@ export default function SearchParams() {
   }, [filters, filtersParam]);
 
   useEffect(() => {
-    if (isOverwolf || !code) {
+    if (isOverwolfApp || !code) {
       return;
     }
     updateSearchParams(["code", "state"], ["", ""]);

@@ -1,5 +1,4 @@
 "use client";
-import { useRouter } from "next/navigation";
 import { createContext, useContext, useState } from "react";
 
 type Value = {
@@ -43,12 +42,5 @@ export const OverwolfRouterProvider = ({
 };
 
 export const useOverwolfRouter = () => {
-  const value = useContext(Context);
-  const router = useRouter();
-
-  if (value === null) {
-    return router;
-  }
-
-  return value;
+  return useContext(Context);
 };

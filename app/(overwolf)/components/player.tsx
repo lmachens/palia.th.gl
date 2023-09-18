@@ -15,7 +15,7 @@ export default function Player() {
     (state) => state.followPlayerPosition
   );
   const marker = useRef<PlayerMarker | null>(null);
-  const router = useOverwolfRouter();
+  const overwolfRouter = useOverwolfRouter();
 
   useEffect(() => {
     if (mounted.current) return;
@@ -70,9 +70,9 @@ export default function Player() {
                   rotation: data.R,
                   mapName: mapName,
                 });
-                if (mapName && mapName !== lastMapName && "value" in router) {
+                if (mapName && mapName !== lastMapName && overwolfRouter) {
                   lastMapName = mapName;
-                  router.update({
+                  overwolfRouter.update({
                     mapName,
                   });
                 }

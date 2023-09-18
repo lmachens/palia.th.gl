@@ -1,8 +1,7 @@
 "use client";
 import dynamic from "next/dynamic";
 import AppSettings from "../(overwolf)/components/app-settings";
-import { useOverwolfRouter } from "../(overwolf)/components/overwolf-router";
-import { API_BASE_URI, PATREON_CLIENT_ID_V2 } from "../lib/env";
+import { API_BASE_URI, PATREON_CLIENT_ID_V2, isOverwolfApp } from "../lib/env";
 import { useAccountStore } from "../lib/storage/account";
 import { useGlobalSettingsStore } from "../lib/storage/global-settings";
 import { useDict } from "./(i18n)/i18n-provider";
@@ -37,8 +36,6 @@ const DISCOVER_LINKS = [
   },
 ];
 export default function Menu() {
-  const router = useOverwolfRouter();
-  const isOverwolf = "value" in router;
   const globalSettingsStore = useGlobalSettingsStore();
   const accountStore = useAccountStore();
   const dict = useDict();
@@ -68,10 +65,10 @@ export default function Menu() {
             </svg>
           </button>
         </header>
-        {!isOverwolf && <NitroPay />}
+        {!isOverwolfApp && <NitroPay />}
         <div
           className={`p-2 overflow-auto grow flex flex-col gap-2 ${
-            isOverwolf ? "mb-[30px]" : ""
+            isOverwolfApp ? "mb-[30px]" : ""
           }`}
         >
           {!accountStore.isPatron && (
@@ -88,7 +85,7 @@ export default function Menu() {
               </a>
               <button
                 onClick={() => {
-                  if (isOverwolf) {
+                  if (isOverwolfApp) {
                     overwolf.utils.openUrlInDefaultBrowser(
                       `${API_BASE_URI}/patreon`
                     );
@@ -103,7 +100,7 @@ export default function Menu() {
             </>
           )}
           <h2 className="category-title">{dict.menu.settings}</h2>
-          {isOverwolf && <AppSettings />}
+          {isOverwolfApp && <AppSettings />}
           <Settings />
           <h2 className="category-title">{dict.menu.discoveredNodes}</h2>
           <DiscoveredNodes />

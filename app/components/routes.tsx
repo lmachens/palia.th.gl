@@ -3,7 +3,7 @@ import leaflet, { Polyline } from "leaflet";
 import { nanoid } from "nanoid";
 import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
-import { useOverwolfRouter } from "../(overwolf)/components/overwolf-router";
+import { isOverwolfApp } from "../lib/env";
 import { ROUTE, useRoutesStore } from "../lib/storage/routes";
 import { useMap } from "./(map)/map";
 import Toggle from "./toggle";
@@ -11,7 +11,6 @@ import Toggle from "./toggle";
 export default function Routes() {
   const map = useMap();
   const routes = useRoutesStore();
-  const router = useOverwolfRouter();
 
   const setRoutePolylines = useCallback(
     (polylineLayers: leaflet.Polyline[]) => {
@@ -382,7 +381,7 @@ export default function Routes() {
                   small
                 />
                 <div className="space-x-3">
-                  {"update" in router ? (
+                  {isOverwolfApp ? (
                     <button
                       className="hover:text-white"
                       onClick={() => {

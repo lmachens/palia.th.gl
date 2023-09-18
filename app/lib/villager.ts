@@ -79,10 +79,6 @@ export const villagers = {
     name: "Sifuu",
     icon: "/icons/Icons_Characters/Sefu_Icon.png",
   },
-  //   thewatcher: {
-  //     name: "Subira",
-  //     icon: "/icons/Icons_Characters/Subira_Icon.png",
-  //   },
   thealchemist: {
     name: "Tamala",
     icon: "/icons/Icons_Characters/Tamala_Icon.png",
