@@ -127,8 +127,7 @@
       "matches": [
         "https://*.patreon.com",
         "https://palia.th.gl",
-        "http://localhost:3668",
-        "https://d4armory.io"
+        "http://localhost:3668"
       ]
     },
     "url_protocol": {

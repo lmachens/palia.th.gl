@@ -3,7 +3,7 @@ import { trackOutboundLinkClick } from "./plausible-tracker";
 export default function AppDownload() {
   return (
     <a
-      href="https://download.overwolf.com/install/Download?Name=Diablo+4+Map&ExtensionId=olbbpfjombddiijdbjeeegeclifleaifdeonllfd&Channel=web_dl_btn"
+      href="https://download.overwolf.com/install/Download?Name=Palia+Map&ExtensionId=fgbodfoepckgplklpccjedophlahnjemfdknhfce&Channel=web_dl_btn"
       target="_blank"
       className="flex pointer-events-auto items-center gap-1 md:rounded-lg bg-orange-600 hover:bg-orange-500 text-white uppercase px-2 py-1 justify-center whitespace-nowrap"
       onClick={() => trackOutboundLinkClick("Overwolf Download Button")}
