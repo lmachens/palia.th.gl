@@ -12,7 +12,7 @@ export const CONFIGS = {
     maxNativeZoom: 3,
   },
   "bahari-bay": {
-    transformation: [1 / 300, -100, 1 / 300, 400],
+    transformation: [1 / 314, -100, 1 / 314, 413],
     view: [-34500, 110000] as [number, number],
     bounds: [
       [30000, 30000],
