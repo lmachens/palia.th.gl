@@ -87,6 +87,10 @@ export const villagers = {
     name: "Tamala",
     icon: "/icons/Icons_Characters/Tamala_Icon.png",
   },
+  theplumehound: {
+    name: "Tau",
+    icon: "/icons/Icons_Characters/WT_Tau_portrait.png",
+  },
   thecarpenter: {
     name: "Tish",
     icon: "/icons/Icons_Characters/Tish_Icon.png",
