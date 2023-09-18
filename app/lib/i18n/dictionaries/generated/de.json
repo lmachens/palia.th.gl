@@ -1,19 +1,19 @@
 {
   "landmark": {
     "MapMarker_AncientRuins": {
-      "name": "Ancient Ruins",
+      "name": "Uralte Ruinen",
       "description": null
     },
     "MapMarker_MiningFamily": {
-      "name": "Hodari & Najuma's House",
+      "name": "Hodaris und Najumas Haus",
       "description": null
     },
     "MapMarker_OldLighthouse": {
-      "name": "The Old Lighthouse",
+      "name": "Der alte Leuchtturm",
       "description": null
     },
     "MapMarker_Tamalas": {
-      "name": "Tamala's House",
+      "name": "Tamalas Haus",
       "description": null
     },
     "BP_Register_MajiMarket_ChapaaChase_2_C_0": {
@@ -21,7 +21,7 @@
       "description": null
     },
     "BP_Register_MajiMarket_Delaila_2_C_0": {
-      "name": " Delaila's Sweet Treats",
+      "name": "Delailas süße Leckereien",
       "description": null
     },
     "BP_Register_MajiMarket_ExperimentalFood_C_0": {
@@ -33,7 +33,7 @@
       "description": null
     },
     "MapMarker_Apothecary": {
-      "name": "Apothecary",
+      "name": "Apotheke",
       "description": null
     },
     "MapMarker_Blacksmith": {
@@ -41,7 +41,7 @@
       "description": null
     },
     "MapMarker_CityHall": {
-      "name": "City Hall",
+      "name": "Rathaus",
       "description": null
     },
     "MapMarker_DragonShrine": {
@@ -49,15 +49,15 @@
       "description": null
     },
     "MapMarker_FamilyFarm": {
-      "name": "Family Farm",
+      "name": "Familienhof",
       "description": null
     },
     "MapMarker_FurnitureStore": {
-      "name": "Furniture Store",
+      "name": "Möbelladen",
       "description": null
     },
     "MapMarker_GeneralStore": {
-      "name": "General Store",
+      "name": "Gemischtwarenladen",
       "description": null
     },
     "MapMarker_Library": {
@@ -77,7 +77,7 @@
       "description": null
     },
     "MapMarker_Tailor": {
-      "name": "Tailor",
+      "name": "Schneider",
       "description": null
     },
     "MapMarker_Tavern": {
@@ -87,12 +87,16 @@
   },
   "location": {
     "BP_DoorTeleporter_Parent_C_UAID_B04F1306E948198801_1687213524": {
-      "name": "Northern Mineshaft",
-      "description": "\"Auf Anordnung des Bürgermeisters geschlossen!\""
+      "name": "Nördlicher Minenschacht",
+      "description": "„Auf Anordnung des Bürgermeisters geschlossen!“"
+    },
+    "BP_InvisibleTeleporter_Parent_C_UAID_00BE43BC7D55F9A101_1768487034": {
+      "name": "Ruinen betreten",
+      "description": "Benötigt Batterie"
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63147A01_2092305998": {
       "name": "Najumas Zimmer",
-      "description": "Sie benötigen einen Schlüssel von Najuma, um einzutreten."
+      "description": "Du brauchst einen Schlüssel von Najuma, um einzutreten."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63147A01_1804531996": {
       "name": "Hassians Hain",
@@ -100,7 +104,7 @@
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63147A01_1934212997": {
       "name": "Hodaris Zimmer",
-      "description": "Sie benötigen einen Schlüssel von Hodari, um einzutreten."
+      "description": "Du brauchst einen Schlüssel von Hodari, um einzutreten."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63157A01_1109767176": {
       "name": "Tamalas Zimmer",
@@ -112,7 +116,7 @@
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63027A01_1846573965": {
       "name": "Kenli's Records Room",
-      "description": "Sie benötigen einen Schlüssel von Kenli, um einzutreten."
+      "description": "Du brauchst einen Schlüssel von Kenli, um einzutreten."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63087901_1447757851": {
       "name": "Zekis Gemischtwarenladen",
@@ -120,7 +124,7 @@
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE630D7901_1180776852": {
       "name": "Die Kanalisation",
-      "description": "Beenden Sie zuerst das Tutorial zum Wohnungsgrundstück"
+      "description": "Beende zuerst das Tutorial über dein Grundstück"
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE630D7901_1521224861": {
       "name": "Kristallsee"
@@ -131,19 +135,19 @@
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63107901_1465714255": {
       "name": "Sifuus Zimmer",
-      "description": "Sie benötigen einen Schlüssel von Sifuu, um einzutreten."
+      "description": "Du brauchst einen Schlüssel von Sifuu, um einzutreten."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63117A01_1306167092": {
       "name": "Zekis Zimmer",
       "description": "Du brauchst einen Schlüssel von Zeki, um einzutreten."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63117A01_1565504093": {
-      "name": "Betreten Sie Ruinen",
+      "name": "Ruinen betreten",
       "description": "Du brauchst einen Schlüssel von Jina, um einzutreten."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63117A01_1634586094": {
       "name": "Heklas Zelt",
-      "description": "Zum Betreten benötigen Sie einen Schlüssel von Hekla."
+      "description": "Du brauchst einen Schlüssel von Hekla, um einzutreten."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63117A01_1765929095": {
       "name": "Badruus Scheune",
@@ -151,63 +155,63 @@
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63117A01_1905855096": {
       "name": "Aunis Baumhaus",
-      "description": "Zum Betreten benötigen Sie einen Schlüssel von Auni."
+      "description": "Du brauchst einen Schlüssel von Auni, um einzutreten."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63117A01_2054381097": {
       "name": "Das Zimmer von Nai'o und Auni",
       "description": "Du brauchst einen Schlüssel von Nai'o, um einzutreten."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63127A01_1110902274": {
-      "name": "Das Zimmer von Delaila und Badruu",
-      "description": "Sie benötigen einen Schlüssel von Delaila, um einzutreten."
+      "name": "Zimmer von Delaila und Badruu",
+      "description": "Du brauchst einen Schlüssel von Delaila, um einzutreten."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63147901_1235260488": {
       "name": "Einars Höhle",
       "description": "Du brauchst einen Schlüssel von Einar, um einzutreten."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63177A01_1613718543": {
-      "name": "Betreten Sie Ruinen",
+      "name": "Ruinen betreten",
       "description": "Du brauchst eine Batterie."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63197A01_1883867172": {
       "name": "Lagerraum im Rathaus",
-      "description": "Sie benötigen einen Schlüssel, um einzutreten."
+      "description": "Du brauchst einen Schlüssel, um einzutreten."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63197A01_2067513173": {
       "name": "Rathaus-Lobby",
-      "description": "You need a key!"
+      "description": "Du brauchst einen Schlüssel!"
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE631B7A01_2127635217": {
       "name": "Tempel des Nachthimmels",
-      "description": "Beenden Sie zuerst das Tutorial zum Wohnungsgrundstück"
+      "description": "Beende zuerst das Tutorial über dein Grundstück"
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63F77901_1205368166": {
       "name": "Elouisas Zimmer",
-      "description": "Sie benötigen einen Schlüssel von Elouisa, um einzutreten."
+      "description": "Du brauchst einen Schlüssel von Elouisa, um einzutreten."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63F77901_1545949167": {
       "name": "Tishs Zimmer",
-      "description": "Sie benötigen einen Schlüssel von Tish, um einzutreten."
+      "description": "Du brauchst einen Schlüssel von Tish, um einzutreten."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63F77901_1705194168": {
       "name": "Reths Lagerraum",
-      "description": "Zum Betreten benötigen Sie einen Schlüssel von Reth."
+      "description": "Du brauchst einen Schlüssel von Reth, um einzutreten."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63F77901_1825970169": {
-      "name": "Aschura-Zimmer",
+      "name": "Ashuras Zimmer",
       "description": "Du brauchst einen Schlüssel von Ashura, um einzutreten."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63F87901_1276917346": {
-      "name": "Jel's Zimmer",
-      "description": "Sie benötigen einen Schlüssel von Jel, um einzutreten."
+      "name": "Jels Zimmer",
+      "description": "Du brauchst einen Schlüssel von Jel, um einzutreten."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63FC7901_1561438987": {
       "name": "Kenyattas Zimmer",
-      "description": "Sie benötigen einen Schlüssel von Kenyatta, um einzutreten."
+      "description": "Du brauchst einen Schlüssel von Kenyatta, um einzutreten."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63FC7901_1912430989": {
-      "name": "Eses Zimmer",
-      "description": "Sie benötigen einen Schlüssel von Eshe, um einzutreten."
+      "name": "Eshes Zimmer",
+      "description": "Du brauchst einen Schlüssel von Eshe, um einzutreten."
     }
   },
   "stable": {
@@ -254,6 +258,14 @@
   "zone": {
     "BP_GateTeleporter_Parent_C_UAID_CC96E503DE63137A01_1673725565": {
       "name": "To Kilima Village",
+      "description": null
+    },
+    "BP_GateTeleporter_Parent_C_UAID_CC96E503E0F4C4A401_1919574119": {
+      "name": "To Housing Plot",
+      "description": null
+    },
+    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE63617801_2105154458": {
+      "name": "To Housing Plot",
       "description": null
     },
     "BP_GateTeleporter_Parent_C_UAID_CC96E503DE630E7901_1573823092": {
@@ -384,7 +396,11 @@
     }
   },
   "housingPlot": {
-    "BP_GateTeleporter_Parent_C_UAID_CC96E503E0F4268201_1876024839": {
+    "BP_GateTeleporter_Parent_C_UAID_CC96E503E0F4C4A401_1919574119": {
+      "name": "To Housing Plot",
+      "description": null
+    },
+    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE63617801_2105154458": {
       "name": "To Housing Plot",
       "description": null
     }

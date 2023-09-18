@@ -21,7 +21,7 @@
       "description": null
     },
     "BP_Register_MajiMarket_Delaila_2_C_0": {
-      "name": " Delaila's Sweet Treats",
+      "name": "Capricho dulce de Delaila",
       "description": null
     },
     "BP_Register_MajiMarket_ExperimentalFood_C_0": {
@@ -88,7 +88,11 @@
   "location": {
     "BP_DoorTeleporter_Parent_C_UAID_B04F1306E948198801_1687213524": {
       "name": "Pozo de la mina del norte",
-      "description": "\"¡Cerrado por orden del alcalde!\""
+      "description": "¡Cerrado por orden del alcalde!"
+    },
+    "BP_InvisibleTeleporter_Parent_C_UAID_00BE43BC7D55F9A101_1768487034": {
+      "name": "Entrar en ruinas",
+      "description": "Necesita batería"
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63147A01_2092305998": {
       "name": "Habitación de Najuma",
@@ -256,6 +260,14 @@
       "name": "To Kilima Village",
       "description": null
     },
+    "BP_GateTeleporter_Parent_C_UAID_CC96E503E0F4C4A401_1919574119": {
+      "name": "To Housing Plot",
+      "description": null
+    },
+    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE63617801_2105154458": {
+      "name": "To Housing Plot",
+      "description": null
+    },
     "BP_GateTeleporter_Parent_C_UAID_CC96E503DE630E7901_1573823092": {
       "name": "To Kilima Village",
       "description": null
@@ -384,7 +396,11 @@
     }
   },
   "housingPlot": {
-    "BP_GateTeleporter_Parent_C_UAID_CC96E503E0F4268201_1876024839": {
+    "BP_GateTeleporter_Parent_C_UAID_CC96E503E0F4C4A401_1919574119": {
+      "name": "To Housing Plot",
+      "description": null
+    },
+    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE63617801_2105154458": {
       "name": "To Housing Plot",
       "description": null
     }

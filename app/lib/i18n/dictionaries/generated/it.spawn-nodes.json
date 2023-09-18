@@ -50,11 +50,17 @@
   "BP_Bug_MantisE_C": {
     "name": "Mantide fatata"
   },
+  "BP_Bug_MantisR1_C": {
+    "name": "Mantide maculata"
+  },
   "BP_Bug_MantisU_C": {
     "name": "Mantide da giardino"
   },
   "BP_Bug_MothC_C": {
     "name": "Falena notturna di Kilima"
+  },
+  "BP_Bug_MothR_C": {
+    "name": "Falena velata"
   },
   "BP_Bug_MothU_C": {
     "name": "Falena lunare"
@@ -73,7 +79,7 @@
   },
   "BP_Coral_C": {
     "name": "Corallo",
-    "description": "Portate la spiaggia a casa vostra con questo pezzo di corallo. Si sente quasi il profumo della barriera corallina!"
+    "description": "Porta la spiaggia a casa tua con questo pezzo di corallo. Si sente quasi il profumo della barriera corallina!"
   },
   "BP_Gatherable_Elouisa_Dropoff_C": {
     "name": "Trappola per flatuline",
@@ -81,11 +87,11 @@
   },
   "BP_Gatherable_MushroomBlue_C": {
     "name": "Fungo luminoso",
-    "description": "I funghi luminosi si illuminano assorbendo il flusso e hanno quindi molti usi alchemici."
+    "description": "I funghi luminosi si illuminano assorbendo il flusso e per questo sono molto utili nell'alchimia."
   },
   "BP_Gatherable_MushroomR_C": {
     "name": "Spugnola di montagna",
-    "description": "Fungo comune, le spugnole di montagna possono essere trovate nella propria casa! Molto apprezzate, sia crude che cotte."
+    "description": "Le spugnole di montagna sono funghi comuni che si trovano facilmente nella propria casa! Molto apprezzate, sia crude che cotte."
   },
   "BP_Gatherable_Ruins_C": {
     "name": "Antico cimitero",
@@ -93,7 +99,7 @@
   },
   "BP_HeartdropLilly_C": {
     "name": "Giglio cuore",
-    "description": "Il giglio del cuore è un fiore raro che ha un significato speciale per i paliani: lo sbocciare dell'amore romantico."
+    "description": "Il giglio cuore è un fiore raro che ha un significato speciale per i paliani: lo sbocciare dell'amore romantico."
   },
   "BP_Mining_Clay_C": {
     "name": "Clay Node",
@@ -149,23 +155,23 @@
   },
   "BP_Moss_DragonsBeard_C": {
     "name": "Torba barbadrago",
-    "description": "La torba Dragon's Beard è un raro muschio alchemico che prende il nome dal suo colore, che ricorda quello del Maji."
+    "description": "La torba barbadrago è un raro muschio alchemico che prende il nome dal suo colore, che ricorda quello di Maji."
   },
   "BP_Moss_EmeraldCarpet_C": {
     "name": "Muschio smeraldino",
-    "description": "Si dice che riempire la casa con il colore brillante dell'Emerald Carpet Moss porti fortuna."
+    "description": "Si dice che riempire la casa con il colore brillante del muschio smeraldino porti fortuna."
   },
   "BP_Oyster_C": {
     "name": "Ostrica chiusa",
-    "description": "Aprite quest'ostrica! Anche se non trovate una perla, potete almeno mangiarla."
+    "description": "Apri quest'ostrica! E se dentro non ci trovi una perla, comunque puoi sempre mangiarla."
   },
   "BP_PoisonFlower_C": {
     "name": "Margherita di rovo",
-    "description": "La Briar Daisy di montagna può sopravvivere anche alle condizioni più difficili."
+    "description": "La margherita di rovo può sopravvivere anche nelle condizioni ambientali più difficili."
   },
   "BP_Seashell_C": {
     "name": "Conchiglia",
-    "description": "Chi vende conchiglie in riva al mare? Nessuno. Dovevate trovarle da soli."
+    "description": "Chi vende conchiglie in riva al mare? Nessuno. Devi trovarle da te."
   },
   "BP_ShrubChoppable_Bush_C": {
     "name": "Bush",
@@ -173,23 +179,23 @@
   },
   "BP_Spice_DariCloves_C": {
     "name": "Chiodi di garofano Dari",
-    "description": "Il raro chiodo di garofano di Dari è una spezia amata da chef e alchimisti. Si dice che abbia proprietà magiche."
+    "description": "Il raro chiodo di garofano Dari è una spezia molto amata sia da chef e alchimisti. Si dice che abbia proprietà magiche."
   },
   "BP_Spice_HeatRoot_C": {
     "name": "Radice del calore",
-    "description": "Non sudare! Che si tratti di cucinare o di curare, la radice piccante Heat Root vi riscalderà dall'interno. "
+    "description": "Non sudare! Che si tratti di cucinare o di curare, la radice del calore piccante ti riscalderà dall'interno. "
   },
   "BP_Spiced_Sprouts_C": {
     "name": "Germogli di spezie",
-    "description": "I germogli di spezie conferiscono un colore ricco e un sapore terroso a qualsiasi piatto. E sono anche piuttosto facili da trovare...."
+    "description": "I germogli di spezie conferiscono un colore intenso e un sapore terroso a qualsiasi piatto. E sono anche piuttosto facili da trovare...."
   },
   "BP_SundropLillies_C": {
     "name": "Giglio gocciadisole",
-    "description": "Il giglio smeraldino cresce in campi aperti dove può rivolgere i suoi petali alla luce del sole."
+    "description": "Il giglio gocciadisole cresce nei campi aperti, dove può rivolgere i suoi petali alla luce del sole."
   },
   "BP_SweetLeaves_C": {
     "name": "Katuk",
-    "description": "I più golosi apprezzeranno questa foglia dolce, uno degli ingredienti preferiti di Palia per i suoi dessert."
+    "description": "I più golosi apprezzeranno molto questa foglia dolce, uno degli ingredienti più usati nella preparazione dei dolci tipici di Palia."
   },
   "BP_TreeChoppable_Birch_Large_C": {
     "name": "Large Birch Tree",
@@ -277,7 +283,7 @@
   },
   "BP_WaterFlower_C": {
     "name": "Loto di lago",
-    "description": "Il Crystal Lake Lotus prende il nome dal luogo in cui è stato scoperto ed è oggi utilizzato per la produzione di tinture."
+    "description": "Il loto del lago Cristallo prende il nome dal luogo in cui è stato scoperto ed è oggi utilizzato per la produzione di tinture."
   },
   "BP_WaterPlane_Fishing_AZ1_Cave_SQ_C": {
     "name": "WaterPlane_Fishing_AZ1_Cave_SQ_C",
@@ -301,6 +307,6 @@
   },
   "BP_WildGarlic_C": {
     "name": "Aglio selvatico",
-    "description": "L'aglio è un'aggiunta deliziosa a qualsiasi piatto cucinato! Oppure può essere mangiato crudo per profumare l'alito."
+    "description": "L'aglio è un'aggiunta deliziosa in qualsiasi preparazione! Oppure può essere mangiato crudo per profumare l'alito."
   }
 }

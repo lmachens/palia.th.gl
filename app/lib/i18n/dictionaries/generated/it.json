@@ -21,11 +21,11 @@
       "description": null
     },
     "BP_Register_MajiMarket_Delaila_2_C_0": {
-      "name": " Delaila's Sweet Treats",
+      "name": "Peccati di gola di Delaila",
       "description": null
     },
     "BP_Register_MajiMarket_ExperimentalFood_C_0": {
-      "name": "Specialità di Reth's Street",
+      "name": "Angolo dei manicaretti di Reth",
       "description": null
     },
     "BP_Register_MajiMarket_Fireworks_2_C_0": {
@@ -57,7 +57,7 @@
       "description": null
     },
     "MapMarker_GeneralStore": {
-      "name": "Negozio generale",
+      "name": "Emporio",
       "description": null
     },
     "MapMarker_Library": {
@@ -88,7 +88,11 @@
   "location": {
     "BP_DoorTeleporter_Parent_C_UAID_B04F1306E948198801_1687213524": {
       "name": "Pozzo minerario settentrionale",
-      "description": "\"Chiuso per ordine del Sindaco!\""
+      "description": "Chiuso per ordine del sindaco!"
+    },
+    "BP_InvisibleTeleporter_Parent_C_UAID_00BE43BC7D55F9A101_1768487034": {
+      "name": "Entra nelle rovine",
+      "description": "Ha bisogno di batteria"
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63147A01_2092305998": {
       "name": "La stanza di Najuma",
@@ -115,7 +119,7 @@
       "description": "Hai bisogno di una chiave da Kenli per entrare."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63087901_1447757851": {
-      "name": "Zeki's General Store",
+      "name": "Emporio di Zeki",
       "description": "Hai bisogno di una chiave da Zeki."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE630D7901_1180776852": {
@@ -256,6 +260,14 @@
       "name": "To Kilima Village",
       "description": null
     },
+    "BP_GateTeleporter_Parent_C_UAID_CC96E503E0F4C4A401_1919574119": {
+      "name": "To Housing Plot",
+      "description": null
+    },
+    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE63617801_2105154458": {
+      "name": "To Housing Plot",
+      "description": null
+    },
     "BP_GateTeleporter_Parent_C_UAID_CC96E503DE630E7901_1573823092": {
       "name": "To Kilima Village",
       "description": null
@@ -384,7 +396,11 @@
     }
   },
   "housingPlot": {
-    "BP_GateTeleporter_Parent_C_UAID_CC96E503E0F4268201_1876024839": {
+    "BP_GateTeleporter_Parent_C_UAID_CC96E503E0F4C4A401_1919574119": {
+      "name": "To Housing Plot",
+      "description": null
+    },
+    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE63617801_2105154458": {
       "name": "To Housing Plot",
       "description": null
     }

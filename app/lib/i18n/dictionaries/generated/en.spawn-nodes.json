@@ -67,6 +67,10 @@
     "name": "Fairy Mantis",
     "description": "A mantis from early Majiri legend only recently confirmed to exist by modern entomologists. Said to have magical properties.\r\nFound in the fields of Bahari Bay."
   },
+  "BP_Bug_MantisR1_C": {
+    "name": "Spotted Mantis",
+    "description": "A rare mantis with a beautiful set of spots.\r\nFound around the Dragon Shrine in Kilima."
+  },
   "BP_Bug_MantisU_C": {
     "name": "Garden Mantis",
     "description": "Nothing to see here. Just your garden variety mantis.\r\nFound around the lake in Kilima. Also has a chance to be found when foraging around the lake in Kilima."
@@ -74,6 +78,10 @@
   "BP_Bug_MothC_C": {
     "name": "Kilima Night Moth",
     "description": "While beautiful, the Kilima night moth is so prevalent on hot summer nights that some consider it to be a pest. Keep away from stored cloth.\r\nFound all around Kilima and Bahari Bay during the evening and night."
+  },
+  "BP_Bug_MothR_C": {
+    "name": "Gossamer Veil Moth",
+    "description": "The wings of this moth are so thin that some say you can see a peek of the Dragon Realm by looking through them.\r\nFound in the fields of Kilima during the evening and night."
   },
   "BP_Bug_MothU_C": {
     "name": "Lunar Fairy Moth",

@@ -31,16 +31,28 @@
   "DA_CCI_Eyes_BlueFantasy": {
     "name": "Fantasy Blue"
   },
+  "DA_CCI_Eyes_BlueLightSky": {
+    "name": "Blue Light Sky"
+  },
   "DA_CCI_Eyes_Brown": {
     "name": "Brown"
   },
   "DA_CCI_Eyes_BrownDark": {
     "name": "Dark Brown"
   },
+  "DA_CCI_Eyes_BrownLight": {
+    "name": "Blue Light Sky"
+  },
+  "DA_CCI_Eyes_GrayDark": {
+    "name": "Gray"
+  },
   "DA_CCI_Eyes_GrayNeutral": {
     "name": "Gray"
   },
   "DA_CCI_Eyes_Green": {
+    "name": "Green"
+  },
+  "DA_CCI_Eyes_GreenForest": {
     "name": "Green"
   },
   "DA_CCI_Eyes_Ocre": {
@@ -112,6 +124,15 @@
   "DA_CCI_Hat_DarkDruid01_Variant02_Parent": {
     "name": "Empyreal"
   },
+  "DA_CCI_Hat_Fairy01_Base_Parent": {
+    "name": "Incantations Sylph Starfall"
+  },
+  "DA_CCI_Hat_Fairy01_Variant01_Parent": {
+    "name": "Incantations Sylph Vineglade"
+  },
+  "DA_CCI_Hat_Fairy01_Variant02_Parent": {
+    "name": "Incantations Sylph Brightbloom"
+  },
   "DA_CCI_Hat_Hoodie01_Variant02_Parent": {
     "name": "Chapaa Craze"
   },
@@ -146,13 +167,13 @@
     "name": "Mesa Sky"
   },
   "DA_CCI_Hat_RegalBallroomDress01_Base_Parent": {
-    "name": "Regal Ballroom Dress"
+    "name": "Resplendent"
   },
   "DA_CCI_Hat_RegalBallroomDress01_Variant01_Parent": {
-    "name": "Regal Ballroom Dress"
+    "name": "Efflorescent"
   },
   "DA_CCI_Hat_RegalBallroomDress01_Variant02_Parent": {
-    "name": "Regal Ballroom Dress"
+    "name": "Majinificent"
   },
   "DA_CCI_Hat_SkyCaptain01_Base_Parent": {
     "name": "Pilot"
@@ -229,6 +250,15 @@
   "DA_CCI_Legs_ButtonSweater01_Variant01_Parent": {
     "name": "Modernist"
   },
+  "DA_CCI_Legs_CadetJacket01_Base_Parent": {
+    "name": "Lieutenant"
+  },
+  "DA_CCI_Legs_CadetJacket01_Variant01_Parent": {
+    "name": "General"
+  },
+  "DA_CCI_Legs_CadetJacket01_Variant02_Parent": {
+    "name": "Admiral"
+  },
   "DA_CCI_Legs_Carpenter01_Base_Parent": {
     "name": "Skyscraper"
   },
@@ -257,13 +287,13 @@
     "name": "Brocade Embossed"
   },
   "DA_CCI_Legs_Disciple01_Base_Parent": {
-    "name": "Disciple"
+    "name": "Novitiate"
   },
   "DA_CCI_Legs_Disciple01_Variant01_Parent": {
-    "name": "Disciple"
+    "name": "Ceremonial"
   },
   "DA_CCI_Legs_Disciple01_Variant02_Parent": {
-    "name": "Disciple"
+    "name": "Renewal"
   },
   "DA_CCI_Legs_DragonMonk01_Base_Parent": {
     "name": "Rite & Ritual"
@@ -337,6 +367,15 @@
   "DA_CCI_Legs_Hoodie01_Variant03_Parent": {
     "name": "S6 Starfield"
   },
+  "DA_CCI_Legs_LayeredTurtleneck01_Base_Parent": {
+    "name": "Finance"
+  },
+  "DA_CCI_Legs_LayeredTurtleneck01_Variant01_Parent": {
+    "name": "Creative Writing"
+  },
+  "DA_CCI_Legs_LayeredTurtleneck01_Variant02_Parent": {
+    "name": "Studio Arts"
+  },
   "DA_CCI_Legs_MajiriAttire01_Base_Parent": {
     "name": "MajiriAttire01"
   },
@@ -354,6 +393,15 @@
   },
   "DA_CCI_Legs_MajiriAttire02_Variant02_Parent": {
     "name": "Capital"
+  },
+  "DA_CCI_Legs_MarysRoom01_Base_Parent": {
+    "name": "Silken Stems"
+  },
+  "DA_CCI_Legs_MarysRoom01_Variant01_Parent": {
+    "name": "Printed Plaid"
+  },
+  "DA_CCI_Legs_MarysRoom01_Variant02_Parent": {
+    "name": "Crocheted Checks"
   },
   "DA_CCI_Legs_MellowSummer01_Base_Parent": {
     "name": "Daydream"
@@ -458,7 +506,7 @@
     "name": "SmartRuffle01"
   },
   "DA_CCI_Legs_SpaDay01_Base_Parent": {
-    "name": "[TEMP] SpaDay01"
+    "name": "Unwind"
   },
   "DA_CCI_Legs_SpaDay01_Variant01_Parent": {
     "name": "Snooze"
@@ -533,13 +581,13 @@
     "name": "Smart & Savvy"
   },
   "DA_CCI_Torso_Disciple01_Base_Parent": {
-    "name": "Disciple"
+    "name": "Novitiate"
   },
   "DA_CCI_Torso_Disciple01_Variant01_Parent": {
-    "name": "Disciple"
+    "name": "Ceremonial"
   },
   "DA_CCI_Torso_Disciple01_Variant02_Parent": {
-    "name": "Disciple"
+    "name": "Renewal"
   },
   "DA_CCI_Palcat": {
     "name": "Sandy Palcat"
@@ -582,6 +630,15 @@
   },
   "DA_CCI_Torso_ButtonSweater01_Variant01_Parent": {
     "name": "Modernist"
+  },
+  "DA_CCI_Torso_CadetJacket01_Base_Parent": {
+    "name": "Lieutenant"
+  },
+  "DA_CCI_Torso_CadetJacket01_Variant01_Parent": {
+    "name": "General"
+  },
+  "DA_CCI_Torso_CadetJacket01_Variant02_Parent": {
+    "name": "Admiral"
   },
   "DA_CCI_Torso_Carpenter01_Base_Parent": {
     "name": "Skyscraper"
@@ -646,6 +703,15 @@
   "DA_CCI_Torso_Explorer01_Variant02_Parent": {
     "name": "Forest Watch"
   },
+  "DA_CCI_Torso_Fairy01_Base_Parent": {
+    "name": "Incantations Sylph Starfall"
+  },
+  "DA_CCI_Torso_Fairy01_Variant01_Parent": {
+    "name": "Incantations Sylph Vineglade"
+  },
+  "DA_CCI_Torso_Fairy01_Variant02_Parent": {
+    "name": "Incantations Sylph Brightbloom"
+  },
   "DA_CCI_Torso_Farmer01_Base_Parent": {
     "name": "Sprout Tender"
   },
@@ -700,6 +766,15 @@
   "DA_CCI_Torso_Hoodie01_Variant03_Parent": {
     "name": "S6 Starfield"
   },
+  "DA_CCI_Torso_LayeredTurtleneck01_Base_Parent": {
+    "name": "Finance"
+  },
+  "DA_CCI_Torso_LayeredTurtleneck01_Variant01_Parent": {
+    "name": "Creative Writing"
+  },
+  "DA_CCI_Torso_LayeredTurtleneck01_Variant02_Parent": {
+    "name": "Studio Arts"
+  },
   "DA_CCI_Torso_MajiriAttire01_Base_Parent": {
     "name": "MajiriAttire01"
   },
@@ -717,6 +792,15 @@
   },
   "DA_CCI_Torso_MajiriAttire02_Variant02_Parent": {
     "name": "Capital"
+  },
+  "DA_CCI_Torso_MarysRoom01_Base_Parent": {
+    "name": "Silken Stems"
+  },
+  "DA_CCI_Torso_MarysRoom01_Variant01_Parent": {
+    "name": "Printed Plaid"
+  },
+  "DA_CCI_Torso_MarysRoom01_Variant02_Parent": {
+    "name": "Crocheted Checks"
   },
   "DA_CCI_Torso_MellowSummer01_Base_Parent": {
     "name": "Daydream"
@@ -1370,7 +1454,7 @@
   },
   "DA_ItemType_BugConsumable_SmokeCandle": {
     "name": "Smoke Candle",
-    "description": "Emits a soothing smoke that lasts prevents you from alerting bugs."
+    "description": "Emits a soothing smoke that lasts prevents you from alerting bugs for 10 minutes."
   },
   "DA_ItemType_BugConsumable_StickyNet": {
     "name": "Sticky Coating",
@@ -1570,7 +1654,7 @@
   },
   "DA_ItemType_C_ChapaaAsadaTacos": {
     "name": "Chapaa Asada Tacos",
-    "description": "Chapaa Asada Tacos Description"
+    "description": "Seasoned chapaa meat fresh off the grill, and thinly-chopped onions tucked snugly into a crispy corn tortilla. What's not to like?"
   },
   "DA_ItemType_C_ChapaaPop": {
     "name": "Chapaa Pop",
@@ -1581,8 +1665,8 @@
     "description": "Cheese Nachos Description"
   },
   "DA_ItemType_C_ChiliOilWontons": {
-    "name": "Chili Oil Wontons",
-    "description": "Chili Oil Wontons Description"
+    "name": "Chili Oil Dumplings",
+    "description": "Dumplings, except with chili oil to give each bite a nice fiery kick. Best enjoyed in anything but a white shirt."
   },
   "DA_ItemType_C_Chocolate_Chip_Cookies": {
     "name": "Chocolate Chip Cookies",
@@ -1598,11 +1682,11 @@
   },
   "DA_ItemType_C_CrabGumbo": {
     "name": "Crab Gumbo",
-    "description": "Crab Gumbo Description"
+    "description": "The only thing better than crab is crab stewed with mouth-watering ingredients that give the dish a hint of salt, spice, and everything nice."
   },
   "DA_ItemType_C_CrabPotPie": {
     "name": "Crab Pot Pie",
-    "description": "Crab Pot Pie Description"
+    "description": "This pie has it all: a flaky, buttery crust, hearty stewed veggies, and an irresistably decadent crab filling. Serve it at the dinner table, and your guests will be singing your praises for years to come."
   },
   "DA_ItemType_C_Dessert_CelebrationCake": {
     "name": "Celebration Cake",
@@ -1649,8 +1733,8 @@
     "description": "Garlic-seared trout with potatoes, created so ancient humans could share Einar's love of fishing. Hook fish more quickly for a short time."
   },
   "DA_ItemType_C_DragonbreathRelleno": {
-    "name": "Dragonbreath Relleno",
-    "description": "Dragonbreath Relleno Description"
+    "name": "Stuffed Phoenixfire Pepper",
+    "description": "A spicy pepper, coated with egg and stuffed with your choice of meat. A single bite will have you working up a sweat! Or send you straight to the nearest clinic."
   },
   "DA_ItemType_C_FishermansBrew": {
     "name": "Fisherman's Brew",
@@ -1658,7 +1742,7 @@
   },
   "DA_ItemType_C_FishTacos": {
     "name": "Fish Tacos",
-    "description": "Fish Tacos Description"
+    "description": "Loaded with perfectly seasoned fish, these crunchy tacos will have you jumping over the moons."
   },
   "DA_ItemType_C_FriedPiqni": {
     "name": "Reth's Hot Peki Wings",
@@ -1694,7 +1778,7 @@
   },
   "DA_ItemType_C_HotHounds": {
     "name": "Hot Hounds",
-    "description": "Hot Hounds Description"
+    "description": "A freshly-cooked sausage drizzled in sauce and wrapped in a toasty bread bun. Eat it while it's hot!"
   },
   "DA_ItemType_C_Hot_Chocolate": {
     "name": "Hot Chocolate",
@@ -1793,12 +1877,12 @@
     "description": "A minimal meal of slices of raw fish, with a side of plain rice. Buffs fishing rod health for a short time."
   },
   "DA_ItemType_C_ShepardsPie": {
-    "name": "Shepard's Pie",
-    "description": "Shepard's Pie Description"
+    "name": "Shepp's Pie",
+    "description": "This pie might look simple, but it is anything but. Packed with juicy chapaa meat and a savory mix of seasoned vegetables, this bad boy is an explosion of flavor in each bite."
   },
   "DA_ItemType_C_SpicyStirFry": {
     "name": "Spicy Stir Fry",
-    "description": "Spicy Stir Fry description"
+    "description": "A flaming hot twist to traditional stir fry, this dish will have you thirsty for seconds and a glass of cold water."
   },
   "DA_ItemType_C_Stew_Bouilbaisse": {
     "name": "Bouillabaisse",
@@ -1829,8 +1913,8 @@
     "description": "Strawberries in a thick, candy coating. Can also be made with hawthorn. Sold at Delaila's Sweet Treats."
   },
   "DA_ItemType_C_Tteokbbeoki": {
-    "name": "Tteokbbeoki",
-    "description": "Tteokbbeoki description"
+    "name": "Spicy Rice Cakes",
+    "description": "Chewy and flavorful, these rice cakes are stir-fried in a specialty sauce packed with just the right amount of spice. Ancient Humans were said to share this dish at the dinner table together."
   },
   "DA_ItemType_C_VegetableSoup_Carrot": {
     "name": "Creamy Carrot Soup",
@@ -1872,7 +1956,7 @@
     "description": "Carrot chopped up for cooking."
   },
   "DA_ItemType_IG_Chopped_Corn": {
-    "name": "Chopped Corn",
+    "name": "Corn Kernels",
     "description": "Corn chopped up for cooking."
   },
   "DA_ItemType_IG_Chopped_Crab": {
@@ -2041,7 +2125,7 @@
   },
   "DA_ItemType_Crop_Corn": {
     "name": "Corn",
-    "description": "Gain 20 Focus when consumed."
+    "description": "A lot of corny puns could describe this corn, which can be eaten raw or cooked. "
   },
   "DA_ItemType_Crop_Cotton": {
     "name": "Cotton",
@@ -2094,7 +2178,7 @@
   },
   "DA_ItemType_Crop_SpicyPepper": {
     "name": "Spicy Pepper",
-    "description": "Gain 15 Focus when consumed."
+    "description": "These spicy peppers got a sick burn. Most people cook them. The truly brave eat them raw."
   },
   "DA_ItemType_Crop_Squash": {
     "name": "Squash"
@@ -2543,9 +2627,21 @@
     "name": "Garden Variety Pickaxe",
     "description": "It's hard to say whether you'll need a pickaxe for gardening, but it's sure nice to have one just in case."
   },
+  "DA_ItemType_Decor_Generic_131_deco_table_a": {
+    "name": "Valley Sunrise Dining Table",
+    "description": "From weeknight dinner to fine dining to poker game night, this practical table can do it all!"
+  },
+  "DA_ItemType_Decor_Generic_138_deco_large_light_4": {
+    "name": "Valley Sunrise Hanging Lamp",
+    "description": "Ever want to hang a bunch of onions from the ceiling? Now you can! But these ones glow and don't taste very good."
+  },
   "DA_ItemType_Decor_Generic_81_deco_flower_terrarium_1": {
-    "name": "Rose Like a Dragon from a Wellspring Cloche",
+    "name": "Valley Sunrise Cloche",
     "description": "Many legends surround this mysterious rose that never wilts. Perhaps it is enchanted? Or blessed by the Dragon? Or maybe it's fake."
+  },
+  "DA_ItemType_Decor_Generic_90_Deco_kitchen_Washpan_Cabinet": {
+    "name": "Valley Sunrise Sink",
+    "description": "Is it a sink? Is it a bathtub? Is it a storage cabinet? Who knows, but it can be whatever your heart desires."
   },
   "DA_ItemType_Decor_Gothic_01_furniture_bed": {
     "name": "Ravenwood Silk Bed",
@@ -3271,6 +3367,10 @@
     "name": "Chapaa Hut Neena Plush",
     "description": "Bring Neena, the thieving chapaa, home wit you! Easier to care for than an actual chapaa."
   },
+  "DA_ItemType_Decor_MajiMarket_28_deco_Dragon_Plushie_Nightsky": {
+    "name": "Chapaa Hut Mini Maji Plush",
+    "description": "Legends say that Maji was a fiery youth, with scales as bold and bright as his personality. This tiny plush embodies all of that and more!"
+  },
   "DA_ItemType_Decor_MajiMarket_28_PillowChapaa": {
     "name": "Chapaa Hut Pillow",
     "description": "Can't pick a favorite chapaa? Take home this pillow, and you can pretend it's all of them at the same time."
@@ -3768,16 +3868,20 @@
     "description": "A short candle meant to ward off otherworldly intruders. Great for sleepovers, seances, and dimly lit mineshafts."
   },
   "DA_ItemType_Decor_Narrative_202_Furniture_Tau_Plush": {
-    "name": "Tau Plush",
-    "description": "An adorable plush of everybody's favorite good boy."
+    "name": "Life-Sized Tau Plushie",
+    "description": "An adorable plush of everybody's favorite good boy. Tau probably didn't sew this himself... right?"
+  },
+  "DA_ItemType_Decor_Narrative_203_Furniture_Kitsuu_Plush": {
+    "name": "Ancient Kitsuu Plush",
+    "description": "A firey friend that makes those cold nights even cozier. And with patented Zeki tech inside, it's almost as hot as the real thing!"
   },
   "DA_ItemType_Decor_Narrative_206_Furniture_AncientFish_Plush": {
     "name": "Ancient Fish Plush",
     "description": "When you discover an ancient species, obviously you should create merchandise of it. Now everyone can enjoy their own fishy friend!"
   },
   "DA_ItemType_Decor_Narrative_215_Furniture_StarChart_Fish": {
-    "name": "Fish Constellation Chart",
-    "description": "A star chart of the fish constellation you found in the water temple."
+    "name": "Ancient Fish Star Chart",
+    "description": "Some fish swim in the river. Some fish swim in the sea. But this ancient fish swims in the stars. Figuratively, at least."
   },
   "DA_ItemType_Decor_Narrative_21_Deco_Jar_of_Shimmerflies": {
     "name": "Jar of Shimmerflies",
@@ -3849,11 +3953,11 @@
   },
   "DA_ItemType_Decor_Narrative_BahariMap": {
     "name": "Bahari Bay Map",
-    "description": "A treasured map rewarded to those who've mapped enough treasure."
+    "description": "A treasured map rewarded to those who've mapped enough treasure in Bahari Bay."
   },
   "DA_ItemType_Decor_Narrative_KilimaMap": {
     "name": "Kilima Village Map",
-    "description": "A treasured map rewarded to those who've mapped enough treasure."
+    "description": "A treasured map rewarded to those who've mapped enough treasure in Kilima Village."
   },
   "DA_ItemType_Narrative_170_Furniture_Acceptance_Wreaths_Summer": {
     "name": "Summer Acceptance Wreath",
@@ -3866,6 +3970,38 @@
   "DA_ItemType_Narrative_172_Furniture_Acceptance_Wreaths_Spring": {
     "name": "Spring Acceptance Wreath",
     "description": "A wreath for those whose thoughts run deep as the ocean. Received as a gift from Eshe during the Acceptance Ceremony."
+  },
+  "DA_ItemType_Decor_Phoenix_08_furniture_nightstand": {
+    "name": "Emberborn Nightstand",
+    "description": "Keep your alarm clock on this nightstand, and you are sure to rise like the Phoenix the next morning."
+  },
+  "DA_ItemType_Decor_Phoenix_11_furniture_bed": {
+    "name": "Emberborn Bed",
+    "description": "This bed's mattress is stuffed with feathers as warm Phoenix down. Great for winter, not as great for summer."
+  },
+  "DA_ItemType_Decor_Phoenix_15_lighting_chandelier": {
+    "name": "Emberborn Hanging Lamp",
+    "description": "Mount this chandelier to your ceiling to bathe your rooms in the Phoenix's warm glow."
+  },
+  "DA_ItemType_Decor_Phoenix_16_lighting_lamp_light": {
+    "name": "Emberborn Standing Lamp",
+    "description": "This tall lamp will light up your house bright as Phoenix fire. Without incinerating anything."
+  },
+  "DA_ItemType_Decor_Phoenix_17_furniture_dining_chair": {
+    "name": "Emberborn Stool",
+    "description": "This stone cube stool can double as a dining chair, a pedestal, or a very, very large paperweight."
+  },
+  "DA_ItemType_Decor_Phoenix_18_furniture_dining_table": {
+    "name": "Emberborn Dining Table",
+    "description": "This imperious stone table can be used for entertaining your friends or mapping a campaign against your enemies."
+  },
+  "DA_ItemType_Decor_Phoenix_26_furniture_outdoor_deco_2": {
+    "name": "Emberborn Brazier",
+    "description": "This standing lamp will brighten up your house with a little Phoenix flame. But careful you don't burn it down."
+  },
+  "DA_ItemType_Decor_Phoenix_33_furniture_lamp": {
+    "name": "Emberborn Table Lamp",
+    "description": "This little lamp is just like having a tiny firebird on your table, keeping you company all night."
   },
   "DA_ItemType_Decor_Ashura_Teapot": {
     "name": "Caleri's Teapot",
@@ -3901,7 +4037,7 @@
   },
   "DA_ItemType_Decor_Portrait_Dalila": {
     "name": "Delaila's Portait",
-    "description": "A portrait of Delala to hang on your wall."
+    "description": "A portrait of Delaila to hang on your wall."
   },
   "DA_ItemType_Decor_Portrait_Einar": {
     "name": "Einar's Portrait",
@@ -4654,7 +4790,7 @@
     "description": "Worm farms let you raise worms for fishing and helps create fertilizer."
   },
   "DA_ItemType_Storage_Copper": {
-    "name": "Copper Storage Bin",
+    "name": "Copper Storage Chest",
     "description": "A standard general storage chest made of copper.\r\nStores 825 items.\r\nYou can place up to 8 general storage chests on your plot."
   },
   "DA_ItemType_Storage_Fridge": {
@@ -4662,11 +4798,11 @@
     "description": "A legacy item."
   },
   "DA_ItemType_Storage_Iron": {
-    "name": "Iron Storage Bin",
+    "name": "Iron Storage Chest",
     "description": "A fine general storage chest made of iron.\r\nStores 1,250 items.\r\nYou can place up to 8 general storage chests on your plot."
   },
   "DA_ItemType_Storage_Lockbox": {
-    "name": "Lockbox Storage Bin",
+    "name": "Lockbox Storage Chest",
     "description": "A special chest for secure item storage, so they will not be used for crafting. \r\nStores 100 items.\r\nYou can place up to 3 lockbox storage bins on your plot."
   },
   "DA_ItemType_Storage_Pantry": {
@@ -4674,7 +4810,7 @@
     "description": "A legacy item."
   },
   "DA_ItemType_Storage_Wooden": {
-    "name": "Wooden Storage Bin",
+    "name": "Wooden Storage Chest",
     "description": "A simple general storage chest made of wood.\r\nStores 400 items.\r\nYou can place up to 8 general storage chests on your plot."
   },
   "DA_ItemType_Fertilizer_2xGrowthRate": {
@@ -4707,7 +4843,7 @@
   },
   "DA_ItemType_Fish_AncientFish": {
     "name": "Ancient Fish",
-    "description": "An ancient fish preserved from the time of the lost human civilization.\r\nFound in Kilima Lake using glow worms, once released from the Vault of Waves."
+    "description": "hese fish are as old as the continent of Palia itself, and were thought to be extinct. Guess you have something in common."
   },
   "DA_ItemType_Fish_BahariBream": {
     "name": "Bahari Bream",
@@ -5135,6 +5271,10 @@
   "DA_ItemType_Bobber_Fine": {
     "name": "Fine Bobber",
     "description": "Changes your fishing bobber to the one from the Fine Rod."
+  },
+  "DA_ItemType_Bobber_Flaming": {
+    "name": "Pyroflow Bobber",
+    "description": "This won’t pre-cook any fish it catches, but it will make your bobber glisten with unimaginable power!"
   },
   "DA_ItemType_Bobber_Lantern": {
     "name": "Lantern Bobber",
@@ -5567,6 +5707,30 @@
     "name": "Muddy Container",
     "description": "A muddy container that can be recycled"
   },
+  "DA_ItemType_WishRibbon_Blank": {
+    "name": "Blank Wish Ribbon",
+    "description": "Bring to the Wish Tree dye station to bring this wish to life."
+  },
+  "DA_ItemType_WishRibbon_Connection": {
+    "name": "Connection Wish Ribbon",
+    "description": "A wish expressing the desire to grow closer to someone."
+  },
+  "DA_ItemType_WishRibbon_Happiness": {
+    "name": "Happiness Wish Ribbon",
+    "description": "A wish expressing the desire to have your spirits lifted."
+  },
+  "DA_ItemType_WishRibbon_Longevity": {
+    "name": "Longevity Wish Ribbon",
+    "description": "A wish expressing the desire to be more focused and renowned."
+  },
+  "DA_ItemType_WishRibbon_Path": {
+    "name": "Path Wish Ribbon",
+    "description": "A wish expressing the desire to be grow stronger on your chosen path."
+  },
+  "DA_ItemType_WishRibbon_Prosperity": {
+    "name": "Prosperity Wish Ribbon",
+    "description": "A wish expressing the desire to be prosperous."
+  },
   "DA_ItemType_Product_Butter": {
     "name": "Butter",
     "description": "Can't believe it's definitely butter? Well, nuthin's better!"
@@ -5619,6 +5783,10 @@
     "name": "Pickled Carrots",
     "description": "Making pickled carrots? Remember to peel them first! Unless you like the taste of dirt."
   },
+  "DA_ItemType_Product_Pickle_Corn": {
+    "name": "Pickled Corn",
+    "description": "When you think about it, pickled tomatoes are just a very acidic, deconstructed, pasta sauce."
+  },
   "DA_ItemType_Product_Pickle_Onion": {
     "name": "Pickled Onions",
     "description": "Pickled onions go great on any dish, and no one can tell you're crying when you make 'em!"
@@ -5626,6 +5794,10 @@
   "DA_ItemType_Product_Pickle_Potato": {
     "name": "Pickled Potatoes",
     "description": "Cast off your dinenrtime woes by cracking open a jar of pickled potatoes! "
+  },
+  "DA_ItemType_Product_Pickle_SpicyPepper": {
+    "name": "Pickled Spicy Pepper",
+    "description": "When you think about it, pickled tomatoes are just a very acidic, deconstructed, pasta sauce."
   },
   "DA_ItemType_Product_Pickle_Tomato": {
     "name": "Pickled Tomatoes",
@@ -5748,12 +5920,12 @@
     "description": "A poem from Hassian's poetry book."
   },
   "DA_ItemType_Questitem_ABattery_Half": {
-    "name": "Broken Flow Battery",
-    "description": "Half a flow battery. Maybe you can use it to get half inside?"
+    "name": "Flickering Flow Battery",
+    "description": "Do you think this was broken before or after Tau buried it?"
   },
   "DA_ItemType_Questitem_ABattery_Halves": {
-    "name": "Broken Flow Battery Pieces",
-    "description": "These could be in a worse state, but could also be in a much better one. Maybe Sifuu can help."
+    "name": "Overcharged Flow Battery",
+    "description": "This one seems a little hot. Zeki might have gone a little too far with it..."
   },
   "DA_ItemType_QuestItem_Air": {
     "name": "Bottle of Air",
@@ -6160,8 +6332,8 @@
     "description": "These look like health records from the human era. Could these be the ones Jina is looking for?"
   },
   "DA_ItemType_Questitem_Heatshroom": {
-    "name": "Dried Out Flowshroom",
-    "description": "Hot to the touch, hotter to the taste. Don't try eating it, no matter how much you want to."
+    "name": "Flowstone",
+    "description": "Crackling with 100% legal magic energy."
   },
   "DA_ItemType_Questitem_Heatshroom2": {
     "name": "Earthy Flowshroom",
@@ -6313,7 +6485,7 @@
   },
   "DA_ItemType_Questitem_MysteriousRuin": {
     "name": "Small Handheld Device",
-    "description": "A small handheld device from the human era."
+    "description": "A small handheld device, presumably from the human era."
   },
   "DA_ItemType_Questitem_MysteriousTome": {
     "name": "New Journal",
@@ -6338,6 +6510,10 @@
   "DA_ItemType_Questitem_NajumasKey": {
     "name": "Najuma's Key",
     "description": "The key to Najuma's Bedroom"
+  },
+  "DA_ItemType_Questitem_Newspapers": {
+    "name": "Semi-Chewed Newspaper",
+    "description": "One from a pile of semi-chewed newspapers Tau has been stealing from Eshe for some reason. It's too dirty to make out the headline."
   },
   "DA_ItemType_Questitem_NyosKey": {
     "name": "Nai'o's Key",
@@ -6532,7 +6708,7 @@
   },
   "DA_ItemType_Questitem_Reward_BriarDaisies": {
     "name": "Pot of Briar Daisies",
-    "description": "A really cool piece of furniture. Coming soon!"
+    "description": "A pot of pretty daisies."
   },
   "DA_ItemType_Questitem_Reward_CompletedRelief": {
     "name": "Completed Relief",
@@ -6734,6 +6910,22 @@
     "name": "Beauty Cream Sample",
     "description": "A sample of the beauty cream Tamala's been developing."
   },
+  "DA_ItemType_Questitem_TauFL2Reward": {
+    "name": "Slightly-Chewed Package",
+    "description": "A slightly-chewed package. Did Tau wrap this himself...? The world may never know."
+  },
+  "DA_ItemType_Questitem_TauFL3Reward": {
+    "name": "Another Slightly-Chewed Package",
+    "description": "A slightly-chewed package. Did Tau wrap this himself...? The world may never know."
+  },
+  "DA_ItemType_Questitem_TauGardenRepair": {
+    "name": "Repair",
+    "description": "A good place to repair a garden plot."
+  },
+  "DA_ItemType_Questitem_TausStashes": {
+    "name": "Look for Tau's Stash",
+    "description": "A stash Tau has hidden in the manor."
+  },
   "DA_ItemType_Questitem_TishsKey": {
     "name": "Tish's Key",
     "description": "The key to Tish's Bedroom"
@@ -6783,7 +6975,7 @@
     "description": "A business book by Zeki."
   },
   "DA_ItemType_Questitem_ZekisDrawer": {
-    "name": "Zeki's Nightstand",
+    "name": "Hide in planter",
     "description": "A great place to hide something."
   },
   "DA_ItemType_Questitem_ZekisFlyer": {
@@ -6904,7 +7096,7 @@
   },
   "DA_ItemType_Seed_Corn": {
     "name": "Corn Seed",
-    "description": "Creates a corn plant that can be reharvested every 3 days."
+    "description": "Grows into one crop of corn. Boosts amount harvested from other nearby crop types."
   },
   "DA_ItemType_Seed_Cotton": {
     "name": "Cotton Seed",
@@ -6972,7 +7164,7 @@
   },
   "DA_ItemType_Seed_SpicyPepper": {
     "name": "Spicy Pepper Seed",
-    "description": "Creates a spicy pepper plant that can be reharvested every 3 days."
+    "description": "Grows into a spicy pepper plant that can be  harvested multiple times. Boosts quality of other nearby crop types."
   },
   "DA_ItemType_Seed_Squash": {
     "name": "Melon Seed",
@@ -6991,8 +7183,8 @@
     "description": "Grows into one crop of wheat. Boosts amount harvested from other nearby crop types."
   },
   "DA_ItemType_TimedDrop_KitsuuRockGarden": {
-    "name": "Kitsuu Rock Garden",
-    "description": "This fiery stone alter hosts a welcome surprise"
+    "name": "Ancient Rock Garden",
+    "description": "This ancient stone altar is host to many secrets... including a familiar friend. Keep an eye out for any gifts left behind!"
   },
   "DA_Tint_Autumn": {
     "name": "Autumn"
@@ -7032,6 +7224,9 @@
   },
   "DA_Tint_Sunrise": {
     "name": "Sunrise"
+  },
+  "DA_Tint_TheOrder": {
+    "name": "TheOrder"
   },
   "DA_Tint_Violet": {
     "name": "Violet"
@@ -7296,6 +7491,10 @@
     "name": "Foggy Majiri Tile Floor",
     "description": "The symbols on these tiles could be a secret, ancient language! Or they might just be Majiri decoration."
   },
+  "DA_ItemType_Floor_Phoenix": {
+    "name": "Phoenix Flooring",
+    "description": "Phoenix Flooring"
+  },
   "DA_ItemType_Floor_Small_Copper_Tiles_01": {
     "name": "Brass Furnace Tile Floor",
     "description": "These tough tiles can take a beating from any kind of shoe. Note, non-shoe items like jackhammers void warranty."
@@ -7447,6 +7646,10 @@
   "DA_ItemType_Wallpaper_Mid_Wall_Crown_Molding_04": {
     "name": "Nautical Beadboard",
     "description": "Add seaworthy sophistication to your room with wood panels that have been painted to match the deep ocean. "
+  },
+  "DA_ItemType_Wallpaper_Phoenix": {
+    "name": "Phoenix Wallpaper",
+    "description": "Phoenix Wallpaper"
   },
   "DA_ItemType_Wallpaper_Stained_Glass_01": {
     "name": "Waves of Water Windows",
