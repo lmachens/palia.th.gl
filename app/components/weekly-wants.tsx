@@ -1,7 +1,9 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import { useParams } from "next/navigation";
 import { useState } from "react";
 import useSWR from "swr";
+import { useOverwolfRouter } from "../(overwolf)/components/overwolf-router";
 import { useWeeklyWantsStore } from "../lib/storage/weekly-wants";
 import { villagers } from "../lib/villager";
 import { getWeeklyWants } from "../lib/weekly-wants";
@@ -18,6 +20,7 @@ export default function WeeklyWants() {
   );
   const [targetPopover, setTargetPopover] = useState<null | string>(null);
   const weeklyWants = useWeeklyWantsStore();
+  const router = useOverwolfRouter();
 
   return (
     <>
@@ -37,14 +40,25 @@ export default function WeeklyWants() {
               <button
                 className={`text-gray-200 text-sm flex gap-1 text-shadow bg-black bg-opacity-50 md:rounded-full whitespace-nowrap mx-1 shrink-0 relative`}
               >
-                <Image
-                  src={villager.icon}
-                  width={40}
-                  height={40}
-                  alt={villager.name}
-                  title={villager.name}
-                  draggable={false}
-                />
+                {"value" in router ? (
+                  <img
+                    src={villager.icon}
+                    width={40}
+                    height={40}
+                    alt={villager.name}
+                    title={villager.name}
+                    draggable={false}
+                  />
+                ) : (
+                  <Image
+                    src={villager.icon}
+                    width={40}
+                    height={40}
+                    alt={villager.name}
+                    title={villager.name}
+                    draggable={false}
+                  />
+                )}
                 {data &&
                   weeklyWants.finished.filter(
                     (v) => v.villagerId === id && v.version === data.version
