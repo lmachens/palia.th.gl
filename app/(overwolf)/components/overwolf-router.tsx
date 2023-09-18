@@ -3,10 +3,10 @@ import { useRouter } from "next/navigation";
 import { createContext, useContext, useState } from "react";
 
 type Value = {
-  name: string | null;
-  mapName: string | null;
-  search: string | null;
-  coordinates: string | null;
+  name: string;
+  mapName: string;
+  search: string;
+  coordinates: string;
 };
 
 const Context = createContext<{
@@ -20,18 +20,13 @@ export const OverwolfRouterProvider = ({
   children: React.ReactNode;
 }) => {
   const [value, setValue] = useState<Value>({
-    name: null,
-    mapName: null,
-    search: null,
-    coordinates: null,
+    name: "",
+    mapName: "kilima-valley",
+    search: "",
+    coordinates: "",
   });
 
   const update = (newValue: Partial<Value>) => {
-    for (const [key, value] of Object.entries(newValue)) {
-      if (value === "") {
-        newValue[key as keyof typeof newValue] = null;
-      }
-    }
     setValue((value) => ({ ...value, ...newValue }));
   };
 

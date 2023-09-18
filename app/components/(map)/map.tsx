@@ -16,10 +16,12 @@ leaflet.PM.setOptIn(true);
 
 export const useMapStore = create<{
   map: leaflet.Map | null;
-  setMap: (map: leaflet.Map | null) => void;
+  mapName: string;
+  setMap: (map: leaflet.Map | null, mapName?: string) => void;
 }>((set) => ({
   map: null,
-  setMap: (map) => set({ map }),
+  mapName: "kilima-valley",
+  setMap: (map, mapName) => set({ map, mapName }),
 }));
 
 export const MAX_BOUNDS: LatLngBoundsExpression = [
@@ -79,13 +81,13 @@ export default function Map({
       ?.replace("@", "")
       .split(",")
       .map(Number);
-    if (coordinates) {
+    if (coordinates?.length === 2) {
       map.setView([coordinates[1], coordinates[0]], 2);
     } else {
       map.setView(config.view, 1);
     }
 
-    setMap(map);
+    setMap(map, mapName);
 
     map.on("click", (event) => {
       if (
@@ -151,7 +153,9 @@ export default function Map({
 
     return () => {
       setMap(null);
-      // map.remove();
+      if ("value" in router) {
+        map.remove();
+      }
     };
   }, [mapName]);
 

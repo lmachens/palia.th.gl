@@ -12,7 +12,7 @@ export default function Tiles({ map: mapName }: { map: string }) {
   const isOverlay = useGameInfoStore((state) => state.isOverlay);
 
   useEffect(() => {
-    if (isOverlay && mapFilter === "full") {
+    if ((isOverlay && mapFilter === "full") || !map) {
       return;
     }
     const config = CONFIGS[mapName as keyof typeof CONFIGS];

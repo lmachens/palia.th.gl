@@ -4,14 +4,14 @@ import { useMemo } from "react";
 import { useOverwolfRouter } from "../(overwolf)/components/overwolf-router";
 import { CONFIGS } from "../lib/maps";
 import { nodes } from "../lib/nodes";
-import { useDict } from "./(i18n)/i18n-provider";
+import { useDict, useI18N } from "./(i18n)/i18n-provider";
 
 export default function Maps() {
   const dict = useDict();
   const params = useParams();
   const searchParams = useSearchParams();
   const router = useOverwolfRouter();
-
+  const i18n = useI18N();
   const isOverwolf = "value" in router;
 
   const search = useMemo(() => {
@@ -43,20 +43,28 @@ export default function Maps() {
     );
   }, [search]);
 
+  const mapName =
+    "update" in router
+      ? dict.maps[router.value.mapName!]
+      : decodeURIComponent(params.map as string);
   return (
     <div className="divide-y divide-neutral-700 border-t border-t-neutral-600 bg-neutral-900 text-sm w-full md:border md:border-gray-600 md:rounded-lg">
       <div className="flex flex-wrap">
         {Object.keys(CONFIGS).map((map) => (
           <Link
-            href={`/${params.lang}/${encodeURIComponent(
+            href={`/${i18n.locale}/${encodeURIComponent(
               dict.maps[map]
             )}?${searchParams.toString()}`}
             key={map}
             className={`p-2 basis-1/2 hover:text-white w-1/2 text-center ${
-              dict.maps[map] === decodeURIComponent(params.map as string)
-                ? "text-gray-200"
-                : "text-gray-500"
+              dict.maps[map] === mapName ? "text-gray-200" : "text-gray-500"
             }`}
+            onClick={(event) => {
+              if ("update" in router) {
+                router.update({ mapName: map });
+                event.preventDefault();
+              }
+            }}
           >
             {dict.maps[map]} ({mapNodesCount[map as keyof typeof mapNodesCount]}
             )

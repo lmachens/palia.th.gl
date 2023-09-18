@@ -15,11 +15,11 @@ import Ads from "../components/ads";
 import AppContainer from "../components/app-container";
 import Header from "../components/header";
 import MapContainer from "../components/map-container";
+import { useOverwolfRouter } from "../components/overwolf-router";
 import Player from "../components/player";
 import ResizeBorders from "../components/resize-borders";
 import TraceLine from "../components/trace-line";
 import { WINDOWS } from "../lib/config";
-import { waitForOverwolf } from "../lib/overwolf";
 import { getCurrentWindow } from "../lib/windows";
 
 export default function App() {
@@ -27,13 +27,13 @@ export default function App() {
   const locale = useSettingsStore((state) => state.locale);
   const dict = loadDictionary(locale);
   const setIsOverlay = useGameInfoStore((state) => state.setIsOverlay);
-  const mapName = "kilima-valley";
+  const router = useOverwolfRouter();
+  const mapName = "value" in router ? router.value.mapName : "kilima-valley";
+
   useEffect(() => {
-    waitForOverwolf().then(() => {
-      getCurrentWindow().then((currentWindow) => {
-        setIsOverlay(currentWindow.name === WINDOWS.OVERLAY);
-        setReady(true);
-      });
+    getCurrentWindow().then((currentWindow) => {
+      setIsOverlay(currentWindow.name === WINDOWS.OVERLAY);
+      setReady(true);
     });
   }, []);
 

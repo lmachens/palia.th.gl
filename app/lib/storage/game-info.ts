@@ -10,7 +10,7 @@ export const useGameInfoStore = create<{
       z: number;
     };
     rotation: number;
-    map: string;
+    mapName: string | null;
   } | null;
   setPlayer: (player: {
     position: {
@@ -19,7 +19,7 @@ export const useGameInfoStore = create<{
       z: number;
     };
     rotation: number;
-    map: string;
+    mapName: string | null;
   }) => void;
 }>((set) => ({
   isOverlay: false,

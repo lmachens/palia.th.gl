@@ -13,7 +13,7 @@ export const CONFIGS = {
   },
   "bahari-bay": {
     transformation: [1 / 314, -100, 1 / 314, 413],
-    view: [-34500, 110000] as [number, number],
+    view: [-46500, 100000] as [number, number],
     bounds: [
       [30000, 30000],
       [-110000, 180000],
@@ -45,3 +45,61 @@ export const CONFIGS = {
 
 export const DEFAULT_MAP = "kilima-valley";
 export const isMap = (map: string) => Object.keys(CONFIGS).includes(map);
+
+const mapBounds = {
+  fairgrounds: {
+    topLeft: {
+      x: 70000,
+      y: 15000,
+    },
+    bottomRight: {
+      x: 92000,
+      y: 46000,
+    },
+  },
+  "kilima-valley": {
+    topLeft: {
+      x: -54000,
+      y: -44000,
+    },
+    bottomRight: {
+      x: 56000,
+      y: 46000,
+    },
+  },
+  "bahari-bay": {
+    topLeft: {
+      x: 31138.41368584759,
+      y: -130401.24416796268,
+    },
+    bottomRight: {
+      x: 191947.1228615863,
+      y: 30407.46500777605,
+    },
+  },
+  housing: {
+    topLeft: {
+      x: -400000,
+      y: -400000,
+    },
+    bottomRight: {
+      x: -100000,
+      y: -100000,
+    },
+  },
+} as const;
+
+export function getMapFromCoords(coords: { x: number; y: number }) {
+  for (const mapName in mapBounds) {
+    const bounds = mapBounds[mapName as keyof typeof mapBounds];
+    if (
+      coords.x >= bounds.topLeft.x &&
+      coords.x <= bounds.bottomRight.x &&
+      coords.y >= bounds.topLeft.y &&
+      coords.y <= bounds.bottomRight.y
+    ) {
+      return mapName;
+    }
+  }
+  return null; // Coordinates do not belong to any known map
+}

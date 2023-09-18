@@ -6,7 +6,6 @@ import { useEffect, useRef } from "react";
 import { GAME_CLASS_ID, HOTKEYS, WINDOWS } from "../lib/config";
 import { startNewGameSession } from "../lib/game-sessions";
 import { getRunningGameInfo } from "../lib/games";
-import { waitForOverwolf } from "../lib/overwolf";
 import {
   closeMainWindow,
   closeWindow,
@@ -22,13 +21,9 @@ export default function Init() {
     if (initialized.current) {
       return;
     }
-    waitForOverwolf()
-      .then(() => {
-        initialized.current = true;
-        initController();
-        startNewGameSession();
-      })
-      .catch((error) => console.warn(error));
+    initialized.current = true;
+    initController();
+    startNewGameSession();
   }, []);
 
   return <></>;

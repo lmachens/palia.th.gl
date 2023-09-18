@@ -39,7 +39,7 @@ const CanvasLayer = leaflet.TileLayer.extend({
             const g = pixels[i + 1];
             const b = pixels[i + 2];
             const gray = 0.2126 * r + 0.7152 * g + 0.0722 * b;
-            if (gray >= 127) {
+            if (gray >= 180) {
               // Make grey
               if (this.options.filter === "greyscale") {
                 pixels[i] = pixels[i + 1] = pixels[i + 2] = 100;

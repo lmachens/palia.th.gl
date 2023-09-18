@@ -1,18 +1,21 @@
-import { useMap } from "@/app/components/(map)/map";
+import { useMapStore } from "@/app/components/(map)/map";
+import { getMapFromCoords } from "@/app/lib/maps";
 import { useGameInfoStore } from "@/app/lib/storage/game-info";
 import { useSettingsStore } from "@/app/lib/storage/settings";
 import leaflet from "leaflet";
 import { useEffect, useRef } from "react";
+import { useOverwolfRouter } from "./overwolf-router";
 import PlayerMarker from "./player-marker";
 
 export default function Player() {
-  const map = useMap();
+  const { map, mapName } = useMapStore();
   const mounted = useRef(false);
   const gameInfo = useGameInfoStore();
   const followPlayerPosition = useSettingsStore(
     (state) => state.followPlayerPosition
   );
   const marker = useRef<PlayerMarker | null>(null);
+  const router = useOverwolfRouter();
 
   useEffect(() => {
     if (mounted.current) return;
@@ -28,7 +31,8 @@ export default function Player() {
       interactive: false,
     });
     marker.current.rotation = 0;
-    marker.current.addTo(map);
+
+    let lastMapName = "kilima-valley";
 
     overwolf.extensions.current.getExtraObject("palia", (result) => {
       if (!result.success) {
@@ -40,6 +44,7 @@ export default function Player() {
       console.log("Initialized plugin");
 
       let prevPosition = { X: 0, Y: 0, Z: 0, R: 0 };
+      let lastError = "";
       const getData = () => {
         plugin.Listen(
           (data: { X: number; Y: number; Z: number; R: number }) => {
@@ -50,21 +55,37 @@ export default function Player() {
               data.R !== prevPosition.R
             ) {
               prevPosition = data;
-              console.log(data);
-              gameInfo.setPlayer({
-                position: {
-                  x: data.X,
-                  y: data.Y,
-                  z: data.Z,
-                },
-                rotation: data.R,
-                map: "kilima-valley",
+              const mapName = getMapFromCoords({
+                x: data.X,
+                y: data.Y,
               });
+
+              if (mapName) {
+                gameInfo.setPlayer({
+                  position: {
+                    x: data.X,
+                    y: data.Y,
+                    z: data.Z,
+                  },
+                  rotation: data.R,
+                  mapName: mapName,
+                });
+                if (mapName && mapName !== lastMapName && "value" in router) {
+                  lastMapName = mapName;
+                  router.update({
+                    mapName,
+                  });
+                }
+              }
             }
+
             setTimeout(getData, 100);
           },
           (err: any) => {
-            console.error("Error: ", err);
+            if (err instanceof Error && err.message !== lastError) {
+              lastError = err.message;
+              console.error("Error: ", err.message);
+            }
             setTimeout(getData, 1000);
           }
         );
@@ -74,7 +95,18 @@ export default function Player() {
   }, []);
 
   useEffect(() => {
-    if (!gameInfo.player || !marker.current) {
+    if (!map || !marker.current || mapName !== gameInfo.player?.mapName) {
+      return;
+    }
+    marker.current.addTo(map);
+
+    return () => {
+      marker.current?.remove();
+    };
+  }, [map, gameInfo.player?.mapName]);
+
+  useEffect(() => {
+    if (!map || !gameInfo.player || !marker.current) {
       return;
     }
 

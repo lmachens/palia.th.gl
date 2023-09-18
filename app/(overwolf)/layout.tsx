@@ -20,7 +20,9 @@ export function generateMetadata(): Metadata {
 function OverwolfLayout({ children }: { children: React.ReactNode }) {
   return (
     <html>
-      <body className={`${inter.className} overflow-hidden`}>
+      <body
+        className={`${inter.className} h-screen text-white antialiased select-none overflow-hidden`}
+      >
         <OverwolfRouterProvider>{children}</OverwolfRouterProvider>
         <PlausibleTracker
           domain={process.env.NEXT_PUBLIC_PLAUSIBLE_OVERWOLF_DOMAIN}

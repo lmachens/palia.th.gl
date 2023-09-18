@@ -50,7 +50,7 @@ export default function Search() {
         className={`bg-black md:bg-transparent flex overflow-auto pointer-events-auto pb-1`}
       >
         {/* {!("value" in router) && <AppDownload />} */}
-        <WeeklyWants />
+        {(!settingsStore.lockedWindow || !isOverlay) && <WeeklyWants />}
       </div>
       {(!settingsStore.lockedWindow || !isOverlay) && (
         <div className={`relative pointer-events-auto flex md:w-fit`}>
