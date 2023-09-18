@@ -23,7 +23,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   );
 
+  const existingSpawnTypes: {
+    [mapName: string]: string[];
+  } = {};
+
   const nodesMap = nodes.flatMap<MetadataRoute.Sitemap[number]>((node) => {
+    if (node.isSpawnNode) {
+      if (!existingSpawnTypes[node.mapName]) {
+        existingSpawnTypes[node.mapName] = [];
+      }
+      if (existingSpawnTypes[node.mapName].includes(node.type)) {
+        return [];
+      }
+      existingSpawnTypes[node.mapName].push(node.type);
+    }
     return LOCALES.map((locale) => {
       const dict = loadDictionary(locale);
 
