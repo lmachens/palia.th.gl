@@ -7,6 +7,7 @@ import { useParams, useRouter } from "next/navigation";
 import { useEffect, useRef } from "react";
 import { create } from "zustand";
 
+import { isDevelopment } from "@/app/lib/env";
 import { CONFIGS } from "@/app/lib/maps";
 import "@geoman-io/leaflet-geoman-free";
 import "@geoman-io/leaflet-geoman-free/dist/leaflet-geoman.css";
@@ -123,7 +124,7 @@ export default function Map({
       });
     }
 
-    if (process.env.NODE_ENV === "development") {
+    if (isDevelopment) {
       const divElement = leaflet.DomUtil.create("div", "leaflet-position");
       const handleMouseMove = (event: leaflet.LeafletMouseEvent) => {
         divElement.innerHTML = `<span>[${event.latlng.lng.toFixed(

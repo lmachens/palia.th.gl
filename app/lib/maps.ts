@@ -32,11 +32,11 @@ export const CONFIGS = {
     maxNativeZoom: 3,
   },
   housing: {
-    transformation: [1 / 240, 250, 1 / 240, 290],
+    transformation: [1 / 142, -148, 1 / 142, 58],
     view: [-256, 256] as [number, number],
     bounds: [
-      [50000, -59000],
-      [-60000, 62000],
+      [65000, 21000],
+      [-10000, 94000],
     ] as LatLngBoundsExpression,
     minNativeZoom: 0,
     maxNativeZoom: 3,
@@ -80,14 +80,32 @@ const mapBounds = {
   housing: {
     topLeft: {
       x: -400000,
-      y: -400000,
+      y: -4000000,
     },
     bottomRight: {
-      x: -100000,
-      y: -100000,
+      x: 700000,
+      y: -10000,
     },
   },
 } as const;
+
+const HOUSING_MOD = 65000;
+export function modHousingCoords(coords: {
+  X: number;
+  Y: number;
+  Z: number;
+  R: number;
+}) {
+  let X = coords.X % HOUSING_MOD;
+  if (X < 0) {
+    X += HOUSING_MOD;
+  }
+  let Y = coords.Y % HOUSING_MOD;
+  if (Y < 0) {
+    Y += HOUSING_MOD;
+  }
+  return { X, Y, Z: coords.Z };
+}
 
 export function getMapFromCoords(coords: { x: number; y: number }) {
   for (const mapName in mapBounds) {

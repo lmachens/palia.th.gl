@@ -1,5 +1,5 @@
 import { useMapStore } from "@/app/components/(map)/map";
-import { getMapFromCoords } from "@/app/lib/maps";
+import { getMapFromCoords, modHousingCoords } from "@/app/lib/maps";
 import { useGameInfoStore } from "@/app/lib/storage/game-info";
 import { useSettingsStore } from "@/app/lib/storage/settings";
 import leaflet from "leaflet";
@@ -61,16 +61,21 @@ export default function Player() {
               });
 
               if (mapName) {
+                const position =
+                  mapName === "housing" ? modHousingCoords(data) : data;
                 gameInfo.setPlayer({
                   position: {
-                    x: data.X,
-                    y: data.Y,
-                    z: data.Z,
+                    x: position.X,
+                    y: position.Y,
+                    z: position.Z,
                   },
                   rotation: data.R,
                   mapName: mapName,
                 });
                 if (mapName && mapName !== lastMapName && overwolfRouter) {
+                  console.log(
+                    `Entering new map: ${mapName} on ${data.X},${data.Y}`
+                  );
                   lastMapName = mapName;
                   overwolfRouter.update({
                     mapName,

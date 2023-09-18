@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { API_BASE_URI } from "./env";
+import { API_BASE_URI, isDevelopment } from "./env";
 import { DEFAULT_LOCALE, LOCALES, loadDictionary } from "./i18n";
 import { isMap } from "./maps";
 import { nodes } from "./nodes";
@@ -26,9 +26,8 @@ export function generateMetadata({
     });
 
   let canonical =
-    (process.env.NODE_ENV === "development"
-      ? "http://localhost:3668"
-      : API_BASE_URI) + `/${lang}/${mapTitle}`;
+    (isDevelopment ? "http://localhost:3668" : API_BASE_URI) +
+    `/${lang}/${mapTitle}`;
   let description = dict.meta.description;
   if (node) {
     const terms = !node.isSpawnNode
