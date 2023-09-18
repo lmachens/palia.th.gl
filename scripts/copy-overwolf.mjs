@@ -34,10 +34,8 @@ const removeableFiles = [
   "index.html",
   "index.txt",
   "apple-icon.png",
-  "opengraph-image.jpg",
   "robots.txt",
   "sitemap.xml",
-  "twitter-image.jpg",
 ];
 removeableFiles.forEach(async (file) => {
   await fs.rm(path.resolve(__dirname, "../out/" + file));
