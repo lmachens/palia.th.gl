@@ -28,6 +28,10 @@ const DISCOVER_LINKS = [
     text: "Palia Garden Planner",
   },
   {
+    href: "https://palia.anniebananie.io/?ref=palia.th.gl",
+    text: "Palia Gift Tracker",
+  },
+  {
     href: "https://www.th.gl/?ref=palia.th.gl",
     text: "Gaming Apps & Tools",
   },
