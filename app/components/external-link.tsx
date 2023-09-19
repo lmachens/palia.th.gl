@@ -1,9 +1,11 @@
+import { ReactNode } from "react";
+
 export default function ExternalLink({
   href,
   text,
 }: {
   href: string;
-  text: string;
+  text: ReactNode;
 }) {
   return (
     <a
