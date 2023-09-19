@@ -90,6 +90,18 @@ export function generateMetadata({
     ? `${title}${subtitle} | ${mapTitle} | palia.th.gl`
     : `${mapTitle}${subtitle} | ${dict.meta.subtitle} | palia.th.gl`;
 
+  let screenshotUrl = canonical + "/screenshot";
+  if (searchParams) {
+    Object.entries(searchParams).forEach(([key, value], index) => {
+      if (index === 0) {
+        screenshotUrl += "?";
+      } else {
+        screenshotUrl += "&";
+      }
+      screenshotUrl += `${key}=${value}`;
+    });
+  }
+
   return {
     title: metaTitle,
     description: description,
@@ -101,14 +113,14 @@ export function generateMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      images: name ? canonical + "/screenshot" : "/social.webp",
+      images: screenshotUrl,
     },
     openGraph: {
       title: metaTitle,
       description: description,
       type: name ? "article" : "website",
       url: "https://palia.th.gl",
-      images: name ? canonical + "/screenshot" : "/social.webp",
+      images: screenshotUrl,
     },
   };
 }
