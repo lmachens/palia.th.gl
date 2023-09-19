@@ -80,6 +80,9 @@ export function generateMetadata({
       .filter(Boolean);
     if (filters.length > 0) {
       subtitle += " | " + filters.join(", ");
+      description = `${filters.join(", ")} ${
+        dict.meta.locations
+      }. ${description}`;
     }
   }
 

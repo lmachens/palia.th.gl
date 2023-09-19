@@ -2,7 +2,8 @@
     "meta": {
         "subtitle": "Mapa Interactivo de Palia",
         "short": "Mapa de Palia",
-        "description": "¡Maximiza tu experiencia en Palia con este Mapa Interactivo de Palia! Descubre Kilima Valley, Bahari Bay y el Recinto Ferial, encuentra todas las ubicaciones con seguimiento en tiempo real. Los deseos semanales también están disponibles para todos los aldeanos."
+        "description": "¡Maximiza tu experiencia en Palia con este Mapa Interactivo de Palia! Descubre Kilima Valley, Bahari Bay y el Recinto Ferial, encuentra todas las ubicaciones con seguimiento en tiempo real. Los deseos semanales también están disponibles para todos los aldeanos.",
+        "locations": "Ubicaciones"
     },
     "menu": {
         "patronInfo": "Elimina los anuncios y apóyame en Patreon",

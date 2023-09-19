@@ -2,7 +2,8 @@
   "meta": {
     "subtitle": "Palia Interactive Map",
     "short": "Palia Map",
-    "description": "Maximize your Palia gameplay with this Interactive Palia Map! Discover Kilima Valley, Bahari Bay and Fairgrounds, find all locations with real-time position tracking. The weekly wants are also available for all villagers."
+    "description": "Maximize your Palia gameplay with this Interactive Palia Map! Discover Kilima Valley, Bahari Bay and Fairgrounds, find all locations with real-time position tracking. The weekly wants are also available for all villagers.",
+    "locations": "Locations"
   },
   "menu": {
     "patronInfo": "Get rid of ads and support me on Patreon",
