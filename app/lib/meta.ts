@@ -7,8 +7,10 @@ import { nodes } from "./nodes";
 
 export function generateMetadata({
   params: { lang = DEFAULT_LOCALE, map, name, coordinates: paramsCoordinates },
+  searchParams,
 }: {
   params: { lang: string; map: string; name?: string; coordinates?: string };
+  searchParams: { [key: string]: string | string[] | undefined };
 }): Metadata {
   const dict = loadDictionary(lang);
   const title = name && decodeURIComponent(name);
@@ -68,9 +70,22 @@ export function generateMetadata({
     return acc;
   }, {} as Record<string, string>);
 
+  let subtitle = "";
+  if (searchParams?.filters && typeof searchParams.filters === "string") {
+    const filters = decodeURIComponent(searchParams.filters)
+      .split(",")
+      .map((filter) => {
+        return dict.nodes[filter] || dict.spawnNodes[filter]?.name;
+      })
+      .filter(Boolean);
+    if (filters.length > 0) {
+      subtitle += " | " + filters.join(", ");
+    }
+  }
+
   const metaTitle = title
-    ? `${title} | ${mapTitle} | palia.th.gl`
-    : `${mapTitle} | ${dict.meta.subtitle} | palia.th.gl`;
+    ? `${title}${subtitle} | ${mapTitle} | palia.th.gl`
+    : `${mapTitle}${subtitle} | ${dict.meta.subtitle} | palia.th.gl`;
 
   return {
     title: metaTitle,

@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 import { DEFAULT_LOCALE, LOCALES, loadDictionary } from "./lib/i18n";
 import { CONFIGS } from "./lib/maps";
-import { nodes } from "./lib/nodes";
+import { nodes, spawnNodes, staticNodes } from "./lib/nodes";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
@@ -17,11 +17,33 @@ export default function sitemap(): MetadataRoute.Sitemap {
           )}`,
           lastModified: now,
           changeFrequency: "weekly",
-          priority: locale === DEFAULT_LOCALE ? 0.9 : 0.7,
+          priority: locale === DEFAULT_LOCALE ? 1 : 0.9,
         };
       });
     }
   );
+
+  const filtersMap = [
+    ...Object.keys(staticNodes),
+    ...Object.keys(spawnNodes),
+  ].flatMap<MetadataRoute.Sitemap[number]>((filter) => {
+    return Object.keys(CONFIGS).flatMap<MetadataRoute.Sitemap[number]>(
+      (map) => {
+        return LOCALES.map((locale) => {
+          const dict = loadDictionary(locale);
+
+          return {
+            url: `https://palia.th.gl/${locale}/${encodeURIComponent(
+              dict.maps[map]
+            )}?filters=${encodeURIComponent(filter)}`,
+            lastModified: now,
+            changeFrequency: "weekly",
+            priority: locale === DEFAULT_LOCALE ? 0.8 : 0.7,
+          };
+        });
+      }
+    );
+  });
 
   const existingSpawnTypes: {
     [mapName: string]: string[];
@@ -59,8 +81,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
             ? 0.5
             : 0.4
           : locale === DEFAULT_LOCALE
-          ? 0.8
-          : 0.7,
+          ? 0.7
+          : 0.6,
       };
     });
   });
@@ -73,6 +95,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     ...mapsMap,
+    ...filtersMap,
     ...nodesMap,
   ];
 }
