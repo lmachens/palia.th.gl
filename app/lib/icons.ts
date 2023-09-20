@@ -1,5 +1,6 @@
 import { spawnNodes } from "./nodes";
 import { spawnGroups } from "./spawn-groups";
+import { spawnIcons } from "./spawn-icons";
 
 export const VIEWBOX = "0 0 100 100";
 export const CIRCLE_PATH =
@@ -41,12 +42,20 @@ export const ICONS = {
 export const SPAWN_ICONS = Object.keys(spawnNodes).reduce((acc, type) => {
   Object.entries(spawnGroups).find(([groupName, group]) => {
     if (group.includes(type)) {
-      acc[type] = {
-        src: `/icons/spawn/Icon_ResourceTracker_${groupName[0].toUpperCase()}${groupName.slice(
-          1
-        )}.png`,
-        radius: 10,
-      };
+      const spawnIcon = spawnIcons[type as keyof typeof spawnIcons];
+      if (spawnIcon) {
+        acc[type] = {
+          src: `/icons/spawn/${spawnIcon}.webp`,
+          radius: 10,
+        };
+      } else {
+        acc[type] = {
+          src: `/icons/spawn/Icon_ResourceTracker_${groupName[0].toUpperCase()}${groupName.slice(
+            1
+          )}.webp`,
+          radius: 10,
+        };
+      }
       return true;
     }
     return false;
