@@ -7,6 +7,10 @@
     "name": "Common Blue Butterfly",
     "description": "Ever resilient. Butterflies of this type can be found in almost every climate in Palia.\r\nFound all around Kilima and Bahari Bay during the morning and day."
   },
+  "BP_Bug_ButterflyR_C": {
+    "name": "Brighteye Butterfly",
+    "description": "Whenever you see the sun out, you can see the eyes of this intricately patterned butterfly looking around Bahari Bay.\r\nFound in the Forests of Bahari Bay during the morning and day."
+  },
   "BP_Bug_ButterflyU_C": {
     "name": "Duskwing Butterfly",
     "description": "A beautiful butterfly with wings the color of dusk. Unique to the Kilima Valley.\r\nFound around the Dragon Shrine in Kilima during the morning and day."
@@ -46,6 +50,10 @@
   "BP_Bug_DragonflyC_C": {
     "name": "Brushtail Dragonfly",
     "description": "The tail of this Dragonfly is so bright and vibrant, some early Majiri were said to have used it as a paintbrush.\r\nFound around the lake in Kilima, as well as rivers and ponds in Bahari Bay."
+  },
+  "BP_Bug_DragonflyE_C": {
+    "name": "Jewelwing Dragonfly",
+    "description": "A Dragonfly with wings as bright and colorful as any precious stone.\r\nFound near a cave entrance on a cliff in Bahari Bay."
   },
   "BP_Bug_DragonflyR_C": {
     "name": "Firebreathing Dragonfly",
@@ -106,6 +114,14 @@
   "BP_Coral_C": {
     "name": "Coral",
     "description": "Bring the beach home with you with this piece of coral. You can almost smell the reef!"
+  },
+  "BP_Fish_Hypnotic_Moray_C": {
+    "name": "Fish_Hypnotic_Moray_C",
+    "description": ""
+  },
+  "BP_Fish_Stonefish_C": {
+    "name": "Rock",
+    "description": ""
   },
   "BP_Gatherable_Elouisa_Dropoff_C": {
     "name": "Flothinger Trap",
@@ -275,12 +291,24 @@
     "name": "Large Pine Tree",
     "description": ""
   },
+  "BP_TreeChoppable_Pine_Large_CoOp_C": {
+    "name": "Flowing Large Pine Tree",
+    "description": ""
+  },
   "BP_TreeChoppable_Pine_Medium_C": {
     "name": "Medium Pine Tree",
     "description": ""
   },
+  "BP_TreeChoppable_Pine_Medium_CoOp_C": {
+    "name": "Flowing Medium Pine Tree",
+    "description": ""
+  },
   "BP_TreeChoppable_Pine_Sapling_C": {
     "name": "Pine Sapling",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Sapling_CoOp_C": {
+    "name": "Flowing Pine Sapling",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Small_C": {

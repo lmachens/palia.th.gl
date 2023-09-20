@@ -5,6 +5,9 @@
   "BP_Bug_ButterflyC_C": {
     "name": "Gemeiner Blaufalter"
   },
+  "BP_Bug_ButterflyR_C": {
+    "name": "Hellaugen-Schmetterling"
+  },
   "BP_Bug_ButterflyU_C": {
     "name": "Dämmerfalter"
   },
@@ -34,6 +37,9 @@
   },
   "BP_Bug_DragonflyC_C": {
     "name": "Pinselschweif-Libelle"
+  },
+  "BP_Bug_DragonflyE_C": {
+    "name": "Juwelenschwingen-Libelle"
   },
   "BP_Bug_DragonflyR_C": {
     "name": "Feuerspuckende Libelle"
@@ -80,6 +86,14 @@
   "BP_Coral_C": {
     "name": "Koralle",
     "description": "Mit diesem Stück Koralle hast du ein Stück Strand zu Hause. Da kann man fast das Riff riechen!"
+  },
+  "BP_Fish_Hypnotic_Moray_C": {
+    "name": "Fish_Hypnotic_Moray_C",
+    "description": ""
+  },
+  "BP_Fish_Stonefish_C": {
+    "name": "Rock",
+    "description": ""
   },
   "BP_Gatherable_Elouisa_Dropoff_C": {
     "name": "Flothinger-Falle",
@@ -249,12 +263,24 @@
     "name": "Large Pine Tree",
     "description": ""
   },
+  "BP_TreeChoppable_Pine_Large_CoOp_C": {
+    "name": "Flowing Large Pine Tree",
+    "description": ""
+  },
   "BP_TreeChoppable_Pine_Medium_C": {
     "name": "Medium Pine Tree",
     "description": ""
   },
+  "BP_TreeChoppable_Pine_Medium_CoOp_C": {
+    "name": "Flowing Medium Pine Tree",
+    "description": ""
+  },
   "BP_TreeChoppable_Pine_Sapling_C": {
     "name": "Pine Sapling",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Sapling_CoOp_C": {
+    "name": "Flowing Pine Sapling",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Small_C": {

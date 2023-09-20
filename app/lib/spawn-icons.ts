@@ -1,6 +1,7 @@
 export const spawnIcons = {
   BP_Bug_BeetleC_C: "Icon_Bug_Beetle_SpottedStinkbug",
   BP_Bug_ButterflyC_C: "Icon_Bug_Butterfly_CommonBlue",
+  BP_Bug_ButterflyR_C: "Icon_Bug_Butterfly_Brighteye",
   BP_Bug_ButterflyU_C: "Icon_Bug_Butterfly_Duskwing",
   BP_Bug_CicadaC_C: "Icon_Bug_Cicada_CommonBark",
   BP_Bug_CicadaR_C: "Icon_Bug_Cicada_Spitfire",
@@ -11,6 +12,7 @@ export const spawnIcons = {
   BP_Bug_CricketR_C: "Icon_Bug_Cricket_AzureStonehopper",
   BP_Bug_CricketU_C: "Icon_Bug_Cricket_GardenLeafhopper",
   BP_Bug_DragonflyC_C: "Icon_Bug_Dragonfly_Brushtail",
+  BP_Bug_DragonflyE_C: "Icon_Bug_Dragonfly_Jewelwing",
   BP_Bug_DragonflyR_C: "Icon_Bug_Dragonfly_Firebreathing",
   BP_Bug_DragonflyU_C: "Icon_Bug_Dragonfly_Inky",
   BP_Bug_GlowbugC_C: "Icon_Bug_Glowbug_Bahari",
