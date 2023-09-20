@@ -55,8 +55,15 @@ export const useGlobalSettingsStore = create(
       };
     },
     {
-      name: "global-settings-storage",
+      name:
+        typeof location !== "undefined" &&
+        location.pathname.startsWith("/embed")
+          ? "embed-global-settings-storage"
+          : "global-settings-storage",
       merge: (persistentState: any, currentState) => {
+        if (location.pathname.startsWith("/embed")) {
+          return currentState;
+        }
         if (
           typeof overwolf === "undefined" &&
           currentState.filters.length !== ALL_FILTERS.length
