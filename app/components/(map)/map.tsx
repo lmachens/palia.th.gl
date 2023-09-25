@@ -93,15 +93,21 @@ export default function Map({
     map.on("click", (event) => {
       if (
         // @ts-ignore
-        event.originalEvent.target.className !== "leaflet-zoom-animated" ||
-        location.pathname.startsWith("/embed") ||
-        location.pathname.split("/").length < 4 // No node selected
+        event.originalEvent.target.className !== "leaflet-zoom-animated"
       ) {
         return;
       }
       if (overwolfRouter) {
         overwolfRouter.update({ name: "", coordinates: "" });
-      } else {
+        return;
+      }
+      if (
+        location.pathname.startsWith("/embed") ||
+        location.pathname.split("/").length < 4 // No node selected
+      ) {
+        return;
+      }
+      {
         router.replace(
           `/${params.lang}/${encodeURIComponent(dict.maps[mapName])}${
             location.search

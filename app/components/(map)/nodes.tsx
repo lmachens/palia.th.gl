@@ -74,32 +74,35 @@ export default function Nodes({ map: mapName }: { map: string }) {
     }
   }, [search]);
 
-  const onMarkerClick = useCallback((node: NODE) => {
-    if (location.pathname.startsWith("/embed")) {
-      return;
-    }
-    let name = "";
-    if (!node.isSpawnNode) {
-      name = dict.generated[node.type]?.[node.id]?.name ?? "";
-    } else {
-      name = dict.spawnNodes[node.type].name;
-    }
-    if (overwolfRouter) {
-      overwolfRouter.update({
-        name: encodeURIComponent(name || dict.nodes[node.type]),
-        mapName,
-        coordinates: `@${node.x},${node.y}`,
-      });
-    } else {
-      const url = `/${params.lang}/${encodeURIComponent(
-        dict.maps[mapName]
-      )}/${encodeURIComponent(name || dict.nodes[node.type])}/@${node.x},${
-        node.y
-      }${location.search}`;
-      router.prefetch(url);
-      router.push(url);
-    }
-  }, []);
+  const onMarkerClick = useCallback(
+    (node: NODE) => {
+      if (location.pathname.startsWith("/embed")) {
+        return;
+      }
+      let name = "";
+      if (!node.isSpawnNode) {
+        name = dict.generated[node.type]?.[node.id]?.name ?? "";
+      } else {
+        name = dict.spawnNodes[node.type].name;
+      }
+      if (overwolfRouter) {
+        overwolfRouter.update({
+          name: encodeURIComponent(name || dict.nodes[node.type]),
+          mapName,
+          coordinates: `@${node.x},${node.y}`,
+        });
+      } else {
+        const url = `/${params.lang}/${encodeURIComponent(
+          dict.maps[mapName]
+        )}/${encodeURIComponent(name || dict.nodes[node.type])}/@${node.x},${
+          node.y
+        }${location.search}`;
+        router.prefetch(url);
+        router.push(url);
+      }
+    },
+    [mapName]
+  );
 
   const visibleNodes = useMemo(() => {
     return nodes.filter((node) => {
