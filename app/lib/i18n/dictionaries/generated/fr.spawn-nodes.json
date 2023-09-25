@@ -53,6 +53,9 @@
   "BP_Bug_LadybugR_C": {
     "name": "Princesse coccinelle"
   },
+  "BP_Bug_LadybugU_C": {
+    "name": "Coccinelle des jardins"
+  },
   "BP_Bug_MantisE_C": {
     "name": "Mante féérique"
   },
@@ -85,7 +88,7 @@
   },
   "BP_Coral_C": {
     "name": "Corail",
-    "description": "Ramène un coin de plage à la maison avec ce morceau de corail. On peut presque sentir l’odeur du récif !"
+    "description": "Ramenez la plage chez vous avec ce morceau de corail. Vous pouvez presque sentir l’odeur du récif !"
   },
   "BP_Fish_Hypnotic_Moray_C": {
     "name": "Fish_Hypnotic_Moray_C",
@@ -101,7 +104,7 @@
   },
   "BP_Gatherable_MushroomBlue_C": {
     "name": "Champilumineux",
-    "description": "Les champilux tirent leur éclat de l’absorption d’Onde et ont donc de nombreuses utilisations alchimiques."
+    "description": "Les champignons brillants tirent leur éclat de l’absorption du flux et ont donc de nombreux usages alchimiques."
   },
   "BP_Gatherable_MushroomR_C": {
     "name": "Morille des montagnes",
@@ -113,7 +116,11 @@
   },
   "BP_HeartdropLilly_C": {
     "name": "Lys cœur-battant",
-    "description": "Le lys cœur-battant est une fleur rare qui revêt une signification particulière pour les Paléens : l’épanouissement du véritable amour."
+    "description": "Le lys Heartdrop est une fleur rare qui a une signification particulière pour les Paliens : l’épanouissement de l’amour romantique."
+  },
+  "BP_InsectBall_Stealth_C": {
+    "name": "InsectBall_Stealth_C",
+    "description": ""
   },
   "BP_Mining_Clay_C": {
     "name": "Clay Node",
@@ -169,23 +176,23 @@
   },
   "BP_Moss_DragonsBeard_C": {
     "name": "Tourbe Barbe-Dragon",
-    "description": "La tourbe Barbe-Dragon est une mousse rare aux propriétés alchimiques. Elle est appelée ainsi en raison de sa couleur, comparable à celle de Maji."
+    "description": "La tourbe de barbe de dragon est une mousse rare, alchimique, nommée pour sa couleur, qui ressemble à celle de Maji."
   },
   "BP_Moss_EmeraldCarpet_C": {
     "name": "Tapis en mousse couleur émeraude",
-    "description": "Selon une croyance locale, la présence de la couleur mousse émeraude dans ta maison est censée te porter chance."
+    "description": "Remplir sa maison de la couleur vive de la mousse de tapis émeraude est réputé porter chance."
   },
   "BP_Oyster_C": {
     "name": "Huître fermée",
-    "description": "Ouvre cette huître ! Même si elle ne contient pas de perle, tu pourras te consoler en la mangeant."
+    "description": "Ouvre cette huître ! Même si tu ne trouves pas de perle, tu pourras au moins la manger."
   },
   "BP_PoisonFlower_C": {
     "name": "Marguerite à ronces",
-    "description": "La marguerite à ronces est une fleur capable de survivre dans des conditions extrêmes."
+    "description": "La marguerite des montagnes peut survivre aux conditions les plus difficiles."
   },
   "BP_Seashell_C": {
     "name": "Coquillage",
-    "description": "Qui vend des coquillages au bord de la mer ? Personne. Tu as dû te débrouiller pour en trouver."
+    "description": "Qui vend des coquillages au bord de la mer ? Personne. Vous avez dû les trouver vous-même."
   },
   "BP_ShrubChoppable_Bush_C": {
     "name": "Bush",
@@ -193,23 +200,23 @@
   },
   "BP_Spice_DariCloves_C": {
     "name": "Gousses de Dari",
-    "description": "Les gousses de Dari sont des épices appréciées des chefs et des alchimistes. Ces derniers leur prêtent des propriétés magiques."
+    "description": "Le rare clou de girofle Dari est une épice appréciée des chefs et des alchimistes. On lui prête des propriétés magiques."
   },
   "BP_Spice_HeatRoot_C": {
     "name": "Racine de feu",
-    "description": "Un coup de froid ? Pas de panique ! La racine de feu te réchauffera de l’intérieur. "
+    "description": "Ne transpirez pas ! Qu’il s’agisse de cuisiner ou de guérir, la racine épicée Heat Root vous réchauffera de l’intérieur. "
   },
   "BP_Spiced_Sprouts_C": {
     "name": "Pousses d’épice",
-    "description": "Les pousses d’épice confèrent une couleur riche et une saveur terreuse à n’importe quel plat. En plus, elles sont assez faciles à trouver..."
+    "description": "Les germes d’épices confèrent une couleur riche et une saveur terreuse à n’importe quel plat. Et elles sont assez faciles à trouver..."
   },
   "BP_SundropLillies_C": {
     "name": "Lys perle-de-soleil",
-    "description": "Le lys perle-de-soleil pousse dans les champs ouverts où il peut orienter ses pétales vers la lumière du soleil."
+    "description": "Le lys Sundrop pousse dans les champs ouverts où il peut tourner ses pétales vers la lumière du soleil."
   },
   "BP_SweetLeaves_C": {
     "name": "Stévia",
-    "description": "Chez les Paléens, la stévia est l’un des ingrédients les plus populaires pour préparer des desserts. Son goût sucré ravira les plus gourmands."
+    "description": "Ceux qui ont la dent sucrée adoreront cette feuille sucrée, l’un des ingrédients préférés de Palia pour les desserts."
   },
   "BP_TreeChoppable_Birch_Large_C": {
     "name": "Large Birch Tree",
@@ -287,12 +294,20 @@
     "name": "Small Pine Tree",
     "description": ""
   },
+  "BP_TreeChoppable_Pine_Small_CoOp_C": {
+    "name": "Flowing Small Pine Tree",
+    "description": ""
+  },
   "BP_ValeriaHuntingCreature_Cearnuk_T1_C": {
     "name": "Cearnuk T1",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Cearnuk_T2_C": {
     "name": "Cearnuk T2",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Cearnuk_T3_C": {
+    "name": "Cearnuk T3",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Chapaa_T1_C": {
@@ -309,7 +324,7 @@
   },
   "BP_WaterFlower_C": {
     "name": "Lotus du lac Crystallium",
-    "description": "Le lotus du lac Crystallium porte le nom de l’endroit où il a été découvert et est aujourd’hui utilisé pour fabriquer des teintures."
+    "description": "Le lotus de Crystal Lake porte le nom de l’endroit où il a été découvert et est aujourd’hui utilisé pour fabriquer des teintures."
   },
   "BP_WaterPlane_Fishing_AZ1_Cave_SQ_C": {
     "name": "WaterPlane_Fishing_AZ1_Cave_SQ_C",
@@ -333,6 +348,6 @@
   },
   "BP_WildGarlic_C": {
     "name": "Ail des ours",
-    "description": "L’ail ajoute un goût délicieux à tous tes plats. Pour avoir l’haleine fraîche, rien de tel qu’une gousse d’ail crue !"
+    "description": "L’ail est un ajout délicieux à tous les plats que vous cuisinez ! Il peut également être consommé cru pour parfumer l’haleine."
   }
 }

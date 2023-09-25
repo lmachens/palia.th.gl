@@ -71,6 +71,10 @@
     "name": "Princess Ladybug",
     "description": "A very regal looking lady bug, made popular by the children's fairytale, The Princess Who Turned Into A Ladybug.\r\nFound around the lake in Kilima."
   },
+  "BP_Bug_LadybugU_C": {
+    "name": "Garden Ladybug",
+    "description": "A black and red ladybug, popular for controlling garden pests.\r\nHas a chance to be found when foraging in the fields of Bahari Bay."
+  },
   "BP_Bug_MantisE_C": {
     "name": "Fairy Mantis",
     "description": "A mantis from early Majiri legend only recently confirmed to exist by modern entomologists. Said to have magical properties.\r\nFound in the fields of Bahari Bay."
@@ -142,6 +146,10 @@
   "BP_HeartdropLilly_C": {
     "name": "Heartdrop Lily",
     "description": "The Heartdrop Lily is a rare flower with a special meaning to Palians: the blossoming of romantic love."
+  },
+  "BP_InsectBall_Stealth_C": {
+    "name": "InsectBall_Stealth_C",
+    "description": ""
   },
   "BP_Mining_Clay_C": {
     "name": "Clay Node",
@@ -315,12 +323,20 @@
     "name": "Small Pine Tree",
     "description": ""
   },
+  "BP_TreeChoppable_Pine_Small_CoOp_C": {
+    "name": "Flowing Small Pine Tree",
+    "description": ""
+  },
   "BP_ValeriaHuntingCreature_Cearnuk_T1_C": {
     "name": "Cearnuk T1",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Cearnuk_T2_C": {
     "name": "Cearnuk T2",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Cearnuk_T3_C": {
+    "name": "Cearnuk T3",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Chapaa_T1_C": {

@@ -17,6 +17,7 @@ export const spawnIcons = {
   BP_Bug_DragonflyU_C: "Icon_Bug_Dragonfly_Inky",
   BP_Bug_GlowbugC_C: "Icon_Bug_Glowbug_Bahari",
   BP_Bug_LadybugR_C: "Icon_Bug_Ladybug_Princess",
+  BP_Bug_LadybugU_C: "Icon_Bug_Ladybug_Garden",
   BP_Bug_MantisE_C: "Icon_Bug_Mantis_Fairy",
   BP_Bug_MantisR1_C: "Icon_Bug_Mantis_Spotted",
   BP_Bug_MantisU_C: "Icon_Bug_Mantis_Garden",

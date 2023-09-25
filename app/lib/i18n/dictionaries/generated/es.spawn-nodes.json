@@ -53,6 +53,9 @@
   "BP_Bug_LadybugR_C": {
     "name": "Mariquita princesa"
   },
+  "BP_Bug_LadybugU_C": {
+    "name": "Mariquita de jardín"
+  },
   "BP_Bug_MantisE_C": {
     "name": "Mantis feérica"
   },
@@ -84,7 +87,7 @@
     "name": "Caracol de jardín"
   },
   "BP_Coral_C": {
-    "description": "Llévate la playa a casa con este trozo de coral. ¡Casi puedes percibir el olor del arrecife!"
+    "description": "Llévate la playa a casa con este trozo de coral. ¡Casi puedes oler el arrecife!"
   },
   "BP_Fish_Hypnotic_Moray_C": {
     "name": "Fish_Hypnotic_Moray_C",
@@ -100,11 +103,11 @@
   },
   "BP_Gatherable_MushroomBlue_C": {
     "name": "Brillampiñón",
-    "description": "Los brillampiñones deslumbran gracias a la absorción del flujo, por lo que tienen muchos usos en la alquimia."
+    "description": "Los hongos brillantes obtienen su resplandor de la absorción del flujo, por lo que tienen muchos usos alquímicos."
   },
   "BP_Gatherable_MushroomR_C": {
     "name": "Colmenilla de montaña",
-    "description": "¡Las colmenillas de montaña, una seta muy común que puedes encontrar en tu propia casa! De lo más populares, tanto crudas como cocinadas."
+    "description": "Las colmenillas de montaña, una seta muy común, ¡se pueden encontrar en casa! Súper populares, crudas o cocinadas."
   },
   "BP_Gatherable_Ruins_C": {
     "name": "«Antiguo cementerio»",
@@ -112,7 +115,11 @@
   },
   "BP_HeartdropLilly_C": {
     "name": "Lirio corazón",
-    "description": "El lirio corazón es una flor poco común, con un significado especial para los palianos: el florecimiento del amor."
+    "description": "El lirio del corazón es una flor rara con un significado especial para los palienses: el florecimiento del amor romántico."
+  },
+  "BP_InsectBall_Stealth_C": {
+    "name": "InsectBall_Stealth_C",
+    "description": ""
   },
   "BP_Mining_Clay_C": {
     "name": "Clay Node",
@@ -168,23 +175,23 @@
   },
   "BP_Moss_DragonsBeard_C": {
     "name": "Turba de barba de dragón",
-    "description": "La turba de barba de dragón es un musgo alquímico poco común. Debe su nombre a su color, que se parece al de Maji."
+    "description": "La turba de barba de dragón es un musgo raro, alquímico, llamado así por su color, que se parece al de Maji."
   },
   "BP_Moss_EmeraldCarpet_C": {
     "name": "Musgo alfombra esmeralda",
-    "description": "Se dice que tener en casa una alfombra de musgo esmeralda da buena suerte."
+    "description": "Se dice que llenar su casa con el brillante color del musgo alfombra esmeralda trae buena suerte."
   },
   "BP_Oyster_C": {
     "name": "Ostra cerrada",
-    "description": "¡Abre esta ostra! Aunque no tenga ninguna perla, al menos puedes comértela."
+    "description": "¡Abre esta ostra! Aunque no encuentres una perla, al menos puedes comértela."
   },
   "BP_PoisonFlower_C": {
     "name": "Margarita salvaje",
-    "description": "La margarita salvaje puede sobrevivir incluso a las condiciones más duras."
+    "description": "La montañosa Briar Daisy puede sobrevivir incluso a las condiciones más duras."
   },
   "BP_Seashell_C": {
     "name": "Concha",
-    "description": "¿Quién vende conchas marinas a orillas del mar? Nadie. Esto te lo has tenido que buscar tú."
+    "description": "¿Quién vende conchas marinas a orillas del mar? Nadie. Tuviste que encontrar esto tú mismo."
   },
   "BP_ShrubChoppable_Bush_C": {
     "name": "Bush",
@@ -192,11 +199,11 @@
   },
   "BP_Spice_DariCloves_C": {
     "name": "Claveros dari",
-    "description": "El clavero dari, una especia muy poco común, goza de una gran popularidad entre cocineros y alquimistas. Se dice que tiene propiedades mágicas."
+    "description": "El raro clavo de Dari es una especia muy apreciada por cocineros y alquimistas. Se dice que tiene propiedades mágicas."
   },
   "BP_Spice_HeatRoot_C": {
     "name": "Raíz caliente",
-    "description": "¡No te preocupes! Ya sea para cocinar o para curarte el alma, la picante raíz caliente te reconfortará, por dentro y por fuera. "
+    "description": "¡No sudes! Ya sea para cocinar o para curar, el picante Raíz Caliente te calentará de dentro a fuera. "
   },
   "BP_Spiced_Sprouts_C": {
     "name": "Brotes de especias",
@@ -204,11 +211,11 @@
   },
   "BP_SundropLillies_C": {
     "name": "Lirio de sol",
-    "description": "El lirio de sol crece en campos abiertos, donde puede dirigir sus pétalos hacia la luz."
+    "description": "El lirio Sundrop crece en campos abiertos, donde puede dirigir sus pétalos hacia la luz del sol."
   },
   "BP_SweetLeaves_C": {
     "name": "Hoja dulce",
-    "description": "A los golosos les encantará esta hoja dulce, uno de los postres favoritos de Palia."
+    "description": "A los golosos les encantará esta Hoja Dulce, uno de los postres favoritos de Palia."
   },
   "BP_TreeChoppable_Birch_Large_C": {
     "name": "Large Birch Tree",
@@ -286,12 +293,20 @@
     "name": "Small Pine Tree",
     "description": ""
   },
+  "BP_TreeChoppable_Pine_Small_CoOp_C": {
+    "name": "Flowing Small Pine Tree",
+    "description": ""
+  },
   "BP_ValeriaHuntingCreature_Cearnuk_T1_C": {
     "name": "Cearnuk T1",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Cearnuk_T2_C": {
     "name": "Cearnuk T2",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Cearnuk_T3_C": {
+    "name": "Cearnuk T3",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Chapaa_T1_C": {
@@ -308,7 +323,7 @@
   },
   "BP_WaterFlower_C": {
     "name": "Loto del Lago de Cristal",
-    "description": "El loto del Lago de Cristal debe su nombre al lugar donde se descubrió. Ahora se utiliza para fabricar tintes."
+    "description": "El loto de Crystal Lake recibe su nombre del lugar donde se descubrió y ahora se utiliza para fabricar tintes."
   },
   "BP_WaterPlane_Fishing_AZ1_Cave_SQ_C": {
     "name": "WaterPlane_Fishing_AZ1_Cave_SQ_C",
@@ -332,6 +347,6 @@
   },
   "BP_WildGarlic_C": {
     "name": "Ajo silvestre",
-    "description": "El ajo es un complemento delicioso para cualquier plato que cocines. También te lo puedes comer crudo para darle un fuerte aroma a tu aliento."
+    "description": "El ajo es un complemento delicioso para cualquier plato que cocine. O puede comerse crudo para perfumar el aliento."
   }
 }

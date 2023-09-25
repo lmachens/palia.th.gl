@@ -53,6 +53,9 @@
   "BP_Bug_LadybugR_C": {
     "name": "Prinzessinnen-Marienkäfer"
   },
+  "BP_Bug_LadybugU_C": {
+    "name": "Garten-Marienkäfer"
+  },
   "BP_Bug_MantisE_C": {
     "name": "Feen-Gottesanbeterin"
   },
@@ -85,7 +88,7 @@
   },
   "BP_Coral_C": {
     "name": "Koralle",
-    "description": "Mit diesem Stück Koralle hast du ein Stück Strand zu Hause. Da kann man fast das Riff riechen!"
+    "description": "Holen Sie sich den Strand mit diesem Stück Koralle nach Hause. Man kann das Riff fast riechen!"
   },
   "BP_Fish_Hypnotic_Moray_C": {
     "name": "Fish_Hypnotic_Moray_C",
@@ -101,11 +104,11 @@
   },
   "BP_Gatherable_MushroomBlue_C": {
     "name": "Leuchtpilz",
-    "description": "Leuchtpilze erhalten ihr Leuchten durch die Absorption von Strömung und werden daher oft in der Alchemie angewandt."
+    "description": "Brightshrooms erhalten ihr Leuchten durch die Absorption von Flow und haben daher viele alchemistische Anwendungen."
   },
   "BP_Gatherable_MushroomR_C": {
     "name": "Bergmorchel",
-    "description": "Die Bergmorchel ist ein weitverbreiteter Pilz, den man auch bei uns finden kann! Sehr beliebt, ob roh oder gekocht."
+    "description": "Die Bergmorchel ist ein weit verbreiteter Pilz, den man auch bei uns finden kann! Sehr beliebt, roh oder gekocht."
   },
   "BP_Gatherable_Ruins_C": {
     "name": "„Uralte Begräbnisstätte“",
@@ -113,7 +116,11 @@
   },
   "BP_HeartdropLilly_C": {
     "name": "Herztropfenlilie",
-    "description": "Die Herztropfenlilie ist eine seltene Blume, die für Palianer eine besondere Bedeutung hat: das Aufblühen romantischer Liebe."
+    "description": "Die Heartdrop-Lilie ist eine seltene Blume, die für die Palianer eine besondere Bedeutung hat: das Aufblühen der romantischen Liebe."
+  },
+  "BP_InsectBall_Stealth_C": {
+    "name": "InsectBall_Stealth_C",
+    "description": ""
   },
   "BP_Mining_Clay_C": {
     "name": "Clay Node",
@@ -173,19 +180,19 @@
   },
   "BP_Moss_EmeraldCarpet_C": {
     "name": "Smaragdgrünes Teppichmoos",
-    "description": "Die leuchtende Farbe des Smaragdgrünen Teppichmooses soll Glück bringen, wenn man sein Heim damit füllt."
+    "description": "Die leuchtende Farbe des smaragdgrünen Teppichmooses soll Glück bringen, wenn man sein Heim damit füllt."
   },
   "BP_Oyster_C": {
     "name": "Geschlossene Auster",
-    "description": "Mach diese Auster auf! Auch, wenn du keine Perle findest, kannst du sie wenigstens essen."
+    "description": "Öffne diese Auster! Auch wenn du keine Perle findest, kannst du sie wenigstens essen."
   },
   "BP_PoisonFlower_C": {
     "name": "Dornengänseblümchen",
-    "description": "Das Dornengänseblümchen aus den Bergen kommt selbst mit härtesten Bedingungen zurecht."
+    "description": "Die bergige Briar Daisy kann selbst die härtesten Bedingungen überstehen."
   },
   "BP_Seashell_C": {
     "name": "Muschel",
-    "description": "Nachdem du so viele Muscheln am Meer gefunden hast, kannst du nicht mehr."
+    "description": "Wer verkauft Muscheln am Meeresufer? Keiner. Du musstest sie selbst finden."
   },
   "BP_ShrubChoppable_Bush_C": {
     "name": "Bush",
@@ -197,19 +204,19 @@
   },
   "BP_Spice_HeatRoot_C": {
     "name": "Feuerwurzel",
-    "description": "Keine Panik! Ob beim Kochen oder Heilen, die heiße Feuerwurzel wärmt von innen heraus. "
+    "description": "Keine Panik! Ob beim Kochen oder Heilen, die würzige Heat Root wärmt Sie von innen heraus. "
   },
   "BP_Spiced_Sprouts_C": {
     "name": "Gewürzsprossen",
-    "description": "Gewürzsprossen verleihen jedem Gericht eine satte Farbe und einen erdigen Geschmack. Dazu sind sie noch recht einfach zu finden …"
+    "description": "Gewürzsprossen verleihen jedem Gericht eine satte Farbe und einen erdigen Geschmack. Und sie sind auch ziemlich leicht zu finden..."
   },
   "BP_SundropLillies_C": {
     "name": "Sonnentropfenlilie",
-    "description": "Die Sonnentropfenlilie wächst auf offenen Feldern, auf denen sie ihre Blütenblätter dem Sonnenlicht zuwenden kann."
+    "description": "Die Sundrop-Lilie wächst auf offenen Feldern, wo sie ihre Blütenblätter dem Sonnenlicht zuwenden kann."
   },
   "BP_SweetLeaves_C": {
     "name": "Süßblatt",
-    "description": "Naschkatzen werden dieses Süßblatt lieben. Es ist eine der beliebtesten Zutaten für Desserts in Palia."
+    "description": "Naschkatzen werden dieses Sweet Leaf lieben, eine von Palias Lieblingsdessertzutaten."
   },
   "BP_TreeChoppable_Birch_Large_C": {
     "name": "Large Birch Tree",
@@ -287,12 +294,20 @@
     "name": "Small Pine Tree",
     "description": ""
   },
+  "BP_TreeChoppable_Pine_Small_CoOp_C": {
+    "name": "Flowing Small Pine Tree",
+    "description": ""
+  },
   "BP_ValeriaHuntingCreature_Cearnuk_T1_C": {
     "name": "Cearnuk T1",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Cearnuk_T2_C": {
     "name": "Cearnuk T2",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Cearnuk_T3_C": {
+    "name": "Cearnuk T3",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Chapaa_T1_C": {
@@ -309,7 +324,7 @@
   },
   "BP_WaterFlower_C": {
     "name": "Kristallsee-Lotos",
-    "description": "Der Kristallsee-Lotos ist nach dem Ort benannt, an dem er entdeckt wurde, und wird heute zur Herstellung von Farbstoffen verwendet."
+    "description": "Der Crystal Lake Lotus ist nach dem Ort benannt, an dem er entdeckt wurde, und wird heute zur Herstellung von Farbstoffen verwendet."
   },
   "BP_WaterPlane_Fishing_AZ1_Cave_SQ_C": {
     "name": "WaterPlane_Fishing_AZ1_Cave_SQ_C",
@@ -333,6 +348,6 @@
   },
   "BP_WildGarlic_C": {
     "name": "Knoblauch",
-    "description": "Knoblauch ist eine köstliche Ergänzung für jedes Gericht! Er kann auch roh gegessen werden, um den Atem zu parfümieren."
+    "description": "Knoblauch ist eine köstliche Ergänzung für jedes Gericht, das Sie kochen! Er kann auch roh gegessen werden, um den Atem zu parfümieren."
   }
 }
