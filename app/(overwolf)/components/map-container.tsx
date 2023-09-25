@@ -11,6 +11,7 @@ export default function MapContainer({
 }: {
   children?: React.ReactNode;
 }) {
+  const targetRef = useRef<HTMLDivElement>(null);
   const mapContainerRef = useRef<HTMLDivElement>(null);
   const map = useMap();
   const { lockedWindow, mapTransform, setMapTransform } = useSettingsStore(
@@ -24,6 +25,7 @@ export default function MapContainer({
   const [isEditMode, setIsEditMode] = useState(false);
   const moveableRef = useRef<Moveable>(null);
   const isOverlay = useGameInfoStore((state) => state.isOverlay);
+
   useEffect(() => {
     if (!isOverlay) {
       return;
@@ -60,7 +62,7 @@ export default function MapContainer({
       >
         {!lockedWindow && (
           <div className="absolute -top-6 right-0 flex w-fit rounded-t-lg bg-opacity-50 bg-neutral-800 ml-auto text-neutral-300">
-            <div className="cursor-move flex items-center p-1">
+            <div ref={targetRef} className="cursor-move flex items-center p-1">
               <svg className="w-[16px] h-[16px]">
                 <use xlinkHref="#icon-move" />
               </svg>
@@ -81,6 +83,7 @@ export default function MapContainer({
         <Moveable
           ref={moveableRef}
           target={mapContainerRef}
+          dragTarget={targetRef}
           draggable
           resizable={isEditMode}
           hideDefaultLines
@@ -88,13 +91,6 @@ export default function MapContainer({
           snappable
           origin={false}
           onDrag={(e) => {
-            if (
-              e.inputEvent &&
-              e.inputEvent.type === "mousemove" &&
-              e.inputEvent.srcElement?.tagName === "CANVAS"
-            ) {
-              return;
-            }
             e.target.style.cssText += e.cssText;
           }}
           onResize={(e) => {

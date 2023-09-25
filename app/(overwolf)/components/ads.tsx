@@ -1,7 +1,7 @@
 "use client";
 import { useDict } from "@/app/components/(i18n)/i18n-provider";
 import Modal from "@/app/components/modal";
-import { API_BASE_URI, isDevelopment } from "@/app/lib/env";
+import { API_BASE_URI } from "@/app/lib/env";
 import { useAccountStore } from "@/app/lib/storage/account";
 import { useGameInfoStore } from "@/app/lib/storage/game-info";
 import { useSettingsStore } from "@/app/lib/storage/settings";
@@ -18,6 +18,7 @@ declare global {
 
 function Ads() {
   const containerRef = useRef<HTMLDivElement | null>(null);
+  const targetRef = useRef<HTMLDivElement>(null);
   const adRef = useRef<HTMLDivElement | null>(null);
   const isPatron = useAccountStore((state) => state.isPatron);
   const settingsStore = useSettingsStore();
@@ -50,7 +51,7 @@ function Ads() {
     };
   }, []);
 
-  if (isPatron || isDevelopment) {
+  if (isPatron) {
     return <></>;
   }
 
@@ -80,7 +81,7 @@ function Ads() {
         {(!settingsStore.lockedWindow || !isOverlay) && (
           <div className="flex w-fit rounded-t-lg bg-opacity-50 bg-neutral-800 ml-auto text-neutral-300">
             <p className="px-1.5 font-xs font-mono">Palia Map</p>
-            <div className="cursor-move flex items-center p-1">
+            <div ref={targetRef} className="cursor-move flex items-center p-1">
               <svg className="w-[16px] h-[16px]">
                 <use xlinkHref="#icon-move" />
               </svg>
@@ -109,6 +110,7 @@ function Ads() {
         <Moveable
           ref={moveableRef}
           target={containerRef}
+          dragTarget={targetRef}
           draggable
           bounds={{ left: 0, top: 30, right: 0, bottom: 0, position: "css" }}
           origin={false}
