@@ -25,6 +25,7 @@ async function _GET(request: NextRequest) {
 
           return {
             id: value.name,
+            item: value.item,
             name: terms?.name ?? value.name,
             description: terms?.description,
             rewardLevel: value.rewardLevel,
@@ -37,6 +38,7 @@ async function _GET(request: NextRequest) {
       string,
       {
         name: string;
+        item: string;
         description?: string;
         rewardLevel: REWARD_LEVEL;
       }[]

@@ -3,16 +3,20 @@ import { ReactNode } from "react";
 export default function ExternalLink({
   href,
   text,
+  className,
 }: {
   href: string;
   text: ReactNode;
+  className?: string;
 }) {
   return (
     <a
       key={href}
       href={href}
       target="_blank"
-      className="flex items-center gap-1 text-gray-300 hover:text-white"
+      className={`flex items-center gap-1 text-gray-300 hover:text-white ${
+        className ?? ""
+      }`}
     >
       {text}
       <svg

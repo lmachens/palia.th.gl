@@ -7,6 +7,7 @@ export type WEEKLY_WANTS = {
     string,
     {
       id: string;
+      item: string;
       name: string;
       description?: string;
       rewardLevel: REWARD_LEVEL;

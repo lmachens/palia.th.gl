@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import { useParams } from "next/navigation";
+import Script from "next/script";
 import { useState } from "react";
 import useSWR from "swr";
 import { isOverwolfApp } from "../lib/env";
@@ -8,6 +9,7 @@ import { useWeeklyWantsStore } from "../lib/storage/weekly-wants";
 import { villagers } from "../lib/villager";
 import { getWeeklyWants } from "../lib/weekly-wants";
 import { useDict } from "./(i18n)/i18n-provider";
+import ExternalLink from "./external-link";
 import Popover from "./popover";
 
 export default function WeeklyWants() {
@@ -23,6 +25,7 @@ export default function WeeklyWants() {
 
   return (
     <>
+      <Script src="https://paliapedia.com/embed.js" />
       {Object.entries(villagers).map(([id, villager]) => {
         return (
           <Popover
@@ -77,27 +80,34 @@ export default function WeeklyWants() {
                 <>
                   {data.weeklyWants[id]?.map((item) => {
                     return (
-                      <label key={item.name} className="flex gap-1 text-sm">
-                        <input
-                          type="checkbox"
-                          checked={weeklyWants.finished.some(
-                            (v) =>
-                              v.id === item.id &&
-                              v.villagerId === id &&
-                              v.version === data.version
-                          )}
-                          onChange={() =>
-                            weeklyWants.toggleFinished(
-                              id,
-                              item.id,
-                              data.version
-                            )
-                          }
-                        />
-                        <span>
-                          {item.name} {item.rewardLevel === "Love" ? "💕" : ""}
-                        </span>
-                      </label>
+                      <ExternalLink
+                        key={item.name}
+                        href={`https://paliapedia.com/item/${item.item}`}
+                        text={
+                          <label className="flex gap-1 text-sm">
+                            <input
+                              type="checkbox"
+                              checked={weeklyWants.finished.some(
+                                (v) =>
+                                  v.id === item.id &&
+                                  v.villagerId === id &&
+                                  v.version === data.version
+                              )}
+                              onChange={() =>
+                                weeklyWants.toggleFinished(
+                                  id,
+                                  item.id,
+                                  data.version
+                                )
+                              }
+                            />
+                            <span>
+                              {item.name}{" "}
+                              {item.rewardLevel === "Love" ? "💕" : ""}
+                            </span>
+                          </label>
+                        }
+                      />
                     );
                   })}
                 </>
