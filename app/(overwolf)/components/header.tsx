@@ -3,6 +3,7 @@ import { useGameInfoStore } from "@/app/lib/storage/game-info";
 import { useSettingsStore } from "@/app/lib/storage/settings";
 import { useLayoutEffect, useState } from "react";
 import {
+  closeMainWindow,
   maximizeWindow,
   togglePreferedWindow,
   useCurrentWindow,
@@ -159,7 +160,7 @@ export default function Header() {
               <button
                 className="h-[30px] w-[30px] flex items-center hover:bg-red-600"
                 id="close"
-                onClick={() => overwolf.windows.close(currentWindow!.id)}
+                onClick={closeMainWindow}
               >
                 <svg>
                   <use xlinkHref="#window-control_close" />
