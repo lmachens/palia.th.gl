@@ -42,12 +42,20 @@ const DISCOVER_LINKS = [
     text: "Palia Database",
   },
   {
+    href: "https://www.paliatracker.com/?ref=palia.th.gl",
+    text: "Palia Gift Tracker",
+  },
+  {
     href: "https://palia-garden-planner.vercel.app/?ref=palia.th.gl",
     text: "Palia Garden Planner",
   },
   {
-    href: "https://palia.anniebananie.io/?ref=palia.th.gl",
-    text: "Palia Gift Tracker",
+    href: "https://paliaplanner.com/?ref=palia.th.gl",
+    text: "Palia Planner",
+  },
+  {
+    href: "https://camillesimon.github.io/PaliaTracker/?ref=palia.th.gl",
+    text: "Palia Tracker",
   },
   {
     href: "https://www.th.gl/?ref=palia.th.gl",
