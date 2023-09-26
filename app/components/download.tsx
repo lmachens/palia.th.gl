@@ -40,7 +40,7 @@ const GetTheApp = () => {
     <a
       href="https://download.overwolf.com/install/Download?Name=Palia+Map&ExtensionId=fgbodfoepckgplklpccjedophlahnjemfdknhfce&Channel=web_dl_btn"
       target="_blank"
-      className="flex pointer-events-auto items-center gap-1 md:rounded-lg bg-orange-600 hover:bg-orange-500 text-white uppercase px-2 py-1 justify-center whitespace-nowrap w-fit mx-auto mt-4"
+      className="flex pointer-events-auto items-center gap-1 md:rounded-lg bg-orange-600 hover:bg-orange-500 text-white uppercase px-2 py-1 justify-center whitespace-nowrap w-fit mx-auto my-4"
       onClick={() => trackOutboundLinkClick("Overwolf Download Button")}
     >
       <svg
@@ -66,8 +66,8 @@ const GetTheApp = () => {
 export default function Download() {
   const dict = useDict();
   return (
-    <>
-      <header className="border-b bg-neutral-900 border-gray-700 h-30 text-center p-2">
+    <div className="overflow-auto h-full">
+      <header className="border-b bg-neutral-900 border-gray-700 text-center p-2">
         <Link href="/">{dict.download.backToTheMap}</Link>
       </header>
       <div className="container mx-auto p-4 text-center">
@@ -114,6 +114,6 @@ export default function Download() {
         <p className="mt-8 text-gray-500">{dict.download.note}</p>
         <GetTheApp />
       </div>
-    </>
+    </div>
   );
 }
