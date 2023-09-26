@@ -95,16 +95,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   });
 
-  return [
-    {
-      url: "https://palia.th.gl",
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 1,
-    },
-    ...mapsMap,
-    ...downloadMap,
-    ...filtersMap,
-    ...nodesMap,
-  ];
+  return [...mapsMap, ...downloadMap, ...filtersMap, ...nodesMap];
 }
