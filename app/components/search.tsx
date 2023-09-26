@@ -3,6 +3,7 @@
 import { useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import { useOverwolfRouter } from "../(overwolf)/components/overwolf-router";
+import { isOverwolfApp } from "../lib/env";
 import { useUpdateSearchParams } from "../lib/search-params";
 import { useGameInfoStore } from "../lib/storage/game-info";
 import {
@@ -11,6 +12,7 @@ import {
 } from "../lib/storage/global-settings";
 import { useSettingsStore } from "../lib/storage/settings";
 import { useDict } from "./(i18n)/i18n-provider";
+import AppDownload from "./app-download";
 import Filters from "./filters";
 import Maps from "./maps";
 import Routes from "./routes";
@@ -49,7 +51,7 @@ export default function Search() {
       <div
         className={`bg-black md:bg-transparent flex overflow-auto pointer-events-auto pb-1`}
       >
-        {/* {!isOverwolfApp && <AppDownload />} */}
+        {!isOverwolfApp && <AppDownload />}
         {(!settingsStore.lockedWindow || !isOverlay) && <WeeklyWants />}
       </div>
       {(!settingsStore.lockedWindow || !isOverlay) && (

@@ -3,7 +3,7 @@ import { DEFAULT_LOCALE, LOCALES, loadDictionary } from "./app/lib/i18n";
 import { DEFAULT_MAP, isMap } from "./app/lib/maps";
 
 const COOKIE_NAME = "i18next";
-
+const validPages = ["download"];
 function getUserLanguage(req: NextRequest) {
   if (req.cookies.has(COOKIE_NAME)) {
     const cookie = req.cookies.get(COOKIE_NAME)!.value;
@@ -15,31 +15,33 @@ function getUserLanguage(req: NextRequest) {
 }
 
 function getPathParams(pathname: string) {
-  const [, pathLanguage, map] = pathname.split("/") ?? [];
+  const [, pathLanguage, page] = pathname.split("/") ?? [];
   if (pathLanguage && LOCALES.includes(pathLanguage)) {
-    if (!map) {
-      return { pathLanguage, map: null };
+    if (!page) {
+      return { pathLanguage, page: null };
     }
     const dict = loadDictionary(pathLanguage);
-    const mapTitle = decodeURIComponent(map);
+    const mapTitle = decodeURIComponent(page);
     const mapEntry = Object.entries(dict.maps).find(([, value]) => {
       return value === mapTitle;
     });
 
     if (mapEntry && isMap(mapEntry[0])) {
-      return { pathLanguage, map: mapEntry[0] };
+      return { pathLanguage, page: mapEntry[0] };
+    } else if (validPages.includes(page)) {
+      return { pathLanguage, page: page };
     }
-    return { pathLanguage, map: null };
+    return { pathLanguage, page: null };
   }
-  return { pathLanguage: null, map: null };
+  return { pathLanguage: null, page: null };
 }
 
 export async function middleware(req: NextRequest) {
   const userLanguage = getUserLanguage(req);
   const dict = loadDictionary(userLanguage);
-  const { pathLanguage, map } = getPathParams(req.nextUrl.pathname);
+  const { pathLanguage, page } = getPathParams(req.nextUrl.pathname);
   if (pathLanguage) {
-    if (!map) {
+    if (!page) {
       const res = NextResponse.redirect(
         new URL(`/${pathLanguage}/${dict.maps[DEFAULT_MAP]}`, req.url)
       );

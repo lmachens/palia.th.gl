@@ -5,6 +5,11 @@ import { DEFAULT_LOCALE, LOCALES, loadDictionary } from "./i18n";
 import { isMap } from "./maps";
 import { nodes } from "./nodes";
 
+const DEFAULT_META = {
+  creator: "Leon Machens",
+  themeColor: "black",
+};
+
 export function generateMetadata({
   params: { lang = DEFAULT_LOCALE, map, name, coordinates: paramsCoordinates },
   searchParams,
@@ -13,6 +18,39 @@ export function generateMetadata({
   searchParams: { [key: string]: string | string[] | undefined };
 }): Metadata {
   const dict = loadDictionary(lang);
+  let canonical =
+    (isDevelopment ? "http://localhost:3668" : API_BASE_URI) + `/${lang}`;
+
+  if (map === "download") {
+    const metaTitle = "Palia Map App Download";
+    const description =
+      "Download the Palia Map App, your ultimate companion for exploring the Palia world. Enhance your gaming experience with interactive maps, real-time tracking, and more.";
+
+    const alternativeLanguages = LOCALES.reduce((acc, locale) => {
+      acc[locale] = API_BASE_URI + `/${locale}`;
+      return acc;
+    }, {} as Record<string, string>);
+
+    return {
+      title: metaTitle,
+      description: description,
+      alternates: {
+        canonical: canonical,
+        languages: alternativeLanguages,
+      },
+      twitter: {
+        card: "summary_large_image",
+      },
+      openGraph: {
+        title: metaTitle,
+        description: description,
+        type: "website",
+        url: "https://palia.th.gl",
+      },
+      ...DEFAULT_META,
+    };
+  }
+
   const title = name && decodeURIComponent(name);
   const mapTitle = decodeURIComponent(map);
   const coordinates =
@@ -22,14 +60,12 @@ export function generateMetadata({
       .map(Number) ?? [];
 
   const node =
-    name &&
+    name?.length &&
     nodes.find((node) => {
       return node.x === coordinates[0] && node.y === coordinates[1];
     });
 
-  let canonical =
-    (isDevelopment ? "http://localhost:3668" : API_BASE_URI) +
-    `/${lang}/${mapTitle}`;
+  canonical += `/${mapTitle}`;
   let description = dict.meta.description;
   if (node) {
     const terms = !node.isSpawnNode
@@ -105,8 +141,6 @@ export function generateMetadata({
   return {
     title: metaTitle,
     description: description,
-    creator: "Leon Machens",
-    themeColor: "black",
     alternates: {
       canonical: canonical,
       languages: alternativeLanguages,
@@ -122,5 +156,6 @@ export function generateMetadata({
       url: "https://palia.th.gl",
       images: screenshotUrl,
     },
+    ...DEFAULT_META,
   };
 }

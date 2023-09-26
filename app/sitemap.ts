@@ -22,6 +22,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       });
     }
   );
+  const downloadMap = LOCALES.map<MetadataRoute.Sitemap[number]>((locale) => {
+    return {
+      url: `https://palia.th.gl/${locale}/download`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: locale === DEFAULT_LOCALE ? 1 : 0.9,
+    };
+  });
 
   const filtersMap = [
     ...Object.keys(staticNodes),
@@ -95,6 +103,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     ...mapsMap,
+    ...downloadMap,
     ...filtersMap,
     ...nodesMap,
   ];

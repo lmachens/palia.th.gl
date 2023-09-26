@@ -7,6 +7,7 @@ import { I18NProvider } from "@/app/components/(i18n)/i18n-provider";
 import ActiveRoutes from "@/app/components/(map)/active-routes";
 import Nodes from "@/app/components/(map)/nodes";
 import Tiles from "@/app/components/(map)/tiles";
+import Download from "@/app/components/download";
 import Menu from "@/app/components/menu";
 import PlausibleTracker from "@/app/components/plausible-tracker";
 import SearchParams from "@/app/components/search-params";
@@ -40,15 +41,29 @@ function Layout({
   if (!isLang(lang)) {
     notFound();
   }
-
   const dict = loadDictionary(lang);
-  const mapTitle = decodeURIComponent(map);
-  const mapEntry = Object.entries(dict.maps).find(([, value]) => {
-    return value === mapTitle;
-  });
 
-  if (!mapEntry || !isMap(mapEntry[0])) {
-    notFound();
+  let content: JSX.Element;
+  if (map === "download") {
+    content = <Download />;
+  } else {
+    const mapTitle = decodeURIComponent(map);
+    const mapEntry = Object.entries(dict.maps).find(([, value]) => {
+      return value === mapTitle;
+    });
+
+    if (!mapEntry || !isMap(mapEntry[0])) {
+      notFound();
+    }
+    content = (
+      <Map map={mapEntry[0]}>
+        <Tiles map={mapEntry[0]} />
+        <Nodes map={mapEntry[0]} />
+        <ActiveRoutes />
+        <Search />
+        <Menu />
+      </Map>
+    );
   }
   return (
     <html lang={lang}>
@@ -63,13 +78,7 @@ function Layout({
             dict,
           }}
         >
-          <Map map={mapEntry[0]}>
-            <Tiles map={mapEntry[0]} />
-            <Nodes map={mapEntry[0]} />
-            <ActiveRoutes />
-            <Search />
-            <Menu />
-          </Map>
+          {content}
           {children}
         </I18NProvider>
         <SearchParams />

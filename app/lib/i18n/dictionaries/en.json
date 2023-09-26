@@ -5,6 +5,36 @@
     "description": "Maximize your Palia gameplay with this Interactive Palia Map! Discover Kilima Valley, Bahari Bay and Fairgrounds, find all locations with real-time position tracking. The weekly wants are also available for all villagers.",
     "locations": "Locations"
   },
+  "download": {
+    "backToTheMap": "Back to the map",
+    "title": "The Palia Map App: Your Ultimate Palia Companion",
+    "realTimePosition": {
+      "title": "Real-Time Player Position Tracking",
+      "description": "Keep tabs on your in-game character's location with real-time tracking. Whether you're exploring, farming, or hunting, always know where you are on the map."
+    },
+    "2ndScreenMode": {
+      "title": "2nd Screen Mode",
+      "description": "Experience Palia with the map as your trusted companion in 2nd screen mode. Keep an eye on your surroundings while exploring the magical world."
+    },
+    "overlayMode": {
+      "title": "Overlay Mode (Minimap)",
+      "description": "Transform the map into a handy overlay mode, perfect for use as a minimap while you immerse yourself in the Palia adventure."
+    },
+    "weeklyWants": {
+      "title": "Weekly Wants",
+      "description": "Stay updated on Palia's villagers' weekly wants and strengthen your bonds by fulfilling their desires. Some items even earn you extra love! 💕"
+    },
+    "filteringOptions": {
+      "title": "Filtering Options",
+      "description": "Effortlessly customize your Palia Map experience with a variety of filters, including filters for insects, foraging, mining, hunting, and more. Tailor the map to your exploration preferences."
+    },
+    "multiLanguageSupport": {
+      "title": "Multi-Language Support",
+      "description": "Access the Palia Map App in your preferred language with support for 🇬🇧 English, 🇩🇪 German, 🇪🇸 Spanish, 🇫🇷 French, and 🇮🇹 Italian."
+    },
+    "note": "The Palia Map App is designed to enhance your Palia adventure with a range of features including interactive maps, real-time player tracking, weekly wants, and more. Explore Palia like never before and create your own unique experiences in this magical world.",
+    "download": "Download the app"
+  },
   "menu": {
     "patronInfo": "Get rid of ads and support me on Patreon",
     "becomePatron": "Become a Patron",

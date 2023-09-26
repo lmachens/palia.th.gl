@@ -5,6 +5,36 @@
         "description": "Optimiere dein Palia-Spielerlebnis mit dieser interaktiven Palia-Karte! Entdecke Kilima-Tal, Bahari-Bucht und den Jahrmarkt, finde alle Orte mit Echtzeit-Positionsverfolgung. Die wöchentlichen Wünsche stehen auch allen Dorfbewohnern zur Verfügung.",
         "locations": "Orte"
     },
+    "download": {
+        "backToTheMap": "Zurück zur Karte",
+        "title": "Die Palia Map App: Dein ultimativer Palia-Begleiter",
+        "realTimePosition": {
+            "title": "Echtzeit-Spielerpositionsverfolgung",
+            "description": "Verfolge den Standort deines Spielcharakters in Echtzeit. Egal, ob du erkundest, Landwirtschaft betreibst oder jagst, weißt du immer, wo du auf der Karte bist."
+        },
+        "2ndScreenMode": {
+            "title": "2-Bildschirm-Modus",
+            "description": "Erlebe Palia mit der Karte als deinem treuen Begleiter im 2-Bildschirm-Modus. Behalte deine Umgebung im Auge, während du die magische Welt erkundest."
+        },
+        "overlayMode": {
+            "title": "Overlay-Modus (Minimap)",
+            "description": "Verwandle die Karte in einen praktischen Overlay-Modus, der sich perfekt als Minimap eignet, während du in das Palia-Abenteuer eintauchst."
+        },
+        "weeklyWants": {
+            "title": "Wochenwünsche",
+            "description": "Bleib über die wöchentlichen Wünsche der Palia-Dorfbewohner auf dem Laufenden und stärke deine Bindungen, indem du ihre Wünsche erfüllst. Einige Gegenstände bringen dir sogar zusätzliche Liebe ein! 💕"
+        },
+        "filteringOptions": {
+            "title": "Filteroptionen",
+            "description": "Passe dein Palia Map-Erlebnis mit einer Vielzahl von Filtern mühelos an, darunter Filter für Insekten, Nahrungssuche, Bergbau, Jagd und mehr. Schließe die Karte an deine Erkundungspräferenzen an."
+        },
+        "multiLanguageSupport": {
+            "title": "Mehrsprachigkeit",
+            "description": "Greife auf die Palia Map App in deiner bevorzugten Sprache zu, mit Unterstützung für 🇬🇧 Englisch, 🇩🇪 Deutsch, 🇪🇸 Spanisch, 🇫🇷 Französisch und 🇮🇹 Italienisch."
+        },
+        "note": "Die Palia Map App wurde entwickelt, um dein Palia-Abenteuer mit einer Reihe von Funktionen zu verbessern, darunter interaktive Karten, Echtzeit-Spielerlokalisierung, wöchentliche Wünsche und mehr. Erkunde Palia wie nie zuvor und schaffe deine eigenen einzigartigen Erlebnisse in dieser magischen Welt.",
+        "download": "App herunterladen"
+    },
     "menu": {
         "patronInfo": "Werbung entfernen und mich auf Patreon unterstützen",
         "becomePatron": "Werde ein Patron",

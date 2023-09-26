@@ -5,6 +5,36 @@
         "description": "¡Maximiza tu experiencia en Palia con este Mapa Interactivo de Palia! Descubre Valle Kilima, Bahía Bahari y el Recinto Ferial, encuentra todas las ubicaciones con seguimiento en tiempo real. Los deseos semanales también están disponibles para todos los aldeanos.",
         "locations": "Ubicaciones"
     },
+    "download": {
+        "backToTheMap": "Volver al mapa",
+        "title": "La aplicación Palia Map: Tu mejor compañero en Palia",
+        "realTimePosition": {
+            "title": "Seguimiento de la posición del jugador en tiempo real",
+            "description": "Haz un seguimiento de la ubicación de tu personaje en el juego en tiempo real. Tanto si estás explorando, cultivando o cazando, siempre sabrás dónde te encuentras en el mapa."
+        },
+        "2ndScreenMode": {
+            "title": "Modo de segunda pantalla",
+            "description": "Disfruta de Palia con el mapa como tu fiel compañero en el modo de segunda pantalla. Vigila tu entorno mientras exploras el mundo mágico."
+        },
+        "overlayMode": {
+            "title": "Modo de superposición (minimapa)",
+            "description": "Transforma el mapa en un práctico modo de superposición, perfecto para utilizarlo como minimapa mientras te sumerges en la aventura de Palia."
+        },
+        "weeklyWants": {
+            "title": "Deseos semanales",
+            "description": "Mantente al día de los deseos semanales de los aldeanos de Palia y fortalece tus lazos cumpliendo sus deseos. Algunos objetos incluso te hacen ganar amor extra. 💕"
+        },
+        "filteringOptions": {
+            "title": "Opciones de filtrado",
+            "description": "Personaliza tu experiencia con Palia Map sin esfuerzo con una variedad de filtros, incluidos filtros para insectos, recolección, minería, caza y más. Adapta el mapa a tus preferencias de exploración."
+        },
+        "multiLanguageSupport": {
+            "title": "Compatibilidad con varios idiomas",
+            "description": "Accede a la aplicación Palia Map en tu idioma preferido, con soporte para 🇬🇧 inglés, 🇩🇪 alemán, 🇪🇸 español, 🇫🇷 francés e 🇮🇹 italiano."
+        },
+        "note": "La aplicación Palia Map fue desarrollada para mejorar tu aventura en Palia con una serie de funciones, incluidos mapas interactivos, localización del jugador en tiempo real, deseos semanales y más. Explora Palia como nunca antes y crea tus propias experiencias únicas en este mundo mágico.",
+        "download": "Descargar la aplicación"
+    },
     "menu": {
         "patronInfo": "Elimina los anuncios y apóyame en Patreon",
         "becomePatron": "Conviértete en Patrocinador",

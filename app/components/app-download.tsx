@@ -1,12 +1,13 @@
-import { trackOutboundLinkClick } from "./plausible-tracker";
+import Link from "next/link";
+import { useI18N } from "./(i18n)/i18n-provider";
 
 export default function AppDownload() {
+  const i18n = useI18N();
+
   return (
-    <a
-      href="https://download.overwolf.com/install/Download?Name=Palia+Map&ExtensionId=fgbodfoepckgplklpccjedophlahnjemfdknhfce&Channel=web_dl_btn"
-      target="_blank"
-      className="flex pointer-events-auto items-center gap-1 md:rounded-lg bg-orange-600 hover:bg-orange-500 text-white uppercase px-2 py-1 justify-center whitespace-nowrap"
-      onClick={() => trackOutboundLinkClick("Overwolf Download Button")}
+    <Link
+      href={`/${i18n.locale}/download`}
+      className="flex pointer-events-auto items-center gap-1 md:rounded-lg bg-orange-600 hover:bg-orange-500 text-white uppercase px-2 py-1 justify-center whitespace-nowrap w-fit "
     >
       <svg
         width="24"
@@ -24,6 +25,6 @@ export default function AppDownload() {
         <path d="M4 12l16 0"></path>
       </svg>
       <span>Get the in-game app</span>
-    </a>
+    </Link>
   );
 }
