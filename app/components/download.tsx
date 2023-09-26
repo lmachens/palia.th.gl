@@ -24,9 +24,9 @@ const FeatureCard = ({
 }) => {
   return (
     <div className="max-w-md mx-auto rounded-xl shadow-md overflow-hidden md:max-w-2xl p-8 space-y-4 text-center">
-      <div className="uppercase tracking-wide text-sm text-white font-semibold">
+      <h2 className="uppercase tracking-wide text-sm text-white font-semibold">
         {title} {emoji}
-      </div>
+      </h2>
       <p className="mt-2 text-gray-300">{description}</p>
       <ImageZoomPreview image={image} />
     </div>

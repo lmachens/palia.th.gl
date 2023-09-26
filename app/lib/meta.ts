@@ -26,7 +26,7 @@ export function generateMetadata({
     const description = dict.download.metaDescription;
 
     const alternativeLanguages = LOCALES.reduce((acc, locale) => {
-      acc[locale] = API_BASE_URI + `/${locale}`;
+      acc[locale] = API_BASE_URI + `/${locale}/download`;
       return acc;
     }, {} as Record<string, string>);
 
