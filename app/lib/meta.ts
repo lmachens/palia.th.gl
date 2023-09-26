@@ -34,7 +34,7 @@ export function generateMetadata({
       title: metaTitle,
       description: description,
       alternates: {
-        canonical: canonical,
+        canonical: canonical + "/download",
         languages: alternativeLanguages,
       },
       twitter: {
