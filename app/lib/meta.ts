@@ -22,9 +22,8 @@ export function generateMetadata({
     (isDevelopment ? "http://localhost:3668" : API_BASE_URI) + `/${lang}`;
 
   if (map === "download") {
-    const metaTitle = "Palia Map App Download";
-    const description =
-      "Download the Palia Map App, your ultimate companion for exploring the Palia world. Enhance your gaming experience with interactive maps, real-time tracking, and more.";
+    const metaTitle = dict.download.metaTitle;
+    const description = dict.download.metaDescription;
 
     const alternativeLanguages = LOCALES.reduce((acc, locale) => {
       acc[locale] = API_BASE_URI + `/${locale}`;

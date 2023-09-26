@@ -6,6 +6,8 @@
         "locations": "Emplacements"
     },
     "download": {
+        "metaTitle": "Téléchargez l'application Palia Map",
+        "metaDescription": "Téléchargez l'application Palia Map pour Android et iOS et profitez de fonctionnalités supplémentaires, notamment le suivi de la position du joueur en temps réel, les désirs hebdomadaires et plus encore.",
         "backToTheMap": "Retour à la carte",
         "title": "L'application Palia Map : Votre compagnon Palia ultime",
         "realTimePosition": {
