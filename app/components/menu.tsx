@@ -54,6 +54,14 @@ const DISCOVER_LINKS = [
     text: "Palia Planner",
   },
   {
+    href: "https://paliammo.de/?ref=palia.th.gl",
+    text: "Palia MMO - German Fansite",
+  },
+  {
+    href: "https://discord.gg/YpxRRQmD",
+    text: "Phoenix Rise - Community Events",
+  },
+  {
     href: "https://camillesimon.github.io/PaliaTracker/?ref=palia.th.gl",
     text: "Palia Tracker",
   },
