@@ -44,7 +44,7 @@ export default function Search() {
     <div
       className={`absolute pointer-events-none ${
         overwolfRouter ? "top-[42px]" : "top-0 md:top-3"
-      }  md:right-1 z-[400] transition-all duration-500 ${
+      } w-full md:w-auto right-0 md:right-1 z-[400] transition-all duration-500 ${
         globalSettingsStore.showSidebar ? "md:left-[412px]" : "md:left-3"
       } md:space-y-1`}
     >
