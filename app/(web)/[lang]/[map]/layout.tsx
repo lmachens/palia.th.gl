@@ -60,7 +60,7 @@ function Layout({
         <Tiles map={mapEntry[0]} />
         <Nodes map={mapEntry[0]} />
         <ActiveRoutes />
-        <Search />
+        <Search map={mapEntry[0]} />
         <Menu />
       </Map>
     );

@@ -52,7 +52,8 @@
     "weeklyWants": "Weekly Wants"
   },
   "search": {
-    "placeholder": "Search by name or type"
+    "placeholder": "Search nodes",
+    "noResults": "No results found"
   },
   "maps": {
     "kilima-valley": "Kilima Valley",

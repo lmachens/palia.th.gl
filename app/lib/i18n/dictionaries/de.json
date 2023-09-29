@@ -52,7 +52,8 @@
         "weeklyWants": "Wöchentliche Wünsche"
     },
     "search": {
-        "placeholder": "Nach Name oder Typ suchen"
+        "placeholder": "Suche Marker",
+        "noResults": "Keine Ergebnisse gefunden"
     },
     "maps": {
         "kilima-valley": "Kilima-Tal",

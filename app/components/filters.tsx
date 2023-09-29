@@ -14,7 +14,7 @@ export default function Filters() {
   const [filters, toggleFilter, setFilters] = useFilters();
 
   return (
-    <div className="divide-y divide-neutral-700 border-t border-t-neutral-600 bg-neutral-900 text-gray-200 text-sm w-full md:border md:border-gray-600 md:rounded-lg">
+    <div className="divide-y divide-neutral-700 border-t border-t-neutral-600 bg-neutral-900 text-gray-200 text-sm w-full md:border md:border-gray-600 md:rounded-lg overflow-auto">
       <div className="flex">
         <button
           className="p-2 uppercase hover:text-white w-1/2"

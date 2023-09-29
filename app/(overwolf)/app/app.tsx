@@ -64,7 +64,7 @@ export default function App() {
             <TraceLine />
           </Map>
         </MapContainer>
-        <Search />
+        <Search map={mapName} />
         <Menu />
         <SearchParams />
       </AppContainer>

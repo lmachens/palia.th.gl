@@ -52,7 +52,8 @@
         "weeklyWants": "Desideri settimanali"
     },
     "search": {
-        "placeholder": "Cerca per nome o tipo"
+        "placeholder": "Cerca...",
+        "noResults": "Nessun risultato trovato"
     },
     "maps": {
         "kilima-valley": "Valle Kilima",

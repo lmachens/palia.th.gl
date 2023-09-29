@@ -1,13 +1,13 @@
 "use client";
 import { useOverwolfRouter } from "@/app/(overwolf)/components/overwolf-router";
-import { NODE, nodes } from "@/app/lib/nodes";
+import { NODE } from "@/app/lib/nodes";
 import { useDiscoveredNodesStore } from "@/app/lib/storage/discovered-nodes";
 import { useGlobalSettingsStore } from "@/app/lib/storage/global-settings";
+import { useVisibleNodeStore } from "@/app/lib/storage/visible-nodes";
 import leaflet from "leaflet";
-import { useParams, useRouter, useSearchParams } from "next/navigation";
-import { Fragment, useCallback, useEffect, useMemo } from "react";
+import { useParams, useRouter } from "next/navigation";
+import { useCallback, useEffect, useMemo } from "react";
 import { useDict } from "../(i18n)/i18n-provider";
-import useFilters from "../use-filters";
 import { useMap } from "./map";
 import Marker from "./marker";
 
@@ -28,51 +28,22 @@ export default function Nodes({ map: mapName }: { map: string }) {
   const overwolfRouter = useOverwolfRouter();
   const router = useRouter();
   const params = useParams()!;
-  const searchParams = useSearchParams()!;
   const { discoveredNodes, toggleDiscoveredNode } = useDiscoveredNodesStore();
-  const search = useMemo(() => {
-    return (
-      (overwolfRouter
-        ? overwolfRouter.value.search
-        : searchParams.get("search")) ?? ""
-    ).toLowerCase();
-  }, [searchParams, overwolfRouter?.value.search]);
-  const isScreenshot = searchParams.get("screenshot") === "true";
+
   const dict = useDict();
   const iconSize = useGlobalSettingsStore((state) => state.iconSize);
-
-  const paramsName = overwolfRouter ? overwolfRouter.value.name : params.name;
-  const paramsCoordinates = overwolfRouter
-    ? overwolfRouter.value.coordinates
-    : params.coordinates;
-  const [filters] = useFilters();
-
-  const selectedName = useMemo(
-    () => paramsName && decodeURIComponent(paramsName as string),
-    [paramsName]
-  );
-  const coordinates = useMemo(
-    () =>
-      (paramsCoordinates && decodeURIComponent(paramsCoordinates as string))
-        ?.replace("@", "")
-        .split(",")
-        .map(Number) ?? [],
-    [paramsCoordinates]
-  );
+  const { visibleNodesByMap, highlightedNode } = useVisibleNodeStore();
 
   useEffect(() => {
-    if (!search) {
-      return;
-    }
     const bounds = featureGroup.getBounds();
     if (bounds.isValid()) {
       map.fitBounds(bounds, {
         duration: 1,
         maxZoom: 5,
-        padding: [25, 25],
+        padding: [70, 70],
       });
     }
-  }, [search]);
+  }, [visibleNodesByMap]);
 
   const onMarkerClick = useCallback(
     (node: NODE) => {
@@ -104,55 +75,22 @@ export default function Nodes({ map: mapName }: { map: string }) {
     [mapName]
   );
 
-  const visibleNodes = useMemo(() => {
-    return nodes.filter((node) => {
-      return mapName === node.mapName;
-    });
-  }, [mapName]);
-
   return (
     <>
-      {visibleNodes.map((node) => {
-        let isHighlighted = false;
-        if (selectedName && coordinates) {
-          if (node.x === coordinates[0] && node.y === coordinates[1]) {
-            isHighlighted = true;
-          } else if (isScreenshot) {
-            return <Fragment key={node.id} />;
-          }
-        }
-
-        let isTrivial = false;
-        if (!filters.includes(node.type) && !isHighlighted) {
-          isTrivial = true;
-        } else if (search && !isHighlighted) {
-          isTrivial = !(
-            dict.generated[node.type]?.[node.id]?.name
-              .toLowerCase()
-              .includes(search) ||
-            node.id.toLowerCase().includes(search) ||
-            dict.spawnNodes[node.type]?.name.toLowerCase().includes(search)
-          );
-        }
-
-        if (isTrivial) {
-          return <Fragment key={node.id} />;
-        }
-        return (
-          <Marker
-            key={node.id}
-            id={node.id}
-            node={node}
-            type={node.type}
-            isHighlighted={isHighlighted}
-            isDiscovered={discoveredNodes.includes(node.id)}
-            iconSize={iconSize}
-            onClick={onMarkerClick}
-            onContextMenu={toggleDiscoveredNode}
-            featureGroup={featureGroup}
-          />
-        );
-      })}
+      {visibleNodesByMap[mapName]?.map((node) => (
+        <Marker
+          key={node.id}
+          id={node.id}
+          node={node}
+          type={node.type}
+          isHighlighted={highlightedNode?.id === node.id}
+          isDiscovered={discoveredNodes.includes(node.id)}
+          iconSize={iconSize}
+          onClick={onMarkerClick}
+          onContextMenu={toggleDiscoveredNode}
+          featureGroup={featureGroup}
+        />
+      ))}
     </>
   );
 }

@@ -1,9 +1,8 @@
 import Link from "next/link";
 import { useParams, useSearchParams } from "next/navigation";
-import { useMemo } from "react";
 import { useOverwolfRouter } from "../(overwolf)/components/overwolf-router";
 import { CONFIGS } from "../lib/maps";
-import { nodes } from "../lib/nodes";
+import { useVisibleNodeStore } from "../lib/storage/visible-nodes";
 import { useDict, useI18N } from "./(i18n)/i18n-provider";
 
 export default function Maps() {
@@ -12,41 +11,14 @@ export default function Maps() {
   const searchParams = useSearchParams();
   const overwolfRouter = useOverwolfRouter();
   const i18n = useI18N();
-
-  const search = useMemo(() => {
-    return (
-      (overwolfRouter
-        ? overwolfRouter.value.search
-        : searchParams.get("search")) ?? ""
-    ).toLowerCase();
-  }, [searchParams, overwolfRouter?.value.search]);
-
-  const mapNodesCount = useMemo(() => {
-    return nodes.reduce(
-      (acc, node) => {
-        if (
-          dict.generated[node.type]?.[node.id]?.name
-            .toLowerCase()
-            .includes(search) ||
-          node.id.toLowerCase().includes(search) ||
-          dict.spawnNodes[node.type]?.name.toLowerCase().includes(search)
-        ) {
-          acc[node.mapName as keyof typeof acc] += 1;
-        }
-        return acc;
-      },
-      {
-        "kilima-valley": 0,
-        "bahari-bay": 0,
-        fairgrounds: 0,
-        housing: 0,
-      }
-    );
-  }, [search]);
+  const visibleNodesByMap = useVisibleNodeStore(
+    (state) => state.visibleNodesByMap
+  );
 
   const mapName = overwolfRouter
     ? dict.maps[overwolfRouter.value.mapName!]
     : decodeURIComponent(params.map as string);
+
   return (
     <div className="divide-y divide-neutral-700 border-t border-t-neutral-600 bg-neutral-900 text-sm w-full md:border md:border-gray-600 md:rounded-lg">
       <div className="flex flex-wrap">
@@ -56,7 +28,7 @@ export default function Maps() {
               dict.maps[map]
             )}?${searchParams.toString()}`}
             key={map}
-            className={`p-2 basis-1/2 hover:text-white w-1/2 text-center ${
+            className={`p-2 basis-1/2 hover:text-white w-1/2 text-center truncate ${
               dict.maps[map] === mapName ? "text-gray-200" : "text-gray-500"
             }`}
             onClick={(event) => {
@@ -66,8 +38,7 @@ export default function Maps() {
               }
             }}
           >
-            {dict.maps[map]} ({mapNodesCount[map as keyof typeof mapNodesCount]}
-            )
+            {dict.maps[map]} ({visibleNodesByMap[map]?.length ?? 0})
           </Link>
         ))}
       </div>
