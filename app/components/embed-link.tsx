@@ -1,9 +1,17 @@
 "use client";
 
+import { useEffect, useState } from "react";
+
 export default function EmbedLink() {
+  const [href, setHref] = useState("");
+
+  useEffect(() => {
+    setHref(location.href.replace("/embed", ""));
+  }, []);
+
   return (
     <a
-      href={location.href.replace("/embed", "")}
+      href={href}
       target="_blank"
       className="absolute bottom-3 right-3 z-[400] bg-neutral-900 font-semibold text-gray-200 text-sm py-1 px-2 border border-gray-600 rounded-2xl outline-none hover:bg-neutral-800 flex gap-1.5 items-center"
     >

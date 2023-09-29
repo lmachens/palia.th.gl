@@ -21,7 +21,13 @@ import SearchResults from "./search-results";
 import useFilters from "./use-filters";
 import WeeklyWants from "./weekly-wants";
 
-export default function Search({ map: mapName }: { map: string }) {
+export default function Search({
+  map: mapName,
+  hidden,
+}: {
+  map: string;
+  hidden?: boolean;
+}) {
   const searchParams = useSearchParams()!;
   const overwolfRouter = useOverwolfRouter();
   const [search, setSearch] = useState(() => searchParams.get("search") ?? "");
@@ -79,6 +85,10 @@ export default function Search({ map: mapName }: { map: string }) {
       isScreenshot,
     });
   }, [dict, search, filters, selectedName, coordinates, isScreenshot]);
+
+  if (hidden) {
+    return <></>;
+  }
 
   return (
     <div

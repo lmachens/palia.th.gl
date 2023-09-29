@@ -24,6 +24,10 @@ const Map = dynamic(() => import("@/app/components/(map)/map"), {
   ssr: false,
 });
 
+const Search = dynamic(() => import("@/app/components/search"), {
+  ssr: false,
+});
+
 function Layout({
   children,
   params: { lang, map },
@@ -61,6 +65,7 @@ function Layout({
           <Map map={mapEntry[0]}>
             <Tiles map={mapEntry[0]} />
             <Nodes map={mapEntry[0]} />
+            <Search map={mapEntry[0]} hidden />
           </Map>
           <EmbedLink />
           {children}
