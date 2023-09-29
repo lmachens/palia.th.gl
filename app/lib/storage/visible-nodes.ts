@@ -46,12 +46,15 @@ export const useVisibleNodeStore = create<{
       let isTrivial = false;
       if (!isHighlighted) {
         if (search) {
+          const lowerCaseSearch = search.toLowerCase();
           isTrivial = !(
             dict.generated[node.type]?.[node.id]?.name
               .toLowerCase()
-              .includes(search) ||
-            node.id.toLowerCase().includes(search) ||
-            dict.spawnNodes[node.type]?.name.toLowerCase().includes(search)
+              .includes(lowerCaseSearch) ||
+            node.id.toLowerCase().includes(lowerCaseSearch) ||
+            dict.spawnNodes[node.type]?.name
+              .toLowerCase()
+              .includes(lowerCaseSearch)
           );
         } else if (!filters.includes(node.type)) {
           isTrivial = true;
