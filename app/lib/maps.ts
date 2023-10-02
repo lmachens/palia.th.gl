@@ -33,7 +33,7 @@ export const CONFIGS = {
   },
   housing: {
     transformation: [1 / 142, -148, 1 / 142, 58],
-    view: [-256, 256] as [number, number],
+    view: [30000, 53000] as [number, number],
     bounds: [
       [65000, 21000],
       [-10000, 94000],

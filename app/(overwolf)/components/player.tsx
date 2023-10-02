@@ -103,15 +103,21 @@ export default function Player() {
     if (!map || !marker.current || mapName !== gameInfo.player?.mapName) {
       return;
     }
+    marker.current.updatePosition(gameInfo.player);
     marker.current.addTo(map);
 
     return () => {
       marker.current?.remove();
     };
-  }, [map, gameInfo.player?.mapName]);
+  }, [map, mapName, gameInfo.player?.mapName]);
 
   useEffect(() => {
-    if (!map || !gameInfo.player || !marker.current) {
+    if (
+      !map ||
+      !gameInfo.player ||
+      !marker.current ||
+      mapName !== gameInfo.player?.mapName
+    ) {
       return;
     }
 
