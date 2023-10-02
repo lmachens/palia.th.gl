@@ -91,20 +91,20 @@ const mapBounds = {
 
 const HOUSING_MOD = 65000;
 export function modHousingCoords(coords: {
-  X: number;
-  Y: number;
-  Z: number;
-  R: number;
+  x: number;
+  y: number;
+  z: number;
+  r: number;
 }) {
-  let X = coords.X % HOUSING_MOD;
-  if (X < 0) {
-    X += HOUSING_MOD;
+  let x = coords.x % HOUSING_MOD;
+  if (x < 0) {
+    x += HOUSING_MOD;
   }
-  let Y = coords.Y % HOUSING_MOD;
-  if (Y < 0) {
-    Y += HOUSING_MOD;
+  let y = coords.y % HOUSING_MOD;
+  if (y < 0) {
+    y += HOUSING_MOD;
   }
-  return { X, Y, Z: coords.Z };
+  return { x, y, z: coords.z };
 }
 
 export function getMapFromCoords(coords: { x: number; y: number }) {

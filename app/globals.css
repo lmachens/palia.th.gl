@@ -67,6 +67,12 @@
   z-index: 10000;
 }
 
+.villager {
+  z-index: 9900;
+  border: 2px solid #837966;
+  border-radius: 50%;
+}
+
 .print .hide-on-print {
   display: none;
 }
