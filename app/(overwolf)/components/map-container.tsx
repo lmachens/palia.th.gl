@@ -57,7 +57,7 @@ export default function MapContainer({
     <>
       <div
         ref={mapContainerRef}
-        className={`absolute inset-0 top-[30px] m-2 `}
+        className={`absolute inset-0 top-[30px] m-2`}
         style={mapTransform}
       >
         {!lockedWindow && (

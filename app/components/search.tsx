@@ -99,7 +99,7 @@ export default function Search({
       } md:space-y-1`}
     >
       <div
-        className={`bg-black md:bg-transparent flex overflow-auto pointer-events-auto pb-1`}
+        className={`bg-black md:bg-transparent flex overflow-auto pointer-events-auto pb-1 w-fit`}
       >
         {!isOverwolfApp && <AppDownload />}
         {(!settingsStore.lockedWindow || !isOverlay) && <WeeklyWants />}
