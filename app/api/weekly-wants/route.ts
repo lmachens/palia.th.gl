@@ -7,7 +7,7 @@ async function _GET(request: NextRequest) {
   const dict = loadDBDictionary(locale);
 
   const response = await fetch(
-    `https://paliapedia.com/api/weekly-wants?k=${
+    `https://api.paliapedia.com/api/weekly-wants?k=${
       process.env.PALIAPEDIA_API_KEY
     }&random=${Math.random()}`,
     {
