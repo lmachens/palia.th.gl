@@ -1,42 +1,44 @@
 import { nodes } from "@/app/lib/nodes";
-import leaflet, { Polyline } from "leaflet";
+
 import { nanoid } from "nanoid";
+import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
-import { isOverwolfApp } from "../lib/env";
-import { ROUTE, useRoutesStore } from "../lib/storage/routes";
-import { useMap } from "./(map)/map";
-import Toggle from "./toggle";
+import type { LatLng, Marker, Polyline } from "../lib/leaflet";
+import { leaflet } from "../lib/leaflet";
+import { useGlobalSettingsStore } from "../lib/storage/global-settings";
+import { useMap } from "../lib/storage/map";
+import type { ROUTE } from "../lib/storage/routes";
+import { useRoutesStore } from "../lib/storage/routes";
+const RoutesList = dynamic(() => import("./routes-list"), { ssr: false });
 
 export default function Routes() {
   const map = useMap();
   const routes = useRoutesStore();
+  const showRoutes = useGlobalSettingsStore((state) => state.showRoutes);
 
-  const setRoutePolylines = useCallback(
-    (polylineLayers: leaflet.Polyline[]) => {
-      const types: ROUTE["types"] = [];
-      const positions: ROUTE["positions"] = [];
-      polylineLayers.forEach((polylineLayer) => {
-        const latLngs = polylineLayer.getLatLngs() as leaflet.LatLng[];
-        if (latLngs.length === 0) {
-          return;
-        }
-        const layerPositions = latLngs.map((latLng) => {
-          return {
-            position: [latLng.lat, latLng.lng] as [number, number],
-          };
-        });
-        positions.push(layerPositions);
+  const setRoutePolylines = useCallback((polylineLayers: Polyline[]) => {
+    const types: ROUTE["types"] = [];
+    const positions: ROUTE["positions"] = [];
+    polylineLayers.forEach((polylineLayer) => {
+      const latLngs = polylineLayer.getLatLngs() as LatLng[];
+      if (latLngs.length === 0) {
+        return;
+      }
+      const layerPositions = latLngs.map((latLng) => {
+        return {
+          position: [latLng.lat, latLng.lng] as [number, number],
+        };
       });
-      routes.updateTempRoute({
-        types,
-        positions,
-      });
-    },
-    []
-  );
+      positions.push(layerPositions);
+    });
+    routes.updateTempRoute({
+      types,
+      positions,
+    });
+  }, []);
 
-  const setRouteTexts = useCallback((textLayers: leaflet.Marker[]) => {
+  const setRouteTexts = useCallback((textLayers: Marker[]) => {
     const texts: ROUTE["texts"] = [];
     textLayers.forEach((textLayer) => {
       const latLngs = textLayer.getLatLng();
@@ -55,8 +57,8 @@ export default function Routes() {
       return;
     }
 
-    const polylines: leaflet.Polyline[] = [];
-    const texts: leaflet.Marker[] = [];
+    const polylines: Polyline[] = [];
+    const texts: Marker[] = [];
     routes.tempRoute.positions.forEach((layerPositions) => {
       if (layerPositions.length < 2) {
         return;
@@ -125,7 +127,7 @@ export default function Routes() {
           setRoutePolylines(polylines);
         });
       } else if (shape === "Text") {
-        const textLayer = layer as leaflet.Marker;
+        const textLayer = layer as Marker;
         texts.push(textLayer);
         leaflet.Util.setOptions(layer, {
           draggable: true,
@@ -296,7 +298,11 @@ export default function Routes() {
     );
   }
   return (
-    <div className="divide-y divide-neutral-700 border-t border-t-neutral-600 bg-neutral-900 text-gray-200 text-sm w-full md:border md:border-gray-600 md:rounded-lg">
+    <div
+      className={`divide-y divide-neutral-700 border-t border-t-neutral-600 bg-neutral-900 text-gray-200 text-sm w-full md:border md:border-gray-600 md:rounded-lg ${
+        showRoutes ? "block" : "hidden"
+      }`}
+    >
       <div className="flex">
         <button
           className="p-2 uppercase hover:text-white w-1/2"
@@ -361,83 +367,7 @@ export default function Routes() {
         export routes here.
       </p>
       <div className="overflow-auto max-h-full">
-        {routes.routes.length === 0 && (
-          <div className="p-2">No routes created</div>
-        )}
-        {routes.routes.map((route) => {
-          const filename = `route_${route.name
-            .replaceAll(/[^a-z0-9]+/gi, " ")
-            .replaceAll(/\s/g, "_")}_${route.id}.json`.toLowerCase();
-          return (
-            <article key={route.id} className={`p-2 space-y-1`}>
-              <div className="flex justify-between">
-                <Toggle
-                  checked={routes.activeRoutes.includes(route.id)}
-                  onChange={(checked) =>
-                    checked
-                      ? routes.addActiveRoute(route.id)
-                      : routes.removeActiveRoute(route.id)
-                  }
-                  small
-                />
-                <div className="space-x-3">
-                  {isOverwolfApp ? (
-                    <button
-                      className="hover:text-white"
-                      onClick={() => {
-                        overwolf.io.writeFileContents(
-                          `${overwolf.io.paths.documents}\\Palia Map\\${filename}`,
-                          JSON.stringify(route),
-                          "UTF8" as overwolf.io.enums.eEncoding.UTF8,
-                          true,
-                          () => console.log
-                        );
-                        overwolf.utils.openWindowsExplorer(
-                          `${overwolf.io.paths.documents}\\Palia Map`,
-                          console.log
-                        );
-                      }}
-                    >
-                      Export
-                    </button>
-                  ) : (
-                    <a
-                      href={`data:text/json;charset=utf-8,${encodeURIComponent(
-                        JSON.stringify(route)
-                      )}`}
-                      download={filename}
-                      className="hover:text-white"
-                    >
-                      Export
-                    </a>
-                  )}
-                  <button
-                    className="hover:text-white"
-                    onClick={() => {
-                      routes.updateTempRoute(route);
-                      routes.setIsCreating(true);
-                    }}
-                  >
-                    Edit
-                  </button>
-                  <button
-                    className="hover:text-white"
-                    onClick={() => {
-                      if (
-                        confirm("Are you sure you want to delete this route?")
-                      ) {
-                        routes.removeRoute(route.id);
-                      }
-                    }}
-                  >
-                    Delete
-                  </button>
-                </div>
-              </div>
-              <div className="truncate text-base">{route.name}</div>
-            </article>
-          );
-        })}
+        <RoutesList />
       </div>
     </div>
   );

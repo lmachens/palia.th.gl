@@ -46,7 +46,6 @@ export default function Search({
     ? overwolfRouter.value.coordinates
     : params.coordinates;
   const isScreenshot = searchParams.get("screenshot") === "true";
-
   const selectedName = useMemo(
     () => paramsName && decodeURIComponent(paramsName as string),
     [paramsName]
@@ -220,9 +219,8 @@ export default function Search({
             className={`absolute top-full text-sm w-full md:mt-1 max-h-[calc(100vh-100px)] flex flex-col md:gap-2 pb-4`}
           >
             <Maps />
-            {globalSettingsStore.showRoutes && <Routes />}
-            {globalSettingsStore.showFilters &&
-              (search ? <SearchResults map={mapName} /> : <Filters />)}
+            <Routes />
+            {search ? <SearchResults map={mapName} /> : <Filters />}
           </div>
         </div>
       )}

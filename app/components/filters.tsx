@@ -3,18 +3,27 @@ import Image from "next/image";
 import { Fragment } from "react";
 import { isOverwolfApp } from "../lib/env";
 import { ICONS, SPAWN_ICONS } from "../lib/icons";
-import { spawnNodes, staticNodes } from "../lib/nodes";
+import type { spawnNodes } from "../lib/nodes";
+import { staticNodes } from "../lib/nodes";
 import { spawnGroups } from "../lib/spawn-groups";
-import { ALL_FILTERS } from "../lib/storage/global-settings";
+import {
+  ALL_FILTERS,
+  useGlobalSettingsStore,
+} from "../lib/storage/global-settings";
 import { useDict } from "./(i18n)/i18n-provider";
 import useFilters from "./use-filters";
 
 export default function Filters() {
   const dict = useDict();
   const [filters, toggleFilter, setFilters] = useFilters();
+  const showFilters = useGlobalSettingsStore((state) => state.showFilters);
 
   return (
-    <div className="divide-y divide-neutral-700 border-t border-t-neutral-600 bg-neutral-900 text-gray-200 text-sm w-full md:border md:border-gray-600 md:rounded-lg overflow-auto">
+    <div
+      className={`divide-y divide-neutral-700 border-t border-t-neutral-600 bg-neutral-900 text-gray-200 text-sm w-full md:border md:border-gray-600 md:rounded-lg overflow-auto ${
+        showFilters ? "block" : "hidden"
+      }`}
+    >
       <div className="flex">
         <button
           className="p-2 uppercase hover:text-white w-1/2"

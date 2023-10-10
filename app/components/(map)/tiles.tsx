@@ -1,10 +1,10 @@
 "use client";
 import { CONFIGS } from "@/app/lib/maps";
 import { useGameInfoStore } from "@/app/lib/storage/game-info";
+import { useMap } from "@/app/lib/storage/map";
 import { useSettingsStore } from "@/app/lib/storage/settings";
 import { useEffect } from "react";
 import { createCanvasLayer } from "./canvas-layer";
-import { useMap } from "./map";
 
 export default function Tiles({ map: mapName }: { map: string }) {
   const map = useMap();

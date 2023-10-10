@@ -4,36 +4,21 @@ import { HOTKEYS } from "@/app/(overwolf)/lib/config";
 import leaflet, { LatLngBoundsExpression } from "leaflet";
 import "leaflet/dist/leaflet.css";
 import { useParams, useRouter } from "next/navigation";
-import { useEffect, useRef } from "react";
-import { create } from "zustand";
+import { useEffect, useRef, useState } from "react";
 
 import { isDevelopment } from "@/app/lib/env";
 import { CONFIGS } from "@/app/lib/maps";
+import { useMapStore } from "@/app/lib/storage/map";
 import "@geoman-io/leaflet-geoman-free";
 import "@geoman-io/leaflet-geoman-free/dist/leaflet-geoman.css";
 import { useDict } from "../(i18n)/i18n-provider";
 
 leaflet.PM.setOptIn(true);
 
-export const useMapStore = create<{
-  map: leaflet.Map | null;
-  mapName: string;
-  setMap: (map: leaflet.Map | null, mapName?: string) => void;
-}>((set) => ({
-  map: null,
-  mapName: "kilima-valley",
-  setMap: (map, mapName) => set({ map, mapName }),
-}));
-
 export const MAX_BOUNDS: LatLngBoundsExpression = [
   [0, 0],
   [-512, 512],
 ];
-
-export function useMap() {
-  const map = useMapStore((store) => store.map)!;
-  return map;
-}
 
 export default function Map({
   children,
@@ -43,7 +28,9 @@ export default function Map({
   map: string;
 }) {
   const mapRef = useRef<HTMLDivElement>(null);
-  const { map, setMap } = useMapStore();
+  const [leafletMap, setLeafletMap] = useState<leaflet.Map | null>(null);
+
+  const setMap = useMapStore((state) => state.setMap);
   const overwolfRouter = useOverwolfRouter();
   const router = useRouter();
   const params = useParams()!;
@@ -85,10 +72,15 @@ export default function Map({
     if (coordinates?.length === 2) {
       map.setView([coordinates[1], coordinates[0]], 2);
     } else {
-      map.setView(config.view, 1);
+      map.fitBounds(config.bounds, {
+        padding: [
+          -Math.floor(window.innerWidth / 6),
+          -Math.floor(window.innerHeight / 6),
+        ],
+      });
     }
 
-    setMap(map, mapName);
+    setLeafletMap(map);
 
     map.on("click", (event) => {
       if (
@@ -159,12 +151,15 @@ export default function Map({
     }
 
     return () => {
-      setMap(null);
-      if (overwolfRouter) {
-        map.remove();
-      }
+      setLeafletMap(null);
+      map.off();
+      map.remove();
     };
   }, [mapName]);
+
+  useEffect(() => {
+    setMap(leafletMap, mapName);
+  }, [leafletMap]);
 
   return (
     <>
@@ -172,7 +167,7 @@ export default function Map({
         ref={mapRef}
         className={`map h-full !bg-inherit relative outline-none`}
       />
-      {map && children}
+      {leafletMap && children}
     </>
   );
 }

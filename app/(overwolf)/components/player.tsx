@@ -1,6 +1,6 @@
-import { useMapStore } from "@/app/components/(map)/map";
 import { getMapFromCoords, modHousingCoords } from "@/app/lib/maps";
 import { useGameInfoStore } from "@/app/lib/storage/game-info";
+import { useMapStore } from "@/app/lib/storage/map";
 import { useSettingsStore } from "@/app/lib/storage/settings";
 import { villagers } from "@/app/lib/villager";
 import leaflet from "leaflet";

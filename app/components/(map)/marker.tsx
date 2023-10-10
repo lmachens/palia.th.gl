@@ -1,8 +1,8 @@
 "use client";
 import { ICONS, SPAWN_ICONS } from "@/app/lib/icons";
-import { NODE, NODE_TYPE } from "@/app/lib/nodes";
+import type { NODE, NODE_TYPE } from "@/app/lib/nodes";
 import { useRoutesStore } from "@/app/lib/storage/routes";
-import leaflet from "leaflet";
+import type leaflet from "leaflet";
 import { memo, useEffect } from "react";
 import { useDict } from "../(i18n)/i18n-provider";
 import CanvasMarker from "./canvas-marker";
@@ -11,10 +11,8 @@ const Marker = memo(function Marker({
   node,
   type,
   isHighlighted,
-  isDiscovered,
   iconSize,
   onClick,
-  onContextMenu,
   featureGroup,
 }: {
   id: string;
@@ -42,7 +40,6 @@ const Marker = memo(function Marker({
       name: dict.generated[type]?.[node.id]?.name,
       radius: icon.radius * iconSize,
       isHighlighted,
-      isDiscovered,
       pmIgnore: true,
       snapIgnore: false,
       interactive,
@@ -53,11 +50,6 @@ const Marker = memo(function Marker({
       marker.on("click", () => {
         if (!useRoutesStore.getState().isCreating) {
           onClick(node);
-        }
-      });
-      marker.on("contextmenu", () => {
-        if (!useRoutesStore.getState().isCreating) {
-          onContextMenu(id);
         }
       });
 
@@ -92,9 +84,7 @@ const Marker = memo(function Marker({
         direction: "top",
         offset: [0, -icon.radius * iconSize],
       });
-      if (isDiscovered) {
-        marker.bringToBack();
-      } else if (isHighlighted) {
+      if (isHighlighted) {
         marker.bringToFront();
       }
     } else {
@@ -104,7 +94,7 @@ const Marker = memo(function Marker({
       featureGroup.removeLayer(marker);
       marker.remove();
     };
-  }, [type, isHighlighted, isDiscovered, iconSize, dict]);
+  }, [type, isHighlighted, iconSize, dict]);
 
   return <></>;
 });

@@ -1,3 +1,4 @@
+"use client";
 import Image, { StaticImageData } from "next/image";
 import { useState } from "react";
 
@@ -16,7 +17,9 @@ const ImageZoomPreview = ({ image }: { image: StaticImageData }) => {
           isZoomed ? "w-full h-full absolute inset-0" : "h-32"
         }`}
         onClick={toggleZoom}
-        {...image}
+        src={image.src}
+        width={image.width}
+        height={image.height}
       />
       {isZoomed && (
         <div

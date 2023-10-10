@@ -19,14 +19,16 @@ export default function Maps() {
     ? dict.maps[overwolfRouter.value.mapName!]
     : decodeURIComponent(params.map as string);
 
+  const searchParamsString = searchParams.toString();
+
   return (
     <div className="divide-y divide-neutral-700 border-t border-t-neutral-600 bg-neutral-900 text-sm w-full md:border md:border-gray-600 md:rounded-lg">
       <div className="flex flex-wrap">
         {Object.keys(CONFIGS).map((map) => (
           <Link
-            href={`/${i18n.locale}/${encodeURIComponent(
-              dict.maps[map]
-            )}?${searchParams.toString()}`}
+            href={`/${i18n.locale}/${encodeURIComponent(dict.maps[map])}${
+              searchParamsString ? `?${searchParamsString}` : ""
+            }`}
             key={map}
             className={`p-2 basis-1/2 hover:text-white w-1/2 text-center truncate ${
               dict.maps[map] === mapName ? "text-gray-200" : "text-gray-500"

@@ -1,8 +1,8 @@
 import { useDict } from "../components/(i18n)/i18n-provider";
-import { useGlobalSettingsStore } from "../lib/storage/global-settings";
+import { useSettingsStore } from "../lib/storage/settings";
 
 export default function Settings() {
-  const globalSettingsStore = useGlobalSettingsStore();
+  const settingsStore = useSettingsStore();
   const dict = useDict();
 
   return (
@@ -12,13 +12,11 @@ export default function Settings() {
         <input
           className="w-5/12"
           type="range"
-          value={globalSettingsStore.iconSize}
+          value={settingsStore.iconSize}
           min={0.4}
           max={2}
           step={0.1}
-          onChange={(event) =>
-            globalSettingsStore.setIconSize(+event.target.value)
-          }
+          onChange={(event) => settingsStore.setIconSize(+event.target.value)}
         />
       </div>
     </>

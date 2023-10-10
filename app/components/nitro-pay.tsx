@@ -15,19 +15,21 @@ interface MyWindow extends Window {
 }
 declare let window: MyWindow;
 
-window.nitroAds = window.nitroAds || {
-  createAd: function () {
-    return new Promise(function (e) {
+if (typeof window !== "undefined") {
+  window.nitroAds = window.nitroAds || {
+    createAd: function () {
+      return new Promise(function (e) {
+        // eslint-disable-next-line prefer-rest-params
+        window.nitroAds.queue.push(["createAd", arguments, e]);
+      });
+    },
+    addUserToken: function () {
       // eslint-disable-next-line prefer-rest-params
-      window.nitroAds.queue.push(["createAd", arguments, e]);
-    });
-  },
-  addUserToken: function () {
-    // eslint-disable-next-line prefer-rest-params
-    window.nitroAds.queue.push(["addUserToken", arguments]);
-  },
-  queue: [],
-};
+      window.nitroAds.queue.push(["addUserToken", arguments]);
+    },
+    queue: [],
+  };
+}
 
 export default function NitroPay() {
   const isPatron = useAccountStore((state) => state.isPatron);

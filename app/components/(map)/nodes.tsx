@@ -1,14 +1,13 @@
 "use client";
 import { useOverwolfRouter } from "@/app/(overwolf)/components/overwolf-router";
-import { NODE } from "@/app/lib/nodes";
-import { useDiscoveredNodesStore } from "@/app/lib/storage/discovered-nodes";
-import { useGlobalSettingsStore } from "@/app/lib/storage/global-settings";
+import type { NODE } from "@/app/lib/nodes";
+import { useMap } from "@/app/lib/storage/map";
+import { useSettingsStore } from "@/app/lib/storage/settings";
 import { useVisibleNodeStore } from "@/app/lib/storage/visible-nodes";
 import leaflet from "leaflet";
 import { useParams, useRouter } from "next/navigation";
 import { useCallback, useEffect, useMemo } from "react";
 import { useDict } from "../(i18n)/i18n-provider";
-import { useMap } from "./map";
 import Marker from "./marker";
 
 export default function Nodes({ map: mapName }: { map: string }) {
@@ -19,6 +18,9 @@ export default function Nodes({ map: mapName }: { map: string }) {
   }, []);
 
   useEffect(() => {
+    if (!map) {
+      return;
+    }
     featureGroup.addTo(map);
     return () => {
       featureGroup.removeFrom(map);
@@ -28,15 +30,14 @@ export default function Nodes({ map: mapName }: { map: string }) {
   const overwolfRouter = useOverwolfRouter();
   const router = useRouter();
   const params = useParams()!;
-  const { discoveredNodes, toggleDiscoveredNode } = useDiscoveredNodesStore();
 
   const dict = useDict();
-  const iconSize = useGlobalSettingsStore((state) => state.iconSize);
+  const iconSize = useSettingsStore((state) => state.iconSize);
   const { visibleNodesByMap, highlightedNode } = useVisibleNodeStore();
 
   useEffect(() => {
     const bounds = featureGroup.getBounds();
-    if (bounds.isValid()) {
+    if (bounds.isValid() && map) {
       map.fitBounds(bounds, {
         duration: 1,
         maxZoom: 5,
@@ -84,10 +85,8 @@ export default function Nodes({ map: mapName }: { map: string }) {
           node={node}
           type={node.type}
           isHighlighted={highlightedNode?.id === node.id}
-          isDiscovered={discoveredNodes.includes(node.id)}
           iconSize={iconSize}
           onClick={onMarkerClick}
-          onContextMenu={toggleDiscoveredNode}
           featureGroup={featureGroup}
         />
       ))}

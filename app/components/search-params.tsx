@@ -5,30 +5,12 @@ import { useEffect } from "react";
 import { API_BASE_URI, isOverwolfApp } from "../lib/env";
 import { useUpdateSearchParams } from "../lib/search-params";
 import { useAccountStore } from "../lib/storage/account";
-import { ALL_FILTERS } from "../lib/storage/global-settings";
-import useFilters from "./use-filters";
 
 export default function SearchParams() {
   const searchParams = useSearchParams()!;
   const updateSearchParams = useUpdateSearchParams();
-  const [filters] = useFilters();
   const code = searchParams.get("code");
-  const filtersParam = searchParams.get("filters");
   const accountStore = useAccountStore();
-
-  useEffect(() => {
-    if (isOverwolfApp || filters.join(",") === filtersParam) {
-      return;
-    }
-
-    let filtersString = "";
-    if (filters.length === 0) {
-      filtersString = "none";
-    } else if (filters.length !== ALL_FILTERS.length) {
-      filtersString = filters.join(",");
-    }
-    updateSearchParams("filters", filtersString);
-  }, [filters, filtersParam]);
 
   useEffect(() => {
     if (isOverwolfApp || !code) {

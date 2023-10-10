@@ -1,8 +1,8 @@
 "use client";
+import { useMap } from "@/app/lib/storage/map";
 import { useRoutesStore } from "@/app/lib/storage/routes";
 import leaflet from "leaflet";
 import { useEffect } from "react";
-import { useMap } from "./map";
 
 export default function ActiveRoutes() {
   const map = useMap();
@@ -10,7 +10,7 @@ export default function ActiveRoutes() {
   const routes = useRoutesStore();
 
   useEffect(() => {
-    if (routes.isCreating) {
+    if (routes.isCreating || typeof window === "undefined" || !map) {
       return;
     }
     const layers: leaflet.Layer[] = [];
