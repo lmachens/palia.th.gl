@@ -19,10 +19,8 @@ const Marker = memo(function Marker({
   node: NODE;
   type: NODE_TYPE;
   isHighlighted: boolean;
-  isDiscovered: boolean;
   iconSize: number;
   onClick: (node: NODE) => void;
-  onContextMenu: (id: string) => void;
   featureGroup: leaflet.FeatureGroup;
 }) {
   const dict = useDict();
