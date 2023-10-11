@@ -7,7 +7,12 @@ export function useUpdateSearchParams() {
   const router = useRouter();
 
   const updateSearchParams = useCallback(
-    (name: string | string[], value: string | string[], replace = false) => {
+    (
+      name: string | string[],
+      value: string | string[],
+      replace = false,
+      preventRerender = false
+    ) => {
       const params = new URLSearchParams(searchParams.toString());
       if (typeof name === "string" && typeof value === "string") {
         if (value.length === 0) {
@@ -29,12 +34,20 @@ export function useUpdateSearchParams() {
       }
       const url = pathname + "?" + params.toString();
       if (replace) {
-        router.replace(url);
+        if (preventRerender) {
+          window.history.replaceState(
+            { ...window.history.state, as: url, url: url },
+            "",
+            url
+          );
+        } else {
+          router.replace(url);
+        }
       } else {
         router.push(url);
       }
     },
-    [searchParams, pathname],
+    [searchParams, pathname]
   );
 
   return updateSearchParams;

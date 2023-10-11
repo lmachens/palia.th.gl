@@ -15,6 +15,7 @@ import {
   loadDictionary,
 } from "@/app/lib/i18n";
 import { isMap } from "@/app/lib/maps";
+import { ParamsProvider } from "@/app/lib/storage/params";
 import dynamic from "next/dynamic";
 import { notFound } from "next/navigation";
 
@@ -48,7 +49,6 @@ function Layout({
   if (!mapEntry || !isMap(mapEntry[0])) {
     notFound();
   }
-
   return (
     <html lang={lang}>
       <body
@@ -62,13 +62,15 @@ function Layout({
             locales: LOCALES,
           }}
         >
-          <Map map={mapEntry[0]}>
-            <Tiles map={mapEntry[0]} />
-            <Nodes map={mapEntry[0]} />
-            <Search map={mapEntry[0]} hidden />
-          </Map>
-          <EmbedLink />
-          {children}
+          <ParamsProvider>
+            <Map>
+              <Tiles />
+              <Nodes />
+              <Search hidden />
+            </Map>
+            <EmbedLink />
+            {children}
+          </ParamsProvider>
         </I18NProvider>
 
         <PlausibleTracker

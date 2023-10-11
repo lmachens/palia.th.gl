@@ -1,4 +1,5 @@
-import { NextRequest, NextResponse } from "next/server";
+import type { NextRequest } from "next/server";
+import { NextResponse } from "next/server";
 import { DEFAULT_LOCALE, LOCALES, loadDictionary } from "./app/lib/i18n";
 import { DEFAULT_MAP, isMap } from "./app/lib/maps";
 
@@ -62,6 +63,6 @@ export async function middleware(req: NextRequest) {
 
 export const config = {
   matcher: [
-    "/((?!api|_next/static|_next/image|favicon.ico|maps|icons|embed|patreon|app|controller|sitemap.xml|robots.txt|manifest|social).*)",
+    "/((?!api|_next/static|_next/image|favicon.ico|maps|icons|embed|patreon|app|controller|sitemap.xml|robots.txt|manifest|social|icon).*)",
   ],
 };

@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 import { useState } from "react";
 import { useI18N } from "./(i18n)/i18n-provider";

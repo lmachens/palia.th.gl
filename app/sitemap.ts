@@ -1,4 +1,4 @@
-import { MetadataRoute } from "next";
+import type { MetadataRoute } from "next";
 import { DEFAULT_LOCALE, LOCALES, loadDictionary } from "./lib/i18n";
 import { CONFIGS } from "./lib/maps";
 import { nodes, spawnNodes, staticNodes } from "./lib/nodes";

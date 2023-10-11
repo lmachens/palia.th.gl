@@ -1,5 +1,5 @@
-import { useMap } from "@/app/components/(map)/map";
 import { useGameInfoStore } from "@/app/lib/storage/game-info";
+import { useMap } from "@/app/lib/storage/map";
 import { useSettingsStore } from "@/app/lib/storage/settings";
 import leaflet from "leaflet";
 import { useEffect, useRef } from "react";
@@ -25,22 +25,14 @@ export default function TraceLine() {
     y: 0,
     z: 0,
   });
-  const layerGroup = useRef<leaflet.LayerGroup | null>(null);
+  const layerGroup = useRef<leaflet.LayerGroup>();
+  if (!layerGroup.current) {
+    layerGroup.current = new leaflet.LayerGroup();
+  }
   const settingsStore = useSettingsStore();
 
   useEffect(() => {
-    layerGroup.current = new leaflet.LayerGroup();
-
-    // getLatestGameSession().then(gameSession => {
-    //    gameSession.traceLine.forEach((position) => {
-    //   const circle = createCircle(position);
-    //   circle.addTo(layerGroup.current!);
-    // });
-    // });
-  }, []);
-
-  useEffect(() => {
-    if (!settingsStore.showTraceLine) {
+    if (!settingsStore.showTraceLine || !map) {
       return;
     }
     const targetLayerGroup = layerGroup.current!;
@@ -50,7 +42,7 @@ export default function TraceLine() {
     return () => {
       targetLayerGroup.removeFrom(map);
     };
-  }, [settingsStore.showTraceLine]);
+  }, [settingsStore.showTraceLine, map]);
 
   useEffect(() => {
     if (!player?.position) {

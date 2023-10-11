@@ -1,8 +1,6 @@
-import { Metadata } from "next";
-import { notFound } from "next/navigation";
+import type { Metadata } from "next";
 import { API_BASE_URI, isDevelopment } from "./env";
 import { DEFAULT_LOCALE, LOCALES, loadDictionary } from "./i18n";
-import { isMap } from "./maps";
 import { nodes } from "./nodes";
 
 const DEFAULT_META = {
@@ -14,7 +12,7 @@ export function generateMetadata({
   params: { lang = DEFAULT_LOCALE, map, name, coordinates: paramsCoordinates },
   searchParams,
 }: {
-  params: { lang: string; map: string; name?: string; coordinates?: string };
+  params: { lang: string; map?: string; name?: string; coordinates?: string };
   searchParams: { [key: string]: string | string[] | undefined };
 }): Metadata {
   const dict = loadDictionary(lang);
@@ -51,7 +49,7 @@ export function generateMetadata({
   }
 
   const title = name && decodeURIComponent(name);
-  const mapTitle = decodeURIComponent(map);
+  const mapTitle = map ? decodeURIComponent(map) : "";
   const coordinates =
     (paramsCoordinates && decodeURIComponent(paramsCoordinates))
       ?.replace("@", "")
@@ -84,15 +82,13 @@ export function generateMetadata({
   const mapEntry = Object.entries(dict.maps).find(([, value]) => {
     return value === mapTitle;
   });
-  if (!mapEntry || !isMap(mapEntry[0])) {
-    notFound();
-  }
 
   const alternativeLanguages = LOCALES.reduce((acc, locale) => {
     const altDict = loadDictionary(locale);
-    acc[locale] =
-      API_BASE_URI +
-      `/${locale}/${encodeURIComponent(altDict.maps[mapEntry[0]])}`;
+    acc[locale] = API_BASE_URI + `/${locale}`;
+    if (mapEntry) {
+      acc[locale] += `/${encodeURIComponent(altDict.maps[mapEntry[0]])}`;
+    }
     if (node) {
       const terms = !node.isSpawnNode
         ? altDict.generated[node.type]?.[node.id]
@@ -138,6 +134,7 @@ export function generateMetadata({
   }
 
   return {
+    metadataBase: new URL(canonical),
     title: metaTitle,
     description: description,
     alternates: {

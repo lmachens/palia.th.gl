@@ -1,17 +1,19 @@
 "use client";
-import { useOverwolfRouter } from "@/app/(overwolf)/components/overwolf-router";
-import { NODE } from "@/app/lib/nodes";
-import { useDiscoveredNodesStore } from "@/app/lib/storage/discovered-nodes";
-import { useGlobalSettingsStore } from "@/app/lib/storage/global-settings";
-import { useVisibleNodeStore } from "@/app/lib/storage/visible-nodes";
+import { isOverwolfApp } from "@/app/lib/env";
+import type { NODE } from "@/app/lib/nodes";
+import { useMap } from "@/app/lib/storage/map";
+import {
+  decodeNameAndCoordinates,
+  useParamsStore,
+} from "@/app/lib/storage/params";
+import { useSettingsStore } from "@/app/lib/storage/settings";
 import leaflet from "leaflet";
-import { useParams, useRouter } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useMemo } from "react";
-import { useDict } from "../(i18n)/i18n-provider";
-import { useMap } from "./map";
+import { useDict, useI18N } from "../(i18n)/i18n-provider";
 import Marker from "./marker";
 
-export default function Nodes({ map: mapName }: { map: string }) {
+export default function Nodes() {
   const map = useMap();
   const featureGroup = useMemo(() => {
     const featureGroup = new leaflet.FeatureGroup();
@@ -19,24 +21,28 @@ export default function Nodes({ map: mapName }: { map: string }) {
   }, []);
 
   useEffect(() => {
+    if (!map) {
+      return;
+    }
     featureGroup.addTo(map);
     return () => {
       featureGroup.removeFrom(map);
     };
   }, [map]);
 
-  const overwolfRouter = useOverwolfRouter();
   const router = useRouter();
-  const params = useParams()!;
-  const { discoveredNodes, toggleDiscoveredNode } = useDiscoveredNodesStore();
+  const mapName = useParamsStore((state) => state.mapName);
+  const lang = useI18N().locale;
 
   const dict = useDict();
-  const iconSize = useGlobalSettingsStore((state) => state.iconSize);
-  const { visibleNodesByMap, highlightedNode } = useVisibleNodeStore();
+  const iconSize = useSettingsStore((state) => state.iconSize);
+  const visibleNodesByMap = useParamsStore((state) => state.visibleNodesByMap);
+  const highlightedNode = useParamsStore((state) => state.highlightedNode);
+  const setParams = useParamsStore((state) => state.setParams);
 
   useEffect(() => {
     const bounds = featureGroup.getBounds();
-    if (bounds.isValid()) {
+    if (bounds.isValid() && map) {
       map.fitBounds(bounds, {
         duration: 1,
         maxZoom: 5,
@@ -56,14 +62,18 @@ export default function Nodes({ map: mapName }: { map: string }) {
       } else {
         name = dict.spawnNodes[node.type].name;
       }
-      if (overwolfRouter) {
-        overwolfRouter.update({
-          name: encodeURIComponent(name || dict.nodes[node.type]),
-          mapName,
+      if (isOverwolfApp) {
+        const decoded = decodeNameAndCoordinates({
+          name: name || dict.nodes[node.type],
           coordinates: `@${node.x},${node.y}`,
         });
+        setParams({
+          mapName,
+          ...decoded,
+          dict,
+        });
       } else {
-        const url = `/${params.lang}/${encodeURIComponent(
+        const url = `/${lang}/${encodeURIComponent(
           dict.maps[mapName]
         )}/${encodeURIComponent(name || dict.nodes[node.type])}/@${node.x},${
           node.y
@@ -84,10 +94,8 @@ export default function Nodes({ map: mapName }: { map: string }) {
           node={node}
           type={node.type}
           isHighlighted={highlightedNode?.id === node.id}
-          isDiscovered={discoveredNodes.includes(node.id)}
           iconSize={iconSize}
           onClick={onMarkerClick}
-          onContextMenu={toggleDiscoveredNode}
           featureGroup={featureGroup}
         />
       ))}

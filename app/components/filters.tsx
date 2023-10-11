@@ -1,25 +1,49 @@
 "use client";
 import Image from "next/image";
-import { Fragment } from "react";
+import { Fragment, useCallback } from "react";
 import { isOverwolfApp } from "../lib/env";
 import { ICONS, SPAWN_ICONS } from "../lib/icons";
-import { spawnNodes, staticNodes } from "../lib/nodes";
+import type { spawnNodes } from "../lib/nodes";
+import { staticNodes } from "../lib/nodes";
 import { spawnGroups } from "../lib/spawn-groups";
-import { ALL_FILTERS } from "../lib/storage/global-settings";
+import { useGlobalSettingsStore } from "../lib/storage/global-settings";
+import { ALL_FILTERS, useParamsStore } from "../lib/storage/params";
 import { useDict } from "./(i18n)/i18n-provider";
-import useFilters from "./use-filters";
 
 export default function Filters() {
   const dict = useDict();
-  const [filters, toggleFilter, setFilters] = useFilters();
+  const filters = useParamsStore((state) => state.filters);
+  const setParams = useParamsStore((state) => state.setParams);
+  const showFilters = useGlobalSettingsStore((state) => state.showFilters);
+
+  const toggleFilter = useCallback(
+    (key: string | string[]) => {
+      if (Array.isArray(key)) {
+        const newFilters = filters.some((filter) => key.includes(filter))
+          ? filters.filter((f) => !key.includes(f))
+          : [...filters, ...key];
+        setParams({ filters: newFilters, dict });
+      } else {
+        const newFilters = filters.includes(key)
+          ? filters.filter((f) => f !== key)
+          : [...filters, key];
+        setParams({ filters: newFilters, dict });
+      }
+    },
+    [filters, dict]
+  );
 
   return (
-    <div className="divide-y divide-neutral-700 border-t border-t-neutral-600 bg-neutral-900 text-gray-200 text-sm w-full md:border md:border-gray-600 md:rounded-lg overflow-auto">
+    <div
+      className={`divide-y divide-neutral-700 border-t border-t-neutral-600 bg-neutral-900 text-gray-200 text-sm w-full md:border md:border-gray-600 md:rounded-lg overflow-auto ${
+        showFilters ? "block" : "hidden"
+      }`}
+    >
       <div className="flex">
         <button
           className="p-2 uppercase hover:text-white w-1/2"
           onClick={() => {
-            setFilters(ALL_FILTERS);
+            setParams({ filters: ALL_FILTERS, dict });
           }}
         >
           {dict.nodes.showAll}
@@ -27,7 +51,7 @@ export default function Filters() {
         <button
           className="p-2 uppercase hover:text-white w-1/2"
           onClick={() => {
-            setFilters([]);
+            setParams({ filters: [], dict });
           }}
         >
           {dict.nodes.hideAll}

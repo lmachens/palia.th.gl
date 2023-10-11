@@ -1,5 +1,4 @@
 "use client";
-import dynamic from "next/dynamic";
 import AppSettings from "../(overwolf)/components/app-settings";
 import { API_BASE_URI, PATREON_CLIENT_ID_V2, isOverwolfApp } from "../lib/env";
 import { useAccountStore } from "../lib/storage/account";
@@ -8,14 +7,8 @@ import { useDict } from "./(i18n)/i18n-provider";
 import Drawer from "./drawer";
 import ExternalLink from "./external-link";
 import LocaleSelect from "./locale-select";
+import NitroPay from "./nitro-pay";
 import Settings from "./settings";
-import SpawnNodes from "./spawn-nodes";
-const NitroPay = dynamic(() => import("./nitro-pay"), {
-  ssr: false,
-});
-const DiscoveredNodes = dynamic(() => import("./discovered-nodes"), {
-  ssr: false,
-});
 
 const DiscordIcon = ({ className }: { className?: string }) => {
   return (
@@ -144,10 +137,6 @@ export default function Menu() {
           <h2 className="category-title">{dict.menu.settings}</h2>
           {isOverwolfApp && <AppSettings />}
           <Settings />
-          <h2 className="category-title">{dict.menu.discoveredNodes}</h2>
-          <DiscoveredNodes />
-          <h2 className="category-title">{dict.menu.spawnNodes}</h2>
-          <SpawnNodes />
           <h2 className="category-title">{dict.menu.apps}</h2>
           <ExternalLink
             href="https://www.overwolf.com/app/Leon_Machens-Diablo_4_Map"

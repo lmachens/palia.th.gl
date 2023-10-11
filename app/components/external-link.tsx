@@ -1,4 +1,5 @@
-import { ReactNode } from "react";
+import type { ReactNode } from "react";
+import { trackOutboundLinkClick } from "./plausible-tracker";
 
 export default function ExternalLink({
   href,
@@ -17,6 +18,9 @@ export default function ExternalLink({
       className={`flex items-center gap-1 text-gray-300 hover:text-white ${
         className ?? ""
       }`}
+      onClick={() => {
+        trackOutboundLinkClick(href);
+      }}
     >
       {text}
       <svg

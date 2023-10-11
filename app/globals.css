@@ -77,34 +77,9 @@
   display: none;
 }
 
-.twitch-embed-close {
-  position: fixed;
-  display: block;
-  cursor: pointer;
-  z-index: 10001;
-  background: rgb(238 238 238);
-  margin: 5px;
-  padding: 0 5px;
-  font-size: 12px;
-  font-weight: bold;
-  font-family: Arial, sans-serif;
-  opacity: 0.8;
-  border: 1px solid rgb(34 34 34);
-  border-radius: 12px;
-  color: rgb(34 34 34);
-  bottom: 200px;
-  right: 0;
-}
-
-@media screen and (width >= 426px) {
-  .twitch-embed-close {
-    bottom: 232px;
-    right: 7px;
-  }
-}
-
 .twitch-embed {
   display: block;
+  position: relative;
   z-index: 10000;
   overflow: hidden;
   border-radius: 5px;
@@ -117,9 +92,13 @@
 
 @media screen and (width >= 426px) {
   .twitch-embed {
-    width: 400px;
-    height: 225px;
+    width: 320px;
+    height: 180px;
     bottom: 7px;
     right: 7px;
   }
+}
+
+.twitch-embed:hover .twitch-embed-close {
+  opacity: 1;
 }

@@ -1,4 +1,4 @@
-import { LatLngBoundsExpression } from "leaflet";
+import type { LatLngBoundsExpression } from "leaflet";
 
 export const CONFIGS = {
   "kilima-valley": {

@@ -1,11 +1,12 @@
-import { useMapStore } from "@/app/components/(map)/map";
+import { useDict } from "@/app/components/(i18n)/i18n-provider";
 import { getMapFromCoords, modHousingCoords } from "@/app/lib/maps";
 import { useGameInfoStore } from "@/app/lib/storage/game-info";
+import { useMapStore } from "@/app/lib/storage/map";
+import { useParamsStore } from "@/app/lib/storage/params";
 import { useSettingsStore } from "@/app/lib/storage/settings";
 import { villagers } from "@/app/lib/villager";
 import leaflet from "leaflet";
 import { useEffect, useRef } from "react";
-import { useOverwolfRouter } from "./overwolf-router";
 import PlayerMarker from "./player-marker";
 
 type Actor = {
@@ -25,8 +26,8 @@ export default function Player() {
   );
   const marker = useRef<PlayerMarker | null>(null);
   const villagerMarkers = useRef<{ [key: string]: PlayerMarker }>({});
-
-  const overwolfRouter = useOverwolfRouter();
+  const setParams = useParamsStore((state) => state.setParams);
+  const dict = useDict();
 
   useEffect(() => {
     if (mounted.current) return;
@@ -65,13 +66,14 @@ export default function Player() {
                   rotation: player.r,
                   mapName: mapName,
                 });
-                if (mapName && mapName !== lastMapName && overwolfRouter) {
+                if (mapName && mapName !== lastMapName) {
                   console.log(
                     `Entering new map: ${mapName} on ${player.x},${player.y}`
                   );
                   lastMapName = mapName;
-                  overwolfRouter.update({
+                  setParams({
                     mapName,
+                    dict,
                   });
                 }
               }

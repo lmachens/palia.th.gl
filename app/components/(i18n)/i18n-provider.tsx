@@ -1,5 +1,5 @@
 "use client";
-import { DICT } from "@/app/lib/i18n";
+import type { DICT } from "@/app/lib/i18n";
 import { createContext, useContext } from "react";
 
 const Context = createContext<{

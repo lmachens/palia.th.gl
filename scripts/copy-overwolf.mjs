@@ -36,7 +36,14 @@ const removeableFiles = [
   "apple-icon.png",
   "robots.txt",
   "sitemap.xml",
+  "social.webp",
 ];
 removeableFiles.forEach(async (file) => {
   await fs.rm(path.resolve(__dirname, "../out/" + file));
+});
+const removableFolders = ["screenshots"];
+removableFolders.forEach(async (folder) => {
+  await fs.rmdir(path.resolve(__dirname, "../out/" + folder), {
+    recursive: true,
+  });
 });

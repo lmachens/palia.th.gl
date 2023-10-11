@@ -4,6 +4,8 @@ import { withStorageDOMEvents } from "./dom";
 
 export const useSettingsStore = create(
   persist<{
+    iconSize: number;
+    setIconSize: (iconSize: number) => void;
     overlayMode: boolean;
     setOverlayMode: (overlayMode: boolean) => void;
     mapFilter: string;
@@ -26,6 +28,8 @@ export const useSettingsStore = create(
   }>(
     (set) => {
       return {
+        iconSize: 1,
+        setIconSize: (iconSize) => set({ iconSize }),
         overlayMode: true,
         setOverlayMode: (overlayMode) =>
           set({
@@ -70,8 +74,8 @@ export const useSettingsStore = create(
     },
     {
       name: "settings-storage",
-    },
-  ),
+    }
+  )
 );
 
 withStorageDOMEvents(useSettingsStore);
