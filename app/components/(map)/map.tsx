@@ -1,5 +1,4 @@
 "use client";
-import { useOverwolfRouter } from "@/app/(overwolf)/components/overwolf-router";
 import { HOTKEYS } from "@/app/(overwolf)/lib/config";
 import type { LatLngBoundsExpression } from "leaflet";
 import leaflet from "leaflet";
@@ -7,7 +6,7 @@ import "leaflet/dist/leaflet.css";
 import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 
-import { isDevelopment } from "@/app/lib/env";
+import { isDevelopment, isOverwolfApp } from "@/app/lib/env";
 import { CONFIGS } from "@/app/lib/maps";
 import { useMapStore } from "@/app/lib/storage/map";
 import { useParamsStore } from "@/app/lib/storage/params";
@@ -22,22 +21,17 @@ export const MAX_BOUNDS: LatLngBoundsExpression = [
   [-512, 512],
 ];
 
-export default function Map({
-  children,
-  map: mapName,
-}: {
-  children?: React.ReactNode;
-  map: string;
-}) {
+export default function Map({ children }: { children?: React.ReactNode }) {
   const mapRef = useRef<HTMLDivElement>(null);
   const [leafletMap, setLeafletMap] = useState<leaflet.Map | null>(null);
 
   const setMap = useMapStore((state) => state.setMap);
-  const overwolfRouter = useOverwolfRouter();
   const router = useRouter();
   const dict = useDict();
   const lang = useParamsStore((state) => state.lang);
   const coordinates = useParamsStore((state) => state.coordinates);
+  const mapName = useParamsStore((state) => state.mapName);
+  const setParams = useParamsStore((state) => state.setParams);
 
   useEffect(() => {
     const config = CONFIGS[mapName as keyof typeof CONFIGS];
@@ -83,8 +77,8 @@ export default function Map({
       ) {
         return;
       }
-      if (overwolfRouter) {
-        overwolfRouter.update({ name: "", coordinates: "" });
+      if (isOverwolfApp) {
+        setParams({ name: undefined, coordinates: undefined, dict });
         return;
       }
       if (

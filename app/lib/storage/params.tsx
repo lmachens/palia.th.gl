@@ -28,9 +28,7 @@ type ParamsState = {
 
 type ParamsStore = ReturnType<typeof createParamsStore>;
 
-const createParamsStore = (
-  initProps: Partial<ParamsProps> & { dict: DICT }
-) => {
+const createParamsStore = (initProps: ParamsProps & { dict: DICT }) => {
   const calcState = (props: ParamsProps & { dict: DICT }) => {
     const name = props.name;
     const coordinates = props.coordinates;
@@ -96,25 +94,8 @@ const createParamsStore = (
       visibleNodesByMap: changed ? visibleNodesByMap : props.visibleNodesByMap,
     };
   };
-  const DEFAULT_PROPS: ParamsProps = {
-    lang: "",
-    mapName: "",
-    search: "",
-    query: "",
-    visibleNodesByMap: {
-      "kilima-valley": [],
-      "bahari-bay": [],
-      fairgrounds: [],
-      housing: [],
-    },
-    screenshot: false,
-    filters: [],
-  };
 
-  const props = calcState({
-    ...DEFAULT_PROPS,
-    ...initProps,
-  });
+  const props = calcState(initProps);
   return createStore<ParamsState>()((set, get) => ({
     ...props,
     setParams: (params) => {
@@ -163,7 +144,7 @@ export const ALL_FILTERS = [
   ...Object.keys(spawnNodes),
 ];
 
-function decodeNameAndCoordinates({
+export function decodeNameAndCoordinates({
   name,
   coordinates,
 }: {
@@ -187,13 +168,16 @@ export function ParamsProvider({ children }: { children: React.ReactNode }) {
   const isInitialRender = !storeRef.current;
   if (!storeRef.current) {
     const lang = params.lang as string;
-    const mapTitle = decodeURIComponent(params.map as string);
-    const mapEntry = Object.entries(dict.maps).find(([, value]) => {
-      return value === mapTitle;
-    })!;
-    const mapName = mapEntry[0];
+    let mapName = "kilima-valley";
+    if (params.map) {
+      const mapTitle = decodeURIComponent(params.map as string);
+      const mapEntry = Object.entries(dict.maps).find(([, value]) => {
+        return value === mapTitle;
+      })!;
+      mapName = mapEntry[0];
+    }
     const query = searchParams.toString();
-    const search = searchParams.get("search") || undefined;
+    const search = searchParams.get("search") || "";
     const screenshot = searchParams.get("screenshot") === "true";
     const { name, coordinates } = decodeNameAndCoordinates(params);
     const filtersString = searchParams.get("filters");
@@ -209,6 +193,12 @@ export function ParamsProvider({ children }: { children: React.ReactNode }) {
       name,
       coordinates,
       filters,
+      visibleNodesByMap: {
+        "kilima-valley": [],
+        "bahari-bay": [],
+        fairgrounds: [],
+        housing: [],
+      },
     });
   }
 

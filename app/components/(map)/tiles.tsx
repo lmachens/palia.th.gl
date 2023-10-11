@@ -2,14 +2,16 @@
 import { CONFIGS } from "@/app/lib/maps";
 import { useGameInfoStore } from "@/app/lib/storage/game-info";
 import { useMap } from "@/app/lib/storage/map";
+import { useParamsStore } from "@/app/lib/storage/params";
 import { useSettingsStore } from "@/app/lib/storage/settings";
 import { useEffect } from "react";
 import { createCanvasLayer } from "./canvas-layer";
 
-export default function Tiles({ map: mapName }: { map: string }) {
+export default function Tiles() {
   const map = useMap();
   const mapFilter = useSettingsStore((state) => state.mapFilter);
   const isOverlay = useGameInfoStore((state) => state.isOverlay);
+  const mapName = useParamsStore((state) => state.mapName);
 
   useEffect(() => {
     if ((isOverlay && mapFilter === "full") || !map) {

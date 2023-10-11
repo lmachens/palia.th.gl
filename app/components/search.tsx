@@ -1,6 +1,5 @@
 "use client";
 
-import { useOverwolfRouter } from "../(overwolf)/components/overwolf-router";
 import { isOverwolfApp } from "../lib/env";
 import { useGameInfoStore } from "../lib/storage/game-info";
 import { useGlobalSettingsStore } from "../lib/storage/global-settings";
@@ -14,14 +13,7 @@ import Routes from "./routes";
 import SearchResults from "./search-results";
 import WeeklyWants from "./weekly-wants";
 
-export default function Search({
-  map: mapName,
-  hidden,
-}: {
-  map: string;
-  hidden?: boolean;
-}) {
-  const overwolfRouter = useOverwolfRouter();
+export default function Search({ hidden }: { hidden?: boolean }) {
   const dict = useDict();
   const search = useParamsStore((state) => state.search);
   const setParams = useParamsStore((state) => state.setParams);
@@ -29,6 +21,7 @@ export default function Search({
   const settingsStore = useSettingsStore();
   const globalSettingsStore = useGlobalSettingsStore();
   const isOverlay = useGameInfoStore((state) => state.isOverlay);
+  const mapName = useParamsStore((state) => state.mapName);
 
   if (hidden) {
     return <></>;
@@ -37,7 +30,7 @@ export default function Search({
   return (
     <div
       className={`absolute pointer-events-none ${
-        overwolfRouter ? "top-[42px]" : "top-0 md:top-3"
+        isOverwolfApp ? "top-[42px]" : "top-0 md:top-3"
       } w-full md:w-auto right-0 md:right-1 z-[400] transition-all duration-500 ${
         globalSettingsStore.showSidebar ? "md:left-[412px]" : "md:left-3"
       } md:space-y-1`}

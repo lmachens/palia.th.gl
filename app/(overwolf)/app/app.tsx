@@ -9,13 +9,13 @@ import Search from "@/app/components/search";
 import SearchParams from "@/app/components/search-params";
 import { DEFAULT_LOCALE, LOCALES, loadDictionary } from "@/app/lib/i18n";
 import { useGameInfoStore } from "@/app/lib/storage/game-info";
+import { ParamsProvider } from "@/app/lib/storage/params";
 import { useSettingsStore } from "@/app/lib/storage/settings";
 import { useEffect, useState } from "react";
 import Ads from "../components/ads";
 import AppContainer from "../components/app-container";
 import Header from "../components/header";
 import MapContainer from "../components/map-container";
-import { useOverwolfRouter } from "../components/overwolf-router";
 import Player from "../components/player";
 import ResizeBorders from "../components/resize-borders";
 import TraceLine from "../components/trace-line";
@@ -27,10 +27,6 @@ export default function App() {
   const locale = useSettingsStore((state) => state.locale);
   const dict = loadDictionary(locale);
   const setIsOverlay = useGameInfoStore((state) => state.setIsOverlay);
-  const overwolfRouter = useOverwolfRouter();
-  const mapName = overwolfRouter
-    ? overwolfRouter.value.mapName
-    : "kilima-valley";
 
   useEffect(() => {
     getCurrentWindow().then((currentWindow) => {
@@ -52,22 +48,23 @@ export default function App() {
         locales: LOCALES,
       }}
     >
-      <AppContainer>
-        <Header />
-        <MapContainer>
-          <Map map={mapName}>
-            <Tiles map={mapName} />
-            <Nodes map={mapName} />
-            <ActiveRoutes />
-
-            <Player />
-            <TraceLine />
-          </Map>
-        </MapContainer>
-        <Search map={mapName} />
-        <Menu />
-        <SearchParams />
-      </AppContainer>
+      <ParamsProvider>
+        <AppContainer>
+          <Header />
+          <MapContainer>
+            <Map>
+              <Tiles />
+              <Nodes />
+              <ActiveRoutes />
+              <Player />
+              <TraceLine />
+            </Map>
+          </MapContainer>
+          <Search />
+          <Menu />
+          <SearchParams />
+        </AppContainer>
+      </ParamsProvider>
       <ResizeBorders />
       <Ads />
     </I18NProvider>

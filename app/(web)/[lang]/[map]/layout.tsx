@@ -43,12 +43,12 @@ function Layout({
     }
     content = (
       <>
-        <Map map={mapEntry[0]}>
-          <Tiles map={mapEntry[0]} />
+        <Map>
+          <Tiles />
           <Nodes />
           <ActiveRoutes />
         </Map>
-        <Search map={mapEntry[0]} />
+        <Search />
       </>
     );
   }

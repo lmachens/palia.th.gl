@@ -1,8 +1,11 @@
 "use client";
-import { useOverwolfRouter } from "@/app/(overwolf)/components/overwolf-router";
+import { isOverwolfApp } from "@/app/lib/env";
 import type { NODE } from "@/app/lib/nodes";
 import { useMap } from "@/app/lib/storage/map";
-import { useParamsStore } from "@/app/lib/storage/params";
+import {
+  decodeNameAndCoordinates,
+  useParamsStore,
+} from "@/app/lib/storage/params";
 import { useSettingsStore } from "@/app/lib/storage/settings";
 import leaflet from "leaflet";
 import { useRouter } from "next/navigation";
@@ -27,7 +30,6 @@ export default function Nodes() {
     };
   }, [map]);
 
-  const overwolfRouter = useOverwolfRouter();
   const router = useRouter();
   const mapName = useParamsStore((state) => state.mapName);
   const lang = useParamsStore((state) => state.lang);
@@ -36,6 +38,7 @@ export default function Nodes() {
   const iconSize = useSettingsStore((state) => state.iconSize);
   const visibleNodesByMap = useParamsStore((state) => state.visibleNodesByMap);
   const highlightedNode = useParamsStore((state) => state.highlightedNode);
+  const setParams = useParamsStore((state) => state.setParams);
 
   useEffect(() => {
     const bounds = featureGroup.getBounds();
@@ -59,11 +62,15 @@ export default function Nodes() {
       } else {
         name = dict.spawnNodes[node.type].name;
       }
-      if (overwolfRouter) {
-        overwolfRouter.update({
-          name: encodeURIComponent(name || dict.nodes[node.type]),
-          mapName,
+      if (isOverwolfApp) {
+        const decoded = decodeNameAndCoordinates({
+          name: name || dict.nodes[node.type],
           coordinates: `@${node.x},${node.y}`,
+        });
+        setParams({
+          mapName,
+          ...decoded,
+          dict,
         });
       } else {
         const url = `/${lang}/${encodeURIComponent(
