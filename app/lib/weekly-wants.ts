@@ -2,18 +2,23 @@ import { loadDBDictionary } from "./i18n";
 
 export async function fetchWeeklyWants(locale: string): Promise<WEEKLY_WANTS> {
   const dict = loadDBDictionary(locale);
-
+  if (!process.env.PALIAPEDIA_API_KEY) {
+    throw new Error("Missing PALIAPEDIA_API_KEY");
+  }
   const response = await fetch(
     `https://api.paliapedia.com/api/weekly-wants?k=${
       process.env.PALIAPEDIA_API_KEY
     }&random=${Math.random()}`,
     {
       headers: {
-        "User-Agent": process.env.PALIAPEDIA_API_KEY!,
+        "User-Agent": process.env.PALIAPEDIA_API_KEY,
       },
       next: { revalidate: 3600 },
     }
   );
+  if (!response.ok) {
+    throw new Error("Failed to fetch weekly wants with API key");
+  }
   const data = (await response.json()) as PALIAPEDIA_WEEKLY_WANTS;
   const weeklyWants = Object.entries(data.preferences).reduce(
     (acc, [key, wants]) => {

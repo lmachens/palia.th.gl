@@ -20,6 +20,8 @@ jobs:
           cache: "pnpm"
       - run: pnpm install
       - name: Build Overwolf app
+        env:
+          PALIAPEDIA_API_KEY: ${{ secrets.PALIAPEDIA_API_KEY }}
         run: pnpm export
       - name: Release Overwolf app
         env:
