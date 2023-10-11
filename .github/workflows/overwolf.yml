@@ -25,4 +25,5 @@ jobs:
         env:
           OW_CLI_EMAIL: ${{ secrets.OW_CLI_EMAIL }}
           OW_CLI_API_KEY: ${{ secrets.OW_CLI_API_KEY }}
+          PALIAPEDIA_API_KEY: ${{ secrets.PALIAPEDIA_API_KEY }}
         run: pnpm release
