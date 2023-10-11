@@ -120,9 +120,16 @@ export default function Search({
             </div>
           )}
           <button
-            className={`flex absolute inset-y-0 right-6 items-center pr-2 text-gray-400 hover:text-gray-200 ${
-              globalSettingsStore.showFilters ? "text-white" : ""
-            }`}
+            className={`flex absolute inset-y-0 right-6 items-center pr-2 text-gray-400 hover:text-gray-200 md:text-white`}
+            style={
+              globalSettingsStore.showFilters !== null
+                ? {
+                    color: globalSettingsStore.showFilters
+                      ? "white"
+                      : "#9ca3af",
+                  }
+                : {}
+            }
             onClick={globalSettingsStore.toggleShowFilters}
           >
             <svg

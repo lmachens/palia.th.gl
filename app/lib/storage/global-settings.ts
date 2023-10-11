@@ -4,7 +4,7 @@ import { isOverwolfApp } from "../env";
 
 export const useGlobalSettingsStore = create(
   persist<{
-    showFilters: boolean;
+    showFilters: boolean | null;
     toggleShowFilters: () => void;
     showRoutes: boolean;
     toggleShowRoutes: () => void;
@@ -13,9 +13,14 @@ export const useGlobalSettingsStore = create(
   }>(
     (set) => {
       return {
-        showFilters: false,
+        showFilters: null,
         toggleShowFilters: () =>
-          set((state) => ({ showFilters: !state.showFilters })),
+          set((state) => ({
+            showFilters:
+              state.showFilters === null
+                ? !window.matchMedia("(min-width: 768px)").matches
+                : !state.showFilters,
+          })),
         showRoutes: false,
         toggleShowRoutes: () =>
           set((state) => ({ showRoutes: !state.showRoutes })),

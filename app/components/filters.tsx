@@ -35,9 +35,14 @@ export default function Filters() {
 
   return (
     <div
-      className={`divide-y divide-neutral-700 border-t border-t-neutral-600 bg-neutral-900 text-gray-200 text-sm w-full md:border md:border-gray-600 md:rounded-lg overflow-auto ${
-        showFilters ? "block" : "hidden"
-      }`}
+      className={`divide-y divide-neutral-700 border-t border-t-neutral-600 bg-neutral-900 text-gray-200 text-sm w-full md:border md:border-gray-600 md:rounded-lg overflow-auto hidden md:block`}
+      style={
+        showFilters !== null
+          ? {
+              display: showFilters ? "block" : "none",
+            }
+          : {}
+      }
     >
       <div className="flex">
         <button
