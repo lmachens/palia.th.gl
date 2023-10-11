@@ -1,14 +1,16 @@
 "use client";
 import { useOverwolfRouter } from "@/app/(overwolf)/components/overwolf-router";
 import { HOTKEYS } from "@/app/(overwolf)/lib/config";
-import leaflet, { LatLngBoundsExpression } from "leaflet";
+import type { LatLngBoundsExpression } from "leaflet";
+import leaflet from "leaflet";
 import "leaflet/dist/leaflet.css";
-import { useParams, useRouter } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 
 import { isDevelopment } from "@/app/lib/env";
 import { CONFIGS } from "@/app/lib/maps";
 import { useMapStore } from "@/app/lib/storage/map";
+import { useParamsStore } from "@/app/lib/storage/params";
 import "@geoman-io/leaflet-geoman-free";
 import "@geoman-io/leaflet-geoman-free/dist/leaflet-geoman.css";
 import { useDict } from "../(i18n)/i18n-provider";
@@ -33,8 +35,9 @@ export default function Map({
   const setMap = useMapStore((state) => state.setMap);
   const overwolfRouter = useOverwolfRouter();
   const router = useRouter();
-  const params = useParams()!;
   const dict = useDict();
+  const lang = useParamsStore((state) => state.lang);
+  const coordinates = useParamsStore((state) => state.coordinates);
 
   useEffect(() => {
     const config = CONFIGS[mapName as keyof typeof CONFIGS];
@@ -60,15 +63,6 @@ export default function Map({
       pmIgnore: false,
     });
 
-    const paramsCoordinates = overwolfRouter
-      ? overwolfRouter.value.coordinates
-      : params.coordinates;
-    const coordinates = (
-      paramsCoordinates && decodeURIComponent(paramsCoordinates as string)
-    )
-      ?.replace("@", "")
-      .split(",")
-      .map(Number);
     if (coordinates?.length === 2) {
       map.setView([coordinates[1], coordinates[0]], 2);
     } else {
@@ -101,9 +95,7 @@ export default function Map({
       }
       {
         router.replace(
-          `/${params.lang}/${encodeURIComponent(dict.maps[mapName])}${
-            location.search
-          }`
+          `/${lang}/${encodeURIComponent(dict.maps[mapName])}${location.search}`
         );
       }
     });

@@ -5,7 +5,7 @@ import { useMap } from "@/app/lib/storage/map";
 import { useParamsStore } from "@/app/lib/storage/params";
 import { useSettingsStore } from "@/app/lib/storage/settings";
 import leaflet from "leaflet";
-import { useParams, useRouter } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useMemo } from "react";
 import { useDict } from "../(i18n)/i18n-provider";
 import Marker from "./marker";
@@ -29,8 +29,8 @@ export default function Nodes() {
 
   const overwolfRouter = useOverwolfRouter();
   const router = useRouter();
-  const params = useParams()!;
   const mapName = useParamsStore((state) => state.mapName);
+  const lang = useParamsStore((state) => state.lang);
 
   const dict = useDict();
   const iconSize = useSettingsStore((state) => state.iconSize);
@@ -66,7 +66,7 @@ export default function Nodes() {
           coordinates: `@${node.x},${node.y}`,
         });
       } else {
-        const url = `/${params.lang}/${encodeURIComponent(
+        const url = `/${lang}/${encodeURIComponent(
           dict.maps[mapName]
         )}/${encodeURIComponent(name || dict.nodes[node.type])}/@${node.x},${
           node.y

@@ -1,7 +1,7 @@
 "use client";
 import { useDict } from "@/app/components/(i18n)/i18n-provider";
 import { useParams, useSearchParams } from "next/navigation";
-import { createContext, useContext, useRef } from "react";
+import { createContext, useContext, useEffect, useRef } from "react";
 import { createStore, useStore } from "zustand";
 import type { DICT } from "../i18n";
 import type { NODE } from "../nodes";
@@ -40,6 +40,7 @@ const createParamsStore = (
     const dict = props.dict;
 
     let highlightedNode: NODE | undefined = undefined;
+    let changed = false;
     const visibleNodesByMap: Record<string, NODE[]> = {};
     nodes.forEach((node) => {
       let isHighlighted = false;
@@ -70,17 +71,29 @@ const createParamsStore = (
         }
       }
       if (!isTrivial) {
+        // Add if not already added
         if (!visibleNodesByMap[node.mapName]) {
           visibleNodesByMap[node.mapName] = [];
         }
         visibleNodesByMap[node.mapName].push(node);
+        if (
+          !changed &&
+          !props.visibleNodesByMap[node.mapName]?.some((n) => n.id === node.id)
+        ) {
+          changed = true;
+        }
+      } else if (
+        !changed &&
+        props.visibleNodesByMap[node.mapName]?.some((n) => n.id === node.id)
+      ) {
+        changed = true;
       }
     });
 
     return {
       ...props,
       highlightedNode,
-      visibleNodesByMap,
+      visibleNodesByMap: changed ? visibleNodesByMap : props.visibleNodesByMap,
     };
   };
   const DEFAULT_PROPS: ParamsProps = {
@@ -150,12 +163,28 @@ export const ALL_FILTERS = [
   ...Object.keys(spawnNodes),
 ];
 
+function decodeNameAndCoordinates({
+  name,
+  coordinates,
+}: {
+  name?: string;
+  coordinates?: string;
+}) {
+  const decodedName = name && decodeURIComponent(name as string);
+  const decodedCoordinates = (
+    coordinates && decodeURIComponent(coordinates as string)
+  )
+    ?.replace("@", "")
+    .split(",")
+    .map(Number);
+  return { name: decodedName, coordinates: decodedCoordinates };
+}
 export function ParamsProvider({ children }: { children: React.ReactNode }) {
   const dict = useDict();
   const params = useParams();
   const searchParams = useSearchParams();
   const storeRef = useRef<ParamsStore>();
-
+  const isInitialRender = !storeRef.current;
   if (!storeRef.current) {
     const lang = params.lang as string;
     const mapTitle = decodeURIComponent(params.map as string);
@@ -166,15 +195,7 @@ export function ParamsProvider({ children }: { children: React.ReactNode }) {
     const query = searchParams.toString();
     const search = searchParams.get("search") || undefined;
     const screenshot = searchParams.get("screenshot") === "true";
-    const paramsName = params.name;
-    const paramsCoordinates = params.coordinates;
-    const name = paramsName && decodeURIComponent(paramsName as string);
-    const coordinates = (
-      paramsCoordinates && decodeURIComponent(paramsCoordinates as string)
-    )
-      ?.replace("@", "")
-      .split(",")
-      .map(Number);
+    const { name, coordinates } = decodeNameAndCoordinates(params);
     const filtersString = searchParams.get("filters");
     const filters = filtersString ? filtersString.split(",") : ALL_FILTERS;
 
@@ -190,6 +211,19 @@ export function ParamsProvider({ children }: { children: React.ReactNode }) {
       filters,
     });
   }
+
+  useEffect(() => {
+    if (isInitialRender || !storeRef.current) {
+      return;
+    }
+    const { name, coordinates } = decodeNameAndCoordinates(params);
+
+    storeRef.current.getState().setParams({
+      name,
+      coordinates,
+      dict,
+    });
+  }, [params.name, params.coordinates]);
 
   return (
     <ParamsContext.Provider value={storeRef.current}>
