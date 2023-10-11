@@ -1,3 +1,4 @@
+"use client";
 import { nodes } from "@/app/lib/nodes";
 
 import { nanoid } from "nanoid";
@@ -10,7 +11,10 @@ import { useGlobalSettingsStore } from "../lib/storage/global-settings";
 import { useMap } from "../lib/storage/map";
 import type { ROUTE } from "../lib/storage/routes";
 import { useRoutesStore } from "../lib/storage/routes";
-const RoutesList = dynamic(() => import("./routes-list"), { ssr: false });
+
+const RoutesList = dynamic(() => import("./routes-list"), {
+  ssr: false,
+});
 
 export default function Routes() {
   const map = useMap();

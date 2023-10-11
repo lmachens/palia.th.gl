@@ -1,3 +1,4 @@
+"use client";
 import { isOverwolfApp } from "../lib/env";
 import { useRoutesStore } from "../lib/storage/routes";
 import Toggle from "./toggle";

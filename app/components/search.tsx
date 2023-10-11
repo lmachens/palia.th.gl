@@ -11,9 +11,14 @@ import Filters from "./filters";
 import Maps from "./maps";
 import Routes from "./routes";
 import SearchResults from "./search-results";
-import WeeklyWants from "./weekly-wants";
 
-export default function Search({ hidden }: { hidden?: boolean }) {
+export default function Search({
+  hidden,
+  children,
+}: {
+  hidden?: boolean;
+  children?: React.ReactNode;
+}) {
   const dict = useDict();
   const search = useParamsStore((state) => state.search);
   const setParams = useParamsStore((state) => state.setParams);
@@ -39,7 +44,7 @@ export default function Search({ hidden }: { hidden?: boolean }) {
         className={`bg-black md:bg-transparent flex overflow-auto pointer-events-auto pb-1 w-fit`}
       >
         {!isOverwolfApp && <AppDownload />}
-        {(!settingsStore.lockedWindow || !isOverlay) && <WeeklyWants />}
+        {(!settingsStore.lockedWindow || !isOverlay) && children}
       </div>
       {(!settingsStore.lockedWindow || !isOverlay) && (
         <div className={`relative pointer-events-auto flex md:w-fit`}>

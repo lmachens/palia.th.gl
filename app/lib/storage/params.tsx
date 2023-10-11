@@ -3,12 +3,12 @@ import { useDict } from "@/app/components/(i18n)/i18n-provider";
 import { useParams, useSearchParams } from "next/navigation";
 import { createContext, useContext, useEffect, useRef } from "react";
 import { createStore, useStore } from "zustand";
+import { isOverwolfApp } from "../env";
 import type { DICT } from "../i18n";
 import type { NODE } from "../nodes";
 import { nodes, spawnNodes, staticNodes } from "../nodes";
 
 type ParamsProps = {
-  lang: string;
   mapName: string;
   name?: string;
   coordinates?: number[];
@@ -124,16 +124,18 @@ const createParamsStore = (initProps: ParamsProps & { dict: DICT }) => {
 
       set(props);
 
-      let url = location.pathname;
-      if (props.query) {
-        url += "?" + props.query;
-      }
+      if (!isOverwolfApp) {
+        let url = location.pathname;
+        if (props.query) {
+          url += "?" + props.query;
+        }
 
-      window.history.replaceState(
-        { ...window.history.state, as: url, url: url },
-        "",
-        url
-      );
+        window.history.replaceState(
+          { ...window.history.state, as: url, url: url },
+          "",
+          url
+        );
+      }
     },
   }));
 };
@@ -167,14 +169,15 @@ export function ParamsProvider({ children }: { children: React.ReactNode }) {
   const storeRef = useRef<ParamsStore>();
   const isInitialRender = !storeRef.current;
   if (!storeRef.current) {
-    const lang = params.lang as string;
     let mapName = "kilima-valley";
     if (params.map) {
       const mapTitle = decodeURIComponent(params.map as string);
       const mapEntry = Object.entries(dict.maps).find(([, value]) => {
         return value === mapTitle;
-      })!;
-      mapName = mapEntry[0];
+      });
+      if (mapEntry) {
+        mapName = mapEntry[0];
+      }
     }
     const query = searchParams.toString();
     const search = searchParams.get("search") || "";
@@ -185,7 +188,6 @@ export function ParamsProvider({ children }: { children: React.ReactNode }) {
 
     storeRef.current = createParamsStore({
       dict,
-      lang,
       mapName,
       search,
       query,

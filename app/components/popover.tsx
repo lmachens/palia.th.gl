@@ -17,15 +17,15 @@ export default function Popover({
   return (
     <PopoverPrimitive.Root open={open} onOpenChange={onOpenChange}>
       <PopoverPrimitive.Trigger asChild>{trigger}</PopoverPrimitive.Trigger>
-      <PopoverPrimitive.Portal>
-        <PopoverPrimitive.Content
-          className="  data-open:animate-fadeIn data-closed:animate-fadeOut"
-          sideOffset={5}
-          collisionPadding={8}
-        >
-          {children}
-        </PopoverPrimitive.Content>
-      </PopoverPrimitive.Portal>
+      <PopoverPrimitive.Content
+        className="data-open:animate-fadeIn data-closed:animate-fadeOut"
+        sideOffset={5}
+        collisionPadding={8}
+        forceMount
+        hidden={!open}
+      >
+        {children}
+      </PopoverPrimitive.Content>
     </PopoverPrimitive.Root>
   );
 }

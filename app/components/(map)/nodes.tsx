@@ -10,7 +10,7 @@ import { useSettingsStore } from "@/app/lib/storage/settings";
 import leaflet from "leaflet";
 import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useMemo } from "react";
-import { useDict } from "../(i18n)/i18n-provider";
+import { useDict, useI18N } from "../(i18n)/i18n-provider";
 import Marker from "./marker";
 
 export default function Nodes() {
@@ -32,7 +32,7 @@ export default function Nodes() {
 
   const router = useRouter();
   const mapName = useParamsStore((state) => state.mapName);
-  const lang = useParamsStore((state) => state.lang);
+  const lang = useI18N().locale;
 
   const dict = useDict();
   const iconSize = useSettingsStore((state) => state.iconSize);

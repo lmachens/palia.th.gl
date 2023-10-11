@@ -2,9 +2,11 @@ import Nodes from "@/app/components/(map)/nodes";
 import Tiles from "@/app/components/(map)/tiles";
 import Download from "@/app/components/download";
 import Search from "@/app/components/search";
+import WeeklyWants from "@/app/components/weekly-wants";
 import { loadDictionary } from "@/app/lib/i18n";
 import { isMap } from "@/app/lib/maps";
 import { ParamsProvider } from "@/app/lib/storage/params";
+import { fetchWeeklyWants } from "@/app/lib/weekly-wants";
 import dynamic from "next/dynamic";
 import { notFound } from "next/navigation";
 
@@ -21,7 +23,7 @@ const ActiveRoutes = dynamic(
   }
 );
 
-function Layout({
+async function Layout({
   children,
   params: { lang, map },
 }: {
@@ -33,6 +35,7 @@ function Layout({
   if (map === "download") {
     content = <Download />;
   } else {
+    const weeklyWants = await fetchWeeklyWants(lang);
     const mapTitle = decodeURIComponent(map);
     const mapEntry = Object.entries(dict.maps).find(([, value]) => {
       return value === mapTitle;
@@ -48,7 +51,9 @@ function Layout({
           <Nodes />
           <ActiveRoutes />
         </Map>
-        <Search />
+        <Search>
+          <WeeklyWants data={weeklyWants} />
+        </Search>
       </>
     );
   }

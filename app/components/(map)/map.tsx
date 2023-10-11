@@ -12,7 +12,7 @@ import { useMapStore } from "@/app/lib/storage/map";
 import { useParamsStore } from "@/app/lib/storage/params";
 import "@geoman-io/leaflet-geoman-free";
 import "@geoman-io/leaflet-geoman-free/dist/leaflet-geoman.css";
-import { useDict } from "../(i18n)/i18n-provider";
+import { useDict, useI18N } from "../(i18n)/i18n-provider";
 
 leaflet.PM.setOptIn(true);
 
@@ -28,7 +28,7 @@ export default function Map({ children }: { children?: React.ReactNode }) {
   const setMap = useMapStore((state) => state.setMap);
   const router = useRouter();
   const dict = useDict();
-  const lang = useParamsStore((state) => state.lang);
+  const lang = useI18N().locale;
   const coordinates = useParamsStore((state) => state.coordinates);
   const mapName = useParamsStore((state) => state.mapName);
   const setParams = useParamsStore((state) => state.setParams);
