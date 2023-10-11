@@ -97,7 +97,9 @@
     bottom: 7px;
     right: 7px;
   }
+}
 
+@media screen and (width >= 768px) {
   .twitch-embed-close {
     opacity: 0;
   }
