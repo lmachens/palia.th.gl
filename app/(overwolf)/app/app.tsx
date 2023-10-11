@@ -26,15 +26,13 @@ import TraceLine from "../components/trace-line";
 import { WINDOWS } from "../lib/config";
 import { getCurrentWindow } from "../lib/windows";
 
-
- async function getWeeklyWants(locale: string) {
+async function getWeeklyWants(locale: string) {
   const response = await fetch(
     `${API_BASE_URI}/api/weekly-wants?locale=${locale}`
   );
   const data = (await response.json()) as WEEKLY_WANTS;
   return data;
 }
-
 
 export default function App() {
   const [ready, setReady] = useState(false);
@@ -80,8 +78,8 @@ export default function App() {
             </Map>
           </MapContainer>
           <Search>
-          <WeeklyWants data={data} />
-            </Search>
+            <WeeklyWants data={data && !("error" in data) ? data : undefined} />
+          </Search>
           <Menu />
           <SearchParams />
         </AppContainer>
