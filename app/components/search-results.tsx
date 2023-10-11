@@ -7,14 +7,13 @@ import { ICONS, SPAWN_ICONS } from "../lib/icons";
 import type { NODE } from "../lib/nodes";
 import { useGlobalSettingsStore } from "../lib/storage/global-settings";
 import { useMap } from "../lib/storage/map";
-import { useVisibleNodeStore } from "../lib/storage/visible-nodes";
+import { useParamsStore } from "../lib/storage/params";
 import { useDict } from "./(i18n)/i18n-provider";
 
 export default function SearchResults({ map: mapName }: { map: string }) {
   const map = useMap();
-  const visibleNodesByMap = useVisibleNodeStore(
-    (state) => state.visibleNodesByMap
-  );
+  const visibleNodesByMap = useParamsStore((state) => state.visibleNodesByMap);
+
   const dict = useDict();
   const showFilters = useGlobalSettingsStore((state) => state.showFilters);
 

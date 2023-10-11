@@ -1,24 +1,17 @@
 "use client";
 
-import { useParams, useSearchParams } from "next/navigation";
-import { useEffect, useMemo, useState } from "react";
 import { useOverwolfRouter } from "../(overwolf)/components/overwolf-router";
 import { isOverwolfApp } from "../lib/env";
-import { useUpdateSearchParams } from "../lib/search-params";
 import { useGameInfoStore } from "../lib/storage/game-info";
-import {
-  ALL_FILTERS,
-  useGlobalSettingsStore,
-} from "../lib/storage/global-settings";
+import { useGlobalSettingsStore } from "../lib/storage/global-settings";
+import { ALL_FILTERS, useParamsStore } from "../lib/storage/params";
 import { useSettingsStore } from "../lib/storage/settings";
-import { useVisibleNodeStore } from "../lib/storage/visible-nodes";
 import { useDict } from "./(i18n)/i18n-provider";
 import AppDownload from "./app-download";
 import Filters from "./filters";
 import Maps from "./maps";
 import Routes from "./routes";
 import SearchResults from "./search-results";
-import useFilters from "./use-filters";
 import WeeklyWants from "./weekly-wants";
 
 export default function Search({
@@ -28,62 +21,14 @@ export default function Search({
   map: string;
   hidden?: boolean;
 }) {
-  const searchParams = useSearchParams()!;
   const overwolfRouter = useOverwolfRouter();
-  const [search, setSearch] = useState(() => searchParams.get("search") ?? "");
   const dict = useDict();
-  const updateSearchParams = useUpdateSearchParams();
-  const [filters] = useFilters();
+  const search = useParamsStore((state) => state.search);
+  const setParams = useParamsStore((state) => state.setParams);
+  const filters = useParamsStore((state) => state.filters);
   const settingsStore = useSettingsStore();
   const globalSettingsStore = useGlobalSettingsStore();
   const isOverlay = useGameInfoStore((state) => state.isOverlay);
-  const refreshVisibleNodes = useVisibleNodeStore(
-    (state) => state.refreshVisibleNodes
-  );
-  const params = useParams()!;
-  const paramsName = overwolfRouter ? overwolfRouter.value.name : params.name;
-  const paramsCoordinates = overwolfRouter
-    ? overwolfRouter.value.coordinates
-    : params.coordinates;
-  const isScreenshot = searchParams.get("screenshot") === "true";
-  const selectedName = useMemo(
-    () => paramsName && decodeURIComponent(paramsName as string),
-    [paramsName]
-  );
-  const coordinates = useMemo(
-    () =>
-      (paramsCoordinates && decodeURIComponent(paramsCoordinates as string))
-        ?.replace("@", "")
-        .split(",")
-        .map(Number) ?? [],
-    [paramsCoordinates]
-  );
-
-  useEffect(() => {
-    const handle = setTimeout(() => {
-      if (overwolfRouter) {
-        if (overwolfRouter.value.search !== search) {
-          overwolfRouter.update({ search });
-        }
-      } else {
-        if (searchParams.get("search") !== search) {
-          updateSearchParams("search", search, true);
-        }
-      }
-    }, 200);
-    return () => clearTimeout(handle);
-  }, [search, mapName]);
-
-  useEffect(() => {
-    refreshVisibleNodes({
-      dict,
-      search,
-      filters,
-      selectedName,
-      coordinates,
-      isScreenshot,
-    });
-  }, [dict, search, filters, selectedName, coordinates, isScreenshot]);
 
   if (hidden) {
     return <></>;
@@ -132,14 +77,17 @@ export default function Search({
             type="text"
             placeholder={dict.search.placeholder}
             value={search}
-            onChange={(event) => setSearch(event.target.value)}
+            onChange={(event) =>
+              setParams({ search: event.target.value, dict })
+            }
             autoComplete="off"
             autoCorrect="off"
+            autoFocus
           />
           {search ? (
             <button
               className="flex absolute inset-y-0 right-12 items-center pr-2 text-gray-400 hover:text-gray-200"
-              onClick={() => setSearch("")}
+              onClick={() => setParams({ search: "", dict })}
             >
               <svg
                 className="block w-5"

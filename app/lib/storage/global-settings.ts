@@ -1,12 +1,6 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
 import { isOverwolfApp } from "../env";
-import { spawnNodes, staticNodes } from "../nodes";
-
-export const ALL_FILTERS = [
-  ...Object.keys(staticNodes),
-  ...Object.keys(spawnNodes),
-];
 
 export const useGlobalSettingsStore = create(
   persist<{

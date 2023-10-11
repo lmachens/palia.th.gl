@@ -4,6 +4,7 @@ import Download from "@/app/components/download";
 import Search from "@/app/components/search";
 import { loadDictionary } from "@/app/lib/i18n";
 import { isMap } from "@/app/lib/maps";
+import { ParamsProvider } from "@/app/lib/storage/params";
 import dynamic from "next/dynamic";
 import { notFound } from "next/navigation";
 
@@ -44,7 +45,7 @@ function Layout({
       <>
         <Map map={mapEntry[0]}>
           <Tiles map={mapEntry[0]} />
-          <Nodes map={mapEntry[0]} />
+          <Nodes />
           <ActiveRoutes />
         </Map>
         <Search map={mapEntry[0]} />
@@ -52,10 +53,10 @@ function Layout({
     );
   }
   return (
-    <>
+    <ParamsProvider>
       {content}
       {children}
-    </>
+    </ParamsProvider>
   );
 }
 

@@ -2,15 +2,15 @@
 import { useOverwolfRouter } from "@/app/(overwolf)/components/overwolf-router";
 import type { NODE } from "@/app/lib/nodes";
 import { useMap } from "@/app/lib/storage/map";
+import { useParamsStore } from "@/app/lib/storage/params";
 import { useSettingsStore } from "@/app/lib/storage/settings";
-import { useVisibleNodeStore } from "@/app/lib/storage/visible-nodes";
 import leaflet from "leaflet";
 import { useParams, useRouter } from "next/navigation";
 import { useCallback, useEffect, useMemo } from "react";
 import { useDict } from "../(i18n)/i18n-provider";
 import Marker from "./marker";
 
-export default function Nodes({ map: mapName }: { map: string }) {
+export default function Nodes() {
   const map = useMap();
   const featureGroup = useMemo(() => {
     const featureGroup = new leaflet.FeatureGroup();
@@ -30,10 +30,12 @@ export default function Nodes({ map: mapName }: { map: string }) {
   const overwolfRouter = useOverwolfRouter();
   const router = useRouter();
   const params = useParams()!;
+  const mapName = useParamsStore((state) => state.mapName);
 
   const dict = useDict();
   const iconSize = useSettingsStore((state) => state.iconSize);
-  const { visibleNodesByMap, highlightedNode } = useVisibleNodeStore();
+  const visibleNodesByMap = useParamsStore((state) => state.visibleNodesByMap);
+  const highlightedNode = useParamsStore((state) => state.highlightedNode);
 
   useEffect(() => {
     const bounds = featureGroup.getBounds();

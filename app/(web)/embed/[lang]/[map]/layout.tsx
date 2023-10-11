@@ -48,7 +48,6 @@ function Layout({
   if (!mapEntry || !isMap(mapEntry[0])) {
     notFound();
   }
-
   return (
     <html lang={lang}>
       <body

@@ -54,5 +54,4 @@ function Layout({
     </html>
   );
 }
-
 export default Layout;
