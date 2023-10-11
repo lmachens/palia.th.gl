@@ -77,7 +77,7 @@ export default function TwitchEmbed({ onClose }: { onClose: () => void }) {
       <div id="player" className="twitch-embed">
         <div
           onClick={onClose}
-          className="twitch-embed-close absolute top-0 left-0 right-0 z-10 opacity-0 transition-all flex justify-between items-center px-2 py-1 bg-black bg-opacity-50 text-white text-sm"
+          className="twitch-embed-close absolute top-0 left-0 right-0 z-10 transition-all flex justify-between items-center px-2 py-1 bg-black bg-opacity-50 text-white text-sm"
         >
           <span>
             Watching{" "}

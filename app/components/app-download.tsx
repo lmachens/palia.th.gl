@@ -24,7 +24,8 @@ export default function AppDownload() {
         <path d="M12 5l0 14"></path>
         <path d="M4 12l16 0"></path>
       </svg>
-      <span>Get the in-game app</span>
+      <span className="hidden md:block">Get the in-game app</span>
+      <span className="block md:hidden">In-Game App</span>
     </Link>
   );
 }
