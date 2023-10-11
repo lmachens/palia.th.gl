@@ -1,4 +1,4 @@
-import { MetadataRoute } from "next";
+import type { MetadataRoute } from "next";
 import { loadDictionary } from "./lib/i18n";
 
 export default function manifest(): MetadataRoute.Manifest {
