@@ -19,6 +19,7 @@ export default function TwitchEmbed({ onClose }: { onClose: () => void }) {
       muted: true,
       parent: ["palia.th.gl"],
       quality: "160p30",
+      controls: false,
     });
 
     twitchEmbed.addEventListener(window.Twitch.Player.ONLINE, () => {
@@ -66,17 +67,31 @@ export default function TwitchEmbed({ onClose }: { onClose: () => void }) {
   };
 
   return (
-    <>
+    <div className="relative">
       <Script
         src="https://embed.twitch.tv/embed/v1.js"
         async
         onLoad={handleLoad}
         onError={onClose}
       />
-      <div onClick={onClose} className="twitch-embed-close">
-        X
+      <div id="player" className="twitch-embed">
+        <div
+          onClick={onClose}
+          className="twitch-embed-close absolute top-0 left-0 right-0 z-10 opacity-0 transition-all flex justify-between items-center px-2 py-1 bg-black bg-opacity-50 text-white text-sm"
+        >
+          <span>
+            Watching{" "}
+            <a
+              className="text-orange-400 hover:underline font-bold"
+              href="https://www.twitch.tv/thehiddengaminglair?tt_content=channel_name&tt_medium=embed"
+              target="_blank"
+            >
+              The Hidden Gaming Lair
+            </a>
+          </span>
+          <button className="text-neutral-200 hover:text-white">X</button>
+        </div>
       </div>
-      <div id="player" className="twitch-embed" />
-    </>
+    </div>
   );
 }
