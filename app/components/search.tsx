@@ -148,9 +148,14 @@ export default function Search({
             </svg>
           </button>
           <button
-            className={`flex absolute inset-y-0 right-0 items-center pr-2 text-gray-400 hover:text-gray-200 ${
-              globalSettingsStore.showRoutes ? "text-white" : ""
-            }`}
+            className={`flex absolute inset-y-0 right-0 items-center pr-2 text-gray-400 hover:text-gray-200 md:text-white`}
+            style={
+              globalSettingsStore.showRoutes !== null
+                ? {
+                    color: globalSettingsStore.showRoutes ? "white" : "#9ca3af",
+                  }
+                : {}
+            }
             onClick={globalSettingsStore.toggleShowRoutes}
           >
             <svg

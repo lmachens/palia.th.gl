@@ -6,7 +6,7 @@ export const useGlobalSettingsStore = create(
   persist<{
     showFilters: boolean | null;
     toggleShowFilters: () => void;
-    showRoutes: boolean;
+    showRoutes: boolean | null;
     toggleShowRoutes: () => void;
     showSidebar: boolean;
     toggleShowSidebar: () => void;
@@ -21,9 +21,14 @@ export const useGlobalSettingsStore = create(
                 ? !window.matchMedia("(min-width: 768px)").matches
                 : !state.showFilters,
           })),
-        showRoutes: false,
+        showRoutes: null,
         toggleShowRoutes: () =>
-          set((state) => ({ showRoutes: !state.showRoutes })),
+          set((state) => ({
+            showRoutes:
+              state.showRoutes === null
+                ? !window.matchMedia("(min-width: 768px)").matches
+                : !state.showRoutes,
+          })),
         showSidebar: false,
         toggleShowSidebar: () =>
           set((state) => ({

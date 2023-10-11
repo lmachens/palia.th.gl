@@ -303,9 +303,14 @@ export default function Routes() {
   }
   return (
     <div
-      className={`divide-y divide-neutral-700 border-t border-t-neutral-600 bg-neutral-900 text-gray-200 text-sm w-full md:border md:border-gray-600 md:rounded-lg ${
-        showRoutes ? "block" : "hidden"
-      }`}
+      className={`divide-y divide-neutral-700 border-t border-t-neutral-600 bg-neutral-900 text-gray-200 text-sm w-full md:border md:border-gray-600 md:rounded-lg hidden md:block`}
+      style={
+        showRoutes !== null
+          ? {
+              display: showRoutes ? "block" : "none",
+            }
+          : {}
+      }
     >
       <div className="flex">
         <button
