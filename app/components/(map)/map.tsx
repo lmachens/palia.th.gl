@@ -98,14 +98,15 @@ export default function Map({ children }: { children?: React.ReactNode }) {
       // Do nothing
     });
 
-    if (typeof overwolf !== "undefined") {
-      overwolf.settings.hotkeys.onPressed.addListener((event) => {
-        if (event.name === HOTKEYS.ZOOM_IN_APP) {
-          map.zoomIn();
-        } else if (event.name === HOTKEYS.ZOOM_OUT_APP) {
-          map.zoomOut();
-        }
-      });
+    const handleHotkey = (event: overwolf.settings.hotkeys.OnPressedEvent) => {
+      if (event.name === HOTKEYS.ZOOM_IN_APP) {
+        map.zoomIn();
+      } else if (event.name === HOTKEYS.ZOOM_OUT_APP) {
+        map.zoomOut();
+      }
+    };
+    if (isOverwolfApp) {
+      overwolf.settings.hotkeys.onPressed.addListener(handleHotkey);
     }
 
     if (isDevelopment) {
@@ -140,6 +141,9 @@ export default function Map({ children }: { children?: React.ReactNode }) {
       setLeafletMap(null);
       map.off();
       map.remove();
+      if (isOverwolfApp) {
+        overwolf.settings.hotkeys.onPressed.removeListener(handleHotkey);
+      }
     };
   }, [mapName]);
 

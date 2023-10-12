@@ -1,5 +1,8 @@
 import { useDict } from "@/app/components/(i18n)/i18n-provider";
 import { getMapFromCoords, modHousingCoords } from "@/app/lib/maps";
+import type { NODE, spawnNodes } from "@/app/lib/nodes";
+import { spawnGroups } from "@/app/lib/spawn-groups";
+import type { GameActor } from "@/app/lib/storage/game-info";
 import { useGameInfoStore } from "@/app/lib/storage/game-info";
 import { useMapStore } from "@/app/lib/storage/map";
 import { useParamsStore } from "@/app/lib/storage/params";
@@ -78,19 +81,44 @@ export default function Player() {
                 }
               }
             }
-            const villagers = actors
-              .filter((actor) => actor.className.startsWith("BP_Villager"))
-              .map((actor) => ({
-                className: actor.className,
-                position: {
+            const villagers: GameActor[] = [];
+            const foundSpawnNodes: NODE[] = [];
+            actors.forEach((actor) => {
+              if (actor.className.startsWith("BP_Villager")) {
+                villagers.push({
+                  className: actor.className,
+                  position: {
+                    x: actor.x,
+                    y: actor.y,
+                    z: actor.z,
+                  },
+                  rotation: 0,
+                  mapName: getMapFromCoords(actor),
+                });
+              }
+              if (
+                Object.values(spawnGroups).some((group) =>
+                  group.some((id) => actor.className.startsWith(id))
+                )
+              ) {
+                const type = actor.className.split(
+                  " "
+                )[0] as keyof typeof spawnNodes;
+                foundSpawnNodes.push({
+                  type,
+                  id: type + "@" + actor.x + "," + actor.y,
                   x: actor.x,
                   y: actor.y,
                   z: actor.z,
-                },
-                rotation: 0,
-                mapName: getMapFromCoords(actor),
-              }));
+                  mapName: getMapFromCoords(actor)!,
+                  isSpawnNode: true,
+                });
+              }
+            });
+
             gameInfo.setVillagers(villagers);
+            gameInfo.setSpawnNodes(foundSpawnNodes);
+
             setTimeout(getData, 100);
           },
           (err: any) => {
@@ -179,7 +207,7 @@ export default function Player() {
       }
     });
   }, [map, mapName, gameInfo.villagers]);
-
+  const lastAnimation = useRef(0);
   useEffect(() => {
     if (
       !map ||
@@ -192,10 +220,15 @@ export default function Player() {
 
     marker.current.updatePosition(gameInfo.player);
     if (followPlayerPosition) {
-      map.panTo(marker.current.getLatLng(), {
-        duration: 1,
-        easeLinearity: 1,
-      });
+      if (Date.now() - lastAnimation.current > 1000) {
+        lastAnimation.current = Date.now();
+        map.stop();
+        map.panTo(marker.current.getLatLng(), {
+          animate: true,
+          duration: 1,
+          easeLinearity: 1,
+        });
+      }
     }
   }, [gameInfo.player, followPlayerPosition]);
 

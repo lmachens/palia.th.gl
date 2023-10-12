@@ -1,9 +1,12 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
+import { isOverwolfApp } from "../env";
 import { withStorageDOMEvents } from "./dom";
 
 export const useSettingsStore = create(
   persist<{
+    liveMode: boolean;
+    setLiveMode: (liveMode: boolean) => void;
     iconSize: number;
     setIconSize: (iconSize: number) => void;
     overlayMode: boolean;
@@ -28,6 +31,8 @@ export const useSettingsStore = create(
   }>(
     (set) => {
       return {
+        liveMode: isOverwolfApp ? true : false,
+        setLiveMode: (liveMode) => set({ liveMode }),
         iconSize: 1,
         setIconSize: (iconSize) => set({ iconSize }),
         overlayMode: true,

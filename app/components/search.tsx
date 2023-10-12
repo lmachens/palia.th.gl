@@ -1,9 +1,10 @@
 "use client";
 
 import { isOverwolfApp } from "../lib/env";
+import { ALL_FILTERS } from "../lib/nodes";
 import { useGameInfoStore } from "../lib/storage/game-info";
 import { useGlobalSettingsStore } from "../lib/storage/global-settings";
-import { ALL_FILTERS, useParamsStore } from "../lib/storage/params";
+import { useParamsStore } from "../lib/storage/params";
 import { useSettingsStore } from "../lib/storage/settings";
 import { useDict } from "./(i18n)/i18n-provider";
 import AppDownload from "./app-download";
@@ -174,7 +175,11 @@ export default function Search({
             </svg>
           </button>
           <div
-            className={`absolute top-full text-sm w-full md:mt-1 max-h-[calc(100vh-100px)] flex flex-col md:gap-2 pb-4`}
+            className={`absolute top-full text-sm w-full md:mt-1 ${
+              isOverwolfApp
+                ? "max-h-[calc(100vh-130px)]"
+                : "max-h-[calc(100vh-100px)]"
+            } flex flex-col md:gap-2 pb-4`}
           >
             <Maps />
             <Routes />

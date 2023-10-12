@@ -28,23 +28,34 @@ export type NODE = SIMPLE_NODE & {
   isSpawnNode?: boolean;
 };
 
-export const nodes: NODE[] = [];
-Object.keys(staticNodes).forEach((_type) => {
-  const type = _type as keyof typeof staticNodes;
-  staticNodes[type].forEach((node) => {
-    nodes.push({ ...node, type });
-  });
-});
-Object.keys(spawnNodes).forEach((_type) => {
-  const type = _type as keyof typeof spawnNodes;
-  spawnNodes[type].forEach((node) => {
-    nodes.push({
-      ...node,
-      type,
-      id: type + "@" + node.x + "," + node.y,
-      isSpawnNode: true,
+export const staticNodesWithType: NODE[] = Object.keys(staticNodes).flatMap(
+  (_type) => {
+    const type = _type as keyof typeof staticNodes;
+    return staticNodes[type].map((node) => {
+      return { ...node, type };
     });
-  });
-});
+  }
+);
+export const spawnNodesWithType: NODE[] = Object.keys(spawnNodes).flatMap(
+  (_type) => {
+    const type = _type as keyof typeof spawnNodes;
+    return spawnNodes[type].map((node) => {
+      return {
+        ...node,
+        type,
+        id: type + "@" + node.x + "," + node.y,
+        isSpawnNode: true,
+      };
+    });
+  }
+);
 
-nodes.reverse();
+export const nodes: NODE[] = [
+  ...staticNodesWithType,
+  ...spawnNodesWithType,
+].reverse();
+
+export const ALL_FILTERS = [
+  ...Object.keys(staticNodes),
+  ...Object.keys(spawnNodes),
+];

@@ -1,6 +1,7 @@
 import { create } from "zustand";
+import type { NODE } from "../nodes";
 
-type Actor = {
+export type GameActor = {
   className: string;
   position: {
     x: number;
@@ -14,10 +15,12 @@ type Actor = {
 export const useGameInfoStore = create<{
   isOverlay: boolean;
   setIsOverlay: (isOverlay: boolean) => void;
-  player: Actor | null;
-  setPlayer: (player: Actor) => void;
-  villagers: Actor[];
-  setVillagers: (villagers: Actor[]) => void;
+  player: GameActor | null;
+  setPlayer: (player: GameActor) => void;
+  villagers: GameActor[];
+  setVillagers: (villagers: GameActor[]) => void;
+  spawnNodes: NODE[];
+  setSpawnNodes: (spawnNodes: NODE[]) => void;
 }>((set) => ({
   isOverlay: false,
   setIsOverlay: (isOverlay) => set({ isOverlay }),
@@ -25,4 +28,6 @@ export const useGameInfoStore = create<{
   setPlayer: (player) => set({ player }),
   villagers: [],
   setVillagers: (villagers) => set({ villagers }),
+  spawnNodes: [],
+  setSpawnNodes: (spawnNodes) => set({ spawnNodes }),
 }));

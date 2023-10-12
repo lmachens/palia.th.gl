@@ -39,8 +39,12 @@ export default function Nodes() {
   const visibleNodesByMap = useParamsStore((state) => state.visibleNodesByMap);
   const highlightedNode = useParamsStore((state) => state.highlightedNode);
   const setParams = useParamsStore((state) => state.setParams);
+  const liveMode = useSettingsStore((state) => state.liveMode);
 
   useEffect(() => {
+    if (liveMode) {
+      return;
+    }
     const bounds = featureGroup.getBounds();
     if (bounds.isValid() && map) {
       map.fitBounds(bounds, {
@@ -49,7 +53,7 @@ export default function Nodes() {
         padding: [70, 70],
       });
     }
-  }, [visibleNodesByMap]);
+  }, [liveMode, visibleNodesByMap]);
 
   const onMarkerClick = useCallback(
     (node: NODE) => {

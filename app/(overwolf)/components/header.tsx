@@ -79,6 +79,13 @@ export default function Header() {
         <div className={`flex ${isOverlay ? "ml-2" : "ml-auto"}`}>
           <div className="flex space-x-2">
             <HeaderToggle
+              label="Live Mode"
+              checked={settingsStore.liveMode}
+              onChange={(checked) => {
+                settingsStore.setLiveMode(checked);
+              }}
+            />
+            <HeaderToggle
               label="2nd Screen Mode"
               checked={!settingsStore.overlayMode}
               onChange={(checked) => {

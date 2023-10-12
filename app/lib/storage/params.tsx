@@ -6,7 +6,9 @@ import { createStore, useStore } from "zustand";
 import { isOverwolfApp } from "../env";
 import type { DICT } from "../i18n";
 import type { NODE } from "../nodes";
-import { nodes, spawnNodes, staticNodes } from "../nodes";
+import { ALL_FILTERS, nodes, staticNodesWithType } from "../nodes";
+import { useGameInfoStore } from "./game-info";
+import { useSettingsStore } from "./settings";
 
 type ParamsProps = {
   mapName: string;
@@ -18,6 +20,7 @@ type ParamsProps = {
   visibleNodesByMap: Record<string, NODE[]>;
   highlightedNode?: NODE;
   filters: string[];
+  nodes: NODE[];
 };
 
 type ParamsState = {
@@ -40,7 +43,7 @@ const createParamsStore = (initProps: ParamsProps & { dict: DICT }) => {
     let highlightedNode: NODE | undefined = undefined;
     let changed = false;
     const visibleNodesByMap: Record<string, NODE[]> = {};
-    nodes.forEach((node) => {
+    props.nodes.forEach((node) => {
       let isHighlighted = false;
       if (!highlightedNode && name && coordinates) {
         if (node.x === coordinates[0] && node.y === coordinates[1]) {
@@ -59,7 +62,6 @@ const createParamsStore = (initProps: ParamsProps & { dict: DICT }) => {
             dict.generated[node.type]?.[node.id]?.name
               .toLowerCase()
               .includes(lowerCaseSearch) ||
-            node.id.toLowerCase().includes(lowerCaseSearch) ||
             dict.spawnNodes[node.type]?.name
               .toLowerCase()
               .includes(lowerCaseSearch)
@@ -87,7 +89,17 @@ const createParamsStore = (initProps: ParamsProps & { dict: DICT }) => {
         changed = true;
       }
     });
-
+    if (!changed) {
+      const oldTotal = Object.values(props.visibleNodesByMap).reduce(
+        (acc, nodes) => acc + nodes.length,
+        0
+      );
+      const newTotal = Object.values(visibleNodesByMap).reduce(
+        (acc, nodes) => acc + nodes.length,
+        0
+      );
+      changed = oldTotal !== newTotal;
+    }
     return {
       ...props,
       highlightedNode,
@@ -141,10 +153,6 @@ const createParamsStore = (initProps: ParamsProps & { dict: DICT }) => {
 };
 
 const ParamsContext = createContext<ParamsStore | null>(null);
-export const ALL_FILTERS = [
-  ...Object.keys(staticNodes),
-  ...Object.keys(spawnNodes),
-];
 
 export function decodeNameAndCoordinates({
   name,
@@ -168,6 +176,9 @@ export function ParamsProvider({ children }: { children: React.ReactNode }) {
   const searchParams = useSearchParams();
   const storeRef = useRef<ParamsStore>();
   const isInitialRender = !storeRef.current;
+  const liveMode = useSettingsStore((state) => state.liveMode);
+  const spawnNodes = useGameInfoStore((state) => state.spawnNodes);
+
   if (!storeRef.current) {
     let mapName = "kilima-valley";
     if (params.map) {
@@ -187,6 +198,7 @@ export function ParamsProvider({ children }: { children: React.ReactNode }) {
     const filters = filtersString ? filtersString.split(",") : ALL_FILTERS;
 
     storeRef.current = createParamsStore({
+      nodes: liveMode ? [...staticNodesWithType, ...spawnNodes] : nodes,
       dict,
       mapName,
       search,
@@ -216,6 +228,20 @@ export function ParamsProvider({ children }: { children: React.ReactNode }) {
       dict,
     });
   }, [params.name, params.coordinates]);
+
+  useEffect(() => {
+    if (isInitialRender || !storeRef.current) {
+      return;
+    }
+    const state = storeRef.current.getState();
+    if (!liveMode && state.nodes === nodes) {
+      return;
+    }
+    storeRef.current.getState().setParams({
+      nodes: liveMode ? [...staticNodesWithType, ...spawnNodes] : nodes,
+      dict,
+    });
+  }, [liveMode, spawnNodes]);
 
   return (
     <ParamsContext.Provider value={storeRef.current}>

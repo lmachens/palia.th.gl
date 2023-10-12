@@ -4,10 +4,10 @@ import { Fragment, useCallback } from "react";
 import { isOverwolfApp } from "../lib/env";
 import { ICONS, SPAWN_ICONS } from "../lib/icons";
 import type { spawnNodes } from "../lib/nodes";
-import { staticNodes } from "../lib/nodes";
+import { ALL_FILTERS, staticNodes } from "../lib/nodes";
 import { spawnGroups } from "../lib/spawn-groups";
 import { useGlobalSettingsStore } from "../lib/storage/global-settings";
-import { ALL_FILTERS, useParamsStore } from "../lib/storage/params";
+import { useParamsStore } from "../lib/storage/params";
 import { useDict } from "./(i18n)/i18n-provider";
 
 export default function Filters() {
