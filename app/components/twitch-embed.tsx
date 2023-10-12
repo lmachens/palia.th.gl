@@ -75,10 +75,7 @@ export default function TwitchEmbed({ onClose }: { onClose: () => void }) {
         onError={onClose}
       />
       <div id="player" className="twitch-embed">
-        <div
-          onClick={onClose}
-          className="twitch-embed-close absolute top-0 left-0 right-0 z-10 transition-all flex justify-between items-center px-2 py-1 bg-black bg-opacity-50 text-white text-sm"
-        >
+        <div className="twitch-embed-close absolute top-0 left-0 right-0 z-10 transition-all flex justify-between items-center px-2 py-1 bg-black bg-opacity-50 text-white text-sm">
           <span>
             Watching{" "}
             <a
@@ -89,7 +86,12 @@ export default function TwitchEmbed({ onClose }: { onClose: () => void }) {
               The Hidden Gaming Lair
             </a>
           </span>
-          <button className="text-neutral-200 hover:text-white">X</button>
+          <button
+            onClick={onClose}
+            className="text-neutral-200 hover:text-white"
+          >
+            X
+          </button>
         </div>
       </div>
     </div>
