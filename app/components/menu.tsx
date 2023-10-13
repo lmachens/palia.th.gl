@@ -2,7 +2,9 @@
 import AppSettings from "../(overwolf)/components/app-settings";
 import { API_BASE_URI, PATREON_CLIENT_ID_V2, isOverwolfApp } from "../lib/env";
 import { useAccountStore } from "../lib/storage/account";
+import { useGameInfoStore } from "../lib/storage/game-info";
 import { useGlobalSettingsStore } from "../lib/storage/global-settings";
+import { useSettingsStore } from "../lib/storage/settings";
 import { useDict } from "./(i18n)/i18n-provider";
 import Drawer from "./drawer";
 import ExternalLink from "./external-link";
@@ -67,9 +69,13 @@ export default function Menu() {
   const globalSettingsStore = useGlobalSettingsStore();
   const accountStore = useAccountStore();
   const dict = useDict();
+  const lockedWindow = useSettingsStore((state) => state.lockedWindow);
+  const isOverlay = useGameInfoStore((state) => state.isOverlay);
 
   return (
-    <Drawer show={globalSettingsStore.showSidebar}>
+    <Drawer
+      show={(!lockedWindow || !isOverlay) && globalSettingsStore.showSidebar}
+    >
       <div className="flex flex-col text-gray-300 h-full">
         <header className="p-2 my-2 flex justify-between">
           <div className="flex gap-2 items-center">
