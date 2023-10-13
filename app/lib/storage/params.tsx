@@ -71,16 +71,19 @@ const createParamsStore = (initProps: ParamsProps & { dict: DICT }) => {
         }
       }
       if (!isTrivial) {
-        // Add if not already added
         if (!visibleNodesByMap[node.mapName]) {
           visibleNodesByMap[node.mapName] = [];
         }
-        visibleNodesByMap[node.mapName].push(node);
-        if (
-          !changed &&
-          !props.visibleNodesByMap[node.mapName]?.some((n) => n.id === node.id)
-        ) {
-          changed = true;
+        if (!visibleNodesByMap[node.mapName].some((n) => n.id === node.id)) {
+          visibleNodesByMap[node.mapName].push(node);
+          if (
+            !changed &&
+            !props.visibleNodesByMap[node.mapName]?.some(
+              (n) => n.id === node.id
+            )
+          ) {
+            changed = true;
+          }
         }
       } else if (
         !changed &&
