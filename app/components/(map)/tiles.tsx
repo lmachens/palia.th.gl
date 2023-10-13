@@ -25,9 +25,6 @@ export default function Tiles() {
       maxZoom: map.getMaxZoom(),
       bounds: config.bounds,
       tileSize: 512,
-      updateInterval: 100,
-      keepBuffer: 8,
-      // zoomOffset: 2,
       filter: isOverlay ? mapFilter : "none",
     }).addTo(map);
 

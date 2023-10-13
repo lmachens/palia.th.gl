@@ -1,4 +1,5 @@
-import leaflet, { Coords, TileLayer, TileLayerOptions } from "leaflet";
+import type { Coords, TileLayer, TileLayerOptions } from "leaflet";
+import leaflet from "leaflet";
 
 type Tile = HTMLCanvasElement & { complete: boolean };
 

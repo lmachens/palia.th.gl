@@ -99,3 +99,11 @@
 .twitch-embed:hover .twitch-embed-close {
   opacity: 1;
 }
+
+.leaflet-map-pane {
+  @apply transition-transform ease-linear duration-1000;
+}
+
+.leaflet-map-pane canvas {
+  mix-blend-mode: plus-lighter;
+}

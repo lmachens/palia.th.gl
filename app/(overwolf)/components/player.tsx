@@ -215,7 +215,9 @@ export default function Player() {
       }
     });
   }, [map, mapName, gameInfo.villagers]);
+
   const lastAnimation = useRef(0);
+
   useEffect(() => {
     if (
       !map ||
@@ -227,14 +229,16 @@ export default function Player() {
     }
 
     marker.current.updatePosition(gameInfo.player);
+
     if (followPlayerPosition) {
-      if (Date.now() - lastAnimation.current > 1000) {
-        lastAnimation.current = Date.now();
-        map.stop();
-        map.panTo(marker.current.getLatLng(), {
-          animate: true,
-          duration: 1,
+      const now = Date.now();
+      if (now - lastAnimation.current > 500) {
+        lastAnimation.current = now;
+        map.panTo([gameInfo.player.position.y, gameInfo.player.position.x], {
+          animate: false,
+          duration: 0,
           easeLinearity: 1,
+          noMoveStart: true,
         });
       }
     }

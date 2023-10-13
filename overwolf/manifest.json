@@ -56,10 +56,11 @@
         "file": "app.html",
         "debug_url": "http://localhost:3668/app",
         "block_top_window_navigation": false,
-        "resizable": true,
+        "desktop_only": false,
+        "in_game_only": true,
+        "resizable": false,
         "override_on_update": true,
         "transparent": true,
-        "in_game_only": true,
         "focus_game_takeover": "ReleaseOnLostFocus",
         "focus_game_takeover_release_hotkey": "toggle_app",
         "size": {
