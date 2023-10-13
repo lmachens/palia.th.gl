@@ -17,6 +17,7 @@ export async function fetchWeeklyWants(locale: string): Promise<WEEKLY_WANTS> {
     }
   );
   if (!response.ok) {
+    console.error(response.status, response.statusText);
     throw new Error("Failed to fetch weekly wants with API key");
   }
   const data = (await response.json()) as PALIAPEDIA_WEEKLY_WANTS;
