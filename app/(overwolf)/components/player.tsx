@@ -48,9 +48,17 @@ export default function Player() {
       console.log("Initialized plugin");
       let prevPosition = { x: 0, y: 0, z: 0, r: 0 };
       let lastError = "";
+      let firstData = false;
       const getData = () => {
         plugin.Listen(
           (player: Actor, actors: Actor[]) => {
+            if (!firstData) {
+              firstData = true;
+              console.log("Got first data", JSON.stringify(player));
+            }
+            if (lastError) {
+              lastError = "";
+            }
             if (
               player.x !== prevPosition.x ||
               player.y !== prevPosition.y ||
@@ -121,10 +129,10 @@ export default function Player() {
 
             setTimeout(getData, 100);
           },
-          (err: any) => {
-            if (err instanceof Error && err.message !== lastError) {
-              lastError = err.message;
-              console.error("Error: ", err.message);
+          (err: string) => {
+            if (err !== lastError) {
+              lastError = err;
+              console.error("Error: ", err);
             }
             setTimeout(getData, 1000);
           }
