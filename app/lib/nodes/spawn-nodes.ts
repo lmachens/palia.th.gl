@@ -43,12 +43,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 118233.39,
-      y: -100839.86,
-      z: 45.85,
-      mapName: "bahari-bay",
-    },
-    {
       x: 133735,
       y: -94493.67,
       z: -1694.29,
@@ -94,12 +88,6 @@ export const spawnNodes = {
       x: 96420.05,
       y: -60698.69,
       z: -829.88,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 93114.32,
-      y: -53790.71,
-      z: -785.88,
       mapName: "bahari-bay",
     },
     {
@@ -169,12 +157,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 98447.85,
-      y: -93883.04,
-      z: -96.37,
-      mapName: "bahari-bay",
-    },
-    {
       x: 99985.82,
       y: -107840.49,
       z: 2084.48,
@@ -184,12 +166,6 @@ export const spawnNodes = {
       x: 106296.01,
       y: -102139.57,
       z: -457.34,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 103291.91,
-      y: -92615.08,
-      z: -972.69,
       mapName: "bahari-bay",
     },
     {
@@ -208,12 +184,6 @@ export const spawnNodes = {
       x: 93396.16,
       y: -96219.27,
       z: 316.91,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 95821.83,
-      y: -106912.05,
-      z: 2323.42,
       mapName: "bahari-bay",
     },
     {
@@ -289,12 +259,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 101697.99,
-      y: -95876.52,
-      z: -520.51,
-      mapName: "bahari-bay",
-    },
-    {
       x: 115152.49,
       y: -70939.5,
       z: -466.37,
@@ -316,12 +280,6 @@ export const spawnNodes = {
       x: 114458.57,
       y: -66454.93,
       z: -516.69,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 109533.34,
-      y: -77962.85,
-      z: -910.66,
       mapName: "bahari-bay",
     },
     {
@@ -347,12 +305,6 @@ export const spawnNodes = {
       y: -73912.92,
       z: -797.74,
       mapName: "bahari-bay",
-    },
-    {
-      x: -3068.05,
-      y: -27518.99,
-      z: 1679.07,
-      mapName: "kilima-valley",
     },
     {
       x: -5548.92,
@@ -385,36 +337,6 @@ export const spawnNodes = {
       mapName: "kilima-valley",
     },
     {
-      x: -9900.54,
-      y: -18136.86,
-      z: 1623.81,
-      mapName: "kilima-valley",
-    },
-    {
-      x: -7467.94,
-      y: -22160.2,
-      z: 1570.33,
-      mapName: "kilima-valley",
-    },
-    {
-      x: -9676.07,
-      y: -19637.77,
-      z: 1574.45,
-      mapName: "kilima-valley",
-    },
-    {
-      x: -8559.37,
-      y: -19221.07,
-      z: 1538.78,
-      mapName: "kilima-valley",
-    },
-    {
-      x: -6435.63,
-      y: -27396.32,
-      z: 1582.59,
-      mapName: "kilima-valley",
-    },
-    {
       x: -10729.02,
       y: -19503.42,
       z: 1516.86,
@@ -427,18 +349,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 116708.76,
-      y: -67398.21,
-      z: -636.34,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 115544.1,
-      y: -68914.05,
-      z: -592.57,
-      mapName: "bahari-bay",
-    },
-    {
       x: 112161.67,
       y: -72692.55,
       z: -447.71,
@@ -448,12 +358,6 @@ export const spawnNodes = {
       x: 121169.93,
       y: -72215.16,
       z: -38.13,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 114402.05,
-      y: -71687.48,
-      z: -428.49,
       mapName: "bahari-bay",
     },
     {
@@ -505,12 +409,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 110360.63,
-      y: -83079.29,
-      z: -1292.18,
-      mapName: "bahari-bay",
-    },
-    {
       x: 118186.69,
       y: -83163.84,
       z: -992.66,
@@ -520,12 +418,6 @@ export const spawnNodes = {
       x: 107762.51,
       y: -58836.58,
       z: -1663,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 106467.42,
-      y: -58158.83,
-      z: -1958.49,
       mapName: "bahari-bay",
     },
     {
@@ -573,12 +465,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 117221.74,
-      y: -98635.25,
-      z: -346.49,
-      mapName: "bahari-bay",
-    },
-    {
       x: 116882.66,
       y: -84439.31,
       z: -903.74,
@@ -588,12 +474,6 @@ export const spawnNodes = {
       x: 113910.44,
       y: -98508.36,
       z: -40.22,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 117321.1,
-      y: -83167.59,
-      z: -952.38,
       mapName: "bahari-bay",
     },
     {
@@ -690,12 +570,6 @@ export const spawnNodes = {
       x: 97979.98,
       y: -103983.54,
       z: 1772.22,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 98582.9,
-      y: -105218.05,
-      z: 1653.54,
       mapName: "bahari-bay",
     },
     {
@@ -801,12 +675,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 92540.87,
-      y: -58493.58,
-      z: -779.02,
-      mapName: "bahari-bay",
-    },
-    {
       x: 89833.53,
       y: -60134.89,
       z: -275.39,
@@ -828,18 +696,6 @@ export const spawnNodes = {
       x: 95400.01,
       y: -59768.02,
       z: -842.89,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 87585.48,
-      y: -61304.18,
-      z: 310.55,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 94686.19,
-      y: -59019.75,
-      z: -832.01,
       mapName: "bahari-bay",
     },
     {
@@ -885,12 +741,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 76709.72,
-      y: -61422.25,
-      z: -412.87,
-      mapName: "bahari-bay",
-    },
-    {
       x: 76332.51,
       y: -60128.31,
       z: -299.6,
@@ -921,12 +771,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 70958.13,
-      y: -67363.54,
-      z: -731.64,
-      mapName: "bahari-bay",
-    },
-    {
       x: 79146.57,
       y: -72642.57,
       z: 235.23,
@@ -936,12 +780,6 @@ export const spawnNodes = {
       x: 71099.17,
       y: -73273,
       z: -1051.66,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 71957.27,
-      y: -74015.69,
-      z: -878.48,
       mapName: "bahari-bay",
     },
     {
@@ -1059,42 +897,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 68392.89,
-      y: -96983.34,
-      z: 906.22,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 74363.94,
-      y: -94757.59,
-      z: 857.25,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 92184.4,
-      y: -95979.48,
-      z: 147.38,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 101832.92,
-      y: -98638.58,
-      z: -732.55,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 102425.27,
-      y: -97434.77,
-      z: -633.01,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 107429.58,
-      y: -98824.61,
-      z: -688.69,
-      mapName: "bahari-bay",
-    },
-    {
       x: 114793.69,
       y: -71001.83,
       z: -422.29,
@@ -1128,24 +930,6 @@ export const spawnNodes = {
       x: 120937.39,
       y: -76574.85,
       z: -915.15,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 118318.55,
-      y: -79183.25,
-      z: -955.73,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 120236.33,
-      y: -79940.65,
-      z: -972.77,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 120127.39,
-      y: -77286.19,
-      z: -1254.22,
       mapName: "bahari-bay",
     },
     {
@@ -1197,12 +981,6 @@ export const spawnNodes = {
       mapName: "kilima-valley",
     },
     {
-      x: -2797.97,
-      y: -25280.56,
-      z: 1550.47,
-      mapName: "kilima-valley",
-    },
-    {
       x: 7009.05,
       y: -16555.75,
       z: 1447.7,
@@ -1233,57 +1011,9 @@ export const spawnNodes = {
       mapName: "kilima-valley",
     },
     {
-      x: -4485.56,
-      y: -27769.76,
-      z: 1620.22,
-      mapName: "kilima-valley",
-    },
-    {
-      x: -1705.71,
-      y: -17818.36,
-      z: 952.2,
-      mapName: "kilima-valley",
-    },
-    {
       x: -9359.69,
       y: -21641.14,
       z: 1402.17,
-      mapName: "kilima-valley",
-    },
-    {
-      x: -1958.11,
-      y: -24438.35,
-      z: 1684.19,
-      mapName: "kilima-valley",
-    },
-    {
-      x: -4321.06,
-      y: -26762.35,
-      z: 1519.32,
-      mapName: "kilima-valley",
-    },
-    {
-      x: -3368.53,
-      y: -24132.16,
-      z: 1582.78,
-      mapName: "kilima-valley",
-    },
-    {
-      x: -7008.39,
-      y: -26456.29,
-      z: 1647.84,
-      mapName: "kilima-valley",
-    },
-    {
-      x: -2353.05,
-      y: -26236.79,
-      z: 1547.34,
-      mapName: "kilima-valley",
-    },
-    {
-      x: 8019.05,
-      y: -16470.01,
-      z: 1387.14,
       mapName: "kilima-valley",
     },
     {
@@ -1305,21 +1035,9 @@ export const spawnNodes = {
       mapName: "kilima-valley",
     },
     {
-      x: -9399.13,
-      y: -20399.69,
-      z: 1525.45,
-      mapName: "kilima-valley",
-    },
-    {
       x: 4359.9,
       y: -9244.44,
       z: 798.22,
-      mapName: "kilima-valley",
-    },
-    {
-      x: -8441.79,
-      y: -21006.47,
-      z: 1501.58,
       mapName: "kilima-valley",
     },
     {
@@ -1341,33 +1059,9 @@ export const spawnNodes = {
       mapName: "kilima-valley",
     },
     {
-      x: 11778.38,
-      y: -7574.46,
-      z: -6.49,
-      mapName: "kilima-valley",
-    },
-    {
       x: 3114.02,
       y: -10173.08,
       z: 832.96,
-      mapName: "kilima-valley",
-    },
-    {
-      x: 14472.94,
-      y: -7020.78,
-      z: -460.19,
-      mapName: "kilima-valley",
-    },
-    {
-      x: 13443.07,
-      y: -7391.16,
-      z: -136.33,
-      mapName: "kilima-valley",
-    },
-    {
-      x: 11646.89,
-      y: -6237.28,
-      z: -96.54,
       mapName: "kilima-valley",
     },
     {
@@ -1395,18 +1089,6 @@ export const spawnNodes = {
       mapName: "kilima-valley",
     },
     {
-      x: 32616.55,
-      y: -4468.53,
-      z: 746.6,
-      mapName: "kilima-valley",
-    },
-    {
-      x: 34895.94,
-      y: -1367.88,
-      z: 285.59,
-      mapName: "kilima-valley",
-    },
-    {
       x: 69740.35,
       y: -13667.68,
       z: 6.65,
@@ -1419,27 +1101,9 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 68811.36,
-      y: -14395.77,
-      z: -272.61,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 69511.79,
-      y: -10904.92,
-      z: -45.62,
-      mapName: "bahari-bay",
-    },
-    {
       x: 72663.79,
       y: -9420.19,
       z: -627.82,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 70961.12,
-      y: -13068.59,
-      z: -37.5,
       mapName: "bahari-bay",
     },
     {
@@ -1464,12 +1128,6 @@ export const spawnNodes = {
       x: 75017.26,
       y: -6864.94,
       z: -648.68,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 75400.31,
-      y: -10350.04,
-      z: -911.33,
       mapName: "bahari-bay",
     },
     {
@@ -1521,18 +1179,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 73459.71,
-      y: -10360.26,
-      z: -779.66,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 74382.85,
-      y: -12103.83,
-      z: -993.66,
-      mapName: "bahari-bay",
-    },
-    {
       x: 81328.21,
       y: -11591.51,
       z: -1142.01,
@@ -1581,24 +1227,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 75144.03,
-      y: -19941.1,
-      z: -681.34,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 80530.19,
-      y: -13170.91,
-      z: -1368.41,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 78917,
-      y: -20880.72,
-      z: -1298.82,
-      mapName: "bahari-bay",
-    },
-    {
       x: 88788.05,
       y: -19997.38,
       z: -1188.76,
@@ -1614,48 +1242,6 @@ export const spawnNodes = {
       x: 91484.63,
       y: -10742.01,
       z: 271.94,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 78696.9,
-      y: -17107.18,
-      z: -1252.45,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 80313.9,
-      y: -11216.17,
-      z: -834.04,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 94466.81,
-      y: -14188.34,
-      z: -1679.63,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 78510.81,
-      y: -13351.68,
-      z: -1278.8,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 89230.09,
-      y: -19083.96,
-      z: -1338.06,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 91030.24,
-      y: -9426.86,
-      z: 345.06,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 77043.77,
-      y: -11825.71,
-      z: -1103.32,
       mapName: "bahari-bay",
     },
     {
@@ -1677,12 +1263,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 91658.11,
-      y: -32487.15,
-      z: -2068.38,
-      mapName: "bahari-bay",
-    },
-    {
       x: 93127.2,
       y: -33256.61,
       z: -2071.09,
@@ -1695,21 +1275,9 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 87849.69,
-      y: -18522.12,
-      z: -1278.41,
-      mapName: "bahari-bay",
-    },
-    {
       x: 93383,
       y: -19160.14,
       z: -1373.68,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 90041.54,
-      y: -30708.01,
-      z: -1985.42,
       mapName: "bahari-bay",
     },
     {
@@ -1737,12 +1305,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 87596.67,
-      y: -38133.64,
-      z: 3018.63,
-      mapName: "bahari-bay",
-    },
-    {
       x: 102226.47,
       y: -34336.15,
       z: -1539.91,
@@ -1758,12 +1320,6 @@ export const spawnNodes = {
       x: 97493.72,
       y: -56587.69,
       z: -1388.99,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 96321.44,
-      y: -56010.64,
-      z: -1136.18,
       mapName: "bahari-bay",
     },
     {
@@ -1785,21 +1341,9 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 75853.1,
-      y: -5972.41,
-      z: -439.09,
-      mapName: "bahari-bay",
-    },
-    {
       x: 80799.26,
       y: -5529.9,
       z: -394.09,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 71230.63,
-      y: -2138.46,
-      z: 656.53,
       mapName: "bahari-bay",
     },
     {
@@ -1821,12 +1365,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 82982.68,
-      y: -3162.98,
-      z: -518.86,
-      mapName: "bahari-bay",
-    },
-    {
       x: 83863.77,
       y: -4313.59,
       z: -250.29,
@@ -1839,21 +1377,9 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 72862.18,
-      y: -5089.37,
-      z: -315.97,
-      mapName: "bahari-bay",
-    },
-    {
       x: 79708.5,
       y: 2999.08,
       z: -281.04,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 85134.03,
-      y: -4336.48,
-      z: -125.14,
       mapName: "bahari-bay",
     },
     {
@@ -1875,21 +1401,9 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 86622.25,
-      y: -2254.03,
-      z: -609.22,
-      mapName: "bahari-bay",
-    },
-    {
       x: 88419.29,
       y: -639.3,
       z: -714.28,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 88544.93,
-      y: 607.21,
-      z: -359.15,
       mapName: "bahari-bay",
     },
     {
@@ -1902,12 +1416,6 @@ export const spawnNodes = {
       x: 90812.26,
       y: -4252.71,
       z: -263.41,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 87625.8,
-      y: -3403.88,
-      z: -312.03,
       mapName: "bahari-bay",
     },
     {
@@ -1947,18 +1455,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 88968.37,
-      y: -15561.54,
-      z: -1538.25,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 95553.48,
-      y: -13558.67,
-      z: -1721.69,
-      mapName: "bahari-bay",
-    },
-    {
       x: 99109.61,
       y: -11057.61,
       z: -1970.63,
@@ -1983,18 +1479,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 99431.12,
-      y: -12097.98,
-      z: -2030.92,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 90944.57,
-      y: -22580.48,
-      z: -1165.81,
-      mapName: "bahari-bay",
-    },
-    {
       x: 105609.33,
       y: -27113.38,
       z: -1075.48,
@@ -2010,30 +1494,6 @@ export const spawnNodes = {
       x: 102298.25,
       y: -31236.71,
       z: -1667.61,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 105211.15,
-      y: -28358.27,
-      z: -1170.4,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 100336.42,
-      y: -11177.41,
-      z: -2062.26,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 95436.47,
-      y: -34723.75,
-      z: -1118.49,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 105957.91,
-      y: -29792.96,
-      z: -1011.38,
       mapName: "bahari-bay",
     },
     {
@@ -2067,18 +1527,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 90290.36,
-      y: -64481.74,
-      z: 745.97,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 88236.71,
-      y: -63502.38,
-      z: 418.66,
-      mapName: "bahari-bay",
-    },
-    {
       x: 89787.33,
       y: -66684.91,
       z: 698.19,
@@ -2094,18 +1542,6 @@ export const spawnNodes = {
       x: 91440.2,
       y: -80595.96,
       z: -437.96,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 93043.98,
-      y: -62053.67,
-      z: -633.31,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 88392.73,
-      y: -68941.59,
-      z: 135.24,
       mapName: "bahari-bay",
     },
     {
@@ -2133,12 +1569,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 94330.45,
-      y: -80478.33,
-      z: -453.36,
-      mapName: "bahari-bay",
-    },
-    {
       x: 88679.79,
       y: -78595.17,
       z: -771.29,
@@ -2163,12 +1593,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 87936.1,
-      y: -79292.45,
-      z: -775.49,
-      mapName: "bahari-bay",
-    },
-    {
       x: 91352.97,
       y: -84497.3,
       z: -608.68,
@@ -2181,18 +1605,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 89417.91,
-      y: -79892.52,
-      z: -833.62,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 90360.71,
-      y: -80741.81,
-      z: -503.04,
-      mapName: "bahari-bay",
-    },
-    {
       x: 114488.92,
       y: -83205.47,
       z: -1149.05,
@@ -2202,18 +1614,6 @@ export const spawnNodes = {
       x: 108294.44,
       y: -83980.75,
       z: -1098.37,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 99838.32,
-      y: -80993.28,
-      z: -525.03,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 108935.85,
-      y: -82943.2,
-      z: -1289.74,
       mapName: "bahari-bay",
     },
     {
@@ -2241,27 +1641,9 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 121662.79,
-      y: -80357.95,
-      z: -1255.92,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 110347.18,
-      y: -82848.52,
-      z: -1214.29,
-      mapName: "bahari-bay",
-    },
-    {
       x: 113719.93,
       y: -73890.79,
       z: -792.01,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 115145.78,
-      y: -66483.05,
-      z: -504.95,
       mapName: "bahari-bay",
     },
     {
@@ -2271,33 +1653,9 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 115808.7,
-      y: -73953.9,
-      z: -536.93,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 116973.29,
-      y: -75054.75,
-      z: -667.25,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 113652.64,
-      y: -66380.35,
-      z: -469.79,
-      mapName: "bahari-bay",
-    },
-    {
       x: -23057.01,
       y: -3689.59,
       z: 359.69,
-      mapName: "kilima-valley",
-    },
-    {
-      x: -22084.91,
-      y: -3098.37,
-      z: 382.45,
       mapName: "kilima-valley",
     },
     {
@@ -2397,12 +1755,6 @@ export const spawnNodes = {
       mapName: "kilima-valley",
     },
     {
-      x: 17004.95,
-      y: 7823.11,
-      z: -885.73,
-      mapName: "kilima-valley",
-    },
-    {
       x: 18219.19,
       y: 20536.07,
       z: -316.22,
@@ -2412,12 +1764,6 @@ export const spawnNodes = {
       x: 25941.77,
       y: 16160.54,
       z: -593.41,
-      mapName: "kilima-valley",
-    },
-    {
-      x: 19930.83,
-      y: 22077.87,
-      z: -562.17,
       mapName: "kilima-valley",
     },
     {
@@ -2436,18 +1782,6 @@ export const spawnNodes = {
       x: 36905.95,
       y: 20636.97,
       z: -484.56,
-      mapName: "kilima-valley",
-    },
-    {
-      x: 36808.62,
-      y: 22050.31,
-      z: -555.49,
-      mapName: "kilima-valley",
-    },
-    {
-      x: 34020.4,
-      y: 9756.25,
-      z: -1130.92,
       mapName: "kilima-valley",
     },
     {
@@ -2475,39 +1809,15 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 97986.58,
-      y: -4683.8,
-      z: -1230.03,
-      mapName: "bahari-bay",
-    },
-    {
       x: 106884.29,
       y: -25168.2,
       z: -845.08,
       mapName: "bahari-bay",
     },
     {
-      x: 110130.6,
-      y: -25710.8,
-      z: -435.28,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 105512.23,
-      y: -25815.85,
-      z: -1063.51,
-      mapName: "bahari-bay",
-    },
-    {
       x: -22625.81,
       y: 21980.13,
       z: -500.21,
-      mapName: "kilima-valley",
-    },
-    {
-      x: -22077.77,
-      y: 22974.04,
-      z: -538.52,
       mapName: "kilima-valley",
     },
     {
@@ -2568,12 +1878,6 @@ export const spawnNodes = {
       x: 117058.27,
       y: -88386.54,
       z: -703.41,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 115732.07,
-      y: -89013.67,
-      z: -969.83,
       mapName: "bahari-bay",
     },
     {
@@ -2739,18 +2043,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 109053.93,
-      y: -72436.51,
-      z: 897.25,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 111286.87,
-      y: -73340.53,
-      z: -901.13,
-      mapName: "bahari-bay",
-    },
-    {
       x: 138551.1,
       y: -77386.35,
       z: -3164.73,
@@ -2760,12 +2052,6 @@ export const spawnNodes = {
       x: 117995.06,
       y: -70532.92,
       z: -660,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 118738.29,
-      y: -69832.65,
-      z: -410.41,
       mapName: "bahari-bay",
     },
     {
@@ -2967,12 +2253,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 117820.17,
-      y: -9332.74,
-      z: -3903.12,
-      mapName: "bahari-bay",
-    },
-    {
       x: 114727.45,
       y: -10277.6,
       z: -3922.8,
@@ -3033,12 +2313,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 119046.48,
-      y: -53492.04,
-      z: -4403.53,
-      mapName: "bahari-bay",
-    },
-    {
       x: 117647.39,
       y: -53446.57,
       z: -4261.93,
@@ -3051,27 +2325,9 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 112569,
-      y: -53931.73,
-      z: -3497.14,
-      mapName: "bahari-bay",
-    },
-    {
       x: 124193.75,
       y: -62996.14,
       z: -4306.32,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 114556.55,
-      y: -51753.05,
-      z: -3761.2,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 124627.46,
-      y: -62086.1,
-      z: -4411.86,
       mapName: "bahari-bay",
     },
     {
@@ -3081,27 +2337,9 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 120208.69,
-      y: -55380.62,
-      z: -4450.29,
-      mapName: "bahari-bay",
-    },
-    {
       x: 119134.02,
       y: -60732.57,
       z: -4250.16,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 119767.62,
-      y: -59775.67,
-      z: -4373.21,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 123105.26,
-      y: -62881.25,
-      z: -4271.59,
       mapName: "bahari-bay",
     },
     {
@@ -3165,18 +2403,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 115202.52,
-      y: -21422.38,
-      z: -4039.08,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 125608.18,
-      y: -20238.64,
-      z: -4270.67,
-      mapName: "bahari-bay",
-    },
-    {
       x: 122992.55,
       y: -22325.2,
       z: -4306.57,
@@ -3192,12 +2418,6 @@ export const spawnNodes = {
       x: 102778.38,
       y: -43679.73,
       z: -4566.31,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 109438.35,
-      y: -41638.11,
-      z: -4562.36,
       mapName: "bahari-bay",
     },
     {
@@ -3231,12 +2451,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 101918.59,
-      y: -44446.15,
-      z: -4576.99,
-      mapName: "bahari-bay",
-    },
-    {
       x: 112721.52,
       y: -40669.86,
       z: -4551.7,
@@ -3261,12 +2475,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 116884.41,
-      y: -59564.24,
-      z: -4086.86,
-      mapName: "bahari-bay",
-    },
-    {
       x: 117908.13,
       y: -59094.68,
       z: -4224.36,
@@ -3279,39 +2487,9 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 121797.61,
-      y: -65091.75,
-      z: -3362.31,
-      mapName: "bahari-bay",
-    },
-    {
       x: 120519.14,
       y: -61313.73,
       z: -4300.81,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 121792.36,
-      y: -61238.53,
-      z: -4296.32,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 97258.97,
-      y: -46405.04,
-      z: -4546.19,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 97742.16,
-      y: -45512.14,
-      z: -4568.5,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 121822.03,
-      y: -56520.99,
-      z: -3808.71,
       mapName: "bahari-bay",
     },
   ],
@@ -3398,12 +2576,6 @@ export const spawnNodes = {
       x: 120621.42,
       y: -55542.22,
       z: -4442.75,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 104832.17,
-      y: -43259.97,
-      z: -4577.22,
       mapName: "bahari-bay",
     },
     {
@@ -3547,12 +2719,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 85555.74,
-      y: -27649.81,
-      z: -2378.12,
-      mapName: "bahari-bay",
-    },
-    {
       x: 91601.97,
       y: -32011.67,
       z: -2014.03,
@@ -3568,12 +2734,6 @@ export const spawnNodes = {
       x: 94410.4,
       y: -36575.08,
       z: -1169.62,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 94903.07,
-      y: -35257.89,
-      z: -1123.69,
       mapName: "bahari-bay",
     },
     {
@@ -3649,21 +2809,9 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 74821.78,
-      y: -11245.63,
-      z: -1033.33,
-      mapName: "bahari-bay",
-    },
-    {
       x: 75439.3,
       y: -12809.47,
       z: -1051.1,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 76413.95,
-      y: -12449.48,
-      z: -1114.67,
       mapName: "bahari-bay",
     },
     {
@@ -3697,27 +2845,9 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 72229.12,
-      y: -13686.57,
-      z: -727.91,
-      mapName: "bahari-bay",
-    },
-    {
       x: 82030.36,
       y: -27452.94,
       z: -2252.13,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 78905.48,
-      y: -20093.88,
-      z: -1326.34,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 79492.17,
-      y: -34958.04,
-      z: 3317.44,
       mapName: "bahari-bay",
     },
     {
@@ -3736,12 +2866,6 @@ export const spawnNodes = {
       x: 100910.34,
       y: -32292.14,
       z: -1712.79,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 95871.8,
-      y: -36453.4,
-      z: -1086.88,
       mapName: "bahari-bay",
     },
     {
@@ -3823,27 +2947,9 @@ export const spawnNodes = {
       mapName: "kilima-valley",
     },
     {
-      x: 15681.47,
-      y: -5328.89,
-      z: -109.44,
-      mapName: "kilima-valley",
-    },
-    {
       x: 12143.93,
       y: -3582.75,
       z: -275.83,
-      mapName: "kilima-valley",
-    },
-    {
-      x: 15695.09,
-      y: -6688.87,
-      z: -411.71,
-      mapName: "kilima-valley",
-    },
-    {
-      x: 22463.61,
-      y: -108.89,
-      z: -421.67,
       mapName: "kilima-valley",
     },
     {
@@ -3869,18 +2975,6 @@ export const spawnNodes = {
       y: -15749.63,
       z: 1328.19,
       mapName: "kilima-valley",
-    },
-    {
-      x: 69928.4,
-      y: -11987.59,
-      z: 2.67,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 71081.39,
-      y: -6906.75,
-      z: -204.71,
-      mapName: "bahari-bay",
     },
     {
       x: 80593.72,
@@ -3985,18 +3079,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 75819.77,
-      y: -14240.12,
-      z: -929.3,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 73502.53,
-      y: -3990.52,
-      z: 17.86,
-      mapName: "bahari-bay",
-    },
-    {
       x: 77796.61,
       y: -13652.38,
       z: -1119.16,
@@ -4006,12 +3088,6 @@ export const spawnNodes = {
       x: 76176.89,
       y: 2656.33,
       z: 685.98,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 81133.4,
-      y: -10554.63,
-      z: -1116.91,
       mapName: "bahari-bay",
     },
     {
@@ -4093,18 +3169,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 93497.71,
-      y: -20056.04,
-      z: -1345.94,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 94411.32,
-      y: -16520.68,
-      z: -1567.72,
-      mapName: "bahari-bay",
-    },
-    {
       x: 92037.24,
       y: -17571.66,
       z: -1514.26,
@@ -4165,21 +3229,9 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 101310.25,
-      y: -34424.72,
-      z: -1712.96,
-      mapName: "bahari-bay",
-    },
-    {
       x: 102661.99,
       y: -19020.49,
       z: -1527.67,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 101710.55,
-      y: -33263,
-      z: -1614.68,
       mapName: "bahari-bay",
     },
     {
@@ -4195,21 +3247,9 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 114284.15,
-      y: -73603.77,
-      z: -767.2,
-      mapName: "bahari-bay",
-    },
-    {
       x: 68838.55,
       y: -13792.48,
       z: -38.34,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 69196.5,
-      y: -10974.23,
-      z: -34.67,
       mapName: "bahari-bay",
     },
     {
@@ -4237,27 +3277,9 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 82992.6,
-      y: -28272.47,
-      z: -2289.24,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 75160.02,
-      y: -31060.91,
-      z: 843.69,
-      mapName: "bahari-bay",
-    },
-    {
       x: 91222.15,
       y: -34060.11,
       z: -2447.3,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 96664.41,
-      y: -31080.7,
-      z: -1733.96,
       mapName: "bahari-bay",
     },
     {
@@ -4294,12 +3316,6 @@ export const spawnNodes = {
       x: -13905.78,
       y: 1553.25,
       z: 270.69,
-      mapName: "kilima-valley",
-    },
-    {
-      x: -19161.23,
-      y: -1776.77,
-      z: 571.35,
       mapName: "kilima-valley",
     },
     {
@@ -4357,12 +3373,6 @@ export const spawnNodes = {
       mapName: "kilima-valley",
     },
     {
-      x: -2571.12,
-      y: 25951.07,
-      z: 1281.91,
-      mapName: "kilima-valley",
-    },
-    {
       x: -13914.76,
       y: 5536.99,
       z: -248.38,
@@ -4411,21 +3421,9 @@ export const spawnNodes = {
       mapName: "kilima-valley",
     },
     {
-      x: 95204.92,
-      y: -14587.78,
-      z: -1797.45,
-      mapName: "bahari-bay",
-    },
-    {
       x: 105405.92,
       y: -27395.88,
       z: -1127.12,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 102606.51,
-      y: -17985.43,
-      z: -1875.12,
       mapName: "bahari-bay",
     },
     {
@@ -4435,21 +3433,9 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 84938.99,
-      y: -22384.38,
-      z: 1370.54,
-      mapName: "bahari-bay",
-    },
-    {
       x: -16343.12,
       y: 17225.82,
       z: -464.96,
-      mapName: "kilima-valley",
-    },
-    {
-      x: -10685.57,
-      y: 7803.76,
-      z: 32.51,
       mapName: "kilima-valley",
     },
     {
@@ -4523,12 +3509,6 @@ export const spawnNodes = {
       mapName: "kilima-valley",
     },
     {
-      x: -7019.61,
-      y: -25793.86,
-      z: 1612.78,
-      mapName: "kilima-valley",
-    },
-    {
       x: -11066.72,
       y: -20908.01,
       z: 1560.65,
@@ -4573,12 +3553,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 121037.8,
-      y: -77992.95,
-      z: -1205.75,
-      mapName: "bahari-bay",
-    },
-    {
       x: 103470.31,
       y: -59958.97,
       z: -2019.18,
@@ -4591,21 +3565,9 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 102590.29,
-      y: -60880.6,
-      z: -2104.98,
-      mapName: "bahari-bay",
-    },
-    {
       x: 98154.92,
       y: -104326.55,
       z: 1702.27,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 97657.69,
-      y: -105648.73,
-      z: 1822.2,
       mapName: "bahari-bay",
     },
     {
@@ -4636,12 +3598,6 @@ export const spawnNodes = {
       x: 108463.32,
       y: -94274.71,
       z: -907.52,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 98402.82,
-      y: -106341.31,
-      z: 1697.58,
       mapName: "bahari-bay",
     },
     {
@@ -4690,12 +3646,6 @@ export const spawnNodes = {
       x: 83290.47,
       y: -103843.81,
       z: -411.8,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 98890.78,
-      y: -108080.53,
-      z: 2165.76,
       mapName: "bahari-bay",
     },
     {
@@ -4759,21 +3709,9 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 102515.59,
-      y: -58834.16,
-      z: -2070.8,
-      mapName: "bahari-bay",
-    },
-    {
       x: 106024.79,
       y: -75699.32,
       z: -954.32,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 105017.86,
-      y: -75833.69,
-      z: -904.84,
       mapName: "bahari-bay",
     },
     {
@@ -4786,18 +3724,6 @@ export const spawnNodes = {
       x: 69058.49,
       y: -18976.14,
       z: -670.61,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 70106.71,
-      y: -19589.31,
-      z: -756.8,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 70376,
-      y: -18449,
-      z: -765.89,
       mapName: "bahari-bay",
     },
     {
@@ -4828,18 +3754,6 @@ export const spawnNodes = {
       x: -26326.68,
       y: 21632.41,
       z: -554.75,
-      mapName: "kilima-valley",
-    },
-    {
-      x: -21041.61,
-      y: 27178.38,
-      z: -800.87,
-      mapName: "kilima-valley",
-    },
-    {
-      x: -24626.3,
-      y: 23618.48,
-      z: -515.3,
       mapName: "kilima-valley",
     },
     {
@@ -4879,12 +3793,6 @@ export const spawnNodes = {
       mapName: "kilima-valley",
     },
     {
-      x: 34453.65,
-      y: 26996.4,
-      z: -733.04,
-      mapName: "kilima-valley",
-    },
-    {
       x: 37581.8,
       y: 25351.69,
       z: -808.1,
@@ -4900,12 +3808,6 @@ export const spawnNodes = {
       x: 22749.94,
       y: 21453.12,
       z: -712.13,
-      mapName: "kilima-valley",
-    },
-    {
-      x: 22260.16,
-      y: 20412.45,
-      z: -701.91,
       mapName: "kilima-valley",
     },
     {
@@ -4940,12 +3842,6 @@ export const spawnNodes = {
       x: -9619.35,
       y: -25162.44,
       z: 1595.1,
-      mapName: "kilima-valley",
-    },
-    {
-      x: -10134.54,
-      y: -24067.9,
-      z: 1634.85,
       mapName: "kilima-valley",
     },
     {
@@ -5041,33 +3937,9 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 74677.93,
-      y: -20712.36,
-      z: -579,
-      mapName: "bahari-bay",
-    },
-    {
       x: 111555.58,
       y: -74060.22,
       z: -1083.07,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 110656,
-      y: -73454,
-      z: -1064.87,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 112578.72,
-      y: -74477.1,
-      z: -971.21,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 70454.52,
-      y: -17910.68,
-      z: -687.46,
       mapName: "bahari-bay",
     },
   ],
@@ -5103,12 +3975,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 122069.44,
-      y: -61250.87,
-      z: -4264.86,
-      mapName: "bahari-bay",
-    },
-    {
       x: 123412.82,
       y: -61823.5,
       z: -4264.74,
@@ -5118,12 +3984,6 @@ export const spawnNodes = {
       x: 120065.54,
       y: -71772.81,
       z: -37.47,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 121089.46,
-      y: -71825.52,
-      z: 7.43,
       mapName: "bahari-bay",
     },
     {
@@ -5142,12 +4002,6 @@ export const spawnNodes = {
       x: 104985.14,
       y: -53067.63,
       z: -2174.33,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 118410.03,
-      y: -57359.57,
-      z: -4259.54,
       mapName: "bahari-bay",
     },
     {
@@ -5180,18 +4034,6 @@ export const spawnNodes = {
       z: -2784.57,
       mapName: "bahari-bay",
     },
-    {
-      x: 108183.69,
-      y: -55602.59,
-      z: -2685.83,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 106685.42,
-      y: -58437.65,
-      z: -1872.1,
-      mapName: "bahari-bay",
-    },
   ],
   BP_Bug_LadybugR_C: [
     {
@@ -5220,12 +4062,6 @@ export const spawnNodes = {
       x: 86700.7,
       y: -17840.37,
       z: -1088.42,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 86151.94,
-      y: -16976.26,
-      z: -1114.62,
       mapName: "bahari-bay",
     },
     {
@@ -5307,12 +4143,6 @@ export const spawnNodes = {
       mapName: "kilima-valley",
     },
     {
-      x: 27735.91,
-      y: -841.4,
-      z: 400.03,
-      mapName: "kilima-valley",
-    },
-    {
       x: 22919.81,
       y: 2210.23,
       z: -482.89,
@@ -5373,12 +4203,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 75173.7,
-      y: -11767.75,
-      z: -1049.3,
-      mapName: "bahari-bay",
-    },
-    {
       x: 75833.55,
       y: -13968.45,
       z: -926.19,
@@ -5427,18 +4251,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 73969.61,
-      y: -10076.42,
-      z: -788.44,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 74122.06,
-      y: -11372.48,
-      z: -951.55,
-      mapName: "bahari-bay",
-    },
-    {
       x: 75127.28,
       y: -9935.94,
       z: -837.63,
@@ -5463,18 +4275,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 78630.34,
-      y: -15382.82,
-      z: -1241.11,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 77835.65,
-      y: -18907.61,
-      z: -1233.91,
-      mapName: "bahari-bay",
-    },
-    {
       x: 79370.68,
       y: -13095.29,
       z: -1380.58,
@@ -5496,12 +4296,6 @@ export const spawnNodes = {
       x: 75788.08,
       y: -28827.59,
       z: -778.2,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 73643.76,
-      y: -31201.98,
-      z: 739.5,
       mapName: "bahari-bay",
     },
     {
@@ -5571,12 +4365,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 79332.22,
-      y: -36977.12,
-      z: 3902.54,
-      mapName: "bahari-bay",
-    },
-    {
       x: 91179.59,
       y: -25720.13,
       z: -1097.58,
@@ -5604,12 +4392,6 @@ export const spawnNodes = {
       x: 93882.87,
       y: -32831.18,
       z: -1985.77,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 94904.49,
-      y: -32337.4,
-      z: -1931.04,
       mapName: "bahari-bay",
     },
     {
@@ -5673,12 +4455,6 @@ export const spawnNodes = {
       mapName: "kilima-valley",
     },
     {
-      x: -3789.56,
-      y: -24579.72,
-      z: 1536.04,
-      mapName: "kilima-valley",
-    },
-    {
       x: 1648.1,
       y: -19196.15,
       z: 1353.81,
@@ -5694,12 +4470,6 @@ export const spawnNodes = {
       x: 17855.89,
       y: -11181.27,
       z: 2086.25,
-      mapName: "kilima-valley",
-    },
-    {
-      x: 14472.13,
-      y: -6117.54,
-      z: -419.57,
       mapName: "kilima-valley",
     },
     {
@@ -5757,45 +4527,9 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 67068.87,
-      y: -17913.2,
-      z: -397.15,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 75195.01,
-      y: -22913.83,
-      z: -106.86,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 78190.38,
-      y: -17009.88,
-      z: -1199.71,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 69708.74,
-      y: -11886.05,
-      z: 43.99,
-      mapName: "bahari-bay",
-    },
-    {
       x: 71559.75,
       y: -30842.13,
       z: 391.41,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 77456.14,
-      y: -29012.29,
-      z: -933.8,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 67697.88,
-      y: -30531.07,
-      z: -463.5,
       mapName: "bahari-bay",
     },
     {
@@ -5811,33 +4545,9 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 83283.86,
-      y: -35354.56,
-      z: 2752.08,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 81495.96,
-      y: -34209.39,
-      z: 2928.31,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 82939.59,
-      y: -31158.91,
-      z: 1250.57,
-      mapName: "bahari-bay",
-    },
-    {
       x: 84269.03,
       y: -35549.02,
       z: 2730.03,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 81283.87,
-      y: -27683.8,
-      z: -2150,
       mapName: "bahari-bay",
     },
     {
@@ -5871,12 +4581,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 93276.19,
-      y: -42226.97,
-      z: 357.82,
-      mapName: "bahari-bay",
-    },
-    {
       x: -13143.75,
       y: 222.68,
       z: 480.47,
@@ -5904,24 +4608,6 @@ export const spawnNodes = {
       x: 70001.35,
       y: -7149.29,
       z: 9.95,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 72765.41,
-      y: -11603.36,
-      z: -864.35,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 73008.97,
-      y: -12607.97,
-      z: -785.7,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 79909.47,
-      y: -32496.07,
-      z: 1371.42,
       mapName: "bahari-bay",
     },
     {
@@ -5986,12 +4672,6 @@ export const spawnNodes = {
       x: 96075.67,
       y: -35320.2,
       z: -1094.08,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 96967.14,
-      y: -33068.3,
-      z: -1684.66,
       mapName: "bahari-bay",
     },
     {
@@ -6384,12 +5064,6 @@ export const spawnNodes = {
       x: 121871.73,
       y: -56746.13,
       z: -3775.08,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 120558.67,
-      y: -56664.59,
-      z: -4182.06,
       mapName: "bahari-bay",
     },
     {
@@ -36615,12 +35289,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 126372.17,
-      y: -103287.81,
-      z: 3014.04,
-      mapName: "bahari-bay",
-    },
-    {
       x: 118494.72,
       y: -81145.42,
       z: -917.97,
@@ -36807,12 +35475,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 116837.41,
-      y: -74231.93,
-      z: -1038.18,
-      mapName: "bahari-bay",
-    },
-    {
       x: 117338.49,
       y: -78890.03,
       z: -1337.51,
@@ -36867,12 +35529,6 @@ export const spawnNodes = {
       mapName: "kilima-valley",
     },
     {
-      x: 37686.5,
-      y: -2850.66,
-      z: 60.56,
-      mapName: "kilima-valley",
-    },
-    {
       x: 39904.74,
       y: 3998.1,
       z: -670.8,
@@ -36882,12 +35538,6 @@ export const spawnNodes = {
       x: 39927.8,
       y: 1742.06,
       z: -575.48,
-      mapName: "kilima-valley",
-    },
-    {
-      x: 40855.06,
-      y: 51.95,
-      z: -676.18,
       mapName: "kilima-valley",
     },
     {
@@ -36933,33 +35583,9 @@ export const spawnNodes = {
       mapName: "kilima-valley",
     },
     {
-      x: 6628.6,
-      y: -18498.75,
-      z: 2288.12,
-      mapName: "kilima-valley",
-    },
-    {
-      x: -13933.82,
-      y: -16214.21,
-      z: 1624.39,
-      mapName: "kilima-valley",
-    },
-    {
-      x: 6297.5,
-      y: -22961.83,
-      z: 2430.34,
-      mapName: "kilima-valley",
-    },
-    {
       x: 35745.98,
       y: -7859.14,
       z: 339.56,
-      mapName: "kilima-valley",
-    },
-    {
-      x: 30402.31,
-      y: -2620,
-      z: 366.18,
       mapName: "kilima-valley",
     },
     {
@@ -36993,57 +35619,15 @@ export const spawnNodes = {
       mapName: "kilima-valley",
     },
     {
-      x: 38112.13,
-      y: -6074.7,
-      z: 134.78,
-      mapName: "kilima-valley",
-    },
-    {
       x: 28054.21,
       y: 6991.36,
       z: -565.25,
       mapName: "kilima-valley",
     },
     {
-      x: 29040.37,
-      y: 8785.08,
-      z: -712.14,
-      mapName: "kilima-valley",
-    },
-    {
       x: 46423.38,
       y: -5442.55,
       z: 709.78,
-      mapName: "kilima-valley",
-    },
-    {
-      x: 36961.01,
-      y: -7650.85,
-      z: 55.29,
-      mapName: "kilima-valley",
-    },
-    {
-      x: 25065.76,
-      y: 2369.39,
-      z: -354.75,
-      mapName: "kilima-valley",
-    },
-    {
-      x: 36440.43,
-      y: -2241.58,
-      z: 167.7,
-      mapName: "kilima-valley",
-    },
-    {
-      x: 33062.07,
-      y: 3368.59,
-      z: 1258.84,
-      mapName: "kilima-valley",
-    },
-    {
-      x: 37553.11,
-      y: -8596.38,
-      z: -232.85,
       mapName: "kilima-valley",
     },
     {
@@ -37083,12 +35667,6 @@ export const spawnNodes = {
       mapName: "kilima-valley",
     },
     {
-      x: 51183.69,
-      y: -1418.79,
-      z: 772.48,
-      mapName: "kilima-valley",
-    },
-    {
       x: 49459.15,
       y: -2456.21,
       z: 1044.65,
@@ -37101,27 +35679,9 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 70020.7,
-      y: -9211.3,
-      z: -356.65,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 71663.54,
-      y: -10184.79,
-      z: -682.58,
-      mapName: "bahari-bay",
-    },
-    {
       x: 72731.74,
       y: -10801.98,
       z: -737.73,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 73644.48,
-      y: -11659.44,
-      z: -867.76,
       mapName: "bahari-bay",
     },
     {
@@ -37170,12 +35730,6 @@ export const spawnNodes = {
       x: 87058,
       y: -5168,
       z: -50.06,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 77719.38,
-      y: -12097.99,
-      z: -1093.25,
       mapName: "bahari-bay",
     },
     {
@@ -37233,21 +35787,9 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 72296.52,
-      y: -12118.7,
-      z: -781.47,
-      mapName: "bahari-bay",
-    },
-    {
       x: 71944.72,
       y: -13306.17,
       z: -634.45,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 71507.44,
-      y: -14434.14,
-      z: -657.07,
       mapName: "bahari-bay",
     },
     {
@@ -37305,12 +35847,6 @@ export const spawnNodes = {
       mapName: "kilima-valley",
     },
     {
-      x: 26372.48,
-      y: 13034.29,
-      z: 230.28,
-      mapName: "kilima-valley",
-    },
-    {
       x: 25866.97,
       y: 7125.43,
       z: -307.36,
@@ -37320,12 +35856,6 @@ export const spawnNodes = {
       x: 32550.65,
       y: 8825.58,
       z: -1073.34,
-      mapName: "kilima-valley",
-    },
-    {
-      x: 30599,
-      y: 7035.87,
-      z: -929.75,
       mapName: "kilima-valley",
     },
     {
@@ -37344,12 +35874,6 @@ export const spawnNodes = {
       x: 47228.91,
       y: 6648.13,
       z: -184.64,
-      mapName: "kilima-valley",
-    },
-    {
-      x: 48073.23,
-      y: 8334.78,
-      z: -290.2,
       mapName: "kilima-valley",
     },
     {
@@ -37377,12 +35901,6 @@ export const spawnNodes = {
       mapName: "kilima-valley",
     },
     {
-      x: 32167.58,
-      y: -7874.82,
-      z: 508.72,
-      mapName: "kilima-valley",
-    },
-    {
       x: 11393.57,
       y: -22198.04,
       z: 2533.24,
@@ -37392,12 +35910,6 @@ export const spawnNodes = {
       x: -3667,
       y: -23294,
       z: 1602.45,
-      mapName: "kilima-valley",
-    },
-    {
-      x: 54160.02,
-      y: 8077.53,
-      z: 748.73,
       mapName: "kilima-valley",
     },
     {
@@ -37413,12 +35925,6 @@ export const spawnNodes = {
       mapName: "kilima-valley",
     },
     {
-      x: 51544.2,
-      y: 3589.88,
-      z: 726.3,
-      mapName: "kilima-valley",
-    },
-    {
       x: 42170.32,
       y: 2743.94,
       z: -666.89,
@@ -37428,24 +35934,6 @@ export const spawnNodes = {
       x: 54669.76,
       y: 10414.13,
       z: 748.73,
-      mapName: "kilima-valley",
-    },
-    {
-      x: 49084.34,
-      y: -1504.19,
-      z: 852.56,
-      mapName: "kilima-valley",
-    },
-    {
-      x: 50698.44,
-      y: 2751.52,
-      z: 517.43,
-      mapName: "kilima-valley",
-    },
-    {
-      x: 50419.53,
-      y: 12380.04,
-      z: -14.85,
       mapName: "kilima-valley",
     },
   ],
@@ -37496,12 +35984,6 @@ export const spawnNodes = {
       x: 117136.74,
       y: -92113.55,
       z: -959.81,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 119163.23,
-      y: -83116.38,
-      z: -974.61,
       mapName: "bahari-bay",
     },
     {
@@ -37667,12 +36149,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 104194.81,
-      y: -88211.13,
-      z: -292.29,
-      mapName: "bahari-bay",
-    },
-    {
       x: 106436.82,
       y: -53321.7,
       z: -2362.27,
@@ -37739,12 +36215,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 105006.75,
-      y: -66449.9,
-      z: -1663.83,
-      mapName: "bahari-bay",
-    },
-    {
       x: 70948.21,
       y: -24631.56,
       z: -702,
@@ -37793,18 +36263,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 107998.29,
-      y: -57380.1,
-      z: -1591.83,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 106897.56,
-      y: -59217.65,
-      z: -1730.04,
-      mapName: "bahari-bay",
-    },
-    {
       x: 99916.55,
       y: -78871.73,
       z: -612.82,
@@ -37847,18 +36305,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 80062.24,
-      y: -12582.97,
-      z: -1093.85,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 82129.56,
-      y: -11124.24,
-      z: -1164.76,
-      mapName: "bahari-bay",
-    },
-    {
       x: 88242.17,
       y: -5636.09,
       z: -66.5,
@@ -37883,12 +36329,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 122342.78,
-      y: -73548.55,
-      z: 6.99,
-      mapName: "bahari-bay",
-    },
-    {
       x: 103515.13,
       y: -55098.53,
       z: -2198.24,
@@ -37898,18 +36338,6 @@ export const spawnNodes = {
       x: 99734.18,
       y: -59336.81,
       z: -1381.8,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 101084.87,
-      y: -56161.56,
-      z: -1900.47,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 102487.55,
-      y: -55548.01,
-      z: -2073.55,
       mapName: "bahari-bay",
     },
     {
@@ -37931,33 +36359,15 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 104614.99,
-      y: -58909.69,
-      z: -2218.53,
-      mapName: "bahari-bay",
-    },
-    {
       x: 103697.68,
       y: -58095.12,
       z: -2153.63,
       mapName: "bahari-bay",
     },
     {
-      x: 102791.33,
-      y: -57290.28,
-      z: -2040.24,
-      mapName: "bahari-bay",
-    },
-    {
       x: 120114.37,
       y: -69912.05,
       z: 179.71,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 119570.48,
-      y: -70957.76,
-      z: 73.82,
       mapName: "bahari-bay",
     },
     {
@@ -38003,21 +36413,9 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 82044.57,
-      y: -13769.49,
-      z: -1674.31,
-      mapName: "bahari-bay",
-    },
-    {
       x: 74978.99,
       y: -3974,
       z: -71.31,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 70384.39,
-      y: -3200.88,
-      z: 659.85,
       mapName: "bahari-bay",
     },
     {
@@ -38036,12 +36434,6 @@ export const spawnNodes = {
       x: 78997.77,
       y: -4396.99,
       z: 288.9,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 89073.14,
-      y: -1996.33,
-      z: -761.47,
       mapName: "bahari-bay",
     },
     {
@@ -38111,12 +36503,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 110197.99,
-      y: -88633.49,
-      z: -1322.58,
-      mapName: "bahari-bay",
-    },
-    {
       x: 115216.23,
       y: -81427.47,
       z: -498.86,
@@ -38135,39 +36521,9 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 100177.17,
-      y: -75477.43,
-      z: -707.45,
-      mapName: "bahari-bay",
-    },
-    {
       x: 118362.29,
       y: -71965.14,
       z: -553.62,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 118633.74,
-      y: -70067.23,
-      z: -402.66,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 75434,
-      y: -19382.23,
-      z: -657.07,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 77095.48,
-      y: -17578.32,
-      z: -1088.34,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 102752.04,
-      y: -53351.99,
-      z: -2160,
       mapName: "bahari-bay",
     },
     {
@@ -38189,27 +36545,9 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 120486.69,
-      y: -76512.05,
-      z: -984.1,
-      mapName: "bahari-bay",
-    },
-    {
       x: 108153.22,
       y: -52467.43,
       z: -2623.28,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 118172.04,
-      y: -75297.47,
-      z: -904.81,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 116862.75,
-      y: -71976.94,
-      z: -529.06,
       mapName: "bahari-bay",
     },
     {
@@ -38240,12 +36578,6 @@ export const spawnNodes = {
       x: 120265.28,
       y: -74500.12,
       z: -603.97,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 123174.58,
-      y: -76319.2,
-      z: -717.53,
       mapName: "bahari-bay",
     },
     {
@@ -38403,18 +36735,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 114388.73,
-      y: -82514.33,
-      z: -1009.54,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 114057.7,
-      y: -68936.76,
-      z: -502,
-      mapName: "bahari-bay",
-    },
-    {
       x: 73789.01,
       y: -11971.04,
       z: -910.42,
@@ -38511,21 +36831,9 @@ export const spawnNodes = {
       mapName: "kilima-valley",
     },
     {
-      x: -11054.55,
-      y: -30340.75,
-      z: 1740.27,
-      mapName: "kilima-valley",
-    },
-    {
       x: 1347.94,
       y: -10196.43,
       z: 800.47,
-      mapName: "kilima-valley",
-    },
-    {
-      x: -7189.57,
-      y: -19505.92,
-      z: 1313.7,
       mapName: "kilima-valley",
     },
     {
@@ -38535,39 +36843,9 @@ export const spawnNodes = {
       mapName: "kilima-valley",
     },
     {
-      x: 5593.32,
-      y: -21520.82,
-      z: 2194.16,
-      mapName: "kilima-valley",
-    },
-    {
-      x: -8839.86,
-      y: -25941.9,
-      z: 1622.98,
-      mapName: "kilima-valley",
-    },
-    {
-      x: 391.24,
-      y: -10657.23,
-      z: 815.91,
-      mapName: "kilima-valley",
-    },
-    {
-      x: -4695.96,
-      y: -25859.89,
-      z: 1538.89,
-      mapName: "kilima-valley",
-    },
-    {
       x: -5559.64,
       y: -20868.92,
       z: 1281.82,
-      mapName: "kilima-valley",
-    },
-    {
-      x: 6232.99,
-      y: -22312.27,
-      z: 2260.9,
       mapName: "kilima-valley",
     },
     {
@@ -38598,12 +36876,6 @@ export const spawnNodes = {
       x: -29.27,
       y: -19149.5,
       z: 1258.13,
-      mapName: "kilima-valley",
-    },
-    {
-      x: 9530.3,
-      y: -4539.12,
-      z: 79.48,
       mapName: "kilima-valley",
     },
     {
@@ -38667,18 +36939,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 88993.42,
-      y: -18369.04,
-      z: -1402.46,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 80038.69,
-      y: -22687.6,
-      z: -1612.04,
-      mapName: "bahari-bay",
-    },
-    {
       x: 89987.18,
       y: -23836.86,
       z: -1419.33,
@@ -38739,24 +36999,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 92100.95,
-      y: -18671.89,
-      z: -1421.73,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 89115.51,
-      y: -14869.23,
-      z: -1582.94,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 91267.72,
-      y: -16803.25,
-      z: -1554.2,
-      mapName: "bahari-bay",
-    },
-    {
       x: 81168.81,
       y: -70884.79,
       z: 128.48,
@@ -38787,27 +37029,9 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 99714.39,
-      y: -33539.24,
-      z: -1681.21,
-      mapName: "bahari-bay",
-    },
-    {
       x: 106291.62,
       y: -31798.2,
       z: -1068.25,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 101391.62,
-      y: -31321.96,
-      z: -1684.64,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 111496.2,
-      y: -81158.13,
-      z: -746.7,
       mapName: "bahari-bay",
     },
     {
@@ -38865,12 +37089,6 @@ export const spawnNodes = {
       mapName: "kilima-valley",
     },
     {
-      x: -19609.95,
-      y: 12564.03,
-      z: -746.27,
-      mapName: "kilima-valley",
-    },
-    {
       x: -21554.13,
       y: 13126.42,
       z: -795.25,
@@ -38913,12 +37131,6 @@ export const spawnNodes = {
       mapName: "kilima-valley",
     },
     {
-      x: 594.6,
-      y: 23830.75,
-      z: -243.66,
-      mapName: "kilima-valley",
-    },
-    {
       x: 1384.78,
       y: 31278.58,
       z: -132.24,
@@ -38943,27 +37155,9 @@ export const spawnNodes = {
       mapName: "kilima-valley",
     },
     {
-      x: -29125.6,
-      y: 20289.62,
-      z: -611.91,
-      mapName: "kilima-valley",
-    },
-    {
-      x: -29071.44,
-      y: 19196.54,
-      z: -675.82,
-      mapName: "kilima-valley",
-    },
-    {
       x: -28614.97,
       y: 17642.68,
       z: -678.03,
-      mapName: "kilima-valley",
-    },
-    {
-      x: 1290.89,
-      y: 30054.96,
-      z: -199.84,
       mapName: "kilima-valley",
     },
     {
@@ -38985,12 +37179,6 @@ export const spawnNodes = {
       mapName: "kilima-valley",
     },
     {
-      x: 27125.11,
-      y: 11661.67,
-      z: 343.39,
-      mapName: "kilima-valley",
-    },
-    {
       x: 23482.48,
       y: 11347.09,
       z: 795.99,
@@ -39006,12 +37194,6 @@ export const spawnNodes = {
       x: -11465.83,
       y: -4253.59,
       z: 603.39,
-      mapName: "kilima-valley",
-    },
-    {
-      x: -13606.35,
-      y: 8738.35,
-      z: -354.09,
       mapName: "kilima-valley",
     },
     {
@@ -39051,45 +37233,15 @@ export const spawnNodes = {
       mapName: "kilima-valley",
     },
     {
-      x: 18421.16,
-      y: -2371.87,
-      z: -484.61,
-      mapName: "kilima-valley",
-    },
-    {
-      x: 24897.68,
-      y: 11653.02,
-      z: 805.24,
-      mapName: "kilima-valley",
-    },
-    {
       x: 21993.05,
       y: 12098.85,
       z: -238.58,
       mapName: "kilima-valley",
     },
     {
-      x: 26542.84,
-      y: 12475.43,
-      z: 311.99,
-      mapName: "kilima-valley",
-    },
-    {
-      x: 24563.22,
-      y: 10685.73,
-      z: 929.66,
-      mapName: "kilima-valley",
-    },
-    {
       x: 46567.25,
       y: -8108.46,
       z: 862.44,
-      mapName: "kilima-valley",
-    },
-    {
-      x: 1301.55,
-      y: -16336.2,
-      z: 1577.07,
       mapName: "kilima-valley",
     },
   ],
@@ -39161,18 +37313,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 107874.29,
-      y: -34856.81,
-      z: -3863.85,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 111470.1,
-      y: -36035.37,
-      z: -4001.09,
-      mapName: "bahari-bay",
-    },
-    {
       x: 112946.27,
       y: -31024.92,
       z: -3792.88,
@@ -39215,18 +37355,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 101853.37,
-      y: -34260.93,
-      z: -1582.74,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 101953.27,
-      y: -32192.9,
-      z: -1661.54,
-      mapName: "bahari-bay",
-    },
-    {
       x: 102479.67,
       y: -36195.87,
       z: -1739.8,
@@ -39245,33 +37373,15 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 91258.64,
-      y: -65163.93,
-      z: 940.16,
-      mapName: "bahari-bay",
-    },
-    {
       x: 90238.74,
       y: -65142.44,
       z: 828.55,
       mapName: "bahari-bay",
     },
     {
-      x: 90562.07,
-      y: -66327.67,
-      z: 838.52,
-      mapName: "bahari-bay",
-    },
-    {
       x: 92798.15,
       y: -68787.42,
       z: 701.34,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 91546.06,
-      y: -68982.8,
-      z: 712.93,
       mapName: "bahari-bay",
     },
     {
@@ -39317,12 +37427,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 75338.78,
-      y: -11658.01,
-      z: -1049.65,
-      mapName: "bahari-bay",
-    },
-    {
       x: 77833.11,
       y: -6093.44,
       z: -86.44,
@@ -39365,12 +37469,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 101799.41,
-      y: -37588.28,
-      z: -1915.84,
-      mapName: "bahari-bay",
-    },
-    {
       x: 105515.03,
       y: -28018.82,
       z: -1125.18,
@@ -39389,12 +37487,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 112621.25,
-      y: -32291.63,
-      z: -3811.38,
-      mapName: "bahari-bay",
-    },
-    {
       x: 95420.19,
       y: -65611.4,
       z: 1003.02,
@@ -39407,12 +37499,6 @@ export const spawnNodes = {
       mapName: "kilima-valley",
     },
     {
-      x: 15224.56,
-      y: -6126.62,
-      z: -383.64,
-      mapName: "kilima-valley",
-    },
-    {
       x: 72569.92,
       y: -5587.68,
       z: -426.73,
@@ -39422,12 +37508,6 @@ export const spawnNodes = {
       x: 69494.02,
       y: -1803.93,
       z: 1083.09,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 74807.65,
-      y: -12921.51,
-      z: -966.95,
       mapName: "bahari-bay",
     },
     {
@@ -39479,18 +37559,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 90574.57,
-      y: -17515.3,
-      z: -1478.63,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 92985.1,
-      y: -21767.87,
-      z: -1305.81,
-      mapName: "bahari-bay",
-    },
-    {
       x: 83778.2,
       y: -953.8,
       z: -677.99,
@@ -39509,33 +37577,15 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 91536.98,
-      y: -15608.06,
-      z: -1632.19,
-      mapName: "bahari-bay",
-    },
-    {
       x: 93067.13,
       y: -16560.06,
       z: -1621.02,
       mapName: "bahari-bay",
     },
     {
-      x: 88354.82,
-      y: -15930.98,
-      z: -1467.72,
-      mapName: "bahari-bay",
-    },
-    {
       x: 90250.51,
       y: -24323.62,
       z: -1347.39,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 90471.89,
-      y: -16295.6,
-      z: -1559.56,
       mapName: "bahari-bay",
     },
     {
@@ -39551,39 +37601,15 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 102350.85,
-      y: -33131.6,
-      z: -1433.96,
-      mapName: "bahari-bay",
-    },
-    {
       x: 90972.34,
       y: -22626.52,
       z: -1150.88,
       mapName: "bahari-bay",
     },
     {
-      x: 91167.49,
-      y: -19882.75,
-      z: -1316.95,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 104319.19,
-      y: -34229.95,
-      z: -1390.58,
-      mapName: "bahari-bay",
-    },
-    {
       x: 110372.34,
       y: -34641.53,
       z: -4051.28,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 89192.63,
-      y: -17581.25,
-      z: -1475.13,
       mapName: "bahari-bay",
     },
     {
@@ -39617,12 +37643,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 93994.9,
-      y: -19867.21,
-      z: -1294.53,
-      mapName: "bahari-bay",
-    },
-    {
       x: 91697.61,
       y: -20824.64,
       z: -1191.24,
@@ -39632,12 +37652,6 @@ export const spawnNodes = {
       x: 106935.94,
       y: -21887.17,
       z: -529.8,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 107205.93,
-      y: -22871.38,
-      z: -566.5,
       mapName: "bahari-bay",
     },
     {
@@ -39653,57 +37667,9 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 103871.18,
-      y: -30957.74,
-      z: -1309.74,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 108632.93,
-      y: -23028.21,
-      z: -493.91,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 105146.98,
-      y: -29162.95,
-      z: -1173.69,
-      mapName: "bahari-bay",
-    },
-    {
       x: 106048.66,
       y: -29714.29,
       z: -994.57,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 101388.35,
-      y: -35322.33,
-      z: -1689.93,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 103646.6,
-      y: -35821.18,
-      z: -1637.47,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 105317,
-      y: -30495,
-      z: -1099.95,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 106496.72,
-      y: -20944.95,
-      z: -636.66,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 102089.31,
-      y: -29753.96,
-      z: -1677.1,
       mapName: "bahari-bay",
     },
     {
@@ -39731,12 +37697,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 103809.99,
-      y: -37156.83,
-      z: -1795.73,
-      mapName: "bahari-bay",
-    },
-    {
       x: 65815.04,
       y: -5034,
       z: 1086.34,
@@ -39755,12 +37715,6 @@ export const spawnNodes = {
       mapName: "bahari-bay",
     },
     {
-      x: 80878.03,
-      y: -15387.06,
-      z: -1460.31,
-      mapName: "bahari-bay",
-    },
-    {
       x: 81490.44,
       y: -11395.73,
       z: -1187.71,
@@ -39770,24 +37724,6 @@ export const spawnNodes = {
       x: 79126.6,
       y: -21526.21,
       z: -1344.01,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 78749.06,
-      y: -16592.79,
-      z: -1289.58,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 91640.14,
-      y: -24601.43,
-      z: -1093.97,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 104289.81,
-      y: -27884.92,
-      z: -1180.68,
       mapName: "bahari-bay",
     },
     {
@@ -39844,12 +37780,6 @@ export const spawnNodes = {
       x: 108647.32,
       y: -21978.01,
       z: -519.83,
-      mapName: "bahari-bay",
-    },
-    {
-      x: 107436.44,
-      y: -22151.77,
-      z: -510.17,
       mapName: "bahari-bay",
     },
     {

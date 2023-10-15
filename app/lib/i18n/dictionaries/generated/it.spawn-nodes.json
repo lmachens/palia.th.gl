@@ -1,90 +1,119 @@
 {
   "BP_Bug_BeetleC_C": {
-    "name": "Cimice maculata"
+    "name": "Cimice maculata",
+    "description": "A bug known more for his strong musk than its striking colors.\r\nFound all around Kilima and Bahari Bay."
   },
   "BP_Bug_ButterflyC_C": {
-    "name": "Farfalla azzurra"
+    "name": "Farfalla azzurra",
+    "description": "Ever resilient. Butterflies of this type can be found in almost every climate in Palia.\r\nFound all around Kilima and Bahari Bay during the morning and day."
   },
   "BP_Bug_ButterflyR_C": {
-    "name": "Farfalla occhidisole"
+    "name": "Farfalla occhidisole",
+    "description": "Whenever you see the sun out, you can see the eyes of this intricately patterned butterfly looking around Bahari Bay.\r\nFound in the Forests of Bahari Bay during the morning and day."
   },
   "BP_Bug_ButterflyU_C": {
-    "name": "Farfalla crepuscolare"
+    "name": "Farfalla crepuscolare",
+    "description": "A beautiful butterfly with wings the color of dusk. Unique to the Kilima Valley.\r\nFound around the Dragon Shrine in Kilima during the morning and day."
   },
   "BP_Bug_CicadaC_C": {
-    "name": "Cicala di corteccia"
+    "name": "Cicala di corteccia",
+    "description": "A common cicada.\r\nFound attached to trees in Bahari Bay during the morning and day."
   },
   "BP_Bug_CicadaR_C": {
-    "name": "Cicala infuocata"
+    "name": "Cicala infuocata",
+    "description": "A spirited cicada, whose bark is worse than its bite.\r\nFound attached to trees in Bahari Bay during the morning and day."
   },
   "BP_Bug_CicadaU_C": {
-    "name": "Cicala cerulea"
+    "name": "Cicala cerulea",
+    "description": "The call of this cicada is so soothing, it was said to be the inspiration for Ayana's fourth symphony.\r\nFound attached to trees in Bahari Bay during the morning and day."
   },
   "BP_Bug_CrabC_C": {
-    "name": "Granchio bahariano"
+    "name": "Granchio bahariano",
+    "description": "A local crab, known to taste good with drawn butter.\r\nFound along the coast of Bahari Bay. Also has a chance to be found when foraging shells in Bahari Bay."
   },
   "BP_Bug_CrabU_C": {
-    "name": "Granchio spinoso"
+    "name": "Granchio spinoso",
+    "description": "A crab with a very spiny shell.\r\nFound along the coast of Bahari Bay."
   },
   "BP_Bug_CricketC_C": {
-    "name": "Grillo campestre"
+    "name": "Grillo campestre",
+    "description": "Field crickets can be found anywhere you can find a field.\r\nFound all around Kilima and Bahari Bay."
   },
   "BP_Bug_CricketR_C": {
-    "name": "Locusta pietrazzurra"
+    "name": "Locusta pietrazzurra",
+    "description": "This little blue beauty has been known to camouflage itself as a shiny blue pebble.\r\nFound in the fields of Bahari Bay."
   },
   "BP_Bug_CricketU_C": {
-    "name": "Cicalina"
+    "name": "Cicalina",
+    "description": "The Garden Leafhopper is such a delight in Palia that many children keep them as pets. They are said to bring good luck.\r\nFound in the fields and Badruu's Farm in Kilima. Also has a chance to be found when foraging in Kilima."
   },
   "BP_Bug_DragonflyC_C": {
-    "name": "Libellula coda a pennello"
+    "name": "Libellula coda a pennello",
+    "description": "The tail of this Dragonfly is so bright and vibrant, some early Majiri were said to have used it as a paintbrush.\r\nFound around the lake in Kilima, as well as rivers and ponds in Bahari Bay."
   },
   "BP_Bug_DragonflyE_C": {
-    "name": "Libellula alagemma"
+    "name": "Libellula alagemma",
+    "description": "A Dragonfly with wings as bright and colorful as any precious stone.\r\nFound near a cave entrance on a cliff in Bahari Bay."
   },
   "BP_Bug_DragonflyR_C": {
-    "name": "Libellula sputafuoco"
+    "name": "Libellula spirafuoco",
+    "description": "This Dragonfly is notoriously difficult to catch, in part due to its fiery breath.\r\nFound in the fields of Kilima."
   },
   "BP_Bug_DragonflyU_C": {
-    "name": "Libellula inchiostro"
+    "name": "Libellula inchiostro",
+    "description": "This stealthy Dragonfly is used as a component in various black dyes and inks.\r\nFound around rivers and ponds in Bahari Bay."
   },
   "BP_Bug_GlowbugC_C": {
-    "name": "Insetto lanterna"
+    "name": "Insetto lanterna",
+    "description": "This bug glows as brightly as a colorful feast day lantern taking flight into the Palian night sky.\r\nFound along the coast and in forests of Bahari Bay during the evening and night."
   },
   "BP_Bug_LadybugR_C": {
-    "name": "Coccinella principessa"
+    "name": "Coccinella principessa",
+    "description": "A very regal looking lady bug, made popular by the children's fairytale, The Princess Who Turned Into A Ladybug.\r\nFound around the lake in Kilima."
   },
   "BP_Bug_LadybugU_C": {
-    "name": "Coccinella"
+    "name": "Coccinella",
+    "description": "A black and red ladybug, popular for controlling garden pests.\r\nHas a chance to be found when foraging in the fields of Bahari Bay."
   },
   "BP_Bug_MantisE_C": {
-    "name": "Mantide fatata"
+    "name": "Mantide fatata",
+    "description": "A mantis from early Majiri legend only recently confirmed to exist by modern entomologists. Said to have magical properties.\r\nFound in the fields of Bahari Bay."
   },
   "BP_Bug_MantisR1_C": {
-    "name": "Mantide maculata"
+    "name": "Mantide maculata",
+    "description": "A rare mantis with a beautiful set of spots.\r\nFound around the Dragon Shrine in Kilima."
   },
   "BP_Bug_MantisU_C": {
-    "name": "Mantide da giardino"
+    "name": "Mantide da giardino",
+    "description": "Nothing to see here. Just your garden variety mantis.\r\nFound around the lake in Kilima. Also has a chance to be found when foraging around the lake in Kilima."
   },
   "BP_Bug_MothC_C": {
-    "name": "Falena notturna di Kilima"
+    "name": "Falena notturna di Kilima",
+    "description": "While beautiful, the Kilima night moth is so prevalent on hot summer nights that some consider it to be a pest. Keep away from stored cloth.\r\nFound all around Kilima and Bahari Bay during the evening and night."
   },
   "BP_Bug_MothR_C": {
-    "name": "Falena velata"
+    "name": "Falena velata",
+    "description": "The wings of this moth are so thin that some say you can see a peek of the Dragon Realm by looking through them.\r\nFound in the fields of Kilima during the evening and night."
   },
   "BP_Bug_MothU_C": {
-    "name": "Falena lunare"
+    "name": "Falena lunare",
+    "description": "The Lunar Fairy Moth is said to have a very special connection to the Dragon Moon, and is said to only appear at special times during its cycle.\r\nFound in the fields and forests of Bahari Bay during the evening and night."
   },
   "BP_Bug_PedeR1_C": {
-    "name": "Millepiedi peloso"
+    "name": "Millepiedi peloso",
+    "description": "A millipede with a hair growth problem.\r\nFound in the forests of Bahari Bay."
   },
   "BP_Bug_PedeR2_C": {
-    "name": "Centopiedi scintillino"
+    "name": "Centopiedi scintillino",
+    "description": "A rare centipede with a shiny hard shell.\r\nHas a chance to be found when mining in Bahari Bay."
   },
   "BP_Bug_PedeU_C": {
-    "name": "Millepiedi delle serre"
+    "name": "Millepiedi delle serre",
+    "description": "A brown and green millipede that loves feasting on garden crops.\r\nFound in the fields of Kilima. Also has a chance to be found when foraging in the fields of Kilima."
   },
   "BP_Bug_SnailU_C": {
-    "name": "Chiocciola da giardino"
+    "name": "Chiocciola da giardino",
+    "description": "A snail that has evolved over time to look like a leaf. Good for hiding from predators, bad for hiding from the Leafstalker Mantis.\r\nFound along the coast and in forests of Bahari Bay."
   },
   "BP_Coral_C": {
     "name": "Corallo",
@@ -299,27 +328,27 @@
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Cearnuk_T1_C": {
-    "name": "Cearnuk T1",
+    "name": "Sernuk",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Cearnuk_T2_C": {
-    "name": "Cearnuk T2",
+    "name": "Saffron Striped Searnuk",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Cearnuk_T3_C": {
-    "name": "Cearnuk T3",
+    "name": "Proudhorned Sernuk",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Chapaa_T1_C": {
-    "name": "Chapaa T1",
+    "name": "Chapaa maculato",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Chapaa_T2_C": {
-    "name": "Chapaa T2",
+    "name": "White Striped Chapaa",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Chapaa_T3_C": {
-    "name": "Chapaa T3",
+    "name": "Black Striped Chapaa",
     "description": ""
   },
   "BP_WaterFlower_C": {

@@ -92,7 +92,7 @@
     },
     "BP_InvisibleTeleporter_Parent_C_UAID_00BE43BC7D55F9A101_1768487034": {
       "name": "Enter Ruins",
-      "description": "Needs Battery"
+      "description": "Need Battery"
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63147A01_2092305998": {
       "name": "Najuma's Room",
@@ -109,6 +109,10 @@
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63157A01_1109767176": {
       "name": "Tamala's Room",
       "description": "You need a key from Tamala to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE630D7901_2065472831": {
+      "name": "Pull out loose book",
+      "description": "It reveals a hidden lock. Perhaps you need a key?"
     },
     "BP_DoorTeleporter_Chayne_C_UAID_CC96E503DD7EDC7701_1659484090": {
       "name": "Chayne's Room",
@@ -128,10 +132,6 @@
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE630D7901_1521224861": {
       "name": "Crystal Lake"
-    },
-    "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE630D7901_2065472831": {
-      "name": "Pull out loose book",
-      "description": "It reveals a hidden lock. Perhaps you need a key?"
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63107901_1465714255": {
       "name": "Sifuu's Room",
@@ -264,10 +264,6 @@
       "name": "To Housing Plot",
       "description": null
     },
-    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE63617801_2105154458": {
-      "name": "To Housing Plot",
-      "description": null
-    },
     "BP_GateTeleporter_Parent_C_UAID_CC96E503DE630E7901_1573823092": {
       "name": "To Kilima Village",
       "description": null
@@ -397,10 +393,6 @@
   },
   "housingPlot": {
     "BP_GateTeleporter_Parent_C_UAID_CC96E503E0F4C4A401_1919574119": {
-      "name": "To Housing Plot",
-      "description": null
-    },
-    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE63617801_2105154458": {
       "name": "To Housing Plot",
       "description": null
     }
