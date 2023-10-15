@@ -1,123 +1,123 @@
 {
   "BP_Bug_BeetleC_C": {
     "name": "Cimice maculata",
-    "description": "A bug known more for his strong musk than its striking colors.\r\nFound all around Kilima and Bahari Bay."
+    "description": "Un insetto noto più per il suo forte olezzo che per i suoi colori sorprendenti.\nSi può trovare in tutta la zona di Kilima e Cala Bahari."
   },
   "BP_Bug_ButterflyC_C": {
     "name": "Farfalla azzurra",
-    "description": "Ever resilient. Butterflies of this type can be found in almost every climate in Palia.\r\nFound all around Kilima and Bahari Bay during the morning and day."
+    "description": "Sempre resistente. Farfalle di questo tipo Si può trovareno in quasi tutti i climi di Palia.\nSi può trovareno in tutta la zona di Kilima e Cala Bahari durante la mattina e il giorno."
   },
   "BP_Bug_ButterflyR_C": {
     "name": "Farfalla occhidisole",
-    "description": "Whenever you see the sun out, you can see the eyes of this intricately patterned butterfly looking around Bahari Bay.\r\nFound in the Forests of Bahari Bay during the morning and day."
+    "description": "Ogni volta che si vede il sole, si possono vedere gli occhi di questa farfalla dai motivi intricati che si guardano intorno a Cala Bahari.\nSi può trovare nelle foreste di Cala Bahari durante la mattina e il giorno."
   },
   "BP_Bug_ButterflyU_C": {
     "name": "Farfalla crepuscolare",
-    "description": "A beautiful butterfly with wings the color of dusk. Unique to the Kilima Valley.\r\nFound around the Dragon Shrine in Kilima during the morning and day."
+    "description": "Una bellissima farfalla dalle ali color del crepuscolo che vive esclusivamente nella valle di Kilima.\nSi può trovare nei pressi del Santuario del Drago a Kilima durante la mattina e il giorno."
   },
   "BP_Bug_CicadaC_C": {
     "name": "Cicala di corteccia",
-    "description": "A common cicada.\r\nFound attached to trees in Bahari Bay during the morning and day."
+    "description": "Una cicala comune.\nSi può trovare attaccata agli alberi di Cala Bahari durante la mattina e il giorno."
   },
   "BP_Bug_CicadaR_C": {
     "name": "Cicala infuocata",
-    "description": "A spirited cicada, whose bark is worse than its bite.\r\nFound attached to trees in Bahari Bay during the morning and day."
+    "description": "Una cicala vivace, la cui corteccia è peggiore del suo morso.\nSi può trovare attaccata agli alberi di Cala Bahari durante la mattina e il giorno."
   },
   "BP_Bug_CicadaU_C": {
     "name": "Cicala cerulea",
-    "description": "The call of this cicada is so soothing, it was said to be the inspiration for Ayana's fourth symphony.\r\nFound attached to trees in Bahari Bay during the morning and day."
+    "description": "Il richiamo di questa cicala è così rilassante che si dice sia stato di ispirazione per la quarta sinfonia di Ayana.\nSi può trovare attaccata agli alberi di Cala Bahari durante la mattina e il giorno."
   },
   "BP_Bug_CrabC_C": {
     "name": "Granchio bahariano",
-    "description": "A local crab, known to taste good with drawn butter.\r\nFound along the coast of Bahari Bay. Also has a chance to be found when foraging shells in Bahari Bay."
+    "description": "Un granchio locale, particolarmente buono con un po' di burro chiarificato.\nSi trova lungo la costa di Cala Bahari. È possibile trovarlo anche durante la raccolta di risorse a Cala Bahari."
   },
   "BP_Bug_CrabU_C": {
     "name": "Granchio spinoso",
-    "description": "A crab with a very spiny shell.\r\nFound along the coast of Bahari Bay."
+    "description": "Un granchio dalla corazza molto spinosa..\nSi può trovare lungo la costa di Cala Bahari."
   },
   "BP_Bug_CricketC_C": {
     "name": "Grillo campestre",
-    "description": "Field crickets can be found anywhere you can find a field.\r\nFound all around Kilima and Bahari Bay."
+    "description": "I grilli di campo Si può trovareno ovunque ci sia un campo.\nSi può trovareno in tutta la zona di Kilima e Cala Bahari."
   },
   "BP_Bug_CricketR_C": {
     "name": "Locusta pietrazzurra",
-    "description": "This little blue beauty has been known to camouflage itself as a shiny blue pebble.\r\nFound in the fields of Bahari Bay."
+    "description": "Questa piccola bellezza blu è nota per mimetizzarsi come un ciottolo blu lucido.\nSi può trovare nei campi di Cala Bahari."
   },
   "BP_Bug_CricketU_C": {
     "name": "Cicalina",
-    "description": "The Garden Leafhopper is such a delight in Palia that many children keep them as pets. They are said to bring good luck.\r\nFound in the fields and Badruu's Farm in Kilima. Also has a chance to be found when foraging in Kilima."
+    "description": "La cavalletta da giardino è una tale delizia a Palia che molti bambini la tengono come animale domestico. Si dice che portino fortuna.\nSi può trovare nei campi e nella fattoria di Badruu a Kilima. È possibile trovarla anche durante il foraggiamento a Kilima."
   },
   "BP_Bug_DragonflyC_C": {
     "name": "Libellula coda a pennello",
-    "description": "The tail of this Dragonfly is so bright and vibrant, some early Majiri were said to have used it as a paintbrush.\r\nFound around the lake in Kilima, as well as rivers and ponds in Bahari Bay."
+    "description": "La coda di questa libellula è così luminosa e vivace che si dice che alcuni Majiri primitivi la usassero come pennello.\nSi può trovare intorno al lago di Kilima, oltre che nei fiumi e negli stagni di Cala Bahari."
   },
   "BP_Bug_DragonflyE_C": {
     "name": "Libellula alagemma",
-    "description": "A Dragonfly with wings as bright and colorful as any precious stone.\r\nFound near a cave entrance on a cliff in Bahari Bay."
+    "description": "Una libellula dalle ali colorate e luminose come pietre preziose.\nSi può trovare all'ingresso di una grotta su una scogliera a Cala Bahari."
   },
   "BP_Bug_DragonflyR_C": {
-    "name": "Libellula spirafuoco",
-    "description": "This Dragonfly is notoriously difficult to catch, in part due to its fiery breath.\r\nFound in the fields of Kilima."
+    "name": "Libellula sputafuoco",
+    "description": "Questa libellula è notoriamente difficile da catturare, in parte a causa del suo respiro infuocato.\nSi può trovare nei campi di Kilima."
   },
   "BP_Bug_DragonflyU_C": {
     "name": "Libellula inchiostro",
-    "description": "This stealthy Dragonfly is used as a component in various black dyes and inks.\r\nFound around rivers and ponds in Bahari Bay."
+    "description": "Questa furtiva libellula è utilizzata come componente di vari coloranti e inchiostri neri.\nSi può trovare nei pressi dei fiumi e degli stagni di Cala Bahari."
   },
   "BP_Bug_GlowbugC_C": {
     "name": "Insetto lanterna",
-    "description": "This bug glows as brightly as a colorful feast day lantern taking flight into the Palian night sky.\r\nFound along the coast and in forests of Bahari Bay during the evening and night."
+    "description": "Questo insetto brilla come una lanterna colorata del giorno di festa che spicca il volo nel cielo notturno di Palian.\nSi può trovare lungo la costa e nelle foreste di Cala Bahari durante la sera e la notte."
   },
   "BP_Bug_LadybugR_C": {
     "name": "Coccinella principessa",
-    "description": "A very regal looking lady bug, made popular by the children's fairytale, The Princess Who Turned Into A Ladybug.\r\nFound around the lake in Kilima."
+    "description": "Una coccinella dall'aspetto molto regale, resa popolare dalla favola per bambini \"La principessa che si trasformò in coccinella\".\nSi può trovare intorno al lago di Kilima."
   },
   "BP_Bug_LadybugU_C": {
     "name": "Coccinella",
-    "description": "A black and red ladybug, popular for controlling garden pests.\r\nHas a chance to be found when foraging in the fields of Bahari Bay."
+    "description": "Una coccinella rossa e nera, spesso usata per gestire i parassiti del giardino.\nÈ possibile trovarla durante la raccolta di risorse nei campi di Cala Bahari."
   },
   "BP_Bug_MantisE_C": {
     "name": "Mantide fatata",
-    "description": "A mantis from early Majiri legend only recently confirmed to exist by modern entomologists. Said to have magical properties.\r\nFound in the fields of Bahari Bay."
+    "description": "Una mantide delle antiche leggende Majiri, confermata solo di recente dagli entomologi moderni. Si dice che abbia proprietà magiche. \nSi può trovare nei campi di Cala Bahari."
   },
   "BP_Bug_MantisR1_C": {
     "name": "Mantide maculata",
-    "description": "A rare mantis with a beautiful set of spots.\r\nFound around the Dragon Shrine in Kilima."
+    "description": "Una mantide rara con una bella serie di macchie.\nSi può trovare nei pressi del Santuario del Drago a Kilima."
   },
   "BP_Bug_MantisU_C": {
     "name": "Mantide da giardino",
-    "description": "Nothing to see here. Just your garden variety mantis.\r\nFound around the lake in Kilima. Also has a chance to be found when foraging around the lake in Kilima."
+    "description": "Non c'è niente da vedere qui. Solo la classica mantide da giardino.\nSi può trovare intorno al lago di Kilima. È possibile trovarla anche durante il foraggiamento intorno al lago di Kilima."
   },
   "BP_Bug_MothC_C": {
     "name": "Falena notturna di Kilima",
-    "description": "While beautiful, the Kilima night moth is so prevalent on hot summer nights that some consider it to be a pest. Keep away from stored cloth.\r\nFound all around Kilima and Bahari Bay during the evening and night."
+    "description": "Pur essendo bella, la falena notturna Kilima è così diffusa nelle calde notti d'estate che alcuni la considerano un parassita. Tenere lontano dai tessuti conservati.\nSi può trovare in tutta Kilima e Cala Bahari durante la sera e la notte."
   },
   "BP_Bug_MothR_C": {
     "name": "Falena velata",
-    "description": "The wings of this moth are so thin that some say you can see a peek of the Dragon Realm by looking through them.\r\nFound in the fields of Kilima during the evening and night."
+    "description": "Le ali di questa falena sono così sottili che alcuni dicono che si possa vedere una sbirciatina del Regno del Drago guardando attraverso di esse.\nSi può trovare nei campi di Kilima durante la sera e la notte."
   },
   "BP_Bug_MothU_C": {
     "name": "Falena lunare",
-    "description": "The Lunar Fairy Moth is said to have a very special connection to the Dragon Moon, and is said to only appear at special times during its cycle.\r\nFound in the fields and forests of Bahari Bay during the evening and night."
+    "description": "Si dice che la falena lunare abbia un legame molto speciale con la Luna del Drago e che appaia solo in momenti particolari del suo ciclo.\nSi può trovare nei campi e nelle foreste di Cala Bahari durante la sera e la notte."
   },
   "BP_Bug_PedeR1_C": {
     "name": "Millepiedi peloso",
-    "description": "A millipede with a hair growth problem.\r\nFound in the forests of Bahari Bay."
+    "description": "Un millepiedi dal pelo lungo.\nSi può trovare nelle foreste di Cala Bahari."
   },
   "BP_Bug_PedeR2_C": {
     "name": "Centopiedi scintillino",
-    "description": "A rare centipede with a shiny hard shell.\r\nHas a chance to be found when mining in Bahari Bay."
+    "description": "Un raro millepiedi con un guscio duro e lucido.\nHa una possibilità di essere trovato quando si estrae nella Baia di Bahari."
   },
   "BP_Bug_PedeU_C": {
     "name": "Millepiedi delle serre",
-    "description": "A brown and green millipede that loves feasting on garden crops.\r\nFound in the fields of Kilima. Also has a chance to be found when foraging in the fields of Kilima."
+    "description": "Un millepiedi verde e marrone che adora banchettare con i raccolti.\nSi trova nei campi di Kilima. Può essere trovato anche durante la raccolta di risorse nei campi di Kilima."
   },
   "BP_Bug_SnailU_C": {
     "name": "Chiocciola da giardino",
-    "description": "A snail that has evolved over time to look like a leaf. Good for hiding from predators, bad for hiding from the Leafstalker Mantis.\r\nFound along the coast and in forests of Bahari Bay."
+    "description": "Una lumaca che si è evoluta nel tempo per assomigliare a una foglia. Ottimo per nascondersi dai predatori, pessimo per nascondersi dalla mantide fogliaia.\nSi può trovare lungo la costa e nelle foreste di Cala Bahari."
   },
   "BP_Coral_C": {
     "name": "Corallo",
-    "description": "Portate la spiaggia a casa vostra con questo pezzo di corallo. Si sente quasi il profumo della barriera corallina!"
+    "description": "Porta la spiaggia a casa tua con questo pezzo di corallo. Si sente quasi il profumo della barriera corallina!"
   },
   "BP_Fish_Hypnotic_Moray_C": {
     "name": "Fish_Hypnotic_Moray_C",
@@ -133,11 +133,11 @@
   },
   "BP_Gatherable_MushroomBlue_C": {
     "name": "Fungo luminoso",
-    "description": "I funghi luminosi si illuminano assorbendo il flusso e hanno quindi molti usi alchemici."
+    "description": "I funghi luminosi si illuminano assorbendo il flusso e per questo sono molto utili nell'alchimia."
   },
   "BP_Gatherable_MushroomR_C": {
     "name": "Spugnola di montagna",
-    "description": "Fungo comune, le spugnole di montagna possono essere trovate nella propria casa! Molto apprezzate, sia crude che cotte."
+    "description": "Le spugnole di montagna sono funghi comuni che si trovano facilmente nella propria casa! Molto apprezzate, sia crude che cotte."
   },
   "BP_Gatherable_Ruins_C": {
     "name": "Antico cimitero",
@@ -145,7 +145,7 @@
   },
   "BP_HeartdropLilly_C": {
     "name": "Giglio cuore",
-    "description": "Il giglio del cuore è un fiore raro che ha un significato speciale per i paliani: lo sbocciare dell'amore romantico."
+    "description": "Il giglio cuore è un fiore raro che ha un significato speciale per i paliani: lo sbocciare dell'amore romantico."
   },
   "BP_InsectBall_Stealth_C": {
     "name": "InsectBall_Stealth_C",
@@ -205,23 +205,23 @@
   },
   "BP_Moss_DragonsBeard_C": {
     "name": "Torba barbadrago",
-    "description": "La torba Dragon's Beard è un raro muschio alchemico che prende il nome dal suo colore, che ricorda quello del Maji."
+    "description": "La torba barbadrago è un raro muschio alchemico che prende il nome dal suo colore, che ricorda quello di Maji."
   },
   "BP_Moss_EmeraldCarpet_C": {
     "name": "Muschio smeraldino",
-    "description": "Si dice che riempire la casa con il colore brillante dell'Emerald Carpet Moss porti fortuna."
+    "description": "Si dice che riempire la casa con il colore brillante del muschio smeraldino porti fortuna."
   },
   "BP_Oyster_C": {
     "name": "Ostrica chiusa",
-    "description": "Aprite quest'ostrica! Anche se non trovate una perla, potete almeno mangiarla."
+    "description": "Apri quest'ostrica! E se dentro non ci trovi una perla, comunque puoi sempre mangiarla."
   },
   "BP_PoisonFlower_C": {
     "name": "Margherita di rovo",
-    "description": "La Briar Daisy di montagna può sopravvivere anche alle condizioni più difficili."
+    "description": "La margherita di rovo può sopravvivere anche nelle condizioni ambientali più difficili."
   },
   "BP_Seashell_C": {
     "name": "Conchiglia",
-    "description": "Chi vende conchiglie in riva al mare? Nessuno. Dovevate trovarle da soli."
+    "description": "Chi vende conchiglie in riva al mare? Nessuno. Devi trovarle da te."
   },
   "BP_ShrubChoppable_Bush_C": {
     "name": "Bush",
@@ -229,23 +229,23 @@
   },
   "BP_Spice_DariCloves_C": {
     "name": "Chiodi di garofano Dari",
-    "description": "Il raro chiodo di garofano di Dari è una spezia amata da chef e alchimisti. Si dice che abbia proprietà magiche."
+    "description": "Il raro chiodo di garofano Dari è una spezia molto amata sia da chef e alchimisti. Si dice che abbia proprietà magiche."
   },
   "BP_Spice_HeatRoot_C": {
     "name": "Radice del calore",
-    "description": "Non sudare! Che si tratti di cucinare o di curare, la radice piccante Heat Root vi riscalderà dall'interno. "
+    "description": "Non sudare! Che si tratti di cucinare o di curare, la radice del calore piccante ti riscalderà dall'interno. "
   },
   "BP_Spiced_Sprouts_C": {
     "name": "Germogli di spezie",
-    "description": "I germogli di spezie conferiscono un colore ricco e un sapore terroso a qualsiasi piatto. E sono anche piuttosto facili da trovare...."
+    "description": "I germogli di spezie conferiscono un colore intenso e un sapore terroso a qualsiasi piatto. E sono anche piuttosto facili da trovare...."
   },
   "BP_SundropLillies_C": {
     "name": "Giglio gocciadisole",
-    "description": "Il giglio smeraldino cresce in campi aperti dove può rivolgere i suoi petali alla luce del sole."
+    "description": "Il giglio gocciadisole cresce nei campi aperti, dove può rivolgere i suoi petali alla luce del sole."
   },
   "BP_SweetLeaves_C": {
     "name": "Katuk",
-    "description": "I più golosi apprezzeranno questa foglia dolce, uno degli ingredienti preferiti di Palia per i suoi dessert."
+    "description": "I più golosi apprezzeranno molto questa foglia dolce, uno degli ingredienti più usati nella preparazione dei dolci tipici di Palia."
   },
   "BP_TreeChoppable_Birch_Large_C": {
     "name": "Large Birch Tree",
@@ -328,15 +328,15 @@
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Cearnuk_T1_C": {
-    "name": "Sernuk",
+    "name": "Sernuk ·",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Cearnuk_T2_C": {
-    "name": "Saffron Striped Searnuk",
+    "name": "Searnuk a strisce di zafferano",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Cearnuk_T3_C": {
-    "name": "Proudhorned Sernuk",
+    "name": "Sernuk cornuto",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Chapaa_T1_C": {
@@ -344,16 +344,16 @@
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Chapaa_T2_C": {
-    "name": "White Striped Chapaa",
+    "name": "Chapaa a strisce bianche",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Chapaa_T3_C": {
-    "name": "Black Striped Chapaa",
+    "name": "Chapaa a strisce nere",
     "description": ""
   },
   "BP_WaterFlower_C": {
     "name": "Loto di lago",
-    "description": "Il Crystal Lake Lotus prende il nome dal luogo in cui è stato scoperto ed è oggi utilizzato per la produzione di tinture."
+    "description": "Il loto del lago Cristallo prende il nome dal luogo in cui è stato scoperto ed è oggi utilizzato per la produzione di tinture."
   },
   "BP_WaterPlane_Fishing_AZ1_Cave_SQ_C": {
     "name": "WaterPlane_Fishing_AZ1_Cave_SQ_C",
@@ -377,6 +377,6 @@
   },
   "BP_WildGarlic_C": {
     "name": "Aglio selvatico",
-    "description": "L'aglio è un'aggiunta deliziosa a qualsiasi piatto cucinato! Oppure può essere mangiato crudo per profumare l'alito."
+    "description": "L'aglio è un'aggiunta deliziosa in qualsiasi preparazione! Oppure può essere mangiato crudo per profumare l'alito."
   }
 }

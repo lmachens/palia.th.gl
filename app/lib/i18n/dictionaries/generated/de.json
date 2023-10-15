@@ -1,39 +1,39 @@
 {
   "landmark": {
     "MapMarker_AncientRuins": {
-      "name": "Ancient Ruins",
+      "name": "Uralte Ruinen",
       "description": null
     },
     "MapMarker_MiningFamily": {
-      "name": "Hodari & Najuma's House",
+      "name": "Hodaris und Najumas Haus",
       "description": null
     },
     "MapMarker_OldLighthouse": {
-      "name": "The Old Lighthouse",
+      "name": "Der alte Leuchtturm",
       "description": null
     },
     "MapMarker_Tamalas": {
-      "name": "Tamala's House",
+      "name": "Tamalas Haus",
       "description": null
     },
     "BP_Register_MajiMarket_ChapaaChase_2_C_0": {
-      "name": "Chapaa Hut",
+      "name": "Chapaa-Hütte",
       "description": null
     },
     "BP_Register_MajiMarket_Delaila_2_C_0": {
-      "name": " Delaila's Sweet Treats",
+      "name": "Delailas süße Leckereien",
       "description": null
     },
     "BP_Register_MajiMarket_ExperimentalFood_C_0": {
-      "name": "Reth's Street Specialties",
+      "name": "Reth’s Street Spezialitäten",
       "description": null
     },
     "BP_Register_MajiMarket_Fireworks_2_C_0": {
-      "name": "Fireworks",
+      "name": "Feuerwerk",
       "description": null
     },
     "MapMarker_Apothecary": {
-      "name": "Apothecary",
+      "name": "Apotheke",
       "description": null
     },
     "MapMarker_Blacksmith": {
@@ -41,7 +41,7 @@
       "description": null
     },
     "MapMarker_CityHall": {
-      "name": "City Hall",
+      "name": "Rathaus",
       "description": null
     },
     "MapMarker_DragonShrine": {
@@ -49,23 +49,23 @@
       "description": null
     },
     "MapMarker_FamilyFarm": {
-      "name": "Family Farm",
+      "name": "Familienhof",
       "description": null
     },
     "MapMarker_FurnitureStore": {
-      "name": "Furniture Store",
+      "name": "Möbelladen",
       "description": null
     },
     "MapMarker_GeneralStore": {
-      "name": "General Store",
+      "name": "Gemischtwarenladen",
       "description": null
     },
     "MapMarker_Library": {
-      "name": "Library",
+      "name": "Bibliothek",
       "description": null
     },
     "MapMarker_MayorsEstate": {
-      "name": "Mayor's Estate",
+      "name": "Mayor’s Estate",
       "description": null
     },
     "MapMarker_PhoenixFalls": {
@@ -77,7 +77,7 @@
       "description": null
     },
     "MapMarker_Tailor": {
-      "name": "Tailor",
+      "name": "Schneider",
       "description": null
     },
     "MapMarker_Tavern": {
@@ -87,169 +87,169 @@
   },
   "location": {
     "BP_DoorTeleporter_Parent_C_UAID_B04F1306E948198801_1687213524": {
-      "name": "Northern Mineshaft",
-      "description": "\"Closed by order of the Mayor!\""
+      "name": "Nördlicher Minenschacht",
+      "description": "„Auf Anordnung des Bürgermeisters geschlossen!”"
     },
     "BP_InvisibleTeleporter_Parent_C_UAID_00BE43BC7D55F9A101_1768487034": {
-      "name": "Enter Ruins",
-      "description": "Du brauchst eine Batterie."
+      "name": "Ruinen betreten",
+      "description": "Benötigt Batterie"
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63147A01_2092305998": {
-      "name": "Najuma's Room",
-      "description": "You need a key from Najuma to enter."
+      "name": "Najumas Zimmer",
+      "description": "Du brauchst einen Schlüssel von Najuma, um einzutreten."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63147A01_1804531996": {
-      "name": "Hassian's Grove",
-      "description": "You need a key from Hassian to enter."
+      "name": "Hassians Hain",
+      "description": "Du brauchst einen Schlüssel von Hassian, um einzutreten."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63147A01_1934212997": {
-      "name": "Hodari's Room",
-      "description": "You need a key from Hodari to enter."
+      "name": "Hodaris Zimmer",
+      "description": "Du brauchst einen Schlüssel von Hodari, um einzutreten."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63157A01_1109767176": {
-      "name": "Tamala's Room",
-      "description": "You need a key from Tamala to enter."
+      "name": "Tamalas Zimmer",
+      "description": "Du brauchst einen Schlüssel von Tamala, um einzutreten."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE630D7901_2065472831": {
-      "name": "Pull out loose book",
-      "description": "It reveals a hidden lock. Perhaps you need a key?"
+      "name": "Loses Buch herausziehen",
+      "description": "Es enthüllt ein verstecktes Schloss. Vielleicht brauchen Sie einen Schlüssel?"
     },
     "BP_DoorTeleporter_Chayne_C_UAID_CC96E503DD7EDC7701_1659484090": {
-      "name": "Chayne's Room",
-      "description": "You need a key from Chayne to enter."
+      "name": "Chaynes Zimmer",
+      "description": "Du brauchst einen Schlüssel von Chayne, um einzutreten."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63027A01_1846573965": {
-      "name": "Kenli's Records Room",
-      "description": "You need a key from Kenli to enter."
+      "name": "Kenlis Archiv",
+      "description": "Du brauchst einen Schlüssel von Kenli, um einzutreten."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63087901_1447757851": {
-      "name": "Zeki's General Store",
-      "description": "You need a key from Zeki."
+      "name": "Zekis Gemischtwarenladen",
+      "description": "Du brauchst einen Schlüssel von Zeki."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE630D7901_1180776852": {
-      "name": "The Sewers",
-      "description": "Finish the Housing Plot Tutorial First"
+      "name": "Die Kanalisation",
+      "description": "Beende zuerst das Grundstück-Tutorial"
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE630D7901_1521224861": {
-      "name": "Crystal Lake"
+      "name": "Kristallsee"
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63107901_1465714255": {
-      "name": "Sifuu's Room",
-      "description": "You need a key from Sifuu to enter."
+      "name": "Sifuus Zimmer",
+      "description": "Du brauchst einen Schlüssel von Sifuu, um einzutreten."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63117A01_1306167092": {
-      "name": "Zeki's Room",
-      "description": "You need a key from Zeki to enter."
+      "name": "Zekis Zimmer",
+      "description": "Du brauchst einen Schlüssel von Zeki, um einzutreten."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63117A01_1565504093": {
-      "name": "Enter Ruins",
-      "description": "You need a key from Jina to enter."
+      "name": "Ruinen betreten",
+      "description": "Du brauchst einen Schlüssel von Jina, um einzutreten."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63117A01_1634586094": {
-      "name": "Hekla's Tent",
-      "description": "You need a key from Hekla to enter."
+      "name": "Heklas Zelt",
+      "description": "Du brauchst einen Schlüssel von Hekla, um einzutreten."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63117A01_1765929095": {
-      "name": "Badruu's Barn",
-      "description": "You need a key from Badruu to enter."
+      "name": "Badruus Scheune",
+      "description": "Du brauchst einen Schlüssel von Badruu, um einzutreten."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63117A01_1905855096": {
-      "name": "Auni's Treehouse",
-      "description": "You need a key from Auni to enter."
+      "name": "Aunis Baumhaus",
+      "description": "Du brauchst einen Schlüssel von Auni, um einzutreten."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63117A01_2054381097": {
-      "name": "Nai'o and Auni's Room",
-      "description": "You need a key from Nai'o to enter."
+      "name": "Zimmer von Nai’o und Auni",
+      "description": "Du brauchst einen Schlüssel von Nai’o, um einzutreten."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63127A01_1110902274": {
-      "name": "Delaila and Badruu's Room",
-      "description": "You need a key from Delaila to enter."
+      "name": "Zimmer von Delaila und Badruu",
+      "description": "Du brauchst einen Schlüssel von Delaila, um einzutreten."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63147901_1235260488": {
-      "name": "Einar's Cave",
-      "description": "You need a key from Einar to enter."
+      "name": "Einars Höhle",
+      "description": "Du brauchst einen Schlüssel von Einar, um einzutreten."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63177A01_1613718543": {
-      "name": "Enter Ruins",
+      "name": "Ruinen betreten",
       "description": "Du brauchst eine Batterie."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63197A01_1883867172": {
-      "name": "City Hall Storage Room",
-      "description": "You need a key to enter."
+      "name": "Lagerraum im Rathaus",
+      "description": "Du brauchst einen Schlüssel, um einzutreten."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63197A01_2067513173": {
-      "name": "City Hall Lobby",
-      "description": "You need a key!"
+      "name": "Rathaus-Lobby",
+      "description": "Du brauchst einen Schlüssel!"
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE631B7A01_2127635217": {
-      "name": "Night Sky Temple",
-      "description": "Finish the Housing Plot Tutorial First"
+      "name": "Tempel des Nachthimmels",
+      "description": "Beende zuerst das Grundstück-Tutorial"
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63F77901_1205368166": {
-      "name": "Elouisa's Room",
-      "description": "You need a key from Elouisa to enter."
+      "name": "Elouisas Zimmer",
+      "description": "Du brauchst einen Schlüssel von Elouisa, um einzutreten."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63F77901_1545949167": {
-      "name": "Tish's Room",
-      "description": "You need a key from Tish to enter."
+      "name": "Tishs Zimmer",
+      "description": "Du brauchst einen Schlüssel von Tish, um einzutreten."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63F77901_1705194168": {
-      "name": "Reth's Storeroom",
-      "description": "You need a key from Reth to enter."
+      "name": "Reths Lagerraum",
+      "description": "Du brauchst einen Schlüssel von Reth, um einzutreten."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63F77901_1825970169": {
-      "name": "Ashura's Room",
-      "description": "You need a key from Ashura to enter."
+      "name": "Ashuras Zimmer",
+      "description": "Du brauchst einen Schlüssel von Ashura, um einzutreten."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63F87901_1276917346": {
-      "name": "Jel's Room",
-      "description": "You need a key from Jel to enter."
+      "name": "Jels Zimmer",
+      "description": "Du brauchst einen Schlüssel von Jel, um einzutreten."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63FC7901_1561438987": {
-      "name": "Kenyatta's Room",
-      "description": "You need a key from Kenyatta to enter."
+      "name": "Kenyattas Zimmer",
+      "description": "Du brauchst einen Schlüssel von Kenyatta, um einzutreten."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63FC7901_1912430989": {
-      "name": "Eshe's Room",
-      "description": "You need a key from Eshe to enter."
+      "name": "Eshes Zimmer",
+      "description": "Du brauchst einen Schlüssel von Eshe, um einzutreten."
     }
   },
   "stable": {
     "BP_Stables_Sign_UAID_6C02E03F65D9C66301_1698475622": {
-      "name": "Bahari - Central Stables",
-      "description": "Not available until tutorial quests are completed."
+      "name": "Bahari - Zentrale Stallungen",
+      "description": "Nicht verfügbar, bis die Tutorial-Quests abgeschlossen sind."
     },
     "BP_Stables_Sign_UAID_B04F1306EDBFF17501_2051031162": {
-      "name": "Bahari - Coral Shores"
+      "name": "Bahari - Korallenküste"
     },
     "BP_Stables_Sign_UAID_B04F1306EDBFF27501_1076227339": {
-      "name": "Bahari - The Outskirts"
+      "name": "Bahari - Der Stadtrand"
     },
     "BP_Stables_Sign_UAID_B04F1306EDBFF27501_1104149340": {
-      "name": "Bahari - Pulsewater Plains"
+      "name": "Bahari - Pulswasser-Ebene"
     },
     "BP_Stables_Sign_UAID_B04F1306EDBFF27501_1135505341": {
       "name": "Bahari - Beachcomber Cove"
     },
     "BP_Stables_Sign_UAID_B04F1306EDBFF27501_1164310342": {
-      "name": "Bahari - Hideaway Bluffs"
+      "name": "Bahari - Versteckte Klippen"
     },
     "BP_Stables_Sign_UAID_7486E2271DBF409B01_2003868107": {
-      "name": "Kilima Village Fairgrounds",
-      "description": "Not available until tutorial quests are completed."
+      "name": "Kirmes des Dorfes Kilima",
+      "description": "Nicht verfügbar, bis die Tutorial-Quests abgeschlossen sind."
     },
     "BP_Stables_Sign_UAID_6C02E03F65D9936101_1437950312": {
-      "name": "Kilima - Central Stables"
+      "name": "Kilima - Zentrale Stallungen"
     },
     "BP_Stables_Sign_UAID_6C02E03F66F2966401_1438105510": {
       "name": "Maji-Markt",
-      "description": "Not available until tutorial quests are completed."
+      "description": "Nicht verfügbar, bis die Tutorial-Quests abgeschlossen sind."
     },
     "BP_Stables_Sign_UAID_B04F1306EDBFF47501_2055973898": {
-      "name": "Kilima - Mirror Fields"
+      "name": "Kilima - Spiegelfelder"
     },
     "BP_Stables_Sign_UAID_B04F1306EDBFF47501_2116097899": {
-      "name": "Kilima - Whispering Banks"
+      "name": "Kilima - Flüsternde Banken"
     },
     "BP_Stables_Sign_UAID_B04F1306EDBFF47501_2119042900": {
       "name": "Kilima - Leafhopper Hills"

@@ -1,123 +1,123 @@
 {
   "BP_Bug_BeetleC_C": {
     "name": "Gefleckter Stinkkäfer",
-    "description": "A bug known more for his strong musk than its striking colors.\r\nFound all around Kilima and Bahari Bay."
+    "description": "Ein Käfer, der eher für seinen starken Moschusgeruch als für seine auffälligen Farben bekannt ist.\nMan findet ihn rund um Kilima und Bahari Bay."
   },
   "BP_Bug_ButterflyC_C": {
     "name": "Gemeiner Blaufalter",
-    "description": "Ever resilient. Butterflies of this type can be found in almost every climate in Palia.\r\nFound all around Kilima and Bahari Bay during the morning and day."
+    "description": "Unverwüstlich. Schmetterlinge dieser Art sind in fast jedem Klima in Palia zu finden.\nMorgens und tagsüber rund um Kilima und Bahari Bay zu finden."
   },
   "BP_Bug_ButterflyR_C": {
     "name": "Hellaugen-Schmetterling",
-    "description": "Whenever you see the sun out, you can see the eyes of this intricately patterned butterfly looking around Bahari Bay.\r\nFound in the Forests of Bahari Bay during the morning and day."
+    "description": "Wann immer die Sonne aufgeht, kann man die Augen dieses kompliziert gemusterten Schmetterlings sehen, der sich in der Bahari Bay umschaut.\nMan findet ihn in den Wäldern der Bahari-Bucht am Morgen und am Tag."
   },
   "BP_Bug_ButterflyU_C": {
     "name": "Dämmerfalter",
-    "description": "A beautiful butterfly with wings the color of dusk. Unique to the Kilima Valley.\r\nFound around the Dragon Shrine in Kilima during the morning and day."
+    "description": "Ein schöner Schmetterling mit Flügeln in der Farbe der Abenddämmerung. Einzigartig im Kilima-Tal.\nMan findet ihn morgens und tagsüber in der Nähe des Drachenschreins in Kilima."
   },
   "BP_Bug_CicadaC_C": {
     "name": "Gemeine Rindenzikade",
-    "description": "A common cicada.\r\nFound attached to trees in Bahari Bay during the morning and day."
+    "description": "Eine gewöhnliche Zikade.\nMan findet sie morgens und tagsüber an den Bäumen in der Bahari-Bucht."
   },
   "BP_Bug_CicadaR_C": {
     "name": "Feuerkopf-Zikade",
-    "description": "A spirited cicada, whose bark is worse than its bite.\r\nFound attached to trees in Bahari Bay during the morning and day."
+    "description": "Eine temperamentvolle Zikade, deren Rinde schlimmer ist als ihr Biss.\nMan findet sie morgens und tagsüber an den Bäumen in der Bahari-Bucht."
   },
   "BP_Bug_CicadaU_C": {
     "name": "Himmelblaue Zikade",
-    "description": "The call of this cicada is so soothing, it was said to be the inspiration for Ayana's fourth symphony.\r\nFound attached to trees in Bahari Bay during the morning and day."
+    "description": "Der Ruf dieser Zikade ist so beruhigend, dass er die Inspiration für Ayanas vierte Symphonie gewesen sein soll.\nMan findet sie morgens und tagsüber an den Bäumen in der Bahari-Bucht."
   },
   "BP_Bug_CrabC_C": {
     "name": "Bahari-Krebs",
-    "description": "A local crab, known to taste good with drawn butter.\r\nFound along the coast of Bahari Bay. Also has a chance to be found when foraging shells in Bahari Bay."
+    "description": "Eine einheimische Krabbe, die bekanntlich gut mit gezogener Butter schmeckt.\nMan findet sie an der Küste der Bahari-Bucht. Man kann sie auch beim Muschelsuchen in der Bahari-Bucht finden."
   },
   "BP_Bug_CrabU_C": {
     "name": "Stachelpanzerkrebs",
-    "description": "A crab with a very spiny shell.\r\nFound along the coast of Bahari Bay."
+    "description": "Eine Krabbe mit einer sehr stacheligen Schale.\nMan findet sie entlang der Küste der Bahari-Bucht."
   },
   "BP_Bug_CricketC_C": {
     "name": "Gemeine Feldgrille",
-    "description": "Field crickets can be found anywhere you can find a field.\r\nFound all around Kilima and Bahari Bay."
+    "description": "Feldgrillen findet man überall, wo es ein Feld gibt.\nMan findet sie überall um Kilima und Bahari Bay."
   },
   "BP_Bug_CricketR_C": {
     "name": "Himmelblauer Steinhüpfer",
-    "description": "This little blue beauty has been known to camouflage itself as a shiny blue pebble.\r\nFound in the fields of Bahari Bay."
+    "description": "Diese kleine blaue Schönheit ist dafür bekannt, dass sie sich als glänzender blauer Kieselstein tarnt.\nGefunden in den Feldern der Bahari-Bucht."
   },
   "BP_Bug_CricketU_C": {
     "name": "Garten-Blattgrille",
-    "description": "The Garden Leafhopper is such a delight in Palia that many children keep them as pets. They are said to bring good luck.\r\nFound in the fields and Badruu's Farm in Kilima. Also has a chance to be found when foraging in Kilima."
+    "description": "Die Gartenlaubschrecke ist in Palia so beliebt, dass viele Kinder sie als Haustier halten. Man sagt, dass sie Glück bringen.\nMan findet sie in den Feldern und auf Badruus Farm in Kilima. Auch bei der Futtersuche in Kilima kann man sie finden."
   },
   "BP_Bug_DragonflyC_C": {
     "name": "Pinselschweif-Libelle",
-    "description": "The tail of this Dragonfly is so bright and vibrant, some early Majiri were said to have used it as a paintbrush.\r\nFound around the lake in Kilima, as well as rivers and ponds in Bahari Bay."
+    "description": "Der Schwanz dieser Libelle ist so hell und leuchtend, dass einige frühe Majiri ihn als Pinsel benutzt haben sollen.\nMan findet sie rund um den See in Kilima sowie in den Flüssen und Teichen der Bahari-Bucht."
   },
   "BP_Bug_DragonflyE_C": {
     "name": "Juwelenschwingen-Libelle",
-    "description": "A Dragonfly with wings as bright and colorful as any precious stone.\r\nFound near a cave entrance on a cliff in Bahari Bay."
+    "description": "Eine Libelle mit Flügeln, die so hell und farbenfroh sind wie ein Edelstein.\nGefunden in der Nähe eines Höhleneingangs auf einer Klippe in der Bahari-Bucht."
   },
   "BP_Bug_DragonflyR_C": {
     "name": "Feuerspuckende Libelle",
-    "description": "This Dragonfly is notoriously difficult to catch, in part due to its fiery breath.\r\nFound in the fields of Kilima."
+    "description": "Diese Libelle ist bekanntermaßen schwer zu fangen, was zum Teil an ihrem feurigen Atem liegt.\nMan findet sie in den Feldern von Kilima."
   },
   "BP_Bug_DragonflyU_C": {
     "name": "Tintenlibelle",
-    "description": "This stealthy Dragonfly is used as a component in various black dyes and inks.\r\nFound around rivers and ponds in Bahari Bay."
+    "description": "Diese unauffällige Libelle wird als Bestandteil verschiedener schwarzer Farbstoffe und Tinten verwendet.\nMan findet sie an Flüssen und Teichen in der Bahari-Bucht."
   },
   "BP_Bug_GlowbugC_C": {
     "name": "Lampionwürmchen",
-    "description": "This bug glows as brightly as a colorful feast day lantern taking flight into the Palian night sky.\r\nFound along the coast and in forests of Bahari Bay during the evening and night."
+    "description": "Dieser Käfer leuchtet so hell wie eine bunte Festtagslaterne, die in den palianischen Nachthimmel fliegt.\nMan findet ihn abends und nachts entlang der Küste und in den Wäldern der Bahari-Bucht."
   },
   "BP_Bug_LadybugR_C": {
     "name": "Prinzessinnen-Marienkäfer",
-    "description": "A very regal looking lady bug, made popular by the children's fairytale, The Princess Who Turned Into A Ladybug.\r\nFound around the lake in Kilima."
+    "description": "Ein sehr königlich aussehender Marienkäfer, der durch das Kindermärchen \"Die Prinzessin, die sich in einen Marienkäfer verwandelte\" bekannt wurde.\nMan findet ihn rund um den See in Kilima."
   },
   "BP_Bug_LadybugU_C": {
     "name": "Garten-Marienkäfer",
-    "description": "A black and red ladybug, popular for controlling garden pests.\r\nHas a chance to be found when foraging in the fields of Bahari Bay."
+    "description": "Ein schwarzer und roter Marienkäfer, beliebt zur Bekämpfung von Gartenschädlingen.\nKann bei der Futtersuche auf den Feldern der Bahari-Bucht gefunden werden."
   },
   "BP_Bug_MantisE_C": {
     "name": "Feen-Gottesanbeterin",
-    "description": "A mantis from early Majiri legend only recently confirmed to exist by modern entomologists. Said to have magical properties.\r\nFound in the fields of Bahari Bay."
+    "description": "Eine Gottesanbeterin aus der frühen Majiri-Legende, deren Existenz erst kürzlich von modernen Entomologen bestätigt wurde. Ihr werden magische Eigenschaften nachgesagt.\nWird auf den Feldern der Bahari-Bucht gefunden."
   },
   "BP_Bug_MantisR1_C": {
     "name": "Gefleckte Gottesanbeterin",
-    "description": "A rare mantis with a beautiful set of spots.\r\nFound around the Dragon Shrine in Kilima."
+    "description": "Eine seltene Gottesanbeterin mit einer schönen Fleckenzeichnung.\nZu finden in der Nähe des Drachenschreins in Kilima."
   },
   "BP_Bug_MantisU_C": {
     "name": "Garten-Gottesanbeterin",
-    "description": "Nothing to see here. Just your garden variety mantis.\r\nFound around the lake in Kilima. Also has a chance to be found when foraging around the lake in Kilima."
+    "description": "Hier gibt es nichts zu sehen. Nur eine gewöhnliche Gottesanbeterin.\nMan findet sie rund um den See in Kilima. Kann auch bei der Futtersuche rund um den See in Kilima gefunden werden."
   },
   "BP_Bug_MothC_C": {
     "name": "Kilima-Nachtmotte",
-    "description": "While beautiful, the Kilima night moth is so prevalent on hot summer nights that some consider it to be a pest. Keep away from stored cloth.\r\nFound all around Kilima and Bahari Bay during the evening and night."
+    "description": "Die Kilima-Nachtmotte ist zwar wunderschön, aber in heißen Sommernächten so häufig, dass manche sie als Schädling betrachten. Halten Sie sie von gelagerten Stoffen fern.\nAbends und nachts rund um Kilima und Bahari Bay anzutreffen."
   },
   "BP_Bug_MothR_C": {
     "name": "Gespinst-Schleiermotte",
-    "description": "The wings of this moth are so thin that some say you can see a peek of the Dragon Realm by looking through them.\r\nFound in the fields of Kilima during the evening and night."
+    "description": "Die Flügel dieser Motte sind so dünn, dass manche sagen, man könne durch sie hindurch einen Blick in das Drachenreich werfen.\nMan findet ihn abends und nachts auf den Feldern von Kilima."
   },
   "BP_Bug_MothU_C": {
     "name": "Mondfee-Motte",
-    "description": "The Lunar Fairy Moth is said to have a very special connection to the Dragon Moon, and is said to only appear at special times during its cycle.\r\nFound in the fields and forests of Bahari Bay during the evening and night."
+    "description": "Der Mondfeenmotte wird eine ganz besondere Verbindung zum Drachenmond nachgesagt, und es heißt, dass sie nur zu besonderen Zeiten während seines Zyklus erscheint.\nMan findet sie abends und nachts in den Feldern und Wäldern der Bahari-Bucht."
   },
   "BP_Bug_PedeR1_C": {
     "name": "Behaarter Tausendfüßler",
-    "description": "A millipede with a hair growth problem.\r\nFound in the forests of Bahari Bay."
+    "description": "Ein Tausendfüßler mit Haarwuchsproblemen.\nWird in den Wäldern der Bahari-Bucht gefunden."
   },
   "BP_Bug_PedeR2_C": {
     "name": "Glänzender Hundertfüßler",
-    "description": "A rare centipede with a shiny hard shell.\r\nHas a chance to be found when mining in Bahari Bay."
+    "description": "Ein seltener Tausendfüßler mit glänzender harter Schale.\nKann beim Abbau in der Bahari-Bucht gefunden werden."
   },
   "BP_Bug_PedeU_C": {
     "name": "Garten-Tausendfüßler",
-    "description": "A brown and green millipede that loves feasting on garden crops.\r\nFound in the fields of Kilima. Also has a chance to be found when foraging in the fields of Kilima."
+    "description": "Ein brauner und grüner Tausendfüßler, der sich gerne an Gartenpflanzen labt.\nMan findet ihn auf den Feldern von Kilima. Kann auch bei der Futtersuche auf den Feldern von Kilima gefunden werden."
   },
   "BP_Bug_SnailU_C": {
     "name": "Gartenschnecke",
-    "description": "A snail that has evolved over time to look like a leaf. Good for hiding from predators, bad for hiding from the Leafstalker Mantis.\r\nFound along the coast and in forests of Bahari Bay."
+    "description": "Eine Schnecke, die sich im Laufe der Zeit so entwickelt hat, dass sie wie ein Blatt aussieht. Gut zum Verstecken vor Raubtieren, schlecht zum Verstecken vor der Blattstieligen Gottesanbeterin.\nMan findet sie entlang der Küste und in den Wäldern der Bahari-Bucht."
   },
   "BP_Coral_C": {
     "name": "Koralle",
-    "description": "Holen Sie sich den Strand mit diesem Stück Koralle nach Hause. Man kann das Riff fast riechen!"
+    "description": "Mit diesem Stück Koralle hast du ein Stück Strand zu Hause. Da kann man fast das Riff riechen!"
   },
   "BP_Fish_Hypnotic_Moray_C": {
     "name": "Fish_Hypnotic_Moray_C",
@@ -133,11 +133,11 @@
   },
   "BP_Gatherable_MushroomBlue_C": {
     "name": "Leuchtpilz",
-    "description": "Brightshrooms erhalten ihr Leuchten durch die Absorption von Flow und haben daher viele alchemistische Anwendungen."
+    "description": "Leuchtpilze erhalten ihr Leuchten durch die Absorption von Strömung und werden daher oft in der Alchemie angewandt."
   },
   "BP_Gatherable_MushroomR_C": {
     "name": "Bergmorchel",
-    "description": "Die Bergmorchel ist ein weit verbreiteter Pilz, den man auch bei uns finden kann! Sehr beliebt, roh oder gekocht."
+    "description": "Die Bergmorchel ist ein weitverbreiteter Pilz, den man auch bei uns finden kann! Sehr beliebt, ob roh oder gekocht."
   },
   "BP_Gatherable_Ruins_C": {
     "name": "„Uralte Begräbnisstätte“",
@@ -145,7 +145,7 @@
   },
   "BP_HeartdropLilly_C": {
     "name": "Herztropfenlilie",
-    "description": "Die Heartdrop-Lilie ist eine seltene Blume, die für die Palianer eine besondere Bedeutung hat: das Aufblühen der romantischen Liebe."
+    "description": "Die Herztropfenlilie ist eine seltene Blume, die für Palianer eine besondere Bedeutung hat: das Aufblühen romantischer Liebe."
   },
   "BP_InsectBall_Stealth_C": {
     "name": "InsectBall_Stealth_C",
@@ -209,19 +209,19 @@
   },
   "BP_Moss_EmeraldCarpet_C": {
     "name": "Smaragdgrünes Teppichmoos",
-    "description": "Die leuchtende Farbe des smaragdgrünen Teppichmooses soll Glück bringen, wenn man sein Heim damit füllt."
+    "description": "Die leuchtende Farbe des Smaragdgrünen Teppichmooses soll Glück bringen, wenn man sein Heim damit füllt."
   },
   "BP_Oyster_C": {
     "name": "Geschlossene Auster",
-    "description": "Öffne diese Auster! Auch wenn du keine Perle findest, kannst du sie wenigstens essen."
+    "description": "Mach diese Auster auf! Auch, wenn du keine Perle findest, kannst du sie wenigstens essen."
   },
   "BP_PoisonFlower_C": {
     "name": "Dornengänseblümchen",
-    "description": "Die bergige Briar Daisy kann selbst die härtesten Bedingungen überstehen."
+    "description": "Das Dornengänseblümchen aus den Bergen kommt selbst mit härtesten Bedingungen zurecht."
   },
   "BP_Seashell_C": {
     "name": "Muschel",
-    "description": "Wer verkauft Muscheln am Meeresufer? Keiner. Du musstest sie selbst finden."
+    "description": "Nachdem du so viele Muscheln am Meer gefunden hast, kannst du nicht mehr."
   },
   "BP_ShrubChoppable_Bush_C": {
     "name": "Bush",
@@ -233,19 +233,19 @@
   },
   "BP_Spice_HeatRoot_C": {
     "name": "Feuerwurzel",
-    "description": "Keine Panik! Ob beim Kochen oder Heilen, die würzige Heat Root wärmt Sie von innen heraus. "
+    "description": "Keine Panik! Ob beim Kochen oder Heilen, die heiße Feuerwurzel wärmt von innen heraus. "
   },
   "BP_Spiced_Sprouts_C": {
     "name": "Gewürzsprossen",
-    "description": "Gewürzsprossen verleihen jedem Gericht eine satte Farbe und einen erdigen Geschmack. Und sie sind auch ziemlich leicht zu finden..."
+    "description": "Gewürzsprossen verleihen jedem Gericht eine satte Farbe und einen erdigen Geschmack. Dazu sind sie noch recht einfach zu finden …"
   },
   "BP_SundropLillies_C": {
     "name": "Sonnentropfenlilie",
-    "description": "Die Sundrop-Lilie wächst auf offenen Feldern, wo sie ihre Blütenblätter dem Sonnenlicht zuwenden kann."
+    "description": "Die Sonnentropfenlilie wächst auf offenen Feldern, auf denen sie ihre Blütenblätter dem Sonnenlicht zuwenden kann."
   },
   "BP_SweetLeaves_C": {
     "name": "Süßblatt",
-    "description": "Naschkatzen werden dieses Sweet Leaf lieben, eine von Palias Lieblingsdessertzutaten."
+    "description": "Naschkatzen werden dieses Süßblatt lieben. Es ist eine der beliebtesten Zutaten für Desserts in Palia."
   },
   "BP_TreeChoppable_Birch_Large_C": {
     "name": "Large Birch Tree",
@@ -336,7 +336,7 @@
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Cearnuk_T3_C": {
-    "name": "Proudhorned Sernuk",
+    "name": "Stolzhorn-Sernuk",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Chapaa_T1_C": {
@@ -344,16 +344,16 @@
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Chapaa_T2_C": {
-    "name": "White Striped Chapaa",
+    "name": "Weiß gestreifter Chapaa",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Chapaa_T3_C": {
-    "name": "Black Striped Chapaa",
+    "name": "Schwarz gestreifter Chapaa",
     "description": ""
   },
   "BP_WaterFlower_C": {
     "name": "Kristallsee-Lotos",
-    "description": "Der Crystal Lake Lotus ist nach dem Ort benannt, an dem er entdeckt wurde, und wird heute zur Herstellung von Farbstoffen verwendet."
+    "description": "Der Kristallsee-Lotos ist nach dem Ort benannt, an dem er entdeckt wurde, und wird heute zur Herstellung von Farbstoffen verwendet."
   },
   "BP_WaterPlane_Fishing_AZ1_Cave_SQ_C": {
     "name": "WaterPlane_Fishing_AZ1_Cave_SQ_C",
@@ -377,6 +377,6 @@
   },
   "BP_WildGarlic_C": {
     "name": "Knoblauch",
-    "description": "Knoblauch ist eine köstliche Ergänzung für jedes Gericht, das Sie kochen! Er kann auch roh gegessen werden, um den Atem zu parfümieren."
+    "description": "Knoblauch ist eine köstliche Ergänzung für jedes Gericht! Er kann auch roh gegessen werden, um den Atem zu parfümieren."
   }
 }
