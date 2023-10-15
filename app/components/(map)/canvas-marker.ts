@@ -106,10 +106,14 @@ class CanvasMarker extends leaflet.CircleMarker {
   }
 
   update() {
-    if (this.options.isHighlighted) {
-      this.bringToFront();
+    try {
+      if (this.options.isHighlighted) {
+        this.bringToFront();
+      }
+      this.redraw();
+    } catch (err) {
+      //
     }
-    this.redraw();
   }
 
   _updatePath(): void {

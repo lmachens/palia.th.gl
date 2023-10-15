@@ -132,6 +132,7 @@ export default function Player() {
           (err: string) => {
             if (err !== lastError) {
               lastError = err;
+              firstData = false;
               console.error("Error: ", err);
             }
             setTimeout(getData, 1000);
@@ -175,46 +176,50 @@ export default function Player() {
     if (!map) {
       return;
     }
-    gameInfo.villagers.forEach((villager) => {
-      if (!villagerMarkers.current[villager.className]) {
-        const villagerClassName = villager.className.split(" ")[0];
-        const details = Object.values(villagers).find(
-          (v) => "className" in v && v.className === villagerClassName
-        );
-        const villagerIconUrl = details?.icon;
-        if (!villagerIconUrl) {
-          console.warn(`Unknown villager: ${villagerClassName}`);
-        }
-        const icon = leaflet.icon({
-          iconUrl: villagerIconUrl ?? "/icons/WT_Backer_Map_Marker_Green.png",
-          className: "villager",
-          iconSize: [24, 24],
-        });
-        villagerMarkers.current[villager.className] = new PlayerMarker(
-          [villager.position.y, villager.position.x],
-          {
-            icon,
+    try {
+      gameInfo.villagers.forEach((villager) => {
+        if (!villagerMarkers.current[villager.className]) {
+          const villagerClassName = villager.className.split(" ")[0];
+          const details = Object.values(villagers).find(
+            (v) => "className" in v && v.className === villagerClassName
+          );
+          const villagerIconUrl = details?.icon;
+          if (!villagerIconUrl) {
+            console.warn(`Unknown villager: ${villagerClassName}`);
           }
-        );
-        villagerMarkers.current[villager.className].bindTooltip(
-          details?.name ?? villager.className
-        );
-        villagerMarkers.current[villager.className].rotation =
-          villager.rotation;
-      } else {
-        villagerMarkers.current[villager.className].updatePosition(
-          villager,
-          true
-        );
-      }
-      villagerMarkers.current[villager.className].addTo(map);
-    });
-    Object.keys(villagerMarkers.current).forEach((key) => {
-      if (!gameInfo.villagers.some((v) => v.className === key)) {
-        villagerMarkers.current[key].remove();
-      }
-    });
-  }, [map, mapName, gameInfo.villagers]);
+          const icon = leaflet.icon({
+            iconUrl: villagerIconUrl ?? "/icons/WT_Backer_Map_Marker_Green.png",
+            className: "villager",
+            iconSize: [24, 24],
+          });
+          villagerMarkers.current[villager.className] = new PlayerMarker(
+            [villager.position.y, villager.position.x],
+            {
+              icon,
+            }
+          );
+          villagerMarkers.current[villager.className].bindTooltip(
+            details?.name ?? villager.className
+          );
+          villagerMarkers.current[villager.className].rotation =
+            villager.rotation;
+        } else {
+          villagerMarkers.current[villager.className].updatePosition(
+            villager,
+            true
+          );
+        }
+        villagerMarkers.current[villager.className].addTo(map);
+      });
+      Object.keys(villagerMarkers.current).forEach((key) => {
+        if (!gameInfo.villagers.some((v) => v.className === key)) {
+          villagerMarkers.current[key].remove();
+        }
+      });
+    } catch (err) {
+      // ignore
+    }
+  }, [gameInfo.villagers]);
 
   const lastAnimation = useRef(0);
 
