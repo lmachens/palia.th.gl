@@ -58,7 +58,7 @@
         "block_top_window_navigation": false,
         "desktop_only": false,
         "in_game_only": true,
-        "resizable": false,
+        "resizable": true,
         "override_on_update": true,
         "transparent": true,
         "focus_game_takeover": "ReleaseOnLostFocus",
@@ -128,6 +128,7 @@
       "matches": [
         "https://*.patreon.com",
         "https://palia.th.gl",
+        "https://palia-api.th.gl",
         "http://localhost:3668"
       ]
     },

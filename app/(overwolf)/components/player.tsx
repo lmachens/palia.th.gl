@@ -1,6 +1,10 @@
 import { useDict } from "@/app/components/(i18n)/i18n-provider";
 import { getMapFromCoords, modHousingCoords } from "@/app/lib/maps";
 import type { NODE, spawnNodes } from "@/app/lib/nodes";
+import {
+  sendActorsToPaliaAPI,
+  sendWeeklyWantsToPaliaAPI,
+} from "@/app/lib/palia-api";
 import { spawnGroups } from "@/app/lib/spawn-groups";
 import type { GameActor } from "@/app/lib/storage/game-info";
 import { useGameInfoStore } from "@/app/lib/storage/game-info";
@@ -12,12 +16,25 @@ import leaflet from "leaflet";
 import { useEffect, useRef } from "react";
 import PlayerMarker from "./player-marker";
 
-type Actor = {
+export type Actor = {
   className: string;
   x: number;
   y: number;
   z: number;
   r: number;
+};
+
+export type CurrentGiftPreferences = {
+  preferenceResetTime: {
+    dayOfWeek: number;
+    hour: number;
+    minute: number;
+  };
+  preferenceDataVersionNumber: number;
+  currentPreferenceData: Array<{
+    villagerCoreId: number;
+    currentGiftPreferences: Array<number>;
+  }>;
 };
 
 export default function Player() {
@@ -49,12 +66,18 @@ export default function Player() {
       let prevPosition = { x: 0, y: 0, z: 0, r: 0 };
       let lastError = "";
       let firstData = false;
+      let lastPreferenceDataVersionNumber = 0;
       const getData = () => {
         plugin.Listen(
-          (player: Actor, actors: Actor[]) => {
+          (
+            player: Actor,
+            actors: Actor[],
+            currentGiftPreferences: CurrentGiftPreferences
+          ) => {
             if (!firstData) {
               firstData = true;
               console.log("Got first data", JSON.stringify(player));
+              console.log(currentGiftPreferences);
             }
             if (lastError) {
               lastError = "";
@@ -126,6 +149,17 @@ export default function Player() {
 
             gameInfo.setVillagers(villagers);
             gameInfo.setSpawnNodes(foundSpawnNodes);
+
+            if (
+              lastPreferenceDataVersionNumber !==
+              currentGiftPreferences.preferenceDataVersionNumber
+            ) {
+              gameInfo.setCurrentGiftPreferences(currentGiftPreferences);
+              lastPreferenceDataVersionNumber =
+                currentGiftPreferences.preferenceDataVersionNumber;
+              sendWeeklyWantsToPaliaAPI(currentGiftPreferences);
+            }
+            sendActorsToPaliaAPI(actors);
 
             setTimeout(getData, 100);
           },
@@ -239,6 +273,7 @@ export default function Player() {
       const now = Date.now();
       if (now - lastAnimation.current > 500) {
         lastAnimation.current = now;
+        document.querySelector(".leaflet-map-pane")?.classList.add("animate");
         map.panTo([gameInfo.player.position.y, gameInfo.player.position.x], {
           animate: false,
           duration: 0,

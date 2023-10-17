@@ -70,6 +70,10 @@ export default function Map({ children }: { children?: React.ReactNode }) {
 
     setLeafletMap(map);
 
+    map.on("mousedown", () => {
+      document.querySelector(".leaflet-map-pane")?.classList.remove("animate");
+    });
+
     map.on("click", (event) => {
       if (
         // @ts-ignore
