@@ -1,9 +1,12 @@
 import { loadDBDictionary } from "./i18n";
 
-export async function fetchWeeklyWants(locale: string): Promise<WEEKLY_WANTS> {
+export async function fetchWeeklyWants(
+  locale: string
+): Promise<WEEKLY_WANTS | undefined> {
   const dict = loadDBDictionary(locale);
   if (!process.env.PALIAPEDIA_API_KEY) {
-    throw new Error("Missing PALIAPEDIA_API_KEY");
+    console.error("Missing PALIAPEDIA_API_KEY");
+    return;
   }
   const response = await fetch(
     `https://api.paliapedia.com/api/weekly-wants?k=${
