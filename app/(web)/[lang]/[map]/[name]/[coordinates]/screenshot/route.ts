@@ -1,6 +1,7 @@
 import { isOverwolf } from "@/app/lib/env";
 import { takeScreenshot } from "@/app/lib/screenshots";
-import { NextRequest, NextResponse } from "next/server";
+import type { NextRequest } from "next/server";
+import { NextResponse } from "next/server";
 
 export const runtime = "edge";
 
@@ -28,3 +29,4 @@ async function _GET(request: NextRequest) {
 }
 
 export const GET = isOverwolf ? undefined : _GET;
+export const maxDuration = 30;
