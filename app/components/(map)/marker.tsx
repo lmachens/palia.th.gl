@@ -41,6 +41,7 @@ const Marker = memo(function Marker({
       pmIgnore: true,
       snapIgnore: false,
       interactive,
+      isStar: node.isStar,
     });
     marker.addTo(featureGroup);
 
@@ -59,10 +60,19 @@ const Marker = memo(function Marker({
         let tooltipContent = `<p class="font-bold text-base">${
           dictEntry?.name ?? ""
         }</p>`;
-        tooltipContent += `<p class="text-gray-300 text-sm">${
+        tooltipContent += `<p class="text-gray-300 text-sm flex gap-1 justify-center items-center">${
+          node.isStar
+            ? `<img src="/icons/star.webp" class="inline-block" width="14" height="14" alt="Star" />`
+            : ""
+        }${
           // @ts-ignore
           node.isSpawnNode ? dict.spawnNodes[type].name : dict.nodes[type]
+        } ${
+          node.isStar
+            ? `<img src="/icons/star.webp" class="inline-block" width="14" height="14" alt="Star" />`
+            : ""
         }</p>`;
+
         tooltipContent += `<p class="border-t border-t-gray-700 mt-2 pt-2 max-w-md whitespace-normal">${
           dictEntry?.description ?? ""
         }</p>`;

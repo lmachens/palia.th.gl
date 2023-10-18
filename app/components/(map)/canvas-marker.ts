@@ -3,7 +3,7 @@ import leaflet from "leaflet";
 
 leaflet.Canvas.include({
   updateCanvasImg(layer: CanvasMarker) {
-    const { icon, name, isHighlighted } = layer.options;
+    const { icon, name, isHighlighted, isStar } = layer.options;
 
     let radius = layer.getRadius();
     if (isHighlighted) {
@@ -22,6 +22,15 @@ leaflet.Canvas.include({
 
     if ("src" in icon && !("isText" in icon)) {
       layerContext.drawImage(layer.imageElement, dx, dy, imageSize, imageSize);
+      if (isStar) {
+        layerContext.drawImage(
+          imageElements["/icons/star.webp"],
+          p.x,
+          dy,
+          imageSize / 2,
+          imageSize / 2
+        );
+      }
       layerContext.restore();
       return;
     }
@@ -78,6 +87,7 @@ export type CanvasMarkerOptions = {
   isHighlighted?: boolean;
   isDiscovered?: boolean;
   icon: ICON;
+  isStar?: boolean;
 };
 
 const imageElements: {
@@ -98,6 +108,10 @@ class CanvasMarker extends leaflet.CircleMarker {
     super(latLng, options);
     this._renderer = renderer;
 
+    if (options.isStar && !imageElements["/icons/star.webp"]) {
+      imageElements["/icons/star.webp"] = document.createElement("img");
+      imageElements["/icons/star.webp"].src = "/icons/star.webp";
+    }
     if ("src" in options.icon) {
       if (!imageElements[options.icon.src]) {
         imageElements[options.icon.src] = document.createElement("img");
