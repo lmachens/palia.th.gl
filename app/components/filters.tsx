@@ -123,7 +123,7 @@ export default function Filters() {
                                         toggleFilter(entry);
                                     }}
                                 >
-                                    <span className={'text-shadow-lg shadow-orange-500'}>{dict.rarity[filterKey]}</span>
+                                    <span>{dict.rarity[filterKey]}</span>
                                 </button>
                             </Fragment>
                         )
