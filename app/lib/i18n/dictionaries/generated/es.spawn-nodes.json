@@ -1,11 +1,35 @@
 {
+  "BP_Bug_BeeR_C": {
+    "name": "Abeja de gloria dorada",
+    "description": "Una abeja poco común, importada de la provincia de Akwindu. Se dice que el hidromiel elaborado con la miel de esta abeja es muy consumido por la reina de la provincia y su familia.\nPuede encontrarse al talar árboles en Kilima durante la mañana y el día."
+  },
   "BP_Bug_BeetleC_C": {
     "name": "Chinche manchada",
     "description": "Un insecto conocido más por su fuerte almizcle que por sus llamativos colores.\nSe encuentra en los alrededores de Kilima y la bahía de Bahari."
   },
+  "BP_Bug_BeetleE_C": {
+    "name": "Escarabajo ámbar ancestral",
+    "description": "Una de las especies de insectos más antiguas conocidas en Palia, se dice que ya existía en la época de los humanos.\nSe encuentra en los bosques de la bahía de Bahari. También puede encontrarse al talar árboles en la bahía de Bahari."
+  },
+  "BP_Bug_BeetleR_C": {
+    "name": "Escarabajo frambuesa",
+    "description": "Escarabajo cuya dieta consiste en frambuesas.\nSe encuentra en los alrededores de la granja de Badruu, en Kilima."
+  },
+  "BP_Bug_BeetleU_C": {
+    "name": "Lucánido altivo",
+    "description": "Se dice que los cuernos de este escarabajo ciervo se parecen a los del Proudhorned Sernuk.\nTiene posibilidades de encontrarse al minar en Kilima."
+  },
+  "BP_Bug_BeeU_C": {
+    "name": "Abeja de Bahari",
+    "description": "Especie local de abejas, conocida por producir una miel deliciosa.\nPuede encontrarse al talar árboles en la bahía de Bahari."
+  },
   "BP_Bug_ButterflyC_C": {
     "name": "Mariposa azul común",
     "description": "Siempre resistentes. Se pueden encontrar mariposas de este tipo en casi todos los climas de Palia.\nSe encuentran en los alrededores de Kilima y la bahía de Bahari durante la mañana y el día."
+  },
+  "BP_Bug_ButterflyE_C": {
+    "name": "Mariposa de punta arcoíris",
+    "description": "Las antiguas leyendas dicen que esta rara mariposa obtuvo su hermoso color al sumergir la punta de sus alas en un Pozo de Flujo.\nSe encuentra en los campos de la bahía de Bahari durante la mañana y el día."
   },
   "BP_Bug_ButterflyR_C": {
     "name": "Mariposa ojosbrillantes",
@@ -30,6 +54,10 @@
   "BP_Bug_CrabC_C": {
     "name": "Cangrejo de Bahari",
     "description": "Un cangrejo local, conocido por su buen sabor con mantequilla.\nSe encuentra a lo largo de la costa de la bahía de Bahari. También puede encontrarse buscando conchas en la bahía de Bahari."
+  },
+  "BP_Bug_CrabR_C": {
+    "name": "Cangrejo vampiro",
+    "description": "Especie invasora de cangrejo que succiona la vida de la población local.\nSe encuentra alrededor de la Fortaleza Inundada en la bahía de Bahari durante la tarde y la noche."
   },
   "BP_Bug_CrabU_C": {
     "name": "Cangrejo espinoso",
@@ -67,6 +95,10 @@
     "name": "Bicho farolillo",
     "description": "Este insecto brilla tanto como un colorido farolillo de fiesta que emprende el vuelo hacia el cielo nocturno de Palian.\nSe encuentra a lo largo de la costa y en los bosques de la bahía de Bahari durante la tarde y la noche."
   },
+  "BP_Bug_GlowbugR_C": {
+    "name": "Ilumisano de Bahari",
+    "description": "Especie local de fauna bioluminiscente. Descubierta por el profesor Bonlin Amepongo.\nSe encuentra en los campos de la bahía de Bahari durante la tarde y la noche."
+  },
   "BP_Bug_LadybugR_C": {
     "name": "Mariquita princesa",
     "description": "Una mariquita de aspecto muy regio, popularizada por el cuento infantil La princesa que se convirtió en mariquita.\nSe encuentra en los alrededores del lago de Kilima."
@@ -82,6 +114,10 @@
   "BP_Bug_MantisR1_C": {
     "name": "Mantis moteada",
     "description": "Una mantis poco común con un hermoso conjunto de manchas.\nSe encuentra en los alrededores del Santuario del Dragón en Kilima."
+  },
+  "BP_Bug_MantisR2_C": {
+    "name": "Mantis acechahojas",
+    "description": "Mantis herbívora que se alimenta exclusivamente de hojas.\nEs posible encontrarla forrajeando en los bosques de la bahía de Bahari."
   },
   "BP_Bug_MantisU_C": {
     "name": "Mantis de jardín",
@@ -110,6 +146,10 @@
   "BP_Bug_PedeU_C": {
     "name": "Milpiés de jardín",
     "description": "Un milpiés marrón y verde al que le encanta darse un festín con los cultivos de huerta.\nSe encuentra en los campos de Kilima. También es posible encontrarlo buscando comida en los campos de Kilima."
+  },
+  "BP_Bug_SnailR_C": {
+    "name": "Caracol fantasía",
+    "description": "Caracol con rayas tan características que su concha se utilizaba como moneda entre los primeros majiri.\nSe encuentra en la costa de la bahía de Bahari."
   },
   "BP_Bug_SnailU_C": {
     "name": "Caracol de jardín",

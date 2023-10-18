@@ -1,11 +1,35 @@
 {
+  "BP_Bug_BeeR_C": {
+    "name": "Ape dorata",
+    "description": "Un'ape rara, importata dalla provincia di Akwindu. Si dice che l'idromele prodotto con il miele di quest'ape sia molto consumato dalla regina della provincia e dalla sua famiglia.\nÈ possibile trovarla quando si tagliano gli alberi a Kilima durante la mattina e il giorno."
+  },
   "BP_Bug_BeetleC_C": {
     "name": "Cimice maculata",
     "description": "Un insetto noto più per il suo forte olezzo che per i suoi colori sorprendenti.\nSi può trovare in tutta la zona di Kilima e Cala Bahari."
   },
+  "BP_Bug_BeetleE_C": {
+    "name": "Scarabeo d'ambra antico",
+    "description": "Una delle più antiche specie di insetti conosciute a Palia, si dice che esistesse già ai tempi dell'uomo.\nSi può trovare nelle foreste di Cala Bahari. Si può trovare anche quando si tagliano gli alberi a Cala Bahari."
+  },
+  "BP_Bug_BeetleR_C": {
+    "name": "Coleottero del lampone",
+    "description": "Un coleottero la cui intera dieta consiste nel mangiare lamponi.\nSi può trovare nei pressi della fattoria di Badruu a Kilima."
+  },
+  "BP_Bug_BeetleU_C": {
+    "name": "Cervo volante fierocorno",
+    "description": "Si dice che le corna di questo scarabeo cervo assomiglino a quelle del Sernuk dalle corna prodiformi.\nHa una possibilità di essere trovato durante le miniere di Kilima."
+  },
+  "BP_Bug_BeeU_C": {
+    "name": "Ape bahariana",
+    "description": "Una specie locale di api, famosa per il suo delizioso miele.\nÈ possibile trovarla quando si tagliano gli alberi a Cala Bahari."
+  },
   "BP_Bug_ButterflyC_C": {
     "name": "Farfalla azzurra",
     "description": "Sempre resistente. Farfalle di questo tipo Si può trovareno in quasi tutti i climi di Palia.\nSi può trovareno in tutta la zona di Kilima e Cala Bahari durante la mattina e il giorno."
+  },
+  "BP_Bug_ButterflyE_C": {
+    "name": "Farfalla arcobaleno",
+    "description": "Secondo antiche leggende, questa rara farfalla ha ottenuto la sua splendida colorazione immergendo la punta delle ali in un pozzo di flusso.\nSi può trovare nei campi di Cala Bahari durante la mattina e il giorno."
   },
   "BP_Bug_ButterflyR_C": {
     "name": "Farfalla occhidisole",
@@ -30,6 +54,10 @@
   "BP_Bug_CrabC_C": {
     "name": "Granchio bahariano",
     "description": "Un granchio locale, particolarmente buono con un po' di burro chiarificato.\nSi trova lungo la costa di Cala Bahari. È possibile trovarlo anche durante la raccolta di risorse a Cala Bahari."
+  },
+  "BP_Bug_CrabR_C": {
+    "name": "Granchio vampiro",
+    "description": "Una specie invasiva di granchio che succhia la vita della popolazione locale.\nSi può trovare intorno alla Fortezza Allagata di Cala Bahari durante la sera e la notte."
   },
   "BP_Bug_CrabU_C": {
     "name": "Granchio spinoso",
@@ -67,6 +95,10 @@
     "name": "Insetto lanterna",
     "description": "Questo insetto brilla come una lanterna colorata del giorno di festa che spicca il volo nel cielo notturno di Palian.\nSi può trovare lungo la costa e nelle foreste di Cala Bahari durante la sera e la notte."
   },
+  "BP_Bug_GlowbugR_C": {
+    "name": "Luminello bahariano",
+    "description": "Una specie locale di fauna bioluminescente scoperta da Bonlin Amepongo.\nSi può trovare nei campi di Cala Bahari durante la sera e la notte."
+  },
   "BP_Bug_LadybugR_C": {
     "name": "Coccinella principessa",
     "description": "Una coccinella dall'aspetto molto regale, resa popolare dalla favola per bambini \"La principessa che si trasformò in coccinella\".\nSi può trovare intorno al lago di Kilima."
@@ -82,6 +114,10 @@
   "BP_Bug_MantisR1_C": {
     "name": "Mantide maculata",
     "description": "Una mantide rara con una bella serie di macchie.\nSi può trovare nei pressi del Santuario del Drago a Kilima."
+  },
+  "BP_Bug_MantisR2_C": {
+    "name": "Mantide cacciafoglia",
+    "description": "Una mantide erbivora che si nutre esclusivamente di foglie.\nHa la possibilità di essere trovata quando si foraggia nelle foreste di Cala Bahari."
   },
   "BP_Bug_MantisU_C": {
     "name": "Mantide da giardino",
@@ -110,6 +146,10 @@
   "BP_Bug_PedeU_C": {
     "name": "Millepiedi delle serre",
     "description": "Un millepiedi verde e marrone che adora banchettare con i raccolti.\nSi trova nei campi di Kilima. Può essere trovato anche durante la raccolta di risorse nei campi di Kilima."
+  },
+  "BP_Bug_SnailR_C": {
+    "name": "Chiocciola dal guscio striato",
+    "description": "Una lumaca con strisce così particolari che il suo guscio veniva usato come moneta di scambio dai primi Majiri.\nSi può trovare lungo la costa nella baia di Bahari."
   },
   "BP_Bug_SnailU_C": {
     "name": "Chiocciola da giardino",
