@@ -23,7 +23,9 @@ export const filterGroups: Map = {
             "BP_Bug_SnailU_C",
             "BP_Bug_DragonflyU_C",
             "BP_Bug_MothU_C",
-            "BP_Bug_CrabU_C"
+            "BP_Bug_CrabU_C",
+            "BP_Bug_BeetleU_C",
+            "BP_Bug_BeeU_C"
         ],
         rare: [
             "BP_Bug_CricketR_C",
@@ -34,11 +36,19 @@ export const filterGroups: Map = {
             "BP_Bug_LadybugR_C",
             "BP_Bug_PedeR2_C",
             "BP_Bug_CicadaR_C",
-            "BP_Bug_MantisR1_C"
+            "BP_Bug_MantisR1_C",
+            "BP_Bug_BeetleR_C",
+            "BP_Bug_GlowbugR_C",
+            "BP_Bug_BeeR_C",
+            "BP_Bug_MantisR2_C",
+            "BP_Bug_SnailR_C",
+            "BP_Bug_CrabR_C"
         ],
         epic: [
             "BP_Bug_MantisE_C",
-            "BP_Bug_DragonflyE_C"
+            "BP_Bug_DragonflyE_C",
+            "BP_Bug_BeetleE_C",
+            "BP_Bug_ButterflyE_C"
         ]
     },
     foraging: {
