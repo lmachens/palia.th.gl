@@ -1,3 +1,4 @@
+import type { CurrentGiftPreferences } from "@/app/(overwolf)/components/player";
 import { create } from "zustand";
 import type { NODE } from "../nodes";
 
@@ -21,6 +22,10 @@ export const useGameInfoStore = create<{
   setVillagers: (villagers: GameActor[]) => void;
   spawnNodes: NODE[];
   setSpawnNodes: (spawnNodes: NODE[]) => void;
+  currentGiftPreferences: CurrentGiftPreferences | null;
+  setCurrentGiftPreferences: (
+    currentGiftPreferences: CurrentGiftPreferences
+  ) => void;
 }>((set) => ({
   isOverlay: false,
   setIsOverlay: (isOverlay) => set({ isOverlay }),
@@ -30,4 +35,7 @@ export const useGameInfoStore = create<{
   setVillagers: (villagers) => set({ villagers }),
   spawnNodes: [],
   setSpawnNodes: (spawnNodes) => set({ spawnNodes }),
+  currentGiftPreferences: null,
+  setCurrentGiftPreferences: (currentGiftPreferences) =>
+    set({ currentGiftPreferences }),
 }));

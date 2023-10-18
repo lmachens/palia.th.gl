@@ -100,7 +100,7 @@
   opacity: 1;
 }
 
-.leaflet-map-pane {
+.animate {
   @apply transition-transform ease-linear duration-1000;
 }
 

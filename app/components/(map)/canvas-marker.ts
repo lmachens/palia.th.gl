@@ -15,7 +15,9 @@ leaflet.Canvas.include({
     const dy = p.y - radius;
 
     const layerContext = this._ctx as CanvasRenderingContext2D;
-
+    if (!layerContext) {
+      return;
+    }
     layerContext.save();
 
     if ("src" in icon && !("isText" in icon)) {
