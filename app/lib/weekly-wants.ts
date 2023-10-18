@@ -1,6 +1,5 @@
 import { loadDBDictionary } from "./i18n";
 
-
 export async function fetchWeeklyWants(
   locale: string
 ): Promise<WEEKLY_WANTS | undefined> {
