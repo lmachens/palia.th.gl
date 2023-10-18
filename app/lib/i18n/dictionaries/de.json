@@ -81,7 +81,6 @@
         "insects": "Insekten"
     },
     "settings": {
-        "rightClickToggle": "Rechtsklick zum Umschalten von Entdeckungen",
         "iconSize": "Symbolgröße",
         "backup": "Sichern",
         "restore": "Wiederherstellen",

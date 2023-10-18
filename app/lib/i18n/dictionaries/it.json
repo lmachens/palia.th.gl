@@ -81,7 +81,6 @@
         "insects": "Insetti"
     },
     "settings": {
-        "rightClickToggle": "Clic destro per attivare/disattivare la scoperta",
         "iconSize": "Dimensione dell'Icona",
         "backup": "Backup",
         "restore": "Ripristina",

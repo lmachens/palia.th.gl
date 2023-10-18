@@ -68,12 +68,6 @@ const Marker = memo(function Marker({
         }</p>`;
         const div = document.createElement("div");
         div.innerHTML = tooltipContent;
-
-        const note = document.createElement("p");
-        note.className = "text-gray-300 text-xs italic mt-2 hide-on-print";
-        note.innerHTML = dict.settings.rightClickToggle;
-
-        div.append(note);
         return div;
       };
       marker.bindTooltip(tooltipContent, {
