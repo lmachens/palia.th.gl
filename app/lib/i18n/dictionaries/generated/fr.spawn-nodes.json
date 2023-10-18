@@ -1,11 +1,35 @@
 {
+  "BP_Bug_BeeR_C": {
+    "name": "Abeille Gloire dorée",
+    "description": "Une abeille rare, importée de la province d’Akwindu. L’hydromel fabriqué à partir du miel de cette abeille est réputé être très consommé par la reine de la province et sa famille.\nOn peut la trouver en coupant des arbres à Kilima le matin et le jour."
+  },
   "BP_Bug_BeetleC_C": {
     "name": "Scarampeste",
     "description": "Cet insecte est connu pour sa forte odeur et ses belles couleurs vives.\nOn le trouve partout à Kilima et dans la baie du Bahari."
   },
+  "BP_Bug_BeetleE_C": {
+    "name": "Scarambré antique",
+    "description": "Cette espèce d’insectes fait partie des plus anciennes connues à ce jour en Palia. On dit même qu’elle remonte au temps des humains.\nOn en aperçoit dans les forêts de la baie du Bahari. Tu peux également en trouver en coupant des arbres dans la baie du Bahari."
+  },
+  "BP_Bug_BeetleR_C": {
+    "name": "Scaramboise",
+    "description": "Ce scarabée se nourrit exclusivement de framboises.\nOn le trouve près de la ferme de Badruu à Kilima."
+  },
+  "BP_Bug_BeetleU_C": {
+    "name": "Scaracorne majestueux",
+    "description": "Les cornes de ce coléoptère ressembleraient à celles du sernuk à cornes fières.\nA une chance d’être trouvé lors de l’exploitation minière à Kilima."
+  },
+  "BP_Bug_BeeU_C": {
+    "name": "Abeille baharite",
+    "description": "Une espèce locale d’abeilles, connue pour produire un miel délicieux.\nElle a des chances d’être trouvée lors de l’abattage des arbres dans la baie de Bahari."
+  },
   "BP_Bug_ButterflyC_C": {
     "name": "Papillon bleu commun",
     "description": "Ce type de papillons résistants s’est adapté à pratiquement tous les climats de Palia.\nOn en aperçoit partout à Kilima et dans la baie du Bahari le matin et l’après-midi."
+  },
+  "BP_Bug_ButterflyE_C": {
+    "name": "Papillon arc-en-ciel",
+    "description": "Selon d’anciennes légendes, ce papillon rare aurait acquis cette magnifique teinte en trempant le bout des ailes dans un puits d’Onde.\nOn l’aperçoit dans la baie du Bahari le matin et l’après-midi."
   },
   "BP_Bug_ButterflyR_C": {
     "name": "Papillon œil-de-feu",
@@ -30,6 +54,10 @@
   "BP_Bug_CrabC_C": {
     "name": "crabe baharite",
     "description": "Ce crabe régional est connu pour être délicieux cuisiné au beurre.\nOn l’aperçoit sur le rivage de la baie du Bahari. Tu peux également en trouver en ramassant des coquillages dans la baie du Bahari."
+  },
+  "BP_Bug_CrabR_C": {
+    "name": "Crabe vampire",
+    "description": "Espèce de crabe envahissante qui aspire la vie de la population locale.\nOn le trouve autour de la forteresse inondée dans la baie de Bahari le soir et la nuit."
   },
   "BP_Bug_CrabU_C": {
     "name": "Crabapic",
@@ -67,6 +95,10 @@
     "name": "Luciole lampion",
     "description": "Cet insecte brille aussi intensément qu’une lanterne colorée s’élevant dans le ciel nocturne de Palia un soir de fête.\nOn l’aperçoit sur le rivage et dans les forêts de la baie du Bahari le soir et la nuit."
   },
+  "BP_Bug_GlowbugR_C": {
+    "name": "Luciole baharite",
+    "description": "Cette espèce de la faune bioluminescente régionale a été découverte par le professeur Bonlin Amépongo. \nOn l’aperçoit dans les prés de la baie du Bahari le soir et la nuit."
+  },
   "BP_Bug_LadybugR_C": {
     "name": "Princesse coccinelle",
     "description": "Une coccinelle à l’allure très royale, rendue populaire par le conte pour enfants \"La princesse qui se transforma en coccinelle\".\nOn la trouve autour du lac de Kilima."
@@ -82,6 +114,10 @@
   "BP_Bug_MantisR1_C": {
     "name": "Mante mouchetée",
     "description": "Une mante rare avec une belle série de taches.\nOn la trouve autour du sanctuaire du dragon à Kilima."
+  },
+  "BP_Bug_MantisR2_C": {
+    "name": "Mante chasse-feuille",
+    "description": "Une mante herbivore qui se nourrit exclusivement de feuilles.\nElle a des chances d’être trouvée lors de la recherche de nourriture dans les forêts de Bahari Bay."
   },
   "BP_Bug_MantisU_C": {
     "name": "Mante commune",
@@ -110,6 +146,10 @@
   "BP_Bug_PedeU_C": {
     "name": "Mille-pattes commun",
     "description": "Ce mille-pattes brun et vert adore grignoter les cultures potagères.\nOn l’aperçoit dans les prés de Kilima. Tu peux également en trouver en t’adonnant à la cueillette dans les prés de Kilima."
+  },
+  "BP_Bug_SnailR_C": {
+    "name": "Escargot tigré",
+    "description": "La coquille de cet escargot présente des rayures si particulières qu’elle était autrefois utilisée comme monnaie par les ancêtres des Majiris.\nOn l’aperçoit sur le rivage de la baie du Bahari."
   },
   "BP_Bug_SnailU_C": {
     "name": "Escargot commun",

@@ -1,11 +1,35 @@
 {
+  "BP_Bug_BeeR_C": {
+    "name": "Golden Glory Bee",
+    "description": "A rare bee, imported from the Akwindu province. Mead made from this bee's honey is said to be heavily consumed by the Queen of the province and her family.\r\nHas a chance to be found when chopping trees in Kilima during the morning and day."
+  },
   "BP_Bug_BeetleC_C": {
     "name": "Spotted Stinkbug",
     "description": "A bug known more for his strong musk than its striking colors.\r\nFound all around Kilima and Bahari Bay."
   },
+  "BP_Bug_BeetleE_C": {
+    "name": "Ancient Amber Beetle",
+    "description": "One of the oldest known insects species in Palia, was said to exist in the time of humans.\r\nFound in the forests of Bahari Bay. Also has a chance to be found when chopping trees in Bahari Bay."
+  },
+  "BP_Bug_BeetleR_C": {
+    "name": "Raspberry Beetle",
+    "description": "A beetle whose entire diet consists of raspberries.\r\nFound around Badruu's Farm in Kilima."
+  },
+  "BP_Bug_BeetleU_C": {
+    "name": "Proudhorned Stag Beetle",
+    "description": "The horns of this stag beetle are said to resemble that of the Proudhorned Sernuk.\r\nHas a chance to be found when mining in Kilima."
+  },
+  "BP_Bug_BeeU_C": {
+    "name": "Bahari Bee",
+    "description": "A local species of bees, known to produce delicious honey.\r\nHas a chance to be found when chopping trees in Bahari Bay."
+  },
   "BP_Bug_ButterflyC_C": {
     "name": "Common Blue Butterfly",
     "description": "Ever resilient. Butterflies of this type can be found in almost every climate in Palia.\r\nFound all around Kilima and Bahari Bay during the morning and day."
+  },
+  "BP_Bug_ButterflyE_C": {
+    "name": "Rainbow-tipped Butterfly",
+    "description": "Ancient legends say this rare butterfly got its beautiful coloring from dipping the tip of its wings in a Well of Flow.\r\nFound in the Fields of Bahari Bay during the morning and day."
   },
   "BP_Bug_ButterflyR_C": {
     "name": "Brighteye Butterfly",
@@ -30,6 +54,10 @@
   "BP_Bug_CrabC_C": {
     "name": "Bahari Crab",
     "description": "A local crab, known to taste good with drawn butter.\r\nFound along the coast of Bahari Bay. Also has a chance to be found when foraging shells in Bahari Bay."
+  },
+  "BP_Bug_CrabR_C": {
+    "name": "Vampire Crab",
+    "description": "An invasive species of crab that sucks the life out of the local population.\r\nFound around the Flooded Fortress in Bahari Bay during the evening and night."
   },
   "BP_Bug_CrabU_C": {
     "name": "Spineshell Crab",
@@ -67,6 +95,10 @@
     "name": "Paper Lantern Bug",
     "description": "This bug glows as brightly as a colorful feast day lantern taking flight into the Palian night sky.\r\nFound along the coast and in forests of Bahari Bay during the evening and night."
   },
+  "BP_Bug_GlowbugR_C": {
+    "name": "Bahari Glowbug",
+    "description": "A local species of bioluminescent fauna. Discovered by Professor Bonlin Amepongo.\r\nFound in the fields of Bahari Bay during the evening and night."
+  },
   "BP_Bug_LadybugR_C": {
     "name": "Princess Ladybug",
     "description": "A very regal looking lady bug, made popular by the children's fairytale, The Princess Who Turned Into A Ladybug.\r\nFound around the lake in Kilima."
@@ -82,6 +114,10 @@
   "BP_Bug_MantisR1_C": {
     "name": "Spotted Mantis",
     "description": "A rare mantis with a beautiful set of spots.\r\nFound around the Dragon Shrine in Kilima."
+  },
+  "BP_Bug_MantisR2_C": {
+    "name": "Leafstalker Mantis",
+    "description": "An herbivorous mantis that exclusively eats leaves.\r\nHas a chance to be found when foraging in the forests of Bahari Bay."
   },
   "BP_Bug_MantisU_C": {
     "name": "Garden Mantis",
@@ -110,6 +146,10 @@
   "BP_Bug_PedeU_C": {
     "name": "Garden Millipede",
     "description": "A brown and green millipede that loves feasting on garden crops.\r\nFound in the fields of Kilima. Also has a chance to be found when foraging in the fields of Kilima."
+  },
+  "BP_Bug_SnailR_C": {
+    "name": "Stripeshell Snail",
+    "description": "A snail with such distinctive stripes, that its shell was once used as currency among the early Majiri.\r\nFound along the coast in Bahari Bay."
   },
   "BP_Bug_SnailU_C": {
     "name": "Garden Snail",

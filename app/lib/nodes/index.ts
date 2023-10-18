@@ -26,6 +26,7 @@ export type NODE = SIMPLE_NODE & {
   id: string;
   type: NODE_TYPE;
   isSpawnNode?: boolean;
+  isStar?: boolean;
 };
 
 export const staticNodesWithType: NODE[] = Object.keys(staticNodes).flatMap(

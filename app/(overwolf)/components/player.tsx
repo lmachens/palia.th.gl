@@ -115,7 +115,10 @@ export default function Player() {
             const villagers: GameActor[] = [];
             const foundSpawnNodes: NODE[] = [];
             actors.forEach((actor) => {
-              if (actor.className.startsWith("BP_Villager")) {
+              const className = actor.className.split(" ")[0];
+              const type = className.replace("+", "");
+              const isStar = className.includes("+");
+              if (type.startsWith("BP_Villager")) {
                 villagers.push({
                   className: actor.className,
                   position: {
@@ -129,20 +132,18 @@ export default function Player() {
               }
               if (
                 Object.values(spawnGroups).some((group) =>
-                  group.some((id) => actor.className.startsWith(id))
+                  group.some((id) => type.startsWith(id))
                 )
               ) {
-                const type = actor.className.split(
-                  " "
-                )[0] as keyof typeof spawnNodes;
                 foundSpawnNodes.push({
-                  type,
+                  type: type as keyof typeof spawnNodes,
                   id: type + "@" + actor.x + "," + actor.y,
                   x: actor.x,
                   y: actor.y,
                   z: actor.z,
                   mapName: getMapFromCoords(actor)!,
                   isSpawnNode: true,
+                  isStar,
                 });
               }
             });

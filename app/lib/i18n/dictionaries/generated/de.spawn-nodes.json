@@ -1,11 +1,35 @@
 {
+  "BP_Bug_BeeR_C": {
+    "name": "Goldruhm-Biene",
+    "description": "Eine seltene Biene, die aus der Provinz Akwindu eingeführt wurde. Der aus dem Honig dieser Biene hergestellte Met wird angeblich von der Königin der Provinz und ihrer Familie stark konsumiert.\nMan kann sie morgens und tagsüber beim Fällen von Bäumen in Kilima antreffen."
+  },
   "BP_Bug_BeetleC_C": {
     "name": "Gefleckter Stinkkäfer",
     "description": "Ein Käfer, der eher für seinen starken Moschusgeruch als für seine auffälligen Farben bekannt ist.\nMan findet ihn rund um Kilima und Bahari Bay."
   },
+  "BP_Bug_BeetleE_C": {
+    "name": "Uralter Bernsteinkäfer",
+    "description": "Eine der ältesten bekannten Insektenarten in Palia, die schon zur Zeit der Menschen existiert haben soll.\nMan findet sie in den Wäldern der Bahari-Bucht. Kann auch beim Fällen von Bäumen in der Bahari-Bucht gefunden werden."
+  },
+  "BP_Bug_BeetleR_C": {
+    "name": "Himbeerkäfer",
+    "description": "Ein Käfer, dessen gesamte Nahrung aus Himbeeren besteht.\nZu finden in der Umgebung von Badruus Farm in Kilima."
+  },
+  "BP_Bug_BeetleU_C": {
+    "name": "Stolzhorn-Hirschkäfer",
+    "description": "Die Hörner dieses Hirschkäfers sollen denen des Proudhorned Sernuk ähneln.\nKann beim Bergbau in Kilima gefunden werden."
+  },
+  "BP_Bug_BeeU_C": {
+    "name": "Bahari-Biene",
+    "description": "Eine einheimische Bienenart, die dafür bekannt ist, köstlichen Honig zu produzieren.\nKann beim Fällen von Bäumen in der Bahari-Bucht gefunden werden."
+  },
   "BP_Bug_ButterflyC_C": {
     "name": "Gemeiner Blaufalter",
     "description": "Unverwüstlich. Schmetterlinge dieser Art sind in fast jedem Klima in Palia zu finden.\nMorgens und tagsüber rund um Kilima und Bahari Bay zu finden."
+  },
+  "BP_Bug_ButterflyE_C": {
+    "name": "Regenbogenfalter",
+    "description": "Alte Legenden besagen, dass dieser seltene Schmetterling seine schöne Färbung durch das Eintauchen der Flügelspitze in eine Quelle der Strömung erhalten hat.\nMan findet ihn morgens und tagsüber in den Feldern der Bahari-Bucht."
   },
   "BP_Bug_ButterflyR_C": {
     "name": "Hellaugen-Schmetterling",
@@ -30,6 +54,10 @@
   "BP_Bug_CrabC_C": {
     "name": "Bahari-Krebs",
     "description": "Eine einheimische Krabbe, die bekanntlich gut mit gezogener Butter schmeckt.\nMan findet sie an der Küste der Bahari-Bucht. Man kann sie auch beim Muschelsuchen in der Bahari-Bucht finden."
+  },
+  "BP_Bug_CrabR_C": {
+    "name": "Vampirkrebs",
+    "description": "Eine invasive Krabbenart, die der lokalen Bevölkerung das Leben aussaugt.\nAbends und nachts um die überflutete Festung in der Bahari-Bucht zu finden."
   },
   "BP_Bug_CrabU_C": {
     "name": "Stachelpanzerkrebs",
@@ -67,6 +95,10 @@
     "name": "Lampionwürmchen",
     "description": "Dieser Käfer leuchtet so hell wie eine bunte Festtagslaterne, die in den palianischen Nachthimmel fliegt.\nMan findet ihn abends und nachts entlang der Küste und in den Wäldern der Bahari-Bucht."
   },
+  "BP_Bug_GlowbugR_C": {
+    "name": "Bahari-Glühwürmchen",
+    "description": "Eine einheimische Art der biolumineszenten Fauna. Entdeckt von Professor Bonlin Amepongo.\nAbends und nachts in den Feldern der Bahari-Bucht zu finden."
+  },
   "BP_Bug_LadybugR_C": {
     "name": "Prinzessinnen-Marienkäfer",
     "description": "Ein sehr königlich aussehender Marienkäfer, der durch das Kindermärchen \"Die Prinzessin, die sich in einen Marienkäfer verwandelte\" bekannt wurde.\nMan findet ihn rund um den See in Kilima."
@@ -82,6 +114,10 @@
   "BP_Bug_MantisR1_C": {
     "name": "Gefleckte Gottesanbeterin",
     "description": "Eine seltene Gottesanbeterin mit einer schönen Fleckenzeichnung.\nZu finden in der Nähe des Drachenschreins in Kilima."
+  },
+  "BP_Bug_MantisR2_C": {
+    "name": "Blattwandler-Gottesanbeterin",
+    "description": "Eine pflanzenfressende Gottesanbeterin, die sich ausschließlich von Blättern ernährt.\nMan kann sie bei der Nahrungssuche in den Wäldern der Bahari-Bucht finden."
   },
   "BP_Bug_MantisU_C": {
     "name": "Garten-Gottesanbeterin",
@@ -110,6 +146,10 @@
   "BP_Bug_PedeU_C": {
     "name": "Garten-Tausendfüßler",
     "description": "Ein brauner und grüner Tausendfüßler, der sich gerne an Gartenpflanzen labt.\nMan findet ihn auf den Feldern von Kilima. Kann auch bei der Futtersuche auf den Feldern von Kilima gefunden werden."
+  },
+  "BP_Bug_SnailR_C": {
+    "name": "Streifenhaus-Schnecke",
+    "description": "Eine Schnecke mit so markanten Streifen, dass ihr Schneckenhaus von den frühen Majiri als Zahlungsmittel verwendet wurde.\nMan findet sie entlang der Küste in der Bahari-Bucht."
   },
   "BP_Bug_SnailU_C": {
     "name": "Gartenschnecke",
