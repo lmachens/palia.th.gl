@@ -6,6 +6,7 @@ import { ICONS, SPAWN_ICONS } from "../lib/icons";
 import type { spawnNodes } from "../lib/nodes";
 import { ALL_FILTERS, staticNodes } from "../lib/nodes";
 import { spawnGroups } from "../lib/spawn-groups";
+import { filterGroups } from "../lib/filter-groups";
 import { useGlobalSettingsStore } from "../lib/storage/global-settings";
 import { useParamsStore } from "../lib/storage/params";
 import { useDict } from "./(i18n)/i18n-provider";
@@ -90,12 +91,14 @@ export default function Filters() {
           );
         })}
       </div>
-      <div className="flex flex-wrap ">
+      <div className="flex flex-wrap justify-start">
+
         {Object.entries(spawnGroups).map(([key, group]) => {
           return (
             <Fragment key={key}>
+              <div className={'flex basis-full h-0'}></div>
               <button
-                className={`flex gap-2 items-center hover:bg-neutral-700 p-2 basis-full truncate ${
+                className={`flex gap-2 grow text-left items-left hover:bg-neutral-700 p-2 basis-1/5  ${
                   !filters.some((filter) => group.includes(filter))
                     ? "text-gray-500"
                     : ""
@@ -107,7 +110,28 @@ export default function Filters() {
               >
                 <span className="truncate">{dict.groups[key]}</span>
               </button>
-              {group.map((_key) => {
+              {
+                Object.entries(filterGroups[key as keyof typeof filterGroups])
+                    .map(([filterKey, entry]) => {
+                        return (
+                            <Fragment key ={filterKey}>
+                                <button key={filterKey}
+                                    className={`flex-1 text-center shrink gap-2 items-center hover:bg-neutral-700 p-2  ${
+                                        !filters.some((filter) => entry.includes(filter)) ? "text-gray-500" : ("text-"+filterKey)
+                                    }`}
+                                    onClick={() => {
+                                        toggleFilter(entry);
+                                    }}
+                                >
+                                    <span className={'text-shadow-lg shadow-orange-500'}>{dict.rarity[filterKey]}</span>
+                                </button>
+                            </Fragment>
+                        )
+                    })
+              }
+              <div className={'flex basis-full h-0'}></div>
+
+                {group.map((_key) => {
                 const key = _key as keyof typeof spawnNodes;
                 const icon = SPAWN_ICONS[key];
 

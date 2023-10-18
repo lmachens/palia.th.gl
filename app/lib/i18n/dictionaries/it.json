@@ -80,6 +80,12 @@
         "hunting": "Caccia",
         "insects": "Insetti"
     },
+    "rarity": {
+        "common": "★",
+        "uncommon": "★★",
+        "rare": "★★★",
+        "epic": "★★★★"
+    },
     "settings": {
         "rightClickToggle": "Clic destro per attivare/disattivare la scoperta",
         "iconSize": "Dimensione dell'Icona",

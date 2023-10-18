@@ -80,6 +80,12 @@
     "hunting": "Hunting",
     "insects": "Insects"
   },
+  "rarity": {
+    "common": "★",
+    "uncommon": "★★",
+    "rare": "★★★",
+    "epic": "★★★★"
+  },
   "settings": {
     "rightClickToggle": "Right click to toggle discovered",
     "iconSize": "Icon Size",

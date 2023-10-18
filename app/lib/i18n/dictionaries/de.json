@@ -80,6 +80,12 @@
         "hunting": "Jagen",
         "insects": "Insekten"
     },
+    "rarity": {
+        "common": "★",
+        "uncommon": "★★",
+        "rare": "★★★",
+        "epic": "★★★★"
+    },
     "settings": {
         "rightClickToggle": "Rechtsklick zum Umschalten von Entdeckungen",
         "iconSize": "Symbolgröße",
