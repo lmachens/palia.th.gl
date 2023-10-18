@@ -80,12 +80,6 @@
         "hunting": "Caza",
         "insects": "Insectos"
     },
-    "rarity": {
-        "common": "★",
-        "uncommon": "★★",
-        "rare": "★★★",
-        "epic": "★★★★"
-    },
     "settings": {
         "iconSize": "Tamaño del Icono",
         "backup": "Respaldar",

@@ -17,6 +17,13 @@ export default function Filters() {
   const setParams = useParamsStore((state) => state.setParams);
   const showFilters = useGlobalSettingsStore((state) => state.showFilters);
 
+  const rarityStars = {
+      "common": "★",
+      "uncommon": "★★",
+      "rare": "★★★",
+      "epic": "★★★★"
+  }
+
   const toggleFilter = useCallback(
     (key: string | string[]) => {
       if (Array.isArray(key)) {
@@ -110,22 +117,19 @@ export default function Filters() {
               >
                 <span className="truncate">{dict.groups[key]}</span>
               </button>
-              {
-                Object.entries(filterGroups[key as keyof typeof filterGroups])
+              {Object.entries(filterGroups[key as keyof typeof filterGroups])
                     .map(([filterKey, entry]) => {
                         return (
-                            <Fragment key ={filterKey}>
-                                <button key={filterKey}
-                                    className={`flex-1 text-center shrink gap-2 items-center hover:bg-neutral-700 p-2  ${
-                                        !filters.some((filter) => entry.includes(filter)) ? "text-gray-500" : ("text-"+filterKey)
-                                    }`}
-                                    onClick={() => {
-                                        toggleFilter(entry);
-                                    }}
-                                >
-                                    <span>{dict.rarity[filterKey]}</span>
-                                </button>
-                            </Fragment>
+                            <button key={filterKey}
+                                className={`flex-1 text-center shrink gap-2 items-center hover:bg-neutral-700 p-2  ${
+                                    !filters.some((filter) => entry.includes(filter)) ? "text-gray-500" : ("text-"+filterKey)
+                                }`}
+                                onClick={() => {
+                                    toggleFilter(entry);
+                                }}
+                            >
+                                <span>{rarityStars[filterKey as keyof typeof rarityStars]}</span>
+                            </button>
                         )
                     })
               }
