@@ -66,3 +66,4 @@ async function Layout({
 }
 
 export default Layout;
+export const maxDuration = 30;
