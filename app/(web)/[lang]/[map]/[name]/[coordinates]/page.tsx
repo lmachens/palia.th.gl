@@ -18,4 +18,3 @@ export function generateStaticParams() {
 }
 
 export const dynamic = isOverwolf ? "force-static" : "auto";
-export const maxDuration = 30;
