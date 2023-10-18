@@ -1,5 +1,3 @@
-import Nodes from "@/app/components/(map)/nodes";
-import Tiles from "@/app/components/(map)/tiles";
 import Download from "@/app/components/download";
 import Search from "@/app/components/search";
 import WeeklyWants from "@/app/components/weekly-wants";
@@ -12,7 +10,13 @@ import { notFound } from "next/navigation";
 
 export { generateMetadata } from "@/app/lib/meta";
 
+const Tiles = dynamic(() => import("@/app/components/(map)/tiles"), {
+  ssr: false,
+});
 const Map = dynamic(() => import("@/app/components/(map)/map"), {
+  ssr: false,
+});
+const Nodes = dynamic(() => import("@/app/components/(map)/nodes"), {
   ssr: false,
 });
 

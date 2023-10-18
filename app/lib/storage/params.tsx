@@ -21,6 +21,7 @@ type ParamsProps = {
   highlightedNode?: NODE;
   filters: string[];
   nodes: NODE[];
+  liveMode: boolean;
 };
 
 type ParamsState = {
@@ -74,7 +75,10 @@ const createParamsStore = (initProps: ParamsProps & { dict: DICT }) => {
         if (!visibleNodesByMap[node.mapName]) {
           visibleNodesByMap[node.mapName] = [];
         }
-        if (!visibleNodesByMap[node.mapName].some((n) => n.id === node.id)) {
+        if (
+          !props.liveMode ||
+          !visibleNodesByMap[node.mapName].some((n) => n.id === node.id)
+        ) {
           visibleNodesByMap[node.mapName].push(node);
           if (
             !changed &&
@@ -202,6 +206,7 @@ export function ParamsProvider({ children }: { children: React.ReactNode }) {
 
     storeRef.current = createParamsStore({
       nodes: liveMode ? [...staticNodesWithType, ...spawnNodes] : nodes,
+      liveMode,
       dict,
       mapName,
       search,
@@ -241,6 +246,7 @@ export function ParamsProvider({ children }: { children: React.ReactNode }) {
       return;
     }
     storeRef.current.getState().setParams({
+      liveMode,
       nodes: liveMode ? [...staticNodesWithType, ...spawnNodes] : nodes,
       dict,
     });

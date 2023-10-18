@@ -235,14 +235,6 @@
     "name": "Large Rock",
     "description": ""
   },
-  "BP_Mining_Stone_Medium_C": {
-    "name": "Medium Rock",
-    "description": ""
-  },
-  "BP_Mining_Stone_Small_C": {
-    "name": "Small Rock",
-    "description": ""
-  },
   "BP_Moss_DragonsBeard_C": {
     "name": "Dragon's Beard Peat",
     "description": "Dragon's Beard Peat is a rare, alchemical, moss named for its color, which resembles Maji's."
@@ -295,10 +287,6 @@
     "name": "Medium Birch Tree",
     "description": ""
   },
-  "BP_TreeChoppable_Birch_Sapling_C": {
-    "name": "Birch Sapling",
-    "description": ""
-  },
   "BP_TreeChoppable_Birch_Small_C": {
     "name": "Small Birch Tree",
     "description": ""
@@ -311,10 +299,6 @@
     "name": "Medium Juniper Tree",
     "description": ""
   },
-  "BP_TreeChoppable_Juniper_Sapling_C": {
-    "name": "Juniper Sapling",
-    "description": ""
-  },
   "BP_TreeChoppable_Juniper_Small_C": {
     "name": "Small Juniper Tree",
     "description": ""
@@ -325,10 +309,6 @@
   },
   "BP_TreeChoppable_Oak_Medium_C": {
     "name": "Medium Oak Tree",
-    "description": ""
-  },
-  "BP_TreeChoppable_Oak_Sapling_C": {
-    "name": "Oak Sapling",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Small_C": {
@@ -349,14 +329,6 @@
   },
   "BP_TreeChoppable_Pine_Medium_CoOp_C": {
     "name": "Flowing Medium Pine Tree",
-    "description": ""
-  },
-  "BP_TreeChoppable_Pine_Sapling_C": {
-    "name": "Pine Sapling",
-    "description": ""
-  },
-  "BP_TreeChoppable_Pine_Sapling_CoOp_C": {
-    "name": "Flowing Pine Sapling",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Small_C": {

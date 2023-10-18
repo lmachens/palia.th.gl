@@ -29,4 +29,3 @@ async function _GET(request: NextRequest) {
 }
 
 export const GET = isOverwolf ? undefined : _GET;
-export const maxDuration = 30;
