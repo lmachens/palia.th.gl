@@ -64,10 +64,10 @@ export default function NitroPay() {
     <>
       <Script
         src="https://s.nitropay.com/ads-1487.js"
-        async
-        data-cfasync="false"
         onLoad={handleLoad}
-        onError={() => setShowFallback(true)}
+        onError={() => {
+          setShowFallback(true);
+        }}
       />
       <div id="palia-video" className={showFallback ? "" : "w-full h-56"} />
       {showFallback && <TwitchEmbed onClose={() => setShowFallback(false)} />}

@@ -187,7 +187,7 @@ export default function Routes() {
 
   if (routes.isCreating) {
     return (
-      <div className="divide-y divide-neutral-700 border-t border-t-neutral-600 bg-neutral-900 text-gray-200 text-sm w-full md:border md:border-gray-600 md:rounded-lg">
+      <div className="divide-y divide-neutral-700 border-t border-t-neutral-600 bg-neutral-900 text-gray-200 text-sm w-full md:border md:border-gray-600 md:rounded-lg" aria-label="Routes">
         <div className="flex leaflet-pm-toolbar flex-wrap">
           <button
             className={`flex gap-1 p-2 uppercase hover:text-white w-1/2 justify-center ${

@@ -75,6 +75,7 @@ export default function Menu() {
   return (
     <Drawer
       show={(!lockedWindow || !isOverlay) && globalSettingsStore.showSidebar}
+      aria-label="Main menu"
     >
       <div className="flex flex-col text-gray-300 h-full">
         <header className="p-2 my-2 flex justify-between">
@@ -85,11 +86,18 @@ export default function Menu() {
               target="_blank"
               className="flex items-center gap-1 text-gray-300 hover:text-white bg-[#5865f2] hover:bg-[#6974f3]  rounded p-1"
               href="https://discord.com/invite/NTZu8Px"
+              aria-label="Discord"
             >
               <DiscordIcon className="inline-block w-4 h-4" />
             </a>
           </div>
-          <button onClick={globalSettingsStore.toggleShowSidebar}>
+          <button
+            onClick={globalSettingsStore.toggleShowSidebar}
+            type="button"
+            aria-haspopup="menu"
+            aria-label="Close sidebar"
+            aria-expanded={globalSettingsStore.showSidebar}
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="w-5 h-5 text-gray-400"
@@ -154,9 +162,10 @@ export default function Menu() {
             text={
               <>
                 <DiscordIcon className="inline-block w-4 h-4 mr-1" />
-                Discord
+                <span>Discord</span>
               </>
             }
+            aria-label="Discord"
           />
           {accountStore.isPatron && (
             <button

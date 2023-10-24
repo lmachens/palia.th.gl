@@ -6,19 +6,17 @@ export default function Settings() {
   const dict = useDict();
 
   return (
-    <>
-      <div className="flex">
-        <span className="w-1/2">{dict.settings.iconSize}</span>
-        <input
-          className="w-5/12"
-          type="range"
-          value={settingsStore.iconSize}
-          min={0.4}
-          max={2}
-          step={0.1}
-          onChange={(event) => settingsStore.setIconSize(+event.target.value)}
-        />
-      </div>
-    </>
+    <label className="flex">
+      <span className="w-1/2">{dict.settings.iconSize}</span>
+      <input
+        className="w-5/12"
+        type="range"
+        value={settingsStore.iconSize}
+        min={0.4}
+        max={2}
+        step={0.1}
+        onChange={(event) => settingsStore.setIconSize(+event.target.value)}
+      />
+    </label>
   );
 }

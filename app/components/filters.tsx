@@ -51,6 +51,7 @@ export default function Filters() {
             }
           : {}
       }
+      aria-label="Filters"
     >
       <div className="flex">
         <button

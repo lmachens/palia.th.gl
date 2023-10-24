@@ -46,6 +46,7 @@ export default function SearchResults({ map: mapName }: { map: string }) {
             }
           : {}
       }
+      aria-label="Search results"
     >
       {nodes.length === 0 && (
         <div className="p-2 text-center">{dict.search.noResults}</div>

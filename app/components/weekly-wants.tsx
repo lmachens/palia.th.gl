@@ -32,6 +32,7 @@ export default function WeeklyWants({ data }: { data?: WEEKLY_WANTS }) {
             trigger={
               <button
                 className={`text-gray-200 text-sm flex gap-1 text-shadow bg-black bg-opacity-50 md:rounded-full whitespace-nowrap mx-1 shrink-0 relative`}
+                aria-label={villager.name}
               >
                 <Image
                   src={villager.icon}

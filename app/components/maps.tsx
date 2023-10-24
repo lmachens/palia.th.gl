@@ -14,7 +14,10 @@ export default function Maps() {
   const setParams = useParamsStore((state) => state.setParams);
 
   return (
-    <div className="divide-neutral-700 border-t border-t-neutral-600 bg-neutral-900 text-sm w-full md:border md:border-gray-600 md:rounded-lg">
+    <div
+      className="divide-neutral-700 border-t border-t-neutral-600 bg-neutral-900 text-sm w-full md:border md:border-gray-600 md:rounded-lg"
+      aria-label="Maps"
+    >
       <div className="flex flex-wrap">
         {Object.keys(CONFIGS).map((map) => (
           <Link

@@ -25,7 +25,7 @@ export default function LocaleSelect({ className }: { className?: string }) {
       open={isOpen}
       onOpenChange={setIsOpen}
       trigger={
-        <button>
+        <button aria-label={i18n.locale}>
           <span
             className={`text-xl fi fi-${getFlagCode(i18n.locale)} ${
               className ?? ""

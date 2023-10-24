@@ -5,11 +5,12 @@ export default function ExternalLink({
   href,
   text,
   className,
+  ...props
 }: {
   href: string;
   text: ReactNode;
   className?: string;
-}) {
+} & React.HTMLAttributes<HTMLAnchorElement>) {
   return (
     <a
       key={href}
@@ -21,6 +22,7 @@ export default function ExternalLink({
       onClick={() => {
         trackOutboundLinkClick(href);
       }}
+      {...props}
     >
       {text}
       <svg

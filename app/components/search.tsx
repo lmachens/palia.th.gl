@@ -52,6 +52,10 @@ export default function Search({
           <button
             className="menu flex absolute inset-y-0 left-0 items-center pl-2 text-gray-400 hover:text-gray-200"
             onClick={globalSettingsStore.toggleShowSidebar}
+            type="button"
+            aria-haspopup="menu"
+            aria-label="Open sidebar"
+            aria-expanded={globalSettingsStore.showSidebar}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -87,6 +91,7 @@ export default function Search({
             <button
               className="flex absolute inset-y-0 right-12 items-center pr-2 text-gray-400 hover:text-gray-200"
               onClick={() => setParams({ search: "", dict })}
+              type="button"
             >
               <svg
                 className="block w-5"
@@ -132,6 +137,10 @@ export default function Search({
                 : {}
             }
             onClick={globalSettingsStore.toggleShowFilters}
+            type="button"
+            aria-haspopup="menu"
+            aria-label="Open filters"
+            aria-expanded={!!globalSettingsStore.showFilters}
           >
             <svg
               className="block w-5"
@@ -158,6 +167,10 @@ export default function Search({
                 : {}
             }
             onClick={globalSettingsStore.toggleShowRoutes}
+            type="button"
+            aria-haspopup="menu"
+            aria-label="Open routes"
+            aria-expanded={!!globalSettingsStore.showRoutes}
           >
             <svg
               className="block w-5 h-5"
