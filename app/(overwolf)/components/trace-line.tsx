@@ -3,11 +3,6 @@ import { useMap } from "@/app/lib/storage/map";
 import { useSettingsStore } from "@/app/lib/storage/settings";
 import leaflet from "leaflet";
 import { useEffect, useRef } from "react";
-// import {
-//   GameSession,
-//   addTraceLineItem,
-//   getLatestGameSession,
-// } from "../lib/game-sessions";
 
 function createCircle(position: { x: number; y: number; z: number }) {
   return leaflet.circle([position.y, position.x] as [number, number], {
@@ -25,10 +20,15 @@ export default function TraceLine() {
     y: 0,
     z: 0,
   });
+  const traceDots = useRef<leaflet.Circle[]>();
   const layerGroup = useRef<leaflet.LayerGroup>();
+  if (!traceDots.current) {
+    traceDots.current = [];
+  }
   if (!layerGroup.current) {
     layerGroup.current = new leaflet.LayerGroup();
   }
+
   const settingsStore = useSettingsStore();
 
   useEffect(() => {
@@ -48,17 +48,43 @@ export default function TraceLine() {
     if (!player?.position) {
       return;
     }
-    const targetLayerGroup = layerGroup.current!;
-    if (
-      Math.abs(player.position.x - lastPosition.current.x) > 0.05 ||
-      Math.abs(player.position.y - lastPosition.current.y) > 0.05
-    ) {
-      const circle = createCircle(player.position);
-      circle.addTo(targetLayerGroup);
+
+    const distance = Math.sqrt(
+      Math.pow(player.position.x - lastPosition.current.x, 2) +
+        Math.pow(player.position.y - lastPosition.current.y, 2)
+    );
+    if (distance > 200) {
+      const traceDotsGroup = traceDots.current!;
+      const targetLayerGroup = layerGroup.current!;
       lastPosition.current = player.position;
-      // addTraceLineItem(player.position);
+      const circle = createCircle(player.position);
+      traceDotsGroup.push(circle);
+      circle.addTo(targetLayerGroup);
+
+      const layers = targetLayerGroup.getLayers();
+      if (layers.length > settingsStore.traceLineLength) {
+        layers[layers.length - 1 - settingsStore.traceLineLength]?.remove();
+      }
     }
   }, [player?.position]);
 
+  useEffect(() => {
+    if (!map) {
+      return;
+    }
+    const traceDotsGroup = traceDots.current!;
+    const targetLayerGroup = layerGroup.current!;
+
+    for (let i = 0; i < traceDotsGroup.length; i++) {
+      const traceDot = traceDotsGroup[i];
+      if (i < traceDotsGroup.length - settingsStore.traceLineLength) {
+        if (targetLayerGroup.hasLayer(traceDot)) {
+          targetLayerGroup.removeLayer(traceDot);
+        }
+      } else if (!targetLayerGroup.hasLayer(traceDot)) {
+        traceDot.addTo(targetLayerGroup);
+      }
+    }
+  }, [settingsStore.traceLineLength]);
   return <></>;
 }
