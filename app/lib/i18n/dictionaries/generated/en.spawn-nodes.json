@@ -715,6 +715,30 @@
     "name": "Crystal Lake Lotus",
     "description": "The Crystal Lake Lotus is named after where it was discovered and is now used to make dyes."
   },
+  "BP_WaterPlane_Fishing_AZ1_Cave_SQ_C": {
+    "name": "Cave Bay",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_LakeVillage_SQ_C": {
+    "name": "Lake Village",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_OceanAZ1_SQ_C": {
+    "name": "Ocean Bay",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_PondVillage_SQ_C": {
+    "name": "Pond Village",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_RiverAZ1_SQ_C": {
+    "name": "River Bay",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_RiverVillage_SQ_C": {
+    "name": "River Village",
+    "description": ""
+  },
   "BP_WildGarlic_C": {
     "name": "Wild Garlic",
     "description": "Garlic is a delicious addition to any dish you cook! Or can be eaten raw to perfume one's breath."

@@ -109,6 +109,14 @@ export const spawnGroups = {
     "BP_ValeriaHuntingCreature_Chapaa_T2_C",
     "BP_ValeriaHuntingCreature_Chapaa_T3_C",
   ],
+  hotspots: [
+    "BP_WaterPlane_Fishing_AZ1_Cave_SQ_C",
+    "BP_WaterPlane_Fishing_LakeVillage_SQ_C",
+    "BP_WaterPlane_Fishing_OceanAZ1_SQ_C",
+    "BP_WaterPlane_Fishing_PondVillage_SQ_C",
+    "BP_WaterPlane_Fishing_RiverAZ1_SQ_C",
+    "BP_WaterPlane_Fishing_RiverVillage_SQ_C",
+  ],
   fishing: [
     "BP_Fish_AlbinoEeel_C",
     "BP_Fish_Alligator_Gar_C",

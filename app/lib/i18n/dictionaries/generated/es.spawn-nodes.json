@@ -715,6 +715,30 @@
     "name": "Loto del Lago de Cristal",
     "description": "El loto del Lago de Cristal debe su nombre al lugar donde se descubrió. Ahora se utiliza para fabricar tintes."
   },
+  "BP_WaterPlane_Fishing_AZ1_Cave_SQ_C": {
+    "name": "Cave Bay",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_LakeVillage_SQ_C": {
+    "name": "Lake Village",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_OceanAZ1_SQ_C": {
+    "name": "Ocean Bay",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_PondVillage_SQ_C": {
+    "name": "Pond Village",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_RiverAZ1_SQ_C": {
+    "name": "River Bay",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_RiverVillage_SQ_C": {
+    "name": "River Village",
+    "description": ""
+  },
   "BP_WildGarlic_C": {
     "name": "Ajo de campo",
     "description": "El ajo es un complemento delicioso para cualquier plato que cocines. También te lo puedes comer crudo para darle un fuerte aroma a tu aliento."

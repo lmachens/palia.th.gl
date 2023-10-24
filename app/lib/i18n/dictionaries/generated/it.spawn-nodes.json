@@ -715,6 +715,30 @@
     "name": "Loto di lago",
     "description": "Il loto del lago Cristallo prende il nome dal luogo in cui è stato scoperto ed è oggi utilizzato per la produzione di tinture."
   },
+  "BP_WaterPlane_Fishing_AZ1_Cave_SQ_C": {
+    "name": "Cave Bay",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_LakeVillage_SQ_C": {
+    "name": "Lake Village",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_OceanAZ1_SQ_C": {
+    "name": "Ocean Bay",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_PondVillage_SQ_C": {
+    "name": "Pond Village",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_RiverAZ1_SQ_C": {
+    "name": "River Bay",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_RiverVillage_SQ_C": {
+    "name": "River Village",
+    "description": ""
+  },
   "BP_WildGarlic_C": {
     "name": "Aglio selvatico",
     "description": "L'aglio è un'aggiunta deliziosa in qualsiasi preparazione! Oppure può essere mangiato crudo per profumare l'alito."

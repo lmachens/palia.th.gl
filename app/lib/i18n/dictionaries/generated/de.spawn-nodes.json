@@ -715,6 +715,30 @@
     "name": "Kristallsee-Lotos",
     "description": "Der Kristallsee-Lotos ist nach dem Ort benannt, an dem er entdeckt wurde, und wird heute zur Herstellung von Farbstoffen verwendet."
   },
+  "BP_WaterPlane_Fishing_AZ1_Cave_SQ_C": {
+    "name": "Cave Bay",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_LakeVillage_SQ_C": {
+    "name": "Lake Village",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_OceanAZ1_SQ_C": {
+    "name": "Ocean Bay",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_PondVillage_SQ_C": {
+    "name": "Pond Village",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_RiverAZ1_SQ_C": {
+    "name": "River Bay",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_RiverVillage_SQ_C": {
+    "name": "River Village",
+    "description": ""
+  },
   "BP_WildGarlic_C": {
     "name": "Knoblauch",
     "description": "Knoblauch ist eine köstliche Ergänzung für jedes Gericht! Er kann auch roh gegessen werden, um den Atem zu parfümieren."

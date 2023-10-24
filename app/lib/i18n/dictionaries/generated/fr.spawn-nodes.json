@@ -715,6 +715,30 @@
     "name": "Lotus du lac Crystallium",
     "description": "Le lotus du lac Crystallium porte le nom de l’endroit où il a été découvert et est aujourd’hui utilisé pour fabriquer des teintures."
   },
+  "BP_WaterPlane_Fishing_AZ1_Cave_SQ_C": {
+    "name": "Cave Bay",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_LakeVillage_SQ_C": {
+    "name": "Lake Village",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_OceanAZ1_SQ_C": {
+    "name": "Ocean Bay",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_PondVillage_SQ_C": {
+    "name": "Pond Village",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_RiverAZ1_SQ_C": {
+    "name": "River Bay",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_RiverVillage_SQ_C": {
+    "name": "River Village",
+    "description": ""
+  },
   "BP_WildGarlic_C": {
     "name": "Ail des ours",
     "description": "L’ail ajoute un goût délicieux à tous tes plats. Pour avoir l’haleine fraîche, rien de tel qu’une gousse d’ail crue !"
