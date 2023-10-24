@@ -29,6 +29,9 @@ dependencies:
   flag-icons:
     specifier: 6.11.1
     version: 6.11.1
+  js-cookie:
+    specifier: 3.0.5
+    version: 3.0.5
   leaflet:
     specifier: 1.9.4
     version: 1.9.4
@@ -76,6 +79,9 @@ devDependencies:
   '@overwolf/types':
     specifier: 3.23.9
     version: 3.23.9
+  '@types/js-cookie':
+    specifier: 3.0.5
+    version: 3.0.5
   '@types/leaflet':
     specifier: 1.9.6
     version: 1.9.6
@@ -955,6 +961,10 @@ packages:
   /@types/geojson@7946.0.8:
     resolution: {integrity: sha512-1rkryxURpr6aWP7R786/UQOkJ3PcpQiWkAXBmdWc7ryFWqN6a4xfK7BtjXvFBKO9LjQ+MWQSWxYeZX1OApnArA==}
     dev: false
+
+  /@types/js-cookie@3.0.5:
+    resolution: {integrity: sha512-dtLshqoiGRDHbHueIT9sjkd2F4tW1qPSX2xKAQK8p1e6pM+Z913GM1shv7dOqqasEMYbC5zEaClJomQe8OtQLA==}
+    dev: true
 
   /@types/json-schema@7.0.12:
     resolution: {integrity: sha512-Hr5Jfhc9eYOQNPYO5WLDq/n4jqijdHNlDXjuAQkkt+mWdQR+XJToOHrsD4cPaMXpn6KO7y2+wM8AZEs8VpBLVA==}
@@ -3015,6 +3025,11 @@ packages:
   /jiti@1.18.2:
     resolution: {integrity: sha512-QAdOptna2NYiSSpv0O/BwoHBSmz4YhpzJHyi+fnMRTXFjp7B8i/YG5Z8IfusxB1ufjcD2Sre1F3R+nX3fvy7gg==}
     hasBin: true
+    dev: false
+
+  /js-cookie@3.0.5:
+    resolution: {integrity: sha512-cEiJEAEoIbWfCZYKWhVwFuvPX1gETRYPw6LlaTKoxD3s2AkXzkCjnp6h0V77ozyqj0jakteJ4YqDJT830+lVGw==}
+    engines: {node: '>=14'}
     dev: false
 
   /js-tokens@4.0.0:

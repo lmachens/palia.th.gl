@@ -1,5 +1,6 @@
 "use client";
 import { useDict } from "@/app/components/(i18n)/i18n-provider";
+import Cookies from "js-cookie";
 import { useParams, useSearchParams } from "next/navigation";
 import { createContext, useContext, useEffect, useRef } from "react";
 import { createStore, useStore } from "zustand";
@@ -124,7 +125,7 @@ const createParamsStore = (initProps: ParamsProps & { dict: DICT }) => {
         ...params,
       });
 
-      const searchParams = new URLSearchParams(location.search);
+      const searchParams = new URLSearchParams();
       if (typeof props.search !== "undefined") {
         if (props.search.length > 0) {
           searchParams.set("search", props.search);
@@ -148,12 +149,14 @@ const createParamsStore = (initProps: ParamsProps & { dict: DICT }) => {
         if (props.query) {
           url += "?" + props.query;
         }
-
+        Cookies.set("params", encodeURIComponent(url), { expires: 30 });
         window.history.replaceState(
           { ...window.history.state, as: url, url: url },
           "",
           url
         );
+      } else {
+        localStorage.setItem("params", JSON.stringify(props));
       }
     },
   }));
@@ -187,45 +190,59 @@ export function ParamsProvider({ children }: { children: React.ReactNode }) {
   const spawnNodes = useGameInfoStore((state) => state.spawnNodes);
 
   if (!storeRef.current) {
-    let mapName = "kilima-valley";
-    if (params.map) {
-      const mapTitle = decodeURIComponent(params.map as string);
-      const mapEntry = Object.entries(dict.maps).find(([, value]) => {
-        return value === mapTitle;
-      });
-      if (mapEntry) {
-        mapName = mapEntry[0];
+    if (isOverwolfApp) {
+      try {
+        const lastParams = localStorage.getItem("params");
+        if (lastParams) {
+          const props = JSON.parse(lastParams);
+          storeRef.current = createParamsStore(props);
+        }
+      } catch (e) {
+        //
       }
     }
-    const query = searchParams.toString();
-    const search = searchParams.get("search") || "";
-    const screenshot = searchParams.get("screenshot") === "true";
-    const { name, coordinates } = decodeNameAndCoordinates(params);
-    const filtersString = searchParams.get("filters");
-    const filters = filtersString ? filtersString.split(",") : ALL_FILTERS;
 
-    storeRef.current = createParamsStore({
-      nodes: liveMode ? [...staticNodesWithType, ...spawnNodes] : nodes,
-      liveMode,
-      dict,
-      mapName,
-      search,
-      query,
-      screenshot,
-      name,
-      coordinates,
-      filters,
-      visibleNodesByMap: {
-        "kilima-valley": [],
-        "bahari-bay": [],
-        fairgrounds: [],
-        housing: [],
-      },
-    });
+    if (!storeRef.current) {
+      let mapName = "kilima-valley";
+      if (params.map) {
+        const mapTitle = decodeURIComponent(params.map as string);
+        const mapEntry = Object.entries(dict.maps).find(([, value]) => {
+          return value === mapTitle;
+        });
+        if (mapEntry) {
+          mapName = mapEntry[0];
+        }
+      }
+      const query = searchParams.toString();
+      const search = searchParams.get("search") || "";
+      const screenshot = searchParams.get("screenshot") === "true";
+      const { name, coordinates } = decodeNameAndCoordinates(params);
+      const filtersString = searchParams.get("filters");
+      const filters = filtersString ? filtersString.split(",") : ALL_FILTERS;
+
+      storeRef.current = createParamsStore({
+        nodes: liveMode ? [...staticNodesWithType, ...spawnNodes] : nodes,
+        liveMode,
+        dict,
+        mapName,
+        search,
+        query,
+        screenshot,
+        name,
+        coordinates,
+        filters,
+        visibleNodesByMap: {
+          "kilima-valley": [],
+          "bahari-bay": [],
+          fairgrounds: [],
+          housing: [],
+        },
+      });
+    }
   }
 
   useEffect(() => {
-    if (isInitialRender || !storeRef.current) {
+    if (isInitialRender || !storeRef.current || isOverwolfApp) {
       return;
     }
     const { name, coordinates } = decodeNameAndCoordinates(params);

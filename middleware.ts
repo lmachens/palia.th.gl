@@ -3,16 +3,17 @@ import { NextResponse } from "next/server";
 import { DEFAULT_LOCALE, LOCALES, loadDictionary } from "./app/lib/i18n";
 import { DEFAULT_MAP, isMap } from "./app/lib/maps";
 
-const COOKIE_NAME = "i18next";
+const PARAMS_COOKIE_NAME = "params";
 const validPages = ["download"];
-function getUserLanguage(req: NextRequest) {
-  if (req.cookies.has(COOKIE_NAME)) {
-    const cookie = req.cookies.get(COOKIE_NAME)!.value;
-    if (LOCALES.includes(cookie)) {
-      return cookie;
-    }
+
+function getUserParams(req: NextRequest) {
+  if (req.cookies.has(PARAMS_COOKIE_NAME)) {
+    const cookie = decodeURIComponent(
+      req.cookies.get(PARAMS_COOKIE_NAME)!.value
+    );
+    return cookie;
   }
-  return DEFAULT_LOCALE;
+  return null;
 }
 
 function getPathParams(pathname: string) {
@@ -38,26 +39,39 @@ function getPathParams(pathname: string) {
 }
 
 export async function middleware(req: NextRequest) {
-  const userLanguage = getUserLanguage(req);
-  const dict = loadDictionary(userLanguage);
   const { pathLanguage, page } = getPathParams(req.nextUrl.pathname);
-  if (pathLanguage) {
-    if (!page) {
-      const res = NextResponse.redirect(
-        new URL(`/${pathLanguage}/${dict.maps[DEFAULT_MAP]}`, req.url)
+  if (!pathLanguage) {
+    // Redirect if no language is present
+    const userParams = getUserParams(req);
+    if (userParams) {
+      // Redirect to user params if present
+      return NextResponse.redirect(new URL(userParams, req.url));
+    } else {
+      // Redirect to default language and map. Remember to add search params for referrer
+      const dict = loadDictionary(DEFAULT_LOCALE);
+      return NextResponse.redirect(
+        new URL(
+          `/${DEFAULT_LOCALE}/${dict.maps[DEFAULT_MAP]}${req.nextUrl.search}`,
+          req.url
+        )
       );
-      res.cookies.set(COOKIE_NAME, pathLanguage, {
-        maxAge: 60 * 60 * 24 * 30,
-      });
-      return res;
     }
-  } else {
+  }
+  if (!page) {
+    // Redirect if only language is present
+    const dict = loadDictionary(pathLanguage);
     return NextResponse.redirect(
-      new URL(
-        `/${userLanguage}/${dict.maps[DEFAULT_MAP]}${req.nextUrl.search}`,
-        req.url
-      )
+      new URL(`/${pathLanguage}/${dict.maps[DEFAULT_MAP]}`, req.url)
     );
+  } else if (!req.nextUrl.search) {
+    // Redirect if language and page are present but no params
+    const userParams = getUserParams(req);
+    if (userParams) {
+      const search = userParams.split("?")[1];
+      if (search) {
+        return NextResponse.redirect(new URL(`${req.url}?${search}`, req.url));
+      }
+    }
   }
 }
 
