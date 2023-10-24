@@ -1,6 +1,6 @@
 "use client";
 import { ICONS, SPAWN_ICONS } from "@/app/lib/icons";
-import type { NODE, NODE_TYPE } from "@/app/lib/nodes";
+import type { NODE } from "@/app/lib/nodes";
 import { useRoutesStore } from "@/app/lib/storage/routes";
 import type leaflet from "leaflet";
 import { memo, useEffect } from "react";
@@ -17,7 +17,7 @@ const Marker = memo(function Marker({
 }: {
   id: string;
   node: NODE;
-  type: NODE_TYPE;
+  type: string;
   isHighlighted: boolean;
   iconSize: number;
   onClick: (node: NODE) => void;
