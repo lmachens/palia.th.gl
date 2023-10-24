@@ -19,34 +19,44 @@ export const staticNodes = {
   wardrobe: wardrobe,
 } as const;
 
-export type NODE_TYPE = keyof typeof staticNodes | keyof typeof spawnNodes;
-export type SIMPLE_NODE = (typeof spawnNodes &
-  typeof staticNodes)[NODE_TYPE][number];
-export type NODE = SIMPLE_NODE & {
+export type NODE = {
   id: string;
-  type: NODE_TYPE;
+  x: number;
+  y: number;
+  type: string;
+  mapName: string;
   isSpawnNode?: boolean;
   isStar?: boolean;
 };
 
-export const staticNodesWithType: NODE[] = Object.keys(staticNodes).flatMap(
-  (_type) => {
+export const staticNodesWithType: NODE[] = Object.entries(staticNodes).flatMap(
+  ([_type, map]) => {
     const type = _type as keyof typeof staticNodes;
-    return staticNodes[type].map((node) => {
-      return { ...node, type };
-    });
+    return Object.entries(map).flatMap(([id, more]) =>
+      Object.entries(more).flatMap(([key, nodes]) => {
+        return nodes.map(([x, y]) => ({
+          id,
+          x,
+          y,
+          type,
+          mapName: key,
+        }));
+      })
+    );
   }
 );
-export const spawnNodesWithType: NODE[] = Object.keys(spawnNodes).flatMap(
-  (_type) => {
+export const spawnNodesWithType: NODE[] = Object.entries(spawnNodes).flatMap(
+  ([_type, map]) => {
     const type = _type as keyof typeof spawnNodes;
-    return spawnNodes[type].map((node) => {
-      return {
-        ...node,
+    return Object.entries(map).flatMap(([key, nodes]) => {
+      return nodes.map(([x, y]) => ({
+        id: type + "@" + x + "," + y,
+        x,
+        y,
         type,
-        id: type + "@" + node.x + "," + node.y,
         isSpawnNode: true,
-      };
+        mapName: key,
+      }));
     });
   }
 );

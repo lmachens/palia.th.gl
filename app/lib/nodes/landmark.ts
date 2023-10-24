@@ -1,128 +1,65 @@
-export const landmark = [
-  {
-    id: "MapMarker_AncientRuins",
-    mapName: "bahari-bay",
-    x: 55320,
-    y: -48900,
+export const landmark = {
+  MapMarker_AncientRuins: {
+    "bahari-bay": [[55320, -48900]],
   },
-  {
-    id: "MapMarker_MiningFamily",
-    mapName: "bahari-bay",
-    x: 67325,
-    y: -22823,
+  MapMarker_MiningFamily: {
+    "bahari-bay": [[67325, -22823]],
   },
-  {
-    id: "MapMarker_OldLighthouse",
-    mapName: "bahari-bay",
-    x: 163430,
-    y: -55440,
+  MapMarker_OldLighthouse: {
+    "bahari-bay": [[163430, -55440]],
   },
-  {
-    id: "MapMarker_Tamalas",
-    mapName: "bahari-bay",
-    x: 78810,
-    y: -108283.5,
+  MapMarker_Tamalas: {
+    "bahari-bay": [[78810, -108283.5]],
   },
-  {
-    id: "BP_Register_MajiMarket_ChapaaChase_2_C_0",
-    mapName: "fairgrounds",
-    x: 76019.38,
-    y: 25569.48,
+  BP_Register_MajiMarket_ChapaaChase_2_C_0: {
+    fairgrounds: [[76019.38, 25569.48]],
   },
-  {
-    id: "BP_Register_MajiMarket_Delaila_2_C_0",
-    mapName: "fairgrounds",
-    x: 76182.48,
-    y: 27515.01,
+  BP_Register_MajiMarket_Delaila_2_C_0: {
+    fairgrounds: [[76182.48, 27515.01]],
   },
-  {
-    id: "BP_Register_MajiMarket_ExperimentalFood_C_0",
-    mapName: "fairgrounds",
-    x: 78946.99,
-    y: 31821.64,
+  BP_Register_MajiMarket_ExperimentalFood_C_0: {
+    fairgrounds: [[78946.99, 31821.64]],
   },
-  {
-    id: "BP_Register_MajiMarket_Fireworks_2_C_0",
-    mapName: "fairgrounds",
-    x: 79833.26,
-    y: 34336.56,
+  BP_Register_MajiMarket_Fireworks_2_C_0: {
+    fairgrounds: [[79833.26, 34336.56]],
   },
-  {
-    id: "MapMarker_Apothecary",
-    mapName: "kilima-valley",
-    x: -556.86,
-    y: 18259.4,
+  MapMarker_Apothecary: {
+    "kilima-valley": [[-556.86, 18259.4]],
   },
-  {
-    id: "MapMarker_Blacksmith",
-    mapName: "kilima-valley",
-    x: 2320,
-    y: 7030,
+  MapMarker_Blacksmith: {
+    "kilima-valley": [[2320, 7030]],
   },
-  {
-    id: "MapMarker_CityHall",
-    mapName: "kilima-valley",
-    x: 7490,
-    y: 2570,
+  MapMarker_CityHall: {
+    "kilima-valley": [[7490, 2570]],
   },
-  {
-    id: "MapMarker_DragonShrine",
-    mapName: "kilima-valley",
-    x: 33740,
-    y: -22330,
+  MapMarker_DragonShrine: {
+    "kilima-valley": [[33740, -22330]],
   },
-  {
-    id: "MapMarker_FamilyFarm",
-    mapName: "kilima-valley",
-    x: -29530,
-    y: -3340,
+  MapMarker_FamilyFarm: {
+    "kilima-valley": [[-29530, -3340]],
   },
-  {
-    id: "MapMarker_FurnitureStore",
-    mapName: "kilima-valley",
-    x: 2890,
-    y: -1790,
+  MapMarker_FurnitureStore: {
+    "kilima-valley": [[2890, -1790]],
   },
-  {
-    id: "MapMarker_GeneralStore",
-    mapName: "kilima-valley",
-    x: 780,
-    y: -570,
+  MapMarker_GeneralStore: {
+    "kilima-valley": [[780, -570]],
   },
-  {
-    id: "MapMarker_Library",
-    mapName: "kilima-valley",
-    x: 5290,
-    y: -4190,
+  MapMarker_Library: {
+    "kilima-valley": [[5290, -4190]],
   },
-  {
-    id: "MapMarker_MayorsEstate",
-    mapName: "kilima-valley",
-    x: 13500,
-    y: 20930,
+  MapMarker_MayorsEstate: {
+    "kilima-valley": [[13500, 20930]],
   },
-  {
-    id: "MapMarker_PhoenixFalls",
-    mapName: "kilima-valley",
-    x: 670,
-    y: -35620,
+  MapMarker_PhoenixFalls: {
+    "kilima-valley": [[670, -35620]],
   },
-  {
-    id: "MapMarker_RemembranceGarden",
-    mapName: "kilima-valley",
-    x: -7330,
-    y: 27000,
+  MapMarker_RemembranceGarden: {
+    "kilima-valley": [[-7330, 27000]],
   },
-  {
-    id: "MapMarker_Tailor",
-    mapName: "kilima-valley",
-    x: -2350,
-    y: 1070,
+  MapMarker_Tailor: {
+    "kilima-valley": [[-2350, 1070]],
   },
-  {
-    id: "MapMarker_Tavern",
-    mapName: "kilima-valley",
-    x: -1360,
-    y: 5170,
+  MapMarker_Tavern: {
+    "kilima-valley": [[-1360, 5170]],
   },
-];
+};

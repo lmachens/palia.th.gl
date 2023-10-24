@@ -1,7 +1,8 @@
 import { isOverwolf } from "@/app/lib/env";
 import { loadDictionary } from "@/app/lib/i18n";
 import { nodes } from "@/app/lib/nodes";
-import { NextRequest, NextResponse } from "next/server";
+import type { NextRequest } from "next/server";
+import { NextResponse } from "next/server";
 
 async function _GET(request: NextRequest) {
   const search = request.nextUrl.search;

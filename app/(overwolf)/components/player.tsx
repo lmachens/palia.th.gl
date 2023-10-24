@@ -140,7 +140,6 @@ export default function Player() {
                   id: type + "@" + actor.x + "," + actor.y,
                   x: actor.x,
                   y: actor.y,
-                  z: actor.z,
                   mapName: getMapFromCoords(actor)!,
                   isSpawnNode: true,
                   isStar,
