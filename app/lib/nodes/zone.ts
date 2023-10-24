@@ -2,9 +2,6 @@ export const zone = {
   BP_GateTeleporter_Parent_C_UAID_CC96E503DE63137A01_1673725565: {
     "bahari-bay": [[59135.84, -10820.33]],
   },
-  BP_GateTeleporter_Parent_C_UAID_CC96E503E0F4C4A401_1919574119: {
-    "kilima-valley": [[250.22, 230.01]],
-  },
   BP_GateTeleporter_Parent_C_UAID_CC96E503DE630E7901_1573823092: {
     fairgrounds: [[81801.3, 16557.43]],
   },

@@ -57,6 +57,7 @@ export default function NitroPay() {
     setShowFallback(false);
     window["nitroAds"].createAd("palia-video", {
       format: "video-nc",
+      debug: "silent",
     });
   };
 

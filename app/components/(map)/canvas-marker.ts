@@ -1,3 +1,4 @@
+import { isOverwolfApp } from "@/app/lib/env";
 import type { ICON } from "@/app/lib/icons";
 import leaflet from "leaflet";
 
@@ -115,7 +116,11 @@ class CanvasMarker extends leaflet.CircleMarker {
     if ("src" in options.icon) {
       if (!imageElements[options.icon.src]) {
         imageElements[options.icon.src] = document.createElement("img");
-        imageElements[options.icon.src].src = options.icon.src;
+        imageElements[options.icon.src].src = isOverwolfApp
+          ? options.icon.src
+          : `/_next/image?url=${encodeURIComponent(
+              options.icon.src
+            )}&w=32&q=75`;
       }
       this.imageElement = imageElements[options.icon.src];
     }
