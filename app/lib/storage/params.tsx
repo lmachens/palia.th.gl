@@ -66,7 +66,8 @@ const createParamsStore = (initProps: ParamsProps & { dict: DICT }) => {
               .includes(lowerCaseSearch) ||
             dict.spawnNodes[node.type]?.name
               .toLowerCase()
-              .includes(lowerCaseSearch)
+              .includes(lowerCaseSearch) ||
+            dict.nodes[node.type]?.toLowerCase().includes(lowerCaseSearch)
           );
         } else if (!filters?.includes(node.type)) {
           isTrivial = true;
