@@ -159,17 +159,325 @@
     "name": "Koralle",
     "description": "Mit diesem Stück Koralle hast du ein Stück Strand zu Hause. Da kann man fast das Riff riechen!"
   },
+  "BP_Fish_AlbinoEeel_C": {
+    "name": "Albino-Aal",
+    "description": "Ein Aal ohne Pigmentierung.\nWird in den Höhlen der Bahari-Bucht mit Würmern gefunden."
+  },
+  "BP_Fish_Alligator_Gar_C": {
+    "name": "Alligatorhecht",
+    "description": "Der Alligator Gar ist ein fleischfressender Fisch mit leuchtend violetten Schuppen und hat seinen Namen von seiner langen Schnauze und den Reihen großer Zähne.\nEr wird im Kilima-See mit Hilfe von Glühwürmchen gefunden."
+  },
+  "BP_Fish_AncientFish_C": {
+    "name": "Uralter Fisch",
+    "description": "hese fish are as old as the continent of Palia itself, and were thought to be extinct. Guess you have something in common."
+  },
+  "BP_Fish_Bahari_Pike_C": {
+    "name": "Bahari-Hecht",
+    "description": "Ein in der Bahari-Bucht beheimateter Hecht mit tiefgrüner Färbung.\nWird in den Bahari-Flüssen mit Glühwürmchen gefangen."
+  },
+  "BP_Fish_BahariBream_C": {
+    "name": "Bahari-Brasse",
+    "description": "Diese Fische gelten weithin als Grundnahrungsmittel der Einheimischen.\nSie werden vor der Küste der Bahari-Bucht mit Würmern gefangen."
+  },
+  "BP_Fish_Barracuda_C": {
+    "name": "Barrakuda",
+    "description": "Ein bösartiger Salzwasser-Raubfisch, der leicht gegrillt mit ein wenig Butter hervorragend schmeckt.\nAbends und nachts vor der Küste der Bahari-Bucht ohne Köder zu finden."
+  },
+  "BP_Fish_BatRay_C": {
+    "name": "Fledermausrochen",
+    "description": "Ein bedrohlicher Rochen, der bekannt dafür ist, wie eine fliegende Fledermaus aus dem Wasser zu springen.\nWird in den Höhlen der Bahari-Bucht mit Würmern gefunden."
+  },
+  "BP_Fish_Beluga_Sturgeon_C": {
+    "name": "Beluga-Stör",
+    "description": "Ein großer Stör, der sein ganzes Leben lang wächst.\nGefunden im Kilima-See mit Glühwürmchen."
+  },
+  "BP_Fish_Bigeye_Tuna_C": {
+    "name": "Blauflossen-Thunfisch",
+    "description": "Ein häufiger, schlanker Fisch, der schnell durch die Meeresströmungen schwimmen kann.\nVor der Küste der Bahari-Bucht mit Würmern gefunden."
+  },
+  "BP_Fish_Black_Sea_Bass_C": {
+    "name": "Schwarzmeerbarsch",
+    "description": "Diese Barsche, die für ihre schwarzen Flecken auf der Haut bekannt sind, sind sanftmütig und nicht bedrohlich für Majiri und Menschen gleichermaßen.\nSie werden vor der Küste der Bahari-Bucht mit Glühwürmchen gefangen."
+  },
+  "BP_Fish_Blobfish_C": {
+    "name": "Blobfisch",
+    "description": "Ein aufgeblähter, schleimiger Fisch, der am Boden von Höhlentümpeln lebt.\nIn den Höhlen der Bahari-Bucht mit Glühwürmchen gefunden."
+  },
+  "BP_Fish_Blue_Spotted_Ray_C": {
+    "name": "Blaupunktrochen",
+    "description": "Ein farbenfroher Rochen mit leuchtend blauen Flecken am Körper und blauen Streifen am Schwanz.\nVor der Küste der Bahari-Bucht mit Glühwürmchen morgens, tagsüber und abends gefunden."
+  },
+  "BP_Fish_BlueMarlin_C": {
+    "name": "Blauer Marlin",
+    "description": "Ein großer und widerstandsfähiger Fisch. Der Blaue Marlin wird selbst von den erfahrensten Fischern als wertvoll angesehen.\nEr wird vor der Küste der Bahari-Bucht mit Würmern gefangen."
+  },
+  "BP_Fish_Cactus_Moray_C": {
+    "name": "Kaktusmuräne",
+    "description": "Ein Aal mit scharfen Stacheln, die entlang seiner Länge wachsen, um Raubtiere abzuschrecken.\nMan findet ihn vor der Küste der Bahari-Bucht, wo er tagsüber und nachts Glühwürmchen benutzt."
+  },
+  "BP_Fish_CalicoKoi_C": {
+    "name": "Glückskoi",
+    "description": "Ein Standard-Koi-Fisch mit einer schönen Kattun-Musterung.\nIn Teichen ohne Köder zu finden."
+  },
+  "BP_Fish_CantankerousKoi_C": {
+    "name": "Knurriger Koi",
+    "description": "Einer lokalen Legende zufolge war der erste Cantankerous Koi ein schrulliger alter Mann, der von einer bösen Hexe verklärt wurde.\nMan findet sie tagsüber und nachts in Teichen ohne Köder."
+  },
+  "BP_Fish_Channel_Catfish_C": {
+    "name": "Gabelwels",
+    "description": "Ein Flusswels, der in schnellen Strömungen zu Hause ist.\nIn den Kilima-Flüssen ohne Köder zu finden."
+  },
+  "BP_Fish_Chub_C": {
+    "name": "Döbel",
+    "description": "Ein kampfstarker Fisch, der für seinen großen Appetit bekannt ist.\nWird in den Bahari-Flüssen mit Glühwürmchen gefangen."
+  },
+  "BP_Fish_Cloudfish_C": {
+    "name": "Wolkenfisch",
+    "description": "Ein bodenfressender Teichfisch, der wirbelnde Sedimentwolken als Deckung erzeugt.\nMan findet ihn in Teichen, wo er morgens und tagsüber Glühwürmchen frisst."
+  },
+  "BP_Fish_Codfish_C": {
+    "name": "Bahari-Barsch",
+    "description": "Ein ergiebiger Grundnahrungsfisch, der für seinen milden Geschmack bekannt ist.\nWird vor der Küste der Bahari-Bucht ohne Köder gefunden."
+  },
+  "BP_Fish_Crimson_Fangtooth_C": {
+    "name": "Purpurne Tigermuräne",
+    "description": "Ein kleiner roter Fisch mit riesigen Zähnen im Verhältnis zu seiner Größe.\nIn den Höhlen der Bahari-Bucht mit Glühwürmchen gefunden."
+  },
+  "BP_Fish_Crucian_Carp_C": {
+    "name": "Karausche",
+    "description": "Ein widerstandsfähiger Karpfen mit kupferfarbenen, goldenen Schuppen.\nWird in den Kilima-Flüssen mit Glühwürmchen gefangen."
+  },
+  "BP_Fish_Cutthroat_Trout_C": {
+    "name": "Cutthroat-Forelle",
+    "description": "Eine Flussforelle, benannt nach ihrem langen Kiefer und Maul.\nWird in den Flüssen der Bahari-Bucht mit Würmern gefangen."
+  },
+  "BP_Fish_Dawnray_C": {
+    "name": "Morgendämmerrochen",
+    "description": "Ein goldener Rochen, der in der Morgendämmerung jagt, wobei seine Schuppen das Sonnenlicht absorbieren.\nMorgens in den Bahari-Flüssen ohne Köder zu finden."
+  },
+  "BP_Fish_Duskray_C": {
+    "name": "Abenddämmerrochen",
+    "description": "Ein gefleckter, kohlefarbener Rochen, der in der Dämmerung jagt und mit dem Flussbett verschmilzt.\nAbends in den Bahari-Flüssen ohne Köder zu finden."
+  },
+  "BP_Fish_Enchanted_Pupfish_C": {
+    "name": "Verwunschener Kärpfling",
+    "description": "Ein niedlicher kleiner Fisch, der Spuren von Flow in seine Schuppen aufnehmen kann.\nGefunden im Kilima-See mit Glühwürmchen."
+  },
+  "BP_Fish_Energized_Piranha_C": {
+    "name": "Energiegeladener Piranha",
+    "description": "Ein Pirhana, der nach dem Verzehr eines magischen Grimalkin-Schmuckstücks mit Magie durchdrungen ist.\nWird in Kilima-Flüssen mit Würmern gefunden."
+  },
+  "BP_Fish_EyelessMinnow_C": {
+    "name": "Augenlose Elritze",
+    "description": "Ein höhlenbewohnendes Wesen, das keine Augen mehr braucht.\nWird in den Höhlen der Bahari-Bucht ohne Köder gefunden."
+  },
+  "BP_Fish_FairyCarp_C": {
+    "name": "Feenkarpfen",
+    "description": "Ein scheuer Fisch mit einem hypnotisch durchscheinenden Glanz.\nMan findet ihn morgens und abends in Teichen mit Würmern."
+  },
+  "BP_Fish_Fathead_Minnow_C": {
+    "name": "Fettköpfige Elritze",
+    "description": "Ein kleiner Süßwasserfisch, der für seinen übergroßen Kopf bekannt ist.\nWird in Bahari-Flüssen mit Glühwürmchen gefangen."
+  },
+  "BP_Fish_Flametongue_Ray_C": {
+    "name": "Flammenzungen-Rochen",
+    "description": "Ein seltener Flussrochen, der seinen Namen von den leuchtend orangen und roten Streifen auf seinem Rücken hat.\nMan findet ihn in den Kilima-Flüssen, wo er morgens und tagsüber Glühwürmchen frisst."
+  },
+  "BP_Fish_FreshwaterEel_C": {
+    "name": "Fluss-Aal",
+    "description": "Ein langer und geschmeidiger Flussfisch, der oft mit einer Schlange verwechselt wird.\nIm Kilima-Fluss zu finden, wo er abends und nachts Würmer frisst."
+  },
+  "BP_Fish_Giant_Goldfish_C": {
+    "name": "Riesengoldfisch",
+    "description": "Entgegen aller Wahrscheinlichkeit erreichen manche Goldfische eine legendäre Größe.\nGefunden in Teichen mit Glühwürmchen."
+  },
+  "BP_Fish_Giant_Kilima_Stingray_C": {
+    "name": "Riesiger Kilima-Stachelrochen",
+    "description": "Der Herr des Kilima-Sees ist ein Stechrochen, dessen giftiger Stachel auch die Knochen seiner Beute durchbohren kann.\nMan findet ihn im Kilima-See mit Hilfe von Glühwürmchen am Morgen, am Tag und am Abend."
+  },
+  "BP_Fish_Gillyfin_C": {
+    "name": "Kiemflosse",
+    "description": "Der häufigste Fisch in Palia.\nWird im Kilima-See ohne Köder gefunden."
+  },
+  "BP_Fish_GoldenSalmon_C": {
+    "name": "Goldlachs",
+    "description": "Eine häufige Lachsart, die im Sonnenlicht gedeiht.\nMan findet ihn in den Kilima-Flüssen, wo er morgens und tagsüber Würmer frisst."
+  },
+  "BP_Fish_Honey_Loach_C": {
+    "name": "Honigschmerle",
+    "description": "Ein Flussfisch, dessen gelbe und schwarze Streifen an eine Honigbiene erinnern.\nMan findet ihn in den Bahari-Flüssen, wo er tagsüber und nachts Glühwürmchen benutzt."
+  },
   "BP_Fish_Hypnotic_Moray_C": {
-    "name": "Fish_Hypnotic_Moray_C",
-    "description": ""
+    "name": "Hypnosemuräne",
+    "description": "Eine Muräne, die ihr auffälliges Muster mit hypnotischen Bewegungen kombiniert, um Beute anzulocken.\nSie wird in den Höhlen der Bahari-Bucht mit Glühwürmchen gefangen."
+  },
+  "BP_Fish_Indigo_Lamprey_C": {
+    "name": "Indigo-Neunauge",
+    "description": "In der Vergangenheit ernteten die Palier die Schuppen dieses Fisches, um einen tiefen Indigofarbstoff herzustellen.\nAbends und nachts in den Kilima-Flüssen mit Glühwürmchen gefunden."
+  },
+  "BP_Fish_Kenjis_Carp_C": {
+    "name": "Kenlis Karpfen",
+    "description": "Kenli entdeckte diesen Karpfen persönlich in der Nähe von Kilima Village. Er hat eine bemerkenswerte Ähnlichkeit mit einer Karausche...\nGefunden in Kilima Flüssen mit Glühwürmchen."
+  },
+  "BP_Fish_Kilima_Grayling_C": {
+    "name": "Kilima-Äsche",
+    "description": "Ein stromlinienförmiger Fisch, der den ersten Teil seines Lebens im Meer verbringt, bevor er in die Flüsse des Kilima-Tals zurückkehrt.\nWird in den Kilima-Flüssen mit Glühwürmchen gefangen."
+  },
+  "BP_Fish_Kilima_Redfin_C": {
+    "name": "Kilima-Rotflosse",
+    "description": "Ein aggressiver Flussräuber, der buchstäblich alles frisst.\nMan findet ihn in den Flüssen der Bahari Bay, wo er Würmer frisst."
+  },
+  "BP_Fish_KilimaCatFish_C": {
+    "name": "Kilima-Wels",
+    "description": "Eine einzigartige Welsart, die nur im Kilima-Tal vorkommt.\nWird in Teichen mit Würmern gefunden."
+  },
+  "BP_Fish_LargemouthBass_C": {
+    "name": "Forellenbarsch",
+    "description": "Ein sehr gesprächiger Barsch, der Lebewesen mit mehr als 50 % seines eigenen Körpergewichts verschlingen kann.\nWird im Kilima-See mit Würmern gefangen."
+  },
+  "BP_Fish_Midnight_Paddlefish_C": {
+    "name": "Mitternachts-Löffelstör",
+    "description": "Ein seltener Löffelstör, der sich nachts ernährt und dank seiner dunklen Schuppen vor Raubtieren verborgen bleibt.\nWird im Kilima-See gefunden, wo er nachts Glühwürmchen frisst."
+  },
+  "BP_Fish_Mirror_Carp_C": {
+    "name": "Spiegelkarpfen",
+    "description": "Ein silbriger Karpfen mit spiegelähnlichen Schuppen.\nWird in Teichen mit Würmern gefangen."
+  },
+  "BP_Fish_Mottled_Gobi_C": {
+    "name": "Fleckenhäsling",
+    "description": "Ein unterschätzter Fisch, der sich von überschüssigen Teichalgen ernährt.\nWird in Teichen mit Glühwürmchen gefunden."
+  },
+  "BP_Fish_Mudminnow_C": {
+    "name": "Hundsfisch",
+    "description": "Eine gewöhnliche Elritze, die für ihre schlammige Farbe bekannt ist.\nWird in Teichen gefunden, ohne dass ein Köder verwendet wird."
+  },
+  "BP_Fish_MutatedAngler_C": {
+    "name": "Mutierter Anglerfisch",
+    "description": "Eine furchterregende Monstrosität, angeblich ein Überbleibsel aus der Zeit der Menschen.\nIn den Höhlen der Bahari-Bucht mit Hilfe von Würmern gefunden."
+  },
+  "BP_Fish_Oily_Anchovy_C": {
+    "name": "Ölige Sardelle",
+    "description": "Ein schleimiger Fisch, den manche Majiri seltsam appetitlich finden.\nWird in den Flüssen der Bahari-Bucht mit Würmern gefangen."
+  },
+  "BP_Fish_Orange_Bluegill_C": {
+    "name": "Oranger Sonnenbarsch",
+    "description": "Ein Allesfresser, der Insekten bevorzugt, aber alles frisst, was in sein Maul passt.\nMan findet ihn in Teichen mit Würmern."
+  },
+  "BP_Fish_Paddlefish_C": {
+    "name": "Löffelstör",
+    "description": "Ein primitiver Fisch, der seit Millionen von Jahren überlebt hat.\nMan findet ihn in den Flüssen der Bahari-Bucht, wo er morgens, tagsüber und abends Würmer frisst."
+  },
+  "BP_Fish_PaintedPerch_C": {
+    "name": "Klecksbarsch",
+    "description": "Ein zierlicher Flussfisch, der für seine ansprechenden Farben bekannt ist.\nWird im Kilima-See mit Würmern gefangen."
+  },
+  "BP_Fish_Platinum_Chad_C": {
+    "name": "Platinbarsch",
+    "description": "Die glänzenden Platinschuppen dieser Kaulquappe können Fischer in Träume von Reichtum täuschen.\nWird in den Kilima-Flüssen mit Glühwürmchen gefangen."
+  },
+  "BP_Fish_PrismTrout_C": {
+    "name": "Prismaforelle",
+    "description": "Eine prächtige Forelle, die im Sonnenlicht wie ein Regenbogen glänzt.\nGefunden im Kilima-See mit Würmern am Morgen und am Tag."
+  },
+  "BP_Fish_RadiantSunfish_C": {
+    "name": "Strahlender Sonnenbarsch",
+    "description": "Ein wunderschön leuchtender Flussfisch, der einen blendenden Lichtstrahl aussendet, den viele mit dem direkten Blick in die Sonne vergleichen.\nGefunden in Kilima Flüssen mit Würmern."
+  },
+  "BP_Fish_Rainbow_Trout_C": {
+    "name": "Regenbogenforelle",
+    "description": "Ein Flussfisch mit einem gedämpften mehrfarbigen Schuppenmuster.  Nicht klug genug, um auf die Prismenforelle eifersüchtig zu sein.\nIn den Kilima-Flüssen ohne Köder zu finden."
+  },
+  "BP_Fish_Red-bellied_piranha_C": {
+    "name": "Roter Piranha",
+    "description": "Ein aggressiver Flussräuber, der buchstäblich alles frisst.\nWird in Kilima-Flüssen gefunden und frisst Würmer."
+  },
+  "BP_Fish_RibbontailRay_C": {
+    "name": "Fleckenstechrochen",
+    "description": "Der Bänderschwanzrochen, der bekanntlich häufig in tropischen Gewässern anzutreffen ist, ist vor kurzem überraschend von den Inseln Inyrevn an die Westküste der Republik Palia gewandert.\nEr wurde vor der Küste der Bahari-Bucht gefunden, wo er morgens und abends Würmer fängt."
+  },
+  "BP_Fish_Rosy_Bitterling_C": {
+    "name": "Hongkong-Bitterling",
+    "description": "Ein Süßwasserfisch mit einem rosafarbenen Fleck auf dem Rücken.\nWird in den Bahari-Flüssen ohne Köder gefunden."
+  },
+  "BP_Fish_Sardine_C": {
+    "name": "Sardine",
+    "description": "Ein kleiner, aber flinker Futterfisch, den viele Majiri gerne in Essig eingelegt essen.\nWird vor der Küste der Bahari-Bucht ohne Köder gefunden."
+  },
+  "BP_Fish_Scarlet_Koi_C": {
+    "name": "Scharlach-Koi",
+    "description": "Ein schlanker Koi-Fisch mit tiefroter Zeichnung.\nMan findet ihn in Teichen mit Glühwürmchen."
+  },
+  "BP_Fish_Shimmerfin_C": {
+    "name": "Schimmerflosse",
+    "description": "Ein geheimnisvoller Fisch, der manchmal an zwei Orten gleichzeitig sein kann.\nIm Kilima-See mit Würmern gefunden."
+  },
+  "BP_Fish_SilverSalmon_C": {
+    "name": "Silberlachs",
+    "description": "Ein häufiger silbriger Fisch.\nAbends und nachts in den Kilima-Flüssen ohne Köder zu finden."
+  },
+  "BP_Fish_Silvery_Minnow_C": {
+    "name": "Silber-Elritze",
+    "description": "Gewöhnliche Elritze mit silbrigen Schuppen, die in der Sonne funkeln.\nIn den Bahari-Flüssen ohne Köder zu finden."
+  },
+  "BP_Fish_SmallmouthBass_C": {
+    "name": "Schwarzbarsch",
+    "description": "Ein gewöhnlicher Barsch, der wenig zu sagen hat und dafür bekannt ist, dass er gelegentlich aus dem Wasser springt.\nGefunden in Kilima See mit Würmern."
+  },
+  "BP_Fish_SpottedBullhead_C": {
+    "name": "Zwergwels",
+    "description": "Eine Groppe mit geflecktem Muster.\nWird in den Kilima-Flüssen ohne Köder gefunden."
+  },
+  "BP_Fish_Stalking_Catfish_C": {
+    "name": "Lauerwels",
+    "description": "Ein räuberischer blauer Wels, der schwache Fische in der Nähe angreift.\nAbends und nachts in Teichen mit Glühwürmchen zu finden."
+  },
+  "BP_Fish_Stickleback_C": {
+    "name": "Stichling",
+    "description": "Ein fleischfressender Fisch, der sich gerne von Rogen, Insekten, Krustentieren und den Zehen von Fischern ernährt.\nMan findet ihn in den Kilima-Flüssen, wo er morgens und tagsüber Würmer frisst."
   },
   "BP_Fish_Stonefish_C": {
-    "name": "Rock",
-    "description": ""
+    "name": "Steinfisch",
+    "description": "Der extrem giftige Steinfisch passt sich auf natürliche Weise seiner Umgebung an, während er auf Beute wartet.\nIn den Höhlen der Bahari-Bucht mit Glühwürmchen gefunden."
   },
-  "BP_Gatherable_Elouisa_Dropoff_C": {
-    "name": "Flothinger-Falle",
-    "description": "Ein ganz normaler Ort, an dem Flothinger zusammenkommen, um sich fangen zu lassen."
+  "BP_Fish_Striped_Dace_C": {
+    "name": "Streifenströmer",
+    "description": "Eine Plötze mit einem Streifenmuster auf dem Rücken.\nIn den Kilima-Flüssen ohne Köder zu finden."
+  },
+  "BP_Fish_StripedSturgeon_C": {
+    "name": "Streifenstör",
+    "description": "Ein bodenfressender Seefisch mit hellen Streifen, die es ihm ermöglichen, sich im Sonnenlicht zu tarnen.\nMan findet ihn im Kilima-See, wo er abends und nachts Würmer frisst."
+  },
+  "BP_Fish_Swordfin_Eel_C": {
+    "name": "Schwertnasen-Aal",
+    "description": "Ein Aal, der seinen eigenen Körper benutzt, um seine Beute zu zerlegen.\nWird in den Bahari-Flüssen mit Hilfe von Glühwürmchen gefunden."
+  },
+  "BP_Fish_Thundering_Eel_C": {
+    "name": "Blitzaal",
+    "description": "Ein elektrisch geladener Aal, der seine Beute mit einem Schock in die Flucht schlagen kann.\nWird in den Flüssen der Bahari-Bucht mit Würmern gefangen."
+  },
+  "BP_Fish_UmbranCarp_C": {
+    "name": "Umbran-Karpfen",
+    "description": "Der mit dem Feenkarpfen verwandte Umbran-Karpfen bevorzugt die dunkle Umgebung von Höhlen und unterirdischen Seesystemen.\nIn den Höhlen der Bahari-Bucht ohne Köder zu finden."
+  },
+  "BP_Fish_UnicornFish_C": {
+    "name": "Langnasiger Einhornfisch",
+    "description": "Das Horn des Einhornfisches ist für jeden Alchemisten oder Tränkemeister wertvoll. Aber Vorsicht, man sagt ihnen übersinnliche Fähigkeiten nach, die selbst den versiertesten Fischer dazu bringen können, links und rechts zu denken.\nMan findet sie vor der Küste der Bahari-Bucht, wenn sie tagsüber Glühwürmchen fangen."
+  },
+  "BP_Fish_Voidray_C": {
+    "name": "Rochen der Leere",
+    "description": "Außerirdisch und furchteinflößend. Manche sagen, der Voidray kann in das Reich der Echos eindringen und sich von kleineren Echos ernähren, die er findet.\nIn den Höhlen der Bahari-Bucht mit Glühwürmchen gefunden."
+  },
+  "BP_Fish_Willow_Lamprey_C": {
+    "name": "Weiden-Neunauge",
+    "description": "Ein langes, dünnes Neunauge, benannt nach seiner Ähnlichkeit mit den Zweigen eines Weidenbaums.\nMan findet es in den Flüssen der Bahari-Bucht, wo es nachts Würmer frisst."
+  },
+  "BP_Fish_Yellow_Perch_C": {
+    "name": "Flussbarsch",
+    "description": "Ein in Flüssen häufig vorkommender Barsch.\nIn Bahari-Flüssen ohne Köder zu finden."
+  },
+  "BP_Fish_Yellowfin_Tuna_C": {
+    "name": "Gelbflossen-Thunfisch",
+    "description": "Ein großer Thunfisch, der schneller schwimmen kann, als seine Größe vermuten lässt.\nGefunden vor der Küste der Bahari Bay mit Glühwürmchen."
   },
   "BP_Gatherable_MushroomBlue_C": {
     "name": "Leuchtpilz",
@@ -179,17 +487,9 @@
     "name": "Bergmorchel",
     "description": "Die Bergmorchel ist ein weitverbreiteter Pilz, den man auch bei uns finden kann! Sehr beliebt, ob roh oder gekocht."
   },
-  "BP_Gatherable_Ruins_C": {
-    "name": "„Uralte Begräbnisstätte“",
-    "description": "Der beste Ort, an den man eine Statue zurückbringen kann."
-  },
   "BP_HeartdropLilly_C": {
     "name": "Herztropfenlilie",
     "description": "Die Herztropfenlilie ist eine seltene Blume, die für Palianer eine besondere Bedeutung hat: das Aufblühen romantischer Liebe."
-  },
-  "BP_InsectBall_Stealth_C": {
-    "name": "InsectBall_Stealth_C",
-    "description": ""
   },
   "BP_Mining_Clay_C": {
     "name": "Clay Node",
@@ -255,10 +555,6 @@
     "name": "Muschel",
     "description": "Nachdem du so viele Muscheln am Meer gefunden hast, kannst du nicht mehr."
   },
-  "BP_ShrubChoppable_Bush_C": {
-    "name": "Bush",
-    "description": ""
-  },
   "BP_Spice_DariCloves_C": {
     "name": "Dari-Nelken",
     "description": "Die seltene Dari-Nelke ist ein bei Köchen und Alchemisten gleichermaßen beliebtes Gewürz. Ihr werden magische Eigenschaften nachgesagt."
@@ -283,36 +579,84 @@
     "name": "Large Birch Tree",
     "description": ""
   },
+  "BP_TreeChoppable_Birch_Large_CoOp_C": {
+    "name": "Flowing Large Birch Tree",
+    "description": ""
+  },
   "BP_TreeChoppable_Birch_Medium_C": {
     "name": "Medium Birch Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Medium_CoOp_C": {
+    "name": "Flowing Medium Birch Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Sapling_CoOp_C": {
+    "name": "Flowing Birch Sapling",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Small_C": {
     "name": "Small Birch Tree",
     "description": ""
   },
+  "BP_TreeChoppable_Birch_Small_CoOp_C": {
+    "name": "Flowing Small Birch Tree",
+    "description": ""
+  },
   "BP_TreeChoppable_Juniper_Large_C": {
     "name": "Large Juniper Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Large_CoOp_C": {
+    "name": "Flowing Large Juniper Tree",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Medium_C": {
     "name": "Medium Juniper Tree",
     "description": ""
   },
+  "BP_TreeChoppable_Juniper_Medium_CoOp_C": {
+    "name": "Flowing Medium Juniper Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Sapling_CoOp_C": {
+    "name": "Flowing Juniper Sapling",
+    "description": ""
+  },
   "BP_TreeChoppable_Juniper_Small_C": {
     "name": "Small Juniper Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Small_CoOp_C": {
+    "name": "Flowing Small Juniper Tree",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Large_C": {
     "name": "Large Oak Tree",
     "description": ""
   },
+  "BP_TreeChoppable_Oak_Large_CoOp_C": {
+    "name": "Flowing Large Oak Tree",
+    "description": ""
+  },
   "BP_TreeChoppable_Oak_Medium_C": {
     "name": "Medium Oak Tree",
     "description": ""
   },
+  "BP_TreeChoppable_Oak_Medium_CoOp_C": {
+    "name": "Flowing Medium Oak Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Sapling_CoOp_C": {
+    "name": "Flowing Oak Sapling",
+    "description": ""
+  },
   "BP_TreeChoppable_Oak_Small_C": {
     "name": "Small Oak Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Small_CoOp_C": {
+    "name": "Flowing Small Oak Tree",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Large_C": {
@@ -329,6 +673,10 @@
   },
   "BP_TreeChoppable_Pine_Medium_CoOp_C": {
     "name": "Flowing Medium Pine Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Sapling_CoOp_C": {
+    "name": "Flowing Pine Sapling",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Small_C": {
@@ -366,26 +714,6 @@
   "BP_WaterFlower_C": {
     "name": "Kristallsee-Lotos",
     "description": "Der Kristallsee-Lotos ist nach dem Ort benannt, an dem er entdeckt wurde, und wird heute zur Herstellung von Farbstoffen verwendet."
-  },
-  "BP_WaterPlane_Fishing_AZ1_Cave_SQ_C": {
-    "name": "WaterPlane_Fishing_AZ1_Cave_SQ_C",
-    "description": ""
-  },
-  "BP_WaterPlane_Fishing_LakeVillage_SQ_C": {
-    "name": "Lake",
-    "description": ""
-  },
-  "BP_WaterPlane_Fishing_PondVillage_SQ_C": {
-    "name": "Pond",
-    "description": ""
-  },
-  "BP_WaterPlane_Fishing_RiverAZ1_SQ_C": {
-    "name": "River",
-    "description": ""
-  },
-  "BP_WaterPlane_Fishing_RiverVillage_SQ_C": {
-    "name": "River",
-    "description": ""
   },
   "BP_WildGarlic_C": {
     "name": "Knoblauch",

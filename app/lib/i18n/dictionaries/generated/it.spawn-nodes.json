@@ -159,17 +159,325 @@
     "name": "Corallo",
     "description": "Porta la spiaggia a casa tua con questo pezzo di corallo. Si sente quasi il profumo della barriera corallina!"
   },
+  "BP_Fish_AlbinoEeel_C": {
+    "name": "Anguilla albina",
+    "description": "Anguilla priva di pigmentazione.\nSi può trovare nelle grotte di Cala Bahari e utilizza vermi."
+  },
+  "BP_Fish_Alligator_Gar_C": {
+    "name": "Pesce alligatore",
+    "description": "Un pesce carnivoro dalle squame viola brillante, il cui nome deriva dal suo lungo muso e dalle fila di grandi denti.\nSi può trovare nel lago di Kilima usando i vermi luminosi."
+  },
+  "BP_Fish_AncientFish_C": {
+    "name": "Pesce antico",
+    "description": "hese fish are as old as the continent of Palia itself, and were thought to be extinct. Guess you have something in common."
+  },
+  "BP_Fish_Bahari_Pike_C": {
+    "name": "Luccio bahariano",
+    "description": "Un luccio dalla tonalità verde intensa, originario di Cala Bahari.\nSi può trovare nei fiumi di Bahari usando i vermi luminosi."
+  },
+  "BP_Fish_BahariBream_C": {
+    "name": "Orata bahariana",
+    "description": "Questi pesci sono considerati un alimento base della dieta locale.\nSi può trovareno al largo della costa della Baia di Bahari usando i vermi."
+  },
+  "BP_Fish_Barracuda_C": {
+    "name": "Barracuda",
+    "description": "Un feroce predatore d'acqua salata, ottimo alla griglia con un po' di burro.\nSi può trovare al largo della costa di Cala Bahari senza esche la sera e la notte."
+  },
+  "BP_Fish_BatRay_C": {
+    "name": "Pipistrazza",
+    "description": "Una razza minacciosa, nota per balzare fuori dall'acqua come un pipistrello volante.\nSi può trovare nelle grotte di Cala Bahari usando i vermi."
+  },
+  "BP_Fish_Beluga_Sturgeon_C": {
+    "name": "Storione beluga",
+    "description": "Un grosso storione che cresce per tutta la sua vita.\nSi può trovare nel lago di Kilima usando i vermi luminosi."
+  },
+  "BP_Fish_Bigeye_Tuna_C": {
+    "name": "Tonno pinna blu",
+    "description": "Un elegante ma comune pesce, che si è adattato a nuotare rapidamente attraverso le correnti oceaniche. \nSi può trovare al largo della costa di Cala Bahari usando i vermi."
+  },
+  "BP_Fish_Black_Sea_Bass_C": {
+    "name": "Perchia striata",
+    "description": "Conosciute per le macchie nere sulla pelle, queste spigole sono gentili e non minacciose sia per i majiri che per gli esseri umani.\nSi può trovareno al largo della costa di Cala Bahari usando i vermi luminosi."
+  },
+  "BP_Fish_Blobfish_C": {
+    "name": "Pesce blob",
+    "description": "Un pesce viscido e gonfio che vive in fondo alle pozze delle caverne.\nSi può trovare nelle grotte di Cala Bahari usando i vermi luminosi."
+  },
+  "BP_Fish_Blue_Spotted_Ray_C": {
+    "name": "Razza blu maculata",
+    "description": "Una razza colorata dal corpo ricoperto da pois azzurri e la coda striata di blu.\nSi può trovare al largo della costa di Cala Bahari usando i vermi luminosi al mattino, al giorno e alla sera."
+  },
+  "BP_Fish_BlueMarlin_C": {
+    "name": "Marlin blu",
+    "description": "Grande e resistente, il marlin blu è considerato una preda speciale anche dai pescatori più esperti.\nSi può trovare al largo della costa di Cala Bahari usando i vermi."
+  },
+  "BP_Fish_Cactus_Moray_C": {
+    "name": "Murena cactus",
+    "description": "Un'anguilla con aculei appuntiti che crescono lungo la sua lunghezza per scoraggiare i predatori.\nSi può trovare al largo della costa di Cala Bahari usando i vermi luminosi di giorno e di notte."
+  },
+  "BP_Fish_CalicoKoi_C": {
+    "name": "Koi tartarugata",
+    "description": "Un pesce koi standard con un bel disegno calico.\nSi può trovare negli stagni senza l'uso di esche."
+  },
+  "BP_Fish_CantankerousKoi_C": {
+    "name": "Koi biliosa",
+    "description": "La leggenda locale narra che la prima Koi scorbutica fu un vecchio irascibile trasfigurato da una strega malvagia.\nSi può trovareno in stagni senza esche durante il giorno e la notte."
+  },
+  "BP_Fish_Channel_Catfish_C": {
+    "name": "Pesce gatto di fiume",
+    "description": "Un pesce gatto di fiume che si muove con disinvoltura tra le correnti veloci.\nSi può trovare nei fiumi di Kilima senza esche."
+  },
+  "BP_Fish_Chub_C": {
+    "name": "Cavedano",
+    "description": "Un pesce resistente, famoso per il suo ampio appetito.\nSi può trovare nei fiumi del Bahari usando i vermi luminosi."
+  },
+  "BP_Fish_Cloudfish_C": {
+    "name": "Pesce nube",
+    "description": "Un pesce che vive nei laghetti e si nutre sui fondali, capace di creare vorticose nuvole di sedimenti per nascondersi.\nSi può trovare negli stagni usando vermi luminosi al mattino e di giorno."
+  },
+  "BP_Fish_Codfish_C": {
+    "name": "Branzino bahariano",
+    "description": "Un pesce abbondante, usato come alimento di base, noto per il suo sapore delicato.\nSi può trovare al largo della costa di Cala Bahari senza esca."
+  },
+  "BP_Fish_Crimson_Fangtooth_C": {
+    "name": "Rana pescatrice cremisi",
+    "description": "Un piccolo pesce rosso con denti enormi in proporzione alle sue dimensioni.\nSi può trovare nelle grotte di Cala Bahari usando i vermi luminosi."
+  },
+  "BP_Fish_Crucian_Carp_C": {
+    "name": "Carassio",
+    "description": "Una carpa robusta dalle scaglie dorate color rame.\nSi può trovare nei fiumi di Kilima usando i vermi luminosi."
+  },
+  "BP_Fish_Cutthroat_Trout_C": {
+    "name": "Trota tagliagole",
+    "description": "Trota di fiume che prende il nome dalla sua lunga mascella e bocca.\nSi può trovare nei fiumi della Baia di Bahari usando i vermi."
+  },
+  "BP_Fish_Dawnray_C": {
+    "name": "Razza dell'alba",
+    "description": "Una razza dorata che va a caccia all'alba. Le sue squame assorbono la luce solare.\nSi può trovare nei fiumi di Bahari senza esca al mattino."
+  },
+  "BP_Fish_Duskray_C": {
+    "name": "Razza del tramonto",
+    "description": "Una razza screziata di carbone che caccia al crepuscolo, confondendosi con il letto del fiume.\nSi può trovare nei fiumi Bahari senza esca la sera."
+  },
+  "BP_Fish_Enchanted_Pupfish_C": {
+    "name": "Ciprinodonte stregato",
+    "description": "Un simpatico pesciolino capace di assorbire tracce di Flusso nelle sue squame.\nSi può trovare nel lago di Kilima usando i vermi luminosi."
+  },
+  "BP_Fish_Energized_Piranha_C": {
+    "name": "Piranha galvanizzato",
+    "description": "Un piranha infuso di magia dopo aver mangiato un ninnolo magico Grimalkin.\nSi può trovare nei fiumi di Kilima usando i vermi."
+  },
+  "BP_Fish_EyelessMinnow_C": {
+    "name": "Menola senz'occhi",
+    "description": "Una creatura delle caverne che non ha più bisogno degli occhi.\nSi può trovare nelle grotte di Cala Bahari senza esche."
+  },
+  "BP_Fish_FairyCarp_C": {
+    "name": "Carpa fatata",
+    "description": "Un pesce timido con una lucentezza ipnotica e traslucida.\nSi può trovare negli stagni con vermi al mattino e alla sera."
+  },
+  "BP_Fish_Fathead_Minnow_C": {
+    "name": "Menola testona",
+    "description": "Piccolo pesce d'acqua dolce noto per la sua testa sovradimensionata.\nSi può trovare nei fiumi delle Bahari usando i vermi luminosi."
+  },
+  "BP_Fish_Flametongue_Ray_C": {
+    "name": "Razza linguadifuoco",
+    "description": "Una rara razza fluviale che prende il nome dalle striature arancioni e rosse che le attraversano il dorso.\nSi può trovare nei fiumi di Kilima usando i vermi luminosi al mattino e durante il giorno."
+  },
+  "BP_Fish_FreshwaterEel_C": {
+    "name": "Anguilla d'acqua dolce",
+    "description": "Un pesce di fiume lungo e affusolato, spesso confuso con un serpente.\nSi può trovare nei fiumi di Kilima usando i vermi durante la sera e la notte."
+  },
+  "BP_Fish_Giant_Goldfish_C": {
+    "name": "Pesce rosso gigante",
+    "description": "Contro ogni previsione, alcuni pesci rossi vivono fino a raggiungere dimensioni leggendarie.\nSi può trovareno in stagni che utilizzano vermi luminosi."
+  },
+  "BP_Fish_Giant_Kilima_Stingray_C": {
+    "name": "Razza gigante di Kilima",
+    "description": "Signore del lago Kilima, questo pungiglione velenoso è in grado di perforare le ossa delle sue prede.\nSi può trovare nel lago di Kilima con vermi luminosi al mattino, al giorno e alla sera."
+  },
+  "BP_Fish_Gillyfin_C": {
+    "name": "Branchietto",
+    "description": "Il pesce più comune a Palia.\nSi può trovare nel lago di Kilima senza usare esche."
+  },
+  "BP_Fish_GoldenSalmon_C": {
+    "name": "Salmone dorato",
+    "description": "Una specie comune di salmone, nota per la sua capacità di prosperare al sole.\nSi può trovare nei fiumi di Kilima usando i vermi al mattino e durante il giorno."
+  },
+  "BP_Fish_Honey_Loach_C": {
+    "name": "Cobite miele",
+    "description": "Un pesce di fiume le cui strisce gialle e nere ricordano un'ape.\nSi può trovare nei fiumi del Bahari usando i vermi luminosi di giorno e di notte."
+  },
   "BP_Fish_Hypnotic_Moray_C": {
-    "name": "Fish_Hypnotic_Moray_C",
-    "description": ""
+    "name": "Murena ipnotica",
+    "description": "Una murena che attira le prede combinando i suoi movimenti ipnotici a una livrea sorprendente.\nSi può trovare nelle grotte di Cala Bahari usando i vermi luminosi."
+  },
+  "BP_Fish_Indigo_Lamprey_C": {
+    "name": "Lampreda indaco",
+    "description": "In passato i paliani raccoglievano le squame di questo pesce per ottenere una tintura di indaco intenso.\nSi può trovare nei fiumi di Kilima con le vermi luminose la sera e la notte."
+  },
+  "BP_Fish_Kenjis_Carp_C": {
+    "name": "Carpa di Kenli",
+    "description": "Kenli ha scoperto personalmente questa carpa vicino al villaggio di Kilima. Ha una notevole somiglianza con una carpa cruciana...\nSi può trovare nei fiumi di Kilima usando i vermi luminosi."
+  },
+  "BP_Fish_Kilima_Grayling_C": {
+    "name": "Temolo di Kilima",
+    "description": "Un pesce dalla forma affusolata che trascorre la prima parte della sua vita in mare prima di tornare nei fiumi della Valle di Kilima.\nSi può trovare nei fiumi di Kilima usando i vermi luminosi."
+  },
+  "BP_Fish_Kilima_Redfin_C": {
+    "name": "Persico di Kilima",
+    "description": "Un predatore fluviale aggressivo che mangia letteralmente di tutto.\nSi può trovare nei fiumi di Cala Bahari e utilizza vermi."
+  },
+  "BP_Fish_KilimaCatFish_C": {
+    "name": "Pesce gatto di Kilima",
+    "description": "Un tipo unico di pesce gatto che Si può trovare solo nella valle di Kilima.\nSi può trovare negli stagni con i vermi."
+  },
+  "BP_Fish_LargemouthBass_C": {
+    "name": "Persico trota",
+    "description": "Un branzino molto loquace che può inghiottire creature di peso superiore al 50% del proprio corpo.\nSi può trovare nel lago di KilimaTrov con i vermi."
+  },
+  "BP_Fish_Midnight_Paddlefish_C": {
+    "name": "Pesce spatola notturno",
+    "description": "Un raro pesce paletta che si nutre di notte, grazie alle sue squame scure che lo tengono nascosto dai predatori.\nSi può trovare nel lago di Kilima e usa vermi luminosi di notte."
+  },
+  "BP_Fish_Mirror_Carp_C": {
+    "name": "Carpa specchio",
+    "description": "Carpa argentata con squame simili a specchi.\nSi può trovare negli stagni con i vermi."
+  },
+  "BP_Fish_Mottled_Gobi_C": {
+    "name": "Ghiozzo striato",
+    "description": "Un pesce poco apprezzato che si nutre delle alghe in eccesso nello stagno.\nSi può trovare in stagni usando i vermi luminosi."
+  },
+  "BP_Fish_Mudminnow_C": {
+    "name": "Menola del fango",
+    "description": "Un pesciolino comune, noto per il suo colore fangoso.\nSi può trovare negli stagni senza l'uso di esche."
+  },
+  "BP_Fish_MutatedAngler_C": {
+    "name": "Rana pescatrice mutante",
+    "description": "Una mostruosità terrificante, che si dice sia un sopravvissuto dell'epoca degli umani.\nSi può trovare nelle grotte di Cala Bahari grazie ai vermi."
+  },
+  "BP_Fish_Oily_Anchovy_C": {
+    "name": "Acciuga oleosa",
+    "description": "Un pesce viscido che alcuni Majiri trovano stranamente appetitoso.\nSi può trovare nei fiumi della Baia di Bahari con i vermi."
+  },
+  "BP_Fish_Orange_Bluegill_C": {
+    "name": "Persico sole arancio",
+    "description": "Pesce onnivoro che predilige gli insetti, ma che mangia tutto ciò che riesce a mettere in bocca.\nSi può trovare negli stagni usando i vermi."
+  },
+  "BP_Fish_Paddlefish_C": {
+    "name": "Pesce spatola",
+    "description": "Un pesce primitivo che è sopravvissuto per milioni di anni.\nSi può trovare nei fiumi della Baia di Bahari usando i vermi al mattino, al giorno e alla sera."
+  },
+  "BP_Fish_PaintedPerch_C": {
+    "name": "Persico dipinto",
+    "description": "Un piccolo pesce di fiume noto per i suoi colori gradevoli.\nSi può trovare nel lago di Kilima usando i vermi."
+  },
+  "BP_Fish_Platinum_Chad_C": {
+    "name": "Cheppia platinata",
+    "description": "Le brillanti scaglie di platino di questo cavedano possono ingannare i pescatori con sogni di ricchezza.\nSi può trovare nei fiumi di Kilima e utilizza vermi luminosi."
+  },
+  "BP_Fish_PrismTrout_C": {
+    "name": "Trota arcobaleno",
+    "description": "Una splendida trota che alla luce del sole brilla come un'iridea.\nSi può trovare nel lago di Kilima con vermi al mattino e durante il giorno."
+  },
+  "BP_Fish_RadiantSunfish_C": {
+    "name": "Pesce sole splendente",
+    "description": "Uno splendido e radioso pesce di fiume, che emette un raggio di luce così accecante da sembrare di guardare il sole stesso.\nSi può trovare nei fiumi di Kilima usando i vermi."
+  },
+  "BP_Fish_Rainbow_Trout_C": {
+    "name": "Trota iridea",
+    "description": "Un pesce di fiume che sfoggia un disegno a squame multicolore attenuato.  Non è abbastanza intelligente da essere geloso della trota prismatica.\nSi può trovare nei fiumi di Kilima senza esche."
+  },
+  "BP_Fish_Red-bellied_piranha_C": {
+    "name": "Piranha rosso",
+    "description": "Un predatore fluviale aggressivo che mangia letteralmente di tutto.\nSi può trovare nei fiumi di Kilima usando i vermi."
+  },
+  "BP_Fish_RibbontailRay_C": {
+    "name": "Razza nastrina",
+    "description": "Conosciuto per la sua frequentazione delle acque tropicali, il Ribbon Tail Ray ha recentemente compiuto una sorprendente migrazione dalle isole di Inyrevn alla costa occidentale della Repubblica Paliana.\nÈ stato trovato al largo della costa di Cala Bahari usando i vermi al mattino e alla sera."
+  },
+  "BP_Fish_Rosy_Bitterling_C": {
+    "name": "Roseo amaro",
+    "description": "Un pesce d'acqua dolce con una macchia rosea sul dorso.\nSi può trovare nei fiumi Bahari senza esca."
+  },
+  "BP_Fish_Sardine_C": {
+    "name": "Sardina",
+    "description": "Un pesce piccolo, ma veloce, che molti Majiri amano mangiare in salamoia.\nSi può trovare al largo della costa di Cala Bahari senza esca."
+  },
+  "BP_Fish_Scarlet_Koi_C": {
+    "name": "Koi rossa",
+    "description": "Un elegante pesce koi con un disegno rosso intenso.\nSi può trovare in laghetti con vermi luminosi."
+  },
+  "BP_Fish_Shimmerfin_C": {
+    "name": "Brillopinna",
+    "description": "Un pesce misterioso che a volte può trovarsi in due posti contemporaneamente.\nSi può trovare nel lago di Kilima con i vermi."
+  },
+  "BP_Fish_SilverSalmon_C": {
+    "name": "Salmone argentato",
+    "description": "Un comune pesce argentato.\nSi può trovare nei fiumi di Kilima senza esca durante la sera e la notte."
+  },
+  "BP_Fish_Silvery_Minnow_C": {
+    "name": "Menola argentea",
+    "description": "Un pesciolino comune dalle squame argentee che risplendono al sole.\nSi può trovare nei fiumi di Bahari senza esca."
+  },
+  "BP_Fish_SmallmouthBass_C": {
+    "name": "Boccalino",
+    "description": "Una comune spigola. Non c'è molto da aggiungere, se non che salta fuori dall'acqua ogni tanto.\nSi può trovare nel lago di Kilima usando i vermi."
+  },
+  "BP_Fish_SpottedBullhead_C": {
+    "name": "Pesce gatto maculato",
+    "description": "Un pesce gatto dalla testa a toro e la livrea maculata.\nSi può trovare nei fiumi di Kilima senza esca."
+  },
+  "BP_Fish_Stalking_Catfish_C": {
+    "name": "Pesce gatto predatore",
+    "description": "Pesce gatto blu predatore che attacca i pesci vulnerabili nelle vicinanze.\nSi può trovare negli stagni con vermi luminosi la sera e la notte."
+  },
+  "BP_Fish_Stickleback_C": {
+    "name": "Spinarello",
+    "description": "Un pesce carnivoro che ama banchettare con uova di pesce, insetti, crostacei e le dita dei pescatori.\nSi può trovare nei fiumi di Kilima usando i vermi al mattino e di giorno."
   },
   "BP_Fish_Stonefish_C": {
-    "name": "Rock",
-    "description": ""
+    "name": "Pesce pietra",
+    "description": "Estremamente velenosi, i pesci pietra si mimetizzano naturalmente nell'ambiente circostante in attesa di una preda.\nSi può trovareno nelle grotte di Cala Bahari usando i vermi luminosi."
   },
-  "BP_Gatherable_Elouisa_Dropoff_C": {
-    "name": "Trappola per flatuline",
-    "description": "Un normalissimo posto adatto ad attirare e catturare flatuline."
+  "BP_Fish_Striped_Dace_C": {
+    "name": "Leucisco striato",
+    "description": "Un pesce dal dorso ricoperto di striature.\nSi può trovare nei fiumi di Kilima senza esca."
+  },
+  "BP_Fish_StripedSturgeon_C": {
+    "name": "Storione vergato",
+    "description": "Un pesce di lago che si nutre sui fondali, le cui strisce chiare gli permettono di mimetizzarsi alla luce del sole.\nSi può trovare nel lago di Kilima usando i vermi durante la sera e la notte."
+  },
+  "BP_Fish_Swordfin_Eel_C": {
+    "name": "Anguilla spada",
+    "description": "Un'anguilla predatrice che utilizza il proprio corpo per abbattere le prede.\nSi può trovare nei fiumi delle Bahari usando i vermi luminosi."
+  },
+  "BP_Fish_Thundering_Eel_C": {
+    "name": "Anguilla tonante",
+    "description": "Un'anguilla con carica elettrica in grado di sottomettere le sue prede.\nSi può trovare nei fiumi della Baia di Bahari usando i vermi."
+  },
+  "BP_Fish_UmbranCarp_C": {
+    "name": "Carpa ombrata",
+    "description": "Parente della carpa fatata, la carpa ombrata preferisce gli oscuri ambienti delle grotte e i sistemi lacustri sotterranei.\nSi può trovare nelle grotte di Cala Bahari senza esca."
+  },
+  "BP_Fish_UnicornFish_C": {
+    "name": "Pesce unicorno",
+    "description": "Il corno del pesce unicorno è prezioso per qualsiasi alchimista o maestro di pozioni. Ma attenzione, si dice che abbiano capacità psichiche tali da far pensare che la sinistra sia giusta anche al più abile dei pescatori.\nSi può trovareno al largo della costa di Cala Bahari usando vermi luminosi durante il giorno."
+  },
+  "BP_Fish_Voidray_C": {
+    "name": "Razza del vuoto",
+    "description": "Alieno e terrificante, secondo alcuni il Voidray può entrare nel regno dell'eco e nutrirsi degli eco più piccoli che trova.\nSi può trovare nelle grotte di Cala Bahari con le vermi luminose."
+  },
+  "BP_Fish_Willow_Lamprey_C": {
+    "name": "Lampreda salice",
+    "description": "Una lunga e sottile lampreda che prende il nome dalla sua somiglianza con i rami di un salice.\nSi può trovare nei fiumi di Cala Bahari usando i vermi durante la notte."
+  },
+  "BP_Fish_Yellow_Perch_C": {
+    "name": "Perca gialla",
+    "description": "Un persico di fiume comune.\nSi può trovare nei fiumi di Bahari senza esca."
+  },
+  "BP_Fish_Yellowfin_Tuna_C": {
+    "name": "Tonno pinna gialla",
+    "description": "Un grande tonno che può nuotare più veloce di quel che le dimensioni suggeriscono.\nSi può trovare  al largo della costa di Cala Bahari usando i vermi luminosi."
   },
   "BP_Gatherable_MushroomBlue_C": {
     "name": "Fungo luminoso",
@@ -179,17 +487,9 @@
     "name": "Spugnola di montagna",
     "description": "Le spugnole di montagna sono funghi comuni che si trovano facilmente nella propria casa! Molto apprezzate, sia crude che cotte."
   },
-  "BP_Gatherable_Ruins_C": {
-    "name": "Antico cimitero",
-    "description": "Il posto ideale a cui restituire una statua."
-  },
   "BP_HeartdropLilly_C": {
     "name": "Giglio cuore",
     "description": "Il giglio cuore è un fiore raro che ha un significato speciale per i paliani: lo sbocciare dell'amore romantico."
-  },
-  "BP_InsectBall_Stealth_C": {
-    "name": "InsectBall_Stealth_C",
-    "description": ""
   },
   "BP_Mining_Clay_C": {
     "name": "Clay Node",
@@ -255,10 +555,6 @@
     "name": "Conchiglia",
     "description": "Chi vende conchiglie in riva al mare? Nessuno. Devi trovarle da te."
   },
-  "BP_ShrubChoppable_Bush_C": {
-    "name": "Bush",
-    "description": ""
-  },
   "BP_Spice_DariCloves_C": {
     "name": "Chiodi di garofano Dari",
     "description": "Il raro chiodo di garofano Dari è una spezia molto amata sia da chef e alchimisti. Si dice che abbia proprietà magiche."
@@ -283,36 +579,84 @@
     "name": "Large Birch Tree",
     "description": ""
   },
+  "BP_TreeChoppable_Birch_Large_CoOp_C": {
+    "name": "Flowing Large Birch Tree",
+    "description": ""
+  },
   "BP_TreeChoppable_Birch_Medium_C": {
     "name": "Medium Birch Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Medium_CoOp_C": {
+    "name": "Flowing Medium Birch Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Sapling_CoOp_C": {
+    "name": "Flowing Birch Sapling",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Small_C": {
     "name": "Small Birch Tree",
     "description": ""
   },
+  "BP_TreeChoppable_Birch_Small_CoOp_C": {
+    "name": "Flowing Small Birch Tree",
+    "description": ""
+  },
   "BP_TreeChoppable_Juniper_Large_C": {
     "name": "Large Juniper Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Large_CoOp_C": {
+    "name": "Flowing Large Juniper Tree",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Medium_C": {
     "name": "Medium Juniper Tree",
     "description": ""
   },
+  "BP_TreeChoppable_Juniper_Medium_CoOp_C": {
+    "name": "Flowing Medium Juniper Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Sapling_CoOp_C": {
+    "name": "Flowing Juniper Sapling",
+    "description": ""
+  },
   "BP_TreeChoppable_Juniper_Small_C": {
     "name": "Small Juniper Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Small_CoOp_C": {
+    "name": "Flowing Small Juniper Tree",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Large_C": {
     "name": "Large Oak Tree",
     "description": ""
   },
+  "BP_TreeChoppable_Oak_Large_CoOp_C": {
+    "name": "Flowing Large Oak Tree",
+    "description": ""
+  },
   "BP_TreeChoppable_Oak_Medium_C": {
     "name": "Medium Oak Tree",
     "description": ""
   },
+  "BP_TreeChoppable_Oak_Medium_CoOp_C": {
+    "name": "Flowing Medium Oak Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Sapling_CoOp_C": {
+    "name": "Flowing Oak Sapling",
+    "description": ""
+  },
   "BP_TreeChoppable_Oak_Small_C": {
     "name": "Small Oak Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Small_CoOp_C": {
+    "name": "Flowing Small Oak Tree",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Large_C": {
@@ -329,6 +673,10 @@
   },
   "BP_TreeChoppable_Pine_Medium_CoOp_C": {
     "name": "Flowing Medium Pine Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Sapling_CoOp_C": {
+    "name": "Flowing Pine Sapling",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Small_C": {
@@ -366,26 +714,6 @@
   "BP_WaterFlower_C": {
     "name": "Loto di lago",
     "description": "Il loto del lago Cristallo prende il nome dal luogo in cui è stato scoperto ed è oggi utilizzato per la produzione di tinture."
-  },
-  "BP_WaterPlane_Fishing_AZ1_Cave_SQ_C": {
-    "name": "WaterPlane_Fishing_AZ1_Cave_SQ_C",
-    "description": ""
-  },
-  "BP_WaterPlane_Fishing_LakeVillage_SQ_C": {
-    "name": "Lake",
-    "description": ""
-  },
-  "BP_WaterPlane_Fishing_PondVillage_SQ_C": {
-    "name": "Pond",
-    "description": ""
-  },
-  "BP_WaterPlane_Fishing_RiverAZ1_SQ_C": {
-    "name": "River",
-    "description": ""
-  },
-  "BP_WaterPlane_Fishing_RiverVillage_SQ_C": {
-    "name": "River",
-    "description": ""
   },
   "BP_WildGarlic_C": {
     "name": "Aglio selvatico",

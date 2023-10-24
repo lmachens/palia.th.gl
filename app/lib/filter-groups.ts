@@ -3,7 +3,7 @@ export const filterGroups: {
     [key: string]: string[];
   };
 } = {
-  insects: {
+  bugCatching: {
     common: [
       "BP_Bug_CrabC_C",
       "BP_Bug_DragonflyC_C",

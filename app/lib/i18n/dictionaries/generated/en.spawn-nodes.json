@@ -159,17 +159,325 @@
     "name": "Coral",
     "description": "Bring the beach home with you with this piece of coral. You can almost smell the reef!"
   },
+  "BP_Fish_AlbinoEeel_C": {
+    "name": "Albino Eel",
+    "description": "An eel with no pigmentation.\r\nFound in Bahari Bay caves using worms."
+  },
+  "BP_Fish_Alligator_Gar_C": {
+    "name": "Alligator Gar",
+    "description": "A carnivorous fish with brilliant purple scales, the Alligator Gar is named after its long snout and rows of large teeth.\r\nFound in Kilima Lake using glow worms."
+  },
+  "BP_Fish_AncientFish_C": {
+    "name": "Ancient Fish",
+    "description": "hese fish are as old as the continent of Palia itself, and were thought to be extinct. Guess you have something in common."
+  },
+  "BP_Fish_Bahari_Pike_C": {
+    "name": "Bahari Pike",
+    "description": "A pike with a deep green hue native to Bahari Bay.\r\nFound in Bahari rivers using glow worms."
+  },
+  "BP_Fish_BahariBream_C": {
+    "name": "Bahari Bream",
+    "description": "These fish are widely considered to be a staple of the local diet.\r\nFound off the coast of Bahari Bay using worms."
+  },
+  "BP_Fish_Barracuda_C": {
+    "name": "Barracuda",
+    "description": "A vicious saltwater predator that tastes great lightly grilled with a little butter.\r\nFound off the coast of Bahari Bay without bait in the evening and night."
+  },
+  "BP_Fish_BatRay_C": {
+    "name": "Bat Ray",
+    "description": "An ominous ray that is known to leap out of the water like a flying bat.\r\nFound in Bahari Bay caves using worms."
+  },
+  "BP_Fish_Beluga_Sturgeon_C": {
+    "name": "Beluga Sturgeon",
+    "description": "A large sturgeon that grows throughout its entire lifetime.\r\nFound in Kilima Lake using glow worms."
+  },
+  "BP_Fish_Bigeye_Tuna_C": {
+    "name": "Bluefin Tuna",
+    "description": "A common, sleek fish adapted for swimming quickly through ocean currents.\r\nFound off the coast of Bahari Bay using worms."
+  },
+  "BP_Fish_Black_Sea_Bass_C": {
+    "name": "Black Sea Bass",
+    "description": "Known for the black spots on their skin, these bass are gentle and non-threatening to Majiri and humans alike.\r\nFound off the coast of Bahari Bay using glow worms."
+  },
+  "BP_Fish_Blobfish_C": {
+    "name": "Blobfish",
+    "description": "A bloated, slimy fish that lives at the bottom of cavern pools.\r\nFound in Bahari Bay caves using glow worms."
+  },
+  "BP_Fish_Blue_Spotted_Ray_C": {
+    "name": "Blue Spotted Ray",
+    "description": "A colorful stringray with bright blue spots across its body and blue stripes along its tail.\r\nFound off the coast of Bahari Bay using glow worms in the morning, day, and evening."
+  },
+  "BP_Fish_BlueMarlin_C": {
+    "name": "Blue Marlin",
+    "description": "A large and resilient fish. The Blue Marlin is considered a prize by even the most experienced fishermen.\r\nFound off the coast of Bahari Bay using worms."
+  },
+  "BP_Fish_Cactus_Moray_C": {
+    "name": "Cactus Moray",
+    "description": "An eel with sharp spines growing along its length to deter predators.\r\nFound off the coast of Bahari Bay using glow worms in the day and night."
+  },
+  "BP_Fish_CalicoKoi_C": {
+    "name": "Calico Koi",
+    "description": "A standard koi fish with a beautiful calico pattern.\r\nFound in ponds without using any bait."
+  },
+  "BP_Fish_CantankerousKoi_C": {
+    "name": "Cantankerous Koi",
+    "description": "Local legend has it that the first Cantankerous Koi was a cranky old man transfigured by a wicked witch.\r\nFound in ponds without using any bait during the day and at night."
+  },
+  "BP_Fish_Channel_Catfish_C": {
+    "name": "Channel Catfish",
+    "description": "A river catfish at home navigating fast currents.\r\nFound in Kilima Rivers without bait."
+  },
+  "BP_Fish_Chub_C": {
+    "name": "Chub",
+    "description": "A hard-fighting fish famous for its wide ranging appetite.\r\nFound in Bahari rivers using glow worms."
+  },
+  "BP_Fish_Cloudfish_C": {
+    "name": "Cloudfish",
+    "description": "A bottom feeding pondfish that creates swirling clouds of sediment for cover.\r\nFound in ponds using glow worms in the morning and day."
+  },
+  "BP_Fish_Codfish_C": {
+    "name": "Bahari Bass",
+    "description": "A bountiful, staple fish known for its mild flavor.\r\nFound off the coast of Bahari Bay without bait."
+  },
+  "BP_Fish_Crimson_Fangtooth_C": {
+    "name": "Crimson Fangtooth",
+    "description": "A small red fish with huge teeth in proportion to its own size.\r\nFound in Bahari Bay caves using glow worms."
+  },
+  "BP_Fish_Crucian_Carp_C": {
+    "name": "Crucian Carp",
+    "description": "A hardy carp with coppery golden scales.\r\nFound in Kilima rivers using glow worms."
+  },
+  "BP_Fish_Cutthroat_Trout_C": {
+    "name": "Cutthroat Trout",
+    "description": "A river trout named after its long jaw and mouth.\r\nFound in Bahari Bay rivers using worms."
+  },
+  "BP_Fish_Dawnray_C": {
+    "name": "Dawnray",
+    "description": "A golden ray that hunts at dawn, its scales absorbing the sun's light.\r\nFound in Bahari Rivers without bait in the morning."
+  },
+  "BP_Fish_Duskray_C": {
+    "name": "Duskray",
+    "description": "A mottled charcoal ray that hunts at dusk, blending into the riverbed.\r\nFound in Bahari Rivers without bait in the evening."
+  },
+  "BP_Fish_Enchanted_Pupfish_C": {
+    "name": "Enchanted Pupfish",
+    "description": "A cute little fish which can absorb trace amounts of Flow into its scales.\r\nFound in Kilima Lake using glow worms."
+  },
+  "BP_Fish_Energized_Piranha_C": {
+    "name": "Energized Piranha",
+    "description": "A pirhana infused with magic after consuming a Grimalkin magic trinket.\r\nFound in Kilima Rivers using worms."
+  },
+  "BP_Fish_EyelessMinnow_C": {
+    "name": "Eyeless Minnow",
+    "description": "A cave dwelling creature that has lost the need for eyes.\r\nFound in Bahari Bay caves without bait."
+  },
+  "BP_Fish_FairyCarp_C": {
+    "name": "Fairy Carp",
+    "description": "A shy fish with a hypnotically translucent sheen.\r\nFound in ponds using worms in the mornings and evenings."
+  },
+  "BP_Fish_Fathead_Minnow_C": {
+    "name": "Fathead Minnow",
+    "description": "A small freshwater fish known for its oversized head.\r\nFound in Bahari rivers using glow worms."
+  },
+  "BP_Fish_Flametongue_Ray_C": {
+    "name": "Flametongue Ray",
+    "description": "A rare river ray named for the bright orange and red streaks across its back.\r\nFound in Kilima rivers using glow worms in the morning and day."
+  },
+  "BP_Fish_FreshwaterEel_C": {
+    "name": "Freshwater Eel",
+    "description": "A long and lithe river fish often confused for a snake.\r\nFound in Kilima Rivers using worms in the evening and night."
+  },
+  "BP_Fish_Giant_Goldfish_C": {
+    "name": "Giant Goldfish",
+    "description": "Against all odds, some goldfish live to become legendary in size.\r\nFound in ponds using glow worms."
+  },
+  "BP_Fish_Giant_Kilima_Stingray_C": {
+    "name": "Giant Kilima Stingray",
+    "description": "The lord of Kilima Lake, this stingray's poisonous spike can also pierce the bones of its prey.\r\nFound in Kilima Lake using glow worms in the morning, day, and evening."
+  },
+  "BP_Fish_Gillyfin_C": {
+    "name": "Gillyfin",
+    "description": "The most common fish in Palia.\r\nFound in Kilima Lake without using bait."
+  },
+  "BP_Fish_GoldenSalmon_C": {
+    "name": "Golden Salmon",
+    "description": "A common sort of salmon known to thrive in the sunlight.\r\nFound in Kilima Rivers using worms in the morning and day."
+  },
+  "BP_Fish_Honey_Loach_C": {
+    "name": "Honey Loach",
+    "description": "A river fish whose yellow and black stripes resemble a honeybee.\r\nFound in Bahari rivers using glow worms at day and night."
+  },
   "BP_Fish_Hypnotic_Moray_C": {
-    "name": "Fish_Hypnotic_Moray_C",
-    "description": ""
+    "name": "Hypnotic Moray",
+    "description": "A moray eel that combines its striking pattern and hypnotic movements to lure in prey.\r\nFound in Bahari Bay caves using glow worms."
+  },
+  "BP_Fish_Indigo_Lamprey_C": {
+    "name": "Indigo Lamprey",
+    "description": "Palians in the past would harvest the scales of this fish to make a deep indigo dye.\r\nFound in Kilima rivers using glow worms in the evening and night."
+  },
+  "BP_Fish_Kenjis_Carp_C": {
+    "name": "Kenli's Carp",
+    "description": "Kenli personally discovered this carp near Kilima Village. Bears a remarkable resemblance to a Crucian Carp...\r\nFound in Kilima rivers using glow worms."
+  },
+  "BP_Fish_Kilima_Grayling_C": {
+    "name": "Kilima Grayling",
+    "description": "A streamlined fish that spends the first part of its life at sea before returning to the rivers of the Kilima Valley.\r\nFound in Kilima rivers using glow worms."
+  },
+  "BP_Fish_Kilima_Redfin_C": {
+    "name": "Kilima Redfin",
+    "description": "An aggressive river predator that will eat literally anything.\r\nFound in Bahari Bay rivers using worms."
+  },
+  "BP_Fish_KilimaCatFish_C": {
+    "name": "Kilima Catfish",
+    "description": "A unique type of catfish found only in the Kilima Valley.\r\nFound in ponds using worms."
+  },
+  "BP_Fish_LargemouthBass_C": {
+    "name": "Largemouth Bass",
+    "description": "A very talkative bass that can swallow creatures over 50% their own body weight.\r\nFound in Kilima Lake using worms."
+  },
+  "BP_Fish_Midnight_Paddlefish_C": {
+    "name": "Midnight Paddlefish",
+    "description": "A rare paddlefish that feeds at night, its dark scales keeping it hidden from predators.\r\nFound in Kilima Lake using glow worms at night."
+  },
+  "BP_Fish_Mirror_Carp_C": {
+    "name": "Mirror Carp",
+    "description": "A silvery carp with scales resembling mirrors.\r\nFound in ponds using worms."
+  },
+  "BP_Fish_Mottled_Gobi_C": {
+    "name": "Mottled Gobi",
+    "description": "An under appreciated fish that feeds on excess pond algae.\r\nFound in ponds using glow worms."
+  },
+  "BP_Fish_Mudminnow_C": {
+    "name": "Mudminnow",
+    "description": "A common minnow known for its muddy looking color.\r\nFound in ponds without using any bait."
+  },
+  "BP_Fish_MutatedAngler_C": {
+    "name": "Mutated Angler",
+    "description": "A terrifying monstrosity, said to be a survivor from the time of humans.\r\nFound in Bahari Bay caves using worms."
+  },
+  "BP_Fish_Oily_Anchovy_C": {
+    "name": "Oily Anchovy",
+    "description": "A slimy fish some Majiri find strangely appetizing.\r\nFound in Bahari Bay rivers using worms."
+  },
+  "BP_Fish_Orange_Bluegill_C": {
+    "name": "Orange Bluegill",
+    "description": "An omnivorous fish that prefers insects but will eat anything it can fit into its mouth.\r\nFound in ponds using worms."
+  },
+  "BP_Fish_Paddlefish_C": {
+    "name": "Paddlefish",
+    "description": "A primitive fish that has survived for millions of years.\r\nFound in Bahari Bay rivers using worms in the morning, day, and evening."
+  },
+  "BP_Fish_PaintedPerch_C": {
+    "name": "Painted Perch",
+    "description": "A petite river fish known for its pleasing colors.\r\nFound in Kilima Lake using worms."
+  },
+  "BP_Fish_Platinum_Chad_C": {
+    "name": "Platinum Chad",
+    "description": "The brilliant platinum scales of this chad can fool fishermen into dreams of wealth.\r\nFound in Kilima rivers using glow worms."
+  },
+  "BP_Fish_PrismTrout_C": {
+    "name": "Prism Trout",
+    "description": "A gorgeous trout that shines like rainbows in the sunlight.\r\nFound in Kilima Lake using worms in the morning and day."
+  },
+  "BP_Fish_RadiantSunfish_C": {
+    "name": "Radiant Sunfish",
+    "description": "A beautifully radiant river fish that emits a blinding ray of light many compare to looking directly into the sun.\r\nFound in Kilima Rivers using worms."
+  },
+  "BP_Fish_Rainbow_Trout_C": {
+    "name": "Rainbow Trout",
+    "description": "A river fish sporting a muted multicolor scale pattern.  Not smart enough to be jealous of the Prism Trout.\r\nFound in Kilima Rivers without bait."
+  },
+  "BP_Fish_Red-bellied_piranha_C": {
+    "name": "Red-bellied Piranha",
+    "description": "An aggressive river predator that will eat literally anything.\r\nFound in Kilima Rivers using worms."
+  },
+  "BP_Fish_RibbontailRay_C": {
+    "name": "Ribbontail Ray",
+    "description": "Known to frequent tropical waters, the Ribbon Tail Ray recently made a surprising migration from the isles of Inyrevn to the west coast of the Palian Republic.\r\nFound off the coast of Bahari Bay using worms in the morning and evening."
+  },
+  "BP_Fish_Rosy_Bitterling_C": {
+    "name": "Rosy Bitterling",
+    "description": "A freshwater fish with a rosy patch on its behind.\r\nFound in Bahari Rivers without bait."
+  },
+  "BP_Fish_Sardine_C": {
+    "name": "Sardine",
+    "description": "A small, but quick foraging fish that many Majiri enjoy eating when pickled.\r\nFound off the coast of Bahari Bay without bait."
+  },
+  "BP_Fish_Scarlet_Koi_C": {
+    "name": "Scarlet Koi",
+    "description": "A sleek koi fish with a deep red pattern.\r\nFound in ponds using glow worms."
+  },
+  "BP_Fish_Shimmerfin_C": {
+    "name": "Shimmerfin",
+    "description": "A mysterious fish that can sometimes be in two places at once.\r\nFound in Kilima Lake using worms."
+  },
+  "BP_Fish_SilverSalmon_C": {
+    "name": "Silver Salmon",
+    "description": "A common silvery fish.\r\nFound in Kilima Rivers without bait in evenings and nights."
+  },
+  "BP_Fish_Silvery_Minnow_C": {
+    "name": "Silvery Minnow",
+    "description": "A common minnow with silvery scales that sparkle in the sun.\r\nFound in Bahari Rivers without bait."
+  },
+  "BP_Fish_SmallmouthBass_C": {
+    "name": "Smallmouth Bass",
+    "description": "A common bass with very little to say that is known to occasionally leap from the water.\r\nFound in Kilima Lake using worms."
+  },
+  "BP_Fish_SpottedBullhead_C": {
+    "name": "Spotted Bullhead",
+    "description": "A bullhead with a spotted pattern.\r\nFound in Kilima Rivers without bait."
+  },
+  "BP_Fish_Stalking_Catfish_C": {
+    "name": "Stalking Catfish",
+    "description": "A predatory blue catfish that will attack nearby vulnerable fish.\r\nFound in ponds using glow worms in the evening and night."
+  },
+  "BP_Fish_Stickleback_C": {
+    "name": "Stickleback",
+    "description": "A carnivorous fish that enjoys feasting on roe, insects, crustaceans, and the toes of fisherman.\r\nFound in Kilima Rivers using worms in the morning and day."
   },
   "BP_Fish_Stonefish_C": {
-    "name": "Rock",
-    "description": ""
+    "name": "Stonefish",
+    "description": "Extremely poisonous, Stonefish naturally blend into their surroundings while waiting for prey.\r\nFound in Bahari Bay caves using glow worms."
   },
-  "BP_Gatherable_Elouisa_Dropoff_C": {
-    "name": "Flothinger Trap",
-    "description": "A perfectly normal place for Flothingers to gather and be trapped."
+  "BP_Fish_Striped_Dace_C": {
+    "name": "Striped Dace",
+    "description": "A dace with a striped pattern down its back.\r\nFound in Kilima Rivers without bait."
+  },
+  "BP_Fish_StripedSturgeon_C": {
+    "name": "Striped Sturgeon",
+    "description": "A bottom feeding lake fish with light colored stripes that allow it to camouflage in the sunlight.\r\nFound in Kilima Lake using worms in the evening and night."
+  },
+  "BP_Fish_Swordfin_Eel_C": {
+    "name": "Swordfin Eel",
+    "description": "An apex predator eel that uses its own body to cut down prey.\r\nFound in Bahari rivers using glow worms."
+  },
+  "BP_Fish_Thundering_Eel_C": {
+    "name": "Thundering Eel",
+    "description": "An electrically charged eel that can shock its prey into submission.\r\nFound in Bahari Bay rivers using worms."
+  },
+  "BP_Fish_UmbranCarp_C": {
+    "name": "Umbran Carp",
+    "description": "A relative of the Fairy Carp, the Umbran Carp prefers the dark environments of caves and underground lake systems.\r\nFound in Bahari Bay caves without bait."
+  },
+  "BP_Fish_UnicornFish_C": {
+    "name": "Long Nosed Unicorn Fish",
+    "description": "The horn of the unicorn fish is valuable to any alchemist or potion master. But beware, they are rumored to have psychic abilities that can make even the most accomplished fisherman think left is right.\r\nFound off the coast of Bahari Bay using glow worms during the day."
+  },
+  "BP_Fish_Voidray_C": {
+    "name": "Void Ray",
+    "description": "Alien and terrifying, some say the Voidray can enter the Echo realm and feed off smaller echoes it finds.\r\nFound in Bahari Bay caves using glow worms."
+  },
+  "BP_Fish_Willow_Lamprey_C": {
+    "name": "Willow Lamprey",
+    "description": "A long, thin lamprey named after its similarity to the branches of a willow tree.\r\nFound in Bahari Bay rivers using worms at night."
+  },
+  "BP_Fish_Yellow_Perch_C": {
+    "name": "Yellow Perch",
+    "description": "A common perch found in rivers.\r\nFound in Bahari Rivers without bait."
+  },
+  "BP_Fish_Yellowfin_Tuna_C": {
+    "name": "Yellowfin Tuna",
+    "description": "A large tuna that can swim faster than its size implies.\r\nFound off the coast of Bahari Bay using glow worms."
   },
   "BP_Gatherable_MushroomBlue_C": {
     "name": "Brightshroom",
@@ -179,17 +487,9 @@
     "name": "Mountain Morel",
     "description": "A common mushroom, Mountain Morels can be found right at home! Super popular, raw or cooked."
   },
-  "BP_Gatherable_Ruins_C": {
-    "name": "\"Ancient Burial Ground\"",
-    "description": "A great place to return a statue."
-  },
   "BP_HeartdropLilly_C": {
     "name": "Heartdrop Lily",
     "description": "The Heartdrop Lily is a rare flower with a special meaning to Palians: the blossoming of romantic love."
-  },
-  "BP_InsectBall_Stealth_C": {
-    "name": "InsectBall_Stealth_C",
-    "description": ""
   },
   "BP_Mining_Clay_C": {
     "name": "Clay Node",
@@ -255,10 +555,6 @@
     "name": "Shell",
     "description": "Who sells sea shells by the sea shore? No one. You had to find this yourself."
   },
-  "BP_ShrubChoppable_Bush_C": {
-    "name": "Bush",
-    "description": ""
-  },
   "BP_Spice_DariCloves_C": {
     "name": "Dari Cloves",
     "description": "The rare Dari Clove is a spice loved by chefs and alchemists alike. Said to have magical properties."
@@ -283,36 +579,84 @@
     "name": "Large Birch Tree",
     "description": ""
   },
+  "BP_TreeChoppable_Birch_Large_CoOp_C": {
+    "name": "Flowing Large Birch Tree",
+    "description": ""
+  },
   "BP_TreeChoppable_Birch_Medium_C": {
     "name": "Medium Birch Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Medium_CoOp_C": {
+    "name": "Flowing Medium Birch Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Sapling_CoOp_C": {
+    "name": "Flowing Birch Sapling",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Small_C": {
     "name": "Small Birch Tree",
     "description": ""
   },
+  "BP_TreeChoppable_Birch_Small_CoOp_C": {
+    "name": "Flowing Small Birch Tree",
+    "description": ""
+  },
   "BP_TreeChoppable_Juniper_Large_C": {
     "name": "Large Juniper Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Large_CoOp_C": {
+    "name": "Flowing Large Juniper Tree",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Medium_C": {
     "name": "Medium Juniper Tree",
     "description": ""
   },
+  "BP_TreeChoppable_Juniper_Medium_CoOp_C": {
+    "name": "Flowing Medium Juniper Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Sapling_CoOp_C": {
+    "name": "Flowing Juniper Sapling",
+    "description": ""
+  },
   "BP_TreeChoppable_Juniper_Small_C": {
     "name": "Small Juniper Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Small_CoOp_C": {
+    "name": "Flowing Small Juniper Tree",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Large_C": {
     "name": "Large Oak Tree",
     "description": ""
   },
+  "BP_TreeChoppable_Oak_Large_CoOp_C": {
+    "name": "Flowing Large Oak Tree",
+    "description": ""
+  },
   "BP_TreeChoppable_Oak_Medium_C": {
     "name": "Medium Oak Tree",
     "description": ""
   },
+  "BP_TreeChoppable_Oak_Medium_CoOp_C": {
+    "name": "Flowing Medium Oak Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Sapling_CoOp_C": {
+    "name": "Flowing Oak Sapling",
+    "description": ""
+  },
   "BP_TreeChoppable_Oak_Small_C": {
     "name": "Small Oak Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Small_CoOp_C": {
+    "name": "Flowing Small Oak Tree",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Large_C": {
@@ -329,6 +673,10 @@
   },
   "BP_TreeChoppable_Pine_Medium_CoOp_C": {
     "name": "Flowing Medium Pine Tree",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Sapling_CoOp_C": {
+    "name": "Flowing Pine Sapling",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Small_C": {
@@ -366,26 +714,6 @@
   "BP_WaterFlower_C": {
     "name": "Crystal Lake Lotus",
     "description": "The Crystal Lake Lotus is named after where it was discovered and is now used to make dyes."
-  },
-  "BP_WaterPlane_Fishing_AZ1_Cave_SQ_C": {
-    "name": "WaterPlane_Fishing_AZ1_Cave_SQ_C",
-    "description": ""
-  },
-  "BP_WaterPlane_Fishing_LakeVillage_SQ_C": {
-    "name": "Lake",
-    "description": ""
-  },
-  "BP_WaterPlane_Fishing_PondVillage_SQ_C": {
-    "name": "Pond",
-    "description": ""
-  },
-  "BP_WaterPlane_Fishing_RiverAZ1_SQ_C": {
-    "name": "River",
-    "description": ""
-  },
-  "BP_WaterPlane_Fishing_RiverVillage_SQ_C": {
-    "name": "River",
-    "description": ""
   },
   "BP_WildGarlic_C": {
     "name": "Wild Garlic",

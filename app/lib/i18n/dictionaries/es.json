@@ -78,7 +78,8 @@
         "mining": "Minería",
         "fishing": "Pesca",
         "hunting": "Caza",
-        "insects": "Insectos"
+        "bugCatching": "Insectos",
+        "lumberjacking": "Tala"
     },
     "settings": {
         "iconSize": "Tamaño del Icono",

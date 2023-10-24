@@ -78,7 +78,8 @@
     "mining": "Mining",
     "fishing": "Fishing",
     "hunting": "Hunting",
-    "insects": "Insects"
+    "bugCatching": "Insects",
+    "lumberjacking": "Lumberjacking"
   },
   "settings": {
     "iconSize": "Icon Size",

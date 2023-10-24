@@ -78,7 +78,8 @@
         "mining": "Miniera",
         "fishing": "Pesca",
         "hunting": "Caccia",
-        "insects": "Insetti"
+        "bugCatching": "Insetti",
+        "lumberjacking": "Taglio"
     },
     "settings": {
         "iconSize": "Dimensione dell'Icona",
