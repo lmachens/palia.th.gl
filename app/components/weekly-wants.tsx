@@ -3,17 +3,20 @@ import Image from "next/image";
 import Script from "next/script";
 import { useState } from "react";
 import { isOverwolfApp } from "../lib/env";
+import { DEFAULT_LOCALE } from "../lib/i18n";
 import { useWeeklyWantsStore } from "../lib/storage/weekly-wants";
 import { villagers } from "../lib/villager";
 import type { WEEKLY_WANTS } from "../lib/weekly-wants";
-import { useDict } from "./(i18n)/i18n-provider";
+import { useDict, useI18N } from "./(i18n)/i18n-provider";
 import ExternalLink from "./external-link";
 import Popover from "./popover";
 
 export default function WeeklyWants({ data }: { data?: WEEKLY_WANTS }) {
+  const i18n = useI18N();
   const dict = useDict();
   const [targetPopover, setTargetPopover] = useState<null | string>(null);
   const weeklyWants = useWeeklyWantsStore();
+
   return (
     <>
       <Script src="https://paliapedia.com/embed.js" async />
@@ -70,7 +73,9 @@ export default function WeeklyWants({ data }: { data?: WEEKLY_WANTS }) {
                 return (
                   <ExternalLink
                     key={item.name}
-                    href={`https://paliapedia.com/item/${item.item}`}
+                    href={`https://paliapedia.com/${
+                      i18n.locale === DEFAULT_LOCALE ? "" : `${i18n.locale}/`
+                    }item/${item.item}`}
                     text={
                       <label className="flex gap-1 text-sm">
                         <input
