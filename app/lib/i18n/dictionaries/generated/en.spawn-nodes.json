@@ -439,6 +439,10 @@
     "name": "Stonefish",
     "description": "Extremely poisonous, Stonefish naturally blend into their surroundings while waiting for prey.\r\nFound in Bahari Bay caves using glow worms."
   },
+  "BP_Fish_Stormray_C": {
+    "name": "Stormray",
+    "description": "A majestic river ray that hunts by twisting water currents and channeling lightning through its tail.\r\nFound in Bahari rivers using glow worms in the morning and evening."
+  },
   "BP_Fish_Striped_Dace_C": {
     "name": "Striped Dace",
     "description": "A dace with a striped pattern down its back.\r\nFound in Kilima Rivers without bait."

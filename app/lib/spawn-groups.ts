@@ -188,6 +188,7 @@ export const spawnGroups = {
     "BP_Fish_Stalking_Catfish_C",
     "BP_Fish_Stickleback_C",
     "BP_Fish_Stonefish_C",
+    "BP_Fish_Stormray_C",
     "BP_Fish_Striped_Dace_C",
     "BP_Fish_StripedSturgeon_C",
     "BP_Fish_Swordfin_Eel_C",

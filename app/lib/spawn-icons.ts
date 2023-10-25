@@ -109,6 +109,7 @@ export const spawnIcons = {
   BP_Fish_Stalking_Catfish_C: "Icon_Fish_Catfish_Stalking",
   BP_Fish_Stickleback_C: "Icon_Fish_Stickleback",
   BP_Fish_Stonefish_C: "Icon_Fish_Blobfish_Stonefish",
+  BP_Fish_Stormray_C: "Icon_Fish_Ray_Storm",
   BP_Fish_Striped_Dace_C: "Icon_Fish_Striped_Dace",
   BP_Fish_StripedSturgeon_C: "Icon_Fish_StripedSturgeon",
   BP_Fish_Swordfin_Eel_C: "Icon_Fish_Eel_Swordfin",

@@ -439,6 +439,10 @@
     "name": "Pez piedra",
     "description": "Extremadamente venenoso, el pez piedra se mimetiza con el entorno mientras espera a su presa.\nSe encuentra en las cuevas de Bahari Bay utilizando luciérnagas."
   },
+  "BP_Fish_Stormray_C": {
+    "name": "Rayo de tormenta",
+    "description": "Una majestuosa raya de río que caza retorciendo las corrientes de agua y canalizando rayos a través de su cola.\nSe encuentra en los ríos Bahari utilizando luciérnagas por la mañana y por la noche."
+  },
   "BP_Fish_Striped_Dace_C": {
     "name": "Leucisco rayado",
     "description": "Dace con rayas en el lomo.\nSe encuentra en los ríos Kilima sin cebo."

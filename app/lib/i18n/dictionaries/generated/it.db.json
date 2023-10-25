@@ -19,8 +19,14 @@
     "name": "Pollaio per peki",
     "description": "Può ospitare più peki."
   },
+  "DA_FireBundle": {
+    "name": "Vault of the Flames"
+  },
+  "DA_WaterShrineBundle": {
+    "name": "Volta delle Onde"
+  },
   "DA_CCI_Eyes_Aqua": {
-    "name": "Aqua"
+    "name": "Acqua"
   },
   "DA_CCI_Eyes_Blue": {
     "name": "Blu"
@@ -46,6 +52,9 @@
   "DA_CCI_Eyes_GrayDark": {
     "name": "Grigio"
   },
+  "DA_CCI_Eyes_GrayLightSilver": {
+    "name": "Verde"
+  },
   "DA_CCI_Eyes_GrayNeutral": {
     "name": "Grigio"
   },
@@ -53,6 +62,9 @@
     "name": "Verde"
   },
   "DA_CCI_Eyes_GreenForest": {
+    "name": "Verde"
+  },
+  "DA_CCI_Eyes_GreenLightSage": {
     "name": "Verde"
   },
   "DA_CCI_Eyes_Ocre": {
@@ -64,14 +76,65 @@
   "DA_CCI_Eyes_Red": {
     "name": "Rosso"
   },
+  "DA_CCI_Eyes_RedRose": {
+    "name": "Verde"
+  },
+  "DA_CCI_Eyes_StrawberryPink": {
+    "name": "Verde"
+  },
   "DA_CCI_Eyes_Teal": {
     "name": "Color foglia di tè"
+  },
+  "DA_CCI_Eyes_Violet": {
+    "name": "Verde"
+  },
+  "DA_CCI_Eyes_VioletDark": {
+    "name": "Verde"
   },
   "DA_CCI_Eyes_Yellow": {
     "name": "Giallo"
   },
+  "DA_CCI_FaceAcc_Glasses01_Base_Parent": {
+    "name": "Occhiali"
+  },
+  "DA_CCI_FaceAcc_Glasses02_Base_Parent": {
+    "name": "Occhiali"
+  },
+  "DA_CCI_FaceAcc_Glasses03_Base_Parent1": {
+    "name": "Occhiali"
+  },
+  "DA_CCI_FaceAcc_Glasses04_Base_Parent": {
+    "name": "Occhiali"
+  },
+  "DA_CCI_FaceAcc_RegalBlazer01_Base_Parent": {
+    "name": "Regale"
+  },
+  "DA_CCI_FaceAcc_RegalBlazer01_Variant01_Parent": {
+    "name": "Mitico"
+  },
+  "DA_CCI_FaceAcc_RegalBlazer01_Variant02_Parent": {
+    "name": "Botanico"
+  },
+  "DA_CCI_FaceAcc_Summer01_Base_Parent": {
+    "name": "Duna"
+  },
+  "DA_CCI_FaceAcc_Summer01_Variant01_Parent": {
+    "name": "Ibisco"
+  },
+  "DA_CCI_FaceAcc_Summer01_Variant02_Parent": {
+    "name": "Felce"
+  },
+  "DA_CCI_FaceCover_PlagueDoctor01_Base_Parent": {
+    "name": "Generalist"
+  },
+  "DA_CCI_FaceCover_PlagueDoctor01_Variant01_Parent": {
+    "name": "Botanist"
+  },
+  "DA_CCI_FaceCover_PlagueDoctor01_Variant02_Parent": {
+    "name": "Specialist"
+  },
   "DA_CCI_FaceMask_Glasses01_Base_Parent": {
-    "name": "Fotogrammi"
+    "name": "Occhiali"
   },
   "DA_CCI_Facemask_RegalBlazer01_Base_Parent": {
     "name": "Regale"
@@ -125,13 +188,31 @@
     "name": "Empyreal"
   },
   "DA_CCI_Hat_Fairy01_Base_Parent": {
-    "name": "Incantations Sylph Starfall"
+    "name": "Starfall"
   },
   "DA_CCI_Hat_Fairy01_Variant01_Parent": {
-    "name": "Incantations Sylph Vineglade"
+    "name": "Vineglade"
   },
   "DA_CCI_Hat_Fairy01_Variant02_Parent": {
-    "name": "Incantations Sylph Brightbloom"
+    "name": "Brightbloom"
+  },
+  "DA_CCI_Hat_GeekChic01_Base_Parent": {
+    "name": "Fiction"
+  },
+  "DA_CCI_Hat_GeekChic01_Variant01_Parent": {
+    "name": "Nonfiction"
+  },
+  "DA_CCI_Hat_GeekChic01_Variant02_Parent": {
+    "name": "Poetry"
+  },
+  "DA_CCI_Hat_HarvestDress01_Base_Parent": {
+    "name": "Poppy"
+  },
+  "DA_CCI_Hat_HarvestDress01_Variant01_Parent": {
+    "name": "Sunflower"
+  },
+  "DA_CCI_Hat_HarvestDress01_Variant02_Parent": {
+    "name": "Calendula"
   },
   "DA_CCI_Hat_Hoodie01_Variant02_Parent": {
     "name": "Chapaa Craze"
@@ -139,14 +220,41 @@
   "DA_CCI_Hat_Hoodie01_Variant03_Parent": {
     "name": "S6 Starfield"
   },
-  "DA_CCI_Hat_MochiMerchant01_Base_Parent": {
-    "name": "Takoyaki"
+  "DA_CCI_Hat_JollyBaker01_Base_Parent": {
+    "name": "Jolly Baker"
   },
-  "DA_CCI_Hat_MochiMerchant01_Variant01_Parent": {
+  "DA_CCI_Hat_JollyBaker01_Variant01_Parent": {
+    "name": "Ice Cream Baker "
+  },
+  "DA_CCI_Hat_JollyBaker01_Variant02_Parent": {
+    "name": "Pumpkin Baker "
+  },
+  "DA_CCI_Hat_MochiMerchant01_Base_Parent": {
     "name": "Mercato Mochi"
   },
-  "DA_CCI_Hat_MochiMerchant01_Variant02_Parent": {
+  "DA_CCI_Hat_MochiMerchant01_Variant01_Parent": {
     "name": "Cachi"
+  },
+  "DA_CCI_Hat_MochiMerchant01_Variant02_Parent": {
+    "name": "Takoyaki"
+  },
+  "DA_CCI_Hat_PalianWinterCoat01_Base_Parent": {
+    "name": "Crystal Glade"
+  },
+  "DA_CCI_Hat_PalianWinterCoat01_Variant01_Parent": {
+    "name": "Capital Finish"
+  },
+  "DA_CCI_Hat_PalianWinterCoat01_Variant02_Parent": {
+    "name": "Blizzard Walker"
+  },
+  "DA_CCI_Hat_PalianWinterCoat02_Base_Parent": {
+    "name": "Frosty Flourish"
+  },
+  "DA_CCI_Hat_PalianWinterCoat02_Variant01_Parent": {
+    "name": "Icy Splendor"
+  },
+  "DA_CCI_Hat_PalianWinterCoat02_Variant02_Parent": {
+    "name": "Blissful Chill"
   },
   "DA_CCI_Hat_Pirate01_Base_Parent": {
     "name": "Marittimo"
@@ -156,6 +264,15 @@
   },
   "DA_CCI_Hat_Pirate01_Variant02_Parent": {
     "name": "Cacciatore di tesori"
+  },
+  "DA_CCI_Hat_PlagueDoctor01_Base_Parent": {
+    "name": "Generalist"
+  },
+  "DA_CCI_Hat_PlagueDoctor01_Variant01_Parent": {
+    "name": "Botanist"
+  },
+  "DA_CCI_Hat_PlagueDoctor01_Variant02_Parent": {
+    "name": "Specialist"
   },
   "DA_CCI_Hat_Rancher01_Base_Parent": {
     "name": "Osso secco"
@@ -174,6 +291,15 @@
   },
   "DA_CCI_Hat_RegalBallroomDress01_Variant02_Parent": {
     "name": "Majinificent"
+  },
+  "DA_CCI_Hat_RiverGuardian01_Base_Parent": {
+    "name": "Batik"
+  },
+  "DA_CCI_Hat_RiverGuardian01_Variant01_Parent": {
+    "name": "Koi"
+  },
+  "DA_CCI_Hat_RiverGuardian01_Variant02_Parent": {
+    "name": "Moth"
   },
   "DA_CCI_Hat_SkyCaptain01_Base_Parent": {
     "name": "Pilota"
@@ -235,6 +361,15 @@
   "DA_CCI_Legs_Acolyte01_Variant01_Parent": {
     "name": "Isolano"
   },
+  "DA_CCI_Legs_Athleisure01_Base_Parent": {
+    "name": "Village Breeze"
+  },
+  "DA_CCI_Legs_Athleisure01_Variant01_Parent": {
+    "name": "Floral Shower"
+  },
+  "DA_CCI_Legs_Athleisure01_Variant02_Parent": {
+    "name": "Mossy Mist"
+  },
   "DA_CCI_Legs_BardStar01_Base_Parent": {
     "name": "Ballata"
   },
@@ -254,7 +389,7 @@
     "name": "Lieutenant"
   },
   "DA_CCI_Legs_CadetJacket01_Variant01_Parent": {
-    "name": "General"
+    "name": "Generale"
   },
   "DA_CCI_Legs_CadetJacket01_Variant02_Parent": {
     "name": "Admiral"
@@ -281,7 +416,7 @@
     "name": "In giro per la città"
   },
   "DA_CCI_Legs_Commoner02_Base_Parent": {
-    "name": "Vestibilità in velluto e flare"
+    "name": "Velluto svasato"
   },
   "DA_CCI_Legs_Commoner02_Variant01_Parent": {
     "name": "Broccato goffrato"
@@ -340,6 +475,15 @@
   "DA_CCI_Legs_FutureFashion01_Variant02_Parent": {
     "name": "Paracadutismo"
   },
+  "DA_CCI_Legs_GeekChic01_Base_Parent": {
+    "name": "Fiction"
+  },
+  "DA_CCI_Legs_GeekChic01_Variant01_Parent": {
+    "name": "Nonfiction"
+  },
+  "DA_CCI_Legs_GeekChic01_Variant02_Parent": {
+    "name": "Poetry"
+  },
   "DA_CCI_Legs_Gunshow01_Base_Parent": {
     "name": "Cavalca l'onda"
   },
@@ -356,7 +500,7 @@
     "name": "Lavoro sul campo"
   },
   "DA_CCI_Legs_Hoodie01_Base_Parent": {
-    "name": "Genitore della pianta"
+    "name": "Pianta madre"
   },
   "DA_CCI_Legs_Hoodie01_Variant01_Parent": {
     "name": "Campestre"
@@ -366,6 +510,15 @@
   },
   "DA_CCI_Legs_Hoodie01_Variant03_Parent": {
     "name": "S6 Starfield"
+  },
+  "DA_CCI_Legs_JollyBaker01_Base_Parent": {
+    "name": "Jolly Baker"
+  },
+  "DA_CCI_Legs_JollyBaker01_Variant01_Parent": {
+    "name": "Ice Cream Baker "
+  },
+  "DA_CCI_Legs_JollyBaker01_Variant02_Parent": {
+    "name": "Pumpkin Baker "
   },
   "DA_CCI_Legs_LayeredTurtleneck01_Base_Parent": {
     "name": "Finance"
@@ -413,7 +566,25 @@
     "name": "Semplicemente cucito"
   },
   "DA_CCI_Legs_OldClothes01_Variant01_Parent": {
-    "name": "Sbozzato grezzo"
+    "name": "Grezzo"
+  },
+  "DA_CCI_Legs_PalianWinterCoat01_Base_Parent": {
+    "name": "Crystal Glade"
+  },
+  "DA_CCI_Legs_PalianWinterCoat01_Variant01_Parent": {
+    "name": "Capital Finish"
+  },
+  "DA_CCI_Legs_PalianWinterCoat01_Variant02_Parent": {
+    "name": "Blizzard Walker"
+  },
+  "DA_CCI_Legs_PalianWinterCoat02_Base_Parent": {
+    "name": "Frosty Flourish"
+  },
+  "DA_CCI_Legs_PalianWinterCoat02_Variant01_Parent": {
+    "name": "Icy Splendor"
+  },
+  "DA_CCI_Legs_PalianWinterCoat02_Variant02_Parent": {
+    "name": "Blissful Chill"
   },
   "DA_CCI_Legs_Pirate01_Base_Parent": {
     "name": "Marittimo"
@@ -423,6 +594,15 @@
   },
   "DA_CCI_Legs_Pirate01_Variant02_Parent": {
     "name": "Cacciatore di tesori"
+  },
+  "DA_CCI_Legs_PlagueDoctor01_Base_Parent": {
+    "name": "Generalist"
+  },
+  "DA_CCI_Legs_PlagueDoctor01_Variant01_Parent": {
+    "name": "Botanist"
+  },
+  "DA_CCI_Legs_PlagueDoctor01_Variant02_Parent": {
+    "name": "Specialist"
   },
   "DA_CCI_Legs_Rancher01_Base_Parent": {
     "name": "Osso secco"
@@ -447,6 +627,15 @@
   },
   "DA_CCI_Legs_Rider01_Variant01_Parent": {
     "name": "Staffe"
+  },
+  "DA_CCI_Legs_RiverGuardian01_Base_Parent": {
+    "name": "Batik"
+  },
+  "DA_CCI_Legs_RiverGuardian01_Variant01_Parent": {
+    "name": "Koi"
+  },
+  "DA_CCI_Legs_RiverGuardian01_Variant02_Parent": {
+    "name": "Moth"
   },
   "DA_CCI_Legs_Rogue01_Base_Parent": {
     "name": "Stealth"
@@ -497,13 +686,13 @@
     "name": "Aquila"
   },
   "DA_CCI_Legs_SmartRuffle01_Base_Parent": {
-    "name": "SmartRuffle01"
+    "name": "Classicly Sleek"
   },
   "DA_CCI_Legs_SmartRuffle01_Variant01_Parent": {
-    "name": "SmartRuffle01"
+    "name": "Embroidered Elegance"
   },
   "DA_CCI_Legs_SmartRuffle01_Variant02_Parent": {
-    "name": "SmartRuffle01"
+    "name": "Gorgeous Gingko"
   },
   "DA_CCI_Legs_SpaDay01_Base_Parent": {
     "name": "Dipanare"
@@ -542,10 +731,10 @@
     "name": "Felce"
   },
   "DA_CCI_Legs_SunnyDay01_Base_Parent": {
-    "name": "Leggero e ventilato"
+    "name": "Leggero e arioso"
   },
   "DA_CCI_Legs_SunnyDay01_Variant01_Parent": {
-    "name": "Divertimento & Balzata"
+    "name": "Divertimento a balze"
   },
   "DA_CCI_Legs_Tunic01_Base_Parent": {
     "name": "Lino semplice"
@@ -571,6 +760,15 @@
   "DA_CCI_Legs_UrbanSport01_Variant02_Parent": {
     "name": "Alto impatto"
   },
+  "DA_CCI_Legs_Vampire01_Base_Parent": {
+    "name": "The Charmer"
+  },
+  "DA_CCI_Legs_Vampire01_Variant01_Parent": {
+    "name": "The Chiropteran"
+  },
+  "DA_CCI_Legs_Vampire01_Variant02_Parent": {
+    "name": "The Count"
+  },
   "DA_CCI_Legs_VintageBiz01_Base_Parent": {
     "name": "Business Casual"
   },
@@ -590,16 +788,16 @@
     "name": "Renewal"
   },
   "DA_CCI_Palcat": {
-    "name": "palgat delle sabbie"
+    "name": "Palgat delle sabbie"
   },
   "DA_CCI_Palcat_Variant01": {
-    "name": "palgat delle nevi"
+    "name": "Palgat delle nevi"
   },
   "DA_CCI_Palcat_Variant02": {
-    "name": "palgat della notte"
+    "name": "Palgat della notte"
   },
   "DA_CCI_Palcat_Variant03": {
-    "name": "palgat d'arcipelago"
+    "name": "Palgat d'arcipelago"
   },
   "DA_CCI_Torso_Academy01_Base_Parent": {
     "name": "Laureato"
@@ -615,6 +813,15 @@
   },
   "DA_CCI_Torso_Acolyte01_Variant01_Parent": {
     "name": "Isolano"
+  },
+  "DA_CCI_Torso_Athleisure01_Base_Parent": {
+    "name": "Village Breeze"
+  },
+  "DA_CCI_Torso_Athleisure01_Variant01_Parent": {
+    "name": "Floral Shower"
+  },
+  "DA_CCI_Torso_Athleisure01_Variant02_Parent": {
+    "name": "Mossy Mist"
   },
   "DA_CCI_Torso_BardStar01_Base_Parent": {
     "name": "Ballata"
@@ -635,7 +842,7 @@
     "name": "Lieutenant"
   },
   "DA_CCI_Torso_CadetJacket01_Variant01_Parent": {
-    "name": "General"
+    "name": "Generale"
   },
   "DA_CCI_Torso_CadetJacket01_Variant02_Parent": {
     "name": "Admiral"
@@ -671,7 +878,7 @@
     "name": "In giro per la città"
   },
   "DA_CCI_Torso_Commoner02_Base_Parent": {
-    "name": "Vestibilità in velluto e flare"
+    "name": "Velluto svasato"
   },
   "DA_CCI_Torso_Commoner02_Variant01_Parent": {
     "name": "Broccato goffrato"
@@ -704,13 +911,13 @@
     "name": "Guardia forestale"
   },
   "DA_CCI_Torso_Fairy01_Base_Parent": {
-    "name": "Incantations Sylph Starfall"
+    "name": "Starfall"
   },
   "DA_CCI_Torso_Fairy01_Variant01_Parent": {
-    "name": "Incantations Sylph Vineglade"
+    "name": "Vineglade"
   },
   "DA_CCI_Torso_Fairy01_Variant02_Parent": {
-    "name": "Incantations Sylph Brightbloom"
+    "name": "Brightbloom"
   },
   "DA_CCI_Torso_Farmer01_Base_Parent": {
     "name": "Germoglio tenero"
@@ -739,11 +946,29 @@
   "DA_CCI_Torso_FutureFashion01_Variant02_Parent": {
     "name": "Paracadutismo"
   },
+  "DA_CCI_Torso_GeekChic01_Base_Parent": {
+    "name": "Fiction"
+  },
+  "DA_CCI_Torso_GeekChic01_Variant01_Parent": {
+    "name": "Nonfiction"
+  },
+  "DA_CCI_Torso_GeekChic01_Variant02_Parent": {
+    "name": "Poetry"
+  },
   "DA_CCI_Torso_Gunshow01_Base_Parent": {
     "name": "Cavalca l'onda"
   },
   "DA_CCI_Torso_Gunshow01_Variant01_Parent": {
     "name": "Pascoli più verdi"
+  },
+  "DA_CCI_Torso_HarvestDress01_Base_Parent": {
+    "name": "Poppy"
+  },
+  "DA_CCI_Torso_HarvestDress01_Variant01_Parent": {
+    "name": "Sunflower"
+  },
+  "DA_CCI_Torso_HarvestDress01_Variant02_Parent": {
+    "name": "Calendula"
   },
   "DA_CCI_Torso_Herbalist01_Base_Parent": {
     "name": "Serra"
@@ -755,7 +980,7 @@
     "name": "Lavoro sul campo"
   },
   "DA_CCI_Torso_Hoodie01_Base_Parent": {
-    "name": "Genitore della pianta"
+    "name": "Pianta madre"
   },
   "DA_CCI_Torso_Hoodie01_Variant01_Parent": {
     "name": "Campestre"
@@ -765,6 +990,15 @@
   },
   "DA_CCI_Torso_Hoodie01_Variant03_Parent": {
     "name": "S6 Starfield"
+  },
+  "DA_CCI_Torso_JollyBaker01_Base_Parent": {
+    "name": "Jolly Baker"
+  },
+  "DA_CCI_Torso_JollyBaker01_Variant01_Parent": {
+    "name": "Ice Cream Baker "
+  },
+  "DA_CCI_Torso_JollyBaker01_Variant02_Parent": {
+    "name": "Pumpkin Baker "
   },
   "DA_CCI_Torso_LayeredTurtleneck01_Base_Parent": {
     "name": "Finance"
@@ -809,19 +1043,37 @@
     "name": "Passeggiata"
   },
   "DA_CCI_Torso_MochiMerchant01_Base_Parent": {
-    "name": "Takoyaki"
-  },
-  "DA_CCI_Torso_MochiMerchant01_Variant01_Parent": {
     "name": "Mercato Mochi"
   },
-  "DA_CCI_Torso_MochiMerchant01_Variant02_Parent": {
+  "DA_CCI_Torso_MochiMerchant01_Variant01_Parent": {
     "name": "Cachi"
+  },
+  "DA_CCI_Torso_MochiMerchant01_Variant02_Parent": {
+    "name": "Takoyaki"
   },
   "DA_CCI_Torso_OldClothes01_Base_Parent": {
     "name": "Semplicemente cucito"
   },
   "DA_CCI_Torso_OldClothes01_Variant01_Parent": {
-    "name": "Sbozzato grezzo"
+    "name": "Grezzo"
+  },
+  "DA_CCI_Torso_PalianWinterCoat01_Base_Parent": {
+    "name": "Crystal Glade"
+  },
+  "DA_CCI_Torso_PalianWinterCoat01_Variant01_Parent": {
+    "name": "Capital Finish"
+  },
+  "DA_CCI_Torso_PalianWinterCoat01_Variant02_Parent": {
+    "name": "Blizzard Walker"
+  },
+  "DA_CCI_Torso_PalianWinterCoat02_Base_Parent": {
+    "name": "Frosty Flourish"
+  },
+  "DA_CCI_Torso_PalianWinterCoat02_Variant01_Parent": {
+    "name": "Icy Splendor"
+  },
+  "DA_CCI_Torso_PalianWinterCoat02_Variant02_Parent": {
+    "name": "Blissful Chill"
   },
   "DA_CCI_Torso_Pirate01_Base_Parent": {
     "name": "Marittimo"
@@ -832,8 +1084,17 @@
   "DA_CCI_Torso_Pirate01_Variant02_Parent": {
     "name": "Cacciatore di tesori"
   },
+  "DA_CCI_Torso_PlagueDoctor01_Base_Parent": {
+    "name": "Generalist"
+  },
+  "DA_CCI_Torso_PlagueDoctor01_Variant01_Parent": {
+    "name": "Botanist"
+  },
+  "DA_CCI_Torso_PlagueDoctor01_Variant02_Parent": {
+    "name": "Specialist"
+  },
   "DA_CCI_Torso_PrairieDress01_Base_Parent": {
-    "name": "Semenzale"
+    "name": "Piantina"
   },
   "DA_CCI_Torso_PrairieDress01_Variant01_Parent": {
     "name": "Riffroc"
@@ -870,6 +1131,15 @@
   },
   "DA_CCI_Torso_Rider01_Variant01_Parent": {
     "name": "Staffe"
+  },
+  "DA_CCI_Torso_RiverGuardian01_Base_Parent": {
+    "name": "Batik"
+  },
+  "DA_CCI_Torso_RiverGuardian01_Variant01_Parent": {
+    "name": "Koi"
+  },
+  "DA_CCI_Torso_RiverGuardian01_Variant02_Parent": {
+    "name": "Moth"
   },
   "DA_CCI_Torso_Rogue01_Base_Parent": {
     "name": "Stealth"
@@ -920,13 +1190,13 @@
     "name": "Aquila"
   },
   "DA_CCI_Torso_SmartRuffle01_Base_Parent": {
-    "name": "SmartRuffle01"
+    "name": "Classicly Sleek"
   },
   "DA_CCI_Torso_SmartRuffle01_Variant01_Parent": {
-    "name": "SmartRuffle01"
+    "name": "Embroidered Elegance"
   },
   "DA_CCI_Torso_SmartRuffle01_Variant02_Parent": {
-    "name": "SmartRuffle01"
+    "name": "Gorgeous Gingko"
   },
   "DA_CCI_Torso_SpaDay01_Base_Parent": {
     "name": "Dipanare"
@@ -965,10 +1235,10 @@
     "name": "Felce"
   },
   "DA_CCI_Torso_SunnyDay01_Base_Parent": {
-    "name": "Leggero e ventilato"
+    "name": "Leggero e arioso"
   },
   "DA_CCI_Torso_SunnyDay01_Variant01_Parent": {
-    "name": "Divertimento & Balzata"
+    "name": "Divertimento a balze"
   },
   "DA_CCI_Torso_Teaparty01_Base_Parent": {
     "name": "Rosa canina"
@@ -1003,6 +1273,15 @@
   "DA_CCI_Torso_UrbanSport01_Variant02_Parent": {
     "name": "Alto impatto"
   },
+  "DA_CCI_Torso_Vampire01_Base_Parent": {
+    "name": "The Charmer"
+  },
+  "DA_CCI_Torso_Vampire01_Variant01_Parent": {
+    "name": "The Chiropteran"
+  },
+  "DA_CCI_Torso_Vampire01_Variant02_Parent": {
+    "name": "The Count"
+  },
   "DA_CCI_Torso_VarsityJacket01_Base_Parent": {
     "name": "Strisce di velocità"
   },
@@ -1019,7 +1298,7 @@
     "name": "Trapunta accogliente"
   },
   "DA_CCI_Torso_VNeckTie01_Variant01_Parent": {
-    "name": "Linee Lino"
+    "name": "Linee di lino"
   },
   "DA_CCI_VoiceSet_FemaleA": {
     "name": "Voce 1"
@@ -1109,24 +1388,24 @@
     "description": "Serve a ottenere una medaglia utilizzabile per l'acquisto di attrezzatura da pesca presso la gilda dei pescatori."
   },
   "DA_ItemType_QuestItem_Bouquet": {
-    "name": "Giglio gocciadisole",
-    "description": "Un mazzo di fiori luminoso, allegro e profumato."
+    "name": "Sundrop Lily",
+    "description": "A bright, cheery, and fragrant bouquet."
   },
   "DA_ItemType_QuestItem_Cake": {
-    "name": "Torta",
-    "description": "Una fetta di torta alle fragole."
+    "name": "Cake",
+    "description": "A slice of strawberry cake."
   },
   "DA_ItemType_QuestItem_ChefsHat": {
-    "name": "Cappello da chef",
-    "description": "Un cappello da chef che ti ha dato Reth."
+    "name": "Chef's Hat",
+    "description": "A chef's hat given to you by Reth."
   },
   "DA_ItemType_QuestItem_Dragonfly": {
-    "name": "Libellula sputafuoco",
-    "description": "Una libellula sputafuoco estremamente rara che Auni non può tenere a casa sua!"
+    "name": "Firebreathing Dragonfly",
+    "description": "An ultra rare fire-breathing dragonfly that Auni can't keep in his house!"
   },
   "DA_ItemType_QuestItem_Key": {
-    "name": "Chiave vecchia",
-    "description": "L'artefatto che cercava Jina."
+    "name": "Old Key",
+    "description": "The artifact Jina has been looking for."
   },
   "DA_ItemType_QuestItem_LetaDesign1": {
     "name": "Progetto del comunicatore",
@@ -1165,8 +1444,8 @@
     "description": "Un progetto per quella che sembra una tuta protettiva. Zeki ha scarabocchiato dei consigli utili per migliorarlo."
   },
   "DA_ItemType_QuestItem_Pearl": {
-    "name": "Perla d’acqua dolce",
-    "description": "Un tesoro proveniente da Lago Cristallo."
+    "name": "Freshwater Pearl",
+    "description": "A treasure from Crystal Lake."
   },
   "DA_ItemType_QuestRecipe_Boullabaise": {
     "name": "Ricettario bouillabaisse",
@@ -1200,6 +1479,10 @@
     "name": "Freccia pregiata",
     "description": "Una freccia normale che infligge danni elevati."
   },
+  "DA_ItemType_Ammo_Arrow_Flare": {
+    "name": "Flare Arrow",
+    "description": "Lost? Have a flare for the dramatic? Let your friends know where you are with these damage-free arrows that emit randomly-colored lights."
+  },
   "DA_ItemType_Ammo_Arrow_Lethargy": {
     "name": "Freccia del rallentamento",
     "description": "Una freccia che infligge danni medi e rallenta le creature."
@@ -1218,15 +1501,15 @@
   },
   "DA_ItemType_Ammo_InsectBall_Stealth": {
     "name": "Bomba fumogena subdola",
-    "description": "Shhh, non fiatare... Questa bomba fumogena impedisce di allertare gli insetti."
+    "description": "Shhh, non fiatare... Questa bomba fumogena ti aiuta a non spaventare gli insetti."
   },
   "DA_ItemType_Ammo_InsectBall_Sticky": {
     "name": "Bomba fumogena appiccicosa",
-    "description": "Questa bomba fumogena rallenta tutti gli insetti in un'area specifica."
+    "description": "Ehilà! Questa bomba fumogena rallenta tutti gli insetti in un'area specifica."
   },
   "DA_ItemType_Ammo_InsectBall_Supreme": {
     "name": "Bomba fumogena suprema",
-    "description": "Non puoi sbagliare! Questo fumogeno ha un tasso di cattura perfetto."
+    "description": "Non puoi sbagliare! Questa bomba fumogena fa sempre centro."
   },
   "DA_ItemType_Ammo_Arrow_Fireworks_Random": {
     "name": "Freccia pirotecnica",
@@ -1406,7 +1689,7 @@
   },
   "DA_ItemType_Ammo_Arrow_Fireworks_typeG_Blue": {
     "name": "Fuochi d'artificio roteanti blu",
-    "description": "Explodes in a shower of completely saA chaotic firework that bursts into lively orbs of swirling, blue lights."
+    "description": "Esplode in una pioggia di caotici fuochi d'artificio che si trasformano in brillanti sfere di vorticose luci blu."
   },
   "DA_ItemType_Ammo_Arrow_Fireworks_typeG_Green": {
     "name": "Fuochi d'artificio roteanti verdi",
@@ -1462,103 +1745,103 @@
   },
   "DA_ItemType_Bug_BeeR": {
     "name": "Ape dorata",
-    "description": "A rare bee, imported from the Akwindu province. Mead made from this bee's honey is said to be heavily consumed by the Queen of the province and her family.\r\nHas a chance to be found when chopping trees in Kilima during the morning and day."
+    "description": "Un'ape rara, importata dalla provincia di Akwindu. Si dice che l'idromele prodotto con il miele di quest'ape sia molto consumato dalla regina della provincia e dalla sua famiglia.\nÈ possibile trovarla quando si tagliano gli alberi a Kilima durante la mattina e il giorno."
   },
   "DA_ItemType_Bug_BeetleC": {
     "name": "Cimice maculata",
-    "description": "A bug known more for his strong musk than its striking colors.\r\nFound all around Kilima and Bahari Bay."
+    "description": "Un insetto noto più per il suo forte olezzo che per i suoi colori sorprendenti.\nSi può trovare in tutta la zona di Kilima e Cala Bahari."
   },
   "DA_ItemType_Bug_BeetleE": {
     "name": "Scarabeo d'ambra antico",
-    "description": "One of the oldest known insects species in Palia, was said to exist in the time of humans.\r\nFound in the forests of Bahari Bay. Also has a chance to be found when chopping trees in Bahari Bay."
+    "description": "Una delle più antiche specie di insetti conosciute a Palia, si dice che esistesse già ai tempi dell'uomo.\nSi può trovare nelle foreste di Cala Bahari. Si può trovare anche quando si tagliano gli alberi a Cala Bahari."
   },
   "DA_ItemType_Bug_BeetleR": {
     "name": "Coleottero del lampone",
-    "description": "A beetle whose entire diet consists of raspberries.\r\nFound around Badruu's Farm in Kilima."
+    "description": "Un coleottero la cui intera dieta consiste nel mangiare lamponi.\nSi può trovare nei pressi della fattoria di Badruu a Kilima."
   },
   "DA_ItemType_Bug_BeetleU": {
     "name": "Cervo volante fierocorno",
-    "description": "The horns of this stag beetle are said to resemble that of the Proudhorned Sernuk.\r\nHas a chance to be found when mining in Kilima."
+    "description": "Si dice che le corna di questo scarabeo cervo assomiglino a quelle del Sernuk dalle corna prodiformi.\nHa una possibilità di essere trovato durante le miniere di Kilima."
   },
   "DA_ItemType_Bug_BeeU": {
     "name": "Ape bahariana",
-    "description": "A local species of bees, known to produce delicious honey.\r\nHas a chance to be found when chopping trees in Bahari Bay."
+    "description": "Una specie locale di api, famosa per il suo delizioso miele.\nÈ possibile trovarla quando si tagliano gli alberi a Cala Bahari."
   },
   "DA_ItemType_Bug_ButterflyC": {
     "name": "Farfalla azzurra",
-    "description": "Ever resilient. Butterflies of this type can be found in almost every climate in Palia.\r\nFound all around Kilima and Bahari Bay during the morning and day."
+    "description": "Sempre resistente. Farfalle di questo tipo Si può trovareno in quasi tutti i climi di Palia.\nSi può trovareno in tutta la zona di Kilima e Cala Bahari durante la mattina e il giorno."
   },
   "DA_ItemType_Bug_ButterflyE": {
     "name": "Farfalla arcobaleno",
-    "description": "Ancient legends say this rare butterfly got its beautiful coloring from dipping the tip of its wings in a Well of Flow.\r\nFound in the Fields of Bahari Bay during the morning and day."
+    "description": "Secondo antiche leggende, questa rara farfalla ha ottenuto la sua splendida colorazione immergendo la punta delle ali in un pozzo di flusso.\nSi può trovare nei campi di Cala Bahari durante la mattina e il giorno."
   },
   "DA_ItemType_Bug_ButterflyR": {
     "name": "Farfalla occhidisole",
-    "description": "Whenever you see the sun out, you can see the eyes of this intricately patterned butterfly looking around Bahari Bay.\r\nFound in the Forests of Bahari Bay during the morning and day."
+    "description": "Ogni volta che si vede il sole, si possono vedere gli occhi di questa farfalla dai motivi intricati che si guardano intorno a Cala Bahari.\nSi può trovare nelle foreste di Cala Bahari durante la mattina e il giorno."
   },
   "DA_ItemType_Bug_ButterflyU": {
     "name": "Farfalla crepuscolare",
-    "description": "A beautiful butterfly with wings the color of dusk. Unique to the Kilima Valley.\r\nFound around the Dragon Shrine in Kilima during the morning and day."
+    "description": "Una bellissima farfalla dalle ali color del crepuscolo che vive esclusivamente nella valle di Kilima.\nSi può trovare nei pressi del Santuario del Drago a Kilima durante la mattina e il giorno."
   },
   "DA_ItemType_Bug_CicadaC": {
     "name": "Cicala di corteccia",
-    "description": "A common cicada.\r\nFound attached to trees in Bahari Bay during the morning and day."
+    "description": "Una cicala comune.\nSi può trovare attaccata agli alberi di Cala Bahari durante la mattina e il giorno."
   },
   "DA_ItemType_Bug_CicadaR": {
     "name": "Cicala infuocata",
-    "description": "A spirited cicada, whose bark is worse than its bite.\r\nFound attached to trees in Bahari Bay during the morning and day."
+    "description": "Una cicala vivace, la cui corteccia è peggiore del suo morso.\nSi può trovare attaccata agli alberi di Cala Bahari durante la mattina e il giorno."
   },
   "DA_ItemType_Bug_CicadaU": {
     "name": "Cicala cerulea",
-    "description": "The call of this cicada is so soothing, it was said to be the inspiration for Ayana's fourth symphony.\r\nFound attached to trees in Bahari Bay during the morning and day."
+    "description": "Il richiamo di questa cicala è così rilassante che si dice sia stato di ispirazione per la quarta sinfonia di Ayana.\nSi può trovare attaccata agli alberi di Cala Bahari durante la mattina e il giorno."
   },
   "DA_ItemType_Bug_CrabC": {
     "name": "Granchio bahariano",
-    "description": "A local crab, known to taste good with drawn butter.\r\nFound along the coast of Bahari Bay. Also has a chance to be found when foraging shells in Bahari Bay."
+    "description": "Un granchio locale, particolarmente buono con un po' di burro chiarificato.\nSi trova lungo la costa di Cala Bahari. È possibile trovarlo anche durante la raccolta di risorse a Cala Bahari."
   },
   "DA_ItemType_Bug_CrabR": {
     "name": "Granchio vampiro",
-    "description": "An invasive species of crab that sucks the life out of the local population.\r\nFound around the Flooded Fortress in Bahari Bay during the evening and night."
+    "description": "Una specie invasiva di granchio che succhia la vita della popolazione locale.\nSi può trovare intorno alla Fortezza Allagata di Cala Bahari durante la sera e la notte."
   },
   "DA_ItemType_Bug_CrabU": {
     "name": "Granchio spinoso",
-    "description": "A crab with a very spiny shell.\r\nFound along the coast of Bahari Bay."
+    "description": "Un granchio dalla corazza molto spinosa..\nSi può trovare lungo la costa di Cala Bahari."
   },
   "DA_ItemType_Bug_CricketC": {
     "name": "Grillo campestre",
-    "description": "Field crickets can be found anywhere you can find a field.\r\nFound all around Kilima and Bahari Bay."
+    "description": "I grilli di campo Si può trovareno ovunque ci sia un campo.\nSi può trovareno in tutta la zona di Kilima e Cala Bahari."
   },
   "DA_ItemType_Bug_CricketR": {
     "name": "Locusta pietrazzurra",
-    "description": "This little blue beauty has been known to camouflage itself as a shiny blue pebble.\r\nFound in the fields of Bahari Bay."
+    "description": "Questa piccola bellezza blu è nota per mimetizzarsi come un ciottolo blu lucido.\nSi può trovare nei campi di Cala Bahari."
   },
   "DA_ItemType_Bug_CricketU": {
     "name": "Cicalina",
-    "description": "The Garden Leafhopper is such a delight in Palia that many children keep them as pets. They are said to bring good luck.\r\nFound in the fields and Badruu's Farm in Kilima. Also has a chance to be found when foraging in Kilima."
+    "description": "La cavalletta da giardino è una tale delizia a Palia che molti bambini la tengono come animale domestico. Si dice che portino fortuna.\nSi può trovare nei campi e nella fattoria di Badruu a Kilima. È possibile trovarla anche durante il foraggiamento a Kilima."
   },
   "DA_ItemType_Bug_DragonflyC": {
     "name": "Libellula coda a pennello",
-    "description": "The tail of this Dragonfly is so bright and vibrant, some early Majiri were said to have used it as a paintbrush.\r\nFound around the lake in Kilima, as well as rivers and ponds in Bahari Bay."
+    "description": "La coda di questa libellula è così luminosa e vivace che si dice che alcuni Majiri primitivi la usassero come pennello.\nSi può trovare intorno al lago di Kilima, oltre che nei fiumi e negli stagni di Cala Bahari."
   },
   "DA_ItemType_Bug_DragonflyE": {
     "name": "Libellula alagemma",
-    "description": "A Dragonfly with wings as bright and colorful as any precious stone.\r\nFound near a cave entrance on a cliff in Bahari Bay."
+    "description": "Una libellula dalle ali colorate e luminose come pietre preziose.\nSi può trovare all'ingresso di una grotta su una scogliera a Cala Bahari."
   },
   "DA_ItemType_Bug_DragonflyR": {
     "name": "Libellula sputafuoco",
-    "description": "This Dragonfly is notoriously difficult to catch, in part due to its fiery breath.\r\nFound in the fields of Kilima."
+    "description": "Questa libellula è notoriamente difficile da catturare, in parte a causa del suo respiro infuocato.\nSi può trovare nei campi di Kilima."
   },
   "DA_ItemType_Bug_DragonflyU": {
     "name": "Libellula inchiostro",
-    "description": "This stealthy Dragonfly is used as a component in various black dyes and inks.\r\nFound around rivers and ponds in Bahari Bay."
+    "description": "Questa furtiva libellula è utilizzata come componente di vari coloranti e inchiostri neri.\nSi può trovare nei pressi dei fiumi e degli stagni di Cala Bahari."
   },
   "DA_ItemType_Bug_GlowbugC": {
     "name": "Insetto lanterna",
-    "description": "This bug glows as brightly as a colorful feast day lantern taking flight into the Palian night sky.\r\nFound along the coast and in forests of Bahari Bay during the evening and night."
+    "description": "Questo insetto brilla come una lanterna colorata del giorno di festa che spicca il volo nel cielo notturno di Palian.\nSi può trovare lungo la costa e nelle foreste di Cala Bahari durante la sera e la notte."
   },
   "DA_ItemType_Bug_GlowbugR": {
     "name": "Luminello bahariano",
-    "description": "A local species of bioluminescent fauna. Discovered by Professor Bonlin Amepongo.\r\nFound in the fields of Bahari Bay during the evening and night."
+    "description": "Una specie locale di fauna bioluminescente scoperta da Bonlin Amepongo.\nSi può trovare nei campi di Cala Bahari durante la sera e la notte."
   },
   "DA_ItemType_Bug_Glow_Worm": {
     "name": "Verme luminoso",
@@ -1566,59 +1849,59 @@
   },
   "DA_ItemType_Bug_LadybugR": {
     "name": "Coccinella principessa",
-    "description": "A very regal looking lady bug, made popular by the children's fairytale, The Princess Who Turned Into A Ladybug.\r\nFound around the lake in Kilima."
+    "description": "Una coccinella dall'aspetto molto regale, resa popolare dalla favola per bambini \"La principessa che si trasformò in coccinella\".\nSi può trovare intorno al lago di Kilima."
   },
   "DA_ItemType_Bug_LadybugU": {
     "name": "Coccinella",
-    "description": "A black and red ladybug, popular for controlling garden pests.\r\nHas a chance to be found when foraging in the fields of Bahari Bay."
+    "description": "Una coccinella rossa e nera, spesso usata per gestire i parassiti del giardino.\nÈ possibile trovarla durante la raccolta di risorse nei campi di Cala Bahari."
   },
   "DA_ItemType_Bug_MantisE": {
     "name": "Mantide fatata",
-    "description": "A mantis from early Majiri legend only recently confirmed to exist by modern entomologists. Said to have magical properties.\r\nFound in the fields of Bahari Bay."
+    "description": "Una mantide delle antiche leggende Majiri, confermata solo di recente dagli entomologi moderni. Si dice che abbia proprietà magiche. \nSi può trovare nei campi di Cala Bahari."
   },
   "DA_ItemType_Bug_MantisR1": {
     "name": "Mantide maculata",
-    "description": "A rare mantis with a beautiful set of spots.\r\nFound around the Dragon Shrine in Kilima."
+    "description": "Una mantide rara con una bella serie di macchie.\nSi può trovare nei pressi del Santuario del Drago a Kilima."
   },
   "DA_ItemType_Bug_MantisR2": {
     "name": "Mantide cacciafoglia",
-    "description": "An herbivorous mantis that exclusively eats leaves.\r\nHas a chance to be found when foraging in the forests of Bahari Bay."
+    "description": "Una mantide erbivora che si nutre esclusivamente di foglie.\nHa la possibilità di essere trovata quando si foraggia nelle foreste di Cala Bahari."
   },
   "DA_ItemType_Bug_MantisU": {
     "name": "Mantide da giardino",
-    "description": "Nothing to see here. Just your garden variety mantis.\r\nFound around the lake in Kilima. Also has a chance to be found when foraging around the lake in Kilima."
+    "description": "Non c'è niente da vedere qui. Solo la classica mantide da giardino.\nSi può trovare intorno al lago di Kilima. È possibile trovarla anche durante il foraggiamento intorno al lago di Kilima."
   },
   "DA_ItemType_Bug_MothC": {
     "name": "Falena notturna di Kilima",
-    "description": "While beautiful, the Kilima night moth is so prevalent on hot summer nights that some consider it to be a pest. Keep away from stored cloth.\r\nFound all around Kilima and Bahari Bay during the evening and night."
+    "description": "Pur essendo bella, la falena notturna Kilima è così diffusa nelle calde notti d'estate che alcuni la considerano un parassita. Tenere lontano dai tessuti conservati.\nSi può trovare in tutta Kilima e Cala Bahari durante la sera e la notte."
   },
   "DA_ItemType_Bug_MothR": {
     "name": "Falena velata",
-    "description": "The wings of this moth are so thin that some say you can see a peek of the Dragon Realm by looking through them.\r\nFound in the fields of Kilima during the evening and night."
+    "description": "Le ali di questa falena sono così sottili che alcuni dicono che si possa vedere una sbirciatina del Regno del Drago guardando attraverso di esse.\nSi può trovare nei campi di Kilima durante la sera e la notte."
   },
   "DA_ItemType_Bug_MothU": {
     "name": "Falena lunare",
-    "description": "The Lunar Fairy Moth is said to have a very special connection to the Dragon Moon, and is said to only appear at special times during its cycle.\r\nFound in the fields and forests of Bahari Bay during the evening and night."
+    "description": "Si dice che la falena lunare abbia un legame molto speciale con la Luna del Drago e che appaia solo in momenti particolari del suo ciclo.\nSi può trovare nei campi e nelle foreste di Cala Bahari durante la sera e la notte."
   },
   "DA_ItemType_Bug_PedeR1": {
     "name": "Millepiedi peloso",
-    "description": "A millipede with a hair growth problem.\r\nFound in the forests of Bahari Bay."
+    "description": "Un millepiedi dal pelo lungo.\nSi può trovare nelle foreste di Cala Bahari."
   },
   "DA_ItemType_Bug_PedeR2": {
     "name": "Centopiedi scintillino",
-    "description": "A rare centipede with a shiny hard shell.\r\nHas a chance to be found when mining in Bahari Bay."
+    "description": "Un raro millepiedi con un guscio duro e lucido.\nHa una possibilità di essere trovato quando si estrae nella Baia di Bahari."
   },
   "DA_ItemType_Bug_PedeU": {
     "name": "Millepiedi delle serre",
-    "description": "A brown and green millipede that loves feasting on garden crops.\r\nFound in the fields of Kilima. Also has a chance to be found when foraging in the fields of Kilima."
+    "description": "Un millepiedi verde e marrone che adora banchettare con i raccolti.\nSi trova nei campi di Kilima. Può essere trovato anche durante la raccolta di risorse nei campi di Kilima."
   },
   "DA_ItemType_Bug_SnailR": {
     "name": "Chiocciola dal guscio striato",
-    "description": "A snail with such distinctive stripes, that its shell was once used as currency among the early Majiri.\r\nFound along the coast in Bahari Bay."
+    "description": "Una lumaca con strisce così particolari che il suo guscio veniva usato come moneta di scambio dai primi Majiri.\nSi può trovare lungo la costa nella baia di Bahari."
   },
   "DA_ItemType_Bug_SnailU": {
     "name": "Chiocciola da giardino",
-    "description": "A snail that has evolved over time to look like a leaf. Good for hiding from predators, bad for hiding from the Leafstalker Mantis.\r\nFound along the coast and in forests of Bahari Bay."
+    "description": "Una lumaca che si è evoluta nel tempo per assomigliare a una foglia. Ottimo per nascondersi dai predatori, pessimo per nascondersi dalla mantide fogliaia.\nSi può trovare lungo la costa e nelle foreste di Cala Bahari."
   },
   "DA_ItemType_Bug_Worm": {
     "name": "Verme",
@@ -1733,7 +2016,7 @@
     "description": "Trota scottata all'aglio con patate, creata perché gli antichi esseri umani possano condividere l'amore di Einar per la pesca. I pesci abboccano più rapidamente per un breve periodo."
   },
   "DA_ItemType_C_DragonbreathRelleno": {
-    "name": "Stuffed Phoenixfire Pepper",
+    "name": "Phoenixfire Relleno",
     "description": "A spicy pepper, coated with egg and stuffed with your choice of meat. A single bite will have you working up a sweat! Or send you straight to the nearest clinic."
   },
   "DA_ItemType_C_FishermansBrew": {
@@ -1753,19 +2036,19 @@
     "description": "Riso e verdure fritte in padella con uova fresche, come piatto unico o contorno saporito. È anche un ottimo modo per utilizzare gli avanzi. "
   },
   "DA_ItemType_C_Grilled_Fish": {
-    "name": "Pesce alla griglia",
+    "name": "Pesce grigliato",
     "description": "Griglia il pesce sul fuoco e otterrai del cibo."
   },
   "DA_ItemType_C_Grilled_Meat": {
-    "name": "Carne alla griglia",
+    "name": "Carne grigliata",
     "description": "Quando il calore griglia la carne, si ottiene un ottimo pasto."
   },
   "DA_ItemType_C_Grilled_Mushroom": {
-    "name": "Funghi alla griglia",
+    "name": "Funghi grigliati",
     "description": "Sgranocchia questi funghi grigliati sul fuoco."
   },
   "DA_ItemType_C_Grilled_Oyster": {
-    "name": "Ostriche alla griglia",
+    "name": "Ostriche grigliate",
     "description": "Ostriche grigliate sul fuoco, senza bisogno del forno!"
   },
   "DA_ItemType_C_HaloHalo": {
@@ -2059,6 +2342,10 @@
     "name": "Glassa",
     "description": "Una dolce glassa al burro."
   },
+  "DA_ItemType_IG_Ingredient_FruitFrosting": {
+    "name": "Fruit Frosting",
+    "description": "Sweet Frosting used in Baking"
+  },
   "DA_ItemType_IG_Ingredient_Gravy": {
     "name": "Intingolo",
     "description": "Un condimento squisito."
@@ -2117,7 +2404,7 @@
   },
   "DA_ItemType_Crop_Carrot": {
     "name": "Carota",
-    "description": "Questa carota dolce e arancione migliorerà la tua vista, sia cruda che cotta. È piena di vitamina E!"
+    "description": "Questa carota dolce e arancione, sia cruda che cotta, migliorerà la tua vista. È piena di vitamina C!"
   },
   "DA_ItemType_Crop_Cherry": {
     "name": "Ciliegie",
@@ -2249,7 +2536,7 @@
   },
   "DA_ItemType_Decor_Alchemist_13_deco_planter": {
     "name": "Vaso per funghi Eclissi di Luna",
-    "description": "Doppi, doppi, fatica e dolore, fuoco brucia, bolli calderone... che si trasforma in un'elegante vaso per funghi."
+    "description": "Bolle, bolle, fatica e doglie! Il fuoco brucia, il calderone bolle... e si trasforma in un'elegante vaso per funghi."
   },
   "DA_ItemType_Decor_Alchemist_15_lighting_chandelier": {
     "name": "Lampadario Eclissi di Luna",
@@ -2265,11 +2552,11 @@
   },
   "DA_ItemType_Decor_Alchemist_18_furniture_dining_table": {
     "name": "Tavolo da pranzo Eclissi di Luna",
-    "description": "Questo tavolo da pranzo viene fornito già inciso con i simboli tipici degli studenti incantatori."
+    "description": "Questo tavolo da pranzo viene già inciso con i simboli tipici degli studenti incantatori."
   },
   "DA_ItemType_Decor_Alchemist_22_furniture_bathroom_bathtub": {
     "name": "Vasca da bagno Eclissi di Luna",
-    "description": "Questa vasca da bagno ti renderà così felice che salterai nel cielo notturno come un ormuu."
+    "description": "Questa vasca da bagno ti renderà così felice che salterai nel cielo notturno come un'ormuu."
   },
   "DA_ItemType_Decor_Alchemist_23_furniture_bathroom_rug_sm": {
     "name": "Tappeto piccolo Eclissi di Luna",
@@ -2405,7 +2692,7 @@
   },
   "DA_ItemType_Decor_Dragon_Furniture_Storage_Cabinet": {
     "name": "Credenza Corrente del Drago",
-    "description": "This study sideboard stores healer's herbs and medicines, and even has a countertop for potion making."
+    "description": "Questa credenza da studio conserva le erbe e le medicine usate dai guaritori e ha anche un piano d'appoggio per la preparazione delle pozioni."
   },
   "DA_ItemType_Decor_Dragon_Furniture_Wall_Clock": {
     "name": "Orologio da parete Corrente del Drago",
@@ -2504,8 +2791,8 @@
     "description": "Anche il più maestoso dei magistrati di Bahari a volte si è sentito sopraffatto. Questo letto è stato progettato appositamente per gestire questo genere di sentimenti."
   },
   "DA_ItemType_Decor_Fancy_12_deco_large_wall": {
-    "name": "Decorazione Campanula",
-    "description": "Questa decorazione ricorda lo stemma di Kenren Bahari, uno dei primi governatori della Repubblica di Palia."
+    "name": "Stendardo Campanula",
+    "description": "Questo stendardo ricorda quello di Kenren Bahari, uno dei primi governatori della Repubblica di Palia."
   },
   "DA_ItemType_Decor_Fancy_13_deco_planter": {
     "name": "Vaso per giunco Campanula",
@@ -2525,7 +2812,7 @@
   },
   "DA_ItemType_Decor_Fancy_18_furniture_dining_chair": {
     "name": "Sedia da pranzo Campanula",
-    "description": "Trova una posizione comoda su questa sedia da pranzo. Dovrai restarci per tutta la durata della cena di Eshe."
+    "description": "Mettiti comodo su questa sedia da pranzo. Dovrai restarci per tutta la durata della cena di Eshe."
   },
   "DA_ItemType_Decor_Fancy_19_furniture_dining_table": {
     "name": "Tavolo da pranzo Campanula",
@@ -2553,7 +2840,7 @@
   },
   "DA_ItemType_Decor_Fancy_25_furniture_bathroom_mirror": {
     "name": "Specchio Campanula",
-    "description": "Quando ti guardi in questo specchio, ti sentirai al tuo massimo splendore. Ti darà l'attitudine giusta per sentirti sempre giovane e affascinante."
+    "description": "Quando ti guardi in questo specchio, sei sempre al tuo massimo splendore. Ti dà l'attitudine giusta per sentirti sempre giovane e affascinante."
   },
   "DA_ItemType_Decor_Fancy_26_furniture_outdoor_fountain_1": {
     "name": "Fontana regale Campanula",
@@ -2573,11 +2860,11 @@
   },
   "DA_ItemType_Decor_Fancy_30_furniture_deco_clock": {
     "name": "Sveglia Campanula",
-    "description": "Eshelon ha comprato questo orologio per sua zia, Eshe, perché gli ricordava lei. È più rumoroso di quanto non sembri."
+    "description": "Eshelon ha comprato questo orologio per sua zia, Eshe, perché gliela ricordava. È più rumoroso di quanto non sembri."
   },
   "DA_ItemType_Decor_Fancy_33_furniture_toilet": {
-    "name": "Toilette Campanula",
-    "description": "I paliani abbracciano la natura circolare della vita. Tutto ha una fine, proprio come i tuoi pasti che un giorno finiranno in questa toilette."
+    "name": "Gabinetto Campanula",
+    "description": "I paliani abbracciano la natura ciclica della vita. Tutto ha una fine, proprio come i tuoi pasti che un giorno finiranno in questo gabinetto."
   },
   "DA_ItemType_Decor_Fancy_37_furniture_garden_decor_1": {
     "name": "Vaso di fiori Campanula",
@@ -2627,17 +2914,69 @@
     "name": "Piccone bucolico",
     "description": "Non si sa se presto o tardi ti servirà un piccone da giardinaggio ma, nel dubbio, sicuramente è bello averne uno a portata di mano."
   },
+  "DA_ItemType_Decor_Generic_128_deco_kitchen_wall_knives": {
+    "name": "Valley Sunrise Knife Set",
+    "description": "Nothing cozier than a comfy home for your knives. Hang it on the wall in your kitchen, or in other rooms to keep your guests on their toes."
+  },
   "DA_ItemType_Decor_Generic_131_deco_table_a": {
     "name": "Valley Sunrise Dining Table",
     "description": "From weeknight dinner to fine dining to poker game night, this practical table can do it all!"
+  },
+  "DA_ItemType_Decor_Generic_132_Deco_table_b": {
+    "name": "Valley Sunrise Oval Table",
+    "description": "A round wooden table with a thin table cloth draped across it. Ideal for early morning tea parties."
+  },
+  "DA_ItemType_Decor_Generic_136_deco_large_light_2": {
+    "name": "Valley Sunrise Lights",
+    "description": "Whether you're scared of the dark or just want to brighten up your space, this dangling lamp does the trick!"
   },
   "DA_ItemType_Decor_Generic_138_deco_large_light_4": {
     "name": "Valley Sunrise Hanging Lamp",
     "description": "Ever want to hang a bunch of onions from the ceiling? Now you can! But these ones glow and don't taste very good."
   },
+  "DA_ItemType_Decor_Generic_152_Deco_BlanketBasket": {
+    "name": "Blanket Storage Basket",
+    "description": "A perfect addition to your home for those chilly autumn nights when only a blanket will do"
+  },
+  "DA_ItemType_Decor_Generic_153_Deco_SewingBasket": {
+    "name": "Sewing Basket",
+    "description": "Are your sewing skills only “sew sew”? Improve them with this handy, dandy sewing basket."
+  },
+  "DA_ItemType_Decor_Generic_154_Deco_Basket_Lg": {
+    "name": "Cozy Woven Basket",
+    "description": "A cozy basket with a nice chonky weave."
+  },
+  "DA_ItemType_Decor_Generic_155_Deco_Basket_Med": {
+    "name": "Cozy Rattan Basket",
+    "description": "Did you know rattan is the name for over roughly 600 species of climbing palms used to make woven furniture? Now you do!"
+  },
+  "DA_ItemType_Decor_Generic_156_Deco_BlanketLadder": {
+    "name": "Cozy Ladder",
+    "description": "Is it a ladder? Is it a display shelf for your countless blankets? Only the fates can decide."
+  },
+  "DA_ItemType_Decor_Generic_157_Deco_LaundryBasket": {
+    "name": "Laundry Basket",
+    "description": "Need a place to store your dirty laundry? This basket has you covered."
+  },
+  "DA_ItemType_Decor_Generic_158_Deco_TieredBasket": {
+    "name": "Tiered Fruit Basket",
+    "description": "One fruit basket just not enough? Why not try out three fruit baskets attached with a rope?"
+  },
+  "DA_ItemType_Decor_Generic_159_Deco_FirewoodHolder": {
+    "name": "Firewood Holder",
+    "description": "What would a fireplace be without wood? Now you don't have to find out."
+  },
+  "DA_ItemType_Decor_Generic_160_Deco_PitcherBasin": {
+    "name": "Porcelain Pitcher",
+    "description": "This pitcher may not be able to win a roundball championship, but it can sure pour water."
+  },
   "DA_ItemType_Decor_Generic_81_deco_flower_terrarium_1": {
     "name": "Valley Sunrise Cloche",
     "description": "Molte leggende circondano questa misteriosa rosa che non appassisce mai. Forse è incantata? Benedetta dal Drago? O forse è solo falsa."
+  },
+  "DA_ItemType_Decor_Generic_89_deco_Bookshelf_A": {
+    "name": "Valley Sunrise Bookshelf",
+    "description": "This stylish bookshelf is the perfect spot to store your books and other priceless knick-knacks."
   },
   "DA_ItemType_Decor_Generic_90_Deco_kitchen_Washpan_Cabinet": {
     "name": "Valley Sunrise Sink",
@@ -2717,7 +3056,7 @@
   },
   "DA_ItemType_Decor_Gothic_20_furniture_bathtub": {
     "name": "Vasca da bagno Corvo imperiale",
-    "description": "Qualcuno sostiene che tu sia una creatura della foresta che non si lava? Non temere! Un bagno in questa bella vasca e non puzzerai più di cespuglio."
+    "description": "Qualcuno sostiene che tu sia una creatura della foresta che non si lava? Non temere! Un bagno in questa bella vasca e non puzzerai più."
   },
   "DA_ItemType_Decor_Gothic_21_furniture_nightstand": {
     "name": "Comodino Corvo imperiale",
@@ -2733,11 +3072,11 @@
   },
   "DA_ItemType_Decor_Gothic_26_furniture_shelves": {
     "name": "Mensola da parete Corvo imperiale",
-    "description": "Questa mensola ha la forma incantevole e floreale di quadrifoglio a metà. Quindi si potrebbe anche definire un... duofoglio?"
+    "description": "Questa mensola ha la forma incantevole di un quadrifoglio a metà. Quindi si potrebbe anche definire un... duofoglio?"
   },
   "DA_ItemType_Decor_Gothic_27_furniture_wall_clock": {
     "name": "Orologio da parete Corvo imperiale",
-    "description": "Udite, udite! L'orologio a muro suona! È giunto il momento di uscire allo scoperto e farsi conoscere, perché ti aspetta una giornata emozionante."
+    "description": "Udite, udite! L'orologio da parete suona! È giunto il momento di uscire allo scoperto e farsi conoscere, perché ti aspetta una giornata emozionante."
   },
   "DA_ItemType_Decor_Gothic_28_furniture_Cozy_Chair": {
     "name": "Poltrona Corvo imperiale",
@@ -2765,19 +3104,19 @@
   },
   "DA_ItemType_Decor_Gothic_37_furniture_outdoor_deco_stonework": {
     "name": "Pavimento Corvo imperiale",
-    "description": "Quando il legno comincia a venire a noia o non è abbastanza, puoi optare per questo pavimento in pietra, robusto e di grande effetto."
+    "description": "Quando il legno comincia a venirti a noia o non ti basta più, puoi optare per questo pavimento in pietra, robusto e di grande effetto."
   },
   "DA_ItemType_Decor_Gothic_38_furniture_outdoor_deco_lantern": {
     "name": "Lanterna Corvo imperiale",
-    "description": "Nel cuore di una notte uggiosa, mentre l'animo è provato e affranto, questa lanterna è tutto ciò di cui si ha bisogno."
+    "description": "Nel cuore di una notte uggiosa, quando il tuo animo è provato e affranto, questa lanterna è tutto ciò di cui a hai bisogno."
   },
   "DA_ItemType_Decor_Gothic_39_furniture_deco_vase": {
     "name": "Vaso Corvo imperiale",
     "description": "Questo vaso robusto è l'ideale per i tuoi fiori più preziosi. E se non ne hai, puoi sempre dire che sono invisibili."
   },
   "DA_ItemType_Decor_Gothic_41_furniture_toilet": {
-    "name": "Toilette Corvo imperiale",
-    "description": "Se il richiamo della natura dovesse svegliarti in una notte di mezza estate, questa toilette ti riporterà in men che non si dica a cavalcare nei boschi."
+    "name": "Gabinetto Corvo imperiale",
+    "description": "Se il richiamo della natura dovesse svegliarti in una notte di mezza estate, questo gabinetto ti riporterà in men che non si dica a scorrazzare nei boschi."
   },
   "DA_ItemType_Decor_Gothic_42_furniture_outdoor_lamp": {
     "name": "Lampada da terra Corvo imperiale",
@@ -2786,6 +3125,38 @@
   "DA_ItemType_Decor_Gothic_43_furniture_wall_cupboard": {
     "name": "Credenza da parete Corvo imperiale",
     "description": "Se cerchi dei piatti per uno spuntino di mezzanotte al chiaro di luna, allora hai bisogno di questa credenza da parete maestosa. "
+  },
+  "DA_ItemType_Decor_Halloween_01_deco_PlainPumpkin": {
+    "name": "Spooky Heirloom Pumpkin",
+    "description": "A gorgeous fire orange rind and deep, chunky ribs, no spooky display is complete without a jumbo-sized pumpkin on your porch.   "
+  },
+  "DA_ItemType_Decor_Halloween_02_deco_JackOLantern": {
+    "name": "Spooky Jaak-O-Lantern",
+    "description": "A spooky lantern carved from a fresh pumpkin. What is its secret to staying forever young? Only Jaak knows."
+  },
+  "DA_ItemType_Decor_Halloween_03_deco_JackOLantern_Searnuk": {
+    "name": "Spooky Sernuk-O-Lantern",
+    "description": "The searing gaze of a sernuk burns into you from the hollows of this spooky lantern. Or maybe it's just Jaak playing tricks on you."
+  },
+  "DA_ItemType_Decor_Halloween_04_deco_SpookyCandle_01": {
+    "name": "Spooky Candles",
+    "description": "As dusk falls on the eve of the spooky moon, the shadows come out to play. Keep these candles close, or the darkness might swallow you whole."
+  },
+  "DA_ItemType_Decor_Halloween_05_deco_SpookyCandle_02": {
+    "name": "Spooky Wax Candle",
+    "description": "When night swallows day, you'll need the light to chase the dark away. A small flame, bright on a wick. A floating candle should do the trick."
+  },
+  "DA_ItemType_Decor_Halloween_06_deco_PumpkinPile": {
+    "name": "Spooky Pumpkin Stack",
+    "description": "You reap what you sow, with a patch full of pumpkins, Jaak's generosity truly shows."
+  },
+  "DA_ItemType_Decor_Halloween_07_Pumpkin_01": {
+    "name": "Spooky Pumpkin",
+    "description": "A sign of the approaching spooky season, hundreds of young Majiri flood the Kilima fields to harvest these small seasonal gourds."
+  },
+  "DA_ItemType_Decor_Halloween_08_Pumpkin_02": {
+    "name": "Spooky Vined Pumpkin",
+    "description": "Fresh from the vine, this succulent pumpkin is ready to be carved and made into treats and other spooky delicacies. "
   },
   "DA_ItemType_Decor_Harvest_Ambient_Props_Bottle_01": {
     "name": "Bottiglia lunga Querciantica",
@@ -2950,6 +3321,10 @@
   "DA_ItemType_Decor_Harvest_Furniture_Coffee_Table": {
     "name": "Tavolino da caffè Querciantica",
     "description": "Un tavolo basso in legno abbastanza grande da permettere a un nutrito gruppo di amici di giocare a carte o ai giochi da tavolo."
+  },
+  "DA_ItemType_Decor_harvest_furniture_couch": {
+    "name": "Divano di Kilima",
+    "description": "Badruu ha un intero fienile per la sua musica, ma questo divano è tutto ciò che ti serve per far nascere una canzone. Siediti e strimpella via il dolore."
   },
   "DA_ItemType_Decor_Harvest_Furniture_Display_Case_Lrg_Tall": {
     "name": "Vetrina Querciantica",
@@ -3296,16 +3671,16 @@
     "description": "Una delicata parete divisoria in carta traslucida, ispirata ai giochi di ombre che un tempo erano popolari al Mercato Maji."
   },
   "DA_ItemType_Decor_MajiMarket_02_deco_Phoenix_Plushie": {
-    "name": "Peluche Embra del chiosco dei chapaa",
-    "description": "Ispira uno storico in erba con questo luminoso peluche di Embra, la Fenice! Ti terrà sicuramente al caldo di notte."
+    "name": "Peluche Embra del Chiosco dei chapaa",
+    "description": "Ispira uno storico in erba con questo brillante peluche di Embra, la Fenice! Ti terrà sicuramente al caldo di notte."
   },
   "DA_ItemType_Decor_MajiMarket_03_deco_Dragon_Plushie": {
-    "name": "Peluche Maji del chiosco dei chapaa",
-    "description": "Abbellisci la tua casa con questo tenerissimo peluche di Maji, il drago! Lascia che la sua morbida presenza ti infonda serenità."
+    "name": "Peluche Maji del Chiosco dei chapaa",
+    "description": "Abbellisci la tua casa con questo tenerissimo peluche di Maji, il Drago! Lascia che la sua morbida presenza ti infonda serenità."
   },
   "DA_ItemType_Decor_MajiMarket_04_deco_Poster_01": {
-    "name": "Decorazione lunare del mercato Maji",
-    "description": "Uno striscione in onore del mercato Maji. È così bello che i tuoi amici penseranno che hai appeso le lune stesse!"
+    "name": "Stendardo lunare del mercato Maji",
+    "description": "Uno stendardo in onore del mercato Maji. È così bello che i tuoi amici penseranno che hai appeso le lune stesse!"
   },
   "DA_ItemType_Decor_MajiMarket_05_deco_Fan": {
     "name": "Ventaglio del Drago del mercato Maji",
@@ -3324,20 +3699,20 @@
     "description": "Questi alberi paliani fioriscono solo per poche settimane in primavera, ma i rami possono durare molto più a lungo se tenuti all'interno e curati con un po' d'amore."
   },
   "DA_ItemType_Decor_MajiMarket_10_deco_Balloon_Chapaa_Single": {
-    "name": "Palloncino chapaa del chiosco dei chapaa",
+    "name": "Palloncino chapaa del Chiosco dei chapaa",
     "description": "Una testa di chapaa gonfiabile che piacerà a tutti! Soprattutto ai bambini."
   },
   "DA_ItemType_Decor_MajiMarket_11_deco_Skateboard_Chapaa": {
-    "name": "Skateboard Bahari del chiosco dei chapaa",
-    "description": "Sfreccia lungo la spiaggia veloce come una chapaa sulla tua nuovo skateboard Bahari. Perfetta per gli adolescenti ribelli e per chi vuole recuperare la propria gioventù."
+    "name": "Skateboard Bahari del Chiosco dei chapaa",
+    "description": "Sfreccia lungo la spiaggia veloce come un chapaa sul tuo nuovo skateboard Bahari. Perfetto per gli adolescenti ribelli e per chi vuole recuperare la propria gioventù."
   },
   "DA_ItemType_Decor_MajiMarket_14_outdoor_MerchCart": {
     "name": "Carrello del mercato Maji",
-    "description": "Sfoggia il tuo spirito imprenditoriale con il tuo carretto del Maji Market! Se Kenli può gestire uno zoo di chapaa, allora anche tu puoi vendere qualsiasi cosa."
+    "description": "Sfoggia il tuo spirito imprenditoriale con il tuo carrello del Maji Market! Se Kenli può gestire uno zoo di chapaa, allora anche tu puoi vendere qualsiasi cosa."
   },
   "DA_ItemType_Decor_MajiMarket_15_outdoor_MarketArch": {
     "name": "Arco del mercato Maji",
-    "description": "Accogli i tuoi visitatori con questo arco illuminato da una lanterna. I tuoi vicini te lo invidieranno, perché hanno delle banali porte che devono essere aperte."
+    "description": "Accogli i tuoi visitatori con questo arco illuminato dalle lanterne. I tuoi vicini te lo invidieranno, perché hanno delle banali porte che devono essere aperte."
   },
   "DA_ItemType_Decor_MajiMarket_20_outdoor_StandeeChapaa": {
     "name": "Cartonato chapaa del mercato Maji",
@@ -3389,7 +3764,7 @@
   },
   "DA_ItemType_Decor_MajiMarket_28_PillowChapaa_04": {
     "name": "Cuscino Enkii del chiosco dei chapaa",
-    "description": "Un cuscino ispirato a Enki, con zanne splendidamente riprodotte. Non è il massimo per la schiena, ma è sicuramente carino!"
+    "description": "Un cuscino ispirato a Enkii, con zanne riprodotte splendidamente. Non è il massimo per la schiena, ma è sicuramente carino!"
   },
   "DA_ItemType_Decor_MajiMarket_28_PillowChapaa_05": {
     "name": "Cuscino Neena del chiosco dei chapaa",
@@ -3840,19 +4215,19 @@
     "description": "Vuoi lanciarti in una nuova impresa? Questo specchio ti darà lo spirito imprenditoriale di cui hai bisogno per cercare di ottenere quel dolce capitale iniziale."
   },
   "DA_ItemType_Decor_Narrative_100_Furniture_Lucky_Stew_Pot": {
-    "name": "Pentola da stufato fortunata",
+    "name": "Pentola per stufato fortunata",
     "description": "La pentola per stufato fortunata di Reth. O meglio, la TUA pentola per stufato fortunata."
   },
   "DA_ItemType_Decor_Narrative_101_Furniture_Tamalas_Special_Perfume": {
-    "name": "Unguento di bellezza di Tamala",
+    "name": "Profumo di Tamala",
     "description": "Una fiala del segreto di bellezza di Tamala."
   },
   "DA_ItemType_Decor_Narrative_102_Furniture_Mechanical_Chapaa": {
     "name": "Chapaa meccanico",
-    "description": "Un chapaa meccanico realizzata da Najuma."
+    "description": "Un chapaa meccanico realizzato da Najuma."
   },
   "DA_ItemType_Decor_Narrative_103_Furniture_Lucky_Horseshoe": {
-    "name": "Scarpa riffroc fortunato",
+    "name": "Ferro di riffroc fortunato",
     "description": "Un oggetto che porta fortuna a Nai'o."
   },
   "DA_ItemType_Decor_Narrative_146_Prop_Acceptance_Wreath_Fall": {
@@ -3909,7 +4284,7 @@
   },
   "DA_ItemType_Decor_Narrative_47_Deco_Fancy_Chest": {
     "name": "Cassa elegante",
-    "description": "Uno scrigno di lusso, regalo di Tish"
+    "description": "Una cassa di lusso, regalo di Tish."
   },
   "DA_ItemType_Decor_Narrative_50_Deco_High_Tech_Laser_Pointer": {
     "name": "Bacchetta luminosa Grimalkin",
@@ -4037,7 +4412,7 @@
   },
   "DA_ItemType_Decor_Portrait_Dalila": {
     "name": "Ritratto di Delaila",
-    "description": "A portrait of Delala to hang on your wall."
+    "description": "Un ritratto di Delaila da appendere alla parete."
   },
   "DA_ItemType_Decor_Portrait_Einar": {
     "name": "Ritratto di Einar",
@@ -4128,7 +4503,7 @@
     "description": "Il ronzio è diventato musica per le tue orecchie! Ricompensa per la cattura di tutte le specie di insetti a Kilima e Bahari."
   },
   "DA_ItemType_Decor_Rewards_Skill_02_Bug_Display_B": {
-    "name": "Espositore per insetti di livello stellare di Kilima",
+    "name": "Espositore per insetti di qualità stellare di Kilima",
     "description": "La proverbiale operosità delle api ormai è parte di te! Ricompensa per la cattura di tutte le specie di insetti di qualità stellare a Kilima e Bahari."
   },
   "DA_ItemType_Decor_Rewards_Skill_03_Foraging_Basket": {
@@ -4145,15 +4520,23 @@
   },
   "DA_ItemType_Decor_Rewards_Skill_06_Mounted_Fish_A": {
     "name": "Pesce incorniciato del pescatore di Kilima",
-    "description": "Tu si che sai che pesci prendere! Ricompensa per la cattura di tutte le specie di pesci a Kilima e Bahari."
+    "description": "Tu sì che sai che pesci prendere! Ricompensa per la cattura di tutte le specie di pesci a Kilima e Bahari."
   },
   "DA_ItemType_Decor_Rewards_Skill_07_Mounted_Fish_B": {
-    "name": "Pesce incorniciato di livello stelare di Kilima",
+    "name": "Pesce incorniciato di qualità stellare di Kilima",
     "description": "Beh, ormai sei un pesce grosso! Ricompensa per la cattura di tutte le specie ittiche di qualità stellare a Kilima e Bahari."
   },
   "DA_ItemType_Decor_Rewards_Skill_08_Palium_Bar": {
     "name": "Torre di palium del minatore di Kilima",
     "description": "Potere al ciottolo! Ricompensa per l'estrazione mineraria e la creazione di lingotti con tutti i tipi di minerali a Kilima e Bahari."
+  },
+  "DA_ItemType_Decor_Rewards_Skill_09_Mounted_TreeClimber_Head": {
+    "name": "Kilima Hunter's Mounted TreeClimber Muujin",
+    "description": "Here's an archery prize for you, no strings attached. Rewarded for hunting all types of Muujin."
+  },
+  "DA_ItemType_Decor_Rewards_Skill_10_Mounted_BeachWalker_head": {
+    "name": "Kilima Hunter's Mounted BeachWalker Muujin",
+    "description": "Here's an archery prize for you, no strings attached. Rewarded for hunting all types of Muujin."
   },
   "DA_ItemType_Decor_Rustic_01_furniture_couch": {
     "name": "Divano Ranch",
@@ -4308,27 +4691,27 @@
     "description": "Il mare è pieno di pesci e tu puoi tenerli tutti in questo raffinato acquario."
   },
   "DA_ItemType_Decor_Skill_08_bug_catching_deco_t1": {
-    "name": "Placca dell'Acchiappainsetti",
+    "name": "Placca dell'acchiappainsetti",
     "description": "Questa placca dimostra che sei in gamba nel prendere gli insetti, ed è sicuramente meglio che prendere il raffreddore!"
   },
   "DA_ItemType_Decor_Skill_09_bug_catching_deco_t2": {
-    "name": "Esca per la cattura d'insetti",
+    "name": "Esca dell'acchiappainsetti",
     "description": "Gli insetti non ti infastidiscono! Puoi anche usare questa esca luminosa per dire loro che vuoi stringerci amicizia."
   },
   "DA_ItemType_Decor_Skill_10_bug_catching_deco_t3": {
-    "name": "Insettario dell'Acchiappainsetti",
+    "name": "Insettario dell'acchiappainsetti",
     "description": "Con questo insettario, la tua intera collezione sarà al sicuro come un insetto in una... teca."
   },
   "DA_ItemType_Decor_Skill_15_furniture_making_deco_t1": {
-    "name": "Placca del fabbrica-mobili",
-    "description": "Un cattivo falegname dà la colpa ai suoi attrezzi. Un buon falegname riceve questa placca."
+    "name": "Placca dell'artigiano",
+    "description": "Un cattivo artigiano dà la colpa ai suoi attrezzi. Un buon artigiano riceve questa placca."
   },
   "DA_ItemType_Decor_Skill_16_furniture_making_deco_t2": {
     "name": "Cassetta degli attrezzi del fabbrica-mobili",
     "description": "Hai bisogno di un altro strumento nella cassetta degli attrezzi? Che ne dici di un'altra cassetta degli attrezzi?"
   },
   "DA_ItemType_Decor_Skill_17_furniture_making_deco_t3": {
-    "name": "Tavolo da disegno del fabbrica-mobili",
+    "name": "Tavolo da disegno dell'artigiano",
     "description": "Non c'è bisogno di ricominciare tutto da capo. Sarà qui per tutti i tuoi piani migliori."
   },
   "DA_ItemType_Decor_Skill_22_cooking_deco_t1": {
@@ -4336,11 +4719,11 @@
     "description": "Troppi aspiranti cuochi? Questa placca dimostra che ne serve solo uno: tu!"
   },
   "DA_ItemType_Decor_Skill_23_cooking_deco_t2": {
-    "name": "Vassoi da cuoco",
+    "name": "Vassoi del cuoco",
     "description": "Nessuno è in grado di lavare i piatti come te. Esponili con fierezza su questo pratico supporto!"
   },
   "DA_ItemType_Decor_Skill_24_cooking_deco_t3": {
-    "name": "Stand da mercato del cuoco",
+    "name": "Banco da mercato del cuoco",
     "description": "Se non ti piace stare con le mani in mano, puoi sempre aprire una bancarella di street food con questo banco del mercato."
   },
   "DA_ItemType_Decor_Skill_29_gardening_deco_t1": {
@@ -4352,7 +4735,7 @@
     "description": "A che serve un cesto di frutta quando puoi sfoggiare il tuo raccolto in un'intera cornucopia?"
   },
   "DA_ItemType_Decor_Skill_31_gardening_deco_t3": {
-    "name": "Casa del giardiniere",
+    "name": "Serra del giardiniere",
     "description": "Le grandi querce nascono da piccole ghiande, ma in questa serra cresce di tutto."
   },
   "DA_ItemType_Decor_Skill_36_hunting_deco_t1": {
@@ -4372,7 +4755,7 @@
     "description": "Se tutti i cercatori potessero procurarsi questa placca, lo farebbero."
   },
   "DA_ItemType_Decor_Skill_44_foraging_deco_t2": {
-    "name": "Fioriera del cercatore",
+    "name": "Vaso del cercatore",
     "description": "Dopo una lunga giornata di raccolta, ci si può piantare davanti a questo vaso, unico nel suo genere."
   },
   "DA_ItemType_Decor_Skill_45_foraging_deco_t3": {
@@ -4381,7 +4764,7 @@
   },
   "DA_ItemType_Decor_Skill_50_mining_deco_t1": {
     "name": "Placca del minatore",
-    "description": "Mio? Mio? Mio? Mio? Mio? No, questa placca spetta decisamente a te!"
+    "description": "Mia? Mia? Mia? Mia? Mia? No, questa placca è decisamente tua!"
   },
   "DA_ItemType_Decor_Skill_51_mining_deco_t2": {
     "name": "Incudine del minatore",
@@ -4395,27 +4778,27 @@
     "name": "Rosa rosa"
   },
   "DA_ItemType_Forage_Transitive_Flower_Rose_Pink_Seedling": {
-    "name": "Piantina di rosa rosa"
+    "name": "Pink Rose Seedling"
   },
   "DA_ItemType_Forage_Transitive_Flower_Rose_Pink_Unbloomed": {
-    "name": "Rosa rosa non sbocciata"
+    "name": "Unbloomed Pink Rose"
   },
   "DA_ItemType_Forage_Transitive_Flower": {
     "name": "Fiore sbocciato"
   },
   "DA_ItemType_Forage_Transitive_FlowerSeedling": {
-    "name": "Fiore germogliato"
+    "name": "Flower Seedling"
   },
   "DA_ItemType_Forage_Transitive_FlowerUnbloomed": {
-    "name": "Fiore non sbocciato"
+    "name": "Flower Unbloomed"
   },
   "DA_ItemType_Decor_Trophy_56_Bug_Catching_Tier_0": {
-    "name": "Trofeo di bronzo per la cattura d'insetti",
-    "description": "Si vola alto! Ricompensa per aver raggiunto il livello 10 nella cattura d'insetti"
+    "name": "Trofeo di bronzo per la caccia agli insetti",
+    "description": "Si vola alto! Ricompensa per aver raggiunto il livello 10 nella caccia agli insetti."
   },
   "DA_ItemType_Decor_Trophy_56_Bug_Catching_Tier_1": {
-    "name": "Trofeo d'argento per la cattura d'insetti",
-    "description": "Non ti formicolano le mani dall'emozione? Ricompensa per aver raggiunto il livello 25 nella cattura d'insetti."
+    "name": "Trofeo d'argento per la caccia agli insetti",
+    "description": "Non ti formicolano le mani dall'emozione? Ricompensa per aver raggiunto il livello 25 nella caccia agli insetti."
   },
   "DA_ItemType_Decor_Trophy_57_Cooking_Tier_0": {
     "name": "Trofeo di bronzo per la cucina",
@@ -4431,15 +4814,15 @@
   },
   "DA_ItemType_Decor_Trophy_58_Fishing_Tier_1": {
     "name": "Trofeo d'argento per la pesca",
-    "description": "Tu si che sai che pesci pigliare! Ricompensa per aver raggiunto il livello 25 nella pesca."
+    "description": "Tu sì che sai che pesci pigliare! Ricompensa per aver raggiunto il livello 25 nella pesca."
   },
   "DA_ItemType_Decor_Trophy_59_Foraging_Tier_0": {
-    "name": "Trofeo di bronzo per la raccolta risorse",
-    "description": "Sei forte... come una quercia! Ricompensa per aver raggiunto il livello 10 nella raccolta risorse."
+    "name": "Trofeo di bronzo per la ricerca di risorse",
+    "description": "Sei forte... come una quercia! Ricompensa per aver raggiunto il livello 10 nella ricerca di risorse."
   },
   "DA_ItemType_Decor_Trophy_59_Foraging_Tier_1": {
-    "name": "Trofeo d'argento per la raccolta risorse",
-    "description": "Sembra che questa passione stia mettendo radici profonde! Ricompensa per aver raggiunto il livello 25 nella raccolta risorse."
+    "name": "Trofeo d'argento per la ricerca di risorse",
+    "description": "Sembra che questa passione stia mettendo radici profonde! Ricompensa per aver raggiunto il livello 25 nella ricerca di risorse."
   },
   "DA_ItemType_Decor_Trophy_60_Furniture_Making_Tier_0": {
     "name": "Trofeo di bronzo per la produzione",
@@ -4474,8 +4857,8 @@
     "description": "Hai chiaramente una volontà di ferro! Ricompensa per aver raggiunto il livello 25 nell'estrazione mineraria."
   },
   "DA_ItemType_Decor_Trophy_64_Bug_Catching_Tier_2": {
-    "name": "Trofeo d'oro per la cattura d'insetti",
-    "description": "Pungi come un'ape, vola come una farfalla! Ricompensa per aver raggiunto il livello 50 nella cattura d'insetti."
+    "name": "Trofeo d'oro per la caccia agli insetti",
+    "description": "Pungi come un'ape, vola come una farfalla! Ricompensa per aver raggiunto il livello 50 nella caccia agli insetti."
   },
   "DA_ItemType_Decor_Trophy_65_Cooking_Tier_2": {
     "name": "Trofeo d'oro per la cucina",
@@ -4486,8 +4869,8 @@
     "description": "E questo è per la tua on-orata carriera! Ricompensa per aver raggiunto il livello 50 nella pesca."
   },
   "DA_ItemType_Decor_Trophy_67_Foraging_Tier_2": {
-    "name": "Trofeo d'oro per la raccolta risorse",
-    "description": "La foresta non ha più segreti per te! Ricompensa per aver raggiunto il livello 50 nella raccolta di risorse."
+    "name": "Trofeo d'oro per la ricerca di risorse",
+    "description": "La foresta non ha più segreti per te! Questa è la tua ricompensa per aver raggiunto il livello 50 nella ricerca di risorse."
   },
   "DA_ItemType_Decor_Trophy_68_Furniture_Making_Tier_2": {
     "name": "Trofeo d'oro per la produzione",
@@ -4701,8 +5084,12 @@
     "name": "Focolare",
     "description": "Inizia a cucinare con questo fuoco da campo. Trasforma gli ingredienti crudi in alimenti di base."
   },
+  "DA_ItemType_Facility_Campfire_Grill": {
+    "name": "GrillMaster v3000",
+    "description": "Become king of the grill with a perfect duplicate of Hodari's beloved barbecue. Let yourself cook!"
+  },
   "DA_ItemType_Facility_FabricMaker": {
-    "name": "Telaio per tessuti",
+    "name": "Telaio",
     "description": "Questo telaio trasforma varie fibre in tessuti utili per l'arredamento."
   },
   "DA_ItemType_Facility_Garden_3x3": {
@@ -4722,60 +5109,60 @@
     "description": "Un macchinario che produce salse e creme partendo dalle uova."
   },
   "DA_ItemType_Facility_MixingStation": {
-    "name": "Postazione di miscelazione",
-    "description": "Questa postazione di miscelazione consente di mescolare gli ingredienti per la cottura."
+    "name": "Postazione di assemblaggio",
+    "description": "Questa postazione di assemblaggio consente di assemblare gli ingredienti in dei piatti."
   },
   "DA_ItemType_Facility_ModificationBench": {
-    "name": "Bancone da modifica",
-    "description": "Cambia i colori e il design dei mobili con questo bancone da modifica. Richiede i kit di modifica."
+    "name": "Banco da modifica",
+    "description": "Utilizza questo banco da modifica per cambiare il colore e il design dei mobili. Richiede kit di modifica."
   },
   "DA_ItemType_Facility_Oven": {
-    "name": "Forno normale",
-    "description": "Questo forno normale consente di cuocere un'ampia varietà di ricette provenienti da tutta Palia."
+    "name": "Forno da cucina",
+    "description": "Questo forno da cucina consente di cuocere un'ampia varietà di ricette provenienti da tutta Palia."
   },
   "DA_ItemType_Facility_PrepStation": {
     "name": "Postazione di preparazione",
     "description": "L'ampio bancone di questa postazione di preparazione permette di tagliare e preparare gli ingredienti per la cottura."
   },
   "DA_ItemType_Facility_PreservesJar": {
-    "name": "Barattolo di conserve",
-    "description": "Un barattolo di conserve permette di mettere in salamoia le verdure e di trasformare la frutta in marmellata."
+    "name": "Botte per le conserve",
+    "description": "Una botte con la quale si possono fare conserve di verdure e marmellata di frutta."
   },
   "DA_ItemType_Facility_Recycler": {
     "name": "Riciclatore",
     "description": "Una macchina che trasforma la spazzatura in risorse utili."
   },
   "DA_ItemType_Facility_RepairStation": {
-    "name": "Postazione di riparazioni",
-    "description": "Se i tuoi utensili iniziano a usurarsi, puoi donargli nuova vita con la postazione per le riparazioni. Richiede i kit di riparazione."
+    "name": "Postazione di riparazione",
+    "description": "Se i tuoi utensili iniziano a usurarsi, puoi donargli nuova vita con la postazione di riparazione. Richiede i kit di riparazione."
   },
   "DA_ItemType_Facility_Sawmill_Level1": {
-    "name": "Segheria basica",
-    "description": "Questa segheria basica trasforma il legno in assi che possono essere utilizzate nell'edilizia."
+    "name": "Segheria",
+    "description": "Con questa segheria puoi produrre assi di legno da utilizzare nell'edilizia."
   },
   "DA_ItemType_Facility_Sawmill_Level2": {
-    "name": "Segheria pesante",
-    "description": "Questa segheria pesante trasforma il legno in assi a una velocità superiore rispetto a una segheria basica."
+    "name": "Segheria rinforzata",
+    "description": "Questa segheria rinforzata ti permette di produrre assi di legno ad una velocità superiore rispetto ad una segheria."
   },
   "DA_ItemType_Facility_SeedMaker": {
-    "name": "Raccoglitore di semi",
-    "description": "Questo raccoglitore di semi ti permetterà di raccogliere i semi da colture completamente cresciute."
+    "name": "Setaccio per semi",
+    "description": "Questo setaccio per semi ti permetterà di prelevare i semi dalle colture già cresciute."
   },
   "DA_ItemType_Facility_ShippingBin": {
     "name": "Cesto per le spedizioni",
     "description": "Un cesto utilizzabile per vendere merci."
   },
   "DA_ItemType_Facility_Smelter_Level1": {
-    "name": "Fonderia base",
-    "description": "Questa fonderia basica, in pietra, trasforma i minerali estratti in oggetti utili come mattoni e lingotti."
+    "name": "Fonderia in pietra",
+    "description": "Questa semplice fonderia in pietra trasforma i minerali estratti in oggetti utili come mattoni e lingotti."
   },
   "DA_ItemType_Facility_Smelter_Level2": {
-    "name": "Fonderia pesante",
-    "description": "La fonderia pesante trasforma i minerali in mattoni e lingotti a una velocità superiore rispetto alla fondipietra."
+    "name": "Fonderia rinforzata",
+    "description": "La fonderia rinforzata trasforma i minerali in mattoni e lingotti a una velocità superiore rispetto alla fonderia in pietra."
   },
   "DA_ItemType_Facility_Stove": {
-    "name": "Fornello normale",
-    "description": "Questo fornello normale consente di cucinare un'ampia varietà di ricette provenienti da tutta Palia."
+    "name": "Fornello",
+    "description": "Questo fornello consente di cucinare un'ampia varietà di ricette provenienti da tutta Palia."
   },
   "DA_ItemType_Facility_Well": {
     "name": "Pozzo",
@@ -4791,7 +5178,7 @@
   },
   "DA_ItemType_Storage_Copper": {
     "name": "Copper Storage Chest",
-    "description": "A standard general storage chest made of copper.\r\nStores 825 items.\r\nYou can place up to 8 general storage chests on your plot."
+    "description": "Una cassa di stoccaggio generale standard in rame.\nMemorizza 825 articoli.\nPuoi posizionare fino a 8 casse di stoccaggio generali sulla tua trama."
   },
   "DA_ItemType_Storage_Fridge": {
     "name": "Cella frigorifera",
@@ -4799,11 +5186,11 @@
   },
   "DA_ItemType_Storage_Iron": {
     "name": "Iron Storage Chest",
-    "description": "A fine general storage chest made of iron.\r\nStores 1,250 items.\r\nYou can place up to 8 general storage chests on your plot."
+    "description": "Una bella cassa di stoccaggio generale in ferro.\nMemorizza 1.250 articoli.\nPuoi posizionare fino a 8 casse di stoccaggio generali sulla tua trama."
   },
   "DA_ItemType_Storage_Lockbox": {
     "name": "Contenitore di sicurezza",
-    "description": "A special chest for secure item storage, so they will not be used for crafting. \r\nStores 100 items.\r\nYou can place up to 3 lockbox storage bins on your plot."
+    "description": "Una cassa speciale per conservare gli oggetti in modo sicuro, in modo che non vengano utilizzati per la produzione.\nPuò contenere fino a 100 oggetti."
   },
   "DA_ItemType_Storage_Pantry": {
     "name": "Dispensa",
@@ -4811,22 +5198,22 @@
   },
   "DA_ItemType_Storage_Wooden": {
     "name": "Wooden Storage Chest",
-    "description": "A simple general storage chest made of wood.\r\nStores 400 items.\r\nYou can place up to 8 general storage chests on your plot."
+    "description": "Una semplice cassa di stoccaggio generale in legno.\nMemorizza 400 articoli.\nPuoi posizionare fino a 8 casse di stoccaggio generali sulla tua trama."
   },
   "DA_ItemType_Fertilizer_2xGrowthRate": {
     "name": "Fertilizzante SuperRapido",
-    "description": "Fertilizzante che raddoppia la velocità di crescita delle coltivazioni."
+    "description": "Fertilizer that adds one bonus day of growth per two regular days of growth."
   },
   "DA_ItemType_Fertilizer_HarvestBooster": {
     "name": "Fertilizzante MegaRaccolto",
-    "description": "Fertilizzante che aumenta la quantità colture ottenute con la raccolta."
+    "description": "Fertilizzante che aumenta la quantità di colture ottenute durante la raccolta."
   },
   "DA_ItemType_Fertilizer_StarQualityBooster": {
     "name": "Fertilizzante QualitàTop",
     "description": "Fertilizzante che migliora la qualità del raccolto."
   },
   "DA_ItemType_Fertilizer_WaterRetention": {
-    "name": "Fertilizzante Idra-plus",
+    "name": "Fertilizzante IdraPlus",
     "description": "Fertilizzante che trattiene l'acqua nel terreno, evitando la necessità di annaffiare il giorno successivo."
   },
   "DA_ItemType_Fertilizer_WeedBlocker": {
@@ -4835,11 +5222,11 @@
   },
   "DA_ItemType_Fish_AlbinoEel": {
     "name": "Anguilla albina",
-    "description": "An eel with no pigmentation.\r\nFound in Bahari Bay caves using worms."
+    "description": "Anguilla priva di pigmentazione.\nSi può trovare nelle grotte di Cala Bahari e utilizza vermi."
   },
   "DA_ItemType_Fish_Alligator_Gar": {
     "name": "Pesce alligatore",
-    "description": "A carnivorous fish with brilliant purple scales, the Alligator Gar is named after its long snout and rows of large teeth.\r\nFound in Kilima Lake using glow worms."
+    "description": "Un pesce carnivoro dalle squame viola brillante, il cui nome deriva dal suo lungo muso e dalle fila di grandi denti.\nSi può trovare nel lago di Kilima usando i vermi luminosi."
   },
   "DA_ItemType_Fish_AncientFish": {
     "name": "Pesce antico",
@@ -4847,315 +5234,315 @@
   },
   "DA_ItemType_Fish_BahariBream": {
     "name": "Orata bahariana",
-    "description": "These fish are widely considered to be a staple of the local diet.\r\nFound off the coast of Bahari Bay using worms."
+    "description": "Questi pesci sono considerati un alimento base della dieta locale.\nSi può trovareno al largo della costa della Baia di Bahari usando i vermi."
   },
   "DA_ItemType_Fish_Bahari_Pike": {
     "name": "Luccio bahariano",
-    "description": "A pike with a deep green hue native to Bahari Bay.\r\nFound in Bahari rivers using glow worms."
+    "description": "Un luccio dalla tonalità verde intensa, originario di Cala Bahari.\nSi può trovare nei fiumi di Bahari usando i vermi luminosi."
   },
   "DA_ItemType_Fish_Barracuda": {
     "name": "Barracuda",
-    "description": "A vicious saltwater predator that tastes great lightly grilled with a little butter.\r\nFound off the coast of Bahari Bay without bait in the evening and night."
+    "description": "Un feroce predatore d'acqua salata, ottimo alla griglia con un po' di burro.\nSi può trovare al largo della costa di Cala Bahari senza esche la sera e la notte."
   },
   "DA_ItemType_Fish_BatRay": {
     "name": "Pipistrazza",
-    "description": "An ominous ray that is known to leap out of the water like a flying bat.\r\nFound in Bahari Bay caves using worms."
+    "description": "Una razza minacciosa, nota per balzare fuori dall'acqua come un pipistrello volante.\nSi può trovare nelle grotte di Cala Bahari usando i vermi."
   },
   "DA_ItemType_Fish_Beluga_Sturgeon": {
     "name": "Storione beluga",
-    "description": "A large sturgeon that grows throughout its entire lifetime.\r\nFound in Kilima Lake using glow worms."
+    "description": "Un grosso storione che cresce per tutta la sua vita.\nSi può trovare nel lago di Kilima usando i vermi luminosi."
   },
   "DA_ItemType_Fish_Bigeye_Tuna": {
     "name": "Tonno pinna blu",
-    "description": "A common, sleek fish adapted for swimming quickly through ocean currents.\r\nFound off the coast of Bahari Bay using worms."
+    "description": "Un elegante ma comune pesce, che si è adattato a nuotare rapidamente attraverso le correnti oceaniche. \nSi può trovare al largo della costa di Cala Bahari usando i vermi."
   },
   "DA_ItemType_Fish_Black_Sea_Bass": {
     "name": "Perchia striata",
-    "description": "Known for the black spots on their skin, these bass are gentle and non-threatening to Majiri and humans alike.\r\nFound off the coast of Bahari Bay using glow worms."
+    "description": "Conosciute per le macchie nere sulla pelle, queste spigole sono gentili e non minacciose sia per i majiri che per gli esseri umani.\nSi può trovareno al largo della costa di Cala Bahari usando i vermi luminosi."
   },
   "DA_ItemType_Fish_Blobfish": {
     "name": "Pesce blob",
-    "description": "A bloated, slimy fish that lives at the bottom of cavern pools.\r\nFound in Bahari Bay caves using glow worms."
+    "description": "Un pesce viscido e gonfio che vive in fondo alle pozze delle caverne.\nSi può trovare nelle grotte di Cala Bahari usando i vermi luminosi."
   },
   "DA_ItemType_Fish_BlueMarlin": {
     "name": "Marlin blu",
-    "description": "A large and resilient fish. The Blue Marlin is considered a prize by even the most experienced fishermen.\r\nFound off the coast of Bahari Bay using worms."
+    "description": "Grande e resistente, il marlin blu è considerato una preda speciale anche dai pescatori più esperti.\nSi può trovare al largo della costa di Cala Bahari usando i vermi."
   },
   "DA_ItemType_Fish_Blue_Spotted_Ray": {
     "name": "Razza blu maculata",
-    "description": "A colorful stringray with bright blue spots across its body and blue stripes along its tail.\r\nFound off the coast of Bahari Bay using glow worms in the morning, day, and evening."
+    "description": "Una razza colorata dal corpo ricoperto da pois azzurri e la coda striata di blu.\nSi può trovare al largo della costa di Cala Bahari usando i vermi luminosi al mattino, al giorno e alla sera."
   },
   "DA_ItemType_Fish_Cactus_Moray": {
     "name": "Murena cactus",
-    "description": "An eel with sharp spines growing along its length to deter predators.\r\nFound off the coast of Bahari Bay using glow worms in the day and night."
+    "description": "Un'anguilla con aculei appuntiti che crescono lungo la sua lunghezza per scoraggiare i predatori.\nSi può trovare al largo della costa di Cala Bahari usando i vermi luminosi di giorno e di notte."
   },
   "DA_ItemType_Fish_CalicoKoi": {
     "name": "Koi tartarugata",
-    "description": "A standard koi fish with a beautiful calico pattern.\r\nFound in ponds without using any bait."
+    "description": "Un pesce koi standard con un bel disegno calico.\nSi può trovare negli stagni senza l'uso di esche."
   },
   "DA_ItemType_Fish_CantankerousKoi": {
     "name": "Koi biliosa",
-    "description": "Local legend has it that the first Cantankerous Koi was a cranky old man transfigured by a wicked witch.\r\nFound in ponds without using any bait during the day and at night."
+    "description": "La leggenda locale narra che la prima Koi scorbutica fu un vecchio irascibile trasfigurato da una strega malvagia.\nSi può trovareno in stagni senza esche durante il giorno e la notte."
   },
   "DA_ItemType_Fish_Channel_Catfish": {
     "name": "Pesce gatto di fiume",
-    "description": "A river catfish at home navigating fast currents.\r\nFound in Kilima Rivers without bait."
+    "description": "Un pesce gatto di fiume che si muove con disinvoltura tra le correnti veloci.\nSi può trovare nei fiumi di Kilima senza esche."
   },
   "DA_ItemType_Fish_Chub": {
     "name": "Cavedano",
-    "description": "A hard-fighting fish famous for its wide ranging appetite.\r\nFound in Bahari rivers using glow worms."
+    "description": "Un pesce resistente, famoso per il suo ampio appetito.\nSi può trovare nei fiumi del Bahari usando i vermi luminosi."
   },
   "DA_ItemType_Fish_Cloudfish": {
     "name": "Pesce nube",
-    "description": "A bottom feeding pondfish that creates swirling clouds of sediment for cover.\r\nFound in ponds using glow worms in the morning and day."
+    "description": "Un pesce che vive nei laghetti e si nutre sui fondali, capace di creare vorticose nuvole di sedimenti per nascondersi.\nSi può trovare negli stagni usando vermi luminosi al mattino e di giorno."
   },
   "DA_ItemType_Fish_Codfish": {
     "name": "Branzino bahariano",
-    "description": "A bountiful, staple fish known for its mild flavor.\r\nFound off the coast of Bahari Bay without bait."
+    "description": "Un pesce abbondante, usato come alimento di base, noto per il suo sapore delicato.\nSi può trovare al largo della costa di Cala Bahari senza esca."
   },
   "DA_ItemType_Fish_Crimson_Fangtooth": {
     "name": "Rana pescatrice cremisi",
-    "description": "A small red fish with huge teeth in proportion to its own size.\r\nFound in Bahari Bay caves using glow worms."
+    "description": "Un piccolo pesce rosso con denti enormi in proporzione alle sue dimensioni.\nSi può trovare nelle grotte di Cala Bahari usando i vermi luminosi."
   },
   "DA_ItemType_Fish_Crucian_Carp": {
     "name": "Carassio",
-    "description": "A hardy carp with coppery golden scales.\r\nFound in Kilima rivers using glow worms."
+    "description": "Una carpa robusta dalle scaglie dorate color rame.\nSi può trovare nei fiumi di Kilima usando i vermi luminosi."
   },
   "DA_ItemType_Fish_Cutthroat_Trout": {
     "name": "Trota tagliagole",
-    "description": "A river trout named after its long jaw and mouth.\r\nFound in Bahari Bay rivers using worms."
+    "description": "Trota di fiume che prende il nome dalla sua lunga mascella e bocca.\nSi può trovare nei fiumi della Baia di Bahari usando i vermi."
   },
   "DA_ItemType_Fish_Dawnray": {
     "name": "Razza dell'alba",
-    "description": "A golden ray that hunts at dawn, its scales absorbing the sun's light.\r\nFound in Bahari Rivers without bait in the morning."
+    "description": "Una razza dorata che va a caccia all'alba. Le sue squame assorbono la luce solare.\nSi può trovare nei fiumi di Bahari senza esca al mattino."
   },
   "DA_ItemType_Fish_Duskray": {
     "name": "Razza del tramonto",
-    "description": "A mottled charcoal ray that hunts at dusk, blending into the riverbed.\r\nFound in Bahari Rivers without bait in the evening."
+    "description": "Una razza screziata di carbone che caccia al crepuscolo, confondendosi con il letto del fiume.\nSi può trovare nei fiumi Bahari senza esca la sera."
   },
   "DA_ItemType_Fish_Enchanted_Pupfish": {
     "name": "Ciprinodonte stregato",
-    "description": "A cute little fish which can absorb trace amounts of Flow into its scales.\r\nFound in Kilima Lake using glow worms."
+    "description": "Un simpatico pesciolino capace di assorbire tracce di Flusso nelle sue squame.\nSi può trovare nel lago di Kilima usando i vermi luminosi."
   },
   "DA_ItemType_Fish_Energized_Piranha": {
     "name": "Piranha galvanizzato",
-    "description": "A pirhana infused with magic after consuming a Grimalkin magic trinket.\r\nFound in Kilima Rivers using worms."
+    "description": "Un piranha infuso di magia dopo aver mangiato un ninnolo magico Grimalkin.\nSi può trovare nei fiumi di Kilima usando i vermi."
   },
   "DA_ItemType_Fish_EyelessMinnow": {
     "name": "Menola senz'occhi",
-    "description": "A cave dwelling creature that has lost the need for eyes.\r\nFound in Bahari Bay caves without bait."
+    "description": "Una creatura delle caverne che non ha più bisogno degli occhi.\nSi può trovare nelle grotte di Cala Bahari senza esche."
   },
   "DA_ItemType_Fish_FairyCarp": {
     "name": "Carpa fatata",
-    "description": "A shy fish with a hypnotically translucent sheen.\r\nFound in ponds using worms in the mornings and evenings."
+    "description": "Un pesce timido con una lucentezza ipnotica e traslucida.\nSi può trovare negli stagni con vermi al mattino e alla sera."
   },
   "DA_ItemType_Fish_Fathead_Minnow": {
     "name": "Menola testona",
-    "description": "A small freshwater fish known for its oversized head.\r\nFound in Bahari rivers using glow worms."
+    "description": "Piccolo pesce d'acqua dolce noto per la sua testa sovradimensionata.\nSi può trovare nei fiumi delle Bahari usando i vermi luminosi."
   },
   "DA_ItemType_Fish_Flametongue_Ray": {
     "name": "Razza linguadifuoco",
-    "description": "A rare river ray named for the bright orange and red streaks across its back.\r\nFound in Kilima rivers using glow worms in the morning and day."
+    "description": "Una rara razza fluviale che prende il nome dalle striature arancioni e rosse che le attraversano il dorso.\nSi può trovare nei fiumi di Kilima usando i vermi luminosi al mattino e durante il giorno."
   },
   "DA_ItemType_Fish_FreshwaterEel": {
     "name": "Anguilla d'acqua dolce",
-    "description": "A long and lithe river fish often confused for a snake.\r\nFound in Kilima Rivers using worms in the evening and night."
+    "description": "Un pesce di fiume lungo e affusolato, spesso confuso con un serpente.\nSi può trovare nei fiumi di Kilima usando i vermi durante la sera e la notte."
   },
   "DA_ItemType_Fish_Giant_Goldfish": {
     "name": "Pesce rosso gigante",
-    "description": "Against all odds, some goldfish live to become legendary in size.\r\nFound in ponds using glow worms."
+    "description": "Contro ogni previsione, alcuni pesci rossi vivono fino a raggiungere dimensioni leggendarie.\nSi può trovareno in stagni che utilizzano vermi luminosi."
   },
   "DA_ItemType_Fish_Giant_Kilima_Stingray": {
     "name": "Razza gigante di Kilima",
-    "description": "The lord of Kilima Lake, this stingray's poisonous spike can also pierce the bones of its prey.\r\nFound in Kilima Lake using glow worms in the morning, day, and evening."
+    "description": "Signore del lago Kilima, questo pungiglione velenoso è in grado di perforare le ossa delle sue prede.\nSi può trovare nel lago di Kilima con vermi luminosi al mattino, al giorno e alla sera."
   },
   "DA_ItemType_Fish_Gillyfin": {
     "name": "Branchietto",
-    "description": "The most common fish in Palia.\r\nFound in Kilima Lake without using bait."
+    "description": "Il pesce più comune a Palia.\nSi può trovare nel lago di Kilima senza usare esche."
   },
   "DA_ItemType_Fish_GoldenSalmon": {
     "name": "Salmone dorato",
-    "description": "A common sort of salmon known to thrive in the sunlight.\r\nFound in Kilima Rivers using worms in the morning and day."
+    "description": "Una specie comune di salmone, nota per la sua capacità di prosperare al sole.\nSi può trovare nei fiumi di Kilima usando i vermi al mattino e durante il giorno."
   },
   "DA_ItemType_Fish_Honey_Loach": {
     "name": "Cobite miele",
-    "description": "A river fish whose yellow and black stripes resemble a honeybee.\r\nFound in Bahari rivers using glow worms at day and night."
+    "description": "Un pesce di fiume le cui strisce gialle e nere ricordano un'ape.\nSi può trovare nei fiumi del Bahari usando i vermi luminosi di giorno e di notte."
   },
   "DA_ItemType_Fish_Hypnotic_Moray": {
     "name": "Murena ipnotica",
-    "description": "A moray eel that combines its striking pattern and hypnotic movements to lure in prey.\r\nFound in Bahari Bay caves using glow worms."
+    "description": "Una murena che attira le prede combinando i suoi movimenti ipnotici a una livrea sorprendente.\nSi può trovare nelle grotte di Cala Bahari usando i vermi luminosi."
   },
   "DA_ItemType_Fish_Indigo_Lamprey": {
     "name": "Lampreda indaco",
-    "description": "Palians in the past would harvest the scales of this fish to make a deep indigo dye.\r\nFound in Kilima rivers using glow worms in the evening and night."
+    "description": "In passato i paliani raccoglievano le squame di questo pesce per ottenere una tintura di indaco intenso.\nSi può trovare nei fiumi di Kilima con le vermi luminose la sera e la notte."
   },
   "DA_ItemType_Fish_Kenjis_Carp": {
     "name": "Carpa di Kenli",
-    "description": "Kenli personally discovered this carp near Kilima Village. Bears a remarkable resemblance to a Crucian Carp...\r\nFound in Kilima rivers using glow worms."
+    "description": "Kenli ha scoperto personalmente questa carpa vicino al villaggio di Kilima. Ha una notevole somiglianza con una carpa cruciana...\nSi può trovare nei fiumi di Kilima usando i vermi luminosi."
   },
   "DA_ItemType_Fish_KilimaCatfish": {
     "name": "Pesce gatto di Kilima",
-    "description": "A unique type of catfish found only in the Kilima Valley.\r\nFound in ponds using worms."
+    "description": "Un tipo unico di pesce gatto che Si può trovare solo nella valle di Kilima.\nSi può trovare negli stagni con i vermi."
   },
   "DA_ItemType_Fish_Kilima_Grayling": {
     "name": "Temolo di Kilima",
-    "description": "A streamlined fish that spends the first part of its life at sea before returning to the rivers of the Kilima Valley.\r\nFound in Kilima rivers using glow worms."
+    "description": "Un pesce dalla forma affusolata che trascorre la prima parte della sua vita in mare prima di tornare nei fiumi della Valle di Kilima.\nSi può trovare nei fiumi di Kilima usando i vermi luminosi."
   },
   "DA_ItemType_Fish_Kilima_Redfin": {
     "name": "Persico di Kilima",
-    "description": "An aggressive river predator that will eat literally anything.\r\nFound in Bahari Bay rivers using worms."
+    "description": "Un predatore fluviale aggressivo che mangia letteralmente di tutto.\nSi può trovare nei fiumi di Cala Bahari e utilizza vermi."
   },
   "DA_ItemType_Fish_LargemouthBass": {
     "name": "Persico trota",
-    "description": "A very talkative bass that can swallow creatures over 50% their own body weight.\r\nFound in Kilima Lake using worms."
+    "description": "Un branzino molto loquace che può inghiottire creature di peso superiore al 50% del proprio corpo.\nSi può trovare nel lago di KilimaTrov con i vermi."
   },
   "DA_ItemType_Fish_Midnight_Paddlefish": {
     "name": "Pesce spatola notturno",
-    "description": "A rare paddlefish that feeds at night, its dark scales keeping it hidden from predators.\r\nFound in Kilima Lake using glow worms at night."
+    "description": "Un raro pesce paletta che si nutre di notte, grazie alle sue squame scure che lo tengono nascosto dai predatori.\nSi può trovare nel lago di Kilima e usa vermi luminosi di notte."
   },
   "DA_ItemType_Fish_Mirror_Carp": {
     "name": "Carpa specchio",
-    "description": "A silvery carp with scales resembling mirrors.\r\nFound in ponds using worms."
+    "description": "Carpa argentata con squame simili a specchi.\nSi può trovare negli stagni con i vermi."
   },
   "DA_ItemType_Fish_Mottled_Gobi": {
     "name": "Ghiozzo striato",
-    "description": "An under appreciated fish that feeds on excess pond algae.\r\nFound in ponds using glow worms."
+    "description": "Un pesce poco apprezzato che si nutre delle alghe in eccesso nello stagno.\nSi può trovare in stagni usando i vermi luminosi."
   },
   "DA_ItemType_Fish_Mudminnow": {
     "name": "Menola del fango",
-    "description": "A common minnow known for its muddy looking color.\r\nFound in ponds without using any bait."
+    "description": "Un pesciolino comune, noto per il suo colore fangoso.\nSi può trovare negli stagni senza l'uso di esche."
   },
   "DA_ItemType_Fish_MutatedAngler": {
     "name": "Rana pescatrice mutante",
-    "description": "A terrifying monstrosity, said to be a survivor from the time of humans.\r\nFound in Bahari Bay caves using worms."
+    "description": "Una mostruosità terrificante, che si dice sia un sopravvissuto dell'epoca degli umani.\nSi può trovare nelle grotte di Cala Bahari grazie ai vermi."
   },
   "DA_ItemType_Fish_Oily_Anchovy": {
     "name": "Acciuga oleosa",
-    "description": "A slimy fish some Majiri find strangely appetizing.\r\nFound in Bahari Bay rivers using worms."
+    "description": "Un pesce viscido che alcuni Majiri trovano stranamente appetitoso.\nSi può trovare nei fiumi della Baia di Bahari con i vermi."
   },
   "DA_ItemType_Fish_Orange_Bluegill": {
     "name": "Persico sole arancio",
-    "description": "An omnivorous fish that prefers insects but will eat anything it can fit into its mouth.\r\nFound in ponds using worms."
+    "description": "Pesce onnivoro che predilige gli insetti, ma che mangia tutto ciò che riesce a mettere in bocca.\nSi può trovare negli stagni usando i vermi."
   },
   "DA_ItemType_Fish_Paddlefish": {
     "name": "Pesce spatola",
-    "description": "A primitive fish that has survived for millions of years.\r\nFound in Bahari Bay rivers using worms in the morning, day, and evening."
+    "description": "Un pesce primitivo che è sopravvissuto per milioni di anni.\nSi può trovare nei fiumi della Baia di Bahari usando i vermi al mattino, al giorno e alla sera."
   },
   "DA_ItemType_Fish_PaintedPerch": {
     "name": "Persico dipinto",
-    "description": "A petite river fish known for its pleasing colors.\r\nFound in Kilima Lake using worms."
+    "description": "Un piccolo pesce di fiume noto per i suoi colori gradevoli.\nSi può trovare nel lago di Kilima usando i vermi."
   },
   "DA_ItemType_Fish_Platinum_Chad": {
     "name": "Cheppia platinata",
-    "description": "The brilliant platinum scales of this chad can fool fishermen into dreams of wealth.\r\nFound in Kilima rivers using glow worms."
+    "description": "Le brillanti scaglie di platino di questo cavedano possono ingannare i pescatori con sogni di ricchezza.\nSi può trovare nei fiumi di Kilima e utilizza vermi luminosi."
   },
   "DA_ItemType_Fish_PrismTrout": {
     "name": "Trota arcobaleno",
-    "description": "A gorgeous trout that shines like rainbows in the sunlight.\r\nFound in Kilima Lake using worms in the morning and day."
+    "description": "Una splendida trota che alla luce del sole brilla come un'iridea.\nSi può trovare nel lago di Kilima con vermi al mattino e durante il giorno."
   },
   "DA_ItemType_Fish_RadiantSunfish": {
     "name": "Pesce sole splendente",
-    "description": "A beautifully radiant river fish that emits a blinding ray of light many compare to looking directly into the sun.\r\nFound in Kilima Rivers using worms."
+    "description": "Uno splendido e radioso pesce di fiume, che emette un raggio di luce così accecante da sembrare di guardare il sole stesso.\nSi può trovare nei fiumi di Kilima usando i vermi."
   },
   "DA_ItemType_Fish_Rainbow_Trout": {
     "name": "Trota iridea",
-    "description": "A river fish sporting a muted multicolor scale pattern.  Not smart enough to be jealous of the Prism Trout.\r\nFound in Kilima Rivers without bait."
+    "description": "Un pesce di fiume che sfoggia un disegno a squame multicolore attenuato.  Non è abbastanza intelligente da essere geloso della trota prismatica.\nSi può trovare nei fiumi di Kilima senza esche."
   },
   "DA_ItemType_Fish_Red-bellied_Piranha": {
     "name": "Piranha rosso",
-    "description": "An aggressive river predator that will eat literally anything.\r\nFound in Kilima Rivers using worms."
+    "description": "Un predatore fluviale aggressivo che mangia letteralmente di tutto.\nSi può trovare nei fiumi di Kilima usando i vermi."
   },
   "DA_ItemType_Fish_RibbontailRay": {
     "name": "Razza nastrina",
-    "description": "Known to frequent tropical waters, the Ribbon Tail Ray recently made a surprising migration from the isles of Inyrevn to the west coast of the Palian Republic.\r\nFound off the coast of Bahari Bay using worms in the morning and evening."
+    "description": "Conosciuto per la sua frequentazione delle acque tropicali, il Ribbon Tail Ray ha recentemente compiuto una sorprendente migrazione dalle isole di Inyrevn alla costa occidentale della Repubblica Paliana.\nÈ stato trovato al largo della costa di Cala Bahari usando i vermi al mattino e alla sera."
   },
   "DA_ItemType_Fish_Rosy_Bitterling": {
     "name": "Roseo amaro",
-    "description": "A freshwater fish with a rosy patch on its behind.\r\nFound in Bahari Rivers without bait."
+    "description": "Un pesce d'acqua dolce con una macchia rosea sul dorso.\nSi può trovare nei fiumi Bahari senza esca."
   },
   "DA_ItemType_Fish_Sardine": {
     "name": "Sardina",
-    "description": "A small, but quick foraging fish that many Majiri enjoy eating when pickled.\r\nFound off the coast of Bahari Bay without bait."
+    "description": "Un pesce piccolo, ma veloce, che molti Majiri amano mangiare in salamoia.\nSi può trovare al largo della costa di Cala Bahari senza esca."
   },
   "DA_ItemType_Fish_Scarlet_Koi": {
     "name": "Koi rossa",
-    "description": "A sleek koi fish with a deep red pattern.\r\nFound in ponds using glow worms."
+    "description": "Un elegante pesce koi con un disegno rosso intenso.\nSi può trovare in laghetti con vermi luminosi."
   },
   "DA_ItemType_Fish_Shimmerfin": {
     "name": "Brillopinna",
-    "description": "A mysterious fish that can sometimes be in two places at once.\r\nFound in Kilima Lake using worms."
+    "description": "Un pesce misterioso che a volte può trovarsi in due posti contemporaneamente.\nSi può trovare nel lago di Kilima con i vermi."
   },
   "DA_ItemType_Fish_SilverSalmon": {
     "name": "Salmone argentato",
-    "description": "A common silvery fish.\r\nFound in Kilima Rivers without bait in evenings and nights."
+    "description": "Un comune pesce argentato.\nSi può trovare nei fiumi di Kilima senza esca durante la sera e la notte."
   },
   "DA_ItemType_Fish_Silvery_Minnow": {
     "name": "Menola argentea",
-    "description": "A common minnow with silvery scales that sparkle in the sun.\r\nFound in Bahari Rivers without bait."
+    "description": "Un pesciolino comune dalle squame argentee che risplendono al sole.\nSi può trovare nei fiumi di Bahari senza esca."
   },
   "DA_ItemType_Fish_SmallmouthBass": {
     "name": "Boccalino",
-    "description": "A common bass with very little to say that is known to occasionally leap from the water.\r\nFound in Kilima Lake using worms."
+    "description": "Una comune spigola. Non c'è molto da aggiungere, se non che salta fuori dall'acqua ogni tanto.\nSi può trovare nel lago di Kilima usando i vermi."
   },
   "DA_ItemType_Fish_SpottedBullhead": {
     "name": "Pesce gatto maculato",
-    "description": "A bullhead with a spotted pattern.\r\nFound in Kilima Rivers without bait."
+    "description": "Un pesce gatto dalla testa a toro e la livrea maculata.\nSi può trovare nei fiumi di Kilima senza esca."
   },
   "DA_ItemType_Fish_Stalking_Catfish": {
     "name": "Pesce gatto predatore",
-    "description": "A predatory blue catfish that will attack nearby vulnerable fish.\r\nFound in ponds using glow worms in the evening and night."
+    "description": "Pesce gatto blu predatore che attacca i pesci vulnerabili nelle vicinanze.\nSi può trovare negli stagni con vermi luminosi la sera e la notte."
   },
   "DA_ItemType_Fish_Stickleback": {
     "name": "Spinarello",
-    "description": "A carnivorous fish that enjoys feasting on roe, insects, crustaceans, and the toes of fisherman.\r\nFound in Kilima Rivers using worms in the morning and day."
+    "description": "Un pesce carnivoro che ama banchettare con uova di pesce, insetti, crostacei e le dita dei pescatori.\nSi può trovare nei fiumi di Kilima usando i vermi al mattino e di giorno."
   },
   "DA_ItemType_Fish_Stonefish": {
     "name": "Pesce pietra",
-    "description": "Extremely poisonous, Stonefish naturally blend into their surroundings while waiting for prey.\r\nFound in Bahari Bay caves using glow worms."
+    "description": "Estremamente velenosi, i pesci pietra si mimetizzano naturalmente nell'ambiente circostante in attesa di una preda.\nSi può trovareno nelle grotte di Cala Bahari usando i vermi luminosi."
   },
   "DA_ItemType_Fish_Stormray": {
     "name": "Razza della tempesta",
-    "description": "A majestic river ray that hunts by twisting water currents and channeling lightning through its tail.\r\nFound in Bahari rivers using glow worms in the morning and evening."
+    "description": "Una maestosa razza di fiume che caccia mulinando le correnti d'acqua e incanalando i fulmini attraverso la coda.\nSi può trovare nei fiumi di Bahari usando i vermi luminosi al mattino e alla sera."
   },
   "DA_ItemType_Fish_StripedSturgeon": {
     "name": "Storione vergato",
-    "description": "A bottom feeding lake fish with light colored stripes that allow it to camouflage in the sunlight.\r\nFound in Kilima Lake using worms in the evening and night."
+    "description": "Un pesce di lago che si nutre sui fondali, le cui strisce chiare gli permettono di mimetizzarsi alla luce del sole.\nSi può trovare nel lago di Kilima usando i vermi durante la sera e la notte."
   },
   "DA_ItemType_Fish_Striped_Dace": {
     "name": "Leucisco striato",
-    "description": "A dace with a striped pattern down its back.\r\nFound in Kilima Rivers without bait."
+    "description": "Un pesce dal dorso ricoperto di striature.\nSi può trovare nei fiumi di Kilima senza esca."
   },
   "DA_ItemType_Fish_Swordfin_Eel": {
     "name": "Anguilla spada",
-    "description": "An apex predator eel that uses its own body to cut down prey.\r\nFound in Bahari rivers using glow worms."
+    "description": "Un'anguilla predatrice che utilizza il proprio corpo per abbattere le prede.\nSi può trovare nei fiumi delle Bahari usando i vermi luminosi."
   },
   "DA_ItemType_Fish_Thundering_Eel": {
     "name": "Anguilla tonante",
-    "description": "An electrically charged eel that can shock its prey into submission.\r\nFound in Bahari Bay rivers using worms."
+    "description": "Un'anguilla con carica elettrica in grado di sottomettere le sue prede.\nSi può trovare nei fiumi della Baia di Bahari usando i vermi."
   },
   "DA_ItemType_Fish_UmbranCarp": {
     "name": "Carpa ombrata",
-    "description": "A relative of the Fairy Carp, the Umbran Carp prefers the dark environments of caves and underground lake systems.\r\nFound in Bahari Bay caves without bait."
+    "description": "Parente della carpa fatata, la carpa ombrata preferisce gli oscuri ambienti delle grotte e i sistemi lacustri sotterranei.\nSi può trovare nelle grotte di Cala Bahari senza esca."
   },
   "DA_ItemType_Fish_UnicornFish": {
     "name": "Pesce unicorno",
-    "description": "The horn of the unicorn fish is valuable to any alchemist or potion master. But beware, they are rumored to have psychic abilities that can make even the most accomplished fisherman think left is right.\r\nFound off the coast of Bahari Bay using glow worms during the day."
+    "description": "Il corno del pesce unicorno è prezioso per qualsiasi alchimista o maestro di pozioni. Ma attenzione, si dice che abbiano capacità psichiche tali da far pensare che la sinistra sia giusta anche al più abile dei pescatori.\nSi può trovareno al largo della costa di Cala Bahari usando vermi luminosi durante il giorno."
   },
   "DA_ItemType_Fish_Voidray": {
     "name": "Razza del vuoto",
-    "description": "Alien and terrifying, some say the Voidray can enter the Echo realm and feed off smaller echoes it finds.\r\nFound in Bahari Bay caves using glow worms."
+    "description": "Alieno e terrificante, secondo alcuni il Voidray può entrare nel regno dell'eco e nutrirsi degli eco più piccoli che trova.\nSi può trovare nelle grotte di Cala Bahari con le vermi luminose."
   },
   "DA_ItemType_Fish_Willow_Lamprey": {
     "name": "Lampreda salice",
-    "description": "A long, thin lamprey named after its similarity to the branches of a willow tree.\r\nFound in Bahari Bay rivers using worms at night."
+    "description": "Una lunga e sottile lampreda che prende il nome dalla sua somiglianza con i rami di un salice.\nSi può trovare nei fiumi di Cala Bahari usando i vermi durante la notte."
   },
   "DA_ItemType_Fish_Yellowfin_Tuna": {
     "name": "Tonno pinna gialla",
-    "description": "A large tuna that can swim faster than its size implies.\r\nFound off the coast of Bahari Bay using glow worms."
+    "description": "Un grande tonno che può nuotare più veloce di quel che le dimensioni suggeriscono.\nSi può trovare  al largo della costa di Cala Bahari usando i vermi luminosi."
   },
   "DA_ItemType_Fish_Yellow_Perch": {
     "name": "Perca gialla",
-    "description": "A common perch found in rivers.\r\nFound in Bahari Rivers without bait."
+    "description": "Un persico di fiume comune.\nSi può trovare nei fiumi di Bahari senza esca."
   },
   "DA_ItemType_Trash_ShipFragments": {
     "name": "Frammenti di nave",
@@ -5190,11 +5577,11 @@
   },
   "DA_ItemType_Forage_Crystal_Pearl": {
     "name": "Perla",
-    "description": "Ecco una perla di saggezza: apri più ostriche per avere la possibilità di ottenere perle di altri colori!"
+    "description": "Here's a pearl of wisdom: open more oysters for a chance at other colors of pearls! Sells for a high price."
   },
   "DA_ItemType_Forage_Crystal_Pearl_Green": {
     "name": "Perla verde",
-    "description": "Santa madre della Perla verde! Ne hai davvero trovata una!"
+    "description": "Holy mother of Green Pearl! You actually found one! Sells for a very high price."
   },
   "DA_ItemType_Forage_Flower_BriarDaisy": {
     "name": "Margherita di rovo",
@@ -5475,7 +5862,7 @@
   },
   "DA_ItemType_House_Main": {
     "name": "Harvest House",
-    "description": "L'entrata principale della tua casa, grande 11 x 11 metri. Servono 8 ore per costruirla."
+    "description": "La base della tua casa, grande 11 x 11 metri. Servono 8 ore per costruirla."
   },
   "DA_ItemType_House_Roof_Dormer": {
     "name": "Roof Dormer"
@@ -5521,23 +5908,23 @@
   },
   "DA_ItemType_Material_Antler_T1": {
     "name": "Palco di sernunk",
-    "description": "Il palco di un sernuk. Viene spesso utilizzato come decorazione e in medicina."
+    "description": "The antlers of a sernuk. Often used for decoration and in medicine. Sells for a high price."
   },
   "DA_ItemType_Material_Antler_T2": {
     "name": "Palco di sernuk anziano",
-    "description": "Il palco di un sernuk anziano. Viene spesso utilizzato come decorazione e in medicina."
+    "description": "The antlers of an elder sernuk. Often used for decoration and in medicine. Sells for a very high price."
   },
   "DA_ItemType_Material_Antler_T3": {
     "name": "Palco di sernuk fierocorno",
-    "description": "Il palco di un raro sernuk fierocorno. È molto apprezzato come decorazione e in medicina."
+    "description": "The antlers of a rare, Proudhorned Sernuk. Prized for decoration and in medicine. Sells for an extremely high price."
   },
   "DA_ItemType_Material_Fabric": {
     "name": "Tessuto",
     "description": "Tessuto di cotone resistente."
   },
   "DA_ItemType_Material_Fur": {
-    "name": "Pelliccia di chapaa",
-    "description": "La soffice pelliccia di un chapaa selvatico."
+    "name": "Fur",
+    "description": "The fluffy fur of a wild animal."
   },
   "DA_ItemType_Material_Hide": {
     "name": "Pelle di sernuk",
@@ -5546,6 +5933,18 @@
   "DA_ItemType_Material_Leather": {
     "name": "Cuoio",
     "description": "Pelle di sernuk conciata in modo da ottenere un cuoio liscio."
+  },
+  "DA_ItemType_Material_Mane_T1": {
+    "name": "T1 Muujin Mane",
+    "description": "Description "
+  },
+  "DA_ItemType_Material_Mane_T2": {
+    "name": "T2 Muujin Mane",
+    "description": "Description"
+  },
+  "DA_ItemType_Material_Mane_T3": {
+    "name": "T3 Muujin Mane",
+    "description": "Description"
   },
   "DA_ItemType_Material_PlantFiber": {
     "name": "Fibra vegetale",
@@ -5561,15 +5960,15 @@
   },
   "DA_ItemType_Material_Tail_T1": {
     "name": "Coda di chapaa maculato",
-    "description": "La coda maculata di un chapaa. La sua morbida pelliccia è molto apprezzata."
+    "description": "The spotted tail of a chapaa. Often praised for its soft fur. Sells for a high price."
   },
   "DA_ItemType_Material_Tail_T2": {
     "name": "Coda di chapaa striato",
-    "description": "La coda a strisce di un chapaa striato. La sua morbida pelliccia è molto apprezzata."
+    "description": "The striped tail of a striped chapaa. Often praised for its soft fur. Sells for a very high price."
   },
   "DA_ItemType_Material_Tail_T3": {
     "name": "Coda di chapaa azzurro",
-    "description": "La coda scintillante di un raro chapaa azzurro. La sua pelliccia setosa è molto apprezzata."
+    "description": "The gleaming tail of a rare azure chapaa. Often praised for its silken fur. Sells for an extremely high price."
   },
   "DA_ItemType_Material_Witchweave": {
     "name": "Intreccio di strega",
@@ -5715,7 +6114,23 @@
     "name": "Connection Wish Ribbon",
     "description": "A wish expressing the desire to grow closer to someone."
   },
+  "DA_ItemType_WishRibbon_Connection_Grant": {
+    "name": "Connection Wish Ribbon",
+    "description": "A wish expressing the desire to grow closer to someone."
+  },
+  "DA_ItemType_WishRibbon_Connection_Int": {
+    "name": "Connection Wish Ribbon",
+    "description": "A wish expressing the desire to grow closer to someone."
+  },
   "DA_ItemType_WishRibbon_Happiness": {
+    "name": "Happiness Wish Ribbon",
+    "description": "A wish expressing the desire to have your spirits lifted."
+  },
+  "DA_ItemType_WishRibbon_Happiness_Grant": {
+    "name": "Connection Wish Ribbon",
+    "description": "A wish expressing the desire to grow closer to someone."
+  },
+  "DA_ItemType_WishRibbon_Happiness_Int": {
     "name": "Happiness Wish Ribbon",
     "description": "A wish expressing the desire to have your spirits lifted."
   },
@@ -5723,11 +6138,35 @@
     "name": "Longevity Wish Ribbon",
     "description": "A wish expressing the desire to be more focused and renowned."
   },
+  "DA_ItemType_WishRibbon_Longevity_Grant": {
+    "name": "Connection Wish Ribbon",
+    "description": "A wish expressing the desire to grow closer to someone."
+  },
+  "DA_ItemType_WishRibbon_Longevity_Int": {
+    "name": "Longevity Wish Ribbon",
+    "description": "A wish expressing the desire to be more focused and renowned."
+  },
   "DA_ItemType_WishRibbon_Path": {
     "name": "Path Wish Ribbon",
     "description": "A wish expressing the desire to be grow stronger on your chosen path."
   },
+  "DA_ItemType_WishRibbon_Path_Grant": {
+    "name": "Connection Wish Ribbon",
+    "description": "A wish expressing the desire to grow closer to someone."
+  },
+  "DA_ItemType_WishRibbon_Path_Int": {
+    "name": "Path Wish Ribbon",
+    "description": "A wish expressing the desire to be grow stronger on your chosen path."
+  },
   "DA_ItemType_WishRibbon_Prosperity": {
+    "name": "Prosperity Wish Ribbon",
+    "description": "A wish expressing the desire to be prosperous."
+  },
+  "DA_ItemType_WishRibbon_Prosperity_Grant": {
+    "name": "Connection Wish Ribbon",
+    "description": "A wish expressing the desire to grow closer to someone."
+  },
+  "DA_ItemType_WishRibbon_Prosperity_Int": {
     "name": "Prosperity Wish Ribbon",
     "description": "A wish expressing the desire to be prosperous."
   },
@@ -5771,6 +6210,10 @@
     "name": "Carne di chapaa",
     "description": "La carne tenera di un chapaa selvatico."
   },
+  "DA_ItemType_Product_Meat_Treeclimber": {
+    "name": "Muujin Meat",
+    "description": "Description"
+  },
   "DA_ItemType_Product_Milk": {
     "name": "Latte",
     "description": "Latte di ormuu dalla fattoria della famiglia Daiya. E se per caso lo versi, non piangere! Prendine dell'altro."
@@ -5785,7 +6228,7 @@
   },
   "DA_ItemType_Product_Pickle_Corn": {
     "name": "Pickled Corn",
-    "description": "A pensarci bene, i pomodori sottaceto non sono altro che un sugo per la pasta molto acidulo e destrutturato."
+    "description": "Can you hear the ears being pickled? Don't forget to shuck your corn first!"
   },
   "DA_ItemType_Product_Pickle_Onion": {
     "name": "Cipolle sottaceto",
@@ -5797,7 +6240,7 @@
   },
   "DA_ItemType_Product_Pickle_SpicyPepper": {
     "name": "Pickled Spicy Pepper",
-    "description": "A pensarci bene, i pomodori sottaceto non sono altro che un sugo per la pasta molto acidulo e destrutturato."
+    "description": "Preserve a peck of pickled peppers. Piper approved!"
   },
   "DA_ItemType_Product_Pickle_Tomato": {
     "name": "Pomodori sottaceto",
@@ -6091,6 +6534,10 @@
     "name": "Ornamento di Einar",
     "description": "Un ornamento da parte di Einar."
   },
+  "DA_ItemType_Questitem_EKey": {
+    "name": "Pulsing Key",
+    "description": "It's pulsing faster and faster as you hold it. Should keys pulse? Hopefuly it isn't a weird looking bug."
+  },
   "DA_ItemType_Questitem_ElleTest_Sandwich": {
     "name": "Panino perduto",
     "description": "Qualcuno ha perso il suo panino. Forse è meglio riportarglielo."
@@ -6117,23 +6564,23 @@
   },
   "DA_ItemType_Questitem_Event0_IceCreamMachine_Part1": {
     "name": "Parte della macchina per il gelato",
-    "description": "One of many parts belonging to Delaila's broken ice cream."
+    "description": "Uno dei tanti pezzi della macchina per il gelato rotta di Delaila."
   },
   "DA_ItemType_Questitem_Event0_IceCreamMachine_Part2": {
     "name": "Parte della macchina per il gelato",
-    "description": "One of many parts belonging to Delaila's broken ice cream."
+    "description": "Uno dei tanti pezzi della macchina per il gelato rotta di Delaila."
   },
   "DA_ItemType_Questitem_Event0_IceCreamMachine_Part3": {
     "name": "Parte della macchina per il gelato",
-    "description": "One of many parts belonging to Delaila's broken ice cream."
+    "description": "Uno dei tanti pezzi della macchina per il gelato rotta di Delaila."
   },
   "DA_ItemType_Questitem_Event0_IceCreamMachine_Part4": {
     "name": "Parte della macchina per il gelato",
-    "description": "One of many parts belonging to Delaila's broken ice cream."
+    "description": "Uno dei tanti pezzi della macchina per il gelato rotta di Delaila."
   },
   "DA_ItemType_Questitem_Event0_IceCreamMachine_Part5": {
     "name": "Parte della macchina per il gelato",
-    "description": "One of many parts belonging to Delaila's broken ice cream."
+    "description": "Uno dei tanti pezzi della macchina per il gelato rotta di Delaila."
   },
   "DA_ItemType_Questitem_Event0_RethsMochi": {
     "name": "Gelato al mochi",
@@ -6354,6 +6801,10 @@
   "DA_ItemType_Questitem_History_of_Plants": {
     "name": "La storia delle piante",
     "description": "Un libro che narra la storia delle piante."
+  },
+  "DA_ItemType_Questitem_HodariMedicine": {
+    "name": "Medicine for Hodari",
+    "description": "A bottle of potent-looking medicine. It seems like it packs a punch."
   },
   "DA_ItemType_Questitem_HodarisKey": {
     "name": "Chiave di Hodari",
@@ -6579,6 +7030,10 @@
     "name": "Spilla per Hassian",
     "description": "Una spilla che hai realizzato per Hassian."
   },
+  "DA_ItemType_Questitem_PinForHodari": {
+    "name": "Pin for Hodari",
+    "description": "A pin you made for Hodari."
+  },
   "DA_ItemType_Questitem_PinForJel": {
     "name": "Spilla per Jel",
     "description": "Una spilla che hai realizzato per Jel."
@@ -6730,6 +7185,14 @@
     "name": "Un panino per te",
     "description": "Hassian, per qualche motivo, ti ha preparato un panino. Sembra gustoso!"
   },
+  "DA_ItemType_QuestItem_Reward_HeartQuiche": {
+    "name": "Heart-Shaped Quiche",
+    "description": "A special quiche made by Hodari with love- for you, and for the most important meal of the day."
+  },
+  "DA_ItemType_QuestItem_Reward_HodariPin": {
+    "name": "Hodari's Pin",
+    "description": "Hodari gave you this pin to show his feelings for you. Wear it to show your feelings for him."
+  },
   "DA_ItemType_Questitem_Reward_Horseshoe": {
     "name": "Ferro di cavallo fortunato",
     "description": "Un complemento d'arredo davvero fantastico. Presto disponibile!"
@@ -6815,8 +7278,8 @@
     "description": "Tamala ti ha dato questa spilla che rappresenta i suoi sentimenti per te. Indossala per dimostrarle che sono corrisposti."
   },
   "DA_ItemType_QuestItem_Reward_TamalasPotion": {
-    "name": "Unguento di bellezza di Tamala",
-    "description": "Un flacone dello speciale unguento di bellezza di Tamala."
+    "name": "Profumo di Tamala",
+    "description": "Una boccetta del profumo speciale di Tamala."
   },
   "DA_ItemType_Questitem_Reward_Telescope": {
     "name": "Telescopio",
@@ -6919,7 +7382,7 @@
     "description": "A slightly-chewed package. Did Tau wrap this himself...? The world may never know."
   },
   "DA_ItemType_Questitem_TauGardenRepair": {
-    "name": "Repair",
+    "name": "Riparazione",
     "description": "A good place to repair a garden plot."
   },
   "DA_ItemType_Questitem_TausStashes": {
@@ -7225,6 +7688,9 @@
   "DA_Tint_Sunrise": {
     "name": "Alba"
   },
+  "DA_Tint_Sunset": {
+    "name": "Sunset"
+  },
   "DA_Tint_TheOrder": {
     "name": "TheOrder"
   },
@@ -7233,71 +7699,71 @@
   },
   "DA_ItemType_ModificationKit": {
     "name": "Kit di modifica mobili",
-    "description": "Usa questi kit al bancone da modifica per personalizzare i tuoi mobili."
+    "description": "Utilizza questi kit di modifica al banco da modifica, per personalizzare i tuoi mobili."
   },
   "DA_ItemType_Tool_Axe_Exquisite": {
     "name": "Ascia portentosa",
-    "description": "An exquisite axe for chopping trees and bushes. \r\nDeals more damage than the Fine Axe. \r\nCan chop medium and large trees."
+    "description": "Un'ascia squisita per tagliare alberi e cespugli. \nInfligge più danni dell'ascia fine. \nPuò tagliare alberi di medie e grandi dimensioni."
   },
   "DA_ItemType_Tool_Axe_Fine": {
     "name": "Ascia pregiata",
-    "description": "A fine axe for chopping trees and bushes. \r\nDeals more damage than the Standard Axe. \r\nCan chop medium and large trees."
+    "description": "Un'ascia pregiata per tagliare alberi e cespugli.\nInfligge più danni dell'ascia normale.\nPuò tagliare alberi di medie e grandi dimensioni."
   },
   "DA_ItemType_Tool_Axe_Simple": {
     "name": "Ascia improvvisata",
-    "description": "Un'ascia da principiante per tagliare alberi e cespugli."
+    "description": "Un'ascia per principianti, per tagliare alberi e cespugli."
   },
   "DA_ItemType_Tool_Axe_Standard": {
     "name": "Ascia normale",
-    "description": "A standard axe for chopping trees and bushes. \r\nDeals more damage than the Makeshift Axe. \r\nCan chop medium trees."
+    "description": "Un'ascia standard per tagliare alberi e cespugli. \nInfligge più danni dell'ascia di fortuna. \nPuò tagliare alberi di medie dimensioni."
   },
   "DA_ItemType_Tool_Bow_Exquisite": {
     "name": "Arco portentoso",
-    "description": "An exquisite bow for hunting creatures.\r\nShoots farther than the Fine Bow."
+    "description": "Un arco squisito per la caccia alle creature.\nTira più lontano dell'Arco Fine."
   },
   "DA_ItemType_Tool_Bow_Fine": {
     "name": "Arco pregiato",
-    "description": "A fine bow for hunting creatures.\r\nShoots farther than the Standard Bow."
+    "description": "Un arco pregiato per la caccia.\nTira più lontano dell'arco normale."
   },
   "DA_ItemType_Tool_Bow_Simple": {
     "name": "Arco improvvisato",
-    "description": "Un arco da principiante per la caccia."
+    "description": "Un arco da caccia per principianti."
   },
   "DA_ItemType_Tool_Bow_Standard": {
     "name": "Arco normale",
-    "description": "A standard bow for hunting creatures.\r\nShoots farther than the Makeshift Bow."
+    "description": "Un arco standard per la caccia alle creature.\nTira più lontano dell'Arco di fortuna."
   },
   "DA_ItemType_Tool_Hoe_Exquisite": {
     "name": "Zappa portentosa",
-    "description": "An exquisite hoe for gardening. \r\nTills a larger area than the Fine Hoe."
+    "description": "Una squisita zappa per il giardinaggio. \nDissoda un'area più ampia rispetto alla zappa fine."
   },
   "DA_ItemType_Tool_Hoe_Fine": {
     "name": "Zappa pregiata",
-    "description": "A fine hoe for gardening. \r\nTills a larger area than the Standard Hoe."
+    "description": "Una zappa pregiata per il giardinaggio. \nPrepara un'area di terreno più ampia rispetto alla zappa normale."
   },
   "DA_ItemType_Tool_Hoe_Simple": {
     "name": "Zappa improvvisata",
-    "description": "Una zappa da principiante per il giardinaggio."
+    "description": "Una zappa da giardinaggio per principianti."
   },
   "DA_ItemType_Tool_Hoe_Standard": {
     "name": "Zappa normale",
-    "description": "A standard hoe for gardening. \r\nTills a larger area than than Makeshift Hoe."
+    "description": "Una zappa standard per il giardinaggio. \nDissoda un'area più ampia rispetto alla zappa di fortuna."
   },
   "DA_ItemType_Tool_InsectBallLauncher_Exquisite": {
     "name": "Cintura portentosa",
-    "description": "An exquisite belt for bug catching.\r\nHigher chance to daze bugs than the Fine Belt."
+    "description": "Una cintura squisita per catturare gli insetti.\nMaggiore possibilità di stordire gli insetti rispetto alla cintura Fine."
   },
   "DA_ItemType_Tool_InsectBallLauncher_Fine": {
     "name": "Cintura pregiata",
-    "description": "A fine belt for bug catching.\r\nHigher chance to daze bugs than the Standard Belt."
+    "description": "Una cintura pregiata per la cattura d'insetti.\nPossibilità più alta di stordire gli insetti rispetto alla cintura normale."
   },
   "DA_ItemType_Tool_InsectBallLauncher_Simple": {
-    "name": "Cintura di fortuna",
-    "description": "Una cintura da principiante per la cattura d'insetti."
+    "name": "Cintura improvvisata",
+    "description": "Una cintura da acchiappainsetti per principianti."
   },
   "DA_ItemType_Tool_InsectBallLauncher_Standard": {
     "name": "Cintura normale",
-    "description": "A standard belt for bug catching.\r\nHigher chance to daze bugs than the Makeshift Belt."
+    "description": "Una cintura standard per catturare gli insetti.\nHa una maggiore probabilità di stordire gli insetti rispetto alla cintura di fortuna."
   },
   "DA_ItemType_Tool_Net_Exquisite": {
     "name": "Exquisite Net",
@@ -7317,11 +7783,11 @@
   },
   "DA_ItemType_Tool_Pick_Exquisite": {
     "name": "Piccone portentoso",
-    "description": "An exquisite pick for mining minerals from the land. \r\nDeals more damage than the Fine Pick. \r\nCan mine Iron and Palium."
+    "description": "Uno squisito piccone per l'estrazione di minerali dalla terra. \nInfligge più danni del piccone fine. \nPuò estrarre ferro e palium."
   },
   "DA_ItemType_Tool_Pick_Fine": {
     "name": "Piccone pregiato",
-    "description": "A fine pick for mining minerals from the land. \r\nDeals more damage than the Standard Pick. \r\nCan mine Iron and Palium."
+    "description": "Un piccone pregiato per estrarre minerali dalla terra. \nInfligge più danni del piccone normale. \nPuò estrarre ferro e palium."
   },
   "DA_ItemType_Tool_Pick_Simple": {
     "name": "Piccone improvvisato",
@@ -7329,7 +7795,7 @@
   },
   "DA_ItemType_Tool_Pick_Standard": {
     "name": "Piccone normale",
-    "description": "A standard pick for mining minerals from the land. \r\nDeals more damage than the Makeshift Pick. \r\nCan mine Iron."
+    "description": "Un piccone standard per l'estrazione di minerali dalla terra. \nInfligge più danni del piccone di fortuna. \nPuò estrarre ferro."
   },
   "DA_ItemType_Tool_Repair_Kit": {
     "name": "Kit di riparazione",
@@ -7337,19 +7803,19 @@
   },
   "DA_ItemType_Tool_Rod_Exquisite": {
     "name": "Canna portentosa",
-    "description": "An exquisite rod for fishing. \r\nMoves faster than the Fine Rod.\r\nHas more line health than the Fine Rod."
+    "description": "Una canna squisita per la pesca. \nSi muove più velocemente della canna fine.\nHa una maggiore salute della lenza rispetto alla canna fine."
   },
   "DA_ItemType_Tool_Rod_Fine": {
     "name": "Canna pregiata",
-    "description": "A fine rod for fishing. \r\nMoves faster than the Standard Rod.\r\nHas more line health than the Standard Rod."
+    "description": "Una canna pregiata per la pesca. \nSi muove più velocemente della canna normale.\nHa una salute della lenza maggiore rispetto alla canna normale."
   },
   "DA_ItemType_Tool_Rod_Simple": {
     "name": "Canna improvvisata",
-    "description": "Una canna da principiante per la pesca. "
+    "description": "Una canna da pesca per principianti. "
   },
   "DA_ItemType_Tool_Rod_Standard": {
     "name": "Canna normale",
-    "description": "A standard rod for fishing. \r\nMoves faster than the Makeshift Rod.\r\nHas more line health than the Makeshift Rod."
+    "description": "Una canna standard per la pesca. \nSi muove più velocemente della canna da pesca di fortuna.\nHa più salute della lenza rispetto alla canna di fortuna."
   },
   "DA_ItemType_Tool_Sword_Exquisite": {
     "name": "Spada e scudo in palium",
@@ -7381,19 +7847,19 @@
   },
   "DA_ItemType_Tool_WateringCan_Exquisite": {
     "name": "Annaffiatoio portentoso",
-    "description": "An exquisite watering can for gardening. \r\nHolds more water than the Fine Can.\r\nWaters up to nine crops at once faster than the Fine Can."
+    "description": "Uno squisito annaffiatoio per il giardinaggio. \nTrattiene più acqua dell'annaffiatoio Fine.\nInnaffia fino a nove colture contemporaneamente in modo più rapido rispetto all'annaffiatoio Fine."
   },
   "DA_ItemType_Tool_WateringCan_Fine": {
     "name": "Annaffiatoio pregiato",
-    "description": "A fine watering can for gardening. \r\nHolds more water than the Standard Can.\r\nWaters up to nine crops at once."
+    "description": "Un annaffiatoio pregiato per il giardinaggio. \nContiene più acqua rispetto all'annaffiatoio normale.\nInnaffia fino a nove colture contemporaneamente."
   },
   "DA_ItemType_Tool_WateringCan_Simple": {
     "name": "Annaffiatoio improvvisato",
-    "description": "Un annaffiatoio da principiante per il giardinaggio. "
+    "description": "Un'annaffiatoio da giardinaggio per principianti. "
   },
   "DA_ItemType_Tool_WateringCan_Standard": {
     "name": "Annaffiatoio normale",
-    "description": "A standard watering can for gardening. \r\nHolds more water than the Makeshift Can.\r\nWaters up to five crops at once."
+    "description": "Un annaffiatoio standard per il giardinaggio. \nContiene più acqua dell'annaffiatoio di fortuna.\nInnaffia fino a cinque colture contemporaneamente."
   },
   "DA_ItemType_Bag_Upgrade1": {
     "name": "Zaino",
@@ -7457,7 +7923,7 @@
   },
   "DA_ItemType_Floor_Floral_Stone_Tile_03": {
     "name": "Pavimento in piastrelle Robbia di campo",
-    "description": "Camminare su questa piastrelle è come camminare in un campo di fiori! Ma ci si sporca meno."
+    "description": "Camminare su queste piastrelle è come camminare in un campo di fiori! Ma ci si sporca meno."
   },
   "DA_ItemType_Floor_Hex_stones_tile_01": {
     "name": "Pavimento in piastrelle cubiche terra di Siena",
@@ -7631,6 +8097,86 @@
     "name": "Carta da parati Comodità di campagna",
     "description": "Le finiture in stile rustico conferiscono a questa carta da parati una sensazione accogliente, come una torta di mele in inverno."
   },
+  "DA_ItemType_Wallpaper_Harvest_Wall_01": {
+    "name": "Standard Stucco Wall",
+    "description": "White, stucco walls are the perfect canvas for Tish's creativity. The materials are found in abundance the Kilima Valley."
+  },
+  "DA_ItemType_Wallpaper_Harvest_Wall_02": {
+    "name": "Steel Sapphire Stucco Wall",
+    "description": "Feeling a little stressed? Paint your stucco walls with this cool blue that Badruu says helps him perform under pressure."
+  },
+  "DA_ItemType_Wallpaper_Harvest_Wall_03": {
+    "name": "Blushing Ruby Stucco Wall",
+    "description": "The stucco wall on this house have turned completely pink. Oh, no. Eshe will be displeased if you've done anything to embarass it."
+  },
+  "DA_ItemType_Wallpaper_Harvest_Wall_04": {
+    "name": "Sandy Citrine Stucco Wall",
+    "description": "Ever feel like running away? This tan, stucco wall let you enjoy the warmth of Auni's favorite beach. Without the sand."
+  },
+  "DA_ItemType_Wallpaper_Harvest_Wall_05": {
+    "name": "Smoky Quartz Stucco Wall",
+    "description": "If you need a place to meditate, Chayne recommends simulating the feel of burning incense with this dark, stucco wall."
+  },
+  "DA_ItemType_Wallpaper_Harvest_Wall_06": {
+    "name": "Leafy Emerald Stucco Wall",
+    "description": "Your respect for nature has earned Hassian's respect in return. Seems like you've both finally turned over a new leaf like this green, stucco wall!"
+  },
+  "DA_ItemType_Wallpaper_Harvest_Wall_07": {
+    "name": "Icy Aquamarine Stucco Wall",
+    "description": "Like Caleri, this light blue, stucco wall won't say much. But don't worry, it's not cold, just a little protective. Hope you don't have an overdue book."
+  },
+  "DA_ItemType_Wallpaper_Harvest_Wall_08": {
+    "name": "Peahy Garnet Stucco Wall",
+    "description": "Are you doing good today? Good! Hodari might not say it out loud, but this orange, stucco wall means he's also feeling just peachy!"
+  },
+  "DA_ItemType_Wallpaper_Harvest_Wall_09": {
+    "name": "Light Amethyst Stucco Wall",
+    "description": "This light puple, stucco wall matches some rare, Palian bugs like the scintillating centipede, a Kenyatta favorites for scaring her mother."
+  },
+  "DA_ItemType_Wallpaper_Harvest_Wall_10": {
+    "name": "Sunset Citrine Stucco Wall",
+    "description": "Winter got you down? Warm up your house with this orange, stucco wall inspired by summer evenings... and Reth's carrot soup."
+  },
+  "DA_ItemType_Wallpaper_Harvest_Wall_11": {
+    "name": "Cloudy Quartz Stucco Wall",
+    "description": "This grey, stucco wall is perfect for fans of overcast days. Now you and Najuma can read books and draw schematics anytime."
+  },
+  "DA_ItemType_Wallpaper_Harvest_Wall_12": {
+    "name": "Inky Onyx Stucco Wall",
+    "description": "For Ashura, this black, stucco wall serves as a reminder of our past actions and to live a better life going forward."
+  },
+  "DA_ItemType_Wallpaper_Harvest_Wall_13": {
+    "name": "Wine Garnet Stucco Wall",
+    "description": "Don't let their florid complexion fool you. Both Sifuu and this red, stucco wall radiate confidence and optimism... naturally."
+  },
+  "DA_ItemType_Wallpaper_Harvest_Wall_14": {
+    "name": "Earthy Jasper Stucco Wall",
+    "description": "This brown, stucco wall is as down-to-earth like Nai'o, but it can't raise an ormuu nearly as well as he can."
+  },
+  "DA_ItemType_Wallpaper_Harvest_Wall_15": {
+    "name": "Sunny Jasper Stucco Wall",
+    "description": "Gooooooooood morning! Just like Kenli, this hazel, stucco wall has stopped by to brighten your home and your day."
+  },
+  "DA_ItemType_Wallpaper_Harvest_Wall_16": {
+    "name": "Mossy Emerald Stucco Wall",
+    "description": "Love the color of moss, but caring for the real thing makes you anxious like Jina? This green, stucco wall is for you!"
+  },
+  "DA_ItemType_Wallpaper_Harvest_Wall_17": {
+    "name": "Sea Aquamarine Stucco Wall",
+    "description": "Elouisa thinks a teal, stucco wall is the perfect background for a collection of rare fish. You don't even have to get wet."
+  },
+  "DA_ItemType_Wallpaper_Harvest_Wall_18": {
+    "name": "Dark Sapphire Stucco Wall",
+    "description": "Plaster your house with these dark blue, stucco walls, and no one will see you gazing longingly at night sky with Jel."
+  },
+  "DA_ItemType_Wallpaper_Harvest_Wall_19": {
+    "name": "Royal Amethyst Stucco Wall",
+    "description": "Deck your house with this purple, stucco wall, and you'll be living in luxury fit for a king! Just like you and Tamala deserve."
+  },
+  "DA_ItemType_Wallpaper_Harvest_Wall_20": {
+    "name": "Rosy Garnet Stucco Wall",
+    "description": "Delaila thinks you might want to pair your positive outlook with a pink, stucco wall. Once it's applied, everything's coming up roses!"
+  },
   "DA_ItemType_Wallpaper_Mid_Wall_Crown_Molding_01": {
     "name": "Pannello Pastorale",
     "description": "Dona un fascino idilliaco alla tua stanza grazie ai pannelli di legno dipinti, ispirati ai colori della campagna. "
@@ -7648,6 +8194,10 @@
     "description": "Dona un tocco di raffinatezza marina alla tua stanza grazie ai pannelli di legno dipinti, ispirati alle profondità dell'oceano. "
   },
   "DA_ItemType_Wallpaper_Phoenix": {
+    "name": "Phoenix Wallpaper",
+    "description": "Phoenix Wallpaper"
+  },
+  "DA_ItemType_Wallpaper_Phoenix_25": {
     "name": "Phoenix Wallpaper",
     "description": "Phoenix Wallpaper"
   },
@@ -7705,7 +8255,7 @@
   },
   "DA_ItemType_Wood_Plank_Magicwood": {
     "name": "Plank infuso di Flusso",
-    "description": "Alburno tagliato e levigato, infuso di flusso, utilizzabile per costruire."
+    "description": "Alburno tagliato e levigato, infuso di Flusso, utilizzabile per costruire."
   },
   "DA_ItemType_Wood_Plank_Softwood": {
     "name": "Asse di alburno",
@@ -7739,6 +8289,9 @@
   "DA_Store_General": {
     "name": "Emporio"
   },
+  "DA_Store_Halloween": {
+    "name": "Spooky Moon Store"
+  },
   "DA_Store_Housing": {
     "name": "Negozio del municipio"
   },
@@ -7761,25 +8314,25 @@
     "name": "Fuochi d'artificio del mercato Maji"
   },
   "DA_Store_BugCatching": {
-    "name": "Bug Catching Guild Store"
+    "name": "Negozio della gilda degli acchiappainsetti"
   },
   "DA_Store_Cooking": {
-    "name": "Negozio di Cooking Guild"
+    "name": "Negozio della gilda dei cuochi"
   },
   "DA_Store_Fishing": {
-    "name": "Negozio Fishing Guild"
+    "name": "Negozio della gilda dei pescatori"
   },
   "DA_Store_Foraging": {
     "name": "Negozio di gilda di foraggiamento"
   },
   "DA_Store_FurnitureMaking": {
-    "name": "Funiture Making Guild Store"
+    "name": "Negozio della gilda degli artigiani"
   },
   "DA_Store_Gardening": {
-    "name": "Negozio di abilità di giardinaggio"
+    "name": "Negozio della gilda dei giardinieri"
   },
   "DA_Store_Hunting": {
-    "name": "Negozio di gilda di caccia"
+    "name": "Negozio della gilda dei cacciatori"
   },
   "DA_Store_Mining": {
     "name": "Negozio della gilda dei minatori"

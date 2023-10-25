@@ -439,6 +439,10 @@
     "name": "Poisson-pierre",
     "description": "Ce poisson-pierre est extrêmement venimeux et se fond naturellement dans son environnement en attendant sa proie.\nOn le pêche dans les grottes de la baie du Bahari en utilisant des vers luisants comme appâts."
   },
+  "BP_Fish_Stormray_C": {
+    "name": "Raie tempétueuse",
+    "description": "Cette majestueuse raie des rivières chasse en détournant les courants aquatiques et en accumulant de l’électricité dans sa queue.\nOn la pêche dans les rivières du Bahari le matin et le soir en utilisant des vers luisants comme appâts."
+  },
   "BP_Fish_Striped_Dace_C": {
     "name": "Vandoise rayée",
     "description": "Cette vandoise présente un motif rayé sur toute la surface de son dos.\nOn le pêche dans les rivières de Kilima sans utiliser d’appât."

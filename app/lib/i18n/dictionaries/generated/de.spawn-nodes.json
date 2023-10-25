@@ -439,6 +439,10 @@
     "name": "Steinfisch",
     "description": "Der extrem giftige Steinfisch passt sich auf natürliche Weise seiner Umgebung an, während er auf Beute wartet.\nIn den Höhlen der Bahari-Bucht mit Glühwürmchen gefunden."
   },
+  "BP_Fish_Stormray_C": {
+    "name": "Sturmrochen",
+    "description": "Ein majestätischer Flussrochen, der jagt, indem er Wasserströmungen verdreht und Blitze durch seinen Schwanz schickt.\nMan findet ihn in den Bahari-Flüssen, wo er morgens und abends Glühwürmchen fängt."
+  },
   "BP_Fish_Striped_Dace_C": {
     "name": "Streifenströmer",
     "description": "Eine Plötze mit einem Streifenmuster auf dem Rücken.\nIn den Kilima-Flüssen ohne Köder zu finden."

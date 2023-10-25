@@ -19,6 +19,12 @@
     "name": "Piqni Coop",
     "description": "Can house multiple Piqni."
   },
+  "DA_FireBundle": {
+    "name": "Vault of the Flames"
+  },
+  "DA_WaterShrineBundle": {
+    "name": "Vault of the Waves"
+  },
   "DA_CCI_Eyes_Aqua": {
     "name": "Aqua"
   },
@@ -46,6 +52,9 @@
   "DA_CCI_Eyes_GrayDark": {
     "name": "Gray"
   },
+  "DA_CCI_Eyes_GrayLightSilver": {
+    "name": "Green"
+  },
   "DA_CCI_Eyes_GrayNeutral": {
     "name": "Gray"
   },
@@ -53,6 +62,9 @@
     "name": "Green"
   },
   "DA_CCI_Eyes_GreenForest": {
+    "name": "Green"
+  },
+  "DA_CCI_Eyes_GreenLightSage": {
     "name": "Green"
   },
   "DA_CCI_Eyes_Ocre": {
@@ -64,11 +76,62 @@
   "DA_CCI_Eyes_Red": {
     "name": "Red"
   },
+  "DA_CCI_Eyes_RedRose": {
+    "name": "Green"
+  },
+  "DA_CCI_Eyes_StrawberryPink": {
+    "name": "Green"
+  },
   "DA_CCI_Eyes_Teal": {
     "name": "Teal"
   },
+  "DA_CCI_Eyes_Violet": {
+    "name": "Green"
+  },
+  "DA_CCI_Eyes_VioletDark": {
+    "name": "Green"
+  },
   "DA_CCI_Eyes_Yellow": {
     "name": "Yellow"
+  },
+  "DA_CCI_FaceAcc_Glasses01_Base_Parent": {
+    "name": "Frames"
+  },
+  "DA_CCI_FaceAcc_Glasses02_Base_Parent": {
+    "name": "Frames"
+  },
+  "DA_CCI_FaceAcc_Glasses03_Base_Parent1": {
+    "name": "Frames"
+  },
+  "DA_CCI_FaceAcc_Glasses04_Base_Parent": {
+    "name": "Frames"
+  },
+  "DA_CCI_FaceAcc_RegalBlazer01_Base_Parent": {
+    "name": "Royal"
+  },
+  "DA_CCI_FaceAcc_RegalBlazer01_Variant01_Parent": {
+    "name": "Mythical"
+  },
+  "DA_CCI_FaceAcc_RegalBlazer01_Variant02_Parent": {
+    "name": "Botanical"
+  },
+  "DA_CCI_FaceAcc_Summer01_Base_Parent": {
+    "name": "Dune"
+  },
+  "DA_CCI_FaceAcc_Summer01_Variant01_Parent": {
+    "name": "Hibiscus"
+  },
+  "DA_CCI_FaceAcc_Summer01_Variant02_Parent": {
+    "name": "Fern"
+  },
+  "DA_CCI_FaceCover_PlagueDoctor01_Base_Parent": {
+    "name": "Generalist"
+  },
+  "DA_CCI_FaceCover_PlagueDoctor01_Variant01_Parent": {
+    "name": "Botanist"
+  },
+  "DA_CCI_FaceCover_PlagueDoctor01_Variant02_Parent": {
+    "name": "Specialist"
   },
   "DA_CCI_FaceMask_Glasses01_Base_Parent": {
     "name": "Frames"
@@ -125,13 +188,31 @@
     "name": "Empyreal"
   },
   "DA_CCI_Hat_Fairy01_Base_Parent": {
-    "name": "Incantations Sylph Starfall"
+    "name": "Starfall"
   },
   "DA_CCI_Hat_Fairy01_Variant01_Parent": {
-    "name": "Incantations Sylph Vineglade"
+    "name": "Vineglade"
   },
   "DA_CCI_Hat_Fairy01_Variant02_Parent": {
-    "name": "Incantations Sylph Brightbloom"
+    "name": "Brightbloom"
+  },
+  "DA_CCI_Hat_GeekChic01_Base_Parent": {
+    "name": "Fiction"
+  },
+  "DA_CCI_Hat_GeekChic01_Variant01_Parent": {
+    "name": "Nonfiction"
+  },
+  "DA_CCI_Hat_GeekChic01_Variant02_Parent": {
+    "name": "Poetry"
+  },
+  "DA_CCI_Hat_HarvestDress01_Base_Parent": {
+    "name": "Poppy"
+  },
+  "DA_CCI_Hat_HarvestDress01_Variant01_Parent": {
+    "name": "Sunflower"
+  },
+  "DA_CCI_Hat_HarvestDress01_Variant02_Parent": {
+    "name": "Calendula"
   },
   "DA_CCI_Hat_Hoodie01_Variant02_Parent": {
     "name": "Chapaa Craze"
@@ -139,14 +220,41 @@
   "DA_CCI_Hat_Hoodie01_Variant03_Parent": {
     "name": "S6 Starfield"
   },
-  "DA_CCI_Hat_MochiMerchant01_Base_Parent": {
-    "name": "Takoyaki"
+  "DA_CCI_Hat_JollyBaker01_Base_Parent": {
+    "name": "Jolly Baker"
   },
-  "DA_CCI_Hat_MochiMerchant01_Variant01_Parent": {
+  "DA_CCI_Hat_JollyBaker01_Variant01_Parent": {
+    "name": "Ice Cream Baker "
+  },
+  "DA_CCI_Hat_JollyBaker01_Variant02_Parent": {
+    "name": "Pumpkin Baker "
+  },
+  "DA_CCI_Hat_MochiMerchant01_Base_Parent": {
     "name": "Market Mochi"
   },
-  "DA_CCI_Hat_MochiMerchant01_Variant02_Parent": {
+  "DA_CCI_Hat_MochiMerchant01_Variant01_Parent": {
     "name": "Persimmon"
+  },
+  "DA_CCI_Hat_MochiMerchant01_Variant02_Parent": {
+    "name": "Takoyaki"
+  },
+  "DA_CCI_Hat_PalianWinterCoat01_Base_Parent": {
+    "name": "Crystal Glade"
+  },
+  "DA_CCI_Hat_PalianWinterCoat01_Variant01_Parent": {
+    "name": "Capital Finish"
+  },
+  "DA_CCI_Hat_PalianWinterCoat01_Variant02_Parent": {
+    "name": "Blizzard Walker"
+  },
+  "DA_CCI_Hat_PalianWinterCoat02_Base_Parent": {
+    "name": "Frosty Flourish"
+  },
+  "DA_CCI_Hat_PalianWinterCoat02_Variant01_Parent": {
+    "name": "Icy Splendor"
+  },
+  "DA_CCI_Hat_PalianWinterCoat02_Variant02_Parent": {
+    "name": "Blissful Chill"
   },
   "DA_CCI_Hat_Pirate01_Base_Parent": {
     "name": "Seafarer"
@@ -156,6 +264,15 @@
   },
   "DA_CCI_Hat_Pirate01_Variant02_Parent": {
     "name": "Treasure Hunter"
+  },
+  "DA_CCI_Hat_PlagueDoctor01_Base_Parent": {
+    "name": "Generalist"
+  },
+  "DA_CCI_Hat_PlagueDoctor01_Variant01_Parent": {
+    "name": "Botanist"
+  },
+  "DA_CCI_Hat_PlagueDoctor01_Variant02_Parent": {
+    "name": "Specialist"
   },
   "DA_CCI_Hat_Rancher01_Base_Parent": {
     "name": "Bone Dry"
@@ -174,6 +291,15 @@
   },
   "DA_CCI_Hat_RegalBallroomDress01_Variant02_Parent": {
     "name": "Majinificent"
+  },
+  "DA_CCI_Hat_RiverGuardian01_Base_Parent": {
+    "name": "Batik"
+  },
+  "DA_CCI_Hat_RiverGuardian01_Variant01_Parent": {
+    "name": "Koi"
+  },
+  "DA_CCI_Hat_RiverGuardian01_Variant02_Parent": {
+    "name": "Moth"
   },
   "DA_CCI_Hat_SkyCaptain01_Base_Parent": {
     "name": "Pilot"
@@ -234,6 +360,15 @@
   },
   "DA_CCI_Legs_Acolyte01_Variant01_Parent": {
     "name": "Islander"
+  },
+  "DA_CCI_Legs_Athleisure01_Base_Parent": {
+    "name": "Village Breeze"
+  },
+  "DA_CCI_Legs_Athleisure01_Variant01_Parent": {
+    "name": "Floral Shower"
+  },
+  "DA_CCI_Legs_Athleisure01_Variant02_Parent": {
+    "name": "Mossy Mist"
   },
   "DA_CCI_Legs_BardStar01_Base_Parent": {
     "name": "Ballad"
@@ -340,6 +475,15 @@
   "DA_CCI_Legs_FutureFashion01_Variant02_Parent": {
     "name": "Skyshatter"
   },
+  "DA_CCI_Legs_GeekChic01_Base_Parent": {
+    "name": "Fiction"
+  },
+  "DA_CCI_Legs_GeekChic01_Variant01_Parent": {
+    "name": "Nonfiction"
+  },
+  "DA_CCI_Legs_GeekChic01_Variant02_Parent": {
+    "name": "Poetry"
+  },
   "DA_CCI_Legs_Gunshow01_Base_Parent": {
     "name": "Ride the Wave"
   },
@@ -366,6 +510,15 @@
   },
   "DA_CCI_Legs_Hoodie01_Variant03_Parent": {
     "name": "S6 Starfield"
+  },
+  "DA_CCI_Legs_JollyBaker01_Base_Parent": {
+    "name": "Jolly Baker"
+  },
+  "DA_CCI_Legs_JollyBaker01_Variant01_Parent": {
+    "name": "Ice Cream Baker "
+  },
+  "DA_CCI_Legs_JollyBaker01_Variant02_Parent": {
+    "name": "Pumpkin Baker "
   },
   "DA_CCI_Legs_LayeredTurtleneck01_Base_Parent": {
     "name": "Finance"
@@ -415,6 +568,24 @@
   "DA_CCI_Legs_OldClothes01_Variant01_Parent": {
     "name": "Rough Hewn"
   },
+  "DA_CCI_Legs_PalianWinterCoat01_Base_Parent": {
+    "name": "Crystal Glade"
+  },
+  "DA_CCI_Legs_PalianWinterCoat01_Variant01_Parent": {
+    "name": "Capital Finish"
+  },
+  "DA_CCI_Legs_PalianWinterCoat01_Variant02_Parent": {
+    "name": "Blizzard Walker"
+  },
+  "DA_CCI_Legs_PalianWinterCoat02_Base_Parent": {
+    "name": "Frosty Flourish"
+  },
+  "DA_CCI_Legs_PalianWinterCoat02_Variant01_Parent": {
+    "name": "Icy Splendor"
+  },
+  "DA_CCI_Legs_PalianWinterCoat02_Variant02_Parent": {
+    "name": "Blissful Chill"
+  },
   "DA_CCI_Legs_Pirate01_Base_Parent": {
     "name": "Seafarer"
   },
@@ -423,6 +594,15 @@
   },
   "DA_CCI_Legs_Pirate01_Variant02_Parent": {
     "name": "Treasure Hunter"
+  },
+  "DA_CCI_Legs_PlagueDoctor01_Base_Parent": {
+    "name": "Generalist"
+  },
+  "DA_CCI_Legs_PlagueDoctor01_Variant01_Parent": {
+    "name": "Botanist"
+  },
+  "DA_CCI_Legs_PlagueDoctor01_Variant02_Parent": {
+    "name": "Specialist"
   },
   "DA_CCI_Legs_Rancher01_Base_Parent": {
     "name": "Bone Dry"
@@ -447,6 +627,15 @@
   },
   "DA_CCI_Legs_Rider01_Variant01_Parent": {
     "name": "Stirrups"
+  },
+  "DA_CCI_Legs_RiverGuardian01_Base_Parent": {
+    "name": "Batik"
+  },
+  "DA_CCI_Legs_RiverGuardian01_Variant01_Parent": {
+    "name": "Koi"
+  },
+  "DA_CCI_Legs_RiverGuardian01_Variant02_Parent": {
+    "name": "Moth"
   },
   "DA_CCI_Legs_Rogue01_Base_Parent": {
     "name": "Stealth"
@@ -497,13 +686,13 @@
     "name": "Eagle"
   },
   "DA_CCI_Legs_SmartRuffle01_Base_Parent": {
-    "name": "SmartRuffle01"
+    "name": "Classicly Sleek"
   },
   "DA_CCI_Legs_SmartRuffle01_Variant01_Parent": {
-    "name": "SmartRuffle01"
+    "name": "Embroidered Elegance"
   },
   "DA_CCI_Legs_SmartRuffle01_Variant02_Parent": {
-    "name": "SmartRuffle01"
+    "name": "Gorgeous Gingko"
   },
   "DA_CCI_Legs_SpaDay01_Base_Parent": {
     "name": "Unwind"
@@ -571,6 +760,15 @@
   "DA_CCI_Legs_UrbanSport01_Variant02_Parent": {
     "name": "High Impact"
   },
+  "DA_CCI_Legs_Vampire01_Base_Parent": {
+    "name": "The Charmer"
+  },
+  "DA_CCI_Legs_Vampire01_Variant01_Parent": {
+    "name": "The Chiropteran"
+  },
+  "DA_CCI_Legs_Vampire01_Variant02_Parent": {
+    "name": "The Count"
+  },
   "DA_CCI_Legs_VintageBiz01_Base_Parent": {
     "name": "Business Casual"
   },
@@ -615,6 +813,15 @@
   },
   "DA_CCI_Torso_Acolyte01_Variant01_Parent": {
     "name": "Islander"
+  },
+  "DA_CCI_Torso_Athleisure01_Base_Parent": {
+    "name": "Village Breeze"
+  },
+  "DA_CCI_Torso_Athleisure01_Variant01_Parent": {
+    "name": "Floral Shower"
+  },
+  "DA_CCI_Torso_Athleisure01_Variant02_Parent": {
+    "name": "Mossy Mist"
   },
   "DA_CCI_Torso_BardStar01_Base_Parent": {
     "name": "Ballad"
@@ -704,13 +911,13 @@
     "name": "Forest Watch"
   },
   "DA_CCI_Torso_Fairy01_Base_Parent": {
-    "name": "Incantations Sylph Starfall"
+    "name": "Starfall"
   },
   "DA_CCI_Torso_Fairy01_Variant01_Parent": {
-    "name": "Incantations Sylph Vineglade"
+    "name": "Vineglade"
   },
   "DA_CCI_Torso_Fairy01_Variant02_Parent": {
-    "name": "Incantations Sylph Brightbloom"
+    "name": "Brightbloom"
   },
   "DA_CCI_Torso_Farmer01_Base_Parent": {
     "name": "Sprout Tender"
@@ -739,11 +946,29 @@
   "DA_CCI_Torso_FutureFashion01_Variant02_Parent": {
     "name": "Skyshatter"
   },
+  "DA_CCI_Torso_GeekChic01_Base_Parent": {
+    "name": "Fiction"
+  },
+  "DA_CCI_Torso_GeekChic01_Variant01_Parent": {
+    "name": "Nonfiction"
+  },
+  "DA_CCI_Torso_GeekChic01_Variant02_Parent": {
+    "name": "Poetry"
+  },
   "DA_CCI_Torso_Gunshow01_Base_Parent": {
     "name": "Ride the Wave"
   },
   "DA_CCI_Torso_Gunshow01_Variant01_Parent": {
     "name": "Greener Pastures"
+  },
+  "DA_CCI_Torso_HarvestDress01_Base_Parent": {
+    "name": "Poppy"
+  },
+  "DA_CCI_Torso_HarvestDress01_Variant01_Parent": {
+    "name": "Sunflower"
+  },
+  "DA_CCI_Torso_HarvestDress01_Variant02_Parent": {
+    "name": "Calendula"
   },
   "DA_CCI_Torso_Herbalist01_Base_Parent": {
     "name": "Greenhouse"
@@ -765,6 +990,15 @@
   },
   "DA_CCI_Torso_Hoodie01_Variant03_Parent": {
     "name": "S6 Starfield"
+  },
+  "DA_CCI_Torso_JollyBaker01_Base_Parent": {
+    "name": "Jolly Baker"
+  },
+  "DA_CCI_Torso_JollyBaker01_Variant01_Parent": {
+    "name": "Ice Cream Baker "
+  },
+  "DA_CCI_Torso_JollyBaker01_Variant02_Parent": {
+    "name": "Pumpkin Baker "
   },
   "DA_CCI_Torso_LayeredTurtleneck01_Base_Parent": {
     "name": "Finance"
@@ -809,19 +1043,37 @@
     "name": "Promenade"
   },
   "DA_CCI_Torso_MochiMerchant01_Base_Parent": {
-    "name": "Takoyaki"
-  },
-  "DA_CCI_Torso_MochiMerchant01_Variant01_Parent": {
     "name": "Market Mochi"
   },
-  "DA_CCI_Torso_MochiMerchant01_Variant02_Parent": {
+  "DA_CCI_Torso_MochiMerchant01_Variant01_Parent": {
     "name": "Persimmon"
+  },
+  "DA_CCI_Torso_MochiMerchant01_Variant02_Parent": {
+    "name": "Takoyaki"
   },
   "DA_CCI_Torso_OldClothes01_Base_Parent": {
     "name": "Simply Stitched"
   },
   "DA_CCI_Torso_OldClothes01_Variant01_Parent": {
     "name": "Rough Hewn"
+  },
+  "DA_CCI_Torso_PalianWinterCoat01_Base_Parent": {
+    "name": "Crystal Glade"
+  },
+  "DA_CCI_Torso_PalianWinterCoat01_Variant01_Parent": {
+    "name": "Capital Finish"
+  },
+  "DA_CCI_Torso_PalianWinterCoat01_Variant02_Parent": {
+    "name": "Blizzard Walker"
+  },
+  "DA_CCI_Torso_PalianWinterCoat02_Base_Parent": {
+    "name": "Frosty Flourish"
+  },
+  "DA_CCI_Torso_PalianWinterCoat02_Variant01_Parent": {
+    "name": "Icy Splendor"
+  },
+  "DA_CCI_Torso_PalianWinterCoat02_Variant02_Parent": {
+    "name": "Blissful Chill"
   },
   "DA_CCI_Torso_Pirate01_Base_Parent": {
     "name": "Seafarer"
@@ -831,6 +1083,15 @@
   },
   "DA_CCI_Torso_Pirate01_Variant02_Parent": {
     "name": "Treasure Hunter"
+  },
+  "DA_CCI_Torso_PlagueDoctor01_Base_Parent": {
+    "name": "Generalist"
+  },
+  "DA_CCI_Torso_PlagueDoctor01_Variant01_Parent": {
+    "name": "Botanist"
+  },
+  "DA_CCI_Torso_PlagueDoctor01_Variant02_Parent": {
+    "name": "Specialist"
   },
   "DA_CCI_Torso_PrairieDress01_Base_Parent": {
     "name": "Seedling"
@@ -870,6 +1131,15 @@
   },
   "DA_CCI_Torso_Rider01_Variant01_Parent": {
     "name": "Stirrups"
+  },
+  "DA_CCI_Torso_RiverGuardian01_Base_Parent": {
+    "name": "Batik"
+  },
+  "DA_CCI_Torso_RiverGuardian01_Variant01_Parent": {
+    "name": "Koi"
+  },
+  "DA_CCI_Torso_RiverGuardian01_Variant02_Parent": {
+    "name": "Moth"
   },
   "DA_CCI_Torso_Rogue01_Base_Parent": {
     "name": "Stealth"
@@ -920,13 +1190,13 @@
     "name": "Eagle"
   },
   "DA_CCI_Torso_SmartRuffle01_Base_Parent": {
-    "name": "SmartRuffle01"
+    "name": "Classicly Sleek"
   },
   "DA_CCI_Torso_SmartRuffle01_Variant01_Parent": {
-    "name": "SmartRuffle01"
+    "name": "Embroidered Elegance"
   },
   "DA_CCI_Torso_SmartRuffle01_Variant02_Parent": {
-    "name": "SmartRuffle01"
+    "name": "Gorgeous Gingko"
   },
   "DA_CCI_Torso_SpaDay01_Base_Parent": {
     "name": "Unwind"
@@ -1002,6 +1272,15 @@
   },
   "DA_CCI_Torso_UrbanSport01_Variant02_Parent": {
     "name": "High Impact"
+  },
+  "DA_CCI_Torso_Vampire01_Base_Parent": {
+    "name": "The Charmer"
+  },
+  "DA_CCI_Torso_Vampire01_Variant01_Parent": {
+    "name": "The Chiropteran"
+  },
+  "DA_CCI_Torso_Vampire01_Variant02_Parent": {
+    "name": "The Count"
   },
   "DA_CCI_Torso_VarsityJacket01_Base_Parent": {
     "name": "Speed Stripes"
@@ -1199,6 +1478,10 @@
   "DA_ItemType_Ammo_Arrow_Fine": {
     "name": "Fine Arrow",
     "description": "A regular arrow that deals high damage."
+  },
+  "DA_ItemType_Ammo_Arrow_Flare": {
+    "name": "Flare Arrow",
+    "description": "Lost? Have a flare for the dramatic? Let your friends know where you are with these damage-free arrows that emit randomly-colored lights."
   },
   "DA_ItemType_Ammo_Arrow_Lethargy": {
     "name": "Slowdown Arrow",
@@ -1406,7 +1689,7 @@
   },
   "DA_ItemType_Ammo_Arrow_Fireworks_typeG_Blue": {
     "name": "Blue Spinning Firework",
-    "description": "A chaotic firework that bursts into lively orbs of swirling, blue lights."
+    "description": "Explodes in a shower of completely saA chaotic firework that bursts into lively orbs of swirling, blue lights."
   },
   "DA_ItemType_Ammo_Arrow_Fireworks_typeG_Green": {
     "name": "Green Spinning Firework",
@@ -1733,7 +2016,7 @@
     "description": "Garlic-seared trout with potatoes, created so ancient humans could share Einar's love of fishing. Hook fish more quickly for a short time."
   },
   "DA_ItemType_C_DragonbreathRelleno": {
-    "name": "Stuffed Phoenixfire Pepper",
+    "name": "Phoenixfire Relleno",
     "description": "A spicy pepper, coated with egg and stuffed with your choice of meat. A single bite will have you working up a sweat! Or send you straight to the nearest clinic."
   },
   "DA_ItemType_C_FishermansBrew": {
@@ -2058,6 +2341,10 @@
   "DA_ItemType_IG_Ingredient_Frosting": {
     "name": "Frosting",
     "description": "A sweet buttercream frosting."
+  },
+  "DA_ItemType_IG_Ingredient_FruitFrosting": {
+    "name": "Fruit Frosting",
+    "description": "Sweet Frosting used in Baking"
   },
   "DA_ItemType_IG_Ingredient_Gravy": {
     "name": "Gravy",
@@ -2405,7 +2692,7 @@
   },
   "DA_ItemType_Decor_Dragon_Furniture_Storage_Cabinet": {
     "name": "Dragontide Sideboard",
-    "description": "This sturdy sideboard stores healer's herbs and medicines, and even has a countertop for potion making."
+    "description": "This study sideboard stores healer's herbs and medicines, and even has a countertop for potion making."
   },
   "DA_ItemType_Decor_Dragon_Furniture_Wall_Clock": {
     "name": "Dragontide Wall Clock",
@@ -2627,17 +2914,69 @@
     "name": "Garden Variety Pickaxe",
     "description": "It's hard to say whether you'll need a pickaxe for gardening, but it's sure nice to have one just in case."
   },
+  "DA_ItemType_Decor_Generic_128_deco_kitchen_wall_knives": {
+    "name": "Valley Sunrise Knife Set",
+    "description": "Nothing cozier than a comfy home for your knives. Hang it on the wall in your kitchen, or in other rooms to keep your guests on their toes."
+  },
   "DA_ItemType_Decor_Generic_131_deco_table_a": {
     "name": "Valley Sunrise Dining Table",
     "description": "From weeknight dinner to fine dining to poker game night, this practical table can do it all!"
+  },
+  "DA_ItemType_Decor_Generic_132_Deco_table_b": {
+    "name": "Valley Sunrise Oval Table",
+    "description": "A round wooden table with a thin table cloth draped across it. Ideal for early morning tea parties."
+  },
+  "DA_ItemType_Decor_Generic_136_deco_large_light_2": {
+    "name": "Valley Sunrise Lights",
+    "description": "Whether you're scared of the dark or just want to brighten up your space, this dangling lamp does the trick!"
   },
   "DA_ItemType_Decor_Generic_138_deco_large_light_4": {
     "name": "Valley Sunrise Hanging Lamp",
     "description": "Ever want to hang a bunch of onions from the ceiling? Now you can! But these ones glow and don't taste very good."
   },
+  "DA_ItemType_Decor_Generic_152_Deco_BlanketBasket": {
+    "name": "Blanket Storage Basket",
+    "description": "A perfect addition to your home for those chilly autumn nights when only a blanket will do"
+  },
+  "DA_ItemType_Decor_Generic_153_Deco_SewingBasket": {
+    "name": "Sewing Basket",
+    "description": "Are your sewing skills only “sew sew”? Improve them with this handy, dandy sewing basket."
+  },
+  "DA_ItemType_Decor_Generic_154_Deco_Basket_Lg": {
+    "name": "Cozy Woven Basket",
+    "description": "A cozy basket with a nice chonky weave."
+  },
+  "DA_ItemType_Decor_Generic_155_Deco_Basket_Med": {
+    "name": "Cozy Rattan Basket",
+    "description": "Did you know rattan is the name for over roughly 600 species of climbing palms used to make woven furniture? Now you do!"
+  },
+  "DA_ItemType_Decor_Generic_156_Deco_BlanketLadder": {
+    "name": "Cozy Ladder",
+    "description": "Is it a ladder? Is it a display shelf for your countless blankets? Only the fates can decide."
+  },
+  "DA_ItemType_Decor_Generic_157_Deco_LaundryBasket": {
+    "name": "Laundry Basket",
+    "description": "Need a place to store your dirty laundry? This basket has you covered."
+  },
+  "DA_ItemType_Decor_Generic_158_Deco_TieredBasket": {
+    "name": "Tiered Fruit Basket",
+    "description": "One fruit basket just not enough? Why not try out three fruit baskets attached with a rope?"
+  },
+  "DA_ItemType_Decor_Generic_159_Deco_FirewoodHolder": {
+    "name": "Firewood Holder",
+    "description": "What would a fireplace be without wood? Now you don't have to find out."
+  },
+  "DA_ItemType_Decor_Generic_160_Deco_PitcherBasin": {
+    "name": "Porcelain Pitcher",
+    "description": "This pitcher may not be able to win a roundball championship, but it can sure pour water."
+  },
   "DA_ItemType_Decor_Generic_81_deco_flower_terrarium_1": {
     "name": "Valley Sunrise Cloche",
     "description": "Many legends surround this mysterious rose that never wilts. Perhaps it is enchanted? Or blessed by the Dragon? Or maybe it's fake."
+  },
+  "DA_ItemType_Decor_Generic_89_deco_Bookshelf_A": {
+    "name": "Valley Sunrise Bookshelf",
+    "description": "This stylish bookshelf is the perfect spot to store your books and other priceless knick-knacks."
   },
   "DA_ItemType_Decor_Generic_90_Deco_kitchen_Washpan_Cabinet": {
     "name": "Valley Sunrise Sink",
@@ -2786,6 +3125,38 @@
   "DA_ItemType_Decor_Gothic_43_furniture_wall_cupboard": {
     "name": "Ravenwood Wall Cabinet",
     "description": "If thou seeketh dishes for a moonlit, midnight, snack, look no further than this stately wall cabinet. "
+  },
+  "DA_ItemType_Decor_Halloween_01_deco_PlainPumpkin": {
+    "name": "Spooky Heirloom Pumpkin",
+    "description": "A gorgeous fire orange rind and deep, chunky ribs, no spooky display is complete without a jumbo-sized pumpkin on your porch.   "
+  },
+  "DA_ItemType_Decor_Halloween_02_deco_JackOLantern": {
+    "name": "Spooky Jaak-O-Lantern",
+    "description": "A spooky lantern carved from a fresh pumpkin. What is its secret to staying forever young? Only Jaak knows."
+  },
+  "DA_ItemType_Decor_Halloween_03_deco_JackOLantern_Searnuk": {
+    "name": "Spooky Sernuk-O-Lantern",
+    "description": "The searing gaze of a sernuk burns into you from the hollows of this spooky lantern. Or maybe it's just Jaak playing tricks on you."
+  },
+  "DA_ItemType_Decor_Halloween_04_deco_SpookyCandle_01": {
+    "name": "Spooky Candles",
+    "description": "As dusk falls on the eve of the spooky moon, the shadows come out to play. Keep these candles close, or the darkness might swallow you whole."
+  },
+  "DA_ItemType_Decor_Halloween_05_deco_SpookyCandle_02": {
+    "name": "Spooky Wax Candle",
+    "description": "When night swallows day, you'll need the light to chase the dark away. A small flame, bright on a wick. A floating candle should do the trick."
+  },
+  "DA_ItemType_Decor_Halloween_06_deco_PumpkinPile": {
+    "name": "Spooky Pumpkin Stack",
+    "description": "You reap what you sow, with a patch full of pumpkins, Jaak's generosity truly shows."
+  },
+  "DA_ItemType_Decor_Halloween_07_Pumpkin_01": {
+    "name": "Spooky Pumpkin",
+    "description": "A sign of the approaching spooky season, hundreds of young Majiri flood the Kilima fields to harvest these small seasonal gourds."
+  },
+  "DA_ItemType_Decor_Halloween_08_Pumpkin_02": {
+    "name": "Spooky Vined Pumpkin",
+    "description": "Fresh from the vine, this succulent pumpkin is ready to be carved and made into treats and other spooky delicacies. "
   },
   "DA_ItemType_Decor_Harvest_Ambient_Props_Bottle_01": {
     "name": "Homestead Tall Bottle",
@@ -2950,6 +3321,10 @@
   "DA_ItemType_Decor_Harvest_Furniture_Coffee_Table": {
     "name": "Homestead Coffee Table",
     "description": "A low, wooden table large enough to fit all your friends when it's time for board or card games."
+  },
+  "DA_ItemType_Decor_harvest_furniture_couch": {
+    "name": "Kilima Couch",
+    "description": "Badruu has a whole barn for his music, but this couch is all you need for a song. Sit on down and strum away the pain."
   },
   "DA_ItemType_Decor_Harvest_Furniture_Display_Case_Lrg_Tall": {
     "name": "Homestead Display Case",
@@ -4037,7 +4412,7 @@
   },
   "DA_ItemType_Decor_Portrait_Dalila": {
     "name": "Delaila's Portait",
-    "description": "A portrait of Delaila to hang on your wall."
+    "description": "A portrait of Delala to hang on your wall."
   },
   "DA_ItemType_Decor_Portrait_Einar": {
     "name": "Einar's Portrait",
@@ -4154,6 +4529,14 @@
   "DA_ItemType_Decor_Rewards_Skill_08_Palium_Bar": {
     "name": "Kilima Miner's Tower of Palium",
     "description": "Power to the pebble! Rewarded for mining and crafting bars for all mineral types in Kilima and Bahari."
+  },
+  "DA_ItemType_Decor_Rewards_Skill_09_Mounted_TreeClimber_Head": {
+    "name": "Kilima Hunter's Mounted TreeClimber Muujin",
+    "description": "Here's an archery prize for you, no strings attached. Rewarded for hunting all types of Muujin."
+  },
+  "DA_ItemType_Decor_Rewards_Skill_10_Mounted_BeachWalker_head": {
+    "name": "Kilima Hunter's Mounted BeachWalker Muujin",
+    "description": "Here's an archery prize for you, no strings attached. Rewarded for hunting all types of Muujin."
   },
   "DA_ItemType_Decor_Rustic_01_furniture_couch": {
     "name": "Ranch House Couch",
@@ -4701,6 +5084,10 @@
     "name": "Campfire",
     "description": "Start off cooking with this campfire. It turns raw ingredients into basic foods."
   },
+  "DA_ItemType_Facility_Campfire_Grill": {
+    "name": "GrillMaster v3000",
+    "description": "Become king of the grill with a perfect duplicate of Hodari's beloved barbecue. Let yourself cook!"
+  },
   "DA_ItemType_Facility_FabricMaker": {
     "name": "Fabric Loom",
     "description": "This fabric loom will convert various fibers into useful fabrics for furniture."
@@ -4815,7 +5202,7 @@
   },
   "DA_ItemType_Fertilizer_2xGrowthRate": {
     "name": "SpeedyGro Fertilizer",
-    "description": "Fertilizer that doubles the growth rate of crops."
+    "description": "Fertilizer that adds one bonus day of growth per two regular days of growth."
   },
   "DA_ItemType_Fertilizer_HarvestBooster": {
     "name": "HarvestBoost Fertilizer",
@@ -5190,11 +5577,11 @@
   },
   "DA_ItemType_Forage_Crystal_Pearl": {
     "name": "Pearl",
-    "description": "Here's a pearl of wisdom: open more oysters for a chance at other colors of pearls!"
+    "description": "Here's a pearl of wisdom: open more oysters for a chance at other colors of pearls! Sells for a high price."
   },
   "DA_ItemType_Forage_Crystal_Pearl_Green": {
     "name": "Green Pearl",
-    "description": "Holy mother of Green Pearl! You actually found one!"
+    "description": "Holy mother of Green Pearl! You actually found one! Sells for a very high price."
   },
   "DA_ItemType_Forage_Flower_BriarDaisy": {
     "name": "Briar Daisy",
@@ -5521,23 +5908,23 @@
   },
   "DA_ItemType_Material_Antler_T1": {
     "name": "Sernuk Antlers",
-    "description": "The antlers of a sernuk. Often used for decoration and in medicine."
+    "description": "The antlers of a sernuk. Often used for decoration and in medicine. Sells for a high price."
   },
   "DA_ItemType_Material_Antler_T2": {
     "name": "Elder Sernuk Antlers",
-    "description": "The antlers of an elder sernuk. Often used for decoration and in medicine."
+    "description": "The antlers of an elder sernuk. Often used for decoration and in medicine. Sells for a very high price."
   },
   "DA_ItemType_Material_Antler_T3": {
     "name": "Proudhorned Sernuk Antlers",
-    "description": "The antlers of a rare, Proudhorned Sernuk. Prized for decoration and in medicine."
+    "description": "The antlers of a rare, Proudhorned Sernuk. Prized for decoration and in medicine. Sells for an extremely high price."
   },
   "DA_ItemType_Material_Fabric": {
     "name": "Fabric",
     "description": "A hardy sheet of cotton fabric."
   },
   "DA_ItemType_Material_Fur": {
-    "name": "Chapaa Fur",
-    "description": "The fluffy fur of a wild chapaa."
+    "name": "Fur",
+    "description": "The fluffy fur of a wild animal."
   },
   "DA_ItemType_Material_Hide": {
     "name": "Sernuk Hide",
@@ -5546,6 +5933,18 @@
   "DA_ItemType_Material_Leather": {
     "name": "Leather",
     "description": "A sernuk hide that has been tanned into smooth leather."
+  },
+  "DA_ItemType_Material_Mane_T1": {
+    "name": "T1 Muujin Mane",
+    "description": "Description "
+  },
+  "DA_ItemType_Material_Mane_T2": {
+    "name": "T2 Muujin Mane",
+    "description": "Description"
+  },
+  "DA_ItemType_Material_Mane_T3": {
+    "name": "T3 Muujin Mane",
+    "description": "Description"
   },
   "DA_ItemType_Material_PlantFiber": {
     "name": "Plant Fiber",
@@ -5561,15 +5960,15 @@
   },
   "DA_ItemType_Material_Tail_T1": {
     "name": "Spotted Chapaa Tail",
-    "description": "The spotted tail of a chapaa. Often praised for its soft fur."
+    "description": "The spotted tail of a chapaa. Often praised for its soft fur. Sells for a high price."
   },
   "DA_ItemType_Material_Tail_T2": {
     "name": "Striped Chapaa Tail",
-    "description": "The striped tail of a striped chapaa. Often praised for its soft fur."
+    "description": "The striped tail of a striped chapaa. Often praised for its soft fur. Sells for a very high price."
   },
   "DA_ItemType_Material_Tail_T3": {
     "name": "Azure Chapaa Tail",
-    "description": "The gleaming tail of a rare azure chapaa. Often praised for its silken fur."
+    "description": "The gleaming tail of a rare azure chapaa. Often praised for its silken fur. Sells for an extremely high price."
   },
   "DA_ItemType_Material_Witchweave": {
     "name": "Witchweave",
@@ -5715,7 +6114,23 @@
     "name": "Connection Wish Ribbon",
     "description": "A wish expressing the desire to grow closer to someone."
   },
+  "DA_ItemType_WishRibbon_Connection_Grant": {
+    "name": "Connection Wish Ribbon",
+    "description": "A wish expressing the desire to grow closer to someone."
+  },
+  "DA_ItemType_WishRibbon_Connection_Int": {
+    "name": "Connection Wish Ribbon",
+    "description": "A wish expressing the desire to grow closer to someone."
+  },
   "DA_ItemType_WishRibbon_Happiness": {
+    "name": "Happiness Wish Ribbon",
+    "description": "A wish expressing the desire to have your spirits lifted."
+  },
+  "DA_ItemType_WishRibbon_Happiness_Grant": {
+    "name": "Connection Wish Ribbon",
+    "description": "A wish expressing the desire to grow closer to someone."
+  },
+  "DA_ItemType_WishRibbon_Happiness_Int": {
     "name": "Happiness Wish Ribbon",
     "description": "A wish expressing the desire to have your spirits lifted."
   },
@@ -5723,11 +6138,35 @@
     "name": "Longevity Wish Ribbon",
     "description": "A wish expressing the desire to be more focused and renowned."
   },
+  "DA_ItemType_WishRibbon_Longevity_Grant": {
+    "name": "Connection Wish Ribbon",
+    "description": "A wish expressing the desire to grow closer to someone."
+  },
+  "DA_ItemType_WishRibbon_Longevity_Int": {
+    "name": "Longevity Wish Ribbon",
+    "description": "A wish expressing the desire to be more focused and renowned."
+  },
   "DA_ItemType_WishRibbon_Path": {
     "name": "Path Wish Ribbon",
     "description": "A wish expressing the desire to be grow stronger on your chosen path."
   },
+  "DA_ItemType_WishRibbon_Path_Grant": {
+    "name": "Connection Wish Ribbon",
+    "description": "A wish expressing the desire to grow closer to someone."
+  },
+  "DA_ItemType_WishRibbon_Path_Int": {
+    "name": "Path Wish Ribbon",
+    "description": "A wish expressing the desire to be grow stronger on your chosen path."
+  },
   "DA_ItemType_WishRibbon_Prosperity": {
+    "name": "Prosperity Wish Ribbon",
+    "description": "A wish expressing the desire to be prosperous."
+  },
+  "DA_ItemType_WishRibbon_Prosperity_Grant": {
+    "name": "Connection Wish Ribbon",
+    "description": "A wish expressing the desire to grow closer to someone."
+  },
+  "DA_ItemType_WishRibbon_Prosperity_Int": {
     "name": "Prosperity Wish Ribbon",
     "description": "A wish expressing the desire to be prosperous."
   },
@@ -5771,6 +6210,10 @@
     "name": "Chapaa Meat",
     "description": "The tender meat of a wild chapaa."
   },
+  "DA_ItemType_Product_Meat_Treeclimber": {
+    "name": "Muujin Meat",
+    "description": "Description"
+  },
   "DA_ItemType_Product_Milk": {
     "name": "Milk",
     "description": "Ormuu milk from the Daiya family farm. Don't cry! Just get more if you spill it."
@@ -5785,7 +6228,7 @@
   },
   "DA_ItemType_Product_Pickle_Corn": {
     "name": "Pickled Corn",
-    "description": "When you think about it, pickled tomatoes are just a very acidic, deconstructed, pasta sauce."
+    "description": "Can you hear the ears being pickled? Don't forget to shuck your corn first!"
   },
   "DA_ItemType_Product_Pickle_Onion": {
     "name": "Pickled Onions",
@@ -5797,7 +6240,7 @@
   },
   "DA_ItemType_Product_Pickle_SpicyPepper": {
     "name": "Pickled Spicy Pepper",
-    "description": "When you think about it, pickled tomatoes are just a very acidic, deconstructed, pasta sauce."
+    "description": "Preserve a peck of pickled peppers. Piper approved!"
   },
   "DA_ItemType_Product_Pickle_Tomato": {
     "name": "Pickled Tomatoes",
@@ -6091,6 +6534,10 @@
     "name": "Einar's Adornment",
     "description": "An adornment from Einar."
   },
+  "DA_ItemType_Questitem_EKey": {
+    "name": "Pulsing Key",
+    "description": "It's pulsing faster and faster as you hold it. Should keys pulse? Hopefuly it isn't a weird looking bug."
+  },
   "DA_ItemType_Questitem_ElleTest_Sandwich": {
     "name": "Lost Sandwich",
     "description": "Someone lost their sandwich. It's probably best if you return it to them."
@@ -6117,23 +6564,23 @@
   },
   "DA_ItemType_Questitem_Event0_IceCreamMachine_Part1": {
     "name": "Ice Cream Machine Part",
-    "description": "One of many parts belonging to Delaila's broken ice cream machine."
+    "description": "One of many parts belonging to Delaila's broken ice cream."
   },
   "DA_ItemType_Questitem_Event0_IceCreamMachine_Part2": {
     "name": "Ice Cream Machine Part",
-    "description": "One of many parts belonging to Delaila's broken ice cream machine."
+    "description": "One of many parts belonging to Delaila's broken ice cream."
   },
   "DA_ItemType_Questitem_Event0_IceCreamMachine_Part3": {
     "name": "Ice Cream Machine Part",
-    "description": "One of many parts belonging to Delaila's broken ice cream machine."
+    "description": "One of many parts belonging to Delaila's broken ice cream."
   },
   "DA_ItemType_Questitem_Event0_IceCreamMachine_Part4": {
     "name": "Ice Cream Machine Part",
-    "description": "One of many parts belonging to Delaila's broken ice cream machine."
+    "description": "One of many parts belonging to Delaila's broken ice cream."
   },
   "DA_ItemType_Questitem_Event0_IceCreamMachine_Part5": {
     "name": "Ice Cream Machine Part",
-    "description": "One of many parts belonging to Delaila's broken ice cream machine."
+    "description": "One of many parts belonging to Delaila's broken ice cream."
   },
   "DA_ItemType_Questitem_Event0_RethsMochi": {
     "name": "Mochi ice Cream",
@@ -6354,6 +6801,10 @@
   "DA_ItemType_Questitem_History_of_Plants": {
     "name": "On the History of Plants",
     "description": "A book about the history of plants."
+  },
+  "DA_ItemType_Questitem_HodariMedicine": {
+    "name": "Medicine for Hodari",
+    "description": "A bottle of potent-looking medicine. It seems like it packs a punch."
   },
   "DA_ItemType_Questitem_HodarisKey": {
     "name": "Hodari's Key",
@@ -6579,6 +7030,10 @@
     "name": "Pin for Hassian",
     "description": "A pin you made for Hassian."
   },
+  "DA_ItemType_Questitem_PinForHodari": {
+    "name": "Pin for Hodari",
+    "description": "A pin you made for Hodari."
+  },
   "DA_ItemType_Questitem_PinForJel": {
     "name": "Pin for Jel",
     "description": "A pin you made for Jel."
@@ -6729,6 +7184,14 @@
   "DA_ItemType_QuestItem_Reward_HassianSandwich": {
     "name": "A Sandwich for You",
     "description": "Hassian made a sandwich for you. For some reason. Looks tasty, though!"
+  },
+  "DA_ItemType_QuestItem_Reward_HeartQuiche": {
+    "name": "Heart-Shaped Quiche",
+    "description": "A special quiche made by Hodari with love- for you, and for the most important meal of the day."
+  },
+  "DA_ItemType_QuestItem_Reward_HodariPin": {
+    "name": "Hodari's Pin",
+    "description": "Hodari gave you this pin to show his feelings for you. Wear it to show your feelings for him."
   },
   "DA_ItemType_Questitem_Reward_Horseshoe": {
     "name": "Lucky Horsehoe",
@@ -7225,6 +7688,9 @@
   "DA_Tint_Sunrise": {
     "name": "Sunrise"
   },
+  "DA_Tint_Sunset": {
+    "name": "Sunset"
+  },
   "DA_Tint_TheOrder": {
     "name": "TheOrder"
   },
@@ -7631,6 +8097,86 @@
     "name": "Country Comforts Wallpaper",
     "description": "The farmhouse-style trim gives this wallpaper a feeling warm as apple pie in winter."
   },
+  "DA_ItemType_Wallpaper_Harvest_Wall_01": {
+    "name": "Standard Stucco Wall",
+    "description": "White, stucco walls are the perfect canvas for Tish's creativity. The materials are found in abundance the Kilima Valley."
+  },
+  "DA_ItemType_Wallpaper_Harvest_Wall_02": {
+    "name": "Steel Sapphire Stucco Wall",
+    "description": "Feeling a little stressed? Paint your stucco walls with this cool blue that Badruu says helps him perform under pressure."
+  },
+  "DA_ItemType_Wallpaper_Harvest_Wall_03": {
+    "name": "Blushing Ruby Stucco Wall",
+    "description": "The stucco wall on this house have turned completely pink. Oh, no. Eshe will be displeased if you've done anything to embarass it."
+  },
+  "DA_ItemType_Wallpaper_Harvest_Wall_04": {
+    "name": "Sandy Citrine Stucco Wall",
+    "description": "Ever feel like running away? This tan, stucco wall let you enjoy the warmth of Auni's favorite beach. Without the sand."
+  },
+  "DA_ItemType_Wallpaper_Harvest_Wall_05": {
+    "name": "Smoky Quartz Stucco Wall",
+    "description": "If you need a place to meditate, Chayne recommends simulating the feel of burning incense with this dark, stucco wall."
+  },
+  "DA_ItemType_Wallpaper_Harvest_Wall_06": {
+    "name": "Leafy Emerald Stucco Wall",
+    "description": "Your respect for nature has earned Hassian's respect in return. Seems like you've both finally turned over a new leaf like this green, stucco wall!"
+  },
+  "DA_ItemType_Wallpaper_Harvest_Wall_07": {
+    "name": "Icy Aquamarine Stucco Wall",
+    "description": "Like Caleri, this light blue, stucco wall won't say much. But don't worry, it's not cold, just a little protective. Hope you don't have an overdue book."
+  },
+  "DA_ItemType_Wallpaper_Harvest_Wall_08": {
+    "name": "Peahy Garnet Stucco Wall",
+    "description": "Are you doing good today? Good! Hodari might not say it out loud, but this orange, stucco wall means he's also feeling just peachy!"
+  },
+  "DA_ItemType_Wallpaper_Harvest_Wall_09": {
+    "name": "Light Amethyst Stucco Wall",
+    "description": "This light puple, stucco wall matches some rare, Palian bugs like the scintillating centipede, a Kenyatta favorites for scaring her mother."
+  },
+  "DA_ItemType_Wallpaper_Harvest_Wall_10": {
+    "name": "Sunset Citrine Stucco Wall",
+    "description": "Winter got you down? Warm up your house with this orange, stucco wall inspired by summer evenings... and Reth's carrot soup."
+  },
+  "DA_ItemType_Wallpaper_Harvest_Wall_11": {
+    "name": "Cloudy Quartz Stucco Wall",
+    "description": "This grey, stucco wall is perfect for fans of overcast days. Now you and Najuma can read books and draw schematics anytime."
+  },
+  "DA_ItemType_Wallpaper_Harvest_Wall_12": {
+    "name": "Inky Onyx Stucco Wall",
+    "description": "For Ashura, this black, stucco wall serves as a reminder of our past actions and to live a better life going forward."
+  },
+  "DA_ItemType_Wallpaper_Harvest_Wall_13": {
+    "name": "Wine Garnet Stucco Wall",
+    "description": "Don't let their florid complexion fool you. Both Sifuu and this red, stucco wall radiate confidence and optimism... naturally."
+  },
+  "DA_ItemType_Wallpaper_Harvest_Wall_14": {
+    "name": "Earthy Jasper Stucco Wall",
+    "description": "This brown, stucco wall is as down-to-earth like Nai'o, but it can't raise an ormuu nearly as well as he can."
+  },
+  "DA_ItemType_Wallpaper_Harvest_Wall_15": {
+    "name": "Sunny Jasper Stucco Wall",
+    "description": "Gooooooooood morning! Just like Kenli, this hazel, stucco wall has stopped by to brighten your home and your day."
+  },
+  "DA_ItemType_Wallpaper_Harvest_Wall_16": {
+    "name": "Mossy Emerald Stucco Wall",
+    "description": "Love the color of moss, but caring for the real thing makes you anxious like Jina? This green, stucco wall is for you!"
+  },
+  "DA_ItemType_Wallpaper_Harvest_Wall_17": {
+    "name": "Sea Aquamarine Stucco Wall",
+    "description": "Elouisa thinks a teal, stucco wall is the perfect background for a collection of rare fish. You don't even have to get wet."
+  },
+  "DA_ItemType_Wallpaper_Harvest_Wall_18": {
+    "name": "Dark Sapphire Stucco Wall",
+    "description": "Plaster your house with these dark blue, stucco walls, and no one will see you gazing longingly at night sky with Jel."
+  },
+  "DA_ItemType_Wallpaper_Harvest_Wall_19": {
+    "name": "Royal Amethyst Stucco Wall",
+    "description": "Deck your house with this purple, stucco wall, and you'll be living in luxury fit for a king! Just like you and Tamala deserve."
+  },
+  "DA_ItemType_Wallpaper_Harvest_Wall_20": {
+    "name": "Rosy Garnet Stucco Wall",
+    "description": "Delaila thinks you might want to pair your positive outlook with a pink, stucco wall. Once it's applied, everything's coming up roses!"
+  },
   "DA_ItemType_Wallpaper_Mid_Wall_Crown_Molding_01": {
     "name": "Pastoral Beadboard",
     "description": "Add idyllic charm to your room with wood panels that have been painted to match the colors of the countryside. "
@@ -7648,6 +8194,10 @@
     "description": "Add seaworthy sophistication to your room with wood panels that have been painted to match the deep ocean. "
   },
   "DA_ItemType_Wallpaper_Phoenix": {
+    "name": "Phoenix Wallpaper",
+    "description": "Phoenix Wallpaper"
+  },
+  "DA_ItemType_Wallpaper_Phoenix_25": {
     "name": "Phoenix Wallpaper",
     "description": "Phoenix Wallpaper"
   },
@@ -7738,6 +8288,9 @@
   },
   "DA_Store_General": {
     "name": "General Store"
+  },
+  "DA_Store_Halloween": {
+    "name": "Spooky Moon Store"
   },
   "DA_Store_Housing": {
     "name": "City Hall Store"

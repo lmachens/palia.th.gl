@@ -439,6 +439,10 @@
     "name": "Pesce pietra",
     "description": "Estremamente velenosi, i pesci pietra si mimetizzano naturalmente nell'ambiente circostante in attesa di una preda.\nSi può trovareno nelle grotte di Cala Bahari usando i vermi luminosi."
   },
+  "BP_Fish_Stormray_C": {
+    "name": "Razza della tempesta",
+    "description": "Una maestosa razza di fiume che caccia mulinando le correnti d'acqua e incanalando i fulmini attraverso la coda.\nSi può trovare nei fiumi di Bahari usando i vermi luminosi al mattino e alla sera."
+  },
   "BP_Fish_Striped_Dace_C": {
     "name": "Leucisco striato",
     "description": "Un pesce dal dorso ricoperto di striature.\nSi può trovare nei fiumi di Kilima senza esca."

@@ -17,7 +17,11 @@ import { default as frSpawnNodesGenerated } from "./dictionaries/generated/fr.sp
 import { default as itDBGenerated } from "./dictionaries/generated/it.db.json";
 import { default as itGenerated } from "./dictionaries/generated/it.json";
 import { default as itSpawnNodesGenerated } from "./dictionaries/generated/it.spawn-nodes.json";
+import { default as ruDBGenerated } from "./dictionaries/generated/ru.db.json";
+import { default as ruGenerated } from "./dictionaries/generated/ru.json";
+import { default as ruSpawnNodesGenerated } from "./dictionaries/generated/ru.spawn-nodes.json";
 import it from "./dictionaries/it.json";
+import ru from "./dictionaries/ru.json";
 
 export type DICT = {
   [key: string]: any;
@@ -29,12 +33,14 @@ const DICTIONARIES: {
   es: DICT;
   fr: DICT;
   it: DICT;
+  ru: DICT;
 } = {
   en: { ...en, generated: enGenerated, spawnNodes: enSpawnNodesGenerated },
   de: { ...de, generated: deGenerated, spawnNodes: deSpawnNodesGenerated },
   es: { ...es, generated: esGenerated, spawnNodes: esSpawnNodesGenerated },
   fr: { ...fr, generated: frGenerated, spawnNodes: frSpawnNodesGenerated },
   it: { ...it, generated: itGenerated, spawnNodes: itSpawnNodesGenerated },
+  ru: { ...ru, generated: ruGenerated, spawnNodes: ruSpawnNodesGenerated },
 };
 
 const DB_DICTIONARIES: {
@@ -43,12 +49,14 @@ const DB_DICTIONARIES: {
   es: DICT;
   fr: DICT;
   it: DICT;
+  ru: DICT;
 } = {
   en: enDBGenerated,
   de: deDBGenerated,
   es: esDBGenerated,
   fr: frDBGenerated,
   it: itDBGenerated,
+  ru: ruDBGenerated,
 };
 
 export const LOCALES = Object.keys(DICTIONARIES);
