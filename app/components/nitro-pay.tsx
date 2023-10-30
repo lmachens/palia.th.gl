@@ -39,15 +39,16 @@ export default function NitroPay() {
   const [showFallback, setShowFallback] = useState<boolean | null>(null);
 
   useEffect(() => {
-    const userId = Cookies.get("userId");
-    if (!userId) {
-      if (accountStore.isPatron) {
-        accountStore.setIsPatron(false);
+    let userId = Cookies.get("userId");
+    const refreshState = async () => {
+      if (!userId) {
+        const state = useAccountStore.getState();
+        if (state.isPatron) {
+          accountStore.setIsPatron(false);
+        }
+        return;
       }
-      return;
-    }
 
-    (async () => {
       const response = await fetch(
         `${PATREON_BASE_URI}/api/patreon?appId=fgbodfoepckgplklpccjedophlahnjemfdknhfce`,
         { credentials: "include" }
@@ -65,7 +66,23 @@ export default function NitroPay() {
         console.error(err);
         accountStore.setIsPatron(false);
       }
-    })();
+    };
+    refreshState();
+
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === "visible") {
+        const newUserId = Cookies.get("userId");
+        if (newUserId !== userId) {
+          userId = newUserId;
+          refreshState();
+        }
+      }
+    };
+
+    document.addEventListener("visibilitychange", handleVisibilityChange);
+    return () => {
+      document.removeEventListener("visibilitychange", handleVisibilityChange);
+    };
   }, []);
 
   useEffect(() => {
