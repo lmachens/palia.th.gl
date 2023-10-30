@@ -1,4 +1,5 @@
 "use client";
+import Cookies from "js-cookie";
 import AppSettings from "../(overwolf)/components/app-settings";
 import { isOverwolfApp } from "../lib/env";
 import { useAccountStore } from "../lib/storage/account";
@@ -157,6 +158,7 @@ export default function Menu() {
             <button
               onClick={() => {
                 accountStore.setIsPatron(false);
+                Cookies.remove("userId");
               }}
               className="my-1 p-2 uppercase text-white bg-[#ff424d] hover:bg-[#ca0f25]"
             >
