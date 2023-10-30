@@ -1,6 +1,6 @@
 "use client";
 import AppSettings from "../(overwolf)/components/app-settings";
-import { API_BASE_URI, PATREON_CLIENT_ID_V2, isOverwolfApp } from "../lib/env";
+import { isOverwolfApp } from "../lib/env";
 import { useAccountStore } from "../lib/storage/account";
 import { useGameInfoStore } from "../lib/storage/game-info";
 import { useGlobalSettingsStore } from "../lib/storage/global-settings";
@@ -126,26 +126,12 @@ export default function Menu() {
                 {dict.menu.patronInfo}
               </p>
               <a
-                href="https://www.patreon.com/join/devleon/checkout?rid=10151819"
+                href="https://www.th.gl/support-me"
                 target="_blank"
-                className="mt-1 p-2 uppercase text-center bg-white text-[#ff424d] hover:bg-gray-100"
+                className="my-1 p-2 text-center uppercase text-white bg-[#ff424d] hover:bg-[#ca0f25]"
               >
                 {dict.menu.becomePatron}
               </a>
-              <button
-                onClick={() => {
-                  if (isOverwolfApp) {
-                    overwolf.utils.openUrlInDefaultBrowser(
-                      `${API_BASE_URI}/patreon`
-                    );
-                  } else {
-                    location.href = `https://www.patreon.com/oauth2/authorize?response_type=code&client_id=${PATREON_CLIENT_ID_V2}&redirect_uri=${API_BASE_URI}`;
-                  }
-                }}
-                className="my-1 p-2 uppercase text-white bg-[#ff424d] hover:bg-[#ca0f25]"
-              >
-                {dict.menu.linkPatreon}
-              </button>
             </>
           )}
           <h2 className="category-title">{dict.menu.settings}</h2>

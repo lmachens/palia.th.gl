@@ -1,5 +1,5 @@
 "use client";
-import { API_BASE_URI } from "@/app/lib/env";
+import { PATREON_BASE_URI } from "@/app/lib/env";
 import { useAccountStore } from "@/app/lib/storage/account";
 import { useSettingsStore } from "@/app/lib/storage/settings";
 import { useEffect, useRef } from "react";
@@ -34,28 +34,40 @@ async function initController() {
   const openApp = async (
     event?: overwolf.extensions.AppLaunchTriggeredEvent
   ) => {
+    let userId = useAccountStore.getState().userId;
     if (event?.origin === "urlscheme") {
-      const matched = decodeURIComponent(event.parameter).match("code=([^&]*)");
-      const code = matched ? matched[1] : null;
-      if (code) {
-        const response = await fetch(`${API_BASE_URI}/api/patreon/v2`, {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            code,
-            redirectURI: `${API_BASE_URI}/patreon/exit`,
-          }),
-        });
-        const body = response.json();
+      const matchedUserId = decodeURIComponent(event.parameter).match(
+        "userId=([^&]*)"
+      );
+      const newUserId = matchedUserId ? matchedUserId[1] : null;
+      if (newUserId) {
+        userId = newUserId;
+      }
+    }
+    if (userId) {
+      const accountStore = useAccountStore.getState();
+      const response = await fetch(`${PATREON_BASE_URI}/api/patreon/overwolf`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          appId: "fgbodfoepckgplklpccjedophlahnjemfdknhfce",
+          userId,
+        }),
+      });
+      try {
+        const body = await response.json();
         if (!response.ok) {
           console.warn(body);
+          accountStore.setIsPatron(false);
         } else {
           console.log(`Patreon successfully activated`);
-          const accountStore = useAccountStore.getState();
-          accountStore.setIsPatron(true);
+          accountStore.setIsPatron(true, userId);
         }
+      } catch (err) {
+        console.error(err);
+        accountStore.setIsPatron(false);
       }
     }
 

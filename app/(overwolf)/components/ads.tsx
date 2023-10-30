@@ -1,7 +1,6 @@
 "use client";
 import { useDict } from "@/app/components/(i18n)/i18n-provider";
 import Modal from "@/app/components/modal";
-import { API_BASE_URI } from "@/app/lib/env";
 import { useAccountStore } from "@/app/lib/storage/account";
 import { useGameInfoStore } from "@/app/lib/storage/game-info";
 import { useSettingsStore } from "@/app/lib/storage/settings";
@@ -128,20 +127,12 @@ function Ads() {
         <Modal onClose={() => setIsModalVisible(false)}>
           <p className="italic text-md text-center">{dict.menu.patronInfo}</p>
           <a
-            href="https://www.patreon.com/join/devleon/checkout?rid=10151819"
+            href="https://www.th.gl/support-me"
             target="_blank"
-            className="mt-1 p-2 uppercase text-center bg-white text-[#ff424d] hover:bg-gray-100"
+            className="my-1 p-2 uppercase text-center text-white bg-[#ff424d] hover:bg-[#ca0f25]"
           >
             {dict.menu.becomePatron}
           </a>
-          <button
-            onClick={() => {
-              overwolf.utils.openUrlInDefaultBrowser(`${API_BASE_URI}/patreon`);
-            }}
-            className="my-1 p-2 uppercase text-white bg-[#ff424d] hover:bg-[#ca0f25]"
-          >
-            {dict.menu.linkPatreon}
-          </button>
         </Modal>
       )}
     </>

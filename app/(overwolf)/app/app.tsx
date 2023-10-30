@@ -6,7 +6,6 @@ import Nodes from "@/app/components/(map)/nodes";
 import Tiles from "@/app/components/(map)/tiles";
 import Menu from "@/app/components/menu";
 import Search from "@/app/components/search";
-import SearchParams from "@/app/components/search-params";
 import WeeklyWants from "@/app/components/weekly-wants";
 import { API_BASE_URI } from "@/app/lib/env";
 import { DEFAULT_LOCALE, LOCALES, loadDictionary } from "@/app/lib/i18n";
@@ -81,7 +80,6 @@ export default function App() {
             <WeeklyWants data={data && !("error" in data) ? data : undefined} />
           </Search>
           <Menu />
-          <SearchParams />
         </AppContainer>
       </ParamsProvider>
       <ResizeBorders />

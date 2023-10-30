@@ -1,4 +1,4 @@
-import { Mutate, StoreApi } from "zustand";
+import type { Mutate, StoreApi } from "zustand";
 
 type StoreWithPersist<State = any> = Mutate<
   StoreApi<State>,

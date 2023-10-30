@@ -23,7 +23,7 @@ export default function Exit() {
             app is running!
           </p>
           <a
-            href={`overwolf-extension://${OVERWOLF_APP_UID}/patreon.html#code=${code}`}
+            href={`thgl-palia-map://${OVERWOLF_APP_UID}/patreon.html#code=${code}`}
             className="block w-fit mx-auto p-2 uppercase text-white bg-[#ff424d] hover:bg-[#ca0f25]"
           >
             Send Patreon Code to App

@@ -1,6 +1,8 @@
 "use client";
+import Cookies from "js-cookie";
 import Script from "next/script";
 import { useEffect, useState } from "react";
+import { PATREON_BASE_URI } from "../lib/env";
 import { useAccountStore } from "../lib/storage/account";
 import TwitchEmbed from "./twitch-embed";
 
@@ -33,11 +35,40 @@ if (typeof window !== "undefined") {
 }
 
 export default function NitroPay() {
-  const isPatron = useAccountStore((state) => state.isPatron);
+  const accountStore = useAccountStore();
   const [showFallback, setShowFallback] = useState<boolean | null>(null);
 
   useEffect(() => {
-    if (showFallback === false || isPatron) {
+    const userId = Cookies.get("userId");
+    if (!userId) {
+      if (accountStore.isPatron) {
+        accountStore.setIsPatron(false);
+      }
+      return;
+    }
+
+    (async () => {
+      const response = await fetch(
+        `${PATREON_BASE_URI}/api/patreon?appId=fgbodfoepckgplklpccjedophlahnjemfdknhfce`
+      );
+      try {
+        const body = await response.json();
+        if (!response.ok) {
+          console.warn(body);
+          accountStore.setIsPatron(false);
+        } else {
+          console.log(`Patreon successfully activated`);
+          accountStore.setIsPatron(true, userId);
+        }
+      } catch (err) {
+        console.error(err);
+        accountStore.setIsPatron(false);
+      }
+    })();
+  }, []);
+
+  useEffect(() => {
+    if (showFallback === false || accountStore.isPatron) {
       return;
     }
     const timeoutId = setTimeout(() => {
@@ -49,7 +80,7 @@ export default function NitroPay() {
     };
   }, [showFallback]);
 
-  if (isPatron) {
+  if (accountStore.isPatron) {
     return <></>;
   }
 

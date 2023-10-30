@@ -6,7 +6,6 @@ const inter = Inter({ subsets: ["latin"] });
 import { I18NProvider } from "@/app/components/(i18n)/i18n-provider";
 import Menu from "@/app/components/menu";
 import PlausibleTracker from "@/app/components/plausible-tracker";
-import SearchParams from "@/app/components/search-params";
 import {
   DEFAULT_LOCALE,
   LOCALES,
@@ -45,7 +44,6 @@ function Layout({
           {children}
           <Menu />
         </I18NProvider>
-        <SearchParams />
         <PlausibleTracker
           domain={process.env.NEXT_PUBLIC_PLAUSIBLE_WEB_DOMAIN}
           apiHost={process.env.NEXT_PUBLIC_PLAUSIBLE_API_HOST}

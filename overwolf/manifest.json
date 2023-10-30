@@ -127,13 +127,15 @@
     "externally_connectable": {
       "matches": [
         "https://*.patreon.com",
+        "https://www.th.gl",
         "https://palia.th.gl",
         "https://palia-api.th.gl",
+        "http://localhost:3000",
         "http://localhost:3668"
       ]
     },
     "url_protocol": {
-      "scheme": "overwolf-extension"
+      "scheme": "thgl-palia-map"
     },
     "extra-objects": {
       "palia": {
