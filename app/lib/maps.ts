@@ -1,4 +1,5 @@
 import type { LatLngBoundsExpression } from "leaflet";
+import type { Actor } from "../(overwolf)/components/player";
 
 export const CONFIGS = {
   "kilima-valley": {
@@ -46,49 +47,6 @@ export const CONFIGS = {
 export const DEFAULT_MAP = "kilima-valley";
 export const isMap = (map: string) => Object.keys(CONFIGS).includes(map);
 
-const mapBounds = {
-  fairgrounds: {
-    topLeft: {
-      x: 70000,
-      y: 15000,
-    },
-    bottomRight: {
-      x: 92000,
-      y: 46000,
-    },
-  },
-  "kilima-valley": {
-    topLeft: {
-      x: -54000,
-      y: -44000,
-    },
-    bottomRight: {
-      x: 56000,
-      y: 46000,
-    },
-  },
-  "bahari-bay": {
-    topLeft: {
-      x: 31138.41368584759,
-      y: -130401.24416796268,
-    },
-    bottomRight: {
-      x: 191947.1228615863,
-      y: 30407.46500777605,
-    },
-  },
-  housing: {
-    topLeft: {
-      x: -400000,
-      y: -4000000,
-    },
-    bottomRight: {
-      x: 700000,
-      y: -10000,
-    },
-  },
-} as const;
-
 const HOUSING_MOD = 65000;
 export function modHousingCoords(coords: {
   x: number;
@@ -107,17 +65,16 @@ export function modHousingCoords(coords: {
   return { x, y, z: coords.z };
 }
 
-export function getMapFromCoords(coords: { x: number; y: number }) {
-  for (const mapName in mapBounds) {
-    const bounds = mapBounds[mapName as keyof typeof mapBounds];
-    if (
-      coords.x >= bounds.topLeft.x &&
-      coords.x <= bounds.bottomRight.x &&
-      coords.y >= bounds.topLeft.y &&
-      coords.y <= bounds.bottomRight.y
-    ) {
-      return mapName;
-    }
+export function getMapFromActor(actor: Actor) {
+  if (actor.className.includes("Village")) {
+    return "kilima-valley";
   }
+  if (actor.className.includes("AZ1")) {
+    return "bahari-bay";
+  }
+  if (actor.className.includes("HousingMaps")) {
+    return "housing";
+  }
+
   return null; // Coordinates do not belong to any known map
 }

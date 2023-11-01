@@ -1,5 +1,5 @@
 import { useDict } from "@/app/components/(i18n)/i18n-provider";
-import { getMapFromCoords, modHousingCoords } from "@/app/lib/maps";
+import { getMapFromActor, modHousingCoords } from "@/app/lib/maps";
 import type { NODE, spawnNodes } from "@/app/lib/nodes";
 import {
   sendActorsToPaliaAPI,
@@ -89,7 +89,7 @@ export default function Player() {
               player.r !== prevPosition.r
             ) {
               prevPosition = player;
-              const mapName = getMapFromCoords(player);
+              const mapName = getMapFromActor(player);
 
               if (mapName) {
                 const position =
@@ -127,7 +127,7 @@ export default function Player() {
                     z: actor.z,
                   },
                   rotation: 0,
-                  mapName: getMapFromCoords(actor),
+                  mapName: getMapFromActor(actor),
                 });
               }
               if (
@@ -140,7 +140,7 @@ export default function Player() {
                   id: type + "@" + actor.x + "," + actor.y,
                   x: actor.x,
                   y: actor.y,
-                  mapName: getMapFromCoords(actor)!,
+                  mapName: getMapFromActor(actor)!,
                   isSpawnNode: true,
                   isStar,
                 });
