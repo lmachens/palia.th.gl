@@ -135,45 +135,49 @@ export default function Filters() {
                     </button>
                   );
                 })}
-              {group.map((_key) => {
-                const key = _key as keyof typeof spawnNodes;
-                const icon = SPAWN_ICONS[key];
+              {group
+                .sort((a, b) =>
+                  dict.spawnNodes[a].name.localeCompare(dict.spawnNodes[b].name)
+                )
+                .map((_key) => {
+                  const key = _key as keyof typeof spawnNodes;
+                  const icon = SPAWN_ICONS[key];
 
-                return (
-                  <button
-                    key={key}
-                    className={`flex gap-2 items-center hover:bg-neutral-700 p-2 basis-1/2 truncate ${
-                      !filters.includes(key) ? "text-gray-500" : ""
-                    }`}
-                    onClick={() => {
-                      toggleFilter(key);
-                    }}
-                    title={dict.spawnNodes[key].name}
-                  >
-                    {"src" in icon ? (
-                      <Image
-                        src={icon.src as string}
-                        width={20}
-                        height={20}
-                        alt=""
-                        className="h-5 w-5 shrink-0"
-                        unoptimized={isOverwolfApp}
-                      />
-                    ) : (
-                      <svg
-                        viewBox="0 0 100 100"
-                        fill={icon.color}
-                        className="h-5 w-5 shrink-0"
-                      >
-                        <path d={icon.path} />
-                      </svg>
-                    )}
-                    <span className="truncate">
-                      {dict.spawnNodes[key].name}
-                    </span>
-                  </button>
-                );
-              })}
+                  return (
+                    <button
+                      key={key}
+                      className={`flex gap-2 items-center hover:bg-neutral-700 p-2 basis-1/2 truncate ${
+                        !filters.includes(key) ? "text-gray-500" : ""
+                      }`}
+                      onClick={() => {
+                        toggleFilter(key);
+                      }}
+                      title={dict.spawnNodes[key].name}
+                    >
+                      {"src" in icon ? (
+                        <Image
+                          src={icon.src as string}
+                          width={20}
+                          height={20}
+                          alt=""
+                          className="h-5 w-5 shrink-0"
+                          unoptimized={isOverwolfApp}
+                        />
+                      ) : (
+                        <svg
+                          viewBox="0 0 100 100"
+                          fill={icon.color}
+                          className="h-5 w-5 shrink-0"
+                        >
+                          <path d={icon.path} />
+                        </svg>
+                      )}
+                      <span className="truncate">
+                        {dict.spawnNodes[key].name}
+                      </span>
+                    </button>
+                  );
+                })}
             </Fragment>
           );
         })}
