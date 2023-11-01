@@ -3,6 +3,11 @@ import type {
   CurrentGiftPreferences,
 } from "../(overwolf)/components/player";
 
+let version = "";
+overwolf.extensions.current.getManifest((manifest) => {
+  version = manifest.meta.version;
+});
+
 export async function sendWeeklyWantsToPaliaAPI(
   currentGiftPreferences: CurrentGiftPreferences
 ) {
@@ -11,6 +16,7 @@ export async function sendWeeklyWantsToPaliaAPI(
       method: "POST",
       headers: {
         "Content-Type": "application/json",
+        "App-Version": version,
       },
       body: JSON.stringify(currentGiftPreferences),
     });
@@ -30,6 +36,7 @@ export async function sendActorsToPaliaAPI(actors: Actor[]) {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
+        "App-Version": version,
       },
       body: JSON.stringify(actors),
     });

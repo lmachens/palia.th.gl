@@ -66,13 +66,13 @@ export function modHousingCoords(coords: {
 }
 
 export function getMapFromActor(actor: Actor) {
-  if (actor.className.includes("Village")) {
+  if (actor.className.includes("Maps/Village")) {
     return "kilima-valley";
   }
-  if (actor.className.includes("AZ1")) {
+  if (actor.className.includes("Maps/AZ1")) {
     return "bahari-bay";
   }
-  if (actor.className.includes("HousingMaps")) {
+  if (actor.className.includes("Maps/HousingMaps")) {
     return "housing";
   }
 
