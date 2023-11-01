@@ -126,7 +126,6 @@
     "force_browser": "user",
     "externally_connectable": {
       "matches": [
-        "https://*.patreon.com",
         "https://www.th.gl",
         "https://palia.th.gl",
         "https://palia-api.th.gl",
