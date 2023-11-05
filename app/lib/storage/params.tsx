@@ -1,6 +1,5 @@
 "use client";
 import { useDict } from "@/app/components/(i18n)/i18n-provider";
-import Cookies from "js-cookie";
 import { useParams, useSearchParams } from "next/navigation";
 import { createContext, useContext, useEffect, useRef } from "react";
 import { createStore, useStore } from "zustand";
@@ -117,48 +116,34 @@ const createParamsStore = (initProps: ParamsProps & { dict: DICT }) => {
   };
 
   const props = calcState(initProps);
-  return createStore<ParamsState>()((set, get) => ({
+  return createStore<ParamsState>()((set) => ({
     ...props,
     setParams: (params) => {
-      const state = get();
-      const props = calcState({
-        ...state,
-        ...params,
-      });
+      set((state) => {
+        const props = calcState({
+          ...state,
+          ...params,
+        });
 
-      const searchParams = new URLSearchParams();
-      if (typeof props.search !== "undefined") {
-        if (props.search.length > 0) {
-          searchParams.set("search", props.search);
+        const searchParams = new URLSearchParams();
+        if (typeof props.search !== "undefined") {
+          if (props.search.length > 0) {
+            searchParams.set("search", props.search);
+          } else {
+            searchParams.delete("search");
+          }
+        }
+        if (props.filters.length === 0) {
+          searchParams.set("filters", "none");
+        } else if (props.filters.length !== ALL_FILTERS.length) {
+          searchParams.set("filters", props.filters.join(","));
         } else {
-          searchParams.delete("search");
+          searchParams.delete("filters");
         }
-      }
-      if (props.filters.length === 0) {
-        searchParams.set("filters", "none");
-      } else if (props.filters.length !== ALL_FILTERS.length) {
-        searchParams.set("filters", props.filters.join(","));
-      } else {
-        searchParams.delete("filters");
-      }
-      props.query = searchParams.toString();
+        props.query = searchParams.toString();
 
-      set(props);
-
-      if (!isOverwolfApp) {
-        let url = location.pathname;
-        if (props.query) {
-          url += "?" + props.query;
-        }
-        Cookies.set("params", encodeURIComponent(url), { expires: 30 });
-        window.history.replaceState(
-          { ...window.history.state, as: url, url: url },
-          "",
-          url
-        );
-      } else {
-        localStorage.setItem("params", JSON.stringify(props));
-      }
+        return props;
+      });
     },
   }));
 };
