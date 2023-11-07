@@ -17,6 +17,7 @@ import { useEffect, useRef } from "react";
 import PlayerMarker from "./player-marker";
 
 export type Actor = {
+  address: number;
   className: string;
   x: number;
   y: number;
@@ -64,116 +65,166 @@ export default function Player() {
       const plugin = result.object;
       console.log("Initialized plugin");
       let prevPosition = { x: 0, y: 0, z: 0, r: 0 };
-      let lastError = "";
+      let lastPlayerError = "";
+      let lastActorsError = "";
+      let lastCurrentGiftsError = "";
       let firstData = false;
       let lastPreferenceDataVersionNumber = 0;
-      const getData = () => {
-        plugin.Listen(
-          (
-            player: Actor,
-            actors: Actor[],
-            currentGiftPreferences: CurrentGiftPreferences
-          ) => {
-            if (!firstData) {
-              firstData = true;
-              console.log("Got first data", JSON.stringify(player));
-              console.log(currentGiftPreferences);
-            }
-            if (lastError) {
-              lastError = "";
-            }
-            if (
-              player.x !== prevPosition.x ||
-              player.y !== prevPosition.y ||
-              player.z !== prevPosition.z ||
-              player.r !== prevPosition.r
-            ) {
-              prevPosition = player;
-              const mapName = getMapFromActor(player);
 
-              if (mapName) {
-                const position =
-                  mapName === "housing" ? modHousingCoords(player) : player;
-                gameInfo.setPlayer({
-                  className: player.className,
-                  position: position,
-                  rotation: player.r,
-                  mapName: mapName,
-                });
-                if (mapName && mapName !== lastMapName) {
-                  console.log(
-                    `Entering new map: ${mapName} on ${player.x},${player.y}`
-                  );
-                  lastMapName = mapName;
-                  setParams({
-                    mapName,
-                    dict,
-                  });
-                }
+      const getPlayer = () => {
+        plugin.GetPlayer(
+          (player: Actor) => {
+            try {
+              if (!firstData) {
+                firstData = true;
+                console.log("Got first data", JSON.stringify(player));
               }
-            }
-            const villagers: GameActor[] = [];
-            const foundSpawnNodes: NODE[] = [];
-            actors.forEach((actor) => {
-              const className = actor.className.split(" ")[0];
-              const type = className.replace("+", "");
-              const isStar = className.includes("+");
-              if (type.startsWith("BP_Villager")) {
-                villagers.push({
-                  className: actor.className,
-                  position: {
-                    x: actor.x,
-                    y: actor.y,
-                    z: actor.z,
-                  },
-                  rotation: 0,
-                  mapName: getMapFromActor(actor),
-                });
+              if (lastPlayerError) {
+                lastPlayerError = "";
               }
               if (
-                Object.values(spawnGroups).some((group) =>
-                  group.some((id) => type.startsWith(id))
-                )
+                player.x !== prevPosition.x ||
+                player.y !== prevPosition.y ||
+                player.z !== prevPosition.z ||
+                player.r !== prevPosition.r
               ) {
-                foundSpawnNodes.push({
-                  type: type as keyof typeof spawnNodes,
-                  id: type + "@" + actor.x + "," + actor.y,
-                  x: actor.x,
-                  y: actor.y,
-                  mapName: getMapFromActor(actor)!,
-                  isSpawnNode: true,
-                  isStar,
-                });
+                prevPosition = player;
+                const mapName = getMapFromActor(player);
+                if (mapName) {
+                  const position =
+                    mapName === "housing" ? modHousingCoords(player) : player;
+                  gameInfo.setPlayer({
+                    className: player.className,
+                    position: position,
+                    rotation: player.r,
+                    mapName: mapName,
+                  });
+                  if (mapName && mapName !== lastMapName) {
+                    console.log(
+                      `Entering new map: ${mapName} on ${player.x},${player.y}`
+                    );
+                    lastMapName = mapName;
+                    setParams({
+                      mapName,
+                      dict,
+                    });
+                  }
+                }
               }
-            });
-
-            gameInfo.setVillagers(villagers);
-            gameInfo.setSpawnNodes(foundSpawnNodes);
-
-            if (
-              lastPreferenceDataVersionNumber !==
-              currentGiftPreferences.preferenceDataVersionNumber
-            ) {
-              gameInfo.setCurrentGiftPreferences(currentGiftPreferences);
-              lastPreferenceDataVersionNumber =
-                currentGiftPreferences.preferenceDataVersionNumber;
-              sendWeeklyWantsToPaliaAPI(currentGiftPreferences);
+            } catch (err) {
+              // ignore
             }
-            sendActorsToPaliaAPI(actors);
-
-            setTimeout(getData, 100);
+            setTimeout(getPlayer, 50);
           },
           (err: string) => {
-            if (err !== lastError) {
-              lastError = err;
+            if (err !== lastPlayerError) {
+              lastPlayerError = err;
               firstData = false;
-              console.error("Error: ", err);
+              console.error("Player Error: ", err);
             }
-            setTimeout(getData, 1000);
+            setTimeout(getPlayer, 200);
           }
         );
       };
-      setTimeout(getData, 100);
+
+      const getActors = () => {
+        plugin.GetActors(
+          (actors: Actor[]) => {
+            try {
+              if (lastActorsError) {
+                lastActorsError = "";
+              }
+              const villagers: GameActor[] = [];
+              const foundSpawnNodes: NODE[] = [];
+              actors.forEach((actor) => {
+                const className = actor.className.split(" ")[0];
+                const type = className.replace("+", "");
+                const isStar = className.includes("+");
+                if (type.startsWith("BP_Villager")) {
+                  villagers.push({
+                    className: actor.className,
+                    position: {
+                      x: actor.x,
+                      y: actor.y,
+                      z: actor.z,
+                    },
+                    rotation: 0,
+                    mapName: getMapFromActor(actor),
+                  });
+                }
+                if (
+                  Object.values(spawnGroups).some((group) =>
+                    group.some((id) => type.startsWith(id))
+                  )
+                ) {
+                  foundSpawnNodes.push({
+                    type: type as keyof typeof spawnNodes,
+                    id: actor.address.toString(),
+                    x: actor.x,
+                    y: actor.y,
+                    mapName: getMapFromActor(actor)!,
+                    isSpawnNode: true,
+                    isStar,
+                  });
+                }
+              });
+
+              gameInfo.setVillagers(villagers);
+              gameInfo.setSpawnNodes(foundSpawnNodes);
+
+              sendActorsToPaliaAPI(actors);
+            } catch (err) {
+              // ignore
+            }
+            setTimeout(getActors, 100);
+          },
+          (err: string) => {
+            if (err !== lastActorsError) {
+              lastActorsError = err;
+              firstData = false;
+              console.error("Actors Error: ", err);
+            }
+            setTimeout(getActors, 500);
+          }
+        );
+      };
+
+      const getCurrentGiftPreferences = () => {
+        plugin.GetCurrentGiftPreferences(
+          (currentGiftPreferences: CurrentGiftPreferences) => {
+            try {
+              if (lastCurrentGiftsError) {
+                lastCurrentGiftsError = "";
+              }
+
+              if (
+                lastPreferenceDataVersionNumber !==
+                currentGiftPreferences.preferenceDataVersionNumber
+              ) {
+                gameInfo.setCurrentGiftPreferences(currentGiftPreferences);
+                lastPreferenceDataVersionNumber =
+                  currentGiftPreferences.preferenceDataVersionNumber;
+                sendWeeklyWantsToPaliaAPI(currentGiftPreferences);
+              }
+            } catch (err) {
+              // ignore
+            }
+            setTimeout(getCurrentGiftPreferences, 10000);
+          },
+          (err: string) => {
+            if (err !== lastCurrentGiftsError) {
+              lastCurrentGiftsError = err;
+              firstData = false;
+              console.error("Current Gift Error: ", err);
+            }
+            setTimeout(getCurrentGiftPreferences, 60000);
+          }
+        );
+      };
+
+      getPlayer();
+      setTimeout(getActors, 1000);
+      setTimeout(getCurrentGiftPreferences, 10000);
     });
   }, []);
 

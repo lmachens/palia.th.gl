@@ -42,7 +42,7 @@ const createParamsStore = (initProps: ParamsProps & { dict: DICT }) => {
     const dict = props.dict;
 
     let highlightedNode: NODE | undefined = undefined;
-    let changed = false;
+    let changed = props.liveMode;
     const visibleNodesByMap: Record<string, NODE[]> = {};
     props.nodes.forEach((node) => {
       let isHighlighted = false;

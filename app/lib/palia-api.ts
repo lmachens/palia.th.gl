@@ -38,7 +38,8 @@ export async function sendActorsToPaliaAPI(actors: Actor[]) {
         "Content-Type": "application/json",
         "App-Version": version,
       },
-      body: JSON.stringify(actors),
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
+      body: JSON.stringify(actors.map(({ address, ...actor }) => actor)),
     });
   } catch (e) {
     //

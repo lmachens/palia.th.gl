@@ -3,10 +3,11 @@ import { ICONS, SPAWN_ICONS } from "@/app/lib/icons";
 import type { NODE } from "@/app/lib/nodes";
 import { useRoutesStore } from "@/app/lib/storage/routes";
 import type leaflet from "leaflet";
-import { memo, useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { useDict } from "../(i18n)/i18n-provider";
 import CanvasMarker from "./canvas-marker";
-const Marker = memo(function Marker({
+
+const Marker = function Marker({
   id,
   node,
   type,
@@ -24,14 +25,14 @@ const Marker = memo(function Marker({
   featureGroup: leaflet.FeatureGroup;
 }) {
   const dict = useDict();
+  const marker = useRef<CanvasMarker | null>(null);
 
   useEffect(() => {
+    const interactive = type !== "area";
     const icon = node.isSpawnNode
       ? SPAWN_ICONS[type]
       : ICONS[type as keyof typeof ICONS];
-    const latLng = [node.y, node.x] as [number, number];
-    const interactive = type !== "area";
-    const marker = new CanvasMarker(latLng, {
+    marker.current = new CanvasMarker([node.y, node.x] as [number, number], {
       id,
       icon,
       // @ts-ignore
@@ -43,10 +44,10 @@ const Marker = memo(function Marker({
       interactive,
       isStar: node.isStar,
     });
-    marker.addTo(featureGroup);
+    marker.current.addTo(featureGroup);
 
     if (interactive) {
-      marker.on("click", () => {
+      marker.current.on("click", () => {
         if (!useRoutesStore.getState().isCreating) {
           onClick(node);
         }
@@ -80,25 +81,36 @@ const Marker = memo(function Marker({
         div.innerHTML = tooltipContent;
         return div;
       };
-      marker.bindTooltip(tooltipContent, {
+      marker.current.bindTooltip(tooltipContent, {
         permanent: isHighlighted,
         interactive: isHighlighted,
         direction: "top",
         offset: [0, -icon.radius * iconSize],
       });
       if (isHighlighted) {
-        marker.bringToFront();
+        marker.current.bringToFront();
       }
     } else {
-      marker.bringToBack();
+      marker.current.bringToBack();
     }
+
     return () => {
-      featureGroup.removeLayer(marker);
-      marker.remove();
+      if (marker.current) {
+        featureGroup.removeLayer(marker.current);
+        marker.current.remove();
+      }
     };
   }, [type, isHighlighted, iconSize, dict]);
 
+  useEffect(() => {
+    if (!marker.current) {
+      return;
+    }
+
+    marker.current.setLatLng([node.y, node.x] as [number, number]);
+  }, [node.y, node.x]);
+
   return <></>;
-});
+};
 
 export default Marker;
