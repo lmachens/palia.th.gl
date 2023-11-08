@@ -15,19 +15,26 @@ export const useAccountStore = create(
       previewAccess?: boolean
     ) => void;
   }>(
-    (set) => ({
+    (set, get) => ({
       userId: null,
       isPatron: false,
       previewAccess: false,
       setIsPatron: (isPatron, userId, previewAccess) => {
+        const prevUserId = get().userId;
+        if (!prevUserId && previewAccess) {
+          promisifyOverwolf(overwolf.settings.setExtensionSettings)({
+            channel: "preview-access",
+          }).then(() => mutate("extensionSettings"));
+        } else if (prevUserId && !previewAccess) {
+          promisifyOverwolf(overwolf.settings.setExtensionSettings)({
+            channel: "production",
+          }).then(() => mutate("extensionSettings"));
+        }
         set({
           isPatron,
           userId: userId || null,
           previewAccess: previewAccess || false,
         });
-        promisifyOverwolf(overwolf.settings.setExtensionSettings)({
-          channel: previewAccess ? "preview-access" : "production",
-        }).then(() => mutate("extensionSettings"));
       },
     }),
     {
