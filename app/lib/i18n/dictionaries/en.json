@@ -38,6 +38,16 @@
     "download": "Download the app"
   },
   "menu": {
+    "status": "Status",
+    "previewAccess": "Preview Access",
+    "eliteSupporters": "Elite Supporters",
+    "previewAccessDesc": "By activating preview access, you will get the latest features before they are released to the public. This perk is only available for",
+    "version": "Version",
+    "runningLatestVersion": "You are running the latest version of the app.",
+    "updateIsAvailable": "An update is available.",
+    "updateNow": "Update Now!",
+    "pendingRestart": "An update was installed. Restart the app to apply the update.",
+    "restartNow": "Restart Now!",
     "patronInfo": "Get rid of ads and support me on Patreon",
     "becomePatron": "Become a Patron",
     "disconnectPatreon": "Disconnect your Patreon account",

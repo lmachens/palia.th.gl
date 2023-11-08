@@ -17,6 +17,8 @@ import { useEffect, useState } from "react";
 import useSWR from "swr";
 import Ads from "../components/ads";
 import AppContainer from "../components/app-container";
+import AppSettings from "../components/app-settings";
+import Channels from "../components/channels";
 import Header from "../components/header";
 import MapContainer from "../components/map-container";
 import Player from "../components/player";
@@ -79,7 +81,7 @@ export default function App() {
           <Search>
             <WeeklyWants data={data && !("error" in data) ? data : undefined} />
           </Search>
-          <Menu />
+          <Menu afterPatreon={<Channels />} beforeSettings={<AppSettings />} />
         </AppContainer>
       </ParamsProvider>
       <ResizeBorders />

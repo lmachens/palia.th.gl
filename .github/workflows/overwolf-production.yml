@@ -1,9 +1,6 @@
-name: Build Overwolf App CI
+name: Build Overwolf Production App CI
 
 on:
-  push:
-    paths:
-      - "overwolf/manifest.json"
   workflow_dispatch:
 
 jobs:

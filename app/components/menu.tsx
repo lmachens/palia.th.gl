@@ -1,6 +1,5 @@
 "use client";
 import Cookies from "js-cookie";
-import AppSettings from "../(overwolf)/components/app-settings";
 import { isOverwolfApp } from "../lib/env";
 import { useAccountStore } from "../lib/storage/account";
 import { useGameInfoStore } from "../lib/storage/game-info";
@@ -10,7 +9,6 @@ import { useDict } from "./(i18n)/i18n-provider";
 import Drawer from "./drawer";
 import ExternalLink from "./external-link";
 import LocaleSelect from "./locale-select";
-import NitroPay from "./nitro-pay";
 import Settings from "./settings";
 
 const DiscordIcon = ({ className }: { className?: string }) => {
@@ -66,7 +64,15 @@ const DISCOVER_LINKS = [
     text: "Gaming Apps & Tools",
   },
 ];
-export default function Menu() {
+export default function Menu({
+  top,
+  afterPatreon,
+  beforeSettings,
+}: {
+  top?: React.ReactNode;
+  afterPatreon?: React.ReactNode;
+  beforeSettings?: React.ReactNode;
+}) {
   const globalSettingsStore = useGlobalSettingsStore();
   const accountStore = useAccountStore();
   const dict = useDict();
@@ -115,7 +121,7 @@ export default function Menu() {
             </svg>
           </button>
         </header>
-        {!isOverwolfApp && <NitroPay />}
+        {top}
         <div
           className={`p-2 overflow-auto grow flex flex-col gap-2 ${
             isOverwolfApp ? "mb-[30px]" : ""
@@ -135,8 +141,9 @@ export default function Menu() {
               </a>
             </>
           )}
+          {afterPatreon}
           <h2 className="category-title">{dict.menu.settings}</h2>
-          {isOverwolfApp && <AppSettings />}
+          {beforeSettings}
           <Settings />
           <h2 className="category-title">{dict.menu.apps}</h2>
           <ExternalLink

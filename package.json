@@ -5,7 +5,7 @@
     "dev": "next dev --port 3668",
     "build": "next build",
     "export": "TARGET=overwolf next build && node scripts/copy-overwolf.mjs",
-    "release": "ow opk pack out -o paliathgl.opk && ow opk sign paliathgl.opk && ow opk upload paliathgl.signed.opk",
+    "release": "node scripts/release-overwolf.mjs",
     "start": "next start",
     "lint": "next lint"
   },
@@ -40,7 +40,9 @@
     "@types/leaflet": "1.9.6",
     "@typescript-eslint/eslint-plugin": "6.7.5",
     "@typescript-eslint/parser": "6.7.5",
+    "dotenv": "16.3.1",
     "eslint": "8.51.0",
+    "reflect-metadata": "0.1.13",
     "typescript": "5.2.2"
   }
 }

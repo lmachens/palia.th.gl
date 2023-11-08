@@ -38,6 +38,16 @@
         "download": "App herunterladen"
     },
     "menu": {
+        "status": "Status",
+        "previewAccess": "Vorschauzugang",
+        "eliteSupporters": "Elite-Unterstützer",
+        "previewAccessDesc": "Durch Aktivieren des Vorschauzugangs erhalten Sie die neuesten Funktionen, bevor sie der Öffentlichkeit zur Verfügung gestellt werden. Dieses Extra ist nur verfügbar für",
+        "version": "Version",
+        "runningLatestVersion": "Sie verwenden die neueste Version der App.",
+        "updateIsAvailable": "Ein Update ist verfügbar.",
+        "updateNow": "Jetzt aktualisieren!",
+        "pendingRestart": "Ein Update wurde installiert. Starten Sie die App neu, um das Update anzuwenden.",
+        "restartNow": "Jetzt neu starten!",
         "patronInfo": "Werbung entfernen und mich auf Patreon unterstützen",
         "becomePatron": "Werde ein Patron",
         "disconnectPatreon": "Trenne dein Patreon-Konto",

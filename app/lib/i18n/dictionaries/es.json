@@ -38,6 +38,16 @@
         "download": "Descargar la aplicación"
     },
     "menu": {
+        "status": "Estado",
+        "previewAccess": "Acceso previo",
+        "eliteSupporters": "Soporte de élite",
+        "previewAccessDesc": "Al activar el acceso previo, obtendrá las últimas funciones antes de que se publiquen. Este beneficio solo está disponible para",
+        "version": "Versión",
+        "runningLatestVersion": "Está utilizando la última versión de la aplicación.",
+        "updateIsAvailable": "Hay una actualización disponible.",
+        "updateNow": "¡Actualizar ahora!",
+        "pendingRestart": "Se ha instalado una actualización. Reinicie la aplicación para aplicar la actualización.",
+        "restartNow": "Reiniciar ahora.",
         "patronInfo": "Elimina los anuncios y apóyame en Patreon",
         "becomePatron": "Conviértete en Patrocinador",
         "disconnectPatreon": "Desconecta tu cuenta de Patreon",

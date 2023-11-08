@@ -5,6 +5,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 import { I18NProvider } from "@/app/components/(i18n)/i18n-provider";
 import Menu from "@/app/components/menu";
+import NitroPay from "@/app/components/nitro-pay";
 import PlausibleTracker from "@/app/components/plausible-tracker";
 import {
   DEFAULT_LOCALE,
@@ -42,7 +43,7 @@ function Layout({
           }}
         >
           {children}
-          <Menu />
+          <Menu top={<NitroPay />} />
         </I18NProvider>
         <PlausibleTracker
           domain={process.env.NEXT_PUBLIC_PLAUSIBLE_WEB_DOMAIN}

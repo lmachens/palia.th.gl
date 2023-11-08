@@ -57,13 +57,13 @@ async function initController() {
         }),
       });
       try {
-        const body = await response.json();
+        const body = (await response.json()) as { previewAccess: boolean };
         if (!response.ok) {
           console.warn(body);
           accountStore.setIsPatron(false);
         } else {
           console.log(`Patreon successfully activated`);
-          accountStore.setIsPatron(true, userId);
+          accountStore.setIsPatron(true, userId, body.previewAccess);
         }
       } catch (err) {
         console.error(err);

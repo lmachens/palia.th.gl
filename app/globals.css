@@ -43,7 +43,7 @@
 
 @layer components {
   .category-title {
-    @apply text-sm text-gray-400;
+    @apply text-sm font-bold text-gray-400 uppercase;
   }
 
   .hotkey {
