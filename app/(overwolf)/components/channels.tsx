@@ -22,8 +22,12 @@ export default function Channels() {
       promisifyOverwolf(overwolf.extensions.checkForExtensionUpdate)()
     );
 
+  const version = manifest?.meta.version;
   const channel = extensionSettings?.settings?.channel || "production";
-  const state = extensionUpdate?.state || "UpToDate";
+  let state = extensionUpdate?.state || "UpToDate";
+  if (version === extensionUpdate?.updateVersion) {
+    state = "UpToDate";
+  }
   return (
     <>
       <h2 className="category-title">{dict.menu.status}</h2>
@@ -55,7 +59,7 @@ export default function Channels() {
       </p>
       <label className="flex">
         <span className="w-1/2">{dict.menu.version}</span>
-        <span>v{manifest?.meta.version}</span>
+        <span>v{version}</span>
       </label>
       <p className="text-sm text-gray-400">
         {state === "UpToDate" && dict.menu.runningLatestVersion}
