@@ -6,7 +6,10 @@ import {
   sendWeeklyWantsToPaliaAPI,
 } from "@/app/lib/palia-api";
 import { spawnGroups } from "@/app/lib/spawn-groups";
-import type { GameActor } from "@/app/lib/storage/game-info";
+import type {
+  GameActor,
+  OtherPlayerGameActor,
+} from "@/app/lib/storage/game-info";
 import { useGameInfoStore } from "@/app/lib/storage/game-info";
 import { useMapStore } from "@/app/lib/storage/map";
 import { useParamsStore } from "@/app/lib/storage/params";
@@ -23,6 +26,8 @@ export type Actor = {
   y: number;
   z: number;
   r: number;
+  name?: string;
+  guid?: string;
 };
 
 export type CurrentGiftPreferences = {
@@ -47,6 +52,7 @@ export default function Player() {
   );
   const marker = useRef<PlayerMarker | null>(null);
   const villagerMarkers = useRef<{ [key: string]: PlayerMarker }>({});
+  const otherPlayersMarkers = useRef<{ [key: string]: PlayerMarker }>({});
   const setParams = useParamsStore((state) => state.setParams);
   const dict = useDict();
 
@@ -54,7 +60,7 @@ export default function Player() {
     if (mounted.current) return;
     mounted.current = true;
 
-    let lastMapName = "kilima-valley";
+    let lastMapName = mapName;
 
     overwolf.extensions.current.getExtraObject("palia", (result) => {
       if (!result.success) {
@@ -64,7 +70,14 @@ export default function Player() {
 
       const plugin = result.object;
       console.log("Initialized plugin");
-      let prevPosition = { x: 0, y: 0, z: 0, r: 0 };
+      let prevPlayer: Actor = {
+        address: 0,
+        className: "",
+        x: 0,
+        y: 0,
+        z: 0,
+        r: 0,
+      };
       let lastPlayerError = "";
       let lastActorsError = "";
       let lastCurrentGiftsError = "";
@@ -83,12 +96,12 @@ export default function Player() {
                 lastPlayerError = "";
               }
               if (
-                player.x !== prevPosition.x ||
-                player.y !== prevPosition.y ||
-                player.z !== prevPosition.z ||
-                player.r !== prevPosition.r
+                player.x !== prevPlayer.x ||
+                player.y !== prevPlayer.y ||
+                player.z !== prevPlayer.z ||
+                player.r !== prevPlayer.r
               ) {
-                prevPosition = player;
+                prevPlayer = player;
                 const mapName = getMapFromActor(player);
                 if (mapName) {
                   const position =
@@ -135,6 +148,7 @@ export default function Player() {
                 lastActorsError = "";
               }
               const villagers: GameActor[] = [];
+              const otherPlayers: OtherPlayerGameActor[] = [];
               const foundSpawnNodes: NODE[] = [];
               actors.forEach((actor) => {
                 const className = actor.className.split(" ")[0];
@@ -151,8 +165,22 @@ export default function Player() {
                     rotation: 0,
                     mapName: getMapFromActor(actor),
                   });
-                }
-                if (
+                } else if (type.startsWith("BP_ValeriaCharacter")) {
+                  if (actor.guid !== prevPlayer.guid) {
+                    otherPlayers.push({
+                      name: actor.name!,
+                      guid: actor.guid!,
+                      className: actor.className,
+                      position: {
+                        x: actor.x,
+                        y: actor.y,
+                        z: actor.z,
+                      },
+                      rotation: actor.r,
+                      mapName: getMapFromActor(actor),
+                    });
+                  }
+                } else if (
                   Object.values(spawnGroups).some((group) =>
                     group.some((id) => type.startsWith(id))
                   )
@@ -170,6 +198,7 @@ export default function Player() {
               });
 
               gameInfo.setVillagers(villagers);
+              gameInfo.setOtherPlayers(otherPlayers);
               gameInfo.setSpawnNodes(foundSpawnNodes);
 
               sendActorsToPaliaAPI(actors);
@@ -306,6 +335,46 @@ export default function Player() {
     }
   }, [gameInfo.villagers]);
 
+  useEffect(() => {
+    if (!map) {
+      return;
+    }
+    try {
+      gameInfo.otherPlayers.forEach((otherPlayer) => {
+        if (!otherPlayersMarkers.current[otherPlayer.guid]) {
+          const icon = leaflet.icon({
+            iconUrl: "/icons/Icon_PlayerMarker.png",
+            className: "player",
+            iconSize: [24, 24],
+          });
+          otherPlayersMarkers.current[otherPlayer.guid] = new PlayerMarker(
+            [otherPlayer.position.y, otherPlayer.position.x],
+            {
+              icon,
+            }
+          );
+          otherPlayersMarkers.current[otherPlayer.guid].bindTooltip(
+            otherPlayer.name
+          );
+          otherPlayersMarkers.current[otherPlayer.guid].rotation =
+            otherPlayer.rotation;
+        } else {
+          otherPlayersMarkers.current[otherPlayer.guid].updatePosition(
+            otherPlayer
+          );
+        }
+        otherPlayersMarkers.current[otherPlayer.guid].addTo(map);
+      });
+      Object.keys(otherPlayersMarkers.current).forEach((key) => {
+        if (!gameInfo.otherPlayers.some((v) => v.guid === key)) {
+          otherPlayersMarkers.current[key].remove();
+        }
+      });
+    } catch (err) {
+      // ignore
+    }
+  }, [gameInfo.otherPlayers]);
+
   const lastAnimation = useRef(0);
 
   useEffect(() => {
@@ -347,6 +416,19 @@ export default function Player() {
       villagerMarkers.current[villager.className]?.updatePosition(villager);
     });
   }, [gameInfo.villagers]);
+
+  useEffect(() => {
+    if (!map) {
+      return;
+    }
+
+    gameInfo.otherPlayers.forEach((otherPlayer) => {
+      if (mapName !== otherPlayer.mapName) {
+        return;
+      }
+      villagerMarkers.current[otherPlayer.guid]?.updatePosition(otherPlayer);
+    });
+  }, [gameInfo.otherPlayers]);
 
   return <></>;
 }
