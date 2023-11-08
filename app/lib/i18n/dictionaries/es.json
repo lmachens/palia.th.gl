@@ -46,6 +46,7 @@
         "runningLatestVersion": "Está utilizando la última versión de la aplicación.",
         "updateIsAvailable": "Hay una actualización disponible.",
         "updateNow": "¡Actualizar ahora!",
+        "isUpdating": "Actualizando...",
         "pendingRestart": "Se ha instalado una actualización. Reinicie la aplicación para aplicar la actualización.",
         "restartNow": "Reiniciar ahora.",
         "patronInfo": "Elimina los anuncios y apóyame en Patreon",

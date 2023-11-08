@@ -1,12 +1,14 @@
 import { useDict } from "@/app/components/(i18n)/i18n-provider";
 import Toggle from "@/app/components/toggle";
 import { useAccountStore } from "@/app/lib/storage/account";
+import { useState } from "react";
 import useSWR from "swr";
 import { promisifyOverwolf } from "../lib/wrapper";
 
 export default function Channels() {
   const dict = useDict();
   const previewAccess = useAccountStore((state) => state.previewAccess);
+  const [isUpdating, setIsUpdating] = useState(false);
 
   const { data: extensionSettings, mutate: refreshExtensionSettings } = useSWR(
     "extensionSettings",
@@ -57,21 +59,24 @@ export default function Channels() {
       </label>
       <p className="text-sm text-gray-400">
         {state === "UpToDate" && dict.menu.runningLatestVersion}
-        {state === "UpdateAvailable" && (
+        {state === "UpdateAvailable" && !isUpdating && (
           <>
             {dict.menu.updateIsAvailable}{" "}
             <button
               className="hover:text-white text-brand"
               onClick={() => {
+                setIsUpdating(true);
                 promisifyOverwolf(overwolf.extensions.updateExtension)()
                   .then(() => refreshCheckForExtensionUpdate())
-                  .catch(console.error);
+                  .catch(console.error)
+                  .finally(() => setIsUpdating(false));
               }}
             >
               {dict.menu.updateNow}
             </button>
           </>
         )}
+        {state === "UpdateAvailable" && isUpdating && dict.menu.isUpdating}
         {state === "PendingRestart" && (
           <>
             {dict.menu.pendingRestart}{" "}

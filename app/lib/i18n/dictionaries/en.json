@@ -46,6 +46,7 @@
     "runningLatestVersion": "You are running the latest version of the app.",
     "updateIsAvailable": "An update is available.",
     "updateNow": "Update Now!",
+    "isUpdating": "Updating...",
     "pendingRestart": "An update was installed. Restart the app to apply the update.",
     "restartNow": "Restart Now!",
     "patronInfo": "Get rid of ads and support me on Patreon",

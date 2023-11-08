@@ -46,6 +46,7 @@
         "runningLatestVersion": "Sie verwenden die neueste Version der App.",
         "updateIsAvailable": "Ein Update ist verfügbar.",
         "updateNow": "Jetzt aktualisieren!",
+        "isUpdating": "Aktualisiere...",
         "pendingRestart": "Ein Update wurde installiert. Starten Sie die App neu, um das Update anzuwenden.",
         "restartNow": "Jetzt neu starten!",
         "patronInfo": "Werbung entfernen und mich auf Patreon unterstützen",
