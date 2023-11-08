@@ -30,6 +30,7 @@ if (PREVIEW_ACCESS_CHANNEL_ID) {
   const versionId = await uploadOpkCmd.handler({
     filePath: `${FILE_NAME}.signed.opk`,
     channelId: +PREVIEW_ACCESS_CHANNEL_ID,
+    wait: true,
   });
   await releaseOpkCmd.handler({
     versionId,
@@ -39,6 +40,7 @@ if (PREVIEW_ACCESS_CHANNEL_ID) {
 } else {
   const versionId = await uploadOpkCmd.handler({
     filePath: `${FILE_NAME}.signed.opk`,
+    wait: true,
   });
   await releaseOpkCmd.handler({
     versionId,
