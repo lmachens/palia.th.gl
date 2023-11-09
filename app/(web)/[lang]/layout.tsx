@@ -13,8 +13,12 @@ import {
   isLang,
   loadDictionary,
 } from "@/app/lib/i18n";
+import type { Viewport } from "next";
 import { notFound } from "next/navigation";
 
+export const viewport: Viewport = {
+  themeColor: "black",
+};
 export { generateMetadata } from "@/app/lib/meta";
 
 function Layout({

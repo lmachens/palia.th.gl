@@ -1,6 +1,7 @@
 import { useGameInfoStore } from "@/app/lib/storage/game-info";
 import { useSettingsStore } from "@/app/lib/storage/settings";
-import { ReactNode, useEffect } from "react";
+import type { ReactNode } from "react";
+import { useEffect } from "react";
 import { setInputPassThrough } from "../lib/windows";
 
 export default function AppContainer({ children }: { children: ReactNode }) {
