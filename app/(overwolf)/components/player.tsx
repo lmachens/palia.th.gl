@@ -54,7 +54,7 @@ export default function Player() {
     if (mounted.current) return;
     mounted.current = true;
 
-    let lastMapName = "kilima-valley";
+    let lastMapName = mapName;
 
     overwolf.extensions.current.getExtraObject("palia", (result) => {
       if (!result.success) {
