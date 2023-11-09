@@ -17,6 +17,7 @@ export const staticNodes = {
   housingPlot: housingPlot,
   zone: zone,
   wardrobe: wardrobe,
+  villager: {},
 } as const;
 
 export type NODE = {

@@ -81,7 +81,8 @@
     "recipe": "Recipe",
     "housingPlot": "Housing Plot",
     "wardrobe": "Wardrobe",
-    "zone": "Zone"
+    "zone": "Zone",
+    "villager": "Villager"
   },
   "groups": {
     "foraging": "Foraging",

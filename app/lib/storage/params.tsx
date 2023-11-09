@@ -2,11 +2,13 @@
 import { useDict } from "@/app/components/(i18n)/i18n-provider";
 import { useParams, useSearchParams } from "next/navigation";
 import { createContext, useContext, useEffect, useRef } from "react";
+import useSWR from "swr";
 import { createStore, useStore } from "zustand";
 import { isOverwolfApp } from "../env";
 import type { DICT } from "../i18n";
 import type { NODE } from "../nodes";
 import { ALL_FILTERS, nodes, staticNodesWithType } from "../nodes";
+import { getVillagers } from "../palia-api";
 import { useGameInfoStore } from "./game-info";
 import { useSettingsStore } from "./settings";
 
@@ -141,6 +143,21 @@ const createParamsStore = (initProps: ParamsProps & { dict: DICT }) => {
           searchParams.delete("filters");
         }
         props.query = searchParams.toString();
+        if (props.query !== window.location.search) {
+          if (!isOverwolfApp) {
+            if (props.query) {
+              history.pushState(
+                null,
+                "",
+                window.location.pathname + "?" + props.query
+              );
+            } else {
+              history.pushState(null, "", window.location.pathname);
+            }
+          } else {
+            localStorage.setItem("params", JSON.stringify(props));
+          }
+        }
 
         return props;
       });
@@ -175,6 +192,14 @@ export function ParamsProvider({ children }: { children: React.ReactNode }) {
   const liveMode = useSettingsStore((state) => state.liveMode);
   const spawnNodes = useGameInfoStore((state) => state.spawnNodes);
 
+  const revalidateVillagers = !liveMode;
+  const { data: villagers } = useSWR("villagers", getVillagers, {
+    refreshInterval: revalidateVillagers ? 30000 : 0,
+    revalidateOnFocus: revalidateVillagers,
+    revalidateOnMount: revalidateVillagers,
+    fallbackData: [],
+  });
+
   if (!storeRef.current) {
     if (isOverwolfApp) {
       try {
@@ -207,7 +232,9 @@ export function ParamsProvider({ children }: { children: React.ReactNode }) {
       const filters = filtersString ? filtersString.split(",") : ALL_FILTERS;
 
       storeRef.current = createParamsStore({
-        nodes: liveMode ? [...staticNodesWithType, ...spawnNodes] : nodes,
+        nodes: liveMode
+          ? [...staticNodesWithType, ...spawnNodes]
+          : [...nodes, ...villagers],
         liveMode,
         dict,
         mapName,
@@ -250,10 +277,12 @@ export function ParamsProvider({ children }: { children: React.ReactNode }) {
     }
     storeRef.current.getState().setParams({
       liveMode,
-      nodes: liveMode ? [...staticNodesWithType, ...spawnNodes] : nodes,
+      nodes: liveMode
+        ? [...staticNodesWithType, ...spawnNodes]
+        : [...nodes, ...villagers],
       dict,
     });
-  }, [liveMode, spawnNodes]);
+  }, [liveMode, spawnNodes, villagers]);
 
   return (
     <ParamsContext.Provider value={storeRef.current}>

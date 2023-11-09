@@ -81,7 +81,8 @@
         "recipe": "Receta",
         "housingPlot": "Parcela de Vivienda",
         "wardrobe": "Armario",
-        "zone": "Zona"
+        "zone": "Zona",
+        "villager": "Aldeano"
     },
     "groups": {
         "foraging": "Recolección",

@@ -1,5 +1,5 @@
 "use client";
-import { ICONS, SPAWN_ICONS } from "@/app/lib/icons";
+import { ICONS, SPAWN_ICONS, VILLAGER_ICONS } from "@/app/lib/icons";
 import type { NODE } from "@/app/lib/nodes";
 import { useRoutesStore } from "@/app/lib/storage/routes";
 import type leaflet from "leaflet";
@@ -31,11 +31,11 @@ const Marker = function Marker({
     const interactive = type !== "area";
     const icon = node.isSpawnNode
       ? SPAWN_ICONS[type]
-      : ICONS[type as keyof typeof ICONS];
+      : VILLAGER_ICONS[node.id] || ICONS[type as keyof typeof ICONS];
+
     marker.current = new CanvasMarker([node.y, node.x] as [number, number], {
       id,
       icon,
-      // @ts-ignore
       name: dict.generated[type]?.[node.id]?.name,
       radius: icon.radius * iconSize,
       isHighlighted,
@@ -67,7 +67,9 @@ const Marker = function Marker({
             : ""
         }${
           // @ts-ignore
-          node.isSpawnNode ? dict.spawnNodes[type].name : dict.nodes[type]
+          node.isSpawnNode
+            ? dict.spawnNodes[type]?.name
+            : ("name" in icon && icon.name) || dict.nodes[type]
         } ${
           node.isStar
             ? `<img src="/icons/star.webp" class="inline-block" width="14" height="14" alt="Star" />`

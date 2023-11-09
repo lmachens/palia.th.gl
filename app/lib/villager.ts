@@ -101,6 +101,7 @@ export const villagers = {
   },
   thealchemist: {
     name: "Tamala",
+    className: "BP_Villager_Tamala_C",
     icon: "/icons/Icons_Characters/Tamala_Icon.webp",
   },
   theplumehound: {

@@ -4,6 +4,7 @@ import ActiveRoutes from "@/app/components/(map)/active-routes";
 import Map from "@/app/components/(map)/map";
 import Nodes from "@/app/components/(map)/nodes";
 import Tiles from "@/app/components/(map)/tiles";
+import Villagers from "@/app/components/(map)/villagers";
 import Menu from "@/app/components/menu";
 import Search from "@/app/components/search";
 import WeeklyWants from "@/app/components/weekly-wants";
@@ -75,6 +76,7 @@ export default function App() {
               <Nodes />
               <ActiveRoutes />
               <Player />
+              <Villagers />
               <TraceLine />
             </Map>
           </MapContainer>
