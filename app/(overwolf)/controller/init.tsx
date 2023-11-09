@@ -1,5 +1,4 @@
 "use client";
-import { PATREON_BASE_URI } from "@/app/lib/env";
 import { useAccountStore } from "@/app/lib/storage/account";
 import { useSettingsStore } from "@/app/lib/storage/settings";
 import { useEffect, useRef } from "react";
@@ -46,7 +45,7 @@ async function initController() {
     }
     if (userId) {
       const accountStore = useAccountStore.getState();
-      const response = await fetch(`${PATREON_BASE_URI}/api/patreon/overwolf`, {
+      const response = await fetch(`https://www.th.gl/api/patreon/overwolf`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

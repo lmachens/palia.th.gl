@@ -1,4 +1,3 @@
-const colors = require("tailwindcss/colors");
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -8,24 +7,20 @@ module.exports = {
   ],
   safelist: [
     {
-      pattern: /text-(common|uncommon|rare|epic)/
-    }
+      pattern: /text-(common|uncommon|rare|epic)/,
+    },
   ],
   theme: {
-    colors: {
-      brand: "#1AC2D9",
-      dark: "#2c2e33",
-      ...colors,
-    },
     extend: {
       colors: {
-        'common': "#f4e4c7",
-        'uncommon': "#3dcf17",
-        'rare': "#04a1bd",
-        'epic': "#6c09ed"
-      }
-    }
+        common: "#f4e4c7",
+        uncommon: "#3dcf17",
+        rare: "#04a1bd",
+        epic: "#6c09ed",
+        brand: "#1AC2D9",
+        dark: "#2c2e33",
+      },
+    },
   },
-  plugins: [
-  ]
+  plugins: [],
 };

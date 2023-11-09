@@ -2,7 +2,6 @@
 import Cookies from "js-cookie";
 import Script from "next/script";
 import { useEffect, useState } from "react";
-import { PATREON_BASE_URI } from "../lib/env";
 import { useAccountStore } from "../lib/storage/account";
 import TwitchEmbed from "./twitch-embed";
 
@@ -50,7 +49,7 @@ export default function NitroPay() {
       }
 
       const response = await fetch(
-        `${PATREON_BASE_URI}/api/patreon?appId=fgbodfoepckgplklpccjedophlahnjemfdknhfce`,
+        `https://www.th.gl/api/patreon?appId=fgbodfoepckgplklpccjedophlahnjemfdknhfce`,
         { credentials: "include" }
       );
       try {
