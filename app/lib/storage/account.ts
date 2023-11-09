@@ -2,6 +2,7 @@ import { promisifyOverwolf } from "@/app/(overwolf)/lib/wrapper";
 import { mutate } from "swr";
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
+import { isOverwolfApp } from "../env";
 import { withStorageDOMEvents } from "./dom";
 
 export const useAccountStore = create(
@@ -20,15 +21,17 @@ export const useAccountStore = create(
       isPatron: false,
       previewAccess: false,
       setIsPatron: (isPatron, userId, previewAccess) => {
-        const prevUserId = get().userId;
-        if (!prevUserId && previewAccess) {
-          promisifyOverwolf(overwolf.settings.setExtensionSettings)({
-            channel: "preview-access",
-          }).then(() => mutate("extensionSettings"));
-        } else if (prevUserId && !previewAccess) {
-          promisifyOverwolf(overwolf.settings.setExtensionSettings)({
-            channel: "production",
-          }).then(() => mutate("extensionSettings"));
+        if (isOverwolfApp) {
+          const prevUserId = get().userId;
+          if (!prevUserId && previewAccess) {
+            promisifyOverwolf(overwolf.settings.setExtensionSettings)({
+              channel: "preview-access",
+            }).then(() => mutate("extensionSettings"));
+          } else if (prevUserId && !previewAccess) {
+            promisifyOverwolf(overwolf.settings.setExtensionSettings)({
+              channel: "production",
+            }).then(() => mutate("extensionSettings"));
+          }
         }
         set({
           isPatron,
