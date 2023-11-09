@@ -5,7 +5,6 @@ import { nodes } from "./nodes";
 
 const DEFAULT_META = {
   creator: "Leon Machens",
-  themeColor: "black",
 };
 
 export function generateMetadata({

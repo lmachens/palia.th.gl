@@ -1,5 +1,6 @@
 "use client";
-import Image, { StaticImageData } from "next/image";
+import type { StaticImageData } from "next/image";
+import Image from "next/image";
 import { useState } from "react";
 
 const ImageZoomPreview = ({ image }: { image: StaticImageData }) => {

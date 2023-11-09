@@ -5,7 +5,7 @@ import screenshot3 from "@/public/screenshots/screenshot3.jpg";
 import screenshot4 from "@/public/screenshots/screenshot4.jpg";
 import screenshot5 from "@/public/screenshots/screenshot5.jpg";
 import screenshot6 from "@/public/screenshots/screenshot6.jpg";
-import { StaticImageData } from "next/image";
+import type { StaticImageData } from "next/image";
 import Link from "next/link";
 import { useDict } from "./(i18n)/i18n-provider";
 import ImageZoomPreview from "./image-zoom-preview";

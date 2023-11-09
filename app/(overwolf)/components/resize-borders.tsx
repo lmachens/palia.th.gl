@@ -1,4 +1,4 @@
-import { MouseEvent } from "react";
+import type { MouseEvent } from "react";
 import { useCurrentWindow } from "../lib/windows";
 
 export default function ResizeBorders() {
