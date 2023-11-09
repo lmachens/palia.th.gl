@@ -103,7 +103,3 @@
 .animate {
   @apply transition-transform ease-linear duration-1000;
 }
-
-.leaflet-map-pane canvas {
-  mix-blend-mode: plus-lighter;
-}

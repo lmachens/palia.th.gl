@@ -81,7 +81,8 @@
     "recipe": "Рецепты",
     "housingPlot": "Жилой участок",
     "wardrobe": " Костюмерная",
-    "zone": "Локации"
+    "zone": "Локации",
+    "villager": "Жители"
   },
   "groups": {
     "foraging": "Собираемое",

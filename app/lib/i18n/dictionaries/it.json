@@ -81,7 +81,8 @@
         "recipe": "Ricetta",
         "housingPlot": "Terreno per Alloggio",
         "wardrobe": "Armadio",
-        "zone": "Zona"
+        "zone": "Zona",
+        "villager": "Abitante"
     },
     "groups": {
         "foraging": "Raccolta",

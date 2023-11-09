@@ -2,16 +2,42 @@ import type {
   Actor,
   CurrentGiftPreferences,
 } from "../(overwolf)/components/player";
+import { promisifyOverwolf } from "../(overwolf)/lib/wrapper";
+import type { NODE } from "./nodes";
+import { villagers } from "./villager";
 
-let version = "";
-overwolf.extensions.current.getManifest((manifest) => {
-  version = manifest.meta.version;
-});
+export async function getVillagers() {
+  const response = await fetch("https://palia-api.th.gl/nodes?type=villagers");
+  const result = (await response.json()) as {
+    [type: string]: {
+      mapName: string;
+      position: [number, number, number];
+      timestamp: number;
+    };
+  };
+  const nodes = Object.entries(result).map(([type, { mapName, position }]) => {
+    Object.values(villagers).find((villager) => villager.className === type)
+      ?.name;
+    const node: NODE = {
+      id: type,
+      type: "villager",
+      x: position[0],
+      y: position[1],
+      mapName,
+    };
+    return node;
+  });
+  return nodes;
+}
 
 export async function sendWeeklyWantsToPaliaAPI(
   currentGiftPreferences: CurrentGiftPreferences
 ) {
   try {
+    const manifest = await promisifyOverwolf(
+      overwolf.extensions.current.getManifest
+    )();
+    const version = manifest.meta.version;
     await fetch("https://palia-api.th.gl/weekly-wants", {
       method: "POST",
       headers: {
@@ -32,6 +58,11 @@ export async function sendActorsToPaliaAPI(actors: Actor[]) {
   }
   lastSend = Date.now();
   try {
+    const manifest = await promisifyOverwolf(
+      overwolf.extensions.current.getManifest
+    )();
+    const version = manifest.meta.version;
+
     await fetch("https://palia-api.th.gl/nodes", {
       method: "POST",
       headers: {

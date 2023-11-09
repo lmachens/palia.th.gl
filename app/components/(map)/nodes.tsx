@@ -37,6 +37,7 @@ export default function Nodes() {
   const dict = useDict();
   const iconSize = useSettingsStore((state) => state.iconSize);
   const visibleNodesByMap = useParamsStore((state) => state.visibleNodesByMap);
+  const query = useParamsStore((state) => state.query);
   const highlightedNode = useParamsStore((state) => state.highlightedNode);
   const setParams = useParamsStore((state) => state.setParams);
   const liveMode = useSettingsStore((state) => state.liveMode);
@@ -53,7 +54,7 @@ export default function Nodes() {
         padding: [70, 70],
       });
     }
-  }, [liveMode, visibleNodesByMap]);
+  }, [liveMode, query]);
 
   const onMarkerClick = useCallback(
     (node: NODE) => {

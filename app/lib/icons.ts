@@ -1,6 +1,7 @@
 import { spawnNodes } from "./nodes";
 import { spawnGroups } from "./spawn-groups";
 import { spawnIcons } from "./spawn-icons";
+import { villagers } from "./villager";
 
 export const VIEWBOX = "0 0 100 100";
 export const CIRCLE_PATH =
@@ -37,6 +38,10 @@ export const ICONS = {
     src: "/icons/WT_Icon_Wardrobe.png",
     radius: 14,
   },
+  villager: {
+    src: "/icons/T_Compass_Villager.png",
+    radius: 14,
+  },
 } as const;
 
 export const SPAWN_ICONS = Object.keys(spawnNodes).reduce((acc, type) => {
@@ -62,6 +67,18 @@ export const SPAWN_ICONS = Object.keys(spawnNodes).reduce((acc, type) => {
   });
   return acc;
 }, {} as Record<string, { color: string; lineWidth: number; path: string; radius: number } | { src: string; radius: number }>);
+
+export const VILLAGER_ICONS = Object.values(villagers).reduce(
+  (acc, villager) => {
+    acc[villager.className] = {
+      src: villager.icon,
+      name: villager.name,
+      radius: 14,
+    };
+    return acc;
+  },
+  {} as Record<string, { src: string; name: string; radius: number }>
+);
 
 export type ICON =
   | (typeof ICONS)[keyof typeof ICONS]

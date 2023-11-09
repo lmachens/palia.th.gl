@@ -1,4 +1,5 @@
 import { useDict } from "@/app/components/(i18n)/i18n-provider";
+import PlayerMarker from "@/app/components/(map)/player-marker";
 import { getMapFromActor, modHousingCoords } from "@/app/lib/maps";
 import type { NODE, spawnNodes } from "@/app/lib/nodes";
 import {
@@ -14,10 +15,8 @@ import { useGameInfoStore } from "@/app/lib/storage/game-info";
 import { useMapStore } from "@/app/lib/storage/map";
 import { useParamsStore } from "@/app/lib/storage/params";
 import { useSettingsStore } from "@/app/lib/storage/settings";
-import { villagers } from "@/app/lib/villager";
 import leaflet from "leaflet";
 import { useEffect, useRef } from "react";
-import PlayerMarker from "./player-marker";
 
 export type Actor = {
   address: number;
@@ -51,7 +50,6 @@ export default function Player() {
     (state) => state.followPlayerPosition
   );
   const marker = useRef<PlayerMarker | null>(null);
-  const villagerMarkers = useRef<{ [key: string]: PlayerMarker }>({});
   const otherPlayersMarkers = useRef<{ [key: string]: PlayerMarker }>({});
   const setParams = useParamsStore((state) => state.setParams);
   const dict = useDict();
@@ -291,55 +289,6 @@ export default function Player() {
       return;
     }
     try {
-      gameInfo.villagers.forEach((villager) => {
-        if (!villagerMarkers.current[villager.className]) {
-          const villagerClassName = villager.className.split(" ")[0];
-          const details = Object.values(villagers).find(
-            (v) => "className" in v && v.className === villagerClassName
-          );
-          const villagerIconUrl = details?.icon;
-          if (!villagerIconUrl) {
-            console.warn(`Unknown villager: ${villagerClassName}`);
-          }
-          const icon = leaflet.icon({
-            iconUrl: villagerIconUrl ?? "/icons/WT_Backer_Map_Marker_Green.png",
-            className: "villager",
-            iconSize: [24, 24],
-          });
-          villagerMarkers.current[villager.className] = new PlayerMarker(
-            [villager.position.y, villager.position.x],
-            {
-              icon,
-            }
-          );
-          villagerMarkers.current[villager.className].bindTooltip(
-            details?.name ?? villager.className
-          );
-          villagerMarkers.current[villager.className].rotation =
-            villager.rotation;
-        } else {
-          villagerMarkers.current[villager.className].updatePosition(
-            villager,
-            true
-          );
-        }
-        villagerMarkers.current[villager.className].addTo(map);
-      });
-      Object.keys(villagerMarkers.current).forEach((key) => {
-        if (!gameInfo.villagers.some((v) => v.className === key)) {
-          villagerMarkers.current[key].remove();
-        }
-      });
-    } catch (err) {
-      // ignore
-    }
-  }, [gameInfo.villagers]);
-
-  useEffect(() => {
-    if (!map) {
-      return;
-    }
-    try {
       gameInfo.otherPlayers.forEach((otherPlayer) => {
         if (!otherPlayersMarkers.current[otherPlayer.guid]) {
           const icon = leaflet.icon({
@@ -409,24 +358,13 @@ export default function Player() {
       return;
     }
 
-    gameInfo.villagers.forEach((villager) => {
-      if (mapName !== villager.mapName) {
-        return;
-      }
-      villagerMarkers.current[villager.className]?.updatePosition(villager);
-    });
-  }, [gameInfo.villagers]);
-
-  useEffect(() => {
-    if (!map) {
-      return;
-    }
-
     gameInfo.otherPlayers.forEach((otherPlayer) => {
       if (mapName !== otherPlayer.mapName) {
         return;
       }
-      villagerMarkers.current[otherPlayer.guid]?.updatePosition(otherPlayer);
+      otherPlayersMarkers.current[otherPlayer.guid]?.updatePosition(
+        otherPlayer
+      );
     });
   }, [gameInfo.otherPlayers]);
 

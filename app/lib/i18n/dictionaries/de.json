@@ -81,7 +81,8 @@
         "recipe": "Rezept",
         "housingPlot": "Wohngrundstück",
         "wardrobe": "Kleiderschrank",
-        "zone": "Zone"
+        "zone": "Zone",
+        "villager": "Dorfbewohner"
     },
     "groups": {
         "foraging": "Sammeln",
