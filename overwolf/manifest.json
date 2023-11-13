@@ -75,7 +75,8 @@
         "popup_blocker": true,
         "mute": true,
         "disable_restore_animation": true,
-        "restrict_to_game_bounds": true
+        "restrict_to_game_bounds": true,
+        "disable_hardware_acceleration": false
       }
     },
     "game_targeting": {
