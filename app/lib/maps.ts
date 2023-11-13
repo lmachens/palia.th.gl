@@ -1,5 +1,5 @@
 import type { LatLngBoundsExpression } from "leaflet";
-import type { Actor } from "../(overwolf)/components/player";
+import type { Actor } from "./storage/game-info";
 
 export const CONFIGS = {
   "kilima-valley": {
