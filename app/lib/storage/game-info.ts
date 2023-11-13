@@ -13,6 +13,11 @@ export type GameActor = {
   mapName: string | null;
 };
 
+export type OtherPlayerGameActor = {
+  name: string;
+  guid: string;
+} & GameActor;
+
 export const useGameInfoStore = create<{
   isOverlay: boolean;
   setIsOverlay: (isOverlay: boolean) => void;
@@ -20,6 +25,8 @@ export const useGameInfoStore = create<{
   setPlayer: (player: GameActor) => void;
   villagers: GameActor[];
   setVillagers: (villagers: GameActor[]) => void;
+  otherPlayers: OtherPlayerGameActor[];
+  setOtherPlayers: (villagers: OtherPlayerGameActor[]) => void;
   spawnNodes: NODE[];
   setSpawnNodes: (spawnNodes: NODE[]) => void;
   currentGiftPreferences: CurrentGiftPreferences | null;
@@ -33,6 +40,8 @@ export const useGameInfoStore = create<{
   setPlayer: (player) => set({ player }),
   villagers: [],
   setVillagers: (villagers) => set({ villagers }),
+  otherPlayers: [],
+  setOtherPlayers: (otherPlayers) => set({ otherPlayers }),
   spawnNodes: [],
   setSpawnNodes: (spawnNodes) => set({ spawnNodes }),
   currentGiftPreferences: null,
