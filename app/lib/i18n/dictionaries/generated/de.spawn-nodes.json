@@ -496,48 +496,48 @@
     "description": "Die Herztropfenlilie ist eine seltene Blume, die für Palianer eine besondere Bedeutung hat: das Aufblühen romantischer Liebe."
   },
   "BP_Mining_Clay_C": {
-    "name": "Clay Node",
-    "description": ""
+    "name": "Lehm",
+    "description": "Ein irdenes Material. Kann zu Keramik für Handwerkszwecke geschmolzen werden."
   },
   "BP_Mining_Copper_Large_C": {
-    "name": "Large Copper Node",
-    "description": ""
+    "name": "Kupfererz (L)",
+    "description": "Ein Gestein, das Kupfer enthält. Kann zu Barren eingeschmolzen werden, die dann weiterverarbeitet werden können."
   },
   "BP_Mining_Copper_Medium_C": {
-    "name": "Medium Copper Node",
-    "description": ""
+    "name": "Kupfererz (M)",
+    "description": "Ein Gestein, das Kupfer enthält. Kann zu Barren eingeschmolzen werden, die dann weiterverarbeitet werden können."
   },
   "BP_Mining_Copper_Small_C": {
-    "name": "Small Copper Node",
-    "description": ""
+    "name": "Kupfererz (S)",
+    "description": "Ein Gestein, das Kupfer enthält. Kann zu Barren eingeschmolzen werden, die dann weiterverarbeitet werden können."
   },
   "BP_Mining_Iron_Large_C": {
-    "name": "Large Iron Node",
-    "description": ""
+    "name": "Eisenerz (L)",
+    "description": "Ein Gestein, das Eisen enthält. Kann zu Barren eingeschmolzen werden, die dann weiterverarbeitet werden können."
   },
   "BP_Mining_Iron_Medium_C": {
-    "name": "Medium Iron Node",
-    "description": ""
+    "name": "Eisenerz (M)",
+    "description": "Ein Gestein, das Eisen enthält. Kann zu Barren eingeschmolzen werden, die dann weiterverarbeitet werden können."
   },
   "BP_Mining_Iron_Small_C": {
-    "name": "Small Iron Node",
-    "description": ""
+    "name": "Eisenerz (S)",
+    "description": "Ein Gestein, das Eisen enthält. Kann zu Barren eingeschmolzen werden, die dann weiterverarbeitet werden können."
   },
   "BP_Mining_Palium_Large_C": {
-    "name": "Large Palium Node",
-    "description": ""
+    "name": "Paliumerz (L)",
+    "description": "Ein Gestein, das Palium enthält. Kann zu Barren eingeschmolzen werden, die dann weiterverarbeitet werden können."
   },
   "BP_Mining_Palium_Medium_C": {
-    "name": "Medium Palium Node",
-    "description": ""
+    "name": "Paliumerz (M)",
+    "description": "Ein Gestein, das Palium enthält. Kann zu Barren eingeschmolzen werden, die dann weiterverarbeitet werden können."
   },
   "BP_Mining_Palium_Small_C": {
-    "name": "Small Palium Node",
-    "description": ""
+    "name": "Paliumerz (S)",
+    "description": "Ein Gestein, das Palium enthält. Kann zu Barren eingeschmolzen werden, die dann weiterverarbeitet werden können."
   },
   "BP_Mining_Stone_Large_C": {
-    "name": "Large Rock",
-    "description": ""
+    "name": "Steinziegel (L)",
+    "description": "Dieser Ziegelstein rockt! Kann bei der Herstellung oder beim Hausbau verwendet werden."
   },
   "BP_Moss_DragonsBeard_C": {
     "name": "Drachenbarttorf",

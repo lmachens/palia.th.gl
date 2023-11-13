@@ -496,48 +496,48 @@
     "description": "Лилия Сердцелистная - редкий цветок, имеющий для палийцев особое значение: расцвет романтической любви."
   },
   "BP_Mining_Clay_C": {
-    "name": "Clay Node",
-    "description": ""
+    "name": "Глина",
+    "description": "Глинистый материал. Может быть переплавлен в керамику для изготовления изделий."
   },
   "BP_Mining_Copper_Large_C": {
-    "name": "Large Copper Node",
-    "description": ""
+    "name": "Медная Руда (L)",
+    "description": "Горная порода, содержащая медь. Может переплавляться в слитки для ремесленного производства."
   },
   "BP_Mining_Copper_Medium_C": {
-    "name": "Medium Copper Node",
-    "description": ""
+    "name": "Медная Руда (M)",
+    "description": "Горная порода, содержащая медь. Может переплавляться в слитки для ремесленного производства."
   },
   "BP_Mining_Copper_Small_C": {
-    "name": "Small Copper Node",
-    "description": ""
+    "name": "Медная Руда (S)",
+    "description": "Горная порода, содержащая медь. Может переплавляться в слитки для ремесленного производства."
   },
   "BP_Mining_Iron_Large_C": {
-    "name": "Large Iron Node",
-    "description": ""
+    "name": "Железная Руда (L)",
+    "description": "Горная порода, содержащая железо. Может переплавляться в слитки для ремесленного производства."
   },
   "BP_Mining_Iron_Medium_C": {
-    "name": "Medium Iron Node",
-    "description": ""
+    "name": "Железная Руда (M)",
+    "description": "Горная порода, содержащая железо. Может переплавляться в слитки для ремесленного производства."
   },
   "BP_Mining_Iron_Small_C": {
-    "name": "Small Iron Node",
-    "description": ""
+    "name": "Железная Руда (S)",
+    "description": "Горная порода, содержащая железо. Может переплавляться в слитки для ремесленного производства."
   },
   "BP_Mining_Palium_Large_C": {
-    "name": "Large Palium Node",
-    "description": ""
+    "name": "Палиевая Руда (L)",
+    "description": "Камень, содержащий палий. Может переплавляться в слитки для ремесленного производства."
   },
   "BP_Mining_Palium_Medium_C": {
-    "name": "Medium Palium Node",
-    "description": ""
+    "name": "Палиевая Руда (M)",
+    "description": "Камень, содержащий палий. Может переплавляться в слитки для ремесленного производства."
   },
   "BP_Mining_Palium_Small_C": {
-    "name": "Small Palium Node",
-    "description": ""
+    "name": "Палиевая Руда (S)",
+    "description": "Камень, содержащий палий. Может переплавляться в слитки для ремесленного производства."
   },
   "BP_Mining_Stone_Large_C": {
-    "name": "Large Rock",
-    "description": ""
+    "name": "Каменный Кирпич (L)",
+    "description": "Этот каменный кирпич обязательно понравится вам! Может использоваться в ремесле или при строительстве дома."
   },
   "BP_Moss_DragonsBeard_C": {
     "name": "Торфяник Борода Дракона",

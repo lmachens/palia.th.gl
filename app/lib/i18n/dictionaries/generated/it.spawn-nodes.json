@@ -496,48 +496,48 @@
     "description": "Il giglio cuore è un fiore raro che ha un significato speciale per i paliani: lo sbocciare dell'amore romantico."
   },
   "BP_Mining_Clay_C": {
-    "name": "Clay Node",
-    "description": ""
+    "name": "Argilla",
+    "description": "Un materiale argilloso. Può essere fuso in ceramica per la produzione."
   },
   "BP_Mining_Copper_Large_C": {
-    "name": "Large Copper Node",
-    "description": ""
+    "name": "Minerale di rame (L)",
+    "description": "Una roccia che contiene rame. Può essere fusa in lingotti per la produzione."
   },
   "BP_Mining_Copper_Medium_C": {
-    "name": "Medium Copper Node",
-    "description": ""
+    "name": "Minerale di rame (M)",
+    "description": "Una roccia che contiene rame. Può essere fusa in lingotti per la produzione."
   },
   "BP_Mining_Copper_Small_C": {
-    "name": "Small Copper Node",
-    "description": ""
+    "name": "Minerale di rame (S)",
+    "description": "Una roccia che contiene rame. Può essere fusa in lingotti per la produzione."
   },
   "BP_Mining_Iron_Large_C": {
-    "name": "Large Iron Node",
-    "description": ""
+    "name": "Minerale di ferro (L)",
+    "description": "Una roccia che contiene ferro. Può essere fusa in lingotti per la produzione."
   },
   "BP_Mining_Iron_Medium_C": {
-    "name": "Medium Iron Node",
-    "description": ""
+    "name": "Minerale di ferro (M)",
+    "description": "Una roccia che contiene ferro. Può essere fusa in lingotti per la produzione."
   },
   "BP_Mining_Iron_Small_C": {
-    "name": "Small Iron Node",
-    "description": ""
+    "name": "Minerale di ferro (S)",
+    "description": "Una roccia che contiene ferro. Può essere fusa in lingotti per la produzione."
   },
   "BP_Mining_Palium_Large_C": {
-    "name": "Large Palium Node",
-    "description": ""
+    "name": "Minerale di palium (L)",
+    "description": "Una roccia che contiene palium. Può essere fusa in lingotti per la produzione."
   },
   "BP_Mining_Palium_Medium_C": {
-    "name": "Medium Palium Node",
-    "description": ""
+    "name": "Minerale di palium (M)",
+    "description": "Una roccia che contiene palium. Può essere fusa in lingotti per la produzione."
   },
   "BP_Mining_Palium_Small_C": {
-    "name": "Small Palium Node",
-    "description": ""
+    "name": "Minerale di palium (S)",
+    "description": "Una roccia che contiene palium. Può essere fusa in lingotti per la produzione."
   },
   "BP_Mining_Stone_Large_C": {
-    "name": "Large Rock",
-    "description": ""
+    "name": "Mattone in pietra (L)",
+    "description": "Questo mattone di pietra ti conquisterà! Può essere usato per la produzione o per la costruzione di case."
   },
   "BP_Moss_DragonsBeard_C": {
     "name": "Torba barbadrago",

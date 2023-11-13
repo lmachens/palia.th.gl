@@ -496,48 +496,48 @@
     "description": "The Heartdrop Lily is a rare flower with a special meaning to Palians: the blossoming of romantic love."
   },
   "BP_Mining_Clay_C": {
-    "name": "Clay Node",
-    "description": ""
+    "name": "Clay",
+    "description": "An earthen material. Can be smelted into ceramic for crafting."
   },
   "BP_Mining_Copper_Large_C": {
-    "name": "Large Copper Node",
-    "description": ""
+    "name": "Copper Ore (L)",
+    "description": "A rock that contains copper. Can be smelted into bars for crafting."
   },
   "BP_Mining_Copper_Medium_C": {
-    "name": "Medium Copper Node",
-    "description": ""
+    "name": "Copper Ore (M)",
+    "description": "A rock that contains copper. Can be smelted into bars for crafting."
   },
   "BP_Mining_Copper_Small_C": {
-    "name": "Small Copper Node",
-    "description": ""
+    "name": "Copper Ore (S)",
+    "description": "A rock that contains copper. Can be smelted into bars for crafting."
   },
   "BP_Mining_Iron_Large_C": {
-    "name": "Large Iron Node",
-    "description": ""
+    "name": "Iron Ore (L)",
+    "description": "A rock that contains iron. Can be smelted into bars for crafting."
   },
   "BP_Mining_Iron_Medium_C": {
-    "name": "Medium Iron Node",
-    "description": ""
+    "name": "Iron Ore (M)",
+    "description": "A rock that contains iron. Can be smelted into bars for crafting."
   },
   "BP_Mining_Iron_Small_C": {
-    "name": "Small Iron Node",
-    "description": ""
+    "name": "Iron Ore (S)",
+    "description": "A rock that contains iron. Can be smelted into bars for crafting."
   },
   "BP_Mining_Palium_Large_C": {
-    "name": "Large Palium Node",
-    "description": ""
+    "name": "Palium Ore (L)",
+    "description": "A rock that contains palium. Can be smelted into bars for crafting."
   },
   "BP_Mining_Palium_Medium_C": {
-    "name": "Medium Palium Node",
-    "description": ""
+    "name": "Palium Ore (M)",
+    "description": "A rock that contains palium. Can be smelted into bars for crafting."
   },
   "BP_Mining_Palium_Small_C": {
-    "name": "Small Palium Node",
-    "description": ""
+    "name": "Palium Ore (S)",
+    "description": "A rock that contains palium. Can be smelted into bars for crafting."
   },
   "BP_Mining_Stone_Large_C": {
-    "name": "Large Rock",
-    "description": ""
+    "name": "Stone Brick (L)",
+    "description": "This stone brick is sure to rock you! Can be used in crafting or house building."
   },
   "BP_Moss_DragonsBeard_C": {
     "name": "Dragon's Beard Peat",

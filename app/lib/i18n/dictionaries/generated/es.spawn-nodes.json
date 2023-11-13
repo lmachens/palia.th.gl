@@ -496,48 +496,48 @@
     "description": "El lirio corazón es una flor poco común, con un significado especial para los palianos: el florecimiento del amor."
   },
   "BP_Mining_Clay_C": {
-    "name": "Clay Node",
-    "description": ""
+    "name": "Arcilla",
+    "description": "Un material terroso. Se puede fundir en cerámica para fabricar cosas."
   },
   "BP_Mining_Copper_Large_C": {
-    "name": "Large Copper Node",
-    "description": ""
+    "name": "Mineral de cobre (L)",
+    "description": "Roca que contiene cobre. Se puede fundir para crear lingotes con los que fabricar cosas."
   },
   "BP_Mining_Copper_Medium_C": {
-    "name": "Medium Copper Node",
-    "description": ""
+    "name": "Mineral de cobre (M)",
+    "description": "Roca que contiene cobre. Se puede fundir para crear lingotes con los que fabricar cosas."
   },
   "BP_Mining_Copper_Small_C": {
-    "name": "Small Copper Node",
-    "description": ""
+    "name": "Mineral de cobre (S)",
+    "description": "Roca que contiene cobre. Se puede fundir para crear lingotes con los que fabricar cosas."
   },
   "BP_Mining_Iron_Large_C": {
-    "name": "Large Iron Node",
-    "description": ""
+    "name": "Mineral de hierro (L)",
+    "description": "Roca que contiene hierro. Se puede fundir para crear lingotes con los que fabricar cosas."
   },
   "BP_Mining_Iron_Medium_C": {
-    "name": "Medium Iron Node",
-    "description": ""
+    "name": "Mineral de hierro (M)",
+    "description": "Roca que contiene hierro. Se puede fundir para crear lingotes con los que fabricar cosas."
   },
   "BP_Mining_Iron_Small_C": {
-    "name": "Small Iron Node",
-    "description": ""
+    "name": "Mineral de hierro (S)",
+    "description": "Roca que contiene hierro. Se puede fundir para crear lingotes con los que fabricar cosas."
   },
   "BP_Mining_Palium_Large_C": {
-    "name": "Large Palium Node",
-    "description": ""
+    "name": "Mineral de palio (L)",
+    "description": "Roca que contiene palio. Se puede fundir para crear lingotes con los que fabricar cosas."
   },
   "BP_Mining_Palium_Medium_C": {
-    "name": "Medium Palium Node",
-    "description": ""
+    "name": "Mineral de palio (M)",
+    "description": "Roca que contiene palio. Se puede fundir para crear lingotes con los que fabricar cosas."
   },
   "BP_Mining_Palium_Small_C": {
-    "name": "Small Palium Node",
-    "description": ""
+    "name": "Mineral de palio (S)",
+    "description": "Roca que contiene palio. Se puede fundir para crear lingotes con los que fabricar cosas."
   },
   "BP_Mining_Stone_Large_C": {
-    "name": "Large Rock",
-    "description": ""
+    "name": "Ladrillo de piedra (L)",
+    "description": "Este ladrillo de piedra te encantará. Se puede utilizar para fabricar o construir casas."
   },
   "BP_Moss_DragonsBeard_C": {
     "name": "Turba de barba de dragón",
@@ -576,8 +576,8 @@
     "description": "El lirio de sol crece en campos abiertos, donde puede dirigir sus pétalos hacia la luz."
   },
   "BP_SweetLeaves_C": {
-    "name": "Hoja dulce",
-    "description": "A los golosos les encantará esta hoja dulce, uno de los postres favoritos de Palia."
+    "name": "Estevia",
+    "description": "A los golosos les encantará esta estevia, uno de los ingredientes de postres favoritos de Palia."
   },
   "BP_TreeChoppable_Birch_Large_C": {
     "name": "Large Birch Tree",

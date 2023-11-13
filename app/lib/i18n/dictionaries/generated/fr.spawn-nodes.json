@@ -496,48 +496,48 @@
     "description": "Le lys cœur-battant est une fleur rare qui revêt une signification particulière pour les Paléens : l’épanouissement du véritable amour."
   },
   "BP_Mining_Clay_C": {
-    "name": "Clay Node",
-    "description": ""
+    "name": "Argile",
+    "description": "Ce matériau en argile peut être transformé en céramique utile à la fabrication."
   },
   "BP_Mining_Copper_Large_C": {
-    "name": "Large Copper Node",
-    "description": ""
+    "name": "Minerai de cuivre (L)",
+    "description": "Cette roche contient du cuivre. Ce minerai peut être fondu en lingots utiles à la fabrication."
   },
   "BP_Mining_Copper_Medium_C": {
-    "name": "Medium Copper Node",
-    "description": ""
+    "name": "Minerai de cuivre (M)",
+    "description": "Cette roche contient du cuivre. Ce minerai peut être fondu en lingots utiles à la fabrication."
   },
   "BP_Mining_Copper_Small_C": {
-    "name": "Small Copper Node",
-    "description": ""
+    "name": "Minerai de cuivre (S)",
+    "description": "Cette roche contient du cuivre. Ce minerai peut être fondu en lingots utiles à la fabrication."
   },
   "BP_Mining_Iron_Large_C": {
-    "name": "Large Iron Node",
-    "description": ""
+    "name": "Minerai de fer (L)",
+    "description": "Cette roche contient du fer. Ce minerai peut être fondu en lingots utiles à la fabrication."
   },
   "BP_Mining_Iron_Medium_C": {
-    "name": "Medium Iron Node",
-    "description": ""
+    "name": "Minerai de fer (M)",
+    "description": "Cette roche contient du fer. Ce minerai peut être fondu en lingots utiles à la fabrication."
   },
   "BP_Mining_Iron_Small_C": {
-    "name": "Small Iron Node",
-    "description": ""
+    "name": "Minerai de fer (S)",
+    "description": "Cette roche contient du fer. Ce minerai peut être fondu en lingots utiles à la fabrication."
   },
   "BP_Mining_Palium_Large_C": {
-    "name": "Large Palium Node",
-    "description": ""
+    "name": "Minerai de palium (L)",
+    "description": "Cette roche contient du palium. Ce minerai peut être fondu en lingots utiles à la fabrication."
   },
   "BP_Mining_Palium_Medium_C": {
-    "name": "Medium Palium Node",
-    "description": ""
+    "name": "Minerai de palium (M)",
+    "description": "Cette roche contient du palium. Ce minerai peut être fondu en lingots utiles à la fabrication."
   },
   "BP_Mining_Palium_Small_C": {
-    "name": "Small Palium Node",
-    "description": ""
+    "name": "Minerai de palium (S)",
+    "description": "Cette roche contient du palium. Ce minerai peut être fondu en lingots utiles à la fabrication."
   },
   "BP_Mining_Stone_Large_C": {
-    "name": "Large Rock",
-    "description": ""
+    "name": "Brique en pierre (L)",
+    "description": "Cette brique en pierre a tout pour plaire ! Cet objet est destiné à l’artisanat ou à la construction."
   },
   "BP_Moss_DragonsBeard_C": {
     "name": "Tourbe Barbe-Dragon",

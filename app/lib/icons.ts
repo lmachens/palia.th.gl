@@ -49,9 +49,17 @@ export const SPAWN_ICONS = Object.keys(spawnNodes).reduce((acc, type) => {
     if (group.includes(type)) {
       const spawnIcon = spawnIcons[type as keyof typeof spawnIcons];
       if (spawnIcon) {
+        let radius = 10;
+        if (type.includes("Small")) {
+          radius = 8;
+        } else if (type.includes("Medium")) {
+          radius = 10;
+        } else if (type.includes("Large")) {
+          radius = 13;
+        }
         acc[type] = {
           src: `/icons/spawn/${spawnIcon}.webp`,
-          radius: 10,
+          radius,
         };
       } else {
         acc[type] = {
