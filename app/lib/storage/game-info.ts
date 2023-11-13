@@ -1,6 +1,40 @@
-import type { CurrentGiftPreferences } from "@/app/(overwolf)/components/player";
 import { create } from "zustand";
 import type { NODE } from "../nodes";
+
+export type CurrentGiftPreferences = {
+  preferenceResetTime: {
+    dayOfWeek: number;
+    hour: number;
+    minute: number;
+  };
+  preferenceDataVersionNumber: number;
+  currentPreferenceData: Array<{
+    villagerCoreId: number;
+    currentGiftPreferences: Array<number>;
+  }>;
+};
+
+export type ActorBase = {
+  address: number;
+  className: string;
+  x: number;
+  y: number;
+  z: number;
+};
+export type ActorValeriaCharacter = {
+  address: number;
+  className: string;
+  x: number;
+  y: number;
+  z: number;
+  r: number;
+  name: string;
+  guid: string;
+  giftHistory: VillagerGiftHistory[];
+  skillLevels: SkillLevels[];
+};
+
+export type Actor = ActorBase | ActorValeriaCharacter;
 
 export type GameActor = {
   className: string;
@@ -13,10 +47,25 @@ export type GameActor = {
   mapName: string | null;
 };
 
-export type OtherPlayerGameActor = {
+export type ValeriaCharacter = {
   name: string;
   guid: string;
+  giftHistory: VillagerGiftHistory[];
+  skillLevels: SkillLevels[];
 } & GameActor;
+
+export type VillagerGiftHistory = {
+  villagerCoreId: number;
+  itemPersistId: number;
+  lastGiftedMs: number;
+  associatedPreferenceVersion: number;
+};
+
+export type SkillLevels = {
+  type: string;
+  level: number;
+  xpGainedThisLevel: number;
+};
 
 export const useGameInfoStore = create<{
   isOverlay: boolean;
@@ -25,8 +74,8 @@ export const useGameInfoStore = create<{
   setPlayer: (player: GameActor) => void;
   villagers: GameActor[];
   setVillagers: (villagers: GameActor[]) => void;
-  otherPlayers: OtherPlayerGameActor[];
-  setOtherPlayers: (villagers: OtherPlayerGameActor[]) => void;
+  otherPlayers: ValeriaCharacter[];
+  setOtherPlayers: (villagers: ValeriaCharacter[]) => void;
   spawnNodes: NODE[];
   setSpawnNodes: (spawnNodes: NODE[]) => void;
   currentGiftPreferences: CurrentGiftPreferences | null;

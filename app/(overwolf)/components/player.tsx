@@ -8,8 +8,11 @@ import {
 } from "@/app/lib/palia-api";
 import { spawnGroups } from "@/app/lib/spawn-groups";
 import type {
+  Actor,
+  ActorValeriaCharacter,
+  CurrentGiftPreferences,
   GameActor,
-  OtherPlayerGameActor,
+  ValeriaCharacter,
 } from "@/app/lib/storage/game-info";
 import { useGameInfoStore } from "@/app/lib/storage/game-info";
 import { useMapStore } from "@/app/lib/storage/map";
@@ -17,30 +20,6 @@ import { useParamsStore } from "@/app/lib/storage/params";
 import { useSettingsStore } from "@/app/lib/storage/settings";
 import leaflet from "leaflet";
 import { useEffect, useRef } from "react";
-
-export type Actor = {
-  address: number;
-  className: string;
-  x: number;
-  y: number;
-  z: number;
-  r: number;
-  name?: string;
-  guid?: string;
-};
-
-export type CurrentGiftPreferences = {
-  preferenceResetTime: {
-    dayOfWeek: number;
-    hour: number;
-    minute: number;
-  };
-  preferenceDataVersionNumber: number;
-  currentPreferenceData: Array<{
-    villagerCoreId: number;
-    currentGiftPreferences: Array<number>;
-  }>;
-};
 
 export default function Player() {
   const { map, mapName } = useMapStore();
@@ -68,7 +47,11 @@ export default function Player() {
 
       const plugin = result.object;
       console.log("Initialized plugin");
-      let prevPlayer: Actor = {
+      let prevPlayer: ActorValeriaCharacter = {
+        guid: "",
+        name: "",
+        skillLevels: [],
+        giftHistory: [],
         address: 0,
         className: "",
         x: 0,
@@ -84,7 +67,7 @@ export default function Player() {
 
       const getPlayer = () => {
         plugin.GetPlayer(
-          (player: Actor) => {
+          (player: ActorValeriaCharacter) => {
             try {
               if (!firstData) {
                 firstData = true;
@@ -146,7 +129,7 @@ export default function Player() {
                 lastActorsError = "";
               }
               const villagers: GameActor[] = [];
-              const otherPlayers: OtherPlayerGameActor[] = [];
+              const otherPlayers: ValeriaCharacter[] = [];
               const foundSpawnNodes: NODE[] = [];
               actors.forEach((actor) => {
                 const className = actor.className.split(" ")[0];
@@ -163,11 +146,16 @@ export default function Player() {
                     rotation: 0,
                     mapName: getMapFromActor(actor),
                   });
-                } else if (type.startsWith("BP_ValeriaCharacter")) {
+                } else if (
+                  type.startsWith("BP_ValeriaCharacter") &&
+                  "guid" in actor
+                ) {
                   if (actor.guid !== prevPlayer.guid) {
                     otherPlayers.push({
                       name: actor.name!,
                       guid: actor.guid!,
+                      giftHistory: actor.giftHistory,
+                      skillLevels: actor.skillLevels,
                       className: actor.className,
                       position: {
                         x: actor.x,
