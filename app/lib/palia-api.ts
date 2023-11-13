@@ -1,9 +1,6 @@
-import type {
-  Actor,
-  CurrentGiftPreferences,
-} from "../(overwolf)/components/player";
 import { promisifyOverwolf } from "../(overwolf)/lib/wrapper";
 import type { NODE } from "./nodes";
+import type { Actor, CurrentGiftPreferences } from "./storage/game-info";
 import { villagers } from "./villager";
 
 export async function getVillagers() {
