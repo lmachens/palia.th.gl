@@ -17,9 +17,9 @@ export const stable = {
   BP_Stables_Sign_UAID_B04F1306EDBFF27501_1164310342: {
     "bahari-bay": [[82694.12, 3758.85]],
   },
-  BP_Stables_Sign_UAID_7486E2271DBF409B01_2003868107: {
-    "kilima-valley": [[4773.09, 3656.13]],
-  },
+  // BP_Stables_Sign_UAID_7486E2271DBF409B01_2003868107: {
+  //   "kilima-valley": [[4773.09, 3656.13]],
+  // },
   BP_Stables_Sign_UAID_6C02E03F65D9936101_1437950312: {
     "kilima-valley": [[9880.85, 11970.5]],
   },

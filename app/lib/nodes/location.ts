@@ -26,14 +26,8 @@ export const location = {
   BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63027A01_1846573965: {
     "kilima-valley": [[9289.37, 927.51]],
   },
-  BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63087901_1447757851: {
-    "kilima-valley": [[-4368.06, 14256.94]],
-  },
   BP_DoorTeleporter_Parent_C_UAID_CC96E503DE630D7901_1180776852: {
     "kilima-valley": [[-7150, 33930]],
-  },
-  BP_DoorTeleporter_Parent_C_UAID_CC96E503DE630D7901_1521224861: {
-    "kilima-valley": [[-2363.56, 20177.59]],
   },
   BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63107901_1465714255: {
     "kilima-valley": [[24299.28, -5746.81]],
