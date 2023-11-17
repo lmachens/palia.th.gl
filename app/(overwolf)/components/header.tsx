@@ -12,7 +12,7 @@ import HeaderSelect from "./header-select";
 import HeaderToggle from "./header-toggle";
 import SVGIcons from "./svg-icons";
 
-export default function Header() {
+export default function Header({ children }: { children: React.ReactNode }) {
   const currentWindow = useCurrentWindow();
   const [version, setVersion] = useState("");
   const settingsStore = useSettingsStore();
@@ -93,6 +93,7 @@ export default function Header() {
                 togglePreferedWindow();
               }}
             />
+            {children}
             {isOverlay && (
               <>
                 <HeaderSelect
@@ -134,7 +135,6 @@ export default function Header() {
               </>
             )}
           </div>
-
           {!isOverlay ? (
             <>
               <button

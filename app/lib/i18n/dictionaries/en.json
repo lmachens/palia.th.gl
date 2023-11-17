@@ -37,6 +37,19 @@
     "note": "The Palia Map App is designed to enhance your Palia adventure with a range of features including interactive maps, real-time player tracking, weekly wants, and more. Explore Palia like never before and create your own unique experiences in this magical world.",
     "download": "Download the app"
   },
+  "leaderboard": {
+    "metaTitle": "Palia App Leaderboard",
+    "metaDescription": "Check out the Palia App Leaderboard and see who has the highest rank and skill levels.",
+    "title": "Palia App Leaderboard: Explore, Conquer, and Rise to the Top!",
+    "description": "Embark on a thrilling journey in Palia and stand out among fellow adventurers with the Palia App Leaderboard. Discover where you rank in character level, skill proficiency, and showcase your character's name. To join this exclusive leaderboard, ensure you have the In-Game App installed. Dive into the world of Palia, track your progress, and compete with other players for the top spot! Unleash your skills, conquer challenges, and let the Palia App Leaderboard celebrate your achievements. Join the ranks of Palia's elite—your adventure is about to be recognized!",
+    "level": "Level",
+    "name": "Name",
+    "skills": "Skills"
+  },
+  "weeklyWants": {
+    "subtitle": "Weekly Wants Tracker: Uncover Palia's Villager Desires!",
+    "description": "Elevate your relationships with Palia's vibrant villagers using the Weekly Wants Tracker feature. Stay in the loop with each villager's unique desires for the week."
+  },
   "menu": {
     "status": "Status",
     "previewAccess": "Preview Access",
@@ -59,7 +72,9 @@
     "community": "Community",
     "discover": "Discover",
     "contribute": "Contribute",
-    "weeklyWants": "Weekly Wants"
+    "weeklyWants": "Weekly Wants",
+    "interactiveMap": "Interactive Map",
+    "leaderboard": "Leaderboard"
   },
   "search": {
     "placeholder": "Search nodes",

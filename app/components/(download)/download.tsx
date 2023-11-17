@@ -6,10 +6,9 @@ import screenshot4 from "@/public/screenshots/screenshot4.jpg";
 import screenshot5 from "@/public/screenshots/screenshot5.jpg";
 import screenshot6 from "@/public/screenshots/screenshot6.jpg";
 import type { StaticImageData } from "next/image";
-import Link from "next/link";
-import { useDict } from "./(i18n)/i18n-provider";
-import ImageZoomPreview from "./image-zoom-preview";
-import { trackOutboundLinkClick } from "./plausible-tracker";
+import { useDict } from "../(i18n)/i18n-provider";
+import ImageZoomPreview from "../image-zoom-preview";
+import { trackOutboundLinkClick } from "../plausible-tracker";
 
 const FeatureCard = ({
   title,
@@ -66,10 +65,7 @@ const GetTheApp = () => {
 export default function Download() {
   const dict = useDict();
   return (
-    <div className="overflow-auto h-full">
-      <header className="border-b bg-neutral-900 border-gray-700 text-center p-2">
-        <Link href="/">{dict.download.backToTheMap}</Link>
-      </header>
+    <div className="overflow-auto h-[calc(100%-50px)]">
       <div className="container mx-auto p-4 text-center">
         <h1 className="text-3xl font-bold mb-4">{dict.download.title}</h1>
         <GetTheApp />

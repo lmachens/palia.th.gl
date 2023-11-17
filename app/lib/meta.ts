@@ -46,6 +46,34 @@ export function generateMetadata({
       ...DEFAULT_META,
     };
   }
+  if (map === "leaderboard") {
+    const metaTitle = dict.leaderboard.metaTitle;
+    const description = dict.leaderboard.metaDescription;
+
+    const alternativeLanguages = LOCALES.reduce((acc, locale) => {
+      acc[locale] = API_BASE_URI + `/${locale}/leaderboard`;
+      return acc;
+    }, {} as Record<string, string>);
+
+    return {
+      title: metaTitle,
+      description: description,
+      alternates: {
+        canonical: canonical + "/leaderboard",
+        languages: alternativeLanguages,
+      },
+      twitter: {
+        card: "summary_large_image",
+      },
+      openGraph: {
+        title: metaTitle,
+        description: description,
+        type: "website",
+        url: "https://palia.th.gl",
+      },
+      ...DEFAULT_META,
+    };
+  }
 
   const title = name && decodeURIComponent(name);
   const mapTitle = map ? decodeURIComponent(map) : "";

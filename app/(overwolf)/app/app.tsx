@@ -5,9 +5,9 @@ import Map from "@/app/components/(map)/map";
 import Nodes from "@/app/components/(map)/nodes";
 import Tiles from "@/app/components/(map)/tiles";
 import Villagers from "@/app/components/(map)/villagers";
+import WeeklyWants from "@/app/components/(weekly-wants)/weekly-wants";
 import Menu from "@/app/components/menu";
 import Search from "@/app/components/search";
-import WeeklyWants from "@/app/components/weekly-wants";
 import { API_BASE_URI } from "@/app/lib/env";
 import { DEFAULT_LOCALE, LOCALES, loadDictionary } from "@/app/lib/i18n";
 import { useGameInfoStore } from "@/app/lib/storage/game-info";
@@ -69,7 +69,9 @@ export default function App() {
     >
       <ParamsProvider>
         <AppContainer>
-          <Header />
+          <Header>
+            <WeeklyWants data={data && !("error" in data) ? data : undefined} />
+          </Header>
           <MapContainer>
             <Map>
               <Tiles />
@@ -80,9 +82,7 @@ export default function App() {
               <TraceLine />
             </Map>
           </MapContainer>
-          <Search>
-            <WeeklyWants data={data && !("error" in data) ? data : undefined} />
-          </Search>
+          <Search />
           <Menu afterPatreon={<Channels />} beforeSettings={<AppSettings />} />
         </AppContainer>
       </ParamsProvider>

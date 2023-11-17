@@ -37,11 +37,24 @@
         "note": "L'application Palia Map a été conçue pour améliorer votre aventure Palia avec une gamme de fonctionnalités, notamment des cartes interactives, le suivi du joueur en temps réel, les désirs hebdomadaires et plus encore. Explorez Palia comme jamais auparavant et créez vos propres expériences uniques dans ce monde magique.",
         "download": "Télécharger l'application"
     },
+    "leaderboard": {
+        "metaTitle": "Classement de l'application Palia",
+        "metaDescription": "Consultez le classement de l'application Palia et découvrez qui a le plus haut rang et les niveaux de compétence les plus élevés.",
+        "title": "Classement de l'application Palia : Explorez, Conquérez et Montez en Haut !",
+        "description": "Lancez-vous dans un voyage palpitant à Palia et démarquez-vous parmi les aventuriers avec le classement de l'application Palia. Découvrez où vous vous situez en termes de niveau de personnage, de compétence et affichez le nom de votre personnage. Pour rejoindre ce classement exclusif, assurez-vous d'avoir installé l'application In-Game. Plongez dans le monde de Palia, suivez votre progression et rivalisez avec d'autres joueurs pour la première place ! Libérez vos compétences, relevez les défis et laissez le classement de l'application Palia célébrer vos réalisations. Rejoignez les rangs de l'élite de Palia – votre aventure est sur le point d'être reconnue !",
+        "level": "Niveau",
+        "name": "Nom",
+        "skills": "Compétences"
+    },
+    "weeklyWants": {
+        "subtitle": "Suivi des Envies Hebdomadaires : Découvrez les Désirs des Villageois de Palia !",
+        "description": "Améliorez vos relations avec les villageois animés de Palia grâce à la fonction de suivi des envies hebdomadaires. Restez au courant des désirs uniques de chaque villageois pour la semaine."
+    },
     "menu": {
         "status": "Statut",
-        "previewAccess": "Accès anticipé",
-        "eliteSupporters": "Soutiens d'élite",
-        "previewAccessDesc": "En activant l'accès anticipé, vous obtiendrez les dernières fonctionnalités avant leur publication publique. Cet avantage n'est disponible que pour",
+        "previewAccess": "Accès Préliminaire",
+        "eliteSupporters": "Supporters Élite",
+        "previewAccessDesc": "En activant l'accès préliminaire, vous aurez accès aux dernières fonctionnalités avant qu'elles ne soient publiques. Cet avantage est uniquement disponible pour",
         "version": "Version",
         "runningLatestVersion": "Vous utilisez la dernière version de l'application.",
         "updateIsAvailable": "Une mise à jour est disponible.",
@@ -59,7 +72,9 @@
         "community": "Communauté",
         "discover": "Découvrir",
         "contribute": "Contribuer",
-        "weeklyWants": "Souhaits Hebdomadaires"
+        "weeklyWants": "Envies Hebdomadaires",
+        "interactiveMap": "Carte Interactive",
+        "leaderboard": "Classement"
     },
     "search": {
         "placeholder": "Rechercher un emplacement",

@@ -89,14 +89,6 @@ export default function Menu({
           <div className="flex gap-2 items-center">
             <h1 className="text-xl font-bold">{dict.meta.subtitle}</h1>
             <LocaleSelect />
-            <a
-              target="_blank"
-              className="flex items-center gap-1 text-gray-300 hover:text-white bg-[#5865f2] hover:bg-[#6974f3]  rounded p-1"
-              href="https://discord.com/invite/NTZu8Px"
-              aria-label="Discord"
-            >
-              <DiscordIcon className="inline-block w-4 h-4" />
-            </a>
           </div>
           <button
             onClick={globalSettingsStore.toggleShowSidebar}

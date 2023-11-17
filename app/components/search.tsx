@@ -7,19 +7,12 @@ import { useGlobalSettingsStore } from "../lib/storage/global-settings";
 import { useParamsStore } from "../lib/storage/params";
 import { useSettingsStore } from "../lib/storage/settings";
 import { useDict } from "./(i18n)/i18n-provider";
-import AppDownload from "./app-download";
 import Filters from "./filters";
 import Maps from "./maps";
 import Routes from "./routes";
 import SearchResults from "./search-results";
 
-export default function Search({
-  hidden,
-  children,
-}: {
-  hidden?: boolean;
-  children?: React.ReactNode;
-}) {
+export default function Search({ hidden }: { hidden?: boolean }) {
   const dict = useDict();
   const search = useParamsStore((state) => state.search);
   const setParams = useParamsStore((state) => state.setParams);
@@ -36,17 +29,11 @@ export default function Search({
   return (
     <div
       className={`absolute pointer-events-none ${
-        isOverwolfApp ? "top-[42px]" : "top-0 md:top-3"
+        isOverwolfApp ? "top-[42px]" : "top-[50px] md:top-[60px]"
       } w-full md:w-auto right-0 md:right-1 z-[400] transition-all duration-500 ${
         globalSettingsStore.showSidebar ? "md:left-[412px]" : "md:left-3"
       } md:space-y-1`}
     >
-      <div
-        className={`bg-black md:bg-transparent flex overflow-auto pointer-events-auto pb-1 w-fit`}
-      >
-        {!isOverwolfApp && <AppDownload />}
-        {(!settingsStore.lockedWindow || !isOverlay) && children}
-      </div>
       {(!settingsStore.lockedWindow || !isOverlay) && (
         <div className={`relative pointer-events-auto flex md:w-fit`}>
           <button
@@ -190,9 +177,9 @@ export default function Search({
           <div
             className={`absolute top-full text-sm w-full md:mt-1 ${
               isOverwolfApp
-                ? "max-h-[calc(100vh-130px)]"
-                : "max-h-[calc(100vh-100px)]"
-            } flex flex-col md:gap-2 pb-4`}
+                ? "max-h-[calc(100vh-100px)]"
+                : "max-h-[calc(100vh-90px)] md:max-h-[calc(100vh-120px)]"
+            } flex flex-col md:gap-2`}
           >
             <Maps />
             <Routes />

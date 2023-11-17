@@ -4,7 +4,7 @@ import { DEFAULT_LOCALE, LOCALES, loadDictionary } from "./app/lib/i18n";
 import { DEFAULT_MAP, isMap } from "./app/lib/maps";
 
 const PARAMS_COOKIE_NAME = "params";
-const validPages = ["download"];
+const validPages = ["download", "leaderboard"];
 
 function getUserParams(req: NextRequest) {
   if (req.cookies.has(PARAMS_COOKIE_NAME)) {

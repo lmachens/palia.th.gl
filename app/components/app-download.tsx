@@ -1,17 +1,21 @@
+"use client";
 import Link from "next/link";
+import { cn } from "../lib/utils";
 import { useI18N } from "./(i18n)/i18n-provider";
 
-export default function AppDownload() {
+export default function AppDownload({ active }: { active?: boolean }) {
   const i18n = useI18N();
-
   return (
     <Link
       href={`/${i18n.locale}/download`}
-      className="flex pointer-events-auto items-center gap-1 md:rounded-lg bg-orange-600 hover:bg-orange-500 text-white uppercase px-2 py-1 justify-center whitespace-nowrap w-fit "
+      className={cn(
+        "flex items-center gap-1 rounded-md  text-white uppercase px-2 py-1 justify-center whitespace-nowrap w-fit ",
+        active ? "bg-orange-500" : "bg-orange-600 hover:bg-orange-500"
+      )}
     >
       <svg
-        width="24"
-        height="24"
+        width="22"
+        height="22"
         viewBox="0 0 24 24"
         strokeWidth="2"
         stroke="currentColor"
@@ -24,8 +28,7 @@ export default function AppDownload() {
         <path d="M12 5l0 14"></path>
         <path d="M4 12l16 0"></path>
       </svg>
-      <span className="hidden md:block">Get the in-game app</span>
-      <span className="block md:hidden">In-Game App</span>
+      <span className="hidden md:block">In-Game App</span>
     </Link>
   );
 }

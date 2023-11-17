@@ -37,21 +37,34 @@
         "note": "L'app Palia Map è stata progettata per migliorare la tua avventura Palia con una serie di funzionalità, tra cui mappe interattive, tracciamento del giocatore in tempo reale, desideri settimanali e altro ancora. Esplora Palia come mai prima d'ora e crea le tue esperienze uniche in questo mondo magico.",
         "download": "Scarica l'app"
     },
+    "leaderboard": {
+        "metaTitle": "Classifica Palia App",
+        "metaDescription": "Consulta la classifica dell'app Palia e scopri chi ha il rango più alto e i livelli di abilità più alti.",
+        "title": "Classifica Palia App: Esplora, Conquista e Salta in Cima!",
+        "description": "Imbarcati in un emozionante viaggio in Palia e fatti notare tra gli altri avventurieri con la Classifica Palia App. Scopri dove ti posizioni nel livello del personaggio, nella competenza delle abilità e mostra il nome del tuo personaggio. Per unirti a questa classifica esclusiva, assicurati di avere l'app In-Game installata. Tuffati nel mondo di Palia, traccia i tuoi progressi e competi con altri giocatori per il primo posto! Libera le tue abilità, conquista le sfide e lascia che la Classifica Palia App celebri i tuoi successi. Unisciti alle fila dell'elite di Palia, la tua avventura sta per essere riconosciuta!",
+        "level": "Livello",
+        "name": "Nome",
+        "skills": "Abilità"
+    },
+    "weeklyWants": {
+        "subtitle": "Tracciamento Desideri Settimanali: Scopri i Desideri dei Villaggi di Palia!",
+        "description": "Eleva le tue relazioni con i vivaci villaggi di Palia utilizzando la funzione di tracciamento desideri settimanali. Rimani informato sui desideri unici di ciascun villaggio per la settimana."
+    },
     "menu": {
         "status": "Stato",
-        "previewAccess": "Accesso anticipato",
-        "eliteSupporters": "Sostenitori d'élite",
-        "previewAccessDesc": "Attivando l'accesso anticipato, otterrai le ultime funzionalità prima della loro pubblicazione. Questo vantaggio è disponibile solo per",
+        "previewAccess": "Accesso Anticipato",
+        "eliteSupporters": "Sostenitori Elite",
+        "previewAccessDesc": "Attivando l'accesso anticipato, otterrai le ultime funzionalità prima che siano rilasciate al pubblico. Questo vantaggio è disponibile solo per",
         "version": "Versione",
         "runningLatestVersion": "Stai utilizzando l'ultima versione dell'app.",
         "updateIsAvailable": "È disponibile un aggiornamento.",
-        "updateNow": "Aggiorna ora!",
-        "isUpdating": "L'app sta scaricando l'aggiornamento...",
+        "updateNow": "Aggiorna Ora!",
+        "isUpdating": "Aggiornamento in corso...",
         "pendingRestart": "È stato installato un aggiornamento. Riavvia l'applicazione per applicare l'aggiornamento.",
-        "restartNow": "Riavvia ora!",
-        "patronInfo": "Elimina gli annunci e sostienimi su Patreon",
-        "becomePatron": "Diventa un Patrono",
-        "disconnectPatreon": "Scollega il tuo account Patreon",
+        "restartNow": "Riavvia Ora!",
+        "patronInfo": "Elimina gli annunci e supportami su Patreon",
+        "becomePatron": "Diventa Patrono",
+        "disconnectPatreon": "Disconnetti il tuo account Patreon",
         "discoveredNodes": "Nodi Scoperti",
         "spawnNodes": "Nodi di Spawn",
         "settings": "Impostazioni",
@@ -59,7 +72,9 @@
         "community": "Comunità",
         "discover": "Scopri",
         "contribute": "Contribuisci",
-        "weeklyWants": "Desideri settimanali"
+        "weeklyWants": "Desideri Settimanali",
+        "interactiveMap": "Mappa Interattiva",
+        "leaderboard": "Classifica"
     },
     "search": {
         "placeholder": "Cerca...",

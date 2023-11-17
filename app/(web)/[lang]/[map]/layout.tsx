@@ -1,6 +1,8 @@
-import Download from "@/app/components/download";
+import Download from "@/app/components/(download)/download";
+import Leaderboard from "@/app/components/(leaderboard)/leaderboard";
+import WeeklyWants from "@/app/components/(weekly-wants)/weekly-wants";
 import Search from "@/app/components/search";
-import WeeklyWants from "@/app/components/weekly-wants";
+import WebHeader from "@/app/components/web-header";
 import { loadDictionary } from "@/app/lib/i18n";
 import { isMap } from "@/app/lib/maps";
 import { ParamsProvider } from "@/app/lib/storage/params";
@@ -35,11 +37,13 @@ async function Layout({
   params: { lang: string; map: string };
 }) {
   const dict = loadDictionary(lang);
+  const weeklyWants = await fetchWeeklyWants(lang);
   let content: JSX.Element;
   if (map === "download") {
     content = <Download />;
+  } else if (map === "leaderboard") {
+    content = <Leaderboard dict={dict} />;
   } else {
-    const weeklyWants = await fetchWeeklyWants(lang);
     const mapTitle = decodeURIComponent(map);
     const mapEntry = Object.entries(dict.maps).find(([, value]) => {
       return value === mapTitle;
@@ -55,17 +59,20 @@ async function Layout({
           <Nodes />
           <ActiveRoutes />
         </Map>
-        <Search>
-          <WeeklyWants data={weeklyWants} />
-        </Search>
+        <Search />
       </>
     );
   }
   return (
-    <ParamsProvider>
-      {content}
-      {children}
-    </ParamsProvider>
+    <>
+      <WebHeader lang={lang} page={map} dict={dict}>
+        <WeeklyWants data={weeklyWants} />
+      </WebHeader>
+      <ParamsProvider>
+        {content}
+        {children}
+      </ParamsProvider>
+    </>
   );
 }
 
