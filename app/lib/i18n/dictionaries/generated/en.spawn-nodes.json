@@ -483,6 +483,10 @@
     "name": "Yellowfin Tuna",
     "description": "A large tuna that can swim faster than its size implies.\r\nFound off the coast of Bahari Bay using glow worms."
   },
+  "BP_FishingRecipeBook_C": {
+    "name": "Recipe: Fish Stew",
+    "description": "Consume to learn the recipe for making Fish Stew."
+  },
   "BP_Gatherable_MushroomBlue_C": {
     "name": "Brightshroom",
     "description": "Brightshrooms get their glow from absorbing Flow and thus have many alchemical uses."
@@ -536,8 +540,8 @@
     "description": "A rock that contains palium. Can be smelted into bars for crafting."
   },
   "BP_Mining_Stone_Large_C": {
-    "name": "Stone Brick (L)",
-    "description": "This stone brick is sure to rock you! Can be used in crafting or house building."
+    "name": "Stone (L)",
+    "description": "A common stone. Can be smelted into bricks."
   },
   "BP_Moss_DragonsBeard_C": {
     "name": "Dragon's Beard Peat",
@@ -579,116 +583,124 @@
     "name": "Sweet Leaf",
     "description": "Those with sweet teeth will love this Sweet Leaf, one of Palia's favorite dessert ingredients."
   },
+  "BP_Trash_Shipfragments_C": {
+    "name": "Ship Fragments",
+    "description": "A common piece of garbage found in the ocean. Evidence of a recent shipwreck."
+  },
+  "BP_Trash_Wagonwheel_C": {
+    "name": "Wagon Wheel",
+    "description": "A common piece of garbage found in and around Crystal Lake. Perhaps a relic from travelers passing through."
+  },
   "BP_TreeChoppable_Birch_Large_C": {
-    "name": "Large Birch Tree",
+    "name": "Birch (L)",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Large_CoOp_C": {
-    "name": "Flowing Large Birch Tree",
+    "name": "Flow Birch (L)",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Medium_C": {
-    "name": "Medium Birch Tree",
+    "name": "Birch (M)",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Medium_CoOp_C": {
-    "name": "Flowing Medium Birch Tree",
+    "name": "Flow Birch (M)",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Sapling_CoOp_C": {
-    "name": "Flowing Birch Sapling",
+    "name": "Flow Birch (XS)",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Small_C": {
-    "name": "Small Birch Tree",
+    "name": "Birch (S)",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Small_CoOp_C": {
-    "name": "Flowing Small Birch Tree",
+    "name": "Flow Birch (S)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Large_C": {
-    "name": "Large Juniper Tree",
+    "name": "Juniper (L)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Large_CoOp_C": {
-    "name": "Flowing Large Juniper Tree",
+    "name": "Flow Juniper (L)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Medium_C": {
-    "name": "Medium Juniper Tree",
+    "name": "Juniper (M)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Medium_CoOp_C": {
-    "name": "Flowing Medium Juniper Tree",
+    "name": "Flow Juniper (M)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Sapling_CoOp_C": {
-    "name": "Flowing Juniper Sapling",
+    "name": "Flow Juniper (XS)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Small_C": {
-    "name": "Small Juniper Tree",
+    "name": "Juniper (S)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Small_CoOp_C": {
-    "name": "Flowing Small Juniper Tree",
+    "name": "Flow Juniper (S)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Large_C": {
-    "name": "Large Oak Tree",
+    "name": "Oak (L)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Large_CoOp_C": {
-    "name": "Flowing Large Oak Tree",
+    "name": "Flow Oak (L)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Medium_C": {
-    "name": "Medium Oak Tree",
+    "name": "Oak (M)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Medium_CoOp_C": {
-    "name": "Flowing Medium Oak Tree",
+    "name": "Flow Oak (M)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Sapling_CoOp_C": {
-    "name": "Flowing Oak Sapling",
+    "name": "Flow Oak (XS)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Small_C": {
-    "name": "Small Oak Tree",
+    "name": "Oak (S)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Small_CoOp_C": {
-    "name": "Flowing Small Oak Tree",
+    "name": "Flow Oak (S)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Large_C": {
-    "name": "Large Pine Tree",
+    "name": "Pine (L)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Large_CoOp_C": {
-    "name": "Flowing Large Pine Tree",
+    "name": "Flow Pine (L)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Medium_C": {
-    "name": "Medium Pine Tree",
+    "name": "Pine (M)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Medium_CoOp_C": {
-    "name": "Flowing Medium Pine Tree",
+    "name": "Flow Pine (M)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Sapling_CoOp_C": {
-    "name": "Flowing Pine Sapling",
+    "name": "Flow Pine (XS)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Small_C": {
-    "name": "Small Pine Tree",
+    "name": "Pine (S)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Small_CoOp_C": {
-    "name": "Flowing Small Pine Tree",
+    "name": "Flow Pine (S)",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Cearnuk_T1_C": {

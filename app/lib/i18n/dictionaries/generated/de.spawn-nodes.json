@@ -483,6 +483,10 @@
     "name": "Gelbflossen-Thunfisch",
     "description": "Ein großer Thunfisch, der schneller schwimmen kann, als seine Größe vermuten lässt.\nGefunden vor der Küste der Bahari Bay mit Glühwürmchen."
   },
+  "BP_FishingRecipeBook_C": {
+    "name": "Plan: Fischeintopf",
+    "description": "Verbrauchen, um das Rezept für Fischeintopf auswendig zu lernen."
+  },
   "BP_Gatherable_MushroomBlue_C": {
     "name": "Leuchtpilz",
     "description": "Leuchtpilze erhalten ihr Leuchten durch die Absorption von Strömung und werden daher oft in der Alchemie angewandt."
@@ -536,8 +540,8 @@
     "description": "Ein Gestein, das Palium enthält. Kann zu Barren eingeschmolzen werden, die dann weiterverarbeitet werden können."
   },
   "BP_Mining_Stone_Large_C": {
-    "name": "Steinziegel (L)",
-    "description": "Dieser Ziegelstein rockt! Kann bei der Herstellung oder beim Hausbau verwendet werden."
+    "name": "Stein (L)",
+    "description": "Ein gewöhnlicher Stein. Kann zu Ziegeln geschmolzen werden."
   },
   "BP_Moss_DragonsBeard_C": {
     "name": "Drachenbarttorf",
@@ -579,116 +583,124 @@
     "name": "Süßblatt",
     "description": "Naschkatzen werden dieses Süßblatt lieben. Es ist eine der beliebtesten Zutaten für Desserts in Palia."
   },
+  "BP_Trash_Shipfragments_C": {
+    "name": "Wrackteile",
+    "description": "Gewöhnlicher Abfall, der im Meer gefunden wurde. Da hat wohl jemand Schiffbruch erlitten."
+  },
+  "BP_Trash_Wagonwheel_C": {
+    "name": "Steuer",
+    "description": "Ein gewöhnliches Stück Abfall, das in und um den Kristallsee gefunden werden kann. Es stammt vielleicht von einem Reisenden."
+  },
   "BP_TreeChoppable_Birch_Large_C": {
-    "name": "Large Birch Tree",
+    "name": "Birke (L)",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Large_CoOp_C": {
-    "name": "Flowing Large Birch Tree",
+    "name": "Strömung Birke (L)",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Medium_C": {
-    "name": "Medium Birch Tree",
+    "name": "Birke (M)",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Medium_CoOp_C": {
-    "name": "Flowing Medium Birch Tree",
+    "name": "Strömung Birke (M)",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Sapling_CoOp_C": {
-    "name": "Flowing Birch Sapling",
+    "name": "Strömung Birke (XS)",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Small_C": {
-    "name": "Small Birch Tree",
+    "name": "Birke (S)",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Small_CoOp_C": {
-    "name": "Flowing Small Birch Tree",
+    "name": "Strömung Birke (S)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Large_C": {
-    "name": "Large Juniper Tree",
+    "name": "Wacholdersamen (L)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Large_CoOp_C": {
-    "name": "Flowing Large Juniper Tree",
+    "name": "Strömung Wacholdersamen (L)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Medium_C": {
-    "name": "Medium Juniper Tree",
+    "name": "Wacholdersamen (M)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Medium_CoOp_C": {
-    "name": "Flowing Medium Juniper Tree",
+    "name": "Strömung Wacholdersamen (M)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Sapling_CoOp_C": {
-    "name": "Flowing Juniper Sapling",
+    "name": "Strömung Wacholdersamen (XS)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Small_C": {
-    "name": "Small Juniper Tree",
+    "name": "Wacholdersamen (S)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Small_CoOp_C": {
-    "name": "Flowing Small Juniper Tree",
+    "name": "Strömung Wacholdersamen (S)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Large_C": {
-    "name": "Large Oak Tree",
+    "name": "Eiche (L)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Large_CoOp_C": {
-    "name": "Flowing Large Oak Tree",
+    "name": "Strömung Eiche (L)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Medium_C": {
-    "name": "Medium Oak Tree",
+    "name": "Eiche (M)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Medium_CoOp_C": {
-    "name": "Flowing Medium Oak Tree",
+    "name": "Strömung Eiche (M)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Sapling_CoOp_C": {
-    "name": "Flowing Oak Sapling",
+    "name": "Strömung Eiche (XS)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Small_C": {
-    "name": "Small Oak Tree",
+    "name": "Eiche (S)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Small_CoOp_C": {
-    "name": "Flowing Small Oak Tree",
+    "name": "Strömung Eiche (S)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Large_C": {
-    "name": "Large Pine Tree",
+    "name": "Pine (L)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Large_CoOp_C": {
-    "name": "Flowing Large Pine Tree",
+    "name": "Strömung Pine (L)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Medium_C": {
-    "name": "Medium Pine Tree",
+    "name": "Pine (M)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Medium_CoOp_C": {
-    "name": "Flowing Medium Pine Tree",
+    "name": "Strömung Pine (M)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Sapling_CoOp_C": {
-    "name": "Flowing Pine Sapling",
+    "name": "Strömung Pine (XS)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Small_C": {
-    "name": "Small Pine Tree",
+    "name": "Pine (S)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Small_CoOp_C": {
-    "name": "Flowing Small Pine Tree",
+    "name": "Strömung Pine (S)",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Cearnuk_T1_C": {

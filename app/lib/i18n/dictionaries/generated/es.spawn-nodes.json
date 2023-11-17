@@ -483,6 +483,10 @@
     "name": "Atún de aleta amarilla",
     "description": "Un gran atún que puede nadar más rápido de lo que su tamaño indica.\nSe encuentra en la costa de Bahari Bay con luciérnagas."
   },
+  "BP_FishingRecipeBook_C": {
+    "name": "Receta: guiso de pescado",
+    "description": "Sirve para aprender la receta del guiso de pescado."
+  },
   "BP_Gatherable_MushroomBlue_C": {
     "name": "Brillampiñón",
     "description": "Los brillampiñones deslumbran gracias a la absorción del flujo, por lo que tienen muchos usos en la alquimia."
@@ -536,8 +540,8 @@
     "description": "Roca que contiene palio. Se puede fundir para crear lingotes con los que fabricar cosas."
   },
   "BP_Mining_Stone_Large_C": {
-    "name": "Ladrillo de piedra (L)",
-    "description": "Este ladrillo de piedra te encantará. Se puede utilizar para fabricar o construir casas."
+    "name": "Piedra (L)",
+    "description": "Una piedra común. Se puede fundir para crear ladrillos."
   },
   "BP_Moss_DragonsBeard_C": {
     "name": "Turba de barba de dragón",
@@ -579,116 +583,124 @@
     "name": "Estevia",
     "description": "A los golosos les encantará esta estevia, uno de los ingredientes de postres favoritos de Palia."
   },
+  "BP_Trash_Shipfragments_C": {
+    "name": "Trozos de barco",
+    "description": "Basura corriente que se encuentra en el océano. Pruebas de un naufragio reciente."
+  },
+  "BP_Trash_Wagonwheel_C": {
+    "name": "Timón",
+    "description": "Basura corriente que se encuentra por el Lago Cristalino y sus inmediaciones. Tal vez sea una reliquia de los viajeros que pasaban por allí."
+  },
   "BP_TreeChoppable_Birch_Large_C": {
-    "name": "Large Birch Tree",
+    "name": "parcela (L)",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Large_CoOp_C": {
-    "name": "Flowing Large Birch Tree",
+    "name": "Flujo parcela (L)",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Medium_C": {
-    "name": "Medium Birch Tree",
+    "name": "parcela (M)",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Medium_CoOp_C": {
-    "name": "Flowing Medium Birch Tree",
+    "name": "Flujo parcela (M)",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Sapling_CoOp_C": {
-    "name": "Flowing Birch Sapling",
+    "name": "Flujo parcela (XS)",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Small_C": {
-    "name": "Small Birch Tree",
+    "name": "parcela (S)",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Small_CoOp_C": {
-    "name": "Flowing Small Birch Tree",
+    "name": "Flujo parcela (S)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Large_C": {
-    "name": "Large Juniper Tree",
+    "name": "Semilla (L)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Large_CoOp_C": {
-    "name": "Flowing Large Juniper Tree",
+    "name": "Flujo Semilla (L)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Medium_C": {
-    "name": "Medium Juniper Tree",
+    "name": "Semilla (M)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Medium_CoOp_C": {
-    "name": "Flowing Medium Juniper Tree",
+    "name": "Flujo Semilla (M)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Sapling_CoOp_C": {
-    "name": "Flowing Juniper Sapling",
+    "name": "Flujo Semilla (XS)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Small_C": {
-    "name": "Small Juniper Tree",
+    "name": "Semilla (S)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Small_CoOp_C": {
-    "name": "Flowing Small Juniper Tree",
+    "name": "Flujo Semilla (S)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Large_C": {
-    "name": "Large Oak Tree",
+    "name": "parcela (L)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Large_CoOp_C": {
-    "name": "Flowing Large Oak Tree",
+    "name": "Flujo parcela (L)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Medium_C": {
-    "name": "Medium Oak Tree",
+    "name": "parcela (M)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Medium_CoOp_C": {
-    "name": "Flowing Medium Oak Tree",
+    "name": "Flujo parcela (M)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Sapling_CoOp_C": {
-    "name": "Flowing Oak Sapling",
+    "name": "Flujo parcela (XS)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Small_C": {
-    "name": "Small Oak Tree",
+    "name": "parcela (S)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Small_CoOp_C": {
-    "name": "Flowing Small Oak Tree",
+    "name": "Flujo parcela (S)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Large_C": {
-    "name": "Large Pine Tree",
+    "name": "Pino (L)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Large_CoOp_C": {
-    "name": "Flowing Large Pine Tree",
+    "name": "Flujo Pino (L)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Medium_C": {
-    "name": "Medium Pine Tree",
+    "name": "Pino (M)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Medium_CoOp_C": {
-    "name": "Flowing Medium Pine Tree",
+    "name": "Flujo Pino (M)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Sapling_CoOp_C": {
-    "name": "Flowing Pine Sapling",
+    "name": "Flujo Pino (XS)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Small_C": {
-    "name": "Small Pine Tree",
+    "name": "Pino (S)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Small_CoOp_C": {
-    "name": "Flowing Small Pine Tree",
+    "name": "Flujo Pino (S)",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Cearnuk_T1_C": {

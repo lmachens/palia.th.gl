@@ -483,6 +483,10 @@
     "name": "Thon jaune",
     "description": "Cet énorme thon nage étonnamment vite pour sa taille.\nOn le pêche au large de la baie du Bahari en utilisant des vers luisants comme appâts."
   },
+  "BP_FishingRecipeBook_C": {
+    "name": "Recette : ragoût de poisson",
+    "description": "Cet objet consommable permet d’apprendre la recette du ragoût de poisson."
+  },
   "BP_Gatherable_MushroomBlue_C": {
     "name": "Champilux",
     "description": "Les champilux tirent leur éclat de l’absorption d’Onde et ont donc de nombreuses utilisations alchimiques."
@@ -536,8 +540,8 @@
     "description": "Cette roche contient du palium. Ce minerai peut être fondu en lingots utiles à la fabrication."
   },
   "BP_Mining_Stone_Large_C": {
-    "name": "Brique en pierre (L)",
-    "description": "Cette brique en pierre a tout pour plaire ! Cet objet est destiné à l’artisanat ou à la construction."
+    "name": "Pierre (L)",
+    "description": "Cette pierre commune peut être transformée en briques."
   },
   "BP_Moss_DragonsBeard_C": {
     "name": "Tourbe Barbe-Dragon",
@@ -579,116 +583,124 @@
     "name": "Stévia",
     "description": "Chez les Paléens, la stévia est l’un des ingrédients les plus populaires pour préparer des desserts. Son goût sucré ravira les plus gourmands."
   },
+  "BP_Trash_Shipfragments_C": {
+    "name": "Fragments de bateau",
+    "description": "On trouve souvent ce genre de déchets au fond de l’océan. Ils indiquent la présence d’une épave récente dans les parages."
+  },
+  "BP_Trash_Wagonwheel_C": {
+    "name": "Roue de charrette",
+    "description": "On trouve souvent de genre de déchets au fond du lac cristallin et aux alentours. Il s’agit peut-être de vestiges laissés par les voyageurs de passage."
+  },
   "BP_TreeChoppable_Birch_Large_C": {
-    "name": "Large Birch Tree",
+    "name": "bouleau (L)",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Large_CoOp_C": {
-    "name": "Flowing Large Birch Tree",
+    "name": "L’Onde bouleau (L)",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Medium_C": {
-    "name": "Medium Birch Tree",
+    "name": "bouleau (M)",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Medium_CoOp_C": {
-    "name": "Flowing Medium Birch Tree",
+    "name": "L’Onde bouleau (M)",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Sapling_CoOp_C": {
-    "name": "Flowing Birch Sapling",
+    "name": "L’Onde bouleau (XS)",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Small_C": {
-    "name": "Small Birch Tree",
+    "name": "bouleau (S)",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Small_CoOp_C": {
-    "name": "Flowing Small Birch Tree",
+    "name": "L’Onde bouleau (S)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Large_C": {
-    "name": "Large Juniper Tree",
+    "name": "Graine (L)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Large_CoOp_C": {
-    "name": "Flowing Large Juniper Tree",
+    "name": "L’Onde Graine (L)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Medium_C": {
-    "name": "Medium Juniper Tree",
+    "name": "Graine (M)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Medium_CoOp_C": {
-    "name": "Flowing Medium Juniper Tree",
+    "name": "L’Onde Graine (M)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Sapling_CoOp_C": {
-    "name": "Flowing Juniper Sapling",
+    "name": "L’Onde Graine (XS)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Small_C": {
-    "name": "Small Juniper Tree",
+    "name": "Graine (S)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Small_CoOp_C": {
-    "name": "Flowing Small Juniper Tree",
+    "name": "L’Onde Graine (S)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Large_C": {
-    "name": "Large Oak Tree",
+    "name": "chêne (L)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Large_CoOp_C": {
-    "name": "Flowing Large Oak Tree",
+    "name": "L’Onde chêne (L)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Medium_C": {
-    "name": "Medium Oak Tree",
+    "name": "chêne (M)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Medium_CoOp_C": {
-    "name": "Flowing Medium Oak Tree",
+    "name": "L’Onde chêne (M)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Sapling_CoOp_C": {
-    "name": "Flowing Oak Sapling",
+    "name": "L’Onde chêne (XS)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Small_C": {
-    "name": "Small Oak Tree",
+    "name": "chêne (S)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Small_CoOp_C": {
-    "name": "Flowing Small Oak Tree",
+    "name": "L’Onde chêne (S)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Large_C": {
-    "name": "Large Pine Tree",
+    "name": "Pine (L)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Large_CoOp_C": {
-    "name": "Flowing Large Pine Tree",
+    "name": "L’Onde Pine (L)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Medium_C": {
-    "name": "Medium Pine Tree",
+    "name": "Pine (M)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Medium_CoOp_C": {
-    "name": "Flowing Medium Pine Tree",
+    "name": "L’Onde Pine (M)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Sapling_CoOp_C": {
-    "name": "Flowing Pine Sapling",
+    "name": "L’Onde Pine (XS)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Small_C": {
-    "name": "Small Pine Tree",
+    "name": "Pine (S)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Small_CoOp_C": {
-    "name": "Flowing Small Pine Tree",
+    "name": "L’Onde Pine (S)",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Cearnuk_T1_C": {

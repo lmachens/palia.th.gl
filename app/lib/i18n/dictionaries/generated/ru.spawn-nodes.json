@@ -483,6 +483,10 @@
     "name": "Желтопёрый Тунец",
     "description": "Крупный тунец, который может плавать быстрее, чем предполагают его размеры.\r\nЛовится у берегов Бухты Бахари на светящихся червей."
   },
+  "BP_FishingRecipeBook_C": {
+    "name": "Рецепт: Тушёная Рыба",
+    "description": "Используйте, чтобы узнать рецепт приготовления Тушёной Рыбы."
+  },
   "BP_Gatherable_MushroomBlue_C": {
     "name": "Светящийся гриб",
     "description": "Светящиеся грибы получают свое свечение за счет поглощения потока и поэтому имеют множество алхимических применений."
@@ -536,8 +540,8 @@
     "description": "Камень, содержащий палий. Может переплавляться в слитки для ремесленного производства."
   },
   "BP_Mining_Stone_Large_C": {
-    "name": "Каменный Кирпич (L)",
-    "description": "Этот каменный кирпич обязательно понравится вам! Может использоваться в ремесле или при строительстве дома."
+    "name": "Камень (L)",
+    "description": "Обычный камень. Может быть выплавлен в кирпич."
   },
   "BP_Moss_DragonsBeard_C": {
     "name": "Торфяник Борода Дракона",
@@ -579,116 +583,124 @@
     "name": "Стевия",
     "description": "Любители сладкого будут в восторге от Стевии - одного из любимых десертных ингредиентов Палии."
   },
+  "BP_Trash_Shipfragments_C": {
+    "name": "Фрагменты Корабля",
+    "description": "Обычный мусор, встречающийся в океане. Свидетельство недавнего кораблекрушения."
+  },
+  "BP_Trash_Wagonwheel_C": {
+    "name": "Старый Штурвал",
+    "description": "Обычный мусор, встречающийся в окрестностях Хрустального озера. Возможно, реликвия, оставшаяся от проезжавших мимо путешественников."
+  },
   "BP_TreeChoppable_Birch_Large_C": {
-    "name": "Large Birch Tree",
+    "name": "Береза (L)",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Large_CoOp_C": {
-    "name": "Flowing Large Birch Tree",
+    "name": "Поток Береза (L)",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Medium_C": {
-    "name": "Medium Birch Tree",
+    "name": "Береза (M)",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Medium_CoOp_C": {
-    "name": "Flowing Medium Birch Tree",
+    "name": "Поток Береза (M)",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Sapling_CoOp_C": {
-    "name": "Flowing Birch Sapling",
+    "name": "Поток Береза (XS)",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Small_C": {
-    "name": "Small Birch Tree",
+    "name": "Береза (S)",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Small_CoOp_C": {
-    "name": "Flowing Small Birch Tree",
+    "name": "Поток Береза (S)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Large_C": {
-    "name": "Large Juniper Tree",
+    "name": "Семя (L)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Large_CoOp_C": {
-    "name": "Flowing Large Juniper Tree",
+    "name": "Поток Семя (L)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Medium_C": {
-    "name": "Medium Juniper Tree",
+    "name": "Семя (M)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Medium_CoOp_C": {
-    "name": "Flowing Medium Juniper Tree",
+    "name": "Поток Семя (M)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Sapling_CoOp_C": {
-    "name": "Flowing Juniper Sapling",
+    "name": "Поток Семя (XS)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Small_C": {
-    "name": "Small Juniper Tree",
+    "name": "Семя (S)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Small_CoOp_C": {
-    "name": "Flowing Small Juniper Tree",
+    "name": "Поток Семя (S)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Large_C": {
-    "name": "Large Oak Tree",
+    "name": "Дуб (L)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Large_CoOp_C": {
-    "name": "Flowing Large Oak Tree",
+    "name": "Поток Дуб (L)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Medium_C": {
-    "name": "Medium Oak Tree",
+    "name": "Дуб (M)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Medium_CoOp_C": {
-    "name": "Flowing Medium Oak Tree",
+    "name": "Поток Дуб (M)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Sapling_CoOp_C": {
-    "name": "Flowing Oak Sapling",
+    "name": "Поток Дуб (XS)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Small_C": {
-    "name": "Small Oak Tree",
+    "name": "Дуб (S)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Small_CoOp_C": {
-    "name": "Flowing Small Oak Tree",
+    "name": "Поток Дуб (S)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Large_C": {
-    "name": "Large Pine Tree",
+    "name": "Сосна (L)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Large_CoOp_C": {
-    "name": "Flowing Large Pine Tree",
+    "name": "Поток Сосна (L)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Medium_C": {
-    "name": "Medium Pine Tree",
+    "name": "Сосна (M)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Medium_CoOp_C": {
-    "name": "Flowing Medium Pine Tree",
+    "name": "Поток Сосна (M)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Sapling_CoOp_C": {
-    "name": "Flowing Pine Sapling",
+    "name": "Поток Сосна (XS)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Small_C": {
-    "name": "Small Pine Tree",
+    "name": "Сосна (S)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Small_CoOp_C": {
-    "name": "Flowing Small Pine Tree",
+    "name": "Поток Сосна (S)",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Cearnuk_T1_C": {

@@ -50,7 +50,9 @@ export const SPAWN_ICONS = Object.keys(spawnNodes).reduce((acc, type) => {
       const spawnIcon = spawnIcons[type as keyof typeof spawnIcons];
       if (spawnIcon) {
         let radius = 10;
-        if (type.includes("Small")) {
+        if (type.includes("Sapling")) {
+          radius = 7;
+        } else if (type.includes("Small")) {
           radius = 8;
         } else if (type.includes("Medium")) {
           radius = 10;

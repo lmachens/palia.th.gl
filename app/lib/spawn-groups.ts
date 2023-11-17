@@ -199,5 +199,8 @@ export const spawnGroups = {
     "BP_Fish_Willow_Lamprey_C",
     "BP_Fish_Yellow_Perch_C",
     "BP_Fish_Yellowfin_Tuna_C",
+    "BP_FishingRecipeBook_C",
+    "BP_Trash_Shipfragments_C",
+    "BP_Trash_Wagonwheel_C",
   ],
 };
