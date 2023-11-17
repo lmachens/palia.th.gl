@@ -30,6 +30,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: locale === DEFAULT_LOCALE ? 1 : 0.9,
     };
   });
+  const leaderboard = LOCALES.map<MetadataRoute.Sitemap[number]>((locale) => {
+    return {
+      url: `https://palia.th.gl/${locale}/leaderboard`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: locale === DEFAULT_LOCALE ? 1 : 0.9,
+    };
+  });
 
   const filtersMap = [
     ...Object.keys(staticNodes),
@@ -95,5 +103,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   });
 
-  return [...mapsMap, ...downloadMap, ...filtersMap, ...nodesMap];
+  return [
+    ...mapsMap,
+    ...downloadMap,
+    ...leaderboard,
+    ...filtersMap,
+    ...nodesMap,
+  ];
 }
