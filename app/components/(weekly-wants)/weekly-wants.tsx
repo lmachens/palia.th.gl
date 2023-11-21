@@ -66,12 +66,12 @@ export default function WeeklyWants({ data }: { data?: WEEKLY_WANTS }) {
           </button>
         }
       >
-        <div className="container max-w-[95vw] text-center space-y-2 border rounded border-gray-600 bg-neutral-900 p-2">
+        <div className="container max-w-lg w-[95vw] text-center space-y-2 border rounded border-gray-600 bg-neutral-900 p-2">
           <h2 className="uppercase tracking-wide text-sm text-white font-semibold">
             {dict.weeklyWants.subtitle}
           </h2>
           <p className="text-gray-300">{dict.weeklyWants.description}</p>
-          <div className="flex flex-wrap gap-1 justify-center">
+          <div className="flex flex-wrap gap-2 justify-center">
             {Object.entries(villagers).map(([id, villager]) => {
               return (
                 <Popover
@@ -86,22 +86,27 @@ export default function WeeklyWants({ data }: { data?: WEEKLY_WANTS }) {
                   }}
                   trigger={
                     <button
-                      className={`text-gray-200 text-sm flex gap-1 text-shadow md:rounded-full whitespace-nowrap mx-1 shrink-0 relative`}
+                      className={`text-gray-200 text-sm text-shadow rounded-full border border-gray-600 hover:bg-zinc-800 whitespace-nowrap  flex items-center`}
                       aria-label={villager.name}
                     >
-                      <Image
-                        src={villager.icon}
-                        width={40}
-                        height={40}
-                        alt={villager.name}
-                        title={villager.name}
-                        draggable={false}
-                        unoptimized={isOverwolfApp}
-                      />
-                      {weeklyWants.finished.filter(
-                        (v) =>
-                          v.villagerId === id && v.version === data?.version
-                      ).length >= 4 && <Finished />}
+                      <div className="relative">
+                        <Image
+                          src={villager.icon}
+                          width={40}
+                          height={40}
+                          alt={villager.name}
+                          title={villager.name}
+                          draggable={false}
+                          unoptimized={isOverwolfApp}
+                        />
+                        {weeklyWants.finished.filter(
+                          (v) =>
+                            v.villagerId === id && v.version === data?.version
+                        ).length >= 4 && <Finished />}
+                      </div>
+                      <span className="truncate px-2 mr-1">
+                        {villager.name}
+                      </span>
                     </button>
                   }
                 >
