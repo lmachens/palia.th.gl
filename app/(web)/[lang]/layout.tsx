@@ -36,7 +36,7 @@ function Layout({
   return (
     <html lang={lang}>
       <body
-        className={`${inter.className} h-screen bg-black text-white antialiased select-none overflow-hidden relative`}
+        className={`${inter.className} h-dscreen bg-black text-white antialiased select-none overflow-hidden relative`}
       >
         <I18NProvider
           value={{

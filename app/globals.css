@@ -17,6 +17,11 @@
   opacity: 0.5;
 }
 
+.h-dscreen {
+  @apply h-screen;
+  height: 100dvh;
+}
+
 .app .drawer {
   @apply top-[30px];
 }

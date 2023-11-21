@@ -60,26 +60,28 @@ export default async function Leaderboard({ dict }: { dict: DICT }) {
       };
     })
     .sort((a, b) => b.level - a.level)
-    .slice(0, 20);
+    .slice(0, 100);
 
   return (
     <div className="overflow-auto h-[calc(100%-50px)]">
       <div className="container mx-auto p-4 text-center">
         <h1 className="text-3xl font-bold mb-4">{dict.leaderboard.title}</h1>
         <p>{dict.leaderboard.description}</p>
-        <table className="table-auto mx-auto border-separate border-spacing-6">
+        <table className="table-fixed mx-auto border-separate border-spacing-4">
           <thead>
             <tr>
-              <th>{dict.leaderboard.level}</th>
+              <th>#</th>
               <th>{dict.leaderboard.name}</th>
+              <th>{dict.leaderboard.level}</th>
               <th className="hidden sm:block">{dict.leaderboard.skills}</th>
             </tr>
           </thead>
           <tbody>
-            {players.map((player) => (
+            {players.map((player, index) => (
               <tr key={player.id}>
+                <td className="text-gray-400">{index + 1}</td>
+                <td className="truncate max-w-[180px]">{player.name}</td>
                 <td>{player.level}</td>
-                <td className="truncate ">{player.name}</td>
                 <td className="gap-1 flex-wrap hidden sm:flex">
                   {player.skillLevels.map((skillLevel) => (
                     <div key={skillLevel.type} className="relative w-12 h-12">
