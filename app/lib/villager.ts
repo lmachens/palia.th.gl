@@ -121,7 +121,7 @@ export const villagers = {
   },
   thewatcher: {
     name: "Subira",
-    className: "BP_Villager_Subira_C",
-    icon: "/icons/T_Compass_Villager.png",
+    className: "BP_VillagerTheWatcher_C",
+    icon: "/icons/WT_Subira_Portrait.png",
   },
 } as const;
