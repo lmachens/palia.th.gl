@@ -2,6 +2,9 @@ export const location = {
   BP_DoorTeleporter_Parent_C_UAID_B04F1306E948198801_1687213524: {
     "bahari-bay": [[73257.74, -87690.41]],
   },
+  BP_InvisibleTeleporter_Parent_C_UAID_00BE43BC7D55F4AC01_1201166771: {
+    "bahari-bay": [[131291.83, -25085.64]],
+  },
   BP_InvisibleTeleporter_Parent_C_UAID_00BE43BC7D55F9A101_1768487034: {
     "bahari-bay": [[85085, -45645]],
   },
@@ -88,5 +91,8 @@ export const location = {
   },
   BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63FC7901_1912430989: {
     "kilima-valley": [[13339.7, 23134.44]],
+  },
+  BP_DoorTeleporter_Parent_C_UAID_00BE43BC7D5532AD01_1839565916: {
+    "kilima-valley": [[-2274.81, 5138.67]],
   },
 };

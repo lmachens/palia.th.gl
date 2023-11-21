@@ -90,6 +90,10 @@
       "name": "Northern Mineshaft",
       "description": "\"Closed by order of the Mayor!\""
     },
+    "BP_InvisibleTeleporter_Parent_C_UAID_00BE43BC7D55F4AC01_1201166771": {
+      "name": "???",
+      "description": "The hatch won't budge."
+    },
     "BP_InvisibleTeleporter_Parent_C_UAID_00BE43BC7D55F9A101_1768487034": {
       "name": "Enter Ruins",
       "description": "Needs Battery"
@@ -205,6 +209,10 @@
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63FC7901_1912430989": {
       "name": "Eshe's Room",
       "description": "You need a key from Eshe to enter."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_00BE43BC7D5532AD01_1839565916": {
+      "name": "Subira's Room",
+      "description": "You need a key from Subira to enter."
     }
   },
   "stable": {

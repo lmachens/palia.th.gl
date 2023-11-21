@@ -88,7 +88,11 @@
   "location": {
     "BP_DoorTeleporter_Parent_C_UAID_B04F1306E948198801_1687213524": {
       "name": "Pozo de la mina del norte",
-      "description": "¡Cerrado por orden del alcalde!"
+      "description": "«¡Cerrado por orden del alcalde!»"
+    },
+    "BP_InvisibleTeleporter_Parent_C_UAID_00BE43BC7D55F4AC01_1201166771": {
+      "name": "???",
+      "description": "La escotilla no se mueve."
     },
     "BP_InvisibleTeleporter_Parent_C_UAID_00BE43BC7D55F9A101_1768487034": {
       "name": "Entrar en las ruinas",
@@ -124,7 +128,7 @@
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE630D7901_1180776852": {
       "name": "Las Alcantarillas",
-      "description": "Termine primero el tutorial de parcela de vivienda"
+      "description": "Termina primero el tutorial de parcela de vivienda"
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63107901_1465714255": {
       "name": "Habitación de Sifuu",
@@ -176,7 +180,7 @@
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE631B7A01_2127635217": {
       "name": "Templo del Cielo Nocturno",
-      "description": "Termine primero el tutorial de parcela de vivienda"
+      "description": "Termina primero el tutorial de parcela de vivienda"
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63F77901_1205368166": {
       "name": "Habitación de Elouisa",
@@ -205,6 +209,10 @@
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63FC7901_1912430989": {
       "name": "Habitación de Eshe",
       "description": "Necesitas una llave de Eshe para entrar."
+    },
+    "BP_DoorTeleporter_Parent_C_UAID_00BE43BC7D5532AD01_1839565916": {
+      "name": "Habitación de Subira",
+      "description": "Necesitas una llave de Subira para entrar."
     }
   },
   "stable": {
@@ -228,7 +236,7 @@
       "name": "Bahari - Hideaway Bluffs"
     },
     "BP_Stables_Sign_UAID_7486E2271DBF409B01_2003868107": {
-      "name": "Recinto ferial de Kilima Village",
+      "name": "Recinto ferial del Pueblo de Kilima",
       "description": "No disponible hasta que se completen las misiones del tutorial."
     },
     "BP_Stables_Sign_UAID_6C02E03F65D9936101_1437950312": {
@@ -250,23 +258,23 @@
   },
   "zone": {
     "BP_GateTeleporter_Parent_C_UAID_CC96E503DE63137A01_1673725565": {
-      "name": "To Kilima Village",
+      "name": "Hacia el pueblo de Kilima",
       "description": null
     },
     "BP_GateTeleporter_Parent_C_UAID_CC96E503E0F4C4A401_1919574119": {
-      "name": "To Housing Plot",
+      "name": "Hacia la parcela",
       "description": null
     },
     "BP_GateTeleporter_Parent_C_UAID_CC96E503DE630E7901_1573823092": {
-      "name": "To Kilima Village",
+      "name": "Hacia el pueblo de Kilima",
       "description": null
     },
     "BP_GateTeleporter_Parent_C_UAID_CC96E503DE634E7A01_1976701586": {
-      "name": "Fairgrounds",
+      "name": "Recinto ferial",
       "description": null
     },
     "BP_GateTeleporter_Parent_C_UAID_CC96E503DE63627801_1776598294": {
-      "name": "To Bahari Bay",
+      "name": "Hacia Bahía de Bahari",
       "description": null
     }
   },
@@ -386,7 +394,7 @@
   },
   "housingPlot": {
     "BP_GateTeleporter_Parent_C_UAID_CC96E503E0F4C4A401_1919574119": {
-      "name": "To Housing Plot",
+      "name": "Hacia la parcela",
       "description": null
     }
   }
