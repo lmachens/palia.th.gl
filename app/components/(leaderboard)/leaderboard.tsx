@@ -41,7 +41,9 @@ const SKILL_ICONS = {
   // Master:"Icon_Skill_Bug_01.webp",
 };
 export default async function Leaderboard({ dict }: { dict: DICT }) {
-  const respone = await fetch("https://palia-api.th.gl/nodes?type=players");
+  const respone = await fetch("https://palia-api.th.gl/nodes?type=players", {
+    next: { revalidate: 60 },
+  });
   const data = (await respone.json()) as Players;
 
   const players = Object.entries(data)
