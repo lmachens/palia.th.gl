@@ -15,20 +15,21 @@ const Marker = function Marker({
   iconSize,
   onClick,
   featureGroup,
+  interactive,
 }: {
   id: string;
   node: NODE;
   type: string;
   isHighlighted: boolean;
   iconSize: number;
-  onClick: (node: NODE) => void;
+  onClick?: (node: NODE) => void;
   featureGroup: leaflet.FeatureGroup;
+  interactive?: boolean;
 }) {
   const dict = useDict();
   const marker = useRef<CanvasMarker | null>(null);
 
   useEffect(() => {
-    const interactive = type !== "area";
     const icon = node.isSpawnNode
       ? SPAWN_ICONS[type]
       : VILLAGER_ICONS[node.id] || ICONS[type as keyof typeof ICONS];
@@ -47,12 +48,13 @@ const Marker = function Marker({
     marker.current.addTo(featureGroup);
 
     if (interactive) {
-      marker.current.on("click", () => {
-        if (!useRoutesStore.getState().isCreating) {
-          onClick(node);
-        }
-      });
-
+      if (onClick) {
+        marker.current.on("click", () => {
+          if (!useRoutesStore.getState().isCreating) {
+            onClick(node);
+          }
+        });
+      }
       const tooltipContent = () => {
         const dictEntry = node.isSpawnNode
           ? dict.spawnNodes[type as keyof typeof dict.spawnNodes]

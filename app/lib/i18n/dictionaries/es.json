@@ -46,6 +46,12 @@
         "name": "Nombre",
         "skills": "Habilidades"
     },
+    "rummagePile": {
+        "metaTitle": "Descubre los Rummage Piles en Palia: ¡Tesores diarios te esperan!",
+        "metaDescription": "Descubre los lugares secretos de los Rummage Piles en Kilima Valley. Rastrea una vez al día en busca de emocionantes recompensas después del reinicio diario de Palia a las 4:00 AM UTC. Explora con nuestro mapa interactivo y aprovecha al máximo tus aventuras diarias en Palia. 🗺️✨",
+        "title": "Descubre los Rummage Piles en Palia: ¡Tesores diarios te esperan!",
+        "description": "Embárcate en una aventura diaria en Kilima Valley y descubre los lugares secretos de los Rummage Piles. Estos objetos únicos aparecen una vez al día en un lugar aleatorio, ofreciendo a los jugadores la oportunidad de buscar emocionantes recompensas. Interactúa con un Rummage Pile cada día después del reinicio diario de Palia a las 4:00 AM UTC para reclamar tu recompensa aleatoria. Utiliza nuestro mapa interactivo para localizar la posición de estos tesoros ocultos y mejora tu experiencia en Palia. No te pierdas las sorpresas diarias: ¡explora el mundo de Palia con el mapa de Rummage Pile! 🌟"
+    },
     "weeklyWants": {
         "subtitle": "Seguimiento de Deseos Semanales: ¡Descubre los Deseos de los Aldeanos de Palia!",
         "description": "Mejora tus relaciones con los vibrantes aldeanos de Palia utilizando la función de Seguimiento de Deseos Semanales. Mantente al tanto de los deseos únicos de cada aldeano para la semana."
@@ -74,7 +80,8 @@
         "contribute": "Contribuir",
         "weeklyWants": "Deseos Semanales",
         "interactiveMap": "Mapa Interactivo",
-        "leaderboard": "Clasificación"
+        "leaderboard": "Clasificación",
+        "rummagePile": "Rummage Pile"
     },
     "search": {
         "placeholder": "Buscar nodos",

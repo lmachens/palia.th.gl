@@ -17,6 +17,7 @@ export default function WebHeader({
 }) {
   const isDownloadPage = page === "download";
   const isLeaderboardPage = page === "leaderboard";
+  const isRummagePilePage = page === "rummage-pile";
   return (
     <header className="h-[50px] border-b bg-gradient-to-b py-2 border-neutral-800 bg-zinc-800/30 from-inherit">
       <nav className="max-w-7xl px-4 mx-auto flex items-center gap-2 text-sm font-bold">
@@ -32,12 +33,12 @@ export default function WebHeader({
           className={cn(
             "flex whitespace-nowrap items-center gap-1 text-gray-400 px-2 py-1 hover:text-white transition-colors",
             {
-              "text-brand": !isDownloadPage && !isLeaderboardPage,
+              "text-brand":
+                !isDownloadPage && !isLeaderboardPage && !isRummagePilePage,
             }
           )}
         >
           <svg
-            xmlns="http://www.w3.org/2000/svg"
             width="20"
             height="20"
             viewBox="0 0 24 24"
@@ -77,7 +78,31 @@ export default function WebHeader({
           </svg>
           <span className="hidden md:block">{dict.menu.leaderboard}</span>
         </Link>
-
+        <Link
+          href={`/${lang}/rummage-pile`}
+          className={cn(
+            "flex whitespace-nowrap items-center gap-1  text-gray-400 px-2 py-1 hover:text-white transition-colors",
+            {
+              "text-brand": isRummagePilePage,
+            }
+          )}
+        >
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M12 6l-8 4l8 4l8 -4l-8 -4" />
+            <path d="M4 14l8 4l8 -4" />
+          </svg>
+          <span className="hidden md:block">{dict.menu.rummagePile}</span>
+        </Link>
         <a
           href="https://discord.gg/NTZu8Px"
           target="_blank"

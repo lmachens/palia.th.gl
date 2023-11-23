@@ -1,5 +1,6 @@
 import Download from "@/app/components/(download)/download";
 import Leaderboard from "@/app/components/(leaderboard)/leaderboard";
+import RummagePile from "@/app/components/(rummage-pile)/rummage-pile";
 import WeeklyWants from "@/app/components/(weekly-wants)/weekly-wants";
 import Search from "@/app/components/search";
 import WebHeader from "@/app/components/web-header";
@@ -43,6 +44,8 @@ async function Layout({
     content = <Download />;
   } else if (map === "leaderboard") {
     content = <Leaderboard dict={dict} />;
+  } else if (map === "rummage-pile") {
+    content = <RummagePile dict={dict} />;
   } else {
     const mapTitle = decodeURIComponent(map);
     const mapEntry = Object.entries(dict.maps).find(([, value]) => {

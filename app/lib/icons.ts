@@ -1,4 +1,3 @@
-import { spawnNodes } from "./nodes";
 import { spawnGroups } from "./spawn-groups";
 import { spawnIcons } from "./spawn-icons";
 import { villagers } from "./villager";
@@ -42,11 +41,15 @@ export const ICONS = {
     src: "/icons/T_Compass_Villager.png",
     radius: 14,
   },
+  rummagePile: {
+    src: "/icons/WT_Backer_Map_Marker_White.png",
+    radius: 14,
+  },
 } as const;
 
-export const SPAWN_ICONS = Object.keys(spawnNodes).reduce((acc, type) => {
-  Object.entries(spawnGroups).find(([groupName, group]) => {
-    if (group.includes(type)) {
+export const SPAWN_ICONS = Object.entries(spawnGroups).reduce(
+  (acc, [groupName, group]) => {
+    group.forEach((type) => {
       const spawnIcon = spawnIcons[type as keyof typeof spawnIcons];
       if (spawnIcon) {
         let radius = 10;
@@ -72,11 +75,15 @@ export const SPAWN_ICONS = Object.keys(spawnNodes).reduce((acc, type) => {
         };
       }
       return true;
-    }
-    return false;
-  });
-  return acc;
-}, {} as Record<string, { color: string; lineWidth: number; path: string; radius: number } | { src: string; radius: number }>);
+    });
+    return acc;
+  },
+  {} as Record<
+    string,
+    | { color: string; lineWidth: number; path: string; radius: number }
+    | { src: string; radius: number }
+  >
+);
 
 export const VILLAGER_ICONS = Object.values(villagers).reduce(
   (acc, villager) => {

@@ -46,6 +46,12 @@
         "name": "Nom",
         "skills": "Compétences"
     },
+    "rummagePile": {
+        "metaTitle": "Découvrez les Rummage Piles à Palia : Des trésors quotidiens vous attendent !",
+        "metaDescription": "Découvrez les emplacements secrets des Rummage Piles dans Kilima Valley. Fouillez une fois par jour pour des récompenses passionnantes après la réinitialisation quotidienne de Palia à 4:00 AM UTC. Explorez avec notre carte interactive et profitez au maximum de vos aventures quotidiennes à Palia ! 🗺️✨",
+        "title": "Découvrez les Rummage Piles à Palia : Des trésors quotidiens vous attendent !",
+        "description": "Embarquez pour une aventure quotidienne dans Kilima Valley et découvrez les emplacements secrets des Rummage Piles. Ces objets de collection uniques apparaissent une fois par jour à un endroit aléatoire, offrant aux joueurs la possibilité de chercher des récompenses passionnantes. Interagissez avec un Rummage Pile chaque jour après la réinitialisation quotidienne de Palia à 4:00 AM UTC pour obtenir votre récompense aléatoire. Utilisez notre carte interactive pour localiser la position de ces trésors cachés et améliorez votre expérience à Palia. Ne manquez pas les surprises quotidiennes : explorez le monde de Palia avec la carte de Rummage Pile ! 🌟"
+    },
     "weeklyWants": {
         "subtitle": "Suivi des Envies Hebdomadaires : Découvrez les Désirs des Villageois de Palia !",
         "description": "Améliorez vos relations avec les villageois animés de Palia grâce à la fonction de suivi des envies hebdomadaires. Restez au courant des désirs uniques de chaque villageois pour la semaine."
@@ -74,7 +80,8 @@
         "contribute": "Contribuer",
         "weeklyWants": "Envies Hebdomadaires",
         "interactiveMap": "Carte Interactive",
-        "leaderboard": "Classement"
+        "leaderboard": "Classement",
+        "rummagePile": "Rummage Pile"
     },
     "search": {
         "placeholder": "Rechercher un emplacement",

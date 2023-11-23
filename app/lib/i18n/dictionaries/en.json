@@ -46,6 +46,12 @@
     "name": "Name",
     "skills": "Skills"
   },
+  "rummagePile": {
+    "metaTitle": "Discover Rummage Piles in Palia: Daily Treasures Await!",
+    "metaDescription": "Uncover the secret locations of Rummage Piles in Kilima Valley. Scavenge once per day for exciting rewards after the Palia daily reset at 4:00 AM UTC. Explore with our interactive map and make the most of your daily adventures in Palia! 🗺️✨",
+    "title": "Discover Rummage Piles in Palia: Daily Treasures Await!",
+    "description": "Embark on a daily adventure in Kilima Valley and uncover the secret locations of Rummage Piles. These unique gatherables appear once per day at a random spot, offering players the chance to scavenge for exciting rewards. Interact with a Rummage Pile each day after the Palia daily reset at 4:00 AM UTC to claim your random reward. Use our interactive map to pinpoint the position of these hidden treasures and enhance your Palia experience. Don't miss out on the daily surprises—explore the world of Palia with the Rummage Pile Map! 🌟"
+  },
   "weeklyWants": {
     "subtitle": "Weekly Wants Tracker: Uncover Palia's Villager Desires!",
     "description": "Elevate your relationships with Palia's vibrant villagers using the Weekly Wants Tracker feature. Stay in the loop with each villager's unique desires for the week."
@@ -74,7 +80,8 @@
     "contribute": "Contribute",
     "weeklyWants": "Weekly Wants",
     "interactiveMap": "Interactive Map",
-    "leaderboard": "Leaderboard"
+    "leaderboard": "Leaderboard",
+    "rummagePile": "Rummage Pile"
   },
   "search": {
     "placeholder": "Search nodes",

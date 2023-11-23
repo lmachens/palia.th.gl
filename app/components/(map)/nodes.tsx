@@ -102,6 +102,7 @@ export default function Nodes() {
           iconSize={iconSize}
           onClick={onMarkerClick}
           featureGroup={featureGroup}
+          interactive={node.type !== "area"}
         />
       ))}
     </>

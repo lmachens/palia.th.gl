@@ -46,6 +46,12 @@
         "name": "Name",
         "skills": "Fähigkeiten"
     },
+    "rummagePile": {
+        "metaTitle": "Entdecke Rummage Piles in Palia: Tägliche Schätze warten!",
+        "metaDescription": "Enthülle die geheimen Standorte der Rummage Piles im Kilima Valley. Durchsuche einmal täglich nach aufregenden Belohnungen nach dem täglichen Palia-Reset um 4:00 Uhr UTC. Nutze unsere interaktive Karte und mache das Beste aus deinen täglichen Abenteuern in Palia! 🗺️✨",
+        "title": "Entdecke Rummage Piles in Palia: Tägliche Schätze warten!",
+        "description": "Begib dich auf ein tägliches Abenteuer im Kilima Valley und enthülle die geheimen Standorte der Rummage Piles. Diese einzigartigen Sammelobjekte erscheinen einmal täglich an einer zufälligen Stelle und bieten Spielern die Möglichkeit, aufregende Belohnungen zu sammeln. Interagiere jeden Tag nach dem täglichen Palia-Reset um 4:00 Uhr UTC mit einem Rummage Pile, um deine zufällige Belohnung zu erhalten. Nutze unsere interaktive Karte, um die Position dieser versteckten Schätze zu bestimmen, und verbessere dein Palia-Erlebnis. Verpasse nicht die täglichen Überraschungen – entdecke die Welt von Palia mit der Rummage Pile Map! 🌟"
+    },
     "weeklyWants": {
         "subtitle": "Wöchentlicher Wunschtracker: Entdecke die Wünsche der Dorfbewohner von Palia!",
         "description": "Verbessere deine Beziehungen zu den lebendigen Dorfbewohnern von Palia mit der Funktion des Wöchentlichen Wunschtrackers. Bleibe auf dem Laufenden über die einzigartigen Wünsche jedes Dorfbewohners für die Woche."
@@ -74,7 +80,8 @@
         "contribute": "Beitragen",
         "weeklyWants": "Wöchentliche Wünsche",
         "interactiveMap": "Interaktive Karte",
-        "leaderboard": "Rangliste"
+        "leaderboard": "Rangliste",
+        "rummagePile": "Rummage Pile"
     },
     "search": {
         "placeholder": "Suche Marker",
