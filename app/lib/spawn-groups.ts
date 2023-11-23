@@ -95,6 +95,7 @@ export const spawnGroups = {
     "BP_TreeChoppable_Oak_Small_CoOp_C",
     "BP_TreeChoppable_Pine_Large_C",
     "BP_TreeChoppable_Pine_Large_CoOp_C",
+    "BP_TreeChoppable_Pine_Large2_CoOp_C",
     "BP_TreeChoppable_Pine_Medium_C",
     "BP_TreeChoppable_Pine_Medium_CoOp_C",
     "BP_TreeChoppable_Pine_Sapling_CoOp_C",
@@ -108,6 +109,9 @@ export const spawnGroups = {
     "BP_ValeriaHuntingCreature_Chapaa_T1_C",
     "BP_ValeriaHuntingCreature_Chapaa_T2_C",
     "BP_ValeriaHuntingCreature_Chapaa_T3_C",
+    "BP_ValeriaHuntingCreature_TreeClimber_T1_C",
+    "BP_ValeriaHuntingCreature_TreeClimber_T2_C",
+    "BP_ValeriaHuntingCreature_TreeClimber_T3_C",
   ],
   hotspots: [
     "BP_WaterPlane_Fishing_AZ1_Cave_SQ_C",

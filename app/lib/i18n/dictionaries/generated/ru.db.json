@@ -19,6 +19,9 @@
     "name": "Кооператив \"Пикни",
     "description": "Может содержать несколько Piqni."
   },
+  "DA_AirBundle": {
+    "name": "Vault of the Gales"
+  },
   "DA_FireBundle": {
     "name": "Хранилище Пламени"
   },
@@ -154,11 +157,50 @@
   "DA_CCI_FaceMask_Summer01_Variant02_Parent": {
     "name": "Удаленный"
   },
+  "DA_CCI_Glider_Basic_01": {
+    "name": "Glider"
+  },
+  "DA_CCI_Glider_Basic_02": {
+    "name": "Glider"
+  },
+  "DA_CCI_Glider_Basic_03": {
+    "name": "Glider"
+  },
+  "DA_CCI_Glider_Basic_04": {
+    "name": "Glider"
+  },
+  "DA_CCI_Glider_Basic_05": {
+    "name": "Glider"
+  },
+  "DA_CCI_Glider_Basic_06": {
+    "name": "Glider"
+  },
+  "DA_CCI_Glider_Basic_07": {
+    "name": "Dragon Glider"
+  },
+  "DA_CCI_Glider_Basic_09": {
+    "name": "Glider"
+  },
+  "DA_CCI_Glider_Basic_12": {
+    "name": "Glider"
+  },
+  "DA_CCI_Glider_Basic_Dragon01": {
+    "name": "Dragon Glider"
+  },
+  "DA_CCI_Glider_Basic_Pheonix01": {
+    "name": "Phoenix Glider"
+  },
+  "DA_CCI_Glider_Basic_Ravenwood01": {
+    "name": "Ravenwood Glider"
+  },
   "DA_CCI_Glider_Chapaa01": {
     "name": "Чапаа Планер"
   },
   "DA_CCI_Glider_Default": {
     "name": "Планер по Умолчанию"
+  },
+  "DA_CCI_Glider_Mushroom01": {
+    "name": "Mushroom Glider"
   },
   "DA_CCI_Hat_Carpenter01_Base": {
     "name": "Небоскреб"
@@ -196,6 +238,9 @@
   "DA_CCI_Hat_Fairy01_Variant02_Parent": {
     "name": "Яркоцвет"
   },
+  "DA_CCI_Hat_FestiveSweater01_Variant03_Parent": {
+    "name": "Leapfroggy"
+  },
   "DA_CCI_Hat_GeekChic01_Base_Parent": {
     "name": "Художественная литература"
   },
@@ -229,6 +274,15 @@
   "DA_CCI_Hat_JollyBaker01_Variant02_Parent": {
     "name": "Тыквенный пекарь"
   },
+  "DA_CCI_Hat_MilitaryGoth01_Base_Parent": {
+    "name": "Checkmate"
+  },
+  "DA_CCI_Hat_MilitaryGoth01_Variant01_Parent": {
+    "name": "Queen's Gambit"
+  },
+  "DA_CCI_Hat_MilitaryGoth01_Variant02_Parent": {
+    "name": "En Passant"
+  },
   "DA_CCI_Hat_MochiMerchant01_Base_Parent": {
     "name": "Рынок Моти"
   },
@@ -237,6 +291,15 @@
   },
   "DA_CCI_Hat_MochiMerchant01_Variant02_Parent": {
     "name": "Такояки"
+  },
+  "DA_CCI_Hat_MushroomForager01_Base_Parent": {
+    "name": "Blusher"
+  },
+  "DA_CCI_Hat_MushroomForager01_Variant01_Parent": {
+    "name": "Amanita"
+  },
+  "DA_CCI_Hat_MushroomForager01_Variant02_Parent": {
+    "name": "Chanterelle"
   },
   "DA_CCI_Hat_PalianWinterCoat01_Base_Parent": {
     "name": "Хрустальная поляна"
@@ -274,6 +337,15 @@
   "DA_CCI_Hat_PlagueDoctor01_Variant02_Parent": {
     "name": "Специалист"
   },
+  "DA_CCI_Hat_PlushieCollector02_Base_Parent": {
+    "name": "Lilypad Leaper"
+  },
+  "DA_CCI_Hat_PlushieCollector02_Variant01_Parent": {
+    "name": "Bamboo Bandit"
+  },
+  "DA_CCI_Hat_PlushieCollector02_Variant02_Parent": {
+    "name": "Redland Rover"
+  },
   "DA_CCI_Hat_Rancher01_Base_Parent": {
     "name": "Bone Dry"
   },
@@ -300,6 +372,15 @@
   },
   "DA_CCI_Hat_RiverGuardian01_Variant02_Parent": {
     "name": "Моль"
+  },
+  "DA_CCI_Hat_Skateboarder01_Base_Parent": {
+    "name": "Vivid Valley"
+  },
+  "DA_CCI_Hat_Skateboarder01_Variant01_Parent": {
+    "name": "Proudhorn"
+  },
+  "DA_CCI_Hat_Skateboarder01_Variant02_Parent": {
+    "name": "Proudhorn"
   },
   "DA_CCI_Hat_SkyCaptain01_Base_Parent": {
     "name": "Пилот"
@@ -457,6 +538,18 @@
   "DA_CCI_Legs_Farmer01_Variant02_Parent": {
     "name": "Энтузиаст Ормуу"
   },
+  "DA_CCI_Legs_FestiveSweater01_Base_Parent": {
+    "name": "Natural Wool"
+  },
+  "DA_CCI_Legs_FestiveSweater01_Variant01_Parent": {
+    "name": "Knit Garden"
+  },
+  "DA_CCI_Legs_FestiveSweater01_Variant02_Parent": {
+    "name": "Argyle Weave"
+  },
+  "DA_CCI_Legs_FestiveSweater01_Variant03_Parent": {
+    "name": "Leapfroggy"
+  },
   "DA_CCI_Legs_Formal01_Base_Parent": {
     "name": "Костюм в полоску"
   },
@@ -498,6 +591,15 @@
   },
   "DA_CCI_Legs_Herbalist01_Variant02_Parent": {
     "name": "Полевые работы"
+  },
+  "DA_CCI_Legs_HikingVest01_Base_Parent": {
+    "name": "On the Road"
+  },
+  "DA_CCI_Legs_HikingVest01_Variant01_Parent": {
+    "name": "In the Brush"
+  },
+  "DA_CCI_Legs_HikingVest01_Variant02_Parent": {
+    "name": "Across the Plains"
   },
   "DA_CCI_Legs_Hoodie01_Base_Parent": {
     "name": "Завод-родитель"
@@ -562,11 +664,38 @@
   "DA_CCI_Legs_MellowSummer01_Variant01_Parent": {
     "name": "Променад"
   },
+  "DA_CCI_Legs_MilitaryGoth01_Base_Parent": {
+    "name": "Checkmate"
+  },
+  "DA_CCI_Legs_MilitaryGoth01_Variant01_Parent": {
+    "name": "Queen's Gambit"
+  },
+  "DA_CCI_Legs_MilitaryGoth01_Variant02_Parent": {
+    "name": "En Passant"
+  },
+  "DA_CCI_Legs_MushroomForager01_Base_Parent": {
+    "name": "Blusher"
+  },
+  "DA_CCI_Legs_MushroomForager01_Variant01_Parent": {
+    "name": "Amanita"
+  },
+  "DA_CCI_Legs_MushroomForager01_Variant02_Parent": {
+    "name": "Chanterelle"
+  },
   "DA_CCI_Legs_OldClothes01_Base_Parent": {
     "name": "Просто Сшитый"
   },
   "DA_CCI_Legs_OldClothes01_Variant01_Parent": {
     "name": "Грубая тесаная доска"
+  },
+  "DA_CCI_Legs_OversizedTuck01_Base_Parent": {
+    "name": "All Mountain"
+  },
+  "DA_CCI_Legs_OversizedTuck01_Variant01_Parent": {
+    "name": "Big Air"
+  },
+  "DA_CCI_Legs_OversizedTuck01_Variant02_Parent": {
+    "name": "Slopestyle"
   },
   "DA_CCI_Legs_PalianWinterCoat01_Base_Parent": {
     "name": "Хрустальная поляна"
@@ -603,6 +732,15 @@
   },
   "DA_CCI_Legs_PlagueDoctor01_Variant02_Parent": {
     "name": "Специалист"
+  },
+  "DA_CCI_Legs_PlushieCollector02_Base_Parent": {
+    "name": "Lilypad Leaper"
+  },
+  "DA_CCI_Legs_PlushieCollector02_Variant01_Parent": {
+    "name": "Bamboo Bandit"
+  },
+  "DA_CCI_Legs_PlushieCollector02_Variant02_Parent": {
+    "name": "Redland Rover"
   },
   "DA_CCI_Legs_Rancher01_Base_Parent": {
     "name": "Bone Dry"
@@ -675,6 +813,15 @@
   },
   "DA_CCI_Legs_Silk01_Variant01_Parent": {
     "name": "Tranquility"
+  },
+  "DA_CCI_Legs_Skateboarder01_Base_Parent": {
+    "name": "Vivid Valley"
+  },
+  "DA_CCI_Legs_Skateboarder01_Variant01_Parent": {
+    "name": "Proudhorn"
+  },
+  "DA_CCI_Legs_Skateboarder01_Variant02_Parent": {
+    "name": "Proudhorn"
   },
   "DA_CCI_Legs_SkyCaptain01_Base_Parent": {
     "name": "Пилот"
@@ -928,6 +1075,18 @@
   "DA_CCI_Torso_Farmer01_Variant02_Parent": {
     "name": "Энтузиаст Ормуу"
   },
+  "DA_CCI_Torso_FestiveSweater01_Base_Parent": {
+    "name": "Natural Wool"
+  },
+  "DA_CCI_Torso_FestiveSweater01_Variant01_Parent": {
+    "name": "Knit Garden"
+  },
+  "DA_CCI_Torso_FestiveSweater01_Variant02_Parent": {
+    "name": "Argyle Weave"
+  },
+  "DA_CCI_Torso_FestiveSweater01_Variant03_Parent": {
+    "name": "Leapfroggy"
+  },
   "DA_CCI_Torso_Formal01_Base_Parent": {
     "name": "Костюм в полоску"
   },
@@ -978,6 +1137,15 @@
   },
   "DA_CCI_Torso_Herbalist01_Variant02_Parent": {
     "name": "Полевые работы"
+  },
+  "DA_CCI_Torso_HikingVest01_Base_Parent": {
+    "name": "On the Road"
+  },
+  "DA_CCI_Torso_HikingVest01_Variant01_Parent": {
+    "name": "In the Brush"
+  },
+  "DA_CCI_Torso_HikingVest01_Variant02_Parent": {
+    "name": "Across the Plains"
   },
   "DA_CCI_Torso_Hoodie01_Base_Parent": {
     "name": "Завод-родитель"
@@ -1042,6 +1210,15 @@
   "DA_CCI_Torso_MellowSummer01_Variant01_Parent": {
     "name": "Променад"
   },
+  "DA_CCI_Torso_MilitaryGoth01_Base_Parent": {
+    "name": "Checkmate"
+  },
+  "DA_CCI_Torso_MilitaryGoth01_Variant01_Parent": {
+    "name": "Queen's Gambit"
+  },
+  "DA_CCI_Torso_MilitaryGoth01_Variant02_Parent": {
+    "name": "En Passant"
+  },
   "DA_CCI_Torso_MochiMerchant01_Base_Parent": {
     "name": "Рынок Моти"
   },
@@ -1051,11 +1228,29 @@
   "DA_CCI_Torso_MochiMerchant01_Variant02_Parent": {
     "name": "Такояки"
   },
+  "DA_CCI_Torso_MushroomForager01_Base_Parent": {
+    "name": "Blusher"
+  },
+  "DA_CCI_Torso_MushroomForager01_Variant01_Parent": {
+    "name": "Amanita"
+  },
+  "DA_CCI_Torso_MushroomForager01_Variant02_Parent": {
+    "name": "Chanterelle"
+  },
   "DA_CCI_Torso_OldClothes01_Base_Parent": {
     "name": "Просто Сшитый"
   },
   "DA_CCI_Torso_OldClothes01_Variant01_Parent": {
     "name": "Грубая тесаная доска"
+  },
+  "DA_CCI_Torso_OversizedTuck01_Base_Parent": {
+    "name": "All Mountain"
+  },
+  "DA_CCI_Torso_OversizedTuck01_Variant01_Parent": {
+    "name": "Big Air"
+  },
+  "DA_CCI_Torso_OversizedTuck01_Variant02_Parent": {
+    "name": "Slopestyle"
   },
   "DA_CCI_Torso_PalianWinterCoat01_Base_Parent": {
     "name": "Хрустальная поляна"
@@ -1092,6 +1287,15 @@
   },
   "DA_CCI_Torso_PlagueDoctor01_Variant02_Parent": {
     "name": "Специалист"
+  },
+  "DA_CCI_Torso_PlushieCollector02_Base_Parent": {
+    "name": "Lilypad Leaper"
+  },
+  "DA_CCI_Torso_PlushieCollector02_Variant01_Parent": {
+    "name": "Bamboo Bandit"
+  },
+  "DA_CCI_Torso_PlushieCollector02_Variant02_Parent": {
+    "name": "Redland Rover"
   },
   "DA_CCI_Torso_PrairieDress01_Base_Parent": {
     "name": "Саженцы"
@@ -1179,6 +1383,15 @@
   },
   "DA_CCI_Torso_Silk01_Variant01_Parent": {
     "name": "Tranquility"
+  },
+  "DA_CCI_Torso_Skateboarder01_Base_Parent": {
+    "name": "Vivid Valley"
+  },
+  "DA_CCI_Torso_Skateboarder01_Variant01_Parent": {
+    "name": "Proudhorn"
+  },
+  "DA_CCI_Torso_Skateboarder01_Variant02_Parent": {
+    "name": "Proudhorn"
   },
   "DA_CCI_Torso_SkyCaptain01_Base_Parent": {
     "name": "Пилот"
@@ -1510,6 +1723,10 @@
   "DA_ItemType_Ammo_InsectBall_Supreme": {
     "name": "Высококачественная дымовая шашка",
     "description": "Вы никогда не промахнетесь! Эта дымовая шашка обладает идеальной скоростью!"
+  },
+  "DA_ItemType_SnowBall": {
+    "name": "Snow Ball",
+    "description": "Snow Ball"
   },
   "DA_ItemType_Ammo_Arrow_Fireworks_Random": {
     "name": "Стрела с Фейерверком",
@@ -1915,6 +2132,14 @@
     "name": "Чипсы и Сальса",
     "description": "Описание чипсов и сальсы"
   },
+  "DA_ItemType_C_AlmondCookies": {
+    "name": "Delaila's Almond Cookies",
+    "description": "Not to be confused with some kind of weird protein cookies. "
+  },
+  "DA_ItemType_C_BanhChung": {
+    "name": "Reth's Bánh Chưng",
+    "description": "Sticky Rice Square with delicious fillings. Can be sweet or salty."
+  },
   "DA_ItemType_C_BanhMi": {
     "name": "Бан Ми Рета",
     "description": "Мясное ассорти и маринованные овощи в воздушном хлебе. Вдохновлен бутербродом, который Рет однажды нашел у водопада. Продается в лавке Деликатесов Рета."
@@ -1934,6 +2159,10 @@
   "DA_ItemType_C_BunnyCake": {
     "name": "Слойка-Попрыгунья Делайлы",
     "description": "Мягкая и нежная, как настоящий попрыгун! Такая легкая и воздушная, что может улететь прямиком на луну. Продается в лавке сладостей Делайлы."
+  },
+  "DA_ItemType_C_CabbageRolls": {
+    "name": "Cabbage Rolls",
+    "description": "Can be made with any type of protein"
   },
   "DA_ItemType_C_ChapaaAsadaTacos": {
     "name": "Чапаа Тако Асада",
@@ -1959,9 +2188,33 @@
     "name": "Кофе",
     "description": "Описание кофе"
   },
+  "DA_ItemType_C_Congee": {
+    "name": "Congee",
+    "description": "Humble rice slow simmered over a fire until it turns into a soft porridge. Simple and hearty."
+  },
+  "DA_ItemType_C_Congee_Dough": {
+    "name": "Fried Dough Congee",
+    "description": "Humble rice slow simmered over a fire until it turns into a soft porridge, topped with a carby pop of crispy fried dough. Simple and hearty."
+  },
+  "DA_ItemType_C_Congee_Egg": {
+    "name": "Century Egg Congee",
+    "description": "Humble rice slow simmered over a fire until it turns into a soft porridge with a sharp century egg taking flavor's center stage. Simple and hearty."
+  },
+  "DA_ItemType_C_Congee_Meat": {
+    "name": "Shredded Meat Congee",
+    "description": "Humble rice slow simmered over a fire until it turns into a soft porridge, garnished with tender, slow-cooked meat. Simple and hearty."
+  },
+  "DA_ItemType_C_Congee_OnionGarlic": {
+    "name": "Onion and Garlic Congee",
+    "description": "Humble rice slow simmered over a fire until it turns into a soft porridge, sprinkled with zesty green onions and garlic. Simple and hearty."
+  },
   "DA_ItemType_C_CornDogs": {
     "name": "Корн-доги Рета",
     "description": "Сосиски в кукурузной оболочке, обжаренные во фритюре. На палочке еда всегда вкуснее. Продаются в лавке Деликатесов Рета."
+  },
+  "DA_ItemType_C_CrabFriedRice": {
+    "name": "Spicy Crab Fried Rice",
+    "description": "Exactly what you would expect based on its name."
   },
   "DA_ItemType_C_CrabGumbo": {
     "name": "Гамбо с Крабами",
@@ -1978,6 +2231,10 @@
   "DA_ItemType_C_Dessert_Macaron": {
     "name": "Макарун",
     "description": "Легкие, нежные сэндвичи из печенья с масляным кремом. Трудно съесть только один."
+  },
+  "DA_ItemType_C_Dessert_PetitFives": {
+    "name": "Petit Fives",
+    "description": "A bite-sized morsel of cloying joy. Neat as a pin, these delicacies were designed by the oddly geometrical chef John Petit. It's a waste of cake, but the man loved his pentagons."
   },
   "DA_ItemType_C_Dessert_Pie_Apple": {
     "name": "Яблочный Пирог",
@@ -2019,6 +2276,10 @@
     "name": "Фениксфайр Реллено",
     "description": "Острый перец, покрытый яйцом и фаршированный мясом на выбор. От одного укуса можно вспотеть! Или отправиться прямиком в ближайшую больницу."
   },
+  "DA_ItemType_C_EightTreasureRice": {
+    "name": "Delaila's Eight Treasure Rice",
+    "description": "Can you name all eight treasures in the rice? I bet Reth can't!"
+  },
   "DA_ItemType_C_FishermansBrew": {
     "name": "Рыбацкое Варево",
     "description": "Этот подозрительный напиток имеет странный запах, который можно описать только как \"моховой\", но Эйнар клянется им. На короткое время увеличивает размер рыболовного прицела."
@@ -2059,6 +2320,10 @@
     "name": "Рожок Мороженого Делайлы",
     "description": "Тонкий рожок с фруктами и кремом. Переверните его вверх дном и наденьте на голову, чтобы получить симпатичную, хотя и липкую, шляпку. Продается в лавке сладостей Делайлы."
   },
+  "DA_ItemType_C_Hopia": {
+    "name": "Delaila's Hopia",
+    "description": "A round pastry filled with delicious paste."
+  },
   "DA_ItemType_C_HotHounds": {
     "name": "Горячие Сосиски",
     "description": "Свежеприготовленная сосиска, политая соусом и завернутая в поджаристую булочку. Ешьте, пока горячо!"
@@ -2070,6 +2335,22 @@
   "DA_ItemType_C_Hot_Tea": {
     "name": "Горячий Чай",
     "description": "Описание Горячего Чая"
+  },
+  "DA_ItemType_C_Kapse": {
+    "name": "Delilah's Kapse",
+    "description": "A light fried pastry."
+  },
+  "DA_ItemType_C_KimchiFriedRice": {
+    "name": "Kimchi Fried Rice",
+    "description": "Fried rice with kimchi, topped with a perfectly fried egg."
+  },
+  "DA_ItemType_C_LuckyBraisedFish": {
+    "name": "Lucky Braised Fish",
+    "description": "This seemingly simple recipe requires many steps to truly make it from scratch. Considered lucky if you can consume it without breaking the skeleton!"
+  },
+  "DA_ItemType_C_Lumpia": {
+    "name": "Reth's Lumpia",
+    "description": "Crispy roll filled with ground meat and veggies."
   },
   "DA_ItemType_C_MeatyUdon": {
     "name": "Удон с Мясом",
@@ -2083,9 +2364,33 @@
     "name": "Мороженое-моти Рета",
     "description": "Шарик мороженого, завернутый в моти. Восхитительная совместная работа Рета и Делайлы. Продается в лавке Деликатесов Рета."
   },
+  "DA_ItemType_C_MushroomDumplingSoup": {
+    "name": "Mushroom Dumpling Soup",
+    "description": "Mushroom Dumplings in Mushroom Soup for the Fungi in you!"
+  },
+  "DA_ItemType_C_MuujinBahari_Cooked": {
+    "name": "Muujin Bahari",
+    "description": "A rich, meaty, sumptuous dish that was the favorite of Baron Hepzikiah von Bahari. Legend tells he would eat five a day, every day, and nothing else. Historians remain divided on what role, if any, this diet had in the massive heart attack that claimed his life at the tragically young age of 27."
+  },
+  "DA_ItemType_C_NianGao": {
+    "name": "Delaila's Nian Gao",
+    "description": "A rice cake like no other."
+  },
+  "DA_ItemType_C_NoodleRolls": {
+    "name": "Reth's Noodle Rolls",
+    "description": "Sheets of rice noodle rolled up to make real fat noodles filled with flavor. Great comfort food!"
+  },
   "DA_ItemType_C_Onigiri": {
     "name": "Чапаа Онигири",
     "description": "Привезите домой вкус Ярмарки Маджи, приготовив эти рисовые шарики с начинкой из сливочного мяса чапаа. Они удобно помещаются в карманах!"
+  },
+  "DA_ItemType_C_OystersAkwinduu": {
+    "name": "Oysters Akwinduu",
+    "description": "Spiced veggies and meat baked on the half shell. Recently voted \"Most inefficient way to eat bacon\" by Stew & Brine Magazine"
+  },
+  "DA_ItemType_C_PanFriedDumplings": {
+    "name": "Pan Fried Dumplings",
+    "description": "Hits the spot."
   },
   "DA_ItemType_C_PeachCake": {
     "name": "Персиковый Торт Делайлы",
@@ -2147,6 +2452,14 @@
     "name": "Овощной Суп Рета",
     "description": "Состоит в основном из салата-латука. По крайней мере, в нем достаточно овощей, чтобы считаться сытным. Подают в Роге Ормуу. "
   },
+  "DA_ItemType_C_RiceCakeSoup": {
+    "name": "Rice Cake Soup",
+    "description": "The hot soup makes the rice cakes soft and squishy - yum! :D"
+  },
+  "DA_ItemType_C_RiceCakeStirFry": {
+    "name": "Rice Cake Stir Fry",
+    "description": "Stir Fry with Rice Cakes instead of steamed rice - it's worth the extra work!"
+  },
   "DA_ItemType_C_RolledIceCream": {
     "name": "Жареное Мороженое Делайлы",
     "description": "Шарики мороженого, увенчанные еще большим количеством лакомств. Отличный выбор, чтобы заморозить мозг! Продаются в лавке сладостей Делайлы."
@@ -2159,6 +2472,10 @@
     "name": "Сашими",
     "description": "Простой обед из кусочков сырой рыбы с гарниром из обычного риса. На короткое время повышает прочность удочки."
   },
+  "DA_ItemType_C_SesameBalls": {
+    "name": "Delaila's Fried Sesame Balls",
+    "description": "Crispy on the outside, chewy on the inside, filled with delightful red bean paste."
+  },
   "DA_ItemType_C_ShepardsPie": {
     "name": "Пирог Шеппа",
     "description": "Этот пирог может показаться простым, но это совсем не так. Этот пирог, наполненный сочным мясом чапаа и пикантной смесью приправленных овощей, вызывает взрыв вкуса в каждом кусочке."
@@ -2166,6 +2483,10 @@
   "DA_ItemType_C_SpicyStirFry": {
     "name": "Острое Жаркое",
     "description": "Яркая и острая вариация традиционного жаркого, это блюдо за несколько секунд заставит вас жаждать выпить стакан холодной воды"
+  },
+  "DA_ItemType_C_SteamedFish": {
+    "name": "Steamed Fish",
+    "description": "This recipe is so simple. IRL you could make this in the microwave!"
   },
   "DA_ItemType_C_Stew_Bouilbaisse": {
     "name": "Буйабес",
@@ -2190,6 +2511,34 @@
   "DA_ItemType_C_Sushi": {
     "name": "Суши",
     "description": "Приятное блюдо из приправленного риса с сырой рыбой, посыпанное специями. На короткое время улучшает здоровье удочки."
+  },
+  "DA_ItemType_C_Taiyaki_Custard": {
+    "name": "Delaila's Custard Taiyaki",
+    "description": "Fish shaped snack filled with a sweet milk custard."
+  },
+  "DA_ItemType_C_Taiyaki_Original": {
+    "name": "Delaila's Original Taiyaki",
+    "description": "Standard fish shaped snack filled with red bean."
+  },
+  "DA_ItemType_C_Taiyaki_Pandan": {
+    "name": "Delaila's Pandan Taiyaki",
+    "description": "Fish shaped snack flavored with a fragrant green leaf."
+  },
+  "DA_ItemType_C_Taiyaki_Spicy": {
+    "name": "Delaila's Taiyaki Surprise",
+    "description": "Fish shaped snack packs a surprising punch!"
+  },
+  "DA_ItemType_C_Taiyaki_Ube": {
+    "name": "Delaila's Ube Taiyaki",
+    "description": "Fish shaped snack flavored with a sweet purple potato."
+  },
+  "DA_ItemType_C_TakeoutSalty": {
+    "name": "Salty Takeout",
+    "description": "Bonus food from the Salty flavored Hotpot."
+  },
+  "DA_ItemType_C_Takeout_Tangy": {
+    "name": "Tangy Takeout",
+    "description": "Bonus food from the Tangy flavored Hotpot."
   },
   "DA_ItemType_C_TangHuLu": {
     "name": "Тангхулу Делайлы",
@@ -2230,9 +2579,25 @@
     "name": "Грибной Удон",
     "description": "Популярное блюдо из толстой, жевательной лапши в грибном и чесночном бульоне, украшенное зеленым луком."
   },
+  "DA_ItemType_IG_Blanched_Cabbage": {
+    "name": "Blanched Cabbage",
+    "description": "So you can shape their leaves"
+  },
+  "DA_ItemType_IG_CabbageRolls": {
+    "name": "Cabbage Roll",
+    "description": "Uncooked Cabbage Rolls"
+  },
   "DA_ItemType_IG_Chopped_Apple": {
     "name": "Нарезанное Яблоко",
     "description": "Нарезанное яблоко."
+  },
+  "DA_ItemType_IG_Chopped_BokChoy": {
+    "name": "Chopped Bok Choy",
+    "description": "Bok Choy chopped up for cooking."
+  },
+  "DA_ItemType_IG_Chopped_Cabbage": {
+    "name": "Chopped Cabbage",
+    "description": "Not as good as green cabbage."
   },
   "DA_ItemType_IG_Chopped_Carrot": {
     "name": "Нарезанная Морковь",
@@ -2254,6 +2619,14 @@
     "name": "Измельченный Чеснок",
     "description": "Нарезанный чеснок."
   },
+  "DA_ItemType_IG_Chopped_Ginger": {
+    "name": "Chopped Ginger",
+    "description": "Can be spicy in large quanitities."
+  },
+  "DA_ItemType_IG_Chopped_GreenOnion": {
+    "name": "Chopped Green Onion",
+    "description": "Can be used to garnish anything."
+  },
   "DA_ItemType_IG_Chopped_HeatRoot": {
     "name": "Нарезанный Теплокорень",
     "description": "Теплокорень, нарезанный для приготовления пищи."
@@ -2265,6 +2638,10 @@
   "DA_ItemType_IG_Chopped_Meat_Chapaa": {
     "name": "Рубленое Мясо Чапаа ",
     "description": "Мясо чапаа, нарезанное для готовки."
+  },
+  "DA_ItemType_IG_Chopped_Meat_ParmaChapaa": {
+    "name": "Proschapaa",
+    "description": "Cured, thin sliced Chapaa meat. Go ahead, sneak a slice, no one's looking."
   },
   "DA_ItemType_IG_Chopped_Meat_Sernuk": {
     "name": "Рубленое Мясо Сернука",
@@ -2302,6 +2679,10 @@
     "name": "Молотая Стевия ",
     "description": "Стевия, измельченная в сахар, пригодная для готовки."
   },
+  "DA_ItemType_IG_Ingredient_AkwinduuSauce": {
+    "name": "Akwinduu Sauce",
+    "description": "A zesty sauce that's a staple of Akwinduu cuisine."
+  },
   "DA_ItemType_IG_Ingredient_Bacon": {
     "name": "Бекон",
     "description": "Вкусный бекон."
@@ -2322,6 +2703,10 @@
     "name": "Корж для Торта",
     "description": "Простой слой пирога, только что вышедший из печи."
   },
+  "DA_ItemType_IG_Ingredient_CakePentagons": {
+    "name": "Cake Pentagon",
+    "description": "Cake chopped into beautiful, geometrical pentagons."
+  },
   "DA_ItemType_IG_Ingredient_Cornmeal": {
     "name": "Кукурузная Мука",
     "description": "Готово к тако!"
@@ -2329,6 +2714,14 @@
   "DA_ItemType_IG_Ingredient_Dough": {
     "name": "Основное Тесто",
     "description": "Готово к выпечке!"
+  },
+  "DA_ItemType_IG_Ingredient_Dumplings": {
+    "name": "Dumplings",
+    "description": "They are fat and adorable."
+  },
+  "DA_ItemType_IG_Ingredient_Duxelles": {
+    "name": "Duxelles",
+    "description": "A steaming bowl of sautéed mushrooms, vegetables, and spices. You can stuff stuff with it."
   },
   "DA_ItemType_IG_Ingredient_Filling_Apple": {
     "name": "Яблочная Начинка",
@@ -2338,21 +2731,41 @@
     "name": "Ягодная Начинка",
     "description": "Засахаренная смесь ягод."
   },
+  "DA_ItemType_IG_Ingredient_FragrantSpiceMix": {
+    "name": "Fragrant Spice Mix",
+    "description": "A fragrant mixture of pan-fried spices."
+  },
   "DA_ItemType_IG_Ingredient_Frosting": {
     "name": "Глазурь",
     "description": "Сладкая сливочная глазурь."
+  },
+  "DA_ItemType_IG_Ingredient_FruitDrizzle": {
+    "name": "Fruit Drizzle",
+    "description": "Ready to pour over a perfect confection (AKA a perconfection)."
   },
   "DA_ItemType_IG_Ingredient_FruitFrosting": {
     "name": "Фруктовая Глазурь",
     "description": "Сладкая глазурь, используемая в выпечке"
   },
+  "DA_ItemType_IG_Ingredient_FruitPaste": {
+    "name": "Fruit Paste",
+    "description": "Fruit that has been quite thoroughly smooshified, to use the technical term."
+  },
   "DA_ItemType_IG_Ingredient_Gravy": {
     "name": "Соус",
     "description": "Отличная начинка."
   },
+  "DA_ItemType_IG_Ingredient_GrilledMuujin": {
+    "name": "Grilled Muujin",
+    "description": "Juicy Muujin meat, tied up and grilled."
+  },
   "DA_ItemType_IG_Ingredient_HerbButter": {
     "name": "Масло с Травами",
     "description": "Отличная начинка."
+  },
+  "DA_ItemType_IG_Ingredient_Mustard": {
+    "name": "Bahari Mustard",
+    "description": "A spicy mustard popular in Bahari City."
   },
   "DA_ItemType_IG_Ingredient_Noodles": {
     "name": "Лапша",
@@ -2366,6 +2779,14 @@
     "name": "Жареный Картофель",
     "description": "Нарезанный и запеченный в печи картофель."
   },
+  "DA_ItemType_IG_Ingredient_RolledDough": {
+    "name": "Rolled Dough",
+    "description": "Flat and ready for baking!"
+  },
+  "DA_ItemType_IG_Ingredient_RolledDough_Duxelles": {
+    "name": "Rolled Dough with Duxelles",
+    "description": "A layer of dough, coated with Proschapaa and Duxelles, ready to be wrapped around some grilled Muujin!"
+  },
   "DA_ItemType_IG_Ingredient_Salsa": {
     "name": "Сальса",
     "description": "Смесь помидоров, лука и специй."
@@ -2373,6 +2794,14 @@
   "DA_ItemType_IG_Ingredient_SearedChapaa": {
     "name": "Обжаренный Чапаа",
     "description": "Мясо чапаа, обжаренное в сливочном масле с травами."
+  },
+  "DA_ItemType_IG_Ingredient_SecretSauce": {
+    "name": "Secret Sauce",
+    "description": "It's not actually a secret - you have the recipe."
+  },
+  "DA_ItemType_IG_Ingredient_SpiceAndVeggieMix": {
+    "name": "Spice and Veggie Mix",
+    "description": "A mixture of mushrooms, onions, peppers, and spices."
   },
   "DA_ItemType_IG_Ingredient_SpiceMix": {
     "name": "Небесная Пряная Смесь",
@@ -2386,6 +2815,26 @@
     "name": "Рис для Суши",
     "description": "Рис для приготовления суши."
   },
+  "DA_ItemType_IG_Ingredient_SweetSoySauce": {
+    "name": "Sweet Soy Sauce",
+    "description": "Salty with a hint of sweetness."
+  },
+  "DA_ItemType_IG_MuujinBahari_01": {
+    "name": "Unbaked Muujin Bahari",
+    "description": "Rolled up, egg washed, and ready for the oven."
+  },
+  "DA_ItemType_IG_RiceCakes": {
+    "name": "Rice Cakes",
+    "description": "Rice Cakes for cooking."
+  },
+  "DA_ItemType_Takeout_Spicy": {
+    "name": "Spicy Takeout",
+    "description": "Bonus food from the Spicy flavored Hotpot."
+  },
+  "DA_ItemType_Takeout_Umami": {
+    "name": "Umami Takeout",
+    "description": "Bonus food from the Umami  flavored Hotpot."
+  },
   "DA_ItemType_Crop_Apple": {
     "name": "Яблоко",
     "description": "Свежее - кислит, приготовленное - сластит, кто яблоко в день съедает, у того доктор не бывает! Налетайте! "
@@ -2398,9 +2847,17 @@
     "name": "Черника",
     "description": "Грустите? Возьмите горсть черники. Она заставит вас улыбаться и в сыром и в запеченном виде!"
   },
+  "DA_ItemType_Crop_BokChoy": {
+    "name": "Bok Choy",
+    "description": "Please repleace this with some nice words about this vegetable."
+  },
   "DA_ItemType_Crop_Boysenberries": {
     "name": "Ежевика",
     "description": "Даёт 50 фокуса при использовании."
+  },
+  "DA_ItemType_Crop_Cabbage": {
+    "name": "Cabbage",
+    "description": "Napa Cabbage is the inferior yet more popular version of cabbage found in cuisines."
   },
   "DA_ItemType_Crop_Carrot": {
     "name": "Морковь",
@@ -2926,6 +3383,10 @@
     "name": "Valley Sunrise Oval Table",
     "description": "A round wooden table with a thin table cloth draped across it. Ideal for early morning tea parties."
   },
+  "DA_ItemType_Decor_Generic_135_deco_large_light_1": {
+    "name": "Valley Sunrise Candelabra",
+    "description": "An eye-catching candelabra with bulbs that are larger than life. If this piece doesn't make a statement, nothing else will."
+  },
   "DA_ItemType_Decor_Generic_136_deco_large_light_2": {
     "name": "Светильники \"Восход в Долине\"",
     "description": "Боитесь ли вы темноты или просто хотите сделать свое помещение светлее - эта висячая лампа поможет вам!"
@@ -2933,6 +3394,14 @@
   "DA_ItemType_Decor_Generic_138_deco_large_light_4": {
     "name": "Подвесной светильник \"Восход в Долине\"",
     "description": "Хотелось ли когда-либо подвесить к потолку пучок лука? Теперь это возможно! Но он светится и не очень приятый на вкус."
+  },
+  "DA_ItemType_Decor_Generic_143_Deco_Coffee_Grinder": {
+    "name": "Valley Sunrise Grain Mill",
+    "description": "Addicted to coffee? Or just like grinding stuff up? This kitchen-friendly grain mill is just the thing you need."
+  },
+  "DA_ItemType_Decor_Generic_151_deco_clock_1": {
+    "name": "Valley Sunrise Clock",
+    "description": "Reject modernity and embrace tradition with this ornate wall clock. It helps you keep track of time, and it's just downright cute."
   },
   "DA_ItemType_Decor_Generic_152_Deco_BlanketBasket": {
     "name": "Корзина для хранения одеял",
@@ -2970,9 +3439,33 @@
     "name": "Фарфоровый Кувшин",
     "description": "Может быть, этот кувшин и не сможет выиграть чемпионат по раундболу, но воду он точно нальет."
   },
+  "DA_ItemType_Decor_Generic_168_Deco_RockEdging": {
+    "name": "Stone Garden Edging",
+    "description": "Crops getting away from you? Lock them in with this subtle stone fencing."
+  },
+  "DA_ItemType_Decor_Generic_169_Deco_WoodEdging": {
+    "name": "Wood Garden Edging",
+    "description": "Crops getting away from you? Lock them in with these subtle wooden fences."
+  },
+  "DA_ItemType_Decor_Generic_56_deco_generic_desk": {
+    "name": "Valley Sunrise Desk",
+    "description": "A modest yet stylish desk carved out of smooth wood. Whether you set it up indoors or out, it's guaranteed to liven up your space."
+  },
+  "DA_ItemType_Decor_Generic_71_deco_generic_silver_candle_stick": {
+    "name": "Winterlights Candle Stick",
+    "description": "A silver candlestick for celebrating Winterlights."
+  },
+  "DA_ItemType_Decor_Generic_72_deco_generic_silver_candelabrum": {
+    "name": "Three-Pronged Candelabrum",
+    "description": "A three-pronged candelabrum for celebrating Winterlights with your closest friends."
+  },
   "DA_ItemType_Decor_Generic_81_deco_flower_terrarium_1": {
     "name": "Клош \"Восход в Долине\"",
     "description": "Много легенд окружает эту загадочную розу, которая никогда не увядает. Может быть, она заколдована? Или благословлена драконом? А может быть, это подделка."
+  },
+  "DA_ItemType_Decor_Generic_86_deco_quill": {
+    "name": "Caleri's Quill",
+    "description": "A fancy quill pen gifted to you by Caleri."
   },
   "DA_ItemType_Decor_Generic_89_deco_Bookshelf_A": {
     "name": "Книжная Полка \"Восход в Долине\"",
@@ -4254,13 +4747,24 @@
     "name": "Плюшевая древняя рыба",
     "description": "Когда ты открываешь древний вид, то, конечно, должен создать из него товар. Теперь каждый сможет насладиться своим собственным рыбьим другом!"
   },
+  "DA_ItemType_Decor_Narrative_207_Furniture_ancient_pottery_1": {
+    "name": "Ancient Pottery",
+    "description": "Ancient pottery given to you by Jina."
+  },
   "DA_ItemType_Decor_Narrative_215_Furniture_StarChart_Fish": {
     "name": "Звёздная Карта Древних Рыб",
     "description": "Некоторые рыбы плавают в реке. Некоторые рыбы плавают в море. Но эта древняя рыба плавает среди звезд. По крайней мере, образно."
   },
+  "DA_ItemType_Decor_Narrative_218_Decor_Grimalkin_Night_Light": {
+    "name": "Grimalkin Night Light",
+    "description": "A magical nightlight made by Zeki. Subira gave it to you for \"safe keeping.\""
+  },
   "DA_ItemType_Decor_Narrative_21_Deco_Jar_of_Shimmerflies": {
     "name": "Баночка с Блестящими Бабочками",
     "description": "Баночка с мерцающими мухами, подаренная вам Ауни в благодарность за снятие его проклятия."
+  },
+  "DA_ItemType_Decor_Narrative_220_Decor_Silverwing_Plush": {
+    "name": "Silverwing Plushie"
   },
   "DA_ItemType_Decor_Narrative_25_Deco_Phoenix_Statue": {
     "name": "Статуя Феникса",
@@ -4774,6 +5278,42 @@
     "name": "Диковинная Шкатулка Шахтёра",
     "description": "Этот кейс отлично подойдет для вашей коллекции камней. Что сюда положить? Ваше предположение не хуже моего."
   },
+  "DA_ItemType_Decor_TheOrder_01_Furniture_Banner": {
+    "name": "Investigator Banner",
+    "description": "Show off your pride to be part of the Palian Republic with this silken banner emblazoned with the symbol of the Order."
+  },
+  "DA_ItemType_Decor_TheOrder_02_Furniture_Chair": {
+    "name": "Investigator Armchair",
+    "description": "Need an armchair that's both elegant and intimidating? Look no further! Perfect for Council officials and political plotting."
+  },
+  "DA_ItemType_Decor_TheOrder_03_Furniture_Desk": {
+    "name": "Investigator Desk",
+    "description": "Every Watcher knows even a single use of Flow comes with a pile of paperwork, and you'll need somewhere to keep it."
+  },
+  "DA_ItemType_Decor_TheOrder_04_Furniture_SideTable": {
+    "name": "Investigator End Table",
+    "description": "This end table is equipped with a sturdy lock that is guaranteed to prevent anyone from tampering with your evidence. Or your diary."
+  },
+  "DA_ItemType_Decor_TheOrder_05_Furniture_Bed": {
+    "name": "Investigator Bed",
+    "description": "Watchers know it is crucial to stay healthy in their line of work. Even a few minutes on this comfy bed will restore you for any mission."
+  },
+  "DA_ItemType_Decor_TheOrder_06_Decor_Rug_A": {
+    "name": "Investigator Rug",
+    "description": "If you need to make an imposing statement, you can lay down this massive rug. Just like you're laying down the law."
+  },
+  "DA_ItemType_Decor_TheOrder_07_Decor_Rug_B": {
+    "name": "Investigator Doormat",
+    "description": "Coming inside? Use this hexagonal doormat to wipe your feet, or someone might accuse you of disorderly conduct."
+  },
+  "DA_ItemType_Decor_TheOrder_08_Decor_Rug_C": {
+    "name": "Investigator Runner",
+    "description": "The braided pattern on this runner symbolizes the tight teamwork between the Order departments: Watchers, Defenders, and Alchemists."
+  },
+  "DA_ItemType_Decor_TheOrder_09_Furniture_Sideboard": {
+    "name": "Investigator Sideboard",
+    "description": "This graceful sideboard has plenty of drawers, each individually locked with a special key. Who knows what secrets it may hold?"
+  },
   "DA_ItemType_Forage_Transitive_Flower_Rose_Pink_Bloomed": {
     "name": "Розовая Роза"
   },
@@ -4919,6 +5459,10 @@
   "DA_ItemType_Decor_Trophy_Writs_Tier_2": {
     "name": "Золотой Трофей Размера Участка",
     "description": "Невозможно потерять участок, если вы купили его целиком! Награда за то, что у вас есть участок под застройку."
+  },
+  "DA_ItemType_Decor_ValTech_06_furniture_RecordPlayer": {
+    "name": "Kenyatta's Record Player",
+    "description": "A record player gifted to you by Kenyatta."
   },
   "DA_ItemType_Decor_village_01_blacksmith_oldwheel": {
     "name": "Колесо от Килимской Повозки",
@@ -5075,6 +5619,10 @@
   "DA_ItemType_Decor_village_41_deco_koipond": {
     "name": "Килимский Пруд Карпов Кои",
     "description": "Не стоит скромничать. Добавьте этот пруд кои в свой сад и немного похвастайтесь! Встаньте на небольшой мостик, чтобы насладиться спокойствием."
+  },
+  "DA_ItemType_Decor_Village_FrogDeposit_Red": {
+    "name": "Frog Deposit",
+    "description": "A Frog Deposit"
   },
   "DA_ItemType_Decor_Bed_Cot": {
     "name": "Самодельная Кроватка",
@@ -5635,6 +6183,14 @@
     "name": "Гвоздика Дари",
     "description": "Редкая гвоздика дари - пряность, любимая как кулинарами, так и алхимиками. Считается, что она обладает магическими свойствами."
   },
+  "DA_ItemType_Forage_Spice_Ginger": {
+    "name": "Wild Ginger",
+    "description": "The flowers are pretty, but the plant is mainly used for its consumable root."
+  },
+  "DA_ItemType_Forage_Spice_GreenOnion": {
+    "name": "Green Onion",
+    "description": "These are just wild super baby onions, before the bulbs form."
+  },
   "DA_ItemType_Forage_Spice_HeatRoot": {
     "name": "Теплокорень",
     "description": "Не парьтесь! Будь то приготовление пищи или лечение, пряный Теплокорень согреет вас изнутри."
@@ -5758,6 +6314,10 @@
   "DA_ItemType_Building_Gazebo": {
     "name": "Беседка",
     "description": "Беседка, которую можно разместить на участке."
+  },
+  "DA_ItemType_Building_Pavilion": {
+    "name": "Pavilion",
+    "description": "A pavilion placable on the housing plot."
   },
   "DA_ItemType_Building_WaterTower": {
     "name": "Водонапорная Башня",
@@ -5986,6 +6546,10 @@
     "name": "Золотой Слиток",
     "description": "Спасибо форме слитка за этот золотой слиток! Продается по очень высокой цене."
   },
+  "DA_ItemType_Mineral_Bar_GoldMinted": {
+    "name": "Minted Gold Bar",
+    "description": "A specially minted gold bar. Sells for a very high price."
+  },
   "DA_ItemType_Mineral_Bar_Iron": {
     "name": "Железный Слиток",
     "description": "Это железо? Это железный слиток! Используется для изготовления различных изящных вещей."
@@ -6057,6 +6621,46 @@
   "DA_ItemType_Mineral_Rock_Stone": {
     "name": "Камень",
     "description": "Обычный камень. Может быть выплавлен в кирпич."
+  },
+  "DA_ItemType_Mineral_Starstone_Amethyst": {
+    "name": "Amethyst",
+    "description": "Of quartz you'll love this regal crystal. A very rare starstone beloved by those born under the sign of the Aristocrat. Sells for a very high price."
+  },
+  "DA_ItemType_Mineral_Starstone_Aquamarine": {
+    "name": "Aquamarine",
+    "description": "If this gem was alive, you'd be an aquamarine biologist. A rare starstone beloved by those born under the sign of the Scholar. Sells for a very high price."
+  },
+  "DA_ItemType_Mineral_Starstone_Citrine": {
+    "name": "Citrine",
+    "description": "Citrine? Sit down and stare at this rock for hours! A rare starstone beloved by those born under the sign of the Wanderer. Sells for a very high price."
+  },
+  "DA_ItemType_Mineral_Starstone_Emerald": {
+    "name": "Emerald",
+    "description": "Your friends will be green with envy when you mine up this gem. A very rare starstone beloved by those born under the sign of the Hunter. Sells for a very high price."
+  },
+  "DA_ItemType_Mineral_Starstone_Garnet": {
+    "name": "Garnet",
+    "description": "You won't say darn it when you mine this garnet. An uncommon starstone beloved by those born under the sign of the General. Sells for a high price."
+  },
+  "DA_ItemType_Mineral_Starstone_Jasper": {
+    "name": "Jasper",
+    "description": "You'll never be ex-jasperated with this gorgeous stone. A very rare starstone beloved by those born under the sign of the Farmer. Sells for a very high price."
+  },
+  "DA_ItemType_Mineral_Starstone_Onyx": {
+    "name": "Onyx",
+    "description": "The perfect stone for crafting creepy doll eyes. A rare starstone beloved by those born under the sign of the Watcher. Sells for a very high price."
+  },
+  "DA_ItemType_Mineral_Starstone_Quartz": {
+    "name": "Quartz",
+    "description": "Is it a rock? A gem? A crystal? Who knows, but it sure is pretty. An uncommon starstone beloved by those born under the sign of the Builder. Sells for a high price."
+  },
+  "DA_ItemType_Mineral_Starstone_Ruby": {
+    "name": "Ruby",
+    "description": "This gem will take you out of the red! An extremely rare starstone beloved by those born under the sign of the Merchant. Sells for an extremely high price."
+  },
+  "DA_ItemType_Mineral_Starstone_Sapphire": {
+    "name": "Sapphire",
+    "description": "Get sapphired up! A very rare starstone beloved by those born under the sign of the Artist. Sells for a very high price."
   },
   "DA_ItemType_Trash_Chipped_Gemstone": {
     "name": "Расколотый Драгоценный Камень",
@@ -6222,6 +6826,14 @@
     "name": "Маринованные Огурчики",
     "description": "С этими вкусными огурчиками вы никогда не окажетесь в затруднительном положении!"
   },
+  "DA_ItemType_Product_Pickle_BokChoy": {
+    "name": "Bok Choy Kimchi",
+    "description": "A crunchier Kimchi."
+  },
+  "DA_ItemType_Product_Pickle_Cabbage": {
+    "name": "Napa Cabbage Kimchi",
+    "description": "Standard Kimchi."
+  },
   "DA_ItemType_Product_Pickle_Carrot": {
     "name": "Маринованная Морковь",
     "description": "Делаете маринованную морковь? Не забудьте сначала очистить её от кожуры! Если только вам не нравится вкус грязи."
@@ -6250,6 +6862,10 @@
     "name": "Соль",
     "description": "Нет необходимости пересаливать. Достаточно щепотки, чтобы придать вкус блюду."
   },
+  "DA_ItemType_Product_SoySauce": {
+    "name": "Soy Sauce",
+    "description": "Sometimes used instead of salt for more flavor."
+  },
   "DA_ItemType_Product_Sugar": {
     "name": "Сахар",
     "description": "Подсластите свою жизнь ложкой сахара. Очень популярно среди детей."
@@ -6258,9 +6874,25 @@
     "name": "Уксус",
     "description": "Острый вкус уксуса придает блюдам пикантность. Некоторые пьют его прямо так."
   },
+  "DA_ItemTypeHassianPoetry": {
+    "name": "Hassian's Poem",
+    "description": "A poem that Hassian wants you to treasure forever."
+  },
   "DA_ItemType_Assistance_HouseGuarantor": {
     "name": "Поручитель по дому",
     "description": "Письменное подтверждение существования дома"
+  },
+  "DA_ItemType_CatToy": {
+    "name": "Cat Toy",
+    "description": "A chewed up toy in the shape of a mouse. It's seen better days."
+  },
+  "DA_ItemType_CatToyLetter": {
+    "name": "Letter in a Bottle",
+    "description": "A message in a bottle containing a letter from Zeki's mom."
+  },
+  "DA_ItemType_CatToy_2": {
+    "name": "Search Basket",
+    "description": "A chewed up toy in the shape of a mouse. It's seen better days."
   },
   "DA_ItemType_ChaynesTelescope": {
     "name": "Телескоп Чейна",
@@ -6325,6 +6957,14 @@
   "DA_ItemType_HayPile": {
     "name": "Обыщите кучу сена",
     "description": "Статуэтка Феникса с опускающимся слотом."
+  },
+  "DA_ItemType_LighthouseKey": {
+    "name": "Lighthouse Key",
+    "description": "The key to the lighthouse basement. You went through painstaking efforts just to find it."
+  },
+  "DA_ItemType_MysteriousLetter": {
+    "name": "Mysterious Letter",
+    "description": "A mysterious letter you found inside of the lighthouse in Bahari Bay containing a schedule of shipment dropoff times and locations. The letter is stamped with a distinct seal, one Subira might be able to identify."
   },
   "DA_ItemType_OldCoin": {
     "name": "Старая монета",
@@ -6406,6 +7046,14 @@
     "name": "Очарование падения",
     "description": "Отличное место для того, чтобы спрятать незаконные товары от своего отца."
   },
+  "DA_ItemType_QuestItem_BahariBoyzRecord": {
+    "name": "Bahari Boyz Record",
+    "description": "A limited edition record for the Bahari-based musical sensation Bahari Boyz. The song list on the back features such bangers as \"Super Soup\" and \"Midnight Knight.\""
+  },
+  "DA_ItemType_QuestItem_BahariBoyzRecord2": {
+    "name": "Bahari Boyz Record, vol 2",
+    "description": "A limited edition record for the Bahari-based musical sensation Bahari Boyz. The song list on the back features such bangers as \"Sandwich Thief\" and \"Heartdrop Blues.\""
+  },
   "DA_ItemType_Questitem_Basket": {
     "name": "Простая Корзина",
     "description": "Простая плетеная корзина ручной работы."
@@ -6421,6 +7069,14 @@
   "DA_ItemType_Questitem_BrokenDoor": {
     "name": "Сломанная Дверь",
     "description": "Старинная дверь, которая давно уже не работает."
+  },
+  "DA_ItemType_QuestItem_BrokenFlowBulb": {
+    "name": "Odd Wooden Box",
+    "description": "A little wooden box, with ancient human runes carved into it. So... you gonna open it?"
+  },
+  "DA_ItemType_QuestItem_BrokenFlowBulb2": {
+    "name": "Broken Light Bulb",
+    "description": "This bulb has an odd aura to it. Hopefully nobody stepped on it."
   },
   "DA_ItemType_QuestItem_Broken_Key": {
     "name": "Сломанный Ключ",
@@ -6518,6 +7174,10 @@
     "name": "Бутылка с грязью",
     "description": "Баночка с землицей из недр самых глубоких шахт."
   },
+  "DA_ItemType_QuestItem_DirtPile": {
+    "name": "Dig",
+    "description": "A bottle of dirt from the deepest cave."
+  },
   "DA_ItemType_Questitem_Douplifier": {
     "name": "Дубликатор",
     "description": "Удвоительная машина Зеки."
@@ -6554,6 +7214,10 @@
     "name": "Ловушка для Поточника",
     "description": "И не просто на какого-нибудь точника, а на ПОТОЧНИКА."
   },
+  "DA_ItemType_Questitem_EnhancerPotion": {
+    "name": "Enchancing Draught",
+    "description": "A vial of the special draught Tamala's been working on. Said to enhance one's senses. It's also highly illegal, so make sure Eshe doesn't catch you with it."
+  },
   "DA_ItemType_Questitem_EshesKey": {
     "name": "Ключ Эш",
     "description": "Ключ от спальни Эш"
@@ -6585,6 +7249,14 @@
   "DA_ItemType_Questitem_Event0_RethsMochi": {
     "name": "Мороженое Моти",
     "description": "Десерт, который Рет приготовил для вас, чтобы вы попробовали. Съешьте его и оцените вкус."
+  },
+  "DA_ItemType_Questitem_EWS_0_AirTemple_Part1_HiccupPowder": {
+    "name": "Hiccup Powder",
+    "description": "This inconspicuous powder will cause you to hiccup uncontrollably, the perfect defense if you are ever accosted by a GIllyfoot."
+  },
+  "DA_ItemType_Questitem_EWS_0_AirTemple_Part1_Matches": {
+    "name": "Match",
+    "description": "A practical match that can be used for lighting a fire... or fireworks."
   },
   "DA_ItemType_Questitem_Fabric": {
     "name": "Запасная Ткань",
@@ -6918,6 +7590,10 @@
     "name": "Медальон \"Искатель эмбер",
     "description": "Этот таинственный медальон горячий на ощупь..."
   },
+  "DA_ItemType_Questitem_Medallion_Stormseeker": {
+    "name": "Stormseeker Medallion",
+    "description": "This mysterious medallion instills you with the uneasy sense that a storm is coming..."
+  },
   "DA_ItemType_QuestItem_MidnightLily": {
     "name": "Полуночная Лилия",
     "description": "Лилия, цветущая только в полночь."
@@ -6925,6 +7601,26 @@
   "DA_ItemType_Questitem_MinesKey": {
     "name": "Ключ от Шахт",
     "description": "Ключ от запертой секции шахт."
+  },
+  "DA_ItemType_Questitem_MMLNY_QL2_WishPaper1": {
+    "name": "Fallen Wish Paper",
+    "description": "One of the wish papers that fell off of the wish tree. The wish reads: \"I wish for my garden to be happier and healthier this year!\""
+  },
+  "DA_ItemType_Questitem_MMLNY_QL2_WishPaper2": {
+    "name": "Fallen Wish Paper",
+    "description": "One of the wish papers that fell off of the wish tree. The wish reads: \"I wish to be the first to get my hands on the newest volume of Midnight Desires. I'm just itching to find out what messy affairs are hiding in those pages!\""
+  },
+  "DA_ItemType_Questitem_MMLNY_QL2_WishPaper3": {
+    "name": "Fallen Wish Paper",
+    "description": "One of the wish papers that fell off of the wish tree. The wish reads: \"All I want is more money. Lots of it. Pretty please with lettuce soup on top?\""
+  },
+  "DA_ItemType_Questitem_MMLNY_QL2_WishPaper4": {
+    "name": "Fallen Wish Paper",
+    "description": "One of the wish papers that fell off of the wish tree. The wish reads: \"I only have one wish, and it is for everyone's wishes to come true. May the coming year be filled with good fortune and joy for us all.\""
+  },
+  "DA_ItemType_Questitem_MMLNY_QL2_WishPaper5": {
+    "name": "Fallen Wish Paper",
+    "description": "One of the wish papers that fell off of the wish tree. The wish reads: \"This year, I really hope my dad finds his special someone. Maybe then he'll stop being such a grump all the time.\""
   },
   "DA_ItemType_Questitem_MoonTablet": {
     "name": "Лунные Таблички",
@@ -6937,6 +7633,10 @@
   "DA_ItemType_Questitem_MysteriousRuin": {
     "name": "Небольшое Портативное Устройство",
     "description": "Небольшое портативное устройство, предположительно относящееся к человеческой эпохе."
+  },
+  "DA_ItemType_Questitem_MysteriousRuin_Fixed": {
+    "name": "Small Handheld Device",
+    "description": "A small handheld device, presumably from the human era."
   },
   "DA_ItemType_Questitem_MysteriousTome": {
     "name": "Новый Журнал",
@@ -7073,6 +7773,10 @@
   "DA_ItemType_QuestItem_PracticeSword": {
     "name": "Тренировочный Меч",
     "description": "Простой деревянный меч с тупым острием. Бесполезный в бою, но достаточный для того, чтобы любой ребенок почувствовал себя мастером клинка."
+  },
+  "DA_ItemType_Questitem_QuillPen": {
+    "name": "Fancy Quill Pen",
+    "description": "An elegant quill pen crafted from high-quality materials. Something this fancy surely doesn't belong in the chapaa nest you found it in."
   },
   "DA_ItemType_QuestItem_RemembranceCandle": {
     "name": "Свеча Памяти",
@@ -7465,6 +8169,10 @@
     "name": "Дополнительные вознаграждения",
     "description": "Какими они могут быть? Это тайна."
   },
+  "DA_ItemType_Quest_TabletDrop": {
+    "name": "Drop Off Device",
+    "description": "A good place to repair a garden plot."
+  },
   "DA_ItemType_RomanceItem_BoxofChocolates": {
     "name": "Коробка шоколадных конфет",
     "description": "Коробка конфет, обычно даримая в знак романтических намерений."
@@ -7472,6 +8180,14 @@
   "DA_ItemType_StarChart": {
     "name": "Звездная диаграмма",
     "description": "Самая плоская рыба, которую вы поймали на данный момент. Эйнар, вероятно, хочет знать, какую приманку вы использовали."
+  },
+  "DA_ItemType_SuspiciousPackage": {
+    "name": "Suspicious Package",
+    "description": "The heavy and highly-suspicious package Kenli handed over to you in the lighthouse basement. Subira's going to want to take a look at it."
+  },
+  "DA_ItemType_SuspiciousParcel": {
+    "name": "Suspicious Parcel",
+    "description": "A suspicious parcel you retrieved near the location Subira marked on your map. Its heavy contents are concealed by thick packaging material."
   },
   "DA_ItemType_TausBall": {
     "name": "Склизкий Шар",
@@ -7481,6 +8197,66 @@
     "name": "Сапог Основателя",
     "description": "Сапог, который изначально принадлежал основателю Килимской долины. Полюбился всем жителям деревни."
   },
+  "DA_ItemType_Bug_AncientFlowbug": {
+    "name": "Ancient Flowbug",
+    "description": "A rare species of bioluminescent fauna that was previously thought to be a myth. Bahari Glowbugs are said to have descended from them."
+  },
+  "DA_ItemType_Fish_AncientCloudminnow": {
+    "name": "Ancient Cloudminnow",
+    "description": "A legendary minnow that was previously only known in legend. Found in clouds... allegedly."
+  },
+  "DA_ItemType_QuestItem_AirSilverEgg": {
+    "name": "Warm Silverwing Egg",
+    "description": "A warm Silverwing egg waiting to be taken back to its nest."
+  },
+  "DA_ItemType_QuestItem_Egg1": {
+    "name": "Mysterious Green Egg",
+    "description": "A mysterious green egg. Is it for some kind of puzzle?"
+  },
+  "DA_ItemType_QuestItem_Egg2": {
+    "name": "Mysterious Blue Egg",
+    "description": "A mysterious blue egg. Is it for some kind of puzzle?"
+  },
+  "DA_ItemType_QuestItem_Egg3": {
+    "name": "Mysterious Yellow Egg",
+    "description": "A mysterious yellow egg. Is it for some kind of puzzle?"
+  },
+  "DA_ItemType_QuestItem_Egg4": {
+    "name": "Mysterious Red Egg",
+    "description": "A mysterious red egg. Is it for some kind of puzzle?"
+  },
+  "DA_ItemType_QuestItem_FlowLockPick": {
+    "name": "Flow Generator Fragment",
+    "description": "A small fragment from the Flow generator. Could this help Zeki pick the lock?"
+  },
+  "DA_ItemType_QuestItem_ZekiTreasure1": {
+    "name": "Galeseeker Goggles",
+    "description": "Ancient human goggles found in the Temple of the Gales. Would Zeki want these?"
+  },
+  "DA_ItemType_QuestItem_ZekiTreasure2": {
+    "name": "Ancient Symbol Plaques",
+    "description": "These weren't nailed down - why not take them for Zeki?"
+  },
+  "DA_ItemType_QuestItem_ZekiTreasure3": {
+    "name": "Ancient Miniature Airship",
+    "description": "With miniature blasting action! Zeki would love this..."
+  },
+  "DA_ItemType_QuestItem_ZekiTreasure4": {
+    "name": "Ancient Wine Barrel",
+    "description": "You should get Zeki to carry this for you - it's heavy!"
+  },
+  "DA_ItemType_QuestItem_ZekiTreasure5": {
+    "name": "Golden Ancient Fish",
+    "description": "Not a real fish, but certainly real gold!"
+  },
+  "DA_ItemType_QuestItem_ZekiTreasure6": {
+    "name": "Golden Egg",
+    "description": "Either a really valuable egg, or a really old one. "
+  },
+  "DA_ItemType_QuestItem_ZekiTreasure7": {
+    "name": "Golden Chapaa",
+    "description": "An expensive pair of eyes looking directly into your soul."
+  },
   "DA_ItemType_Jackpot_Makeshift": {
     "name": "Утонувший Сундук",
     "description": "Откройте этот таинственный сундук, чтобы получить находящийся в нем приз."
@@ -7489,21 +8265,57 @@
     "name": "Рецепт Фейерверка \"Феникс\"",
     "description": "Используйте, чтобы узнать рецепт создания Фейерверка \"Феникс\"."
   },
+  "DA_ItemType_Recipe_Cooking_CabbageRolls": {
+    "name": "Cabbage Rolls Recipe",
+    "description": "Consume to learn the recipe for making Cabbage Rolls"
+  },
+  "DA_ItemType_Recipe_Cooking_CrabFriedRice": {
+    "name": "Crab Fried Rice Recipe",
+    "description": "Consume to learn the recipe for making Crab Fried Rice."
+  },
   "DA_ItemType_Recipe_Cooking_Fish_Stew": {
     "name": "Рецепт: Тушёная Рыба",
     "description": "Используйте, чтобы узнать рецепт приготовления Тушёной Рыбы."
+  },
+  "DA_ItemType_Recipe_Cooking_KimchiFriedRice": {
+    "name": "Kimchi Fried Rice Recipe",
+    "description": "Consume to learn the recipe for making Kimchi Fried Rice."
+  },
+  "DA_ItemType_Recipe_Cooking_LuckyBraisedFish": {
+    "name": "Lucky Braised Fish Recipe",
+    "description": "Consume to learn the recipe for making Lucky Braised Fish."
+  },
+  "DA_ItemType_Recipe_Cooking_MushroomDumplingSoup": {
+    "name": "Mushroom Dumpling Soup Recipe",
+    "description": "Consume to learn the recipe for making Mushroom Dumpling Soup"
   },
   "DA_ItemType_Recipe_Cooking_Onigiri": {
     "name": "Рецепт Чапаа Онигири",
     "description": "Используйте, чтобы узнать рецепт приготовления Чапаа Онигири."
   },
+  "DA_ItemType_Recipe_Cooking_PanFriedDumplings": {
+    "name": "Pan Fried Dumplings Recipe",
+    "description": "Consume to learn the recipe for making Pan Fried Dumplings."
+  },
   "DA_ItemType_Recipe_Cooking_Poke": {
     "name": "Рецепт Поке",
     "description": "Используйте, чтобы узнать рецепт приготовления Поке."
   },
+  "DA_ItemType_Recipe_Cooking_RiceCakeSoup": {
+    "name": "Rice Cake Soup Recipe",
+    "description": "Consume to learn the recipe for making Rice Cake Soup"
+  },
+  "DA_ItemType_Recipe_Cooking_RiceCakeStirFry": {
+    "name": "Rice Cake Stir Fry Recipe",
+    "description": "Consume to learn the recipe for making Rice Cake Stir Fry"
+  },
   "DA_ItemType_Recipe_Cooking_Sashimi": {
     "name": "Рецепт: Сашими",
     "description": "Используйте, чтобы узнать рецепт приготовления Сашими."
+  },
+  "DA_ItemType_Recipe_Cooking_SteamedFish": {
+    "name": "Steamed Fish Recipe",
+    "description": "Consume to learn the recipe for making Steamed Fish."
   },
   "DA_ItemType_Recipe_Cooking_Sushi": {
     "name": "Рецепт: Суши",
@@ -7512,6 +8324,10 @@
   "DA_ItemType_ResourceTracker_BugCatching": {
     "name": "Баночка для Насекомых",
     "description": "Позволяет отслеживать редких насекомых в течение 15 минут."
+  },
+  "DA_ItemType_ResourceTracker_Events": {
+    "name": "Event Locator",
+    "description": "Allows you to track active events for 15 minutes."
   },
   "DA_ItemType_ResourceTracker_Fishing": {
     "name": "Вибрирующая Вилка",
@@ -7545,9 +8361,17 @@
     "name": "Семена Черники",
     "description": "Вырастает в куст черники, с которого можно собрать урожай несколько раз. Увеличивает скорость роста других близлежащих культур. "
   },
+  "DA_ItemType_Seed_BokChoy": {
+    "name": "Bok Choy Seed",
+    "description": "Grows into one crop of Bok Choy. Prevents weeds from growing on other nearby crop types."
+  },
   "DA_ItemType_Seed_Boysenberry": {
     "name": "Семена Ежевики",
     "description": "Создает куст ежевики, с которого можно повторно собирать урожай каждые 3 дня."
+  },
+  "DA_ItemType_Seed_Cabbage": {
+    "name": "Nappa Cabbage Seed",
+    "description": "Grows into one crop of napa cabbage. Helps keep other nearby crop types hydrated."
   },
   "DA_ItemType_Seed_Carrot": {
     "name": "Семена Моркови",
@@ -7649,6 +8473,9 @@
     "name": "Древний сад камней",
     "description": "Этот древний каменный алтарь хранит множество тайн... в том числе и знакомого друга. Следите за оставленными подарками!"
   },
+  "DA_Tint_Alabastor": {
+    "name": "Alabastor"
+  },
   "DA_Tint_Autumn": {
     "name": "Осень"
   },
@@ -7664,11 +8491,23 @@
   "DA_Tint_Dragon": {
     "name": "Дракон"
   },
+  "DA_Tint_Fire": {
+    "name": "Fire"
+  },
   "DA_Tint_Harvest": {
     "name": "Собрать Урожай"
   },
+  "DA_Tint_Heartwood": {
+    "name": "Heartwood"
+  },
+  "DA_Tint_Ice": {
+    "name": "Ice"
+  },
   "DA_Tint_Mamba": {
     "name": "Mamba"
+  },
+  "DA_Tint_Noir": {
+    "name": "Noir"
   },
   "DA_Tint_Olive": {
     "name": "Олива"
@@ -7678,6 +8517,9 @@
   },
   "DA_Tint_Peach": {
     "name": "Персик"
+  },
+  "DA_Tint_Sapwood": {
+    "name": "Sapwood"
   },
   "DA_Tint_Seafoam": {
     "name": "Морская Пена"

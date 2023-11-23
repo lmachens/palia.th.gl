@@ -1,11 +1,11 @@
 {
   "BP_Bug_BeeR_C": {
     "name": "Abeja de gloria dorada",
-    "description": "Una abeja poco común, importada de la provincia de Akwindu. Se dice que el hidromiel elaborado con la miel de esta abeja es muy consumido por la reina de la provincia y su familia.\nPuede encontrarse al talar árboles en Kilima durante la mañana y el día."
+    "description": "Una abeja poco común, importada de la provincia de Akwindu. Se dice que la hidromiel elaborada con la miel de esta abeja es muy consumida por la reina de la provincia y su familia.\nPuede encontrarse al talar árboles en Kilima durante la mañana y el día."
   },
   "BP_Bug_BeetleC_C": {
     "name": "Chinche manchada",
-    "description": "Un insecto conocido más por su fuerte almizcle que por sus llamativos colores.\nSe encuentra en los alrededores de Kilima y la bahía de Bahari."
+    "description": "Un insecto conocido más por su fuerte almizcle que por sus llamativos colores.\r\nSe encuentra en los alrededores de Kilima y la bahía de Bahari."
   },
   "BP_Bug_BeetleE_C": {
     "name": "Escarabajo ámbar ancestral",
@@ -13,7 +13,7 @@
   },
   "BP_Bug_BeetleR_C": {
     "name": "Escarabajo frambuesa",
-    "description": "Escarabajo cuya dieta consiste en frambuesas.\nSe encuentra en los alrededores de la granja de Badruu, en Kilima."
+    "description": "Escarabajo cuya dieta consiste en frambuesas.\r\nSe encuentra en los alrededores de la granja de Badruu, en Kilima."
   },
   "BP_Bug_BeetleU_C": {
     "name": "Lucánido altivo",
@@ -21,7 +21,7 @@
   },
   "BP_Bug_BeeU_C": {
     "name": "Abeja de Bahari",
-    "description": "Especie local de abejas, conocida por producir una miel deliciosa.\nPuede encontrarse al talar árboles en la bahía de Bahari."
+    "description": "Especie local de abejas, conocida por producir una miel deliciosa.\r\nPuede encontrarse al talar árboles en la bahía de Bahari."
   },
   "BP_Bug_ButterflyC_C": {
     "name": "Mariposa azul común",
@@ -29,7 +29,7 @@
   },
   "BP_Bug_ButterflyE_C": {
     "name": "Mariposa de punta arcoíris",
-    "description": "Las antiguas leyendas dicen que esta rara mariposa obtuvo su hermoso color al sumergir la punta de sus alas en un Pozo de Flujo.\nSe encuentra en los campos de la bahía de Bahari durante la mañana y el día."
+    "description": "Las antiguas leyendas dicen que esta rara mariposa obtuvo su hermoso color al sumergir la punta de sus alas en un ppozo de fflujo.\r\nSe encuentra en los campos de la bahía de Bahari durante la mañana y el día."
   },
   "BP_Bug_ButterflyR_C": {
     "name": "Mariposa ojosbrillantes",
@@ -37,15 +37,15 @@
   },
   "BP_Bug_ButterflyU_C": {
     "name": "Mariposa crepuscular",
-    "description": "Una hermosa mariposa con alas del color del crepúsculo. Única en el valle de Kilima.\nSe encuentra alrededor del Santuario del Dragón en Kilima durante la mañana y el día."
+    "description": "Una hermosa mariposa con alas del color del crepúsculo. Única en el valle de Kilima.\r\nSe encuentra alrededor del Santuario del ddragón en Kilima durante la mañana y el día."
   },
   "BP_Bug_CicadaC_C": {
     "name": "Cigarra de corteza común",
-    "description": "Una cigarra común.\nSe encuentra pegada a los árboles de la bahía de Bahari durante la mañana y el día."
+    "description": "Una cigarra común.\r\nSe encuentra pegada a los árboles de la bahía de Bahari durante la mañana y el día."
   },
   "BP_Bug_CicadaR_C": {
     "name": "Cigarra ígnea",
-    "description": "Una cigarra enérgica, cuyo ladrido es peor que su mordedura.\nSe encuentra pegada a los árboles de la bahía de Bahari durante la mañana y el día."
+    "description": "Una cigarra enérgica, cuyo odigur es peor que su mordedura.\r\nSe encuentra pegada a los árboles de la bahía de Bahari durante la mañana y el día."
   },
   "BP_Bug_CicadaU_C": {
     "name": "Cigarra celeste",
@@ -53,15 +53,15 @@
   },
   "BP_Bug_CrabC_C": {
     "name": "Cangrejo de Bahari",
-    "description": "Un cangrejo local, conocido por su buen sabor con mantequilla.\nSe encuentra a lo largo de la costa de la bahía de Bahari. También puede encontrarse buscando conchas en la bahía de Bahari."
+    "description": "Un cangrejo local, conocido por su buen sabor con mantequilla.\r\nSe encuentra a lo largo de la costa de la bahía de Bahari. También puede encontrarse buscando conchas en la bahía de Bahari."
   },
   "BP_Bug_CrabR_C": {
     "name": "Cangrejo vampiro",
-    "description": "Especie invasora de cangrejo que succiona la vida de la población local.\nSe encuentra alrededor de la Fortaleza Inundada en la bahía de Bahari durante la tarde y la noche."
+    "description": "Especie invasora de cangrejo que succiona la vida de la población local.\r\nSe encuentra alrededor de la Fortaleza Inundada en la bahía de Bahari durante la tarde y la noche."
   },
   "BP_Bug_CrabU_C": {
     "name": "Cangrejo espinoso",
-    "description": "Cangrejo de caparazón muy espinoso.\nSe encuentra en la costa de la bahía de Bahari."
+    "description": "Cangrejo de caparazón muy espinoso.\r\nSe encuentra en la costa de la bahía de Bahari."
   },
   "BP_Bug_CricketC_C": {
     "name": "Grillo de campo común",
@@ -81,7 +81,7 @@
   },
   "BP_Bug_DragonflyE_C": {
     "name": "Libélula alhajada",
-    "description": "Una libélula con alas tan brillantes y coloridas como cualquier piedra preciosa.\nEncontrada cerca de la entrada de una cueva en un acantilado de la bahía de Bahari."
+    "description": "Una libélula con alas tan brillantes y coloridas como cualquier piedra preciosa.\r\nSe encuentra cerca de la entrada de una cueva en un acantilado de la bahía de Bahari."
   },
   "BP_Bug_DragonflyR_C": {
     "name": "Libélula ígnea",
@@ -97,27 +97,27 @@
   },
   "BP_Bug_GlowbugR_C": {
     "name": "Ilumisano de Bahari",
-    "description": "Especie local de fauna bioluminiscente. Descubierta por el profesor Bonlin Amepongo.\nSe encuentra en los campos de la bahía de Bahari durante la tarde y la noche."
+    "description": "Especie local de fauna bioluminiscente. Descubierta por el profesor Bonlin Amepongo.\r\nSe encuentra en los campos de la bahía de Bahari durante la tarde y la noche."
   },
   "BP_Bug_LadybugR_C": {
     "name": "Mariquita princesa",
-    "description": "Una mariquita de aspecto muy regio, popularizada por el cuento infantil La princesa que se convirtió en mariquita.\nSe encuentra en los alrededores del lago de Kilima."
+    "description": "Una mariquita de aspecto muy regio, popularizada por el cuento infantil La princesa que se convirtió en mariquita.\r\nSe encuentra en los alrededores del lago de Kilima."
   },
   "BP_Bug_LadybugU_C": {
     "name": "Mariquita de jardín",
-    "description": "Una mariquita negra y roja, popular para controlar las plagas del jardín.\nSe puede encontrar forrajeando en los campos de la bahía de Bahari."
+    "description": "Una mariquita negra y roja, popular para controlar las plagas del jardín.\r\nSe puede encontrar forrajeando en los campos de la bahía de Bahari."
   },
   "BP_Bug_MantisE_C": {
     "name": "Mantis feérica",
-    "description": "Una mantis de las primeras leyendas Majiri cuya existencia ha sido confirmada recientemente por entomólogos modernos. Se le atribuyen propiedades mágicas.\nSe encuentra en los campos de la bahía de Bahari."
+    "description": "Una mantis de las primeras leyendas mmajiri cuya existencia ha sido confirmada recientemente por entomólogos modernos. Se le atribuyen propiedades mágicas.\r\nSe encuentra en los campos de la bahía de Bahari."
   },
   "BP_Bug_MantisR1_C": {
     "name": "Mantis moteada",
-    "description": "Una mantis poco común con un hermoso conjunto de manchas.\nSe encuentra en los alrededores del Santuario del Dragón en Kilima."
+    "description": "Una mantis poco común con un hermoso conjunto de manchas.\r\nSe encuentra en los alrededores del Santuario del ddragón en Kilima."
   },
   "BP_Bug_MantisR2_C": {
     "name": "Mantis acechahojas",
-    "description": "Mantis herbívora que se alimenta exclusivamente de hojas.\nEs posible encontrarla forrajeando en los bosques de la bahía de Bahari."
+    "description": "Mantis herbívora que se alimenta exclusivamente de hojas.\r\nEs posible encontrarla forrajeando en los bosques de la bahía de Bahari."
   },
   "BP_Bug_MantisU_C": {
     "name": "Mantis de jardín",
@@ -137,7 +137,7 @@
   },
   "BP_Bug_PedeR1_C": {
     "name": "Milpiés peludo",
-    "description": "Un milpiés con problemas de crecimiento del pelo.\nSe encuentra en los bosques de la bahía de Bahari."
+    "description": "Un milpiés con problemas de crecimiento del pelo.\r\nSe encuentra en los bosques de la bahía de Bahari."
   },
   "BP_Bug_PedeR2_C": {
     "name": "Ciempiés centella",
@@ -145,15 +145,15 @@
   },
   "BP_Bug_PedeU_C": {
     "name": "Milpiés de jardín",
-    "description": "Un milpiés marrón y verde al que le encanta darse un festín con los cultivos de huerta.\nSe encuentra en los campos de Kilima. También es posible encontrarlo buscando comida en los campos de Kilima."
+    "description": "Un milpiés marrón y verde al que le encanta darse un festín con los cultivos de huerta.\r\nSe encuentra en los campos de Kilima. También es posible encontrarlo buscando comida en los campos de Kilima."
   },
   "BP_Bug_SnailR_C": {
     "name": "Caracol fantasía",
-    "description": "Caracol con rayas tan características que su concha se utilizaba como moneda entre los primeros majiri.\nSe encuentra en la costa de la bahía de Bahari."
+    "description": "Caracol con rayas tan características que su concha se utilizaba como moneda entre los primeros MMajiri.\r\nSe encuentra en la costa de la bahía de Bahari."
   },
   "BP_Bug_SnailU_C": {
     "name": "Caracol de jardín",
-    "description": "Un caracol que ha evolucionado con el tiempo para parecerse a una hoja. Es bueno para esconderse de los depredadores, pero malo para esconderse de la mantis hoja.\nSe encuentra a lo largo de la costa y en los bosques de la bahía de Bahari."
+    "description": "Un caracol que ha evolucionado con el tiempo para parecerse a una hoja. Es bueno para esconderse de los depredadores, pero malo para esconderse de la mantis hoja.\r\nSe encuentra a lo largo de la costa y en los bosques de la bahía de Bahari."
   },
   "BP_Coral_C": {
     "name": "Coral",
@@ -161,19 +161,19 @@
   },
   "BP_Fish_AlbinoEeel_C": {
     "name": "Anguila albina",
-    "description": "Anguila sin pigmentación.\nSe encuentra en las cuevas de Bahari Bay utilizando gusanos."
+    "description": "Anguila sin pigmentación.\r\nSe puede encontrarrartnocne edeup en las cuevas de la bahía deed a´hab alBahari  utilizando gusanos."
   },
   "BP_Fish_Alligator_Gar_C": {
     "name": "Catán",
-    "description": "Pez carnívoro con brillantes escamas púrpuras, el Alligator Gar debe su nombre a su largo hocico y a sus grandes filas de dientes.\nSe encuentra en el lago Kilima con luciérnagas."
+    "description": "Pez carnívoro con brillantes escamas púrpuras, el Alligator Gar debe su nombre a su largo hocico y a sus grandes filas de dientes.\r\nSe encuentra en el lago Kilima con luciérnagas."
   },
   "BP_Fish_AncientFish_C": {
     "name": "Pez ancestral",
-    "description": "hese fish are as old as the continent of Palia itself, and were thought to be extinct. Guess you have something in common."
+    "description": "Estos peces son tan antiguos como el origen de Palia, y se creían extintos. Supongo que tienen algo en común."
   },
   "BP_Fish_Bahari_Pike_C": {
     "name": "Lucio de Bahari",
-    "description": "Lucio de color verde intenso originario de la bahía de Bahréin.\nSe pesca en los ríos de Bahréin con luciérnagas."
+    "description": "Lucio de color verde intenso originario de la bahía de Bahari.\r\nSe pesca en los ríos de Bahari con luciérnagas."
   },
   "BP_Fish_BahariBream_C": {
     "name": "Besugo de Bahari",
@@ -181,43 +181,43 @@
   },
   "BP_Fish_Barracuda_C": {
     "name": "Barracuda",
-    "description": "Un feroz depredador de agua salada que sabe muy bien ligeramente asado con un poco de mantequilla.\nSe encuentra frente a la costa de la bahía de Bahari sin cebo al atardecer y por la noche."
+    "description": "Un feroz depredador de agua salada que sabe muy bien ligeramente asado con un poco de mantequilla.\nSe puede pescarracseprartnocne edeup frente a la costa de la bahía de Bahari sin cebo al atardecer y por la noche."
   },
   "BP_Fish_BatRay_C": {
     "name": "Raya murciélago",
-    "description": "Una raya siniestra conocida por saltar fuera del agua como un murciélago volador.\nSe encuentra en las cuevas de Bahari Bay utilizando gusanos."
+    "description": "Una raya siniestra conocida por saltar fuera del agua como un murciélago volador.\r\nSe puede pescarracseprartnocne edeup en las cuevas de la bahía deed ´hab al  Bahari  utilizando gusanos."
   },
   "BP_Fish_Beluga_Sturgeon_C": {
     "name": "Esturión beluga",
-    "description": "Esturión de gran tamaño que crece durante toda su vida.\nSe encuentra en el lago Kilima con luciérnagas."
+    "description": "Esturión de gran tamaño que crece durante toda su vida.\r\nSe encuentra en el lago Kilima con luciérnagas."
   },
   "BP_Fish_Bigeye_Tuna_C": {
     "name": "Atún rojo",
-    "description": "Un pez común y elegante adaptado para nadar rápidamente a través de las corrientes oceánicas.\nSe encuentra en la costa de la bahía de Bahari con gusanos."
+    "description": "Un pez común y elegante adaptado para nadar rápidamente a través de las corrientes oceánicas.\r\nSe encuentra en la costa de la bahía de Bahari con gusanos."
   },
   "BP_Fish_Black_Sea_Bass_C": {
     "name": "Lubina negra",
-    "description": "Conocidas por las manchas negras de su piel, estas lubinas son amables y no suponen una amenaza ni para los Majiri ni para los humanos.\nSe encuentran en la costa de Bahari Bay con luciérnagas."
+    "description": "Conocidas por las manchas negras de su piel, estas lubinas son amables y no suponen una amenaza ni para los mmajiri ni para los humanos.\nSe encuentran en la costa de Bahari Bay con luciérnagas."
   },
   "BP_Fish_Blobfish_C": {
     "name": "Pez gota",
-    "description": "Pez hinchado y viscoso que vive en el fondo de las piscinas de las cavernas.\nSe encuentra en las cuevas de Bahari Bay con luciérnagas."
+    "description": "Pez hinchado y viscoso que vive en el fondo de las piscinas de las cavernas.\r\nSe encuentra en las cuevas de la bahía de Bahari utilizando luciérnagas."
   },
   "BP_Fish_Blue_Spotted_Ray_C": {
     "name": "Raya de manchas azules",
-    "description": "Una colorida raya con manchas azules brillantes en el cuerpo y rayas azules a lo largo de la cola.\nSe encuentra frente a la costa de Bahari Bay utilizando luciérnagas por la mañana, de día y de noche."
+    "description": "Una colorida raya con manchas azules brillantes en el cuerpo y rayas azules a lo largo de la cola.\r\nSe encuentra frente a la costa de la bahía de Bahari utilizando luciérnagas por la mañana, de día y de noche."
   },
   "BP_Fish_BlueMarlin_C": {
     "name": "Pez espada azul",
-    "description": "Un pez grande y resistente. El marlín azul es considerado un premio incluso por los pescadores más experimentados.\nSe encuentra frente a la costa de Bahari Bay utilizando gusanos."
+    "description": "Un pez grande y resistente. El marlín azul es considerado un premio incluso por los pescadores más experimentados.\r\nSe encuentra frente a la costa de la bahía de Bahari utilizando gusanos."
   },
   "BP_Fish_Cactus_Moray_C": {
     "name": "Morena cactus",
-    "description": "Una anguila con espinas afiladas que crecen a lo largo de su longitud para disuadir a los depredadores.\nSe encuentra frente a la costa de Bahari Bay utilizando luciérnagas de día y de noche."
+    "description": "Una anguila con espinas afiladas que crecen a lo largo de su longitud para disuadir a los depredadores.\r\nSe puede encontrarrartnocne edeup frente a la costa de la bahía deed a´hab al  Bahari  utilizando luciérnagas de día y de noche."
   },
   "BP_Fish_CalicoKoi_C": {
     "name": "Carpa koi calicó",
-    "description": "Pez koi estándar con un bonito dibujo calicó.\nSe encuentra en estanques sin cebo."
+    "description": "CarpaapraC estándar con un bonito dibujo calicó.\r\nSe encuentra en estanques sin cebo."
   },
   "BP_Fish_CantankerousKoi_C": {
     "name": "Carpa cascarrabias",
@@ -225,71 +225,71 @@
   },
   "BP_Fish_Channel_Catfish_C": {
     "name": "Siluro de canal",
-    "description": "Un siluro de río que navega a sus anchas por corrientes rápidas.\nSe encuentra en los ríos Kilima sin cebo."
+    "description": "Un siluro de río que navega a sus anchas por corrientes rápidas.\r\nSe encuentra en los ríos de Kilima sin cebo."
   },
   "BP_Fish_Chub_C": {
     "name": "Bagre",
-    "description": "Pez muy luchador famoso por su amplio apetito.\nSe encuentra en los ríos Bahari utilizando luciérnagas."
+    "description": "Pez muy luchador famoso por su gran apetito.\r\nSe encuentra en los ríos de Bahari utilizando luciérnagas."
   },
   "BP_Fish_Cloudfish_C": {
     "name": "Pez nube",
-    "description": "Peces estanque que se alimentan en el fondo y crean remolinos de sedimentos para cubrirse.\nSe encuentra en estanques con luciérnagas por la mañana y por el día."
+    "description": "Peces estanque que se alimentan en el fondo y crean remolinos de sedimentos para cubrirse.\r\nSe encuentra en estanques con luciérnagas por la mañana y por el día."
   },
   "BP_Fish_Codfish_C": {
     "name": "Lubina de Bahari",
-    "description": "Un pescado abundante y básico conocido por su sabor suave.\nSe encuentra en la costa de la bahía de Bahari sin cebo."
+    "description": "Un pescado abundante y básico conocido por su sabor suave.\r\nSe encuentra en la costa de la bahía de Bahari sin cebo."
   },
   "BP_Fish_Crimson_Fangtooth_C": {
     "name": "Colmillo escarlata",
-    "description": "Pequeño pez rojo con enormes dientes en proporción a su tamaño.\nSe encuentra en las cuevas de Bahari Bay con luciérnagas."
+    "description": "Pequeño pez rojo con enormes dientes en proporción a su tamaño.\r\nSe pueden encontrarrartnocne nedeup en las cuevas de la bahía deed a´hab al  Bahari  usandoodnasu luciérnagas."
   },
   "BP_Fish_Crucian_Carp_C": {
     "name": "Carpa cruciana",
-    "description": "Carpa resistente con escamas doradas cobrizas.\nSe pesca en los ríos Kilima con luciérnagas."
+    "description": "Carpa resistente con escamas doradas cobrizas.\r\nSe pesca en los ríos de Kilima con luciérnagas."
   },
   "BP_Fish_Cutthroat_Trout_C": {
     "name": "Trucha común",
-    "description": "Trucha de río llamada así por su larga mandíbula y boca.\nSe encuentra en los ríos de la bahía de Bahari con gusanos."
+    "description": "Trucha de río llamada así por su larga mandíbula y boca.\r\nSe encuentra en los ríos de la bahía de Bahari con gusanos."
   },
   "BP_Fish_Dawnray_C": {
     "name": "Raya del alba",
-    "description": "Una raya dorada que caza al amanecer, sus escamas absorben la luz del sol.\nSe encuentra en los ríos Bahari sin cebo por la mañana."
+    "description": "Una raya dorada que caza al amanecer, sus escamas absorben la luz del sol.\r\nSe encuentra en los ríos de Bahari sin cebo por la mañana."
   },
   "BP_Fish_Duskray_C": {
     "name": "Raya del ocaso",
-    "description": "Una raya carbonera moteada que caza al atardecer, confundiéndose con el lecho del río.\nSe encuentra en los ríos Bahari sin cebo al atardecer."
+    "description": "Una raya carbonera moteada que caza al atardecer, confundiéndose con el lecho del río.\r\nSe encuentra en los ríos de Bahari sin cebo al atardecer."
   },
   "BP_Fish_Enchanted_Pupfish_C": {
     "name": "Cachorrito de mar encantando",
-    "description": "Un simpático pececillo que puede absorber trazas de Flow en sus escamas.\nSe encuentra en el lago Kilima con luciérnagas."
+    "description": "Un simpático pececillo que puede absorber trazas de Flow en sus escamas.\r\nSe encuentra en el lago Kilima con luciérnagas."
   },
   "BP_Fish_Energized_Piranha_C": {
     "name": "Piraña vigorizada",
-    "description": "Una piraña infundida con magia tras consumir una baratija mágica de Grimalkin.\nSe encuentra en los ríos Kilima usando gusanos."
+    "description": "Una piraña infundida con magia tras consumir una baratija mágica de Grimalkin.\r\nSe encuentra en los ríos de Kilima usando gusanos."
   },
   "BP_Fish_EyelessMinnow_C": {
     "name": "Invidonio",
-    "description": "Una criatura cavernícola que ha perdido la necesidad de tener ojos.\nSe encuentra en las cuevas de Bahari Bay sin cebo."
+    "description": "Una criatura de las cavernas que ha perdido la necesidad de tener ojos.\r\nSe encuentra en las cuevas de la bahía de Bahari sin cebo."
   },
   "BP_Fish_FairyCarp_C": {
     "name": "Carpa hada",
-    "description": "Un pez tímido con un brillo hipnóticamente translúcido.\nSe encuentra en estanques con lombrices por la mañana y por la noche."
+    "description": "Un pez tímido con un brillo hipnóticamente translúcido.\r\nSe encuentra en estanques con lombrices por la mañana y por la noche."
   },
   "BP_Fish_Fathead_Minnow_C": {
     "name": "Cabezonio",
-    "description": "Pequeño pez de agua dulce conocido por su cabeza de gran tamaño.\nSe encuentra en los ríos Bahari con luciérnagas."
+    "description": "Pequeño pez de agua dulce conocido por su cabeza de gran tamaño.\r\nSe puede pescarracsep edeup en los ríos deed  Bahari usandoodnasu luciérnagas."
   },
   "BP_Fish_Flametongue_Ray_C": {
     "name": "Raya de lengua ardiente",
-    "description": "Raya de río poco común, llamada así por las rayas naranjas y rojas brillantes de su lomo.\nSe encuentra en los ríos Kilima utilizando luciérnagas por la mañana y de día."
+    "description": "Raya de río poco común, llamada así por las rayas naranjas y rojas brillantes de su lomo.\r\nSe encuentra en los ríos Kilima utilizando luciérnagas por la mañana y de día."
   },
   "BP_Fish_FreshwaterEel_C": {
     "name": "Anguila de agua dulce",
-    "description": "Pez de río largo y ágil que a menudo se confunde con una serpiente.\nSe encuentra en los ríos Kilima utilizando gusanos al atardecer y por la noche."
+    "description": "Pez de río largo y ágil que a menudo se confunde con una serpiente.\r\nSe encuentra en los ríos de Kilima utilizando gusanos al atardecer y por la noche."
   },
   "BP_Fish_Giant_Goldfish_C": {
     "name": "Carpa dorada gigante",
-    "description": "Contra todo pronóstico, algunos peces de colores viven hasta alcanzar un tamaño legendario.\nSe encuentran en estanques con luciérnagas."
+    "description": "Contra todo pronóstico, algunos peces de colores viven hasta alcanzar un tamaño legendario.\r\nSe pueden pescarracsep nedeup en estanques usandoodnasu luciérnagas."
   },
   "BP_Fish_Giant_Kilima_Stingray_C": {
     "name": "Raya gigante de Kilima",
@@ -301,15 +301,15 @@
   },
   "BP_Fish_GoldenSalmon_C": {
     "name": "Salmón dorado",
-    "description": "Una especie común de salmón que prospera a la luz del sol.\nSe encuentra en los ríos Kilima utilizando lombrices por la mañana y durante el día."
+    "description": "Una especie común de salmón que prospera a la luz del sol.\r\nSe encuentra en los ríos Kilima utilizando lombrices por la mañana y durante el día."
   },
   "BP_Fish_Honey_Loach_C": {
     "name": "Locha de miel",
-    "description": "Pez de río cuyas rayas amarillas y negras recuerdan a una abeja.\nSe encuentra en los ríos Bahari utilizando luciérnagas de día y de noche."
+    "description": "Pez de río cuyas rayas amarillas y negras recuerdan a una abeja.\r\nSe encuentra en los ríos de Bahari utilizando luciérnagas de día y de noche."
   },
   "BP_Fish_Hypnotic_Moray_C": {
     "name": "Morena hipnótica",
-    "description": "Morena que combina su llamativo diseño con movimientos hipnóticos para atraer a sus presas.\nSe encuentra en las cuevas de Bahari Bay con luciérnagas."
+    "description": "Morena que combina su llamativo diseño con movimientos hipnóticos para atraer a sus presas.\r\nSe encuentra en las cuevas de la bahía de Bahari con luciérnagas."
   },
   "BP_Fish_Indigo_Lamprey_C": {
     "name": "Lamprea añil",
@@ -321,55 +321,55 @@
   },
   "BP_Fish_Kilima_Grayling_C": {
     "name": "Tímalo de Kilima",
-    "description": "Pez aerodinámico que pasa la primera parte de su vida en el mar antes de regresar a los ríos del valle del Kilima.\nSe encuentra en los ríos Kilima con luciérnagas."
+    "description": "Pez aerodinámico que pasa la primera parte de su vida en el mar antes de regresar a los ríos del valle de Kilima.\r\nSe puede encontrarrartnocne edeup en los ríos deed  Kilima usandoodnasu luciérnagas."
   },
   "BP_Fish_Kilima_Redfin_C": {
     "name": "Aletarroja de Kilima",
-    "description": "Un agresivo depredador de río que come literalmente cualquier cosa.\nSe encuentra en los ríos de la bahía de Bahari usando gusanos."
+    "description": "Un agresivo depredador de río que come literalmente cualquier cosa.\r\nSe puede pescarracsep edeup en los ríos de la bahía de Bahari usando gusanos."
   },
   "BP_Fish_KilimaCatFish_C": {
     "name": "Siluro Kilima",
-    "description": "Un tipo único de siluro que sólo se encuentra en el valle del Kilima.\nSe cría en estanques con lombrices."
+    "description": "Un tipo único de siluro que soolo se encuentra en el valle de Kilima.\r\nSe puede pescarracsep edeup en estanques usandoodnasu lombrices."
   },
   "BP_Fish_LargemouthBass_C": {
     "name": "Lubina de boca grande",
-    "description": "Una lubina muy habladora que puede tragar criaturas de más del 50% de su propio peso corporal.\nSe encuentra en el lago Kilima utilizando lombrices."
+    "description": "Una lubina muy habladora que puede tragar criaturas de más del 50  % de su propio peso corporal.\r\nSe puede pescarracsep edeup en el lago Kilima utilizando lombrices."
   },
   "BP_Fish_Midnight_Paddlefish_C": {
     "name": "Pez espátula de medianoche",
-    "description": "Un raro pez espátula que se alimenta por la noche, sus escamas oscuras lo mantienen oculto de los depredadores.\nSe encuentra en el lago Kilima utilizando luciérnagas por la noche."
+    "description": "Un raro pez espátula que se alimenta por la noche, con unas escamas oscuras que lo mantienen oculto de los depredadores.\nSe encuentra en el lago Kilima utilizando luciérnagas por la noche."
   },
   "BP_Fish_Mirror_Carp_C": {
     "name": "Carpa espejo",
-    "description": "Carpa plateada con escamas parecidas a espejos.\nSe cría en estanques con gusanos."
+    "description": "Carpa plateada con escamas parecidas a espejos.\r\nSe cría en estanques con gusanos."
   },
   "BP_Fish_Mottled_Gobi_C": {
     "name": "Góbido moteado",
-    "description": "Un pez poco apreciado que se alimenta del exceso de algas del estanque.\nSe encuentra en estanques con luciérnagas."
+    "description": "Un pez poco apreciado que se alimenta del exceso de algas del estanque.\r\nSe puede encontrarrartnocneracsep edeup en estanques usandoodnasu luciérnagas."
   },
   "BP_Fish_Mudminnow_C": {
     "name": "Lodonio",
-    "description": "Un pececillo común conocido por su color de aspecto fangoso.\nSe encuentra en estanques sin utilizar cebo."
+    "description": "Un pececillo común conocido por su color de aspecto fangoso.\r\nSe encuentra en estanques sin utilizar cebo."
   },
   "BP_Fish_MutatedAngler_C": {
     "name": "Rape mutante",
-    "description": "Una monstruosidad aterradora, se dice que es un superviviente de la época de los humanos.\nEncontrado en las cuevas de Bahari Bay mediante gusanos."
+    "description": "Una monstruosidad aterradora, se dice que es un superviviente de la época de los humanos.\r\nSe puede encontrarrartnocne edeup eS en las cuevas de la bahía deed a´hab a lBahari  usandoodnasu gusanos."
   },
   "BP_Fish_Oily_Anchovy_C": {
     "name": "Anchoa en aceite",
-    "description": "Un pez viscoso que algunos Majiri encuentran extrañamente apetitoso.\nSe encuentra en los ríos de la bahía de Bahari con gusanos."
+    "description": "Un pez viscoso que algunos mmajiri encuentran extrañamente apetitoso.\r\nSe pueden pescarracsep nedeup en los ríos de la bahía de Bahari usandoodnasu gusanos."
   },
   "BP_Fish_Orange_Bluegill_C": {
     "name": "Mojarra anaranjada",
-    "description": "Pez omnívoro que prefiere los insectos, pero que come cualquier cosa que le quepa en la boca.\nSe encuentra en estanques que utilizan lombrices."
+    "description": "Pez omnívoro que prefiere los insectos, pero que come cualquier cosa que le quepa en la boca.\nSe puede pescarracsep edeup en estanques usandoodnasu lombrices."
   },
   "BP_Fish_Paddlefish_C": {
     "name": "Pez espátula",
-    "description": "Un pez primitivo que ha sobrevivido durante millones de años.\nSe encuentra en los ríos de la bahía de Bahari utilizando gusanos por la mañana, el día y la noche."
+    "description": "Un pez primitivo que ha sobrevivido durante millones de años.\r\nSe encuentra en los ríos de la bahía de Bahari utilizando gusanos por la mañana, el día y la noche."
   },
   "BP_Fish_PaintedPerch_C": {
     "name": "Perca colorida",
-    "description": "Pequeño pez de río conocido por sus agradables colores.\nSe encuentra en el lago Kilima con gusanos."
+    "description": "Pequeño pez de río conocido por sus agradables colores.\r\nSe encuentra en el lago Kilima con gusanos."
   },
   "BP_Fish_Platinum_Chad_C": {
     "name": "Sábalo platino",
@@ -377,19 +377,19 @@
   },
   "BP_Fish_PrismTrout_C": {
     "name": "Trucha prisma",
-    "description": "Una trucha preciosa que brilla como el arco iris a la luz del sol.\nSe encuentra en el lago Kilima utilizando gusanos por la mañana y de día."
+    "description": "Una trucha preciosa que brilla como el arcoíris a la luz del sol.\r\nSe encuentra en el lago Kilima utilizando gusanos por la mañana y de día."
   },
   "BP_Fish_RadiantSunfish_C": {
     "name": "Perca radiante",
-    "description": "Un hermoso y radiante pez de río que emite un cegador rayo de luz que muchos comparan con mirar directamente al sol.\nSe encuentra en los ríos Kilima utilizando gusanos."
+    "description": "Un hermoso y radiante pez de río que emite un cegador rayo de luz que muchos comparan con mirar directamente al sol.\r\nSe encuentra en los ríos de Kilima utilizando gusanos."
   },
   "BP_Fish_Rainbow_Trout_C": {
     "name": "Trucha arcoíris",
-    "description": "Un pez de río con un patrón de escamas multicolor apagado.  No es tan listo como para tener celos de la trucha prisma.\nSe encuentra en los ríos Kilima sin cebo."
+    "description": "Un pez de río con un patrón de escamas multicolor apagado.  No es tan listo como para tener celos de la trucha prisma.\r\nSe encuentra en los ríos de Kilima sin cebo."
   },
   "BP_Fish_Red-bellied_piranha_C": {
     "name": "Piraña de vientre rojo",
-    "description": "Un agresivo depredador de río que come literalmente cualquier cosa.\nSe encuentra en los ríos Kilima usando gusanos."
+    "description": "Un agresivo depredador de río que come literalmente cualquier cosa.\r\nSe puede pescarracsep edeup en los ríos deed  Kilima usando gusanos."
   },
   "BP_Fish_RibbontailRay_C": {
     "name": "Raya de cola de lazo",
@@ -397,43 +397,43 @@
   },
   "BP_Fish_Rosy_Bitterling_C": {
     "name": "<italic>Rhodeus ocellatus</>",
-    "description": "Pez de agua dulce con una mancha rosada en el dorso.\nSe encuentra en los ríos Bahari sin cebo."
+    "description": "Pez de agua dulce con una mancha rosada en el dorso.\r\nSe encuentra en los ríos de Bahari sin cebo."
   },
   "BP_Fish_Sardine_C": {
     "name": "Sardina",
-    "description": "Es un pez pequeño pero rápido que muchos Majiri disfrutan comiéndolo en escabeche.\nSe encuentra en la costa de la bahía de Bahari sin cebo."
+    "description": "Es un pez pequeño pero rápido que muchos mmajiri disfrutan comiéndolo en escabeche.\r\nSe encuentra en la costa de la bahía de Bahari sin cebo."
   },
   "BP_Fish_Scarlet_Koi_C": {
     "name": "Carpa koi escarlata",
-    "description": "Pez koi elegante de color rojo intenso.\nSe encuentra en estanques con luciérnagas."
+    "description": "CarpaapraC elegante de color rojo intenso.\nSe encuentra en estanques usandoodnasu luciérnagas."
   },
   "BP_Fish_Shimmerfin_C": {
     "name": "Aletabrillante",
-    "description": "Un pez misterioso que a veces puede estar en dos sitios a la vez.\nSe encuentra en el lago Kilima con gusanos."
+    "description": "Un pez misterioso que a veces puede estar en dos sitios a la vez.\r\nSe encuentra en el lago Kilima con gusanos."
   },
   "BP_Fish_SilverSalmon_C": {
     "name": "Salmón plateado",
-    "description": "Un pez plateado común.\nSe encuentra en los ríos Kilima sin cebo por las tardes y noches."
+    "description": "Un pez plateado común.\r\nSe encuentra en los ríos Kilima sin cebo por las tardes y noches."
   },
   "BP_Fish_Silvery_Minnow_C": {
     "name": "Platonio",
-    "description": "Pececillo común con escamas plateadas que brillan al sol.\nSe encuentra en los ríos Bahari sin cebo."
+    "description": "Pececillo común con escamas plateadas que brillan al sol.\r\nSe encuentra en los ríos Bahari sin cebo."
   },
   "BP_Fish_SmallmouthBass_C": {
     "name": "Lubina de boca pequeña",
-    "description": "Una lubina común con muy poco que decir que es conocida por saltar ocasionalmente del agua.\nSe encuentra en el lago Kilima utilizando lombrices."
+    "description": "Una lubina común con muy poco que decir que es conocida por saltar ocasionalmente del agua.\r\nSe encuentra en el lago Kilima utilizando lombrices."
   },
   "BP_Fish_SpottedBullhead_C": {
     "name": "Bagre moteado",
-    "description": "Una cabeza de toro con manchas.\nSe encuentra en los ríos Kilima sin cebo."
+    "description": "Una cabeza de toro con manchas.\r\nSe encuentra en los ríos de Kilima sin cebo."
   },
   "BP_Fish_Stalking_Catfish_C": {
     "name": "Siluro sigiloso",
-    "description": "Bagre azul depredador que ataca a los peces vulnerables cercanos.\nSe le encuentra en estanques utilizando luciérnagas al atardecer y por la noche."
+    "description": "Bagre azul depredador que ataca a los peces vulnerables cercanos.\r\nSe encuentra en estanques utilizando luciérnagas al atardecer y por la noche."
   },
   "BP_Fish_Stickleback_C": {
     "name": "Espinoso",
-    "description": "Pez carnívoro que se alimenta de huevas, insectos, crustáceos y dedos de los pies de los pescadores.\nSe encuentra en los ríos Kilima utilizando lombrices por la mañana y de día."
+    "description": "Pez carnívoro que se alimenta de huevas, insectos, crustáceos y dedos de los pies de los pescadores.\r\nSe encuentra en los ríos de Kilima utilizando lombrices por la mañana y de día."
   },
   "BP_Fish_Stonefish_C": {
     "name": "Pez piedra",
@@ -441,27 +441,27 @@
   },
   "BP_Fish_Stormray_C": {
     "name": "Rayo de tormenta",
-    "description": "Una majestuosa raya de río que caza retorciendo las corrientes de agua y canalizando rayos a través de su cola.\nSe encuentra en los ríos Bahari utilizando luciérnagas por la mañana y por la noche."
+    "description": "Una majestuosa raya de río que caza retorciéndose en las corrientes de agua y canalizando rayos a través de su cola.\r\nSe encuentra en los ríos Bahari utilizando luciérnagas por la mañana y por la noche."
   },
   "BP_Fish_Striped_Dace_C": {
     "name": "Leucisco rayado",
-    "description": "Dace con rayas en el lomo.\nSe encuentra en los ríos Kilima sin cebo."
+    "description": "Albur con rayas en el lomo.\r\nSe encuentra en los ríos de Kilima sin cebo."
   },
   "BP_Fish_StripedSturgeon_C": {
     "name": "Esturión rayado",
-    "description": "Pez de lago que se alimenta en el fondo, con rayas de color claro que le permiten camuflarse a la luz del sol.\nSe encuentra en el lago Kilima utilizando gusanos al atardecer y por la noche."
+    "description": "Pez de lago que se alimenta en el fondo, con rayas de color claro que le permiten camuflarse a la luz del sol.\r\nSe encuentra en el lago Kilima utilizando gusanos al atardecer y por la noche."
   },
   "BP_Fish_Swordfin_Eel_C": {
     "name": "Anguila espada",
-    "description": "Anguila depredadora que utiliza su propio cuerpo para cortar a sus presas.\nSe encuentra en los ríos Bahari utilizando luciérnagas."
+    "description": "Anguila depredadora que utiliza su propio cuerpo para cortar a sus presas.\r\nSe puede encontrarrartnocne edeup en los ríos deed  Bahari utilizando luciérnagas."
   },
   "BP_Fish_Thundering_Eel_C": {
     "name": "Anguila trueno",
-    "description": "Anguila con carga eléctrica capaz de someter a su presa.\nSe encuentra en los ríos de la bahía de Bahari utilizando gusanos."
+    "description": "Anguila con carga eléctrica capaz de someter a su presa.\r\nSe puede encontrarrartnocne edeup en los ríos de la bahía de Bahari utilizando gusanos."
   },
   "BP_Fish_UmbranCarp_C": {
     "name": "Carpa de Umbra",
-    "description": "Pariente de la carpa hada, la carpa umbran prefiere los ambientes oscuros de las cuevas y los sistemas lacustres subterráneos.\nSe encuentra en las cuevas de Bahari Bay sin cebo."
+    "description": "Pariente de la carpa hada, la carpa umbra prefiere los ambientes oscuros de las cuevas y los sistemas lacustres subterráneos.\r\nSe encuentra en las cuevas de la bahía de Bahari sin cebo."
   },
   "BP_Fish_UnicornFish_C": {
     "name": "Pez unicornio narizón",
@@ -469,19 +469,19 @@
   },
   "BP_Fish_Voidray_C": {
     "name": "Raya del vacío",
-    "description": "Alienígena y aterrador, algunos dicen que el Voidray puede entrar en el reino del Eco y alimentarse de los ecos más pequeños que encuentra.\nSe encuentra en las cuevas de Bahari Bay usando luciérnagas."
+    "description": "Alienígena y aterrador, algunos dicen que el Voidray puede entrar en el reino del Eco y alimentarse de los ecos más pequeños que encuentra.\r\nSe encuentra en las cuevas de la bahía deed a´hab al  Bahari  usando luciérnagas."
   },
   "BP_Fish_Willow_Lamprey_C": {
     "name": "Lamprea sauce",
-    "description": "Una lamprea larga y delgada llamada así por su parecido con las ramas de un sauce.\nSe encuentra en los ríos de la bahía de Bahari utilizando gusanos por la noche."
+    "description": "Una lamprea larga y delgada llamada así por su parecido con las ramas de un sauce.\r\nSe encuentra en los ríos de la bahía de Bahari utilizando gusanos por la noche."
   },
   "BP_Fish_Yellow_Perch_C": {
     "name": "Perca amarilla",
-    "description": "Perca común en los ríos.\nSe encuentra en los ríos Bahari sin cebo."
+    "description": "Perca común en los ríos.\r\nSe encuentra en los ríos de Bahari sin cebo."
   },
   "BP_Fish_Yellowfin_Tuna_C": {
     "name": "Atún de aleta amarilla",
-    "description": "Un gran atún que puede nadar más rápido de lo que su tamaño indica.\nSe encuentra en la costa de Bahari Bay con luciérnagas."
+    "description": "Un gran atún que puede nadar más rápido de lo que su tamaño indica.\r\nSe encuentra en la costa de la bahía de Bahari con luciérnagas."
   },
   "BP_FishingRecipeBook_C": {
     "name": "Receta: guiso de pescado",
@@ -683,6 +683,10 @@
     "name": "Flujo Pino (L)",
     "description": ""
   },
+  "BP_TreeChoppable_Pine_Large2_CoOp_C": {
+    "name": "Flujo Pino (XL)",
+    "description": ""
+  },
   "BP_TreeChoppable_Pine_Medium_C": {
     "name": "Pino (M)",
     "description": ""
@@ -725,6 +729,18 @@
   },
   "BP_ValeriaHuntingCreature_Chapaa_T3_C": {
     "name": "Chapaa rayada negra",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_TreeClimber_T1_C": {
+    "name": "Teir1 Muujin",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_TreeClimber_T2_C": {
+    "name": "Teir2 Muujin",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_TreeClimber_T3_C": {
+    "name": "Teir3 Muujin",
     "description": ""
   },
   "BP_WaterFlower_C": {

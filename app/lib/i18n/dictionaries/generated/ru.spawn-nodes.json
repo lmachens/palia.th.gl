@@ -683,6 +683,10 @@
     "name": "Поток Сосна (L)",
     "description": ""
   },
+  "BP_TreeChoppable_Pine_Large2_CoOp_C": {
+    "name": "Поток Сосна (XL)",
+    "description": ""
+  },
   "BP_TreeChoppable_Pine_Medium_C": {
     "name": "Сосна (M)",
     "description": ""
@@ -725,6 +729,18 @@
   },
   "BP_ValeriaHuntingCreature_Chapaa_T3_C": {
     "name": "Чапаев в черную полоску",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_TreeClimber_T1_C": {
+    "name": "Teir1 Мууджин",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_TreeClimber_T2_C": {
+    "name": "Teir2 Мууджин",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_TreeClimber_T3_C": {
+    "name": "Teir3 Мууджин",
     "description": ""
   },
   "BP_WaterFlower_C": {

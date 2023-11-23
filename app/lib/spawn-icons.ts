@@ -170,6 +170,7 @@ export const spawnIcons = {
   BP_TreeChoppable_Oak_Small_CoOp_C: "Icon_Wood_Magicwood",
   BP_TreeChoppable_Pine_Large_C: "Icon_Wood_Hardwood",
   BP_TreeChoppable_Pine_Large_CoOp_C: "Icon_Wood_Magicwood",
+  BP_TreeChoppable_Pine_Large2_CoOp_C: "Icon_Wood_Magicwood",
   BP_TreeChoppable_Pine_Medium_C: "Icon_Wood_Hardwood",
   BP_TreeChoppable_Pine_Medium_CoOp_C: "Icon_Wood_Magicwood",
   BP_TreeChoppable_Pine_Sapling_CoOp_C: "Icon_Wood_Magicwood",

@@ -683,6 +683,10 @@
     "name": "Flow Pine (L)",
     "description": ""
   },
+  "BP_TreeChoppable_Pine_Large2_CoOp_C": {
+    "name": "Flow Pine (XL)",
+    "description": ""
+  },
   "BP_TreeChoppable_Pine_Medium_C": {
     "name": "Pine (M)",
     "description": ""
@@ -725,6 +729,18 @@
   },
   "BP_ValeriaHuntingCreature_Chapaa_T3_C": {
     "name": "Black Striped Chapaa",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_TreeClimber_T1_C": {
+    "name": "Teir1 Muujin",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_TreeClimber_T2_C": {
+    "name": "Teir2 Muujin",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_TreeClimber_T3_C": {
+    "name": "Teir3 Muujin",
     "description": ""
   },
   "BP_WaterFlower_C": {
