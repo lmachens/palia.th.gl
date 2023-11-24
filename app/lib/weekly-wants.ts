@@ -8,55 +8,60 @@ export async function fetchWeeklyWants(
     console.error("Missing PALIAPEDIA_API_KEY");
     return;
   }
-  const response = await fetch(
-    `https://api.paliapedia.com/api/weekly-wants?k=${
-      process.env.PALIAPEDIA_API_KEY
-    }&random=${Math.random()}`,
-    {
-      headers: {
-        "User-Agent": process.env.PALIAPEDIA_API_KEY,
-      },
-      next: { revalidate: 3600 },
-    }
-  );
-  if (!response.ok) {
-    console.error(response.status, response.statusText);
-    throw new Error("Failed to fetch weekly wants with API key");
-  }
-  const data = (await response.json()) as PALIAPEDIA_WEEKLY_WANTS;
-  const weeklyWants = Object.entries(data.preferences).reduce(
-    (acc, [key, wants]) => {
-      acc[key] = wants
-        .map((value) => {
-          const terms = dict[value.name as keyof typeof dict];
-
-          return {
-            id: value.name,
-            item: value.item,
-            name: terms?.name ?? value.name,
-            description: terms?.description,
-            rewardLevel: value.rewardLevel,
-          };
-        })
-        .sort((a, b) => a.name.localeCompare(b.name));
-      return acc;
-    },
-    {} as Record<
-      string,
+  try {
+    const response = await fetch(
+      `https://api.paliapedia.com/api/weekly-wants?k=${
+        process.env.PALIAPEDIA_API_KEY
+      }&random=${Math.random()}`,
       {
-        id: string;
-        name: string;
-        item: string;
-        description?: string;
-        rewardLevel: REWARD_LEVEL;
-      }[]
-    >
-  );
-  const result = {
-    version: data.version,
-    weeklyWants,
-  };
-  return result;
+        headers: {
+          "User-Agent": process.env.PALIAPEDIA_API_KEY,
+        },
+        next: { revalidate: 3600 },
+      }
+    );
+    if (!response.ok) {
+      console.error(response.status, response.statusText);
+      throw new Error("Failed to fetch weekly wants with API key");
+    }
+    const data = (await response.json()) as PALIAPEDIA_WEEKLY_WANTS;
+    const weeklyWants = Object.entries(data.preferences).reduce(
+      (acc, [key, wants]) => {
+        acc[key] = wants
+          .map((value) => {
+            const terms = dict[value.name as keyof typeof dict];
+
+            return {
+              id: value.name,
+              item: value.item,
+              name: terms?.name ?? value.name,
+              description: terms?.description,
+              rewardLevel: value.rewardLevel,
+            };
+          })
+          .sort((a, b) => a.name.localeCompare(b.name));
+        return acc;
+      },
+      {} as Record<
+        string,
+        {
+          id: string;
+          name: string;
+          item: string;
+          description?: string;
+          rewardLevel: REWARD_LEVEL;
+        }[]
+      >
+    );
+    const result = {
+      version: data.version,
+      weeklyWants,
+    };
+    return result;
+  } catch (err) {
+    //
+    return undefined;
+  }
 }
 
 type REWARD_LEVEL = "Like" | "Love";
