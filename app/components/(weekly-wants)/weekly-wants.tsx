@@ -154,17 +154,17 @@ export default function WeeklyWants({ data }: { data?: WEEKLY_WANTS }) {
                               false
                             }
                             onChange={() => {
-                              if (isOverwolfApp) {
-                                alert(
-                                  "The weekly wants is automatically tracked in the app."
-                                );
-                              } else {
-                                weeklyWants.toggleFinished(
-                                  villager.persistId,
-                                  item.id,
-                                  data.version
-                                );
-                              }
+                              // if (isOverwolfApp) {
+                              //   alert(
+                              //     "The weekly wants is automatically tracked in the app."
+                              //   );
+                              // } else {
+                              weeklyWants.toggleFinished(
+                                villager.persistId,
+                                item.id,
+                                data.version
+                              );
+                              // }
                             }}
                           />
                           <span>
