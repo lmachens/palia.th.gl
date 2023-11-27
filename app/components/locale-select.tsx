@@ -24,6 +24,7 @@ export default function LocaleSelect({ className }: { className?: string }) {
     <Popover
       open={isOpen}
       onOpenChange={setIsOpen}
+      forceMount
       trigger={
         <button aria-label={i18n.locale}>
           <span

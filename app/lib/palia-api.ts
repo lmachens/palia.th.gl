@@ -1,7 +1,7 @@
 import { promisifyOverwolf } from "../(overwolf)/lib/wrapper";
 import type { NODE } from "./nodes";
 import type { Actor, CurrentGiftPreferences } from "./storage/game-info";
-import { villagers } from "./villager";
+import { villagers } from "./villagers";
 
 export async function getVillagers() {
   const response = await fetch("https://palia-api.th.gl/nodes?type=villagers");
@@ -13,8 +13,7 @@ export async function getVillagers() {
     };
   };
   const nodes = Object.entries(result).map(([type, { mapName, position }]) => {
-    Object.values(villagers).find((villager) => villager.className === type)
-      ?.name;
+    villagers.find((villager) => villager.className === type)?.name;
     const node: NODE = {
       id: type,
       type: "villager",

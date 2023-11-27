@@ -3,17 +3,21 @@ import { persist } from "zustand/middleware";
 
 export const useWeeklyWantsStore = create(
   persist<{
-    finished: { version: number; id: string; villagerId: string }[];
-    toggleFinished: (villagerId: string, id: string, version: number) => void;
+    finished: { version: number; id: number; villagerPersistId: number }[];
+    toggleFinished: (
+      villagerPersistId: number,
+      id: number,
+      version: number
+    ) => void;
   }>(
     (set) => ({
       finished: [],
-      toggleFinished: (villagerId, id, version) =>
+      toggleFinished: (villagerPersistId, id, version) =>
         set((state) => {
           if (
             state.finished.some(
               (v) =>
-                v.villagerId === villagerId &&
+                v.villagerPersistId === villagerPersistId &&
                 v.id === id &&
                 v.version === version
             )
@@ -21,20 +25,21 @@ export const useWeeklyWantsStore = create(
             return {
               finished: state.finished.filter(
                 (v) =>
-                  v.villagerId !== villagerId ||
+                  v.villagerPersistId !== villagerPersistId ||
                   v.id !== id ||
                   v.version !== version
               ),
             };
           } else {
             return {
-              finished: [...state.finished, { villagerId, id, version }],
+              finished: [...state.finished, { villagerPersistId, id, version }],
             };
           }
         }),
     }),
     {
       name: "weekly-wants-storage",
+      version: 2,
     }
   )
 );

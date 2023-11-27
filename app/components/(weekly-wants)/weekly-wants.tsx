@@ -1,32 +1,52 @@
 "use client";
-import dynamic from "next/dynamic";
+import { useGameInfoStore } from "@/app/lib/storage/game-info";
 import Image from "next/image";
-import Script from "next/script";
-import { useState } from "react";
-import { useDict, useI18N } from "../(i18n)/i18n-provider";
+import { useMemo, useState } from "react";
+import { useDict } from "../(i18n)/i18n-provider";
 import { isOverwolfApp } from "../../lib/env";
-import { DEFAULT_LOCALE } from "../../lib/i18n";
 import { useWeeklyWantsStore } from "../../lib/storage/weekly-wants";
 import { cn } from "../../lib/utils";
-import { villagers } from "../../lib/villager";
+import { villagers } from "../../lib/villagers";
 import type { WEEKLY_WANTS } from "../../lib/weekly-wants";
-import ExternalLink from "../external-link";
 import Popover from "../popover";
 
-const Checkbox = dynamic(() => import("./checkbox"), { ssr: false });
-const Finished = dynamic(() => import("./finished"), { ssr: false });
-
 export default function WeeklyWants({ data }: { data?: WEEKLY_WANTS }) {
-  const i18n = useI18N();
   const dict = useDict();
   const [targetPopover, setTargetPopover] = useState<null | string>(null);
   const weeklyWants = useWeeklyWantsStore();
 
+  const player = useGameInfoStore((state) => state.player);
+
+  const progress = useMemo<Record<string, number[]>>(() => {
+    if (!data) {
+      return {};
+    }
+    // Disabled for preview release
+    // if (player) {
+    //   return player.giftHistory.reduce((acc, curr) => {
+    //     if (curr.associatedPreferenceVersion === data.version) {
+    //       const villagerId = curr.villagerCoreId;
+    //       acc[villagerId] = acc[villagerId] || [];
+    //       acc[villagerId].push(curr.itemPersistId);
+    //     }
+    //     return acc;
+    //   }, {} as Record<string, number[]>);
+    // }
+    return weeklyWants.finished.reduce((acc, curr) => {
+      if (curr.version === data.version) {
+        const villagerId = curr.villagerPersistId;
+        acc[villagerId] = acc[villagerId] || [];
+        acc[villagerId].push(curr.id);
+      }
+      return acc;
+    }, {} as Record<string, number[]>);
+  }, [player?.giftHistory, weeklyWants.finished, data?.version]);
+
   return (
     <>
-      <Script src="https://paliapedia.com/embed.js" async />
       <Popover
         open={!!targetPopover}
+        forceMount
         onOpenChange={(isOpen) => {
           if (isOpen) {
             setTargetPopover("open");
@@ -72,7 +92,7 @@ export default function WeeklyWants({ data }: { data?: WEEKLY_WANTS }) {
           </h2>
           <p className="text-gray-300">{dict.weeklyWants.description}</p>
           <div className="flex flex-wrap gap-2 justify-center">
-            {Object.entries(villagers).map(([id, villager]) => {
+            {villagers.map((villager) => {
               return (
                 <Popover
                   key={villager.name}
@@ -91,7 +111,7 @@ export default function WeeklyWants({ data }: { data?: WEEKLY_WANTS }) {
                     >
                       <div className="relative">
                         <Image
-                          src={villager.icon}
+                          src={`/icons/Icons_Characters/${villager.icon}.webp`}
                           width={40}
                           height={40}
                           alt={villager.name}
@@ -99,10 +119,21 @@ export default function WeeklyWants({ data }: { data?: WEEKLY_WANTS }) {
                           draggable={false}
                           unoptimized={isOverwolfApp}
                         />
-                        {weeklyWants.finished.filter(
-                          (v) =>
-                            v.villagerId === id && v.version === data?.version
-                        ).length >= 4 && <Finished />}
+                        {progress[villager.persistId]?.length >= 4 && (
+                          <svg
+                            className="absolute -right-1 top-0"
+                            width="18"
+                            height="18"
+                            viewBox="0 0 24 24"
+                            strokeWidth="4"
+                            stroke="#3de5af"
+                            fill="none"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          >
+                            <path d="M5 12l5 5l10 -10" />
+                          </svg>
+                        )}
                       </div>
                       <span className="truncate px-2 mr-1">
                         {villager.name}
@@ -113,29 +144,34 @@ export default function WeeklyWants({ data }: { data?: WEEKLY_WANTS }) {
                   <div className="flex flex-col flex-wrap gap-1 border rounded border-gray-600 bg-neutral-900 p-2">
                     <h3 className="font-bold text-sky-400">{villager.name}</h3>
                     <p className="italic">{dict.menu.weeklyWants}</p>
-                    {data?.weeklyWants[id]?.map((item) => {
+                    {data?.weeklyWants[villager.configId]?.map((item) => {
                       return (
-                        <ExternalLink
-                          key={item.name}
-                          href={`https://paliapedia.com/${
-                            i18n.locale === DEFAULT_LOCALE
-                              ? ""
-                              : `${i18n.locale}/`
-                          }item/${item.item}`}
-                          text={
-                            <label className="flex gap-1 text-sm">
-                              <Checkbox
-                                itemId={item.id}
-                                villagerId={id}
-                                version={data.version}
-                              />
-                              <span>
-                                {item.name}{" "}
-                                {item.rewardLevel === "Love" ? "💕" : ""}
-                              </span>
-                            </label>
-                          }
-                        />
+                        <label key={item.name} className="flex gap-1 text-sm">
+                          <input
+                            type="checkbox"
+                            checked={
+                              progress[villager.persistId]?.includes(item.id) ??
+                              false
+                            }
+                            onChange={() => {
+                              if (isOverwolfApp) {
+                                alert(
+                                  "The weekly wants is automatically tracked in the app."
+                                );
+                              } else {
+                                weeklyWants.toggleFinished(
+                                  villager.persistId,
+                                  item.id,
+                                  data.version
+                                );
+                              }
+                            }}
+                          />
+                          <span>
+                            {item.name}{" "}
+                            {item.rewardLevel === "Love" ? "💕" : ""}
+                          </span>
+                        </label>
                       );
                     })}
                   </div>
@@ -143,6 +179,9 @@ export default function WeeklyWants({ data }: { data?: WEEKLY_WANTS }) {
               );
             })}
           </div>
+          <p className="text-gray-300 text-sm">
+            Last Update: {data && new Date(data.timestamp).toLocaleDateString()}
+          </p>
         </div>
       </Popover>
     </>

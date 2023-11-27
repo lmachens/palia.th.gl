@@ -70,8 +70,8 @@ export type SkillLevels = {
 export const useGameInfoStore = create<{
   isOverlay: boolean;
   setIsOverlay: (isOverlay: boolean) => void;
-  player: GameActor | null;
-  setPlayer: (player: GameActor) => void;
+  player: ValeriaCharacter | null;
+  setPlayer: (player: ValeriaCharacter) => void;
   villagers: GameActor[];
   setVillagers: (villagers: GameActor[]) => void;
   otherPlayers: ValeriaCharacter[];

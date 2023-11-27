@@ -92,6 +92,10 @@ export default function Player() {
                     position: position,
                     rotation: player.r,
                     mapName: mapName,
+                    giftHistory: player.giftHistory,
+                    skillLevels: player.skillLevels,
+                    guid: player.guid,
+                    name: player.name,
                   });
                   if (mapName && mapName !== lastMapName) {
                     console.log(
