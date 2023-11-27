@@ -9,7 +9,7 @@
     Palia Interactive Map
     <br />
     <br />
-    <a href="#">Overwolf (coming soon)</a>
+    <a href="https://palia.th.gl/en/download">Desktop App</a>
     ·
     <a href="https://palia.th.gl/">Web-Version</a>
     ·
