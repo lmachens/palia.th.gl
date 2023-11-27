@@ -12,17 +12,17 @@
   "dependencies": {
     "@geoman-io/leaflet-geoman-free": "2.14.2",
     "@radix-ui/react-popover": "1.0.7",
-    "@types/node": "20.9.0",
-    "@types/react": "18.2.37",
-    "@types/react-dom": "18.2.15",
+    "@types/node": "20.10.0",
+    "@types/react": "18.2.38",
+    "@types/react-dom": "18.2.17",
     "autoprefixer": "10.4.16",
     "clsx": "2.0.0",
-    "eslint-config-next": "14.0.1",
-    "flag-icons": "6.14.0",
+    "eslint-config-next": "14.0.3",
+    "flag-icons": "7.0.2",
     "js-cookie": "3.0.5",
     "leaflet": "1.9.4",
     "nanoid": "5.0.3",
-    "next": "14.0.1",
+    "next": "14.0.3",
     "plausible-tracker": "0.3.8",
     "postcss": "8.4.31",
     "react": "18.2.0",
@@ -37,14 +37,14 @@
   },
   "devDependencies": {
     "@overwolf/ow-cli": "0.0.5-1",
-    "@overwolf/types": "3.23.9",
+    "@overwolf/types": "3.23.10",
     "@types/js-cookie": "3.0.6",
     "@types/leaflet": "1.9.8",
-    "@typescript-eslint/eslint-plugin": "6.10.0",
-    "@typescript-eslint/parser": "6.10.0",
+    "@typescript-eslint/eslint-plugin": "6.12.0",
+    "@typescript-eslint/parser": "6.12.0",
     "dotenv": "16.3.1",
-    "eslint": "8.53.0",
+    "eslint": "8.54.0",
     "reflect-metadata": "0.1.13",
-    "typescript": "5.2.2"
+    "typescript": "5.3.2"
   }
 }
