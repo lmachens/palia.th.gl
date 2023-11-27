@@ -21,17 +21,16 @@ export default function WeeklyWants({ data }: { data?: WEEKLY_WANTS }) {
     if (!data) {
       return {};
     }
-    // Disabled for preview release
-    // if (player) {
-    //   return player.giftHistory.reduce((acc, curr) => {
-    //     if (curr.associatedPreferenceVersion === data.version) {
-    //       const villagerId = curr.villagerCoreId;
-    //       acc[villagerId] = acc[villagerId] || [];
-    //       acc[villagerId].push(curr.itemPersistId);
-    //     }
-    //     return acc;
-    //   }, {} as Record<string, number[]>);
-    // }
+    if (player) {
+      return player.giftHistory.reduce((acc, curr) => {
+        if (curr.associatedPreferenceVersion === data.version) {
+          const villagerId = curr.villagerCoreId;
+          acc[villagerId] = acc[villagerId] || [];
+          acc[villagerId].push(curr.itemPersistId);
+        }
+        return acc;
+      }, {} as Record<string, number[]>);
+    }
     return weeklyWants.finished.reduce((acc, curr) => {
       if (curr.version === data.version) {
         const villagerId = curr.villagerPersistId;
@@ -154,17 +153,17 @@ export default function WeeklyWants({ data }: { data?: WEEKLY_WANTS }) {
                               false
                             }
                             onChange={() => {
-                              // if (isOverwolfApp) {
-                              //   alert(
-                              //     "The weekly wants is automatically tracked in the app."
-                              //   );
-                              // } else {
-                              weeklyWants.toggleFinished(
-                                villager.persistId,
-                                item.id,
-                                data.version
-                              );
-                              // }
+                              if (isOverwolfApp) {
+                                alert(
+                                  "The weekly wants is automatically tracked in the app."
+                                );
+                              } else {
+                                weeklyWants.toggleFinished(
+                                  villager.persistId,
+                                  item.id,
+                                  data.version
+                                );
+                              }
                             }}
                           />
                           <span>
