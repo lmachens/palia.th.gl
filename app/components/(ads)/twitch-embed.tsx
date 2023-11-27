@@ -1,5 +1,7 @@
+"use client";
 import Script from "next/script";
-import { trackEvent } from "./plausible-tracker";
+import { useState } from "react";
+import { trackEvent } from "../plausible-tracker";
 
 declare global {
   interface Window {
@@ -8,7 +10,9 @@ declare global {
 }
 
 const CHANNEL = "thehiddengaminglair";
-export default function TwitchEmbed({ onClose }: { onClose: () => void }) {
+export default function TwitchEmbed() {
+  const [closed, setClosed] = useState(false);
+
   const handleLoad = () => {
     const twitchEmbed = new window.Twitch.Embed("player", {
       width: "100%",
@@ -66,13 +70,16 @@ export default function TwitchEmbed({ onClose }: { onClose: () => void }) {
     });
   };
 
+  if (closed) {
+    return <></>;
+  }
   return (
     <div className="relative">
       <Script
         src="https://embed.twitch.tv/embed/v1.js"
         async
         onLoad={handleLoad}
-        onError={onClose}
+        onError={() => setClosed(true)}
       />
       <div id="player" className="twitch-embed">
         <div className="twitch-embed-close absolute top-0 left-0 right-0 z-10 transition-all flex justify-between items-center px-2 py-1 bg-black bg-opacity-50 text-white text-sm">
@@ -87,7 +94,7 @@ export default function TwitchEmbed({ onClose }: { onClose: () => void }) {
             </a>
           </span>
           <button
-            onClick={onClose}
+            onClick={() => setClosed(true)}
             className="text-neutral-200 hover:text-white"
           >
             X

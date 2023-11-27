@@ -1,6 +1,8 @@
 import type { DICT } from "@/app/lib/i18n";
 import type { NODE } from "@/app/lib/nodes";
 import dynamic from "next/dynamic";
+import NitroAds from "../(ads)/nitro-ads";
+import WideSkyscraper from "../(ads)/wide-skyscrapper";
 const Tiles = dynamic(() => import("@/app/components/(map)/tiles"), {
   ssr: false,
 });
@@ -38,8 +40,11 @@ export default async function RummagePile({ dict }: { dict: DICT }) {
     mapName: data.BP_ChapaaPile_C.mapName,
   };
   return (
-    <div className="overflow-auto h-[calc(100%-50px)]">
-      <div className="container mx-auto p-4 text-center">
+    <div className="overflow-auto h-[calc(100%-50px)] flex justify-center">
+      <NitroAds>
+        <WideSkyscraper id="palia-wide-skyscraper-3" />
+      </NitroAds>
+      <div className="container p-4 text-center">
         <h1 className="text-3xl font-bold mb-4">{dict.rummagePile.title}</h1>
         <p>{dict.rummagePile.description}</p>
         <div className="h-96 mt-4">
@@ -49,6 +54,9 @@ export default async function RummagePile({ dict }: { dict: DICT }) {
           </Map>
         </div>
       </div>
+      <NitroAds>
+        <WideSkyscraper id="palia-wide-skyscraper-4" />
+      </NitroAds>
     </div>
   );
 }

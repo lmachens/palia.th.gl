@@ -1,5 +1,7 @@
 import type { DICT } from "@/app/lib/i18n";
 import Image from "next/image";
+import NitroAds from "../(ads)/nitro-ads";
+import WideSkyscraper from "../(ads)/wide-skyscrapper";
 
 type VillagerGiftHistory = {
   villagerCoreId: number;
@@ -65,7 +67,10 @@ export default async function Leaderboard({ dict }: { dict: DICT }) {
     .slice(0, 100);
 
   return (
-    <div className="overflow-auto h-[calc(100%-50px)]">
+    <div className="overflow-auto h-[calc(100%-50px)] flex justify-center">
+      <NitroAds>
+        <WideSkyscraper id="palia-wide-skyscraper-1" />
+      </NitroAds>
       <div className="container mx-auto p-4 text-center">
         <h1 className="text-3xl font-bold mb-4">{dict.leaderboard.title}</h1>
         <p>{dict.leaderboard.description}</p>
@@ -109,6 +114,9 @@ export default async function Leaderboard({ dict }: { dict: DICT }) {
           </tbody>
         </table>
       </div>
+      <NitroAds>
+        <WideSkyscraper id="palia-wide-skyscraper-2" />
+      </NitroAds>
     </div>
   );
 }
