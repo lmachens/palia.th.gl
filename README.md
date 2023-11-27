@@ -9,7 +9,7 @@
     Palia Interactive Map
     <br />
     <br />
-    <a href="https://palia.th.gl/en/download">Desktop App</a>
+    <a href="https://palia.th.gl/en/download">In-Game App</a>
     ·
     <a href="https://palia.th.gl/">Web-Version</a>
     ·
