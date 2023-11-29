@@ -155,6 +155,10 @@
     "name": "Chiocciola da giardino",
     "description": "Una lumaca che si è evoluta nel tempo per assomigliare a una foglia. Ottimo per nascondersi dai predatori, pessimo per nascondersi dalla Mantide Cacciafoglia.\nSi può trovare lungo la costa e nelle foreste della Baia di Bahari."
   },
+  "BP_ChapaaPile_C": {
+    "name": "Rummage Pile",
+    "description": ""
+  },
   "BP_Coral_C": {
     "name": "Corallo",
     "description": "Porta la spiaggia a casa tua con questo pezzo di corallo. Si sente quasi il profumo della barriera corallina!"
@@ -558,6 +562,14 @@
   "BP_PoisonFlower_C": {
     "name": "Margherita Briar",
     "description": "La margherita di rovo può sopravvivere anche nelle condizioni ambientali più difficili."
+  },
+  "BP_QuestItem_CookBook_1_C": {
+    "name": "Libro di Cucina elegante",
+    "description": "La copertina del libro recita, \"Crème de la crème: Una guida alla cucina per l'élite Majiri\"."
+  },
+  "BP_QuestItem_CookBook_2_C": {
+    "name": "Libro di Pasticceria",
+    "description": "La copertina del libro recita, \"Dolci golosità: Una guida alla preparazione di dessert da leccarsi i baffi\"."
   },
   "BP_Seashell_C": {
     "name": "Conchiglia",

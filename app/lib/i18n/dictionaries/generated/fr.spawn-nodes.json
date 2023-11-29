@@ -155,6 +155,10 @@
     "name": "Escargot commun",
     "description": "Une lente évolution a permis à cet escargot de ressembler à une feuille. Son camouflage lui permet de se cacher facilement des prédateurs, mais le rend vulnérable à la mante chasse-feuille.\r\nOn l’aperçoit sur le rivage et dans les forêts de la baie du Bahari."
   },
+  "BP_ChapaaPile_C": {
+    "name": "Rummage Pile",
+    "description": ""
+  },
   "BP_Coral_C": {
     "name": "Corail",
     "description": "Ramène un coin de plage à la maison avec ce morceau de corail. On peut presque sentir l’odeur du récif !"
@@ -558,6 +562,14 @@
   "BP_PoisonFlower_C": {
     "name": "Marguerite à ronces",
     "description": "La marguerite à ronces est une fleur capable de survivre dans des conditions extrêmes."
+  },
+  "BP_QuestItem_CookBook_1_C": {
+    "name": "Livre de recettes de luxe",
+    "description": "La jaquette du livre indique : \\« Comment délecter les papilles de l’élite majiri \\»."
+  },
+  "BP_QuestItem_CookBook_2_C": {
+    "name": "Livre de recettes de desserts",
+    "description": "La jaquette du livre indique : \\« Douceurs sucrées : comment élaborer des desserts à tomber. \\»"
   },
   "BP_Seashell_C": {
     "name": "Coquillage",

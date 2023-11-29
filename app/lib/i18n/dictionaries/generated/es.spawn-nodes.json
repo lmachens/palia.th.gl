@@ -155,6 +155,10 @@
     "name": "Caracol de jardín",
     "description": "Un caracol que ha evolucionado con el tiempo para parecerse a una hoja. Es bueno para esconderse de los depredadores, pero malo para esconderse de la mantis hoja.\r\nSe encuentra a lo largo de la costa y en los bosques de la bahía de Bahari."
   },
+  "BP_ChapaaPile_C": {
+    "name": "Rummage Pile",
+    "description": ""
+  },
   "BP_Coral_C": {
     "name": "Coral",
     "description": "Llévate la playa a casa con este trozo de coral. ¡Casi puedes percibir el olor del arrecife!"
@@ -558,6 +562,14 @@
   "BP_PoisonFlower_C": {
     "name": "Margarita salvaje",
     "description": "La margarita salvaje puede sobrevivir incluso a las condiciones más duras."
+  },
+  "BP_QuestItem_CookBook_1_C": {
+    "name": "Libro de cocina elegante",
+    "description": "En la cubierta del libro pone: «Cortezas superiores: una guía para cocinar para la élite majiri»."
+  },
+  "BP_QuestItem_CookBook_2_C": {
+    "name": "Libro de recetas de postre",
+    "description": "La cubierta del libro dice: «Dulces para gente dulce: una guía para elaborar postres que hacen la boca agua»."
   },
   "BP_Seashell_C": {
     "name": "Concha",

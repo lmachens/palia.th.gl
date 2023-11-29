@@ -155,6 +155,10 @@
     "name": "Gartenschnecke",
     "description": "Eine Schnecke, die sich im Laufe der Zeit so entwickelt hat, dass sie wie ein Blatt aussieht. Gut zum Verstecken vor Raubtieren, schlecht zum Verstecken vor der Blattstieligen Gottesanbeterin.\r\nKann entlang der Küste und in den Wäldern der Bahari-Bucht gefunden werden."
   },
+  "BP_ChapaaPile_C": {
+    "name": "Rummage Pile",
+    "description": ""
+  },
   "BP_Coral_C": {
     "name": "Koralle",
     "description": "Mit diesem Stück Koralle hast du ein Stück Strand zu Hause. Da kann man fast das Riff riechen!"
@@ -558,6 +562,14 @@
   "BP_PoisonFlower_C": {
     "name": "Dornengänseblümchen",
     "description": "Das Dornengänseblümchen aus den Bergen kommt selbst mit härtesten Bedingungen zurecht."
+  },
+  "BP_QuestItem_CookBook_1_C": {
+    "name": "Schickimicki-Kochbuch",
+    "description": "Auf dem Umschlag des Buches steht: \\„Crème de la Crème: Ein Kochbuch für die Majiri-Elite\\“"
+  },
+  "BP_QuestItem_CookBook_2_C": {
+    "name": "Dessert-Kochbuch",
+    "description": "Auf dem Umschlag des Buches steht: \\„Was Süßes für die Süßen: Ein Leitfaden zur Zubereitung von Nachspeisen zum Dahinschmelzen\\“"
   },
   "BP_Seashell_C": {
     "name": "Muschel",

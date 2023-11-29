@@ -155,6 +155,10 @@
     "name": "Garden Snail",
     "description": "A snail that has evolved over time to look like a leaf. Good for hiding from predators, bad for hiding from the Leafstalker Mantis.\r\nFound along the coast and in forests of Bahari Bay."
   },
+  "BP_ChapaaPile_C": {
+    "name": "Rummage Pile",
+    "description": ""
+  },
   "BP_Coral_C": {
     "name": "Coral",
     "description": "Bring the beach home with you with this piece of coral. You can almost smell the reef!"
@@ -558,6 +562,14 @@
   "BP_PoisonFlower_C": {
     "name": "Briar Daisy",
     "description": "The mountainous Briar Daisy can survive even the harshest conditions."
+  },
+  "BP_QuestItem_CookBook_1_C": {
+    "name": "Fancy Cook Book",
+    "description": "The book jacket reads, \"Upper Crusts: A Guide to Cooking for Majiri Elite.\""
+  },
+  "BP_QuestItem_CookBook_2_C": {
+    "name": "Dessert Cook Book",
+    "description": "The book jacket reads, \"Sweets for the Sweet: A Guide to Crafting Drool-Worthy Desserts.\""
   },
   "BP_Seashell_C": {
     "name": "Shell",

@@ -87,12 +87,12 @@
   },
   "location": {
     "BP_DoorTeleporter_Parent_C_UAID_B04F1306E948198801_1687213524": {
-      "name": "Северный шахтный ствол",
+      "name": "Северный Рудник",
       "description": "\"Закрыто по распоряжению мэра!\""
     },
     "BP_InvisibleTeleporter_Parent_C_UAID_00BE43BC7D55F4AC01_1201166771": {
       "name": "???",
-      "description": "The hatch won't budge."
+      "description": "Люк не сдвинется с места."
     },
     "BP_InvisibleTeleporter_Parent_C_UAID_00BE43BC7D55F9A101_1768487034": {
       "name": "Войти в Руины",
@@ -211,8 +211,8 @@
       "description": "Для входа необходим ключ от Эш."
     },
     "BP_DoorTeleporter_Parent_C_UAID_00BE43BC7D5532AD01_1839565916": {
-      "name": "Subira's Room",
-      "description": "You need a key from Subira to enter."
+      "name": "Комната Субиры",
+      "description": "Для входа вам необходим ключ от Субиры."
     }
   },
   "stable": {
