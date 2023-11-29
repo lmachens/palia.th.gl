@@ -42,6 +42,7 @@ export default function Villagers() {
     if (!isVisible) {
       Object.keys(villagerMarkers.current).forEach((key) => {
         villagerMarkers.current[key].remove();
+        delete villagerMarkers.current[key];
       });
       return;
     }

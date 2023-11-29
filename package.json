@@ -17,6 +17,7 @@
     "@types/react-dom": "18.2.17",
     "autoprefixer": "10.4.16",
     "clsx": "2.0.0",
+    "color-hash": "2.0.2",
     "eslint-config-next": "14.0.3",
     "flag-icons": "7.0.2",
     "js-cookie": "3.0.5",
@@ -38,6 +39,7 @@
   "devDependencies": {
     "@overwolf/ow-cli": "0.0.5-1",
     "@overwolf/types": "3.23.10",
+    "@types/color-hash": "1.0.5",
     "@types/js-cookie": "3.0.6",
     "@types/leaflet": "1.9.8",
     "@typescript-eslint/eslint-plugin": "6.12.0",

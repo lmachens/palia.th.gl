@@ -1,9 +1,12 @@
 import PlayerMarker from "@/app/components/(map)/player-marker";
+import { colorizeImage } from "@/app/lib/images";
 import { useGameInfoStore } from "@/app/lib/storage/game-info";
 import { useMap, useMapStore } from "@/app/lib/storage/map";
 import { useParamsStore } from "@/app/lib/storage/params";
+import ColorHash from "color-hash";
 import leaflet from "leaflet";
 import { useEffect, useRef } from "react";
+const colorHash = new ColorHash({ lightness: 0.75 });
 
 export default function useOtherPlayers() {
   const map = useMap();
@@ -20,14 +23,21 @@ export default function useOtherPlayers() {
     if (!isVisible) {
       Object.keys(otherPlayersMarkers.current).forEach((key) => {
         otherPlayersMarkers.current[key].remove();
+        delete otherPlayersMarkers.current[key];
       });
       return;
     }
     try {
-      otherPlayers.forEach((otherPlayer) => {
+      otherPlayers.forEach(async (otherPlayer) => {
         if (!otherPlayersMarkers.current[otherPlayer.guid]) {
+          const rgb = colorHash.rgb(otherPlayer.guid);
+          const image = await colorizeImage(
+            "/icons/Icon_PlayerMarker.png",
+            rgb
+          );
+
           const icon = leaflet.icon({
-            iconUrl: "/icons/Icon_PlayerMarker.png",
+            iconUrl: image,
             className: "player",
             iconSize: [24, 24],
           });
