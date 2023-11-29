@@ -86,7 +86,9 @@ export default function Player() {
                 const mapName = getMapFromActor(player);
                 if (mapName) {
                   const position =
-                    mapName === "housing" ? modHousingCoords(player) : player;
+                    mapName === "housing"
+                      ? modHousingCoords(player)
+                      : { x: player.x, y: player.y, z: player.z };
                   gameInfo.setPlayer({
                     className: player.className,
                     position: position,
@@ -136,19 +138,23 @@ export default function Player() {
               const otherPlayers: ValeriaCharacter[] = [];
               const foundSpawnNodes: NODE[] = [];
               actors.forEach((actor) => {
+                const mapName = getMapFromActor(actor);
+                if (!mapName) {
+                  return;
+                }
+                const position =
+                  mapName === "housing"
+                    ? modHousingCoords(actor)
+                    : { x: actor.x, y: actor.y, z: actor.z };
                 const className = actor.className.split(" ")[0];
                 const type = className.replace("+", "");
                 const isStar = className.includes("+");
                 if (type.startsWith("BP_Villager")) {
                   villagers.push({
                     className: actor.className,
-                    position: {
-                      x: actor.x,
-                      y: actor.y,
-                      z: actor.z,
-                    },
+                    position: position,
                     rotation: 0,
-                    mapName: getMapFromActor(actor),
+                    mapName: mapName,
                   });
                 } else if (
                   type.startsWith("BP_ValeriaCharacter") &&
@@ -161,13 +167,9 @@ export default function Player() {
                       giftHistory: actor.giftHistory,
                       skillLevels: actor.skillLevels,
                       className: actor.className,
-                      position: {
-                        x: actor.x,
-                        y: actor.y,
-                        z: actor.z,
-                      },
+                      position: position,
                       rotation: actor.r,
-                      mapName: getMapFromActor(actor),
+                      mapName: mapName,
                     });
                   }
                 } else if (
@@ -180,7 +182,7 @@ export default function Player() {
                     id: actor.address.toString(),
                     x: actor.x,
                     y: actor.y,
-                    mapName: getMapFromActor(actor)!,
+                    mapName: mapName,
                     isSpawnNode: true,
                     isStar,
                   });

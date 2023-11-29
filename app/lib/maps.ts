@@ -48,12 +48,7 @@ export const DEFAULT_MAP = "kilima-valley";
 export const isMap = (map: string) => Object.keys(CONFIGS).includes(map);
 
 const HOUSING_MOD = 65000;
-export function modHousingCoords(coords: {
-  x: number;
-  y: number;
-  z: number;
-  r: number;
-}) {
+export function modHousingCoords(coords: { x: number; y: number; z: number }) {
   let x = coords.x % HOUSING_MOD;
   if (x < 0) {
     x += HOUSING_MOD;
