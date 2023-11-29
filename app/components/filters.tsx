@@ -5,7 +5,7 @@ import { isOverwolfApp } from "../lib/env";
 import { filterGroups } from "../lib/filter-groups";
 import { ICONS, SPAWN_ICONS } from "../lib/icons";
 import type { spawnNodes } from "../lib/nodes";
-import { ALL_FILTERS, staticNodes } from "../lib/nodes";
+import { ALL_FILTERS, hideOnWeb, staticNodes } from "../lib/nodes";
 import { spawnGroups } from "../lib/spawn-groups";
 import { useGlobalSettingsStore } from "../lib/storage/global-settings";
 import { useParamsStore } from "../lib/storage/params";
@@ -74,6 +74,9 @@ export default function Filters() {
       <div className="flex flex-wrap">
         {Object.keys(staticNodes).map((_key) => {
           const key = _key as keyof typeof staticNodes;
+          if (!isOverwolfApp && hideOnWeb.includes(key)) {
+            return <Fragment key={key}></Fragment>;
+          }
           const icon = ICONS[key];
           return (
             <button

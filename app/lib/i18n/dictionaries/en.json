@@ -104,7 +104,8 @@
     "housingPlot": "Housing Plot",
     "wardrobe": "Wardrobe",
     "zone": "Zone",
-    "villager": "Villager"
+    "villager": "Villager",
+    "otherPlayer": "Other Player"
   },
   "groups": {
     "foraging": "Foraging",

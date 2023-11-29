@@ -41,6 +41,10 @@ export const ICONS = {
     src: "/icons/T_Compass_Villager.png",
     radius: 14,
   },
+  otherPlayer: {
+    src: "/icons/Icon_PlayerMarker.png",
+    radius: 14,
+  },
   rummagePile: {
     src: "/icons/WT_Backer_Map_Marker_White.png",
     radius: 14,

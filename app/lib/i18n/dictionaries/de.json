@@ -104,7 +104,8 @@
         "housingPlot": "Wohngrundstück",
         "wardrobe": "Kleiderschrank",
         "zone": "Zone",
-        "villager": "Dorfbewohner"
+        "villager": "Dorfbewohner",
+        "otherPlayer": "Andere Spieler"
     },
     "groups": {
         "foraging": "Sammeln",

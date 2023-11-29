@@ -104,7 +104,8 @@
         "housingPlot": "Parcela de Vivienda",
         "wardrobe": "Armario",
         "zone": "Zona",
-        "villager": "Aldeano"
+        "villager": "Aldeano",
+        "otherPlayer": "Otro Jugador"
     },
     "groups": {
         "foraging": "Recolección",

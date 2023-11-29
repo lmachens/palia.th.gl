@@ -18,7 +18,10 @@ export const staticNodes = {
   zone: zone,
   wardrobe: wardrobe,
   villager: {},
+  otherPlayer: {},
 } as const;
+
+export const hideOnWeb = ["otherPlayer"];
 
 export type NODE = {
   id: string;

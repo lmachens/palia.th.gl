@@ -20,6 +20,7 @@ import { useParamsStore } from "@/app/lib/storage/params";
 import { useSettingsStore } from "@/app/lib/storage/settings";
 import leaflet from "leaflet";
 import { useEffect, useRef } from "react";
+import useOtherPlayers from "./useOtherPlayers";
 
 export default function Player() {
   const { map, mapName } = useMapStore();
@@ -29,9 +30,9 @@ export default function Player() {
     (state) => state.followPlayerPosition
   );
   const marker = useRef<PlayerMarker | null>(null);
-  const otherPlayersMarkers = useRef<{ [key: string]: PlayerMarker }>({});
   const setParams = useParamsStore((state) => state.setParams);
   const dict = useDict();
+  useOtherPlayers();
 
   useEffect(() => {
     if (mounted.current) return;
@@ -278,46 +279,6 @@ export default function Player() {
     };
   }, [map, mapName, gameInfo.player?.mapName]);
 
-  useEffect(() => {
-    if (!map) {
-      return;
-    }
-    try {
-      gameInfo.otherPlayers.forEach((otherPlayer) => {
-        if (!otherPlayersMarkers.current[otherPlayer.guid]) {
-          const icon = leaflet.icon({
-            iconUrl: "/icons/Icon_PlayerMarker.png",
-            className: "player",
-            iconSize: [24, 24],
-          });
-          otherPlayersMarkers.current[otherPlayer.guid] = new PlayerMarker(
-            [otherPlayer.position.y, otherPlayer.position.x],
-            {
-              icon,
-            }
-          );
-          otherPlayersMarkers.current[otherPlayer.guid].bindTooltip(
-            otherPlayer.name
-          );
-          otherPlayersMarkers.current[otherPlayer.guid].rotation =
-            otherPlayer.rotation;
-        } else {
-          otherPlayersMarkers.current[otherPlayer.guid].updatePosition(
-            otherPlayer
-          );
-        }
-        otherPlayersMarkers.current[otherPlayer.guid].addTo(map);
-      });
-      Object.keys(otherPlayersMarkers.current).forEach((key) => {
-        if (!gameInfo.otherPlayers.some((v) => v.guid === key)) {
-          otherPlayersMarkers.current[key].remove();
-        }
-      });
-    } catch (err) {
-      // ignore
-    }
-  }, [gameInfo.otherPlayers]);
-
   const lastAnimation = useRef(0);
 
   useEffect(() => {
@@ -346,21 +307,6 @@ export default function Player() {
       }
     }
   }, [gameInfo.player, followPlayerPosition]);
-
-  useEffect(() => {
-    if (!map) {
-      return;
-    }
-
-    gameInfo.otherPlayers.forEach((otherPlayer) => {
-      if (mapName !== otherPlayer.mapName) {
-        return;
-      }
-      otherPlayersMarkers.current[otherPlayer.guid]?.updatePosition(
-        otherPlayer
-      );
-    });
-  }, [gameInfo.otherPlayers]);
 
   return <></>;
 }

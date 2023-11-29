@@ -104,7 +104,8 @@
         "housingPlot": "Parcelle de Logement",
         "wardrobe": "Garde-Robe",
         "zone": "Zone",
-        "villager": "Villageois"
+        "villager": "Villageois",
+        "otherPlayer": "Autre Joueur"
     },
     "groups": {
         "foraging": "Cueillette",

@@ -104,7 +104,8 @@
         "housingPlot": "Terreno per Alloggio",
         "wardrobe": "Armadio",
         "zone": "Zona",
-        "villager": "Abitante"
+        "villager": "Abitante",
+        "otherPlayer": "Altro Giocatore"
     },
     "groups": {
         "foraging": "Raccolta",

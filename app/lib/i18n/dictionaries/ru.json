@@ -104,7 +104,8 @@
     "housingPlot": "Жилой участок",
     "wardrobe": " Костюмерная",
     "zone": "Локации",
-    "villager": "Жители"
+    "villager": "Жители",
+    "otherPlayer": "Другие игроки"
   },
   "groups": {
     "foraging": "Собираемое",
