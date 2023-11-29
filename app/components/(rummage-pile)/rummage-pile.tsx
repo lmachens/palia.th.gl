@@ -39,12 +39,16 @@ export default async function RummagePile({ dict }: { dict: DICT }) {
     type: "rummagePile",
     mapName: data.BP_ChapaaPile_C.mapName,
   };
+
+  function formatDate(date: Date) {
+    return `${date.toLocaleDateString()} ${date.toLocaleTimeString()}`;
+  }
   return (
     <div className="overflow-auto h-[calc(100%-50px)] flex justify-center">
       <NitroAds>
         <WideSkyscraper id="palia-wide-skyscraper-3" />
       </NitroAds>
-      <div className="container p-4 text-center">
+      <div className="container p-4 text-center space-y-2">
         <h1 className="text-3xl font-bold mb-4">{dict.rummagePile.title}</h1>
         <p>{dict.rummagePile.description}</p>
         <div className="h-96 mt-4">
@@ -53,6 +57,9 @@ export default async function RummagePile({ dict }: { dict: DICT }) {
             <SpecialNodes nodes={[node]} />
           </Map>
         </div>
+        <p className="text-zinc-200 text-sm">
+          Updated at {formatDate(new Date(data.BP_ChapaaPile_C.timestamp))}
+        </p>
       </div>
       <NitroAds>
         <WideSkyscraper id="palia-wide-skyscraper-4" />
