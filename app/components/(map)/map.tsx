@@ -6,7 +6,7 @@ import "leaflet/dist/leaflet.css";
 import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 
-import { isDevelopment, isOverwolfApp } from "@/app/lib/env";
+import { isOverwolfApp } from "@/app/lib/env";
 import { CONFIGS } from "@/app/lib/maps";
 import { useMapStore } from "@/app/lib/storage/map";
 import { useParamsStore } from "@/app/lib/storage/params";
@@ -113,7 +113,7 @@ export default function Map({ children }: { children?: React.ReactNode }) {
       overwolf.settings.hotkeys.onPressed.addListener(handleHotkey);
     }
 
-    if (isDevelopment) {
+    if (location.href.includes("localhost")) {
       const divElement = leaflet.DomUtil.create("div", "leaflet-position");
       const handleMouseMove = (event: leaflet.LeafletMouseEvent) => {
         divElement.innerHTML = `<span>[${event.latlng.lng.toFixed(

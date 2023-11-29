@@ -56,14 +56,14 @@ async function Layout({
       notFound();
     }
     content = (
-      <>
+      <div className="h-[calc(100%-50px)]">
         <Map>
           <Tiles />
           <Nodes />
           <ActiveRoutes />
         </Map>
         <Search />
-      </>
+      </div>
     );
   }
   return (

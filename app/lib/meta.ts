@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { API_BASE_URI, isDevelopment } from "./env";
+import { API_BASE_URI } from "./env";
 import { DEFAULT_LOCALE, LOCALES, loadDictionary } from "./i18n";
 import { nodes } from "./nodes";
 
@@ -15,8 +15,7 @@ export function generateMetadata({
   searchParams: { [key: string]: string | string[] | undefined };
 }): Metadata {
   const dict = loadDictionary(lang);
-  let canonical =
-    (isDevelopment ? "http://localhost:3668" : API_BASE_URI) + `/${lang}`;
+  let canonical = API_BASE_URI + `/${lang}`;
 
   if (map === "download") {
     const metaTitle = dict.download.metaTitle;
