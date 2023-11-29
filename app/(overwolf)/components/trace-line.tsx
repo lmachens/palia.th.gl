@@ -1,3 +1,4 @@
+"use client";
 import { useGameInfoStore } from "@/app/lib/storage/game-info";
 import { useMap } from "@/app/lib/storage/map";
 import { useSettingsStore } from "@/app/lib/storage/settings";
@@ -28,6 +29,7 @@ export default function TraceLine() {
   if (!layerGroup.current) {
     layerGroup.current = new leaflet.LayerGroup();
   }
+  const lastMapName = useRef(player?.mapName);
 
   const settingsStore = useSettingsStore();
 
@@ -48,6 +50,12 @@ export default function TraceLine() {
     if (!player?.position) {
       return;
     }
+    const targetLayerGroup = layerGroup.current!;
+
+    if (player.mapName !== lastMapName.current) {
+      lastMapName.current = player.mapName;
+      targetLayerGroup.clearLayers();
+    }
 
     const distance = Math.sqrt(
       Math.pow(player.position.x - lastPosition.current.x, 2) +
@@ -55,7 +63,6 @@ export default function TraceLine() {
     );
     if (distance > 200) {
       const traceDotsGroup = traceDots.current!;
-      const targetLayerGroup = layerGroup.current!;
       lastPosition.current = player.position;
       const circle = createCircle(player.position);
       traceDotsGroup.push(circle);
