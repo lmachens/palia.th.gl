@@ -6,6 +6,7 @@ import Nodes from "@/app/components/(map)/nodes";
 import Tiles from "@/app/components/(map)/tiles";
 import Villagers from "@/app/components/(map)/villagers";
 import WeeklyWants from "@/app/components/(weekly-wants)/weekly-wants";
+import LocaleSelect from "@/app/components/locale-select";
 import Menu from "@/app/components/menu";
 import Search from "@/app/components/search";
 import { API_BASE_URI } from "@/app/lib/env";
@@ -71,6 +72,7 @@ export default function App() {
         <AppContainer>
           <Header>
             <WeeklyWants data={data && !("error" in data) ? data : undefined} />
+            <LocaleSelect />
           </Header>
           <MapContainer>
             <Map>

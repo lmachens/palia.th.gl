@@ -6,6 +6,7 @@ import Popover from "./popover";
 
 import { isOverwolfApp } from "../lib/env";
 import { useSettingsStore } from "../lib/storage/settings";
+import { cn } from "../lib/utils";
 import "/node_modules/flag-icons/css/flag-icons.min.css";
 
 const getFlagCode = (locale: string) => {
@@ -26,11 +27,15 @@ export default function LocaleSelect({ className }: { className?: string }) {
       onOpenChange={setIsOpen}
       forceMount
       trigger={
-        <button aria-label={i18n.locale}>
+        <button
+          aria-label={i18n.locale}
+          className={cn(
+            "hover:bg-white/20 transition-colors p-2 flex",
+            isOverwolfApp ? "rounded-none" : "rounded-md"
+          )}
+        >
           <span
-            className={`text-xl fi fi-${getFlagCode(i18n.locale)} ${
-              className ?? ""
-            }`}
+            className={`fi fi-${getFlagCode(i18n.locale)} ${className ?? ""}`}
           />
         </button>
       }

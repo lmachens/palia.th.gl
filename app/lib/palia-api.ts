@@ -13,7 +13,9 @@ export async function getVillagers() {
     };
   };
   const nodes = Object.entries(result).map(([type, { mapName, position }]) => {
-    villagers.find((villager) => villager.className === type)?.name;
+    if (!villagers.find((villager) => villager.className === type)) {
+      console.warn(`Unknown villager type: ${type}`);
+    }
     const node: NODE = {
       id: type,
       type: "villager",
