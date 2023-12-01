@@ -3,25 +3,20 @@ import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
-import FloatingVideo from "@/app/components/(ads)/floating-video";
-import NitroAds from "@/app/components/(ads)/nitro-ads";
-import TwitchEmbed from "@/app/components/(ads)/twitch-embed";
-import { I18NProvider } from "@/app/components/(i18n)/i18n-provider";
-import Menu from "@/app/components/menu";
-import PlausibleTracker from "@/app/components/plausible-tracker";
-import {
-  DEFAULT_LOCALE,
-  LOCALES,
-  isLang,
-  loadDictionary,
-} from "@/app/lib/i18n";
+import FloatingVideo from "@/components/(ads)/floating-video";
+import NitroAds from "@/components/(ads)/nitro-ads";
+import TwitchEmbed from "@/components/(ads)/twitch-embed";
+import { I18NProvider } from "@/components/(i18n)/i18n-provider";
+import Menu from "@/components/menu";
+import PlausibleTracker from "@/components/plausible-tracker";
+import { DEFAULT_LOCALE, LOCALES, isLang, loadDictionary } from "@/lib/i18n";
 import type { Viewport } from "next";
 import { notFound } from "next/navigation";
 
 export const viewport: Viewport = {
   themeColor: "black",
 };
-export { generateMetadata } from "@/app/lib/meta";
+export { generateMetadata } from "@/lib/meta";
 
 function Layout({
   children,

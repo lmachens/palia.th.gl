@@ -3,29 +3,24 @@ import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
-import { I18NProvider } from "@/app/components/(i18n)/i18n-provider";
-import Nodes from "@/app/components/(map)/nodes";
-import Tiles from "@/app/components/(map)/tiles";
-import EmbedLink from "@/app/components/embed-link";
-import PlausibleTracker from "@/app/components/plausible-tracker";
-import {
-  DEFAULT_LOCALE,
-  LOCALES,
-  isLang,
-  loadDictionary,
-} from "@/app/lib/i18n";
-import { isMap } from "@/app/lib/maps";
-import { ParamsProvider } from "@/app/lib/storage/params";
+import { I18NProvider } from "@/components/(i18n)/i18n-provider";
+import Nodes from "@/components/(map)/nodes";
+import Tiles from "@/components/(map)/tiles";
+import EmbedLink from "@/components/embed-link";
+import PlausibleTracker from "@/components/plausible-tracker";
+import { DEFAULT_LOCALE, LOCALES, isLang, loadDictionary } from "@/lib/i18n";
+import { isMap } from "@/lib/maps";
+import { ParamsProvider } from "@/lib/storage/params";
 import dynamic from "next/dynamic";
 import { notFound } from "next/navigation";
 
-export { generateMetadata } from "@/app/lib/meta";
+export { generateMetadata } from "@/lib/meta";
 
-const Map = dynamic(() => import("@/app/components/(map)/map"), {
+const Map = dynamic(() => import("@/components/(map)/map"), {
   ssr: false,
 });
 
-const Search = dynamic(() => import("@/app/components/search"), {
+const Search = dynamic(() => import("@/components/search"), {
   ssr: false,
 });
 

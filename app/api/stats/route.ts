@@ -1,5 +1,5 @@
-import { isOverwolf } from "@/app/lib/env";
-import { nodes } from "@/app/lib/nodes";
+import { isOverwolf } from "@/lib/env";
+import { nodes } from "@/lib/nodes";
 import { NextResponse } from "next/server";
 
 async function _GET() {

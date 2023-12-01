@@ -1,7 +1,7 @@
+import { DEFAULT_LOCALE, LOCALES, loadDictionary } from "@/lib/i18n";
+import { DEFAULT_MAP, isMap } from "@/lib/maps";
 import type { NextRequest } from "next/server";
 import { NextResponse } from "next/server";
-import { DEFAULT_LOCALE, LOCALES, loadDictionary } from "./app/lib/i18n";
-import { DEFAULT_MAP, isMap } from "./app/lib/maps";
 
 const PARAMS_COOKIE_NAME = "params";
 const validPages = ["download", "leaderboard", "rummage-pile"];

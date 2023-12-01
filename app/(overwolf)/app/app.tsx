@@ -1,20 +1,22 @@
 "use client";
-import { I18NProvider } from "@/app/components/(i18n)/i18n-provider";
-import ActiveRoutes from "@/app/components/(map)/active-routes";
-import Map from "@/app/components/(map)/map";
-import Nodes from "@/app/components/(map)/nodes";
-import Tiles from "@/app/components/(map)/tiles";
-import Villagers from "@/app/components/(map)/villagers";
-import WeeklyWants from "@/app/components/(weekly-wants)/weekly-wants";
-import LocaleSelect from "@/app/components/locale-select";
-import Menu from "@/app/components/menu";
-import Search from "@/app/components/search";
-import { API_BASE_URI } from "@/app/lib/env";
-import { DEFAULT_LOCALE, LOCALES, loadDictionary } from "@/app/lib/i18n";
-import { useGameInfoStore } from "@/app/lib/storage/game-info";
-import { ParamsProvider } from "@/app/lib/storage/params";
-import { useSettingsStore } from "@/app/lib/storage/settings";
-import type { WEEKLY_WANTS } from "@/app/lib/weekly-wants";
+import { I18NProvider } from "@/components/(i18n)/i18n-provider";
+import ActiveRoutes from "@/components/(map)/active-routes";
+import Map from "@/components/(map)/map";
+import Nodes from "@/components/(map)/nodes";
+import Tiles from "@/components/(map)/tiles";
+import Villagers from "@/components/(map)/villagers";
+import WeeklyWants from "@/components/(weekly-wants)/weekly-wants";
+import LocaleSelect from "@/components/locale-select";
+import Menu from "@/components/menu";
+import Search from "@/components/search";
+import { WINDOWS } from "@/lib/config";
+import { API_BASE_URI } from "@/lib/env";
+import { DEFAULT_LOCALE, LOCALES, loadDictionary } from "@/lib/i18n";
+import { useGameInfoStore } from "@/lib/storage/game-info";
+import { ParamsProvider } from "@/lib/storage/params";
+import { useSettingsStore } from "@/lib/storage/settings";
+import type { WEEKLY_WANTS } from "@/lib/weekly-wants";
+import { getCurrentWindow } from "@/lib/windows";
 import { useEffect, useState } from "react";
 import useSWR from "swr";
 import Ads from "../components/ads";
@@ -26,8 +28,6 @@ import MapContainer from "../components/map-container";
 import Player from "../components/player";
 import ResizeBorders from "../components/resize-borders";
 import TraceLine from "../components/trace-line";
-import { WINDOWS } from "../lib/config";
-import { getCurrentWindow } from "../lib/windows";
 
 async function getWeeklyWants(locale: string) {
   const response = await fetch(

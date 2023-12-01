@@ -1,6 +1,6 @@
-import { isOverwolf } from "@/app/lib/env";
-import { loadDictionary } from "@/app/lib/i18n";
-import { nodes } from "@/app/lib/nodes";
+import { isOverwolf } from "@/lib/env";
+import { loadDictionary } from "@/lib/i18n";
+import { nodes } from "@/lib/nodes";
 import type { NextRequest } from "next/server";
 import { NextResponse } from "next/server";
 

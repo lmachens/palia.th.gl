@@ -1,6 +1,6 @@
-import { isOverwolf } from "@/app/lib/env";
-import { LOCALES, loadDictionary } from "@/app/lib/i18n";
-import { CONFIGS } from "@/app/lib/maps";
+import { isOverwolf } from "@/lib/env";
+import { LOCALES, loadDictionary } from "@/lib/i18n";
+import { CONFIGS } from "@/lib/maps";
 
 export default function Empty() {
   return <></>;

@@ -1,34 +1,31 @@
-import Download from "@/app/components/(download)/download";
-import Leaderboard from "@/app/components/(leaderboard)/leaderboard";
-import RummagePile from "@/app/components/(rummage-pile)/rummage-pile";
-import WeeklyWants from "@/app/components/(weekly-wants)/weekly-wants";
-import Search from "@/app/components/search";
-import WebHeader from "@/app/components/web-header";
-import { loadDictionary } from "@/app/lib/i18n";
-import { isMap } from "@/app/lib/maps";
-import { ParamsProvider } from "@/app/lib/storage/params";
-import { fetchWeeklyWants } from "@/app/lib/weekly-wants";
+import Download from "@/components/(download)/download";
+import Leaderboard from "@/components/(leaderboard)/leaderboard";
+import RummagePile from "@/components/(rummage-pile)/rummage-pile";
+import WeeklyWants from "@/components/(weekly-wants)/weekly-wants";
+import Search from "@/components/search";
+import WebHeader from "@/components/web-header";
+import { loadDictionary } from "@/lib/i18n";
+import { isMap } from "@/lib/maps";
+import { ParamsProvider } from "@/lib/storage/params";
+import { fetchWeeklyWants } from "@/lib/weekly-wants";
 import dynamic from "next/dynamic";
 import { notFound } from "next/navigation";
 
-export { generateMetadata } from "@/app/lib/meta";
+export { generateMetadata } from "@/lib/meta";
 
-const Tiles = dynamic(() => import("@/app/components/(map)/tiles"), {
+const Tiles = dynamic(() => import("@/components/(map)/tiles"), {
   ssr: false,
 });
-const Map = dynamic(() => import("@/app/components/(map)/map"), {
+const Map = dynamic(() => import("@/components/(map)/map"), {
   ssr: false,
 });
-const Nodes = dynamic(() => import("@/app/components/(map)/nodes"), {
+const Nodes = dynamic(() => import("@/components/(map)/nodes"), {
   ssr: false,
 });
 
-const ActiveRoutes = dynamic(
-  () => import("@/app/components/(map)/active-routes"),
-  {
-    ssr: false,
-  }
-);
+const ActiveRoutes = dynamic(() => import("@/components/(map)/active-routes"), {
+  ssr: false,
+});
 
 async function Layout({
   children,

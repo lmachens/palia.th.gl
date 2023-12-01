@@ -1,6 +1,6 @@
-import { isOverwolf } from "@/app/lib/env";
-import { DEFAULT_LOCALE } from "@/app/lib/i18n";
-import { fetchWeeklyWants } from "@/app/lib/weekly-wants";
+import { isOverwolf } from "@/lib/env";
+import { DEFAULT_LOCALE } from "@/lib/i18n";
+import { fetchWeeklyWants } from "@/lib/weekly-wants";
 import type { NextRequest } from "next/server";
 import { NextResponse } from "next/server";
 

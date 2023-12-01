@@ -1,10 +1,9 @@
 "use client";
-import { useAccountStore } from "@/app/lib/storage/account";
-import { useSettingsStore } from "@/app/lib/storage/settings";
-import { useEffect, useRef } from "react";
-import { GAME_CLASS_ID, HOTKEYS, WINDOWS } from "../lib/config";
-import { startNewGameSession } from "../lib/game-sessions";
-import { getRunningGameInfo } from "../lib/games";
+import { GAME_CLASS_ID, HOTKEYS, WINDOWS } from "@/lib/config";
+import { startNewGameSession } from "@/lib/game-sessions";
+import { getRunningGameInfo } from "@/lib/games";
+import { useAccountStore } from "@/lib/storage/account";
+import { useSettingsStore } from "@/lib/storage/settings";
 import {
   closeMainWindow,
   closeWindow,
@@ -12,7 +11,8 @@ import {
   moveToOtherScreen,
   restoreWindow,
   toggleWindow,
-} from "../lib/windows";
+} from "@/lib/windows";
+import { useEffect, useRef } from "react";
 
 export default function Init() {
   const initialized = useRef(false);

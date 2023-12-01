@@ -1,5 +1,5 @@
-import { isOverwolf } from "@/app/lib/env";
-import { LOCALES } from "@/app/lib/i18n";
+import { isOverwolf } from "@/lib/env";
+import { LOCALES } from "@/lib/i18n";
 
 export default function Empty() {
   return <></>;

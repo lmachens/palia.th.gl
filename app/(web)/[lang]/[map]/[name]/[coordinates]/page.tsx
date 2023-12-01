@@ -1,6 +1,6 @@
-import { isOverwolf } from "@/app/lib/env";
+import { isOverwolf } from "@/lib/env";
 
-export { generateMetadata } from "@/app/lib/meta";
+export { generateMetadata } from "@/lib/meta";
 
 export default function Empty() {
   return <></>;

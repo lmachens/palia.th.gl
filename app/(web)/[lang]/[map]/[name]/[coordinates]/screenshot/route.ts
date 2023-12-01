@@ -1,5 +1,5 @@
-import { isOverwolf } from "@/app/lib/env";
-import { takeScreenshot } from "@/app/lib/screenshots";
+import { isOverwolf } from "@/lib/env";
+import { takeScreenshot } from "@/lib/screenshots";
 import type { NextRequest } from "next/server";
 import { NextResponse } from "next/server";
 
