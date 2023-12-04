@@ -108,7 +108,7 @@ export default function GlobalMenu({
           <Settings />
           <h2 className="category-title">{dict.menu.apps}</h2>
           <ExternalLink
-            href="https://www.overwolf.com/app/Leon_Machens-Diablo_4_Map"
+            href="https://www.overwolf.com/app/Leon_Machens-Palia_Map"
             text="Desktop App on Overwolf"
           />
           <h2 className="category-title">{dict.menu.community}</h2>
