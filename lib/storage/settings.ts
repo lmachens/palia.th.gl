@@ -32,6 +32,11 @@ export const useSettingsStore = create(
     resetTransform: () => void;
   }>(
     (set) => {
+      const defaultMapTransform = {
+        transform: `translate(${window.innerWidth - 520}px, 20px)`,
+        width: "500px",
+        height: "330px",
+      };
       return {
         liveMode: isOverwolfApp ? true : false,
         setLiveMode: (liveMode) => set({ liveMode }),
@@ -63,20 +68,12 @@ export const useSettingsStore = create(
         setTraceLineLength: (traceLineLength) => set({ traceLineLength }),
         adTransform: "",
         setAdTransform: (adTransform) => set({ adTransform }),
-        mapTransform: {
-          transform: "translate(7px, 70px)",
-          width: "500px",
-          height: "330px",
-        },
+        mapTransform: defaultMapTransform,
         setMapTransform: (mapTransform) => set({ mapTransform }),
         resetTransform: () => {
           set({
             adTransform: "",
-            mapTransform: {
-              transform: "translate(7px, 70px)",
-              width: "500px",
-              height: "330px",
-            },
+            mapTransform: defaultMapTransform,
           });
         },
       };

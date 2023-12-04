@@ -95,6 +95,11 @@
   height: 100dvh;
 }
 
+.min-h-dscreen {
+  @apply min-h-screen;
+  min-height: 100dvh;
+}
+
 .app .drawer {
   @apply top-[30px];
 }

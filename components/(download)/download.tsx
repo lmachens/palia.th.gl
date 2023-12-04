@@ -6,6 +6,8 @@ import screenshot4 from "@/public/screenshots/screenshot4.jpg";
 import screenshot5 from "@/public/screenshots/screenshot5.jpg";
 import screenshot6 from "@/public/screenshots/screenshot6.jpg";
 import type { StaticImageData } from "next/image";
+import NitroAds from "../(ads)/nitro-ads";
+import WideSkyscraper from "../(ads)/wide-skyscrapper";
 import { useDict } from "../(i18n)/i18n-provider";
 import ImageZoomPreview from "../image-zoom-preview";
 import { trackOutboundLinkClick } from "../plausible-tracker";
@@ -65,7 +67,10 @@ const GetTheApp = () => {
 export default function Download() {
   const dict = useDict();
   return (
-    <div className="overflow-auto h-[calc(100%-50px)]">
+    <div className="grow flex justify-center pt-[50px]">
+      <NitroAds>
+        <WideSkyscraper id="palia-wide-skyscraper-5" />
+      </NitroAds>
       <div className="container mx-auto p-4 text-center">
         <h1 className="text-3xl font-bold mb-4">{dict.download.title}</h1>
         <GetTheApp />
@@ -110,6 +115,9 @@ export default function Download() {
         <p className="mt-8 text-gray-500">{dict.download.note}</p>
         <GetTheApp />
       </div>
+      <NitroAds>
+        <WideSkyscraper id="palia-wide-skyscraper-6" />
+      </NitroAds>
     </div>
   );
 }

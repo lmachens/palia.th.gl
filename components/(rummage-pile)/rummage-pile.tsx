@@ -41,7 +41,7 @@ export default async function RummagePile({ dict }: { dict: DICT }) {
     return `${date.toLocaleDateString()} ${date.toLocaleTimeString()}`;
   }
   return (
-    <div className="overflow-auto h-[calc(100%-50px)] flex justify-center">
+    <div className="grow flex justify-center pt-[50px]">
       <NitroAds>
         <WideSkyscraper id="palia-wide-skyscraper-3" />
       </NitroAds>

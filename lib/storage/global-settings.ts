@@ -8,8 +8,6 @@ export const useGlobalSettingsStore = create(
     toggleShowFilters: () => void;
     showRoutes: boolean | null;
     toggleShowRoutes: () => void;
-    showSidebar: boolean;
-    toggleShowSidebar: () => void;
   }>(
     (set) => {
       return {
@@ -28,11 +26,6 @@ export const useGlobalSettingsStore = create(
               state.showRoutes === null
                 ? !window.matchMedia("(min-width: 768px)").matches
                 : !state.showRoutes,
-          })),
-        showSidebar: false,
-        toggleShowSidebar: () =>
-          set((state) => ({
-            showSidebar: !state.showSidebar,
           })),
       };
     },

@@ -1,9 +1,13 @@
+import PlausibleTracker from "@/components/plausible-tracker";
+import { cn } from "@/lib/utils";
+import "@/styles/globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import PlausibleTracker from "../components/plausible-tracker";
-import "../globals.css";
+import { Inter as FontSans } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+export const fontSans = FontSans({
+  subsets: ["latin"],
+  variable: "--font-sans",
+});
 
 export function generateMetadata(): Metadata {
   return {
@@ -20,7 +24,10 @@ function OverwolfLayout({ children }: { children: React.ReactNode }) {
   return (
     <html>
       <body
-        className={`${inter.className} h-screen text-white antialiased select-none overflow-hidden`}
+        className={cn(
+          "font-sans dark min-h-dscreen bg-transparent text-white antialiased select-none relative flex flex-col overflow-hidden",
+          fontSans.variable
+        )}
       >
         {children}
         <PlausibleTracker

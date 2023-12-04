@@ -1,13 +1,17 @@
-"use client";
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
 import { isOverwolfApp } from "@/lib/env";
-import { useAccountStore } from "@/lib/storage/account";
-import { useGameInfoStore } from "@/lib/storage/game-info";
-import { useGlobalSettingsStore } from "@/lib/storage/global-settings";
-import { useSettingsStore } from "@/lib/storage/settings";
-import Cookies from "js-cookie";
-import { useDict } from "./(i18n)/i18n-provider";
-import Drawer from "./drawer";
+import type { DICT } from "@/lib/i18n";
+import { HamburgerMenuIcon } from "@radix-ui/react-icons";
+import Brand from "./brand";
 import ExternalLink from "./external-link";
+import PatreonStatus from "./patreon-status";
 import Settings from "./settings";
 
 const DiscordIcon = ({ className }: { className?: string }) => {
@@ -63,74 +67,37 @@ const DISCOVER_LINKS = [
     text: "Gaming Apps & Tools",
   },
 ];
-export default function Menu({
+
+export default function GlobalMenu({
   top,
   afterPatreon,
   beforeSettings,
+  dict,
 }: {
   top?: React.ReactNode;
   afterPatreon?: React.ReactNode;
   beforeSettings?: React.ReactNode;
+  dict: DICT;
 }) {
-  const globalSettingsStore = useGlobalSettingsStore();
-  const accountStore = useAccountStore();
-  const dict = useDict();
-  const lockedWindow = useSettingsStore((state) => state.lockedWindow);
-  const isOverlay = useGameInfoStore((state) => state.isOverlay);
-
   return (
-    <Drawer
-      show={(!lockedWindow || !isOverlay) && globalSettingsStore.showSidebar}
-      aria-label="Main menu"
-    >
-      <div className="flex flex-col text-gray-300 h-full">
-        <header className="p-2 my-2 flex justify-between">
-          <div className="flex gap-2 items-center">
-            <h1 className="text-xl font-bold">{dict.meta.subtitle}</h1>
-          </div>
-          <button
-            onClick={globalSettingsStore.toggleShowSidebar}
-            type="button"
-            aria-haspopup="menu"
-            aria-label="Close sidebar"
-            aria-expanded={globalSettingsStore.showSidebar}
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="w-5 h-5 text-gray-400"
-              viewBox="0 0 24 24"
-              strokeWidth="2"
-              stroke="currentColor"
-              fill="none"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-              <path d="M18 6l-12 12"></path>
-              <path d="M6 6l12 12"></path>
-            </svg>
-          </button>
-        </header>
+    <Sheet modal={false}>
+      <SheetTrigger className="border rounded-md p-2 hover:bg-white/20 transition-colors">
+        <HamburgerMenuIcon />
+      </SheetTrigger>
+      <SheetContent forceMount>
+        <SheetHeader>
+          <SheetTitle>
+            <Brand />
+          </SheetTitle>
+        </SheetHeader>
         {top}
         <div
-          className={`p-2 overflow-auto grow flex flex-col gap-2 ${
+          className={`overflow-auto pr-1 grow flex flex-col gap-2 ${
             isOverwolfApp ? "mb-[30px]" : ""
           }`}
         >
-          {!accountStore.isPatron && (
-            <>
-              <p className="italic text-md text-center">
-                {dict.menu.patronInfo}
-              </p>
-              <a
-                href="https://www.th.gl/support-me"
-                target="_blank"
-                className="my-1 p-2 text-center uppercase text-white bg-[#ff424d] hover:bg-[#ca0f25]"
-              >
-                {dict.menu.becomePatron}
-              </a>
-            </>
-          )}
+          <SheetDescription>{dict.meta.description}</SheetDescription>
+          <PatreonStatus />
           {afterPatreon}
           <h2 className="category-title">{dict.menu.settings}</h2>
           {beforeSettings}
@@ -151,17 +118,7 @@ export default function Menu({
             }
             aria-label="Discord"
           />
-          {accountStore.isPatron && (
-            <button
-              onClick={() => {
-                accountStore.setIsPatron(false);
-                Cookies.remove("userId");
-              }}
-              className="my-1 p-2 uppercase text-white bg-[#ff424d] hover:bg-[#ca0f25]"
-            >
-              {dict.menu.disconnectPatreon}
-            </button>
-          )}
+
           <h2 className="category-title">{dict.menu.discover}</h2>
           {DISCOVER_LINKS.map(({ href, text }) => (
             <ExternalLink key={href} href={href} text={text} />
@@ -172,7 +129,7 @@ export default function Menu({
             text="GitHub"
           />
         </div>
-      </div>
-    </Drawer>
+      </SheetContent>
+    </Sheet>
   );
 }

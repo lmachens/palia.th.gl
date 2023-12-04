@@ -10,5 +10,5 @@ export default function FloatingVideo() {
     });
   }, []);
 
-  return <div id="palia-video" className="w-full h-56" />;
+  return <div id="palia-video" className="max-w-[400px]" />;
 }

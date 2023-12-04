@@ -67,7 +67,7 @@ export default async function Leaderboard({ dict }: { dict: DICT }) {
     .slice(0, 100);
 
   return (
-    <div className="overflow-auto h-[calc(100%-50px)] flex justify-center">
+    <div className="grow flex justify-center pt-[50px]">
       <NitroAds>
         <WideSkyscraper id="palia-wide-skyscraper-1" />
       </NitroAds>

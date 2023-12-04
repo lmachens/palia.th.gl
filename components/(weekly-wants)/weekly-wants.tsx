@@ -56,8 +56,7 @@ export default function WeeklyWants({ data }: { data?: WEEKLY_WANTS }) {
         trigger={
           <button
             className={cn(
-              "flex items-center gap-1  border border-white/10 px-2  hover:border-white/15 transition-colors",
-              isOverwolfApp ? "rounded-none ml-1 py-0.5" : "rounded-md py-1",
+              "flex items-center gap-1  border border-white/10 px-2  hover:border-white/15 transition-colors rounded-md py-1",
               targetPopover ? "bg-brand/70" : "bg-brand/50 hover:bg-brand/60"
             )}
           >

@@ -53,7 +53,7 @@ async function Layout({
       notFound();
     }
     content = (
-      <div className="h-[calc(100%-50px)]">
+      <div className="h-dscreen pt-[50px]">
         <Map>
           <Tiles />
           <Nodes />

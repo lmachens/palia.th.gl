@@ -1,15 +1,16 @@
-import "@/app/globals.css";
-import { Inter } from "next/font/google";
+import "@/styles/globals.css";
+import { Inter as FontSans } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const fontSans = FontSans({
+  subsets: ["latin"],
+  variable: "--font-sans",
+});
 
-import FloatingVideo from "@/components/(ads)/floating-video";
-import NitroAds from "@/components/(ads)/nitro-ads";
-import TwitchEmbed from "@/components/(ads)/twitch-embed";
 import { I18NProvider } from "@/components/(i18n)/i18n-provider";
-import Menu from "@/components/menu";
+import Footer from "@/components/footer";
 import PlausibleTracker from "@/components/plausible-tracker";
 import { DEFAULT_LOCALE, LOCALES, isLang, loadDictionary } from "@/lib/i18n";
+import { cn } from "@/lib/utils";
 import type { Viewport } from "next";
 import { notFound } from "next/navigation";
 
@@ -33,7 +34,10 @@ function Layout({
   return (
     <html lang={lang}>
       <body
-        className={`${inter.className} h-dscreen bg-black text-white antialiased select-none overflow-hidden relative`}
+        className={cn(
+          "font-sans dark min-h-dscreen bg-black text-white antialiased select-none relative flex flex-col",
+          fontSans.variable
+        )}
       >
         <I18NProvider
           value={{
@@ -44,13 +48,7 @@ function Layout({
           }}
         >
           {children}
-          <Menu
-            top={
-              <NitroAds fallback={<TwitchEmbed />}>
-                <FloatingVideo />
-              </NitroAds>
-            }
-          />
+          <Footer />
         </I18NProvider>
         <PlausibleTracker
           domain={process.env.NEXT_PUBLIC_PLAUSIBLE_WEB_DOMAIN}

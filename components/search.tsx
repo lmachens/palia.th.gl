@@ -1,11 +1,11 @@
 "use client";
 
-import { isOverwolfApp } from "@/lib/env";
 import { ALL_FILTERS } from "@/lib/nodes";
 import { useGameInfoStore } from "@/lib/storage/game-info";
 import { useGlobalSettingsStore } from "@/lib/storage/global-settings";
 import { useParamsStore } from "@/lib/storage/params";
 import { useSettingsStore } from "@/lib/storage/settings";
+import { cn } from "@/lib/utils";
 import { useDict } from "./(i18n)/i18n-provider";
 import Filters from "./filters";
 import Maps from "./maps";
@@ -28,42 +28,16 @@ export default function Search({ hidden }: { hidden?: boolean }) {
 
   return (
     <div
-      className={`absolute pointer-events-none ${
-        isOverwolfApp ? "top-[42px]" : "top-[50px] md:top-[60px]"
-      } w-full md:w-auto right-0 md:right-1 z-[400] transition-all duration-500 ${
-        globalSettingsStore.showSidebar ? "md:left-[412px]" : "md:left-3"
-      } md:space-y-1`}
+      className={cn(
+        `fixed pointer-events-none top-[50px] md:top-[60px] w-full md:w-auto right-0 md:right-1 z-[400] transition-all duration-500md:space-y-1 md:left-3`
+      )}
     >
       {(!settingsStore.lockedWindow || !isOverlay) && (
-        <div className={`relative pointer-events-auto flex md:w-fit`}>
-          <button
-            className="menu flex absolute inset-y-0 left-0 items-center pl-2 text-gray-400 hover:text-gray-200"
-            onClick={globalSettingsStore.toggleShowSidebar}
-            type="button"
-            aria-haspopup="menu"
-            aria-label="Open sidebar"
-            aria-expanded={globalSettingsStore.showSidebar}
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              className="block w-5"
-            >
-              <path d="M4 6l16 0" />
-              <path d="M4 12l16 0" />
-              <path d="M4 18l16 0" />
-            </svg>
-            <div className="h-3/6 w-px bg-gray-600 mx-1.5" />
-          </button>
+        <div
+          className={`relative pointer-events-auto flex md:w-fit min-w-[300px]`}
+        >
           <input
-            className="bg-neutral-900 text-gray-200 text-sm pl-11 pr-16 py-2.5 w-full md:border md:border-gray-600 md:rounded-lg outline-none search"
+            className="bg-neutral-900 text-gray-200 text-sm pl-4 pr-16 py-2.5 w-full md:border md:border-gray-600 md:rounded-lg outline-none search"
             type="text"
             placeholder={dict.search.placeholder}
             value={search}
@@ -175,11 +149,9 @@ export default function Search({ hidden }: { hidden?: boolean }) {
             </svg>
           </button>
           <div
-            className={`absolute top-full text-sm w-full md:mt-1 ${
-              isOverwolfApp
-                ? "max-h-[calc(100vh-100px)]"
-                : "max-h-[calc(100vh-90px)] md:max-h-[calc(100vh-120px)]"
-            } flex flex-col md:gap-2`}
+            className={cn(
+              `absolute top-full text-sm w-full md:mt-1 max-h-[calc(100vh-90px)] md:max-h-[calc(100vh-120px)] flex flex-col md:gap-2`
+            )}
           >
             <Maps />
             <Routes />

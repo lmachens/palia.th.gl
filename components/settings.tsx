@@ -1,3 +1,4 @@
+"use client";
 import { useSettingsStore } from "@/lib/storage/settings";
 import { useDict } from "../components/(i18n)/i18n-provider";
 
