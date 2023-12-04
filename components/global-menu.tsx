@@ -99,6 +99,10 @@ export default function GlobalMenu({
           <SheetDescription>{dict.meta.description}</SheetDescription>
           <PatreonStatus />
           {afterPatreon}
+          <ExternalLink
+            href="https://www.th.gl/apps/Palia%20Map/release-notes"
+            text="Release Notes"
+          />
           <h2 className="category-title">{dict.menu.settings}</h2>
           {beforeSettings}
           <Settings />
