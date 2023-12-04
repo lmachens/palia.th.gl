@@ -17,7 +17,6 @@ import { notFound } from "next/navigation";
 export const viewport: Viewport = {
   themeColor: "black",
 };
-export { generateMetadata } from "@/lib/meta";
 
 function Layout({
   children,

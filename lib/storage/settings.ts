@@ -33,7 +33,9 @@ export const useSettingsStore = create(
   }>(
     (set) => {
       const defaultMapTransform = {
-        transform: `translate(${window.innerWidth - 520}px, 20px)`,
+        transform: `translate(${
+          (typeof window !== "undefined" ? window.innerWidth : 1600) - 520
+        }px, 20px)`,
         width: "500px",
         height: "330px",
       };
