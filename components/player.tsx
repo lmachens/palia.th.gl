@@ -47,7 +47,7 @@ export default function Player() {
       }
 
       const plugin = result.object;
-      console.log("Initialized plugin");
+      console.log("Initialized Palia plugin");
       let prevPlayer: ActorValeriaCharacter = {
         guid: "",
         name: "",

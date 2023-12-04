@@ -4,7 +4,7 @@
   "meta": {
     "name": "Palia Map-DEV",
     "author": "Leon Machens",
-    "version": "1.0.2",
+    "version": "1.1.0",
     "minimum-overwolf-version": "0.218.0",
     "description": "Palia Map",
     "dock_button_title": "Palia Map",
@@ -141,6 +141,10 @@
       "palia": {
         "file": "plugins/Palia.dll",
         "class": "Palia.Overwolf"
+      },
+      "discord": {
+        "file": "plugins/DiscordRPCPlugin.dll",
+        "class": "overwolf.plugins.DiscordRPCPlugin"
       }
     }
   }

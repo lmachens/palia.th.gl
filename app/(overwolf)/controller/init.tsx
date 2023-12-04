@@ -12,6 +12,7 @@ import {
   restoreWindow,
   toggleWindow,
 } from "@/lib/windows";
+import { promisifyOverwolf } from "@/lib/wrapper";
 import { useEffect, useRef } from "react";
 
 export default function Init() {
@@ -94,6 +95,20 @@ async function initController() {
     }
   });
 
+  const discordRPCPlugin = await promisifyOverwolf(
+    overwolf.extensions.current.getExtraObject
+  )("discord").then((result) => {
+    if (!result.success) {
+      console.error("failed to create object: ", result);
+      return;
+    }
+
+    const discordRPCPlugin = result.object;
+    console.log("Initialized DiscordRPC plugin");
+    return discordRPCPlugin;
+  });
+  discordRPCPlugin.initialize("1176153275918204928", 4, console.log);
+
   overwolf.games.onGameInfoUpdated.addListener(async (event) => {
     if (event.runningChanged && event.gameInfo?.classId === GAME_CLASS_ID) {
       const preferedWindowName = await getPreferedWindowName();
@@ -105,8 +120,12 @@ async function initController() {
           restoreWindow(WINDOWS.DESKTOP);
           closeWindow(WINDOWS.OVERLAY);
         }
-      } else if (preferedWindowName === WINDOWS.OVERLAY) {
-        closeMainWindow();
+      } else {
+        discordRPCPlugin.dispose(() => {
+          if (preferedWindowName === WINDOWS.OVERLAY) {
+            closeMainWindow();
+          }
+        });
       }
     }
   });

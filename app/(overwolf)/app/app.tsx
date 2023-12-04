@@ -1,5 +1,6 @@
 "use client";
 import AppHeader from "@/components/(app)/app-header";
+import DiscordRPC from "@/components/(app)/discord-rpc";
 import { I18NProvider } from "@/components/(i18n)/i18n-provider";
 import ActiveRoutes from "@/components/(map)/active-routes";
 import Map from "@/components/(map)/map";
@@ -54,6 +55,7 @@ export default function App() {
             <Nodes />
             <ActiveRoutes />
             <Player />
+            <DiscordRPC />
             <Villagers />
             <TraceLine />
           </Map>
