@@ -1,39 +1,29 @@
+import type { DiscordRPCPlugin } from "@/lib/discord-rpc";
+import { loadDiscordRPCPlugin } from "@/lib/discord-rpc";
 import { useGameInfoStore } from "@/lib/storage/game-info";
 import { promisifyOverwolf } from "@/lib/wrapper";
 import { useEffect, useRef } from "react";
 import { useDict } from "../(i18n)/i18n-provider";
 
 export default function DiscordRPC() {
-  const mounted = useRef(false);
   const player = useGameInfoStore((state) => state.player);
-  const discordRPCPlugin = useRef<any>(null);
   const dict = useDict();
 
+  const discordRPCPlugin = useRef<DiscordRPCPlugin | null>(null);
   useEffect(() => {
-    if (mounted.current) return;
-    mounted.current = true;
+    if (discordRPCPlugin.current) return;
 
-    promisifyOverwolf(overwolf.extensions.current.getExtraObject)(
-      "discord"
-    ).then((result) => {
-      if (!result.success) {
-        console.error("failed to create object: ", result);
-        return;
-      }
-
-      discordRPCPlugin.current = result.object;
-      discordRPCPlugin.current.initialize("1176153275918204928", 3, () => {
-        console.log("Initialized DiscordRPC plugin");
-      });
-
-      discordRPCPlugin.current.onLogLine.addListener((message: any) => {
+    loadDiscordRPCPlugin("1181323945866178560").then((result) => {
+      discordRPCPlugin.current = result;
+      discordRPCPlugin.current.onLogLine.addListener((message) => {
         console.log(`DISCORD RPC - ${message.level} - ${message.message}`);
 
         if (message.message == "Failed to connect for some reason.") {
           console.log(
             "Shutting down Discord RPC because of too many connections errors"
           );
-          discordRPCPlugin.current.dispose();
+          discordRPCPlugin.current = null;
+          promisifyOverwolf(result.dispose)();
         }
 
         if (
@@ -43,7 +33,8 @@ export default function DiscordRPC() {
           console.log(
             "Shutting down Discord RPC because of too many connections errors"
           );
-          discordRPCPlugin.current.dispose();
+          discordRPCPlugin.current = null;
+          promisifyOverwolf(result.dispose)();
         }
       });
     });
@@ -59,10 +50,9 @@ export default function DiscordRPC() {
       return;
     }
     const mapTitle = dict.maps[player.mapName] as string;
-    const details = `${player.name} | ${mapTitle} | ${dict.leaderboard.level} ${level}`;
     discordRPCPlugin.current.updatePresence(
-      "Playing Palia",
-      details,
+      `${player.name} | ${dict.leaderboard.level} ${level}`,
+      mapTitle,
       "palia",
       "Palia",
       "palia-map",
