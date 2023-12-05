@@ -24,6 +24,7 @@ import {
 import { EyeNoneIcon } from "@radix-ui/react-icons";
 import { useEffect, useLayoutEffect } from "react";
 import useSWR from "swr";
+import LocaleSelect from "../locale-select";
 import UnlockButton from "./unlock-button";
 
 async function getWeeklyWants(locale: string) {
@@ -117,6 +118,7 @@ export default function AppHeader() {
           )}
           <WeeklyWants data={data && !("error" in data) ? data : undefined} />
           <DiscordCTA />
+          <LocaleSelect />
         </nav>
         <div className={cn("pb-5")}>
           <button

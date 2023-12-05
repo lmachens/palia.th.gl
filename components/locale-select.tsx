@@ -30,8 +30,7 @@ export default function LocaleSelect({ className }: { className?: string }) {
         <button
           aria-label={i18n.locale}
           className={cn(
-            "hover:bg-white/20 transition-colors p-2 flex border rounded-md",
-            isOverwolfApp ? "rounded-none" : "rounded-lg"
+            "hover:bg-white/20 transition-colors p-2 flex border rounded-lg"
           )}
         >
           <span
