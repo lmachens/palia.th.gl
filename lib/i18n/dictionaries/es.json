@@ -52,6 +52,12 @@
         "title": "Descubre los Rummage Piles en Palia: ¡Tesores diarios te esperan!",
         "description": "Embárcate en una aventura diaria en Kilima Valley y descubre los lugares secretos de los Rummage Piles. Estos objetos únicos aparecen una vez al día en un lugar aleatorio, ofreciendo a los jugadores la oportunidad de buscar emocionantes recompensas. Interactúa con un Rummage Pile cada día después del reinicio diario de Palia a las 4:00 AM UTC para reclamar tu recompensa aleatoria. Utiliza nuestro mapa interactivo para localizar la posición de estos tesoros ocultos y mejora tu experiencia en Palia. No te pierdas las sorpresas diarias: ¡explora el mundo de Palia con el mapa de Rummage Pile! 🌟"
     },
+    "winterfestChallenge": {
+        "metaTitle": "Supera el Desafío de Invierno de Zeki: ¡Descubre los Secretos de las Siete Cofres de Luces Invernales!",
+        "metaDescription": "¡Embárcate en el festivo desafío de Zeki en Palia! Encuentra las siete Cofres de Luces Invernales ocultas en el pueblo para reclamar tus tesoros festivos. Descifra las pistas de Zeki, explora los pintorescos lugares y celebra Winterlights con una emocionante búsqueda. ¡Desenvuelve la alegría de la temporada en Palia! 🎁✨",
+        "title": "Supera el Desafío de Invierno de Zeki: ¡Descubre los Secretos de las Siete Cofres de Luces Invernales!",
+        "description": "Únete al espíritu festivo en Palia aceptando el Desafío de Invierno de Zeki. Sumérgete en la alegría de las festividades mientras sigues las astutas pistas de Zeki para localizar las siete Cofres de Luces Invernales ocultas en todo el pueblo. Desde las risas en la posada hasta la vista desde un acantilado del almacén de botes, cada cofre guarda una sorpresa única para el intrépido aventurero. Explora, descubre y celebra la temporada con la emocionante búsqueda creada por Zeki. Reúne a tus amigos, descifra los misterios y haz que este Winterlights sea inolvidable en Palia! 🎄🔍"
+    },
     "weeklyWants": {
         "subtitle": "Seguimiento de Deseos Semanales: ¡Descubre los Deseos de los Aldeanos de Palia!",
         "description": "Mejora tus relaciones con los vibrantes aldeanos de Palia utilizando la función de Seguimiento de Deseos Semanales. Mantente al tanto de los deseos únicos de cada aldeano para la semana."
@@ -81,7 +87,8 @@
         "weeklyWants": "Deseos Semanales",
         "interactiveMap": "Mapa Interactivo",
         "leaderboard": "Clasificación",
-        "rummagePile": "Rummage Pile"
+        "rummagePile": "Rummage Pile",
+        "winterfestChallenge": "Desafío de Invierno"
     },
     "search": {
         "placeholder": "Buscar nodos",

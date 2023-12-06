@@ -38,6 +38,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: locale === DEFAULT_LOCALE ? 1 : 0.9,
     };
   });
+  const rummagePile = LOCALES.map<MetadataRoute.Sitemap[number]>((locale) => {
+    return {
+      url: `https://palia.th.gl/${locale}/rummage-pile`,
+      lastModified: now,
+      changeFrequency: "daily",
+      priority: locale === DEFAULT_LOCALE ? 1 : 0.9,
+    };
+  });
+  const winterfestChallenge = LOCALES.map<MetadataRoute.Sitemap[number]>(
+    (locale) => {
+      return {
+        url: `https://palia.th.gl/${locale}/winterfest-challenge`,
+        lastModified: now,
+        changeFrequency: "monthly",
+        priority: locale === DEFAULT_LOCALE ? 1 : 0.9,
+      };
+    }
+  );
 
   const filtersMap = [
     ...Object.keys(staticNodes),
@@ -107,6 +125,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...mapsMap,
     ...downloadMap,
     ...leaderboard,
+    ...rummagePile,
+    ...winterfestChallenge,
     ...filtersMap,
     ...nodesMap,
   ];

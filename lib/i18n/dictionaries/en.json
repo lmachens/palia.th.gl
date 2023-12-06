@@ -52,6 +52,12 @@
     "title": "Discover Rummage Piles in Palia: Daily Treasures Await!",
     "description": "Embark on a daily adventure in Kilima Valley and uncover the secret locations of Rummage Piles. These unique gatherables appear once per day at a random spot, offering players the chance to scavenge for exciting rewards. Interact with a Rummage Pile each day after the Palia daily reset at 4:00 AM UTC to claim your random reward. Use our interactive map to pinpoint the position of these hidden treasures and enhance your Palia experience. Don't miss out on the daily surprises—explore the world of Palia with the Rummage Pile Map! 🌟"
   },
+  "winterfestChallenge": {
+    "metaTitle": "Conquer Zeki's Winterfest Challenge: Unveil the Secrets of the Seven Winterlights Chests!",
+    "metaDescription": "Embark on Zeki's festive challenge in Palia! Hunt down the seven hidden Winterlights Chests scattered around the village to claim your holiday treasures. Decode Zeki's hints, explore the scenic locations, and celebrate Winterlights with a thrilling quest. Unwrap the joy of the season in Palia! 🎁✨",
+    "title": "Conquer Zeki's Winterfest Challenge: Unveil the Secrets of the Seven Winterlights Chests!",
+    "description": "Join the festive spirit in Palia by taking on Zeki's Winterfest Challenge! Immerse yourself in the holiday cheer as you follow Zeki's cunning hints to locate the seven hidden Winterlights Chests scattered throughout the village. From the Inn's barrel of laughs to a cliff-top view of the boathouse, each chest holds a unique surprise for the keen adventurer. Explore, discover, and celebrate the season with the joyous quest crafted by Zeki. Gather your friends, unravel the mysteries, and make this Winterlights unforgettable in Palia! 🎄🔍"
+  },
   "weeklyWants": {
     "subtitle": "Weekly Wants Tracker: Uncover Palia's Villager Desires!",
     "description": "Elevate your relationships with Palia's vibrant villagers using the Weekly Wants Tracker feature. Stay in the loop with each villager's unique desires for the week."
@@ -81,7 +87,8 @@
     "weeklyWants": "Weekly Wants",
     "interactiveMap": "Interactive Map",
     "leaderboard": "Leaderboard",
-    "rummagePile": "Rummage Pile"
+    "rummagePile": "Rummage Pile",
+    "winterfestChallenge": "Winterfest Challenge"
   },
   "search": {
     "placeholder": "Search nodes",

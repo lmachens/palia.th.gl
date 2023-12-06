@@ -52,6 +52,12 @@
         "title": "Découvrez les Rummage Piles à Palia : Des trésors quotidiens vous attendent !",
         "description": "Embarquez pour une aventure quotidienne dans Kilima Valley et découvrez les emplacements secrets des Rummage Piles. Ces objets de collection uniques apparaissent une fois par jour à un endroit aléatoire, offrant aux joueurs la possibilité de chercher des récompenses passionnantes. Interagissez avec un Rummage Pile chaque jour après la réinitialisation quotidienne de Palia à 4:00 AM UTC pour obtenir votre récompense aléatoire. Utilisez notre carte interactive pour localiser la position de ces trésors cachés et améliorez votre expérience à Palia. Ne manquez pas les surprises quotidiennes : explorez le monde de Palia avec la carte de Rummage Pile ! 🌟"
     },
+    "winterfestChallenge": {
+        "metaTitle": "Relevez le Défi de l'Hiver de Zeki : Découvrez les Secrets des Sept Coffres de Lumières Hivernales !",
+        "metaDescription": "Participez au défi festif de Zeki à Palia ! Trouvez les sept Coffres de Lumières Hivernales cachés dans le village pour récupérer vos trésors festifs. Décryptez les indices de Zeki, explorez les lieux pittoresques et célébrez Winterlights avec une quête palpitante. Déballez la joie de la saison à Palia ! 🎁✨",
+        "title": "Relevez le Défi de l'Hiver de Zeki : Découvrez les Secrets des Sept Coffres de Lumières Hivernales !",
+        "description": "Plongez dans l'esprit festif de Palia en relevant le Défi de l'Hiver de Zeki ! Imprégnez-vous de la joie des fêtes en suivant les astucieux indices de Zeki pour localiser les sept Coffres de Lumières Hivernales cachés dans tout le village. De l'amusement à l'auberge à la vue depuis une falaise sur le hangar à bateaux, chaque coffre réserve une surprise unique pour l'aventurier averti. Explorez, découvrez et célébrez la saison avec la quête joyeuse créée par Zeki. Rassemblez vos amis, dévoilez les mystères et rendez cet hiver inoubliable à Palia ! 🎄🔍"
+    },
     "weeklyWants": {
         "subtitle": "Suivi des Envies Hebdomadaires : Découvrez les Désirs des Villageois de Palia !",
         "description": "Améliorez vos relations avec les villageois animés de Palia grâce à la fonction de suivi des envies hebdomadaires. Restez au courant des désirs uniques de chaque villageois pour la semaine."
@@ -81,7 +87,8 @@
         "weeklyWants": "Envies Hebdomadaires",
         "interactiveMap": "Carte Interactive",
         "leaderboard": "Classement",
-        "rummagePile": "Rummage Pile"
+        "rummagePile": "Rummage Pile",
+        "winterfestChallenge": "Défi de l'Hiver"
     },
     "search": {
         "placeholder": "Rechercher un emplacement",

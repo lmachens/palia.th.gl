@@ -4,7 +4,12 @@ import type { NextRequest } from "next/server";
 import { NextResponse } from "next/server";
 
 const PARAMS_COOKIE_NAME = "params";
-const validPages = ["download", "leaderboard", "rummage-pile"];
+const validPages = [
+  "download",
+  "leaderboard",
+  "rummage-pile",
+  "winterfest-challenge",
+];
 
 function getUserParams(req: NextRequest) {
   if (req.cookies.has(PARAMS_COOKIE_NAME)) {

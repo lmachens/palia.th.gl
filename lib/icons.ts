@@ -49,6 +49,10 @@ export const ICONS = {
     src: "/icons/WT_Backer_Map_Marker_White.png",
     radius: 14,
   },
+  winterlightsChest: {
+    src: "/icons/WT_Icon_Chest_Treasure_Winterlights.png",
+    radius: 14,
+  },
 } as const;
 
 export const SPAWN_ICONS = Object.entries(spawnGroups).reduce(

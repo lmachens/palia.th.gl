@@ -28,7 +28,7 @@ export default function AppDownload({ active }: { active?: boolean }) {
         <path d="M12 5l0 14"></path>
         <path d="M4 12l16 0"></path>
       </svg>
-      <span className="hidden lg:block">In-Game App</span>
+      <span className="hidden xl:block">In-Game App</span>
     </Link>
   );
 }

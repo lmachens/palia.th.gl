@@ -69,7 +69,7 @@ export default function Download() {
   return (
     <div className="grow flex justify-center pt-[50px]">
       <NitroAds>
-        <WideSkyscraper id="palia-wide-skyscraper-5" />
+        <WideSkyscraper id="palia-wide-skyscraper-1" />
       </NitroAds>
       <div className="container mx-auto p-4 text-center">
         <h1 className="text-3xl font-bold mb-4">{dict.download.title}</h1>
@@ -116,7 +116,7 @@ export default function Download() {
         <GetTheApp />
       </div>
       <NitroAds>
-        <WideSkyscraper id="palia-wide-skyscraper-6" />
+        <WideSkyscraper id="palia-wide-skyscraper-2" />
       </NitroAds>
     </div>
   );

@@ -10,7 +10,8 @@ export default function Footer() {
   const show =
     params.map === "download" ||
     params.map === "leaderboard" ||
-    params.map === "rummage-pile";
+    params.map === "rummage-pile" ||
+    params.map === "winterfest-challenge";
   return (
     <footer
       className={cn(

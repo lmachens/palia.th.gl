@@ -20,7 +20,11 @@ export default function SpecialNodes({ nodes }: { nodes: Array<NODE> }) {
 
     const bounds = featureGroup.getBounds();
     if (bounds.isValid() && map) {
-      map.panTo(bounds.getCenter());
+      if (featureGroup.getLayers().length === 1) {
+        map.panTo(bounds.getCenter());
+      } else {
+        map.fitBounds(bounds, { padding: [50, 50] });
+      }
     }
 
     return () => {

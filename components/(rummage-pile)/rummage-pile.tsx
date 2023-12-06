@@ -43,7 +43,7 @@ export default async function RummagePile({ dict }: { dict: DICT }) {
   return (
     <div className="grow flex justify-center pt-[50px]">
       <NitroAds>
-        <WideSkyscraper id="palia-wide-skyscraper-3" />
+        <WideSkyscraper id="palia-wide-skyscraper-1" />
       </NitroAds>
       <div className="container p-4 text-center space-y-2">
         <h1 className="text-3xl font-bold mb-4">{dict.rummagePile.title}</h1>
@@ -59,7 +59,7 @@ export default async function RummagePile({ dict }: { dict: DICT }) {
         </p>
       </div>
       <NitroAds>
-        <WideSkyscraper id="palia-wide-skyscraper-4" />
+        <WideSkyscraper id="palia-wide-skyscraper-2" />
       </NitroAds>
     </div>
   );

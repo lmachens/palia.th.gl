@@ -52,6 +52,12 @@
         "title": "Scopri i Rummage Piles a Palia: Tesori quotidiani ti aspettano!",
         "description": "Imbarcati in un'avventura quotidiana a Kilima Valley e scopri le posizioni segrete dei Rummage Piles. Questi oggetti unici appaiono una volta al giorno in un punto casuale, offrendo ai giocatori la possibilità di cercare emozionanti ricompense. Interagisci con un Rummage Pile ogni giorno dopo il reset quotidiano di Palia alle 4:00 AM UTC per reclamare la tua ricompensa casuale. Usa la nostra mappa interattiva per individuare la posizione di questi tesori nascosti e migliora la tua esperienza a Palia. Non perderti le sorprese quotidiane: esplora il mondo di Palia con la mappa di Rummage Pile! 🌟"
     },
+    "winterfestChallenge": {
+        "metaTitle": "Affronta la Sfida dell'Inverno di Zeki: Svela i Segreti delle Sette Cassette di Luci Invernali!",
+        "metaDescription": "Partecipa alla sfida festiva di Zeki a Palia! Trova le sette Cassette di Luci Invernali nascoste nel villaggio per ottenere i tuoi tesori festivi. Decifra gli indizi di Zeki, esplora i pittoreschi luoghi e celebra Winterlights con una entusiasmante ricerca. Scopri la gioia della stagione a Palia! 🎁✨",
+        "title": "Affronta la Sfida dell'Inverno di Zeki: Svela i Segreti delle Sette Cassette di Luci Invernali!",
+        "description": "Unisciti allo spirito festivo a Palia affrontando la Sfida dell'Inverno di Zeki! Immergiti nella gioia delle festività mentre segui gli astuti indizi di Zeki per localizzare le sette Cassette di Luci Invernali nascoste in tutto il villaggio. Dal divertimento all'osteria alla vista da una scogliera del capanno delle barche, ogni cassetta contiene una sorpresa unica per l'avventuriero attento. Esplora, scopri e celebra la stagione con la ricerca gioiosa creata da Zeki. Raduna i tuoi amici, svela i misteri e rendi indimenticabile questo Winterlights a Palia! 🎄🔍"
+    },
     "weeklyWants": {
         "subtitle": "Tracciamento Desideri Settimanali: Scopri i Desideri dei Villaggi di Palia!",
         "description": "Eleva le tue relazioni con i vivaci villaggi di Palia utilizzando la funzione di tracciamento desideri settimanali. Rimani informato sui desideri unici di ciascun villaggio per la settimana."
@@ -81,7 +87,8 @@
         "weeklyWants": "Desideri Settimanali",
         "interactiveMap": "Mappa Interattiva",
         "leaderboard": "Classifica",
-        "rummagePile": "Rummage Pile"
+        "rummagePile": "Rummage Pile",
+        "winterfestChallenge": "Sfida dell'Inverno"
     },
     "search": {
         "placeholder": "Cerca...",

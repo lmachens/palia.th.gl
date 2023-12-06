@@ -101,6 +101,34 @@ export function generateMetadata({
       ...DEFAULT_META,
     };
   }
+  if (map === "winterfest-challenge") {
+    const metaTitle = dict.winterfestChallenge.metaTitle;
+    const description = dict.winterfestChallenge.metaDescription;
+
+    const alternativeLanguages = LOCALES.reduce((acc, locale) => {
+      acc[locale] = API_BASE_URI + `/${locale}/winterfest-challenge`;
+      return acc;
+    }, {} as Record<string, string>);
+
+    return {
+      title: metaTitle,
+      description: description,
+      alternates: {
+        canonical: canonical + "/winterfest-challenge",
+        languages: alternativeLanguages,
+      },
+      twitter: {
+        card: "summary_large_image",
+      },
+      openGraph: {
+        title: metaTitle,
+        description: description,
+        type: "website",
+        url: "https://palia.th.gl",
+      },
+      ...DEFAULT_META,
+    };
+  }
 
   const title = name && decodeURIComponent(name);
   const mapTitle = map ? decodeURIComponent(map) : "";

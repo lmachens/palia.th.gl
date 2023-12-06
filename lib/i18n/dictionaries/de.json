@@ -52,6 +52,12 @@
         "title": "Entdecke Rummage Piles in Palia: Tägliche Schätze warten!",
         "description": "Begib dich auf ein tägliches Abenteuer im Kilima Valley und enthülle die geheimen Standorte der Rummage Piles. Diese einzigartigen Sammelobjekte erscheinen einmal täglich an einer zufälligen Stelle und bieten Spielern die Möglichkeit, aufregende Belohnungen zu sammeln. Interagiere jeden Tag nach dem täglichen Palia-Reset um 4:00 Uhr UTC mit einem Rummage Pile, um deine zufällige Belohnung zu erhalten. Nutze unsere interaktive Karte, um die Position dieser versteckten Schätze zu bestimmen, und verbessere dein Palia-Erlebnis. Verpasse nicht die täglichen Überraschungen – entdecke die Welt von Palia mit der Rummage Pile Map! 🌟"
     },
+    "winterfestChallenge": {
+        "metaTitle": "Bezwinge Zekis Winterfest-Herausforderung: Entdecke die Geheimnisse der Sieben Winterlicht-Truhen!",
+        "metaDescription": "Nimm an Zekis festlicher Herausforderung in Palia teil! Finde die sieben versteckten Winterlicht-Truhen im Dorf, um deine festlichen Schätze zu ergattern. Entschlüssle Zekis Hinweise, erkunde die malerischen Orte und feiere Winterlights mit einer aufregenden Quest. Packe die Freude der Saison in Palia aus! 🎁✨",
+        "title": "Bezwinge Zekis Winterfest-Herausforderung: Entdecke die Geheimnisse der Sieben Winterlicht-Truhen!",
+        "description": "Tauche ein in die festliche Stimmung von Palia und stelle dich Zekis Winterfest-Herausforderung! Vertiefe dich in die Festtagsfreude, während du Zekis geschickten Hinweisen folgst, um die sieben versteckten Winterlicht-Truhen im Dorf zu finden. Von den Lachern im Gasthaus bis zu einem Klippenblick auf das Bootshaus hält jede Truhe eine einzigartige Überraschung für den aufmerksamen Abenteurer bereit. Erkunde, entdecke und feiere die Saison mit der freudigen Quest, die von Zeki geschaffen wurde. Versammle deine Freunde, entwirre die Geheimnisse und mache dieses Winterlights in Palia unvergesslich! 🎄🔍"
+    },
     "weeklyWants": {
         "subtitle": "Wöchentlicher Wunschtracker: Entdecke die Wünsche der Dorfbewohner von Palia!",
         "description": "Verbessere deine Beziehungen zu den lebendigen Dorfbewohnern von Palia mit der Funktion des Wöchentlichen Wunschtrackers. Bleibe auf dem Laufenden über die einzigartigen Wünsche jedes Dorfbewohners für die Woche."
@@ -81,7 +87,8 @@
         "weeklyWants": "Wöchentliche Wünsche",
         "interactiveMap": "Interaktive Karte",
         "leaderboard": "Rangliste",
-        "rummagePile": "Rummage Pile"
+        "rummagePile": "Rummage Pile",
+        "winterfestChallenge": "Winterfest-Herausforderung"
     },
     "search": {
         "placeholder": "Suche Marker",

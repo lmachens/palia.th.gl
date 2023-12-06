@@ -2,6 +2,7 @@ import Download from "@/components/(download)/download";
 import Leaderboard from "@/components/(leaderboard)/leaderboard";
 import RummagePile from "@/components/(rummage-pile)/rummage-pile";
 import WeeklyWants from "@/components/(weekly-wants)/weekly-wants";
+import WinterfestChallenge from "@/components/(winterfest-challenge)/winterfest-challenge";
 import Search from "@/components/search";
 import WebHeader from "@/components/web-header";
 import { loadDictionary } from "@/lib/i18n";
@@ -43,6 +44,8 @@ async function Layout({
     content = <Leaderboard dict={dict} />;
   } else if (map === "rummage-pile") {
     content = <RummagePile dict={dict} />;
+  } else if (map === "winterfest-challenge") {
+    content = <WinterfestChallenge dict={dict} />;
   } else {
     const mapTitle = decodeURIComponent(map);
     const mapEntry = Object.entries(dict.maps).find(([, value]) => {
