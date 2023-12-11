@@ -72,24 +72,14 @@ export default function SearchResults({ map: mapName }: { map: string }) {
             }}
             title={isSpawnNode ? dict.spawnNodes[type].name : dict.nodes[type]}
           >
-            {"src" in icon ? (
-              <Image
-                src={icon.src as string}
-                width={20}
-                height={20}
-                alt=""
-                className="h-5 w-5 shrink-0"
-                unoptimized={isOverwolfApp}
-              />
-            ) : (
-              <svg
-                viewBox="0 0 100 100"
-                fill={icon.color}
-                className="h-5 w-5 shrink-0"
-              >
-                <path d={icon.path} />
-              </svg>
-            )}
+            <Image
+              src={icon.src as string}
+              width={20}
+              height={20}
+              alt=""
+              className="h-5 w-5 shrink-0"
+              unoptimized={isOverwolfApp}
+            />
             <span className="truncate">
               {isSpawnNode ? dict.spawnNodes[type].name : dict.nodes[type]} (
               {nodes.length})
