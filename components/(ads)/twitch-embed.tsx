@@ -14,14 +14,13 @@ export default function TwitchEmbed() {
   const [closed, setClosed] = useState(false);
 
   const handleLoad = () => {
-    const twitchEmbed = new window.Twitch.Embed("player", {
-      width: "100%",
-      height: "100%",
+    const twitchEmbed = new window.Twitch.Player("player", {
       channel: CHANNEL,
-      layout: "video",
-      autoplay: true,
+      width: 320,
+      height: 180,
       muted: true,
-      parent: ["palia.th.gl"],
+      autoplay: true,
+      showMature: false,
       quality: "160p30",
       controls: false,
     });
@@ -30,43 +29,6 @@ export default function TwitchEmbed() {
       trackEvent("Ad Fallback: Twitch", {
         props: { url: `https://www.twitch.tv/${CHANNEL}` },
       });
-    });
-
-    const REFRESH_INTERVAL = 1000 * 60;
-    let lastUpdate = Date.now();
-    let timeout = setTimeout(refreshTwitchEmbed, REFRESH_INTERVAL);
-    function refreshTwitchEmbed() {
-      lastUpdate = Date.now();
-      if (
-        !(
-          twitchEmbed.getPlayerState()?.playback === "Playing" &&
-          twitchEmbed.getDuration() === 0
-        )
-      ) {
-        twitchEmbed.setChannel(
-          [...twitchEmbed.getChannel()]
-            ?.map((char) =>
-              char === char.toUpperCase()
-                ? char.toLowerCase()
-                : char.toUpperCase()
-            )
-            .join("")
-        );
-      }
-      timeout = setTimeout(refreshTwitchEmbed, REFRESH_INTERVAL);
-    }
-
-    window.addEventListener("visibilitychange", () => {
-      if (document.visibilityState === "visible") {
-        const timeLeft = REFRESH_INTERVAL - (Date.now() - lastUpdate);
-        if (timeLeft < 0) {
-          refreshTwitchEmbed();
-        } else {
-          timeout = setTimeout(refreshTwitchEmbed, timeLeft);
-        }
-      } else {
-        clearTimeout(timeout);
-      }
     });
   };
 
