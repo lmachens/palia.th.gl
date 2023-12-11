@@ -1,20 +1,23 @@
 "use client";
 import { isOverwolfApp } from "@/lib/env";
+import { DEFAULT_LOCALE } from "@/lib/i18n";
 import { useGameInfoStore } from "@/lib/storage/game-info";
 import { useWeeklyWantsStore } from "@/lib/storage/weekly-wants";
 import { cn } from "@/lib/utils";
 import { villagers } from "@/lib/villagers";
 import type { WEEKLY_WANTS } from "@/lib/weekly-wants";
 import Image from "next/image";
+import Script from "next/script";
 import { useMemo, useState } from "react";
-import { useDict } from "../(i18n)/i18n-provider";
+import { useDict, useI18N } from "../(i18n)/i18n-provider";
+import ExternalLink from "../external-link";
 import Popover from "../popover";
 
 export default function WeeklyWants({ data }: { data?: WEEKLY_WANTS }) {
   const dict = useDict();
   const [targetPopover, setTargetPopover] = useState<null | string>(null);
   const weeklyWants = useWeeklyWantsStore();
-
+  const i18n = useI18N();
   const player = useGameInfoStore((state) => state.player);
 
   const progress = useMemo<Record<string, number[]>>(() => {
@@ -43,6 +46,7 @@ export default function WeeklyWants({ data }: { data?: WEEKLY_WANTS }) {
 
   return (
     <>
+      <Script src="https://paliapedia.com/embed.js" async />
       <Popover
         open={!!targetPopover}
         forceMount
@@ -144,32 +148,49 @@ export default function WeeklyWants({ data }: { data?: WEEKLY_WANTS }) {
                     <p className="italic">{dict.menu.weeklyWants}</p>
                     {data?.weeklyWants[villager.configId]?.map((item) => {
                       return (
-                        <label key={item.name} className="flex gap-1 text-sm">
-                          <input
-                            type="checkbox"
-                            checked={
-                              progress[villager.persistId]?.includes(item.id) ??
-                              false
-                            }
-                            onChange={() => {
-                              if (isOverwolfApp) {
-                                alert(
-                                  "The weekly wants is automatically tracked in the app."
-                                );
-                              } else {
-                                weeklyWants.toggleFinished(
-                                  villager.persistId,
-                                  item.id,
-                                  data.version
-                                );
-                              }
-                            }}
-                          />
-                          <span>
-                            {item.name}{" "}
-                            {item.rewardLevel === "Love" ? "💕" : ""}
-                          </span>
-                        </label>
+                        <ExternalLink
+                          key={item.name}
+                          href={`https://paliapedia.com/${
+                            i18n.locale === DEFAULT_LOCALE
+                              ? ""
+                              : `${i18n.locale}/`
+                          }item/${item.item
+                            .replace("DA_ItemType_", "")
+                            .replaceAll("_", "-")
+                            .toLowerCase()}`}
+                          text={
+                            <label
+                              key={item.name}
+                              className="flex gap-1 text-sm"
+                            >
+                              <input
+                                type="checkbox"
+                                checked={
+                                  progress[villager.persistId]?.includes(
+                                    item.id
+                                  ) ?? false
+                                }
+                                onChange={() => {
+                                  if (isOverwolfApp) {
+                                    alert(
+                                      "The weekly wants is automatically tracked in the app."
+                                    );
+                                  } else {
+                                    weeklyWants.toggleFinished(
+                                      villager.persistId,
+                                      item.id,
+                                      data.version
+                                    );
+                                  }
+                                }}
+                              />
+                              <span>
+                                {item.name}{" "}
+                                {item.rewardLevel === "Love" ? "💕" : ""}
+                              </span>
+                            </label>
+                          }
+                        />
                       );
                     })}
                   </div>
