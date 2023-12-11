@@ -1,10 +1,10 @@
 {
   "BP_Bug_BeeR_C": {
-    "name": "Abeille Gloire dorée",
+    "name": "Abeille gloridor",
     "description": "Une abeille rare, importée de la province d’Akwindu. L’hydromel fabriqué à partir du miel de cette abeille est réputé être très consommé par la reine de la province et sa famille.\r\nOn peut la trouver en coupant des arbres à Kilima le matin et la journée."
   },
   "BP_Bug_BeetleC_C": {
-    "name": "Scarampeste",
+    "name": "Punaise mouchetée",
     "description": "Cet insecte est plus connu pour sa forte odeur et ses belles couleurs vives.\r\nSe trouve partout à Kilima et dans la baie du Bahari."
   },
   "BP_Bug_BeetleE_C": {
@@ -16,12 +16,12 @@
     "description": "Ce scarabée se nourrit exclusivement de framboises.\r\nSe trouve près de la ferme de Badruu à Kilima."
   },
   "BP_Bug_BeetleU_C": {
-    "name": "Scaracorne majestueux",
-    "description": "Les cornes de ce coléoptère ressembleraient à celles du sernuk à cornes fières.\r\nA une chance d’être trouvé lors de l’exploitation minière à Kilima."
+    "name": "Scaracorne à grande ramure",
+    "description": "Les cornes de ce scaracorne ressembleraient à celles du sernuk à grande ramure.\r\nA une chance d’être trouvé lors de l’exploitation minière à Kilima."
   },
   "BP_Bug_BeeU_C": {
     "name": "Abeille baharite",
-    "description": "Une espèce locale d’abeilles, connue pour produire un miel délicieux.\nElle a des chances d’être trouvée lors de l’abattage des arbres dans la baie de Bahari."
+    "description": "Une espèce locale d’abeilles, connue pour produire un miel délicieux.\r\nElle a des chances d’être trouvée lors de l’abattage des arbres dans la baie du Bahari."
   },
   "BP_Bug_ButterflyC_C": {
     "name": "Papillon bleu commun",
@@ -32,7 +32,7 @@
     "description": "Selon d’anciennes légendes, ce papillon rare aurait acquis cette magnifique teinte en trempant le bout des ailes dans un puits d’Onde.\r\nOn l’aperçoit dans la baie du Bahari le matin et la journée."
   },
   "BP_Bug_ButterflyR_C": {
-    "name": "Papillon œil-de-feu",
+    "name": "Papillon claroculus",
     "description": "Lorsque le soleil se couche, on peut apercevoir ce papillon délicat dont les ailes sont semblables à deux yeux contemplant la baie du Bahari.\r\nOn l’aperçoit dans les forêts de la baie du Bahari le matin et la journée."
   },
   "BP_Bug_ButterflyU_C": {
@@ -40,35 +40,35 @@
     "description": "Les ailes de ce superbe papillon portent les couleurs du crépuscule. On ne le trouve que dans la vallée de Kilima.\r\nOn l’aperçoit près du sanctuaire du Dragon à Kilima le matin et la journée."
   },
   "BP_Bug_CicadaC_C": {
-    "name": "Cigale d'écorce commune",
-    "description": "Une cigale commune.\nOn la  trouve accrochée à l’écorce des arbres de la baie de Bahari le matin et la journée."
+    "name": "Cigale arboricole commune",
+    "description": "Une cigale commune.\r\nOn la trouve accrochée à l’écorce des arbres de la baie du Bahari le matin et la journée."
   },
   "BP_Bug_CicadaR_C": {
     "name": "Cigale enflammée",
-    "description": "Cette cigale au tempérament fougueux est moins dangereuse qu’elle n’y paraît.\r\nSe trouve accrochée à l’écorce des arbres de la baie de Bahari le matin et la journée."
+    "description": "Cette cigale au tempérament fougueux est moins dangereuse qu’elle n’y paraît.\r\nSe trouve accrochée à l’écorce des arbres de la baie du Bahari le matin et la journée."
   },
   "BP_Bug_CicadaU_C": {
     "name": "Cigale céruléenne",
-    "description": "Le chant des cigales est si apaisant qu’il aurait inspiré la Quatrième symphonie d’Ayana.\r\nOn en trouve accrochées à l’écorce des arbres de la baie de Bahari le matin et la journée."
+    "description": "Le chant des cigales est si apaisant qu’il aurait inspiré la Quatrième symphonie d’Ayana.\r\nOn en trouve accrochées à l’écorce des arbres de la baie du Bahari le matin et la journée."
   },
   "BP_Bug_CrabC_C": {
-    "name": "crabe baharite",
+    "name": "Crabe baharite",
     "description": "Ce crabe régional est connu pour être délicieux cuisiné au beurre.\r\nOn l’aperçoit sur le rivage de la baie du Bahari. Tu peux également en trouver en ramassant des coquillages dans la baie du Bahari."
   },
   "BP_Bug_CrabR_C": {
     "name": "Crabe vampire",
-    "description": "Espèce de crabe envahissante qui aspire la vie de la population locale.\r\nSe trouve autour de la forteresse inondée dans la baie de Bahari le soir et la nuit."
+    "description": "Espèce de crabe envahissante qui aspire la vie de la population locale.\r\nSe trouve autour de la forteresse inondée dans la baie du Bahari le soir et la nuit."
   },
   "BP_Bug_CrabU_C": {
     "name": "Crabapic",
-    "description": "La carapace de ce crabe est très épineuse.\nOn l’aperçoit sur le rivage de la baie du Bahari."
+    "description": "La carapace de ce crabe est très épineuse.\r\nOn l’aperçoit sur le rivage de la baie du Bahari."
   },
   "BP_Bug_CricketC_C": {
-    "name": "Grillon des champs commun",
-    "description": "Les grillons des champs se trouvent partout où il y a un champ.\r\nOn les trouve tout autour de Kilima et de Bahari Bay."
+    "name": "Grillon champêtre commun",
+    "description": "Les grillons champêtres se trouvent partout où il y a un champ.\r\nOn les trouve tout autour de Kilima et de Bahari Bay."
   },
   "BP_Bug_CricketR_C": {
-    "name": "Sauteroche azur",
+    "name": "Sauteroche azuré",
     "description": "La couleur de cette jolie petite bête lui permet de se camoufler en caillou brillant.\r\nOn l’aperçoit dans les prés de la baie du Bahari."
   },
   "BP_Bug_CricketU_C": {
@@ -77,19 +77,19 @@
   },
   "BP_Bug_DragonflyC_C": {
     "name": "Libellule queue-touffue",
-    "description": "La queue de cette libellule est si brillante et chatoyante que certains Majiri anciens l’utilisaient comme un pinceau.\r\nSe trouve autour du lac de Kilima, ainsi que dans les rivières et les étangs de Bahari Bay."
+    "description": "La queue de cette libellule est si brillante et chatoyante que certains Majiri anciens l’utilisaient comme un pinceau.\r\nSe trouve autour du lac de Kilima, ainsi que dans les rivières et les étangs de la Baie du Bahari."
   },
   "BP_Bug_DragonflyE_C": {
     "name": "Libellule ailes-de-gemmes",
-    "description": "Les ailes de cette libellule luisent de teintes aussi brillantes qu’une pierre précieuse.\r"
+    "description": "Les ailes de cette libellule luisent de teintes aussi brillantes qu’une pierre précieuse.\r\nOn l’aperçoit près de l’entrée d’une grotte, sur la falaise de la baie du Bahari."
   },
   "BP_Bug_DragonflyR_C": {
-    "name": "Libellule souffle-ardent",
+    "name": "Libellule souffle-de-feu",
     "description": "Cette libellule est notoirement difficile à attraper, notamment à cause de son souffle ardent.\r\nOn l’aperçoit dans les prés de Kilima."
   },
   "BP_Bug_DragonflyU_C": {
     "name": "Libellule sépia",
-    "description": "Cette libellule furtive est utilisée comme composant dans diverses teintures et encres noires.\r\nSe trouve autour des rivières et des étangs de la baie de Bahari."
+    "description": "Cette libellule furtive est utilisée comme composant dans diverses teintures et encres noires.\r\nSe trouve autour des rivières et des étangs de la baie du Bahari."
   },
   "BP_Bug_GlowbugC_C": {
     "name": "Luciole lampion",
@@ -101,7 +101,7 @@
   },
   "BP_Bug_LadybugR_C": {
     "name": "Princesse coccinelle",
-    "description": "Une coccinelle à l’allure très royale, rendue populaire par le conte pour enfants \\« La princesse qui se transforma en coccinelle\\ ».\nSe trouve autour du lac de Kilima."
+    "description": "Une coccinelle à l’allure très royale, rendue populaire par le conte pour enfants. La princesse qui se transforma en coccinelle.\r\nSe trouve autour du lac de Kilima."
   },
   "BP_Bug_LadybugU_C": {
     "name": "Coccinelle des jardins",
@@ -113,7 +113,7 @@
   },
   "BP_Bug_MantisR1_C": {
     "name": "Mante mouchetée",
-    "description": "Une mante rare avec une belle série de taches.\nSe trouve autour du sanctuaire du dragon à Kilima."
+    "description": "Une mante rare avec une belle série de taches.\r\nSe trouve autour du sanctuaire du Dragon à Kilima."
   },
   "BP_Bug_MantisR2_C": {
     "name": "Mante chasse-feuille",
@@ -121,11 +121,11 @@
   },
   "BP_Bug_MantisU_C": {
     "name": "Mante commune",
-    "description": "Il n’y a rien à voir ici. Une simple mante de jardin.\r\nSe trouve autour du lac de Kilima. On peut aussi la trouver en cherchant de la nourriture autour du lac de Kilima."
+    "description": "Il n’y a rien à voir ici. Une quelconque mante de jardin.\r\nSe trouve autour du lac de Kilima. On peut aussi la trouver en cherchant de la nourriture autour du lac de Kilima."
   },
   "BP_Bug_MothC_C": {
-    "name": "Phalène nocturne de Kilima",
-    "description": "Bien que très belle, la noctuelle Kilima est tellement présente durant les chaudes nuits d’été que certains la considèrent comme un parasite. Tenir à l’écart des tissus entreposés.\r\nSe trouve tout autour de Kilima et de la baie de Bahari pendant la soirée et la nuit."
+    "name": "Noctuelle de Kilima",
+    "description": "Bien que très belle, la noctuelle de Kilima est tellement présente durant les chaudes nuits d’été que certains la considèrent comme un parasite. Tenir à l’écart des tissus entreposés.\r\nSe trouve tout autour de Kilima et de la baie du Bahari pendant la soirée et la nuit."
   },
   "BP_Bug_MothR_C": {
     "name": "Phalène à voile de soie",
@@ -141,10 +141,10 @@
   },
   "BP_Bug_PedeR2_C": {
     "name": "Mille-pattes scintillant",
-    "description": "Un mille-pattes rare avec une coquille dure et brillante.\r\nA une chance d’être trouvé lors de l’exploitation minière dans la baie de Bahari."
+    "description": "Un mille-pattes rare avec une coquille dure et brillante.\r\nA une chance d’être trouvé lors d’extraction minière dans la baie du Bahari."
   },
   "BP_Bug_PedeU_C": {
-    "name": "Mille-pattes commun",
+    "name": "Mille-pattes des jardins",
     "description": "Ce mille-pattes brun et vert adore grignoter les cultures potagères.\r\nOn l’aperçoit dans les prés de Kilima. Tu peux également en trouver en t’adonnant à la cueillette dans les prés de Kilima."
   },
   "BP_Bug_SnailR_C": {
@@ -152,7 +152,7 @@
     "description": "La coquille de cet escargot présente des rayures si particulières qu’elle était autrefois utilisée comme monnaie par les ancêtres des Majiris.\r\nOn l’aperçoit sur le rivage de la baie du Bahari."
   },
   "BP_Bug_SnailU_C": {
-    "name": "Escargot commun",
+    "name": "Escargot des jardins",
     "description": "Une lente évolution a permis à cet escargot de ressembler à une feuille. Son camouflage lui permet de se cacher facilement des prédateurs, mais le rend vulnérable à la mante chasse-feuille.\r\nOn l’aperçoit sur le rivage et dans les forêts de la baie du Bahari."
   },
   "BP_ChapaaPile_C": {
@@ -169,14 +169,14 @@
   },
   "BP_Fish_Alligator_Gar_C": {
     "name": "Garpique alligator",
-    "description": "Poisson carnivore aux écailles d’un beau violet vif, le garpique alligator tient son nom de son nez allongé et de ses rangées de dents acérées.\nSe pêche dans le lac de Kilima en utilisant des vers luisants comme appâts."
+    "description": "Poisson carnivore aux écailles d’un beau violet vif, le garpique alligator tient son nom de son nez allongé et de ses rangées de dents acérées.\r\nSe pêche dans le lac de Kilima en utilisant des vers luisants comme appâts."
   },
   "BP_Fish_AncientFish_C": {
     "name": "Poisson antique",
-    "description": "hese fish are as old as the continent of Palia itself, and were thought to be extinct. Guess you have something in common."
+    "description": "Ces poissons sont aussi vieux que le continent de Palia lui-même, à tel point qu’on croyait l’espèce éteinte. Ça vous fait un point en commun."
   },
   "BP_Fish_Bahari_Pike_C": {
-    "name": "brochet baharite",
+    "name": "Brochet baharite",
     "description": "Ce brochet aux reflets vert foncé est natif de la baie du Bahari.\r\nSe pêche dans les rivières du Bahari en utilisant des vers luisants comme appâts."
   },
   "BP_Fish_BahariBream_C": {
@@ -185,7 +185,7 @@
   },
   "BP_Fish_Barracuda_C": {
     "name": "Barracuda",
-    "description": "Ce féroce prédateur marin a un goût délicieux une fois légèrement grillé et agrémenté d’une noix de beurre. \nSe pêche au large de la baie du Bahari le soir et la nuit sans utiliser d’appât."
+    "description": "Ce féroce prédateur marin a un goût délicieux une fois légèrement grillé et agrémenté d’une noix de beurre.\r\nSe pêche au large de la baie du Bahari le soir et la nuit sans utiliser d’appât."
   },
   "BP_Fish_BatRay_C": {
     "name": "Aigle de mer",
@@ -209,11 +209,11 @@
   },
   "BP_Fish_Blue_Spotted_Ray_C": {
     "name": "Raie à taches bleues",
-    "description": "Cette raie colorée se démarque par les nombreuses taches bleues qui parsèment son corps et les rayures bleues le long de sa queue.\nSe pêche au large de la côte de la baie du Bahari le matin, l’après-midi et le soir en utilisant des vers luisants comme appâts."
+    "description": "Cette raie colorée se démarque par les nombreuses taches bleues qui parsèment son corps et les rayures bleues le long de sa queue.\r\nSe pêche au large de la côte de la baie du Bahari le matin, l’après-midi et le soir en utilisant des vers luisants comme appâts."
   },
   "BP_Fish_BlueMarlin_C": {
     "name": "Marlin bleu",
-    "description": "Grand poisson extrêmement résilient, le marlin bleu est considéré comme un trophée de choix, même par les pêcheurs les plus expérimentés.\nSe pêche au large de la baie du Bahari en utilisant des vers comme appâts."
+    "description": "Grand poisson extrêmement résilient, le marlin bleu est considéré comme un trophée de choix, même par les pêcheurs les plus expérimentés.\r\nSe pêche au large de la baie du Bahari en utilisant des vers comme appâts."
   },
   "BP_Fish_Cactus_Moray_C": {
     "name": "Murène cactus",
@@ -221,15 +221,15 @@
   },
   "BP_Fish_CalicoKoi_C": {
     "name": "Carpe koï tricolore",
-    "description": "Le motif tricolore de cette carpe koï ordinaire est tout simplement incroyable.\r\nSe pêche dans les étangs sans utiliser d’appât."
+    "description": "Le motif tricolore de cette carpe koï standard est tout simplement incroyable.\r\nSe pêche dans les étangs sans utiliser d’appât."
   },
   "BP_Fish_CantankerousKoi_C": {
-    "name": "Koi acariâtre",
-    "description": "Selon une légende locale, la carpe koï revêche serait un vieil homme bougon transformé en poisson par une méchante sorcière.\r\nSe pêche dans les étangs l’après-midi et la nuit sans utiliser d’appât."
+    "name": "Carpe koï acariâtre",
+    "description": "Selon une légende locale, la carpe koï acariâtre serait un vieil homme bougon transformé en poisson par une méchante sorcière.\r\nSe pêche dans les étangs l’après-midi et la nuit sans utiliser d’appât."
   },
   "BP_Fish_Channel_Catfish_C": {
-    "name": "Poisson-chat de rivière",
-    "description": "Ce poisson-chat n’a aucun mal à naviguer dans les courants tumultueux.\r\nSe pêche dans les rivières de Kilima sans utiliser d’appât."
+    "name": "Barbue de rivière",
+    "description": "Cette barbue n’a aucun mal à naviguer dans les courants tumultueux.\r\nSe pêche dans les rivières de Kilima sans utiliser d’appât."
   },
   "BP_Fish_Chub_C": {
     "name": "Chevaine",
@@ -257,7 +257,7 @@
   },
   "BP_Fish_Dawnray_C": {
     "name": "Raie aurorale",
-    "description": "Cette raie dorée chasse à l’aube et ses écailles absorbent la lumière du soleil.\nSe pêche dans les rivières du Bahari le matin sans utiliser d’appât."
+    "description": "Cette raie dorée chasse à l’aube et ses écailles absorbent la lumière du soleil.\r\nSe pêche dans les rivières du Bahari le matin sans utiliser d’appât."
   },
   "BP_Fish_Duskray_C": {
     "name": "Raie crépusculaire",
@@ -273,7 +273,7 @@
   },
   "BP_Fish_EyelessMinnow_C": {
     "name": "Vairon aveugle",
-    "description": "Ce poisson vivant dans les grottes n’a plus besoin de ses yeux pour voir.\nSe pêche dans les grottes de la baie du Bahari sans utiliser d’appât."
+    "description": "Ce poisson vivant dans les grottes n’a plus besoin de ses yeux pour voir.\r\nSe pêche dans les grottes de la baie du Bahari sans utiliser d’appât."
   },
   "BP_Fish_FairyCarp_C": {
     "name": "Carpe féerique",
@@ -317,7 +317,7 @@
   },
   "BP_Fish_Indigo_Lamprey_C": {
     "name": "Lamproie indigo",
-    "description": "Dans le passé, les Paléens récupéraient les écailles de ce poisson pour en faire une teinture indigo intense.\r\nSe pêche dans les rivières de Kilima le soir et la nuit en utilisant des vers luisants comme appâts."
+    "description": "Dans le passé, les paliens récupéraient les écailles de ce poisson pour en faire une teinture indigo intense.\r\nSe pêche dans les rivières de Kilima le soir et la nuit en utilisant des vers luisants comme appâts."
   },
   "BP_Fish_Kenjis_Carp_C": {
     "name": "Carpe de Kenli",
@@ -333,11 +333,11 @@
   },
   "BP_Fish_KilimaCatFish_C": {
     "name": "Poisson-chat de Kilima",
-    "description": "Ce type de poisson-chat est unique. On ne le trouve que dans la vallée de Kilima.\r\nSe pêche dans les étangs en utilisant des vers comme appâts."
+    "description": "Ce type de barbue est unique. On ne le trouve que dans la vallée de Kilima.\r\nSe pêche dans les étangs en utilisant des vers comme appâts."
   },
   "BP_Fish_LargemouthBass_C": {
     "name": "Achigan à grande bouche",
-    "description": "Cet achigan extrêmement volubile peut avaler des créatures d’un poids 50 % supérieur au sien. \nSe pêche dans le lac de Kilima en utilisant des vers comme appâts."
+    "description": "Cet achigan extrêmement volubile peut avaler des créatures d’un poids 50 % supérieur au sien.\r\nSe pêche dans le lac de Kilima en utilisant des vers comme appâts."
   },
   "BP_Fish_Midnight_Paddlefish_C": {
     "name": "Poisson-spatule nocturne",
@@ -373,7 +373,7 @@
   },
   "BP_Fish_PaintedPerch_C": {
     "name": "Perche arc-en-ciel",
-    "description": "Ce petit poisson de rivière est connu pour ses belles couleurs.\nSe pêche dans le lac de Kilima en utilisant des vers comme appâts."
+    "description": "Ce petit poisson de rivière est connu pour ses belles couleurs.\r\nSe pêche dans le lac de Kilima en utilisant des vers comme appâts."
   },
   "BP_Fish_Platinum_Chad_C": {
     "name": "Truite de platine",
@@ -381,10 +381,10 @@
   },
   "BP_Fish_PrismTrout_C": {
     "name": "Truite prismatique",
-    "description": "Cette magnifique truite scintille comme un arc-en-ciel au soleil.On la pêche\nSe pêche dans le lac de Kilima le matin et la journée en utilisant des vers comme appâts."
+    "description": "Cette magnifique truite scintille comme un arc-en-ciel au soleil.On la pêche.\r\nSe pêche dans le lac de Kilima le matin et la journée en utilisant des vers comme appâts."
   },
   "BP_Fish_RadiantSunfish_C": {
-    "name": "Perche rayonnante",
+    "name": "Poisson-lune rayonnant",
     "description": "Ce superbe poisson de rivière brille d’une lumière si radieuse qu’il est souvent déconseillé de le regarder directement, comme le soleil.\r\nSe pêche dans les rivières de Kilima en utilisant des vers comme appâts."
   },
   "BP_Fish_Rainbow_Trout_C": {
@@ -397,7 +397,7 @@
   },
   "BP_Fish_RibbontailRay_C": {
     "name": "Raie queue-à-ruban",
-    "description": "Cette raie queue-à-ruban est connue pour vivre dans les eaux tropicales. Récemment, elle a entamé une migration inattendue, partant des îles d’Inyrevn pour rejoindre les côtes de la République paléenne.\r\nSe pêche au large de la baie du Bahari le matin et le soir en utilisant des vers comme appâts."
+    "description": "Cette raie queue-à-ruban est connue pour vivre dans les eaux tropicales. Récemment, elle a entamé une migration inattendue, partant des îles d’Inyrevn pour rejoindre les côtes de la République palienne.\r\nSe pêche au large de la baie du Bahari le matin et le soir en utilisant des vers comme appâts."
   },
   "BP_Fish_Rosy_Bitterling_C": {
     "name": "Bouvière rosée",
@@ -412,7 +412,7 @@
     "description": "Cette superbe carpe koï présente un motif d’un rouge profond.\r\nSe pêche dans les étangs en utilisant des vers luisants comme appâts."
   },
   "BP_Fish_Shimmerfin_C": {
-    "name": "Aileron-miroitant",
+    "name": "Aileron miroitant",
     "description": "Ce mystérieux poisson apparaît parfois à deux endroits en même temps.\r\nSe pêche dans le lac de Kilima en utilisant des vers comme appâts."
   },
   "BP_Fish_SilverSalmon_C": {
@@ -425,19 +425,19 @@
   },
   "BP_Fish_SmallmouthBass_C": {
     "name": "Achigan à petite bouche",
-    "description": "C’est un achigan commun, ni plus, ni moins. On peut parfois en voir bondir au-dessus de l’eau.\nSe pêche dans le lac de Kilima en utilisant des vers comme appâts."
+    "description": "C’est un achigan commun, ni plus, ni moins. On peut parfois en voir bondir au-dessus de l’eau.\r\nSe pêche dans le lac de Kilima en utilisant des vers comme appâts."
   },
   "BP_Fish_SpottedBullhead_C": {
     "name": "Chabot moucheté",
-    "description": "Ce chabot est moucheté.\r\nSe pêche dans les rivières de Kilima sans utiliser d’appât.\r\n"
+    "description": "Ce chabot est moucheté.\r\nSe pêche dans les rivières de Kilima sans utiliser d’appât."
   },
   "BP_Fish_Stalking_Catfish_C": {
     "name": "Poisson-chat traqueur",
-    "description": "Ce poisson-chat bleu prédateur attaquera tous les poissons vulnérables à proximité.\r\nSe pêche dans les étangs le soir et la nuit en utilisant des vers luisants comme appâts."
+    "description": "Cette barbue bleue prédatrice attaquera tous les poissons vulnérables à proximité.\r\nSe pêche dans les étangs le soir et la nuit en utilisant des vers luisants comme appâts."
   },
   "BP_Fish_Stickleback_C": {
     "name": "Épinoche",
-    "description": "Ce poisson carnivore adore se délecter d’œufs de poisson, d’insectes, de crustacés et d’orteils de pêcheurs.\nSe pêche dans les rivières de Kilima le matin et la journée en utilisant des vers comme appâts."
+    "description": "Ce poisson carnivore adore se délecter d’œufs de poisson, d’insectes, de crustacés et d’orteils de pêcheurs.\r\nSe pêche dans les rivières de Kilima le matin et la journée en utilisant des vers comme appâts."
   },
   "BP_Fish_Stonefish_C": {
     "name": "Poisson-pierre",
@@ -449,7 +449,7 @@
   },
   "BP_Fish_Striped_Dace_C": {
     "name": "Vandoise rayée",
-    "description": "Cette vandoise présente un motif rayé sur toute la surface de son dos.v\nSe pêche dans les rivières de Kilima sans utiliser d’appât."
+    "description": "Cette vandoise présente un motif rayé sur toute la surface de son dos.\r\nSe pêche dans les rivières de Kilima sans utiliser d’appât."
   },
   "BP_Fish_StripedSturgeon_C": {
     "name": "Esturgeon rayé",
@@ -487,6 +487,10 @@
     "name": "Thon jaune",
     "description": "Cet énorme thon nage étonnamment vite pour sa taille.\r\nSe pêche au large de la baie du Bahari en utilisant des vers luisants comme appâts."
   },
+  "BP_FishingJackpot_C": {
+    "name": "Coffre détrempé",
+    "description": "Ouvre ce coffre mystérieux pour recevoir le trésor qui s’y trouve."
+  },
   "BP_FishingRecipeBook_C": {
     "name": "Recette : ragoût de poisson",
     "description": "Cet objet consommable permet d’apprendre la recette du ragoût de poisson."
@@ -497,11 +501,11 @@
   },
   "BP_Gatherable_MushroomR_C": {
     "name": "Morille des montagnes",
-    "description": "La morille des montagnes est un champignon commun que l’on peut trouver près de chez soi ! Cuite comme crue, son goût est apprécié de tous."
+    "description": "La morille des montagnes est un champignon commun que l’on peut trouver près de chez soi ! Cuite comme crue, son goût est apprécié de tous."
   },
   "BP_HeartdropLilly_C": {
-    "name": "Lys cœur-battant",
-    "description": "Le lys cœur-battant est une fleur rare qui revêt une signification particulière pour les Paléens : l’épanouissement du véritable amour."
+    "name": "Lys perle-de-cœur",
+    "description": "Le Lys perle-de-cœur est une fleur rare qui revêt une signification particulière pour les paliens : l’épanouissement du véritable amour."
   },
   "BP_Mining_Clay_C": {
     "name": "Argile",
@@ -548,12 +552,12 @@
     "description": "Cette pierre commune peut être transformée en briques."
   },
   "BP_Moss_DragonsBeard_C": {
-    "name": "Barbe-tourbe du Dragon",
-    "description": "La Barbe-tourbe du Dragon est une mousse rare aux propriétés alchimiques. Elle est appelée ainsi en raison de sa couleur, comparable à celle de Maji."
+    "name": "Tourbe Barbe-Dragon",
+    "description": "La tourbe Barbe-Dragon est une mousse rare aux propriétés alchimiques. Elle est appelée ainsi en raison de sa couleur, comparable à celle de Maji."
   },
   "BP_Moss_EmeraldCarpet_C": {
-    "name": "Mousse-tapis émeraude",
-    "description": "Selon une croyance locale, la présence de la couleur mousse émeraude dans ta maison est censée te porter chance."
+    "name": "Tapis en mousse couleur émeraude",
+    "description": "Selon une croyance locale, la présence de tapis en mousse couleur émeraude dans ta maison est censée te porter chance."
   },
   "BP_Oyster_C": {
     "name": "Huître fermée",
@@ -565,11 +569,11 @@
   },
   "BP_QuestItem_CookBook_1_C": {
     "name": "Livre de recettes de luxe",
-    "description": "La jaquette du livre indique : \\« Comment délecter les papilles de l’élite majiri \\»."
+    "description": "La jaquette du livre indique : « Comment délecter les papilles de l’élite majiri. »"
   },
   "BP_QuestItem_CookBook_2_C": {
     "name": "Livre de recettes de desserts",
-    "description": "La jaquette du livre indique : \\« Douceurs sucrées : comment élaborer des desserts à tomber. \\»"
+    "description": "La jaquette du livre indique : « Douceurs sucrées : comment élaborer des desserts à tomber. »"
   },
   "BP_Seashell_C": {
     "name": "Coquillage",
@@ -580,8 +584,8 @@
     "description": "Les gousses de Dari sont des épices appréciées des chefs et des alchimistes. Ces derniers leur prêtent des propriétés magiques."
   },
   "BP_Spice_HeatRoot_C": {
-    "name": "Racine de feu",
-    "description": "Un coup de froid ? Pas de panique ! La racine de feu te réchauffera de l’intérieur. "
+    "name": "Racine vivace",
+    "description": "Un coup de froid ? Pas de panique ! La racine vivace te réchauffera de l’intérieur."
   },
   "BP_Spiced_Sprouts_C": {
     "name": "Pousses d’épice",
@@ -593,7 +597,7 @@
   },
   "BP_SweetLeaves_C": {
     "name": "Stévia",
-    "description": "Chez les Paléens, la stévia est l’un des ingrédients les plus populaires pour préparer des desserts. Son goût sucré ravira les plus gourmands."
+    "description": "Chez les paliens, la stévia est l’un des ingrédients les plus populaires pour préparer des desserts. Son goût sucré ravira les plus gourmands."
   },
   "BP_Trash_Shipfragments_C": {
     "name": "Fragments de bateau",
@@ -601,14 +605,18 @@
   },
   "BP_Trash_Wagonwheel_C": {
     "name": "Roue de charrette",
-    "description": "On trouve souvent de genre de déchets au fond et autour du lac Cristallin et aux alentours. Il s’agit peut-être de vestiges laissés par les voyageurs de passage."
+    "description": "On trouve souvent de genre de déchets au fond et autour du lac de Cristal et aux alentours. Il s’agit peut-être de vestiges laissés par les voyageurs de passage."
+  },
+  "BP_Trash_WaterloggedBoot_C": {
+    "name": "Botte détrempée",
+    "description": "On trouve souvent ce genre de déchets au fond de l'étang du Miroir."
   },
   "BP_TreeChoppable_Birch_Large_C": {
     "name": "M (L)",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Large_CoOp_C": {
-    "name": "L’Onde M (L)",
+    "name": "Flow M (L)",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Medium_C": {
@@ -616,11 +624,11 @@
     "description": ""
   },
   "BP_TreeChoppable_Birch_Medium_CoOp_C": {
-    "name": "L’Onde M (M)",
+    "name": "Flow M (M)",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Sapling_CoOp_C": {
-    "name": "L’Onde M (XS)",
+    "name": "Flow M (XS)",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Small_C": {
@@ -628,7 +636,7 @@
     "description": ""
   },
   "BP_TreeChoppable_Birch_Small_CoOp_C": {
-    "name": "L’Onde M (S)",
+    "name": "Flow M (S)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Large_C": {
@@ -636,7 +644,7 @@
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Large_CoOp_C": {
-    "name": "L’Onde Graine (L)",
+    "name": "Flow Graine (L)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Medium_C": {
@@ -644,11 +652,11 @@
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Medium_CoOp_C": {
-    "name": "L’Onde Graine (M)",
+    "name": "Flow Graine (M)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Sapling_CoOp_C": {
-    "name": "L’Onde Graine (XS)",
+    "name": "Flow Graine (XS)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Small_C": {
@@ -656,7 +664,7 @@
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Small_CoOp_C": {
-    "name": "L’Onde Graine (S)",
+    "name": "Flow Graine (S)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Large_C": {
@@ -664,7 +672,7 @@
     "description": ""
   },
   "BP_TreeChoppable_Oak_Large_CoOp_C": {
-    "name": "L’Onde M (L)",
+    "name": "Flow M (L)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Medium_C": {
@@ -672,11 +680,11 @@
     "description": ""
   },
   "BP_TreeChoppable_Oak_Medium_CoOp_C": {
-    "name": "L’Onde M (M)",
+    "name": "Flow M (M)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Sapling_CoOp_C": {
-    "name": "L’Onde M (XS)",
+    "name": "Flow M (XS)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Small_C": {
@@ -684,7 +692,7 @@
     "description": ""
   },
   "BP_TreeChoppable_Oak_Small_CoOp_C": {
-    "name": "L’Onde M (S)",
+    "name": "Flow M (S)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Large_C": {
@@ -692,11 +700,11 @@
     "description": ""
   },
   "BP_TreeChoppable_Pine_Large_CoOp_C": {
-    "name": "L’Onde Pine (L)",
+    "name": "Flow Pine (L)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Large2_CoOp_C": {
-    "name": "L’Onde Pine (XL)",
+    "name": "Flow Pine (XL)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Medium_C": {
@@ -704,11 +712,11 @@
     "description": ""
   },
   "BP_TreeChoppable_Pine_Medium_CoOp_C": {
-    "name": "L’Onde Pine (M)",
+    "name": "Flow Pine (M)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Sapling_CoOp_C": {
-    "name": "L’Onde Pine (XS)",
+    "name": "Flow Pine (XS)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Small_C": {
@@ -716,48 +724,48 @@
     "description": ""
   },
   "BP_TreeChoppable_Pine_Small_CoOp_C": {
-    "name": "L’Onde Pine (S)",
+    "name": "Flow Pine (S)",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Cearnuk_T1_C": {
-    "name": "Sernuk",
+    "name": "Searnuk",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Cearnuk_T2_C": {
-    "name": "Saffron Striped Searnuk",
+    "name": "Elder Searnuk",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Cearnuk_T3_C": {
-    "name": "Proudhorned Sernuk",
+    "name": "Proudhorn Searnuk",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Chapaa_T1_C": {
-    "name": "Chapaa moucheté",
+    "name": "Spotted Chapaa",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Chapaa_T2_C": {
-    "name": "White Striped Chapaa",
+    "name": "Striped Chapaa",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Chapaa_T3_C": {
-    "name": "Chapaa à rayures noires",
+    "name": "Azure Chapaa",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_TreeClimber_T1_C": {
-    "name": "Muujin de niveau 1",
+    "name": "Muujin",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_TreeClimber_T2_C": {
-    "name": "Teir2 Muujin",
+    "name": "Banded Muujin",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_TreeClimber_T3_C": {
-    "name": "Teir3 Muujin",
+    "name": "Bluebristle Muujin",
     "description": ""
   },
   "BP_WaterFlower_C": {
-    "name": "Lotus du lac Crystallium",
-    "description": "Le lotus du lac Crystallium porte le nom de l’endroit où il a été découvert et est aujourd’hui utilisé pour fabriquer des teintures."
+    "name": "Lotus du lac de Cristal",
+    "description": "Le lotus du lac de Cristal porte le nom de l’endroit où il a été découvert et est aujourd’hui utilisé pour fabriquer des teintures."
   },
   "BP_WaterPlane_Fishing_AZ1_Cave_SQ_C": {
     "name": "Cave Bay",
@@ -784,7 +792,7 @@
     "description": ""
   },
   "BP_WildGarlic_C": {
-    "name": "Ail des ours",
+    "name": "Ail sauvage",
     "description": "L’ail ajoute un goût délicieux à tous tes plats. Pour avoir l’haleine fraîche, rien de tel qu’une gousse d’ail crue !"
   }
 }

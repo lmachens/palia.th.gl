@@ -487,6 +487,10 @@
     "name": "Желтопёрый Тунец",
     "description": "Крупный тунец, который может плавать быстрее, чем предполагают его размеры.\r\nЛовится у берегов Бухты Бахари на светящихся червей."
   },
+  "BP_FishingJackpot_C": {
+    "name": "Утонувший Сундук",
+    "description": "Откройте этот таинственный сундук, чтобы получить находящийся в нем приз."
+  },
   "BP_FishingRecipeBook_C": {
     "name": "Рецепт: Тушёная Рыба",
     "description": "Используйте, чтобы узнать рецепт приготовления Тушёной Рыбы."
@@ -603,12 +607,16 @@
     "name": "Старый Штурвал",
     "description": "Обычный мусор, встречающийся в окрестностях Хрустального озера. Возможно, реликвия, оставшаяся от проезжавших мимо путешественников."
   },
+  "BP_Trash_WaterloggedBoot_C": {
+    "name": "Утонувший Ботинок",
+    "description": "Обычный мусор, найденный в Зеркальном пруду."
+  },
   "BP_TreeChoppable_Birch_Large_C": {
     "name": "undefined (L)",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Large_CoOp_C": {
-    "name": "Поток undefined (L)",
+    "name": "Flow undefined (L)",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Medium_C": {
@@ -616,11 +624,11 @@
     "description": ""
   },
   "BP_TreeChoppable_Birch_Medium_CoOp_C": {
-    "name": "Поток undefined (M)",
+    "name": "Flow undefined (M)",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Sapling_CoOp_C": {
-    "name": "Поток undefined (XS)",
+    "name": "Flow undefined (XS)",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Small_C": {
@@ -628,7 +636,7 @@
     "description": ""
   },
   "BP_TreeChoppable_Birch_Small_CoOp_C": {
-    "name": "Поток undefined (S)",
+    "name": "Flow undefined (S)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Large_C": {
@@ -636,7 +644,7 @@
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Large_CoOp_C": {
-    "name": "Поток Семя (L)",
+    "name": "Flow Семя (L)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Medium_C": {
@@ -644,11 +652,11 @@
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Medium_CoOp_C": {
-    "name": "Поток Семя (M)",
+    "name": "Flow Семя (M)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Sapling_CoOp_C": {
-    "name": "Поток Семя (XS)",
+    "name": "Flow Семя (XS)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Small_C": {
@@ -656,7 +664,7 @@
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Small_CoOp_C": {
-    "name": "Поток Семя (S)",
+    "name": "Flow Семя (S)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Large_C": {
@@ -664,7 +672,7 @@
     "description": ""
   },
   "BP_TreeChoppable_Oak_Large_CoOp_C": {
-    "name": "Поток undefined (L)",
+    "name": "Flow undefined (L)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Medium_C": {
@@ -672,11 +680,11 @@
     "description": ""
   },
   "BP_TreeChoppable_Oak_Medium_CoOp_C": {
-    "name": "Поток undefined (M)",
+    "name": "Flow undefined (M)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Sapling_CoOp_C": {
-    "name": "Поток undefined (XS)",
+    "name": "Flow undefined (XS)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Small_C": {
@@ -684,75 +692,75 @@
     "description": ""
   },
   "BP_TreeChoppable_Oak_Small_CoOp_C": {
-    "name": "Поток undefined (S)",
+    "name": "Flow undefined (S)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Large_C": {
-    "name": "Сосна (L)",
+    "name": "Pine (L)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Large_CoOp_C": {
-    "name": "Поток Сосна (L)",
+    "name": "Flow Pine (L)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Large2_CoOp_C": {
-    "name": "Поток Сосна (XL)",
+    "name": "Flow Pine (XL)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Medium_C": {
-    "name": "Сосна (M)",
+    "name": "Pine (M)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Medium_CoOp_C": {
-    "name": "Поток Сосна (M)",
+    "name": "Flow Pine (M)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Sapling_CoOp_C": {
-    "name": "Поток Сосна (XS)",
+    "name": "Flow Pine (XS)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Small_C": {
-    "name": "Сосна (S)",
+    "name": "Pine (S)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Small_CoOp_C": {
-    "name": "Поток Сосна (S)",
+    "name": "Flow Pine (S)",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Cearnuk_T1_C": {
-    "name": "Сернук",
+    "name": "Searnuk",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Cearnuk_T2_C": {
-    "name": "Шафрановый Сернук",
+    "name": "Elder Searnuk",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Cearnuk_T3_C": {
-    "name": "Гордорогий Сернук",
+    "name": "Proudhorn Searnuk",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Chapaa_T1_C": {
-    "name": "Пятнистый Чапаа",
+    "name": "Spotted Chapaa",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Chapaa_T2_C": {
-    "name": "Белополосый Чапаа",
+    "name": "Striped Chapaa",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Chapaa_T3_C": {
-    "name": "Чернополосый Чапаа",
+    "name": "Azure Chapaa",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_TreeClimber_T1_C": {
-    "name": "Мууджин T1",
+    "name": "Muujin",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_TreeClimber_T2_C": {
-    "name": "Мууджин T2",
+    "name": "Banded Muujin",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_TreeClimber_T3_C": {
-    "name": "Мууджин T3",
+    "name": "Bluebristle Muujin",
     "description": ""
   },
   "BP_WaterFlower_C": {

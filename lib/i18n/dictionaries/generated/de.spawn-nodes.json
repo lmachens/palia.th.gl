@@ -5,7 +5,7 @@
   },
   "BP_Bug_BeetleC_C": {
     "name": "Gefleckter Stinkkäfer",
-    "description": "Ein Käfer, der eher für seinen starken Moschusgeruch als für seine auffälligen Farben bekannt ist.\r\nKann überall in Kilima und der Bahari-Bucht gefunden werden."
+    "description": "Ein Insekt, das eher für seinen starken Moschusgeruch als für seine auffälligen Farben bekannt ist.\r\nKann überall in Kilima und der Bahari-Bucht gefunden werden."
   },
   "BP_Bug_BeetleE_C": {
     "name": "Uralter Bernsteinkäfer",
@@ -16,7 +16,7 @@
     "description": "Ein Käfer, dessen gesamte Nahrung aus Himbeeren besteht.\r\nZu finden in der Umgebung von Badruus Farm in Kilima."
   },
   "BP_Bug_BeetleU_C": {
-    "name": "Stolzgehörnter-Hirschkäfer",
+    "name": "Stolzgehörnter Hirschkäfer",
     "description": "Die Hörner dieses Hirschkäfers sollen denen des Stolzgehörnten Sernuks ähneln.\r\nEr kann beim Bergbau in Kilima gefunden werden."
   },
   "BP_Bug_BeeU_C": {
@@ -25,7 +25,7 @@
   },
   "BP_Bug_ButterflyC_C": {
     "name": "Gemeiner Blaufalter",
-    "description": "Unverwüstlich. Schmetterlinge dieser Art sind in fast jedem Klima in Palia zu finden.\nKönnen morgens und tagsüber rund um Kilima und die Bahari-Bucht gefunden werden."
+    "description": "Unverwüstlich. Schmetterlinge dieser Art sind in fast jedem Klima in Palia zu finden.\r\nKönnen morgens und tagsüber rund um Kilima und die Bahari-Bucht gefunden werden."
   },
   "BP_Bug_ButterflyE_C": {
     "name": "Regenbogenfalter",
@@ -53,7 +53,7 @@
   },
   "BP_Bug_CrabC_C": {
     "name": "Bahari-Krebs",
-    "description": "Eine einheimische Krabbe, die bekanntlich gut mit zerlassener Butter schmeckt.\r\nKann entlang der Küste der Bahari-Bucht gefunden werden. Man kann sie auch beim Muscheln sammeln in der Bahari-Bucht finden"
+    "description": "Eine einheimische Krabbe, die bekanntlich gut mit zerlassener Butter schmeckt.\r\nKann entlang der Küste der Bahari-Bucht gefunden werden. Man kann sie auch beim Muscheln sammeln in der Bahari-Bucht finden."
   },
   "BP_Bug_CrabR_C": {
     "name": "Vampirkrebs",
@@ -73,14 +73,14 @@
   },
   "BP_Bug_CricketU_C": {
     "name": "Garten-Blattgrille",
-    "description": "Die Gartenlaubschrecke ist in Palia so beliebt, dass viele Kinder sie als Haustier halten. Man sagt, dass sie Glück bringen.\r\nKann in den Feldern und auf Badruus Farm in Kilima gefunden werden. Kann auch beim Sammeln in Kilima gefunden werden."
+    "description": "Die Garten-Blattgrille ist in Palia so beliebt, dass viele Kinder sie als Haustier halten. Man sagt, dass sie Glück bringen.\r\nKann in den Feldern und auf Badruus Farm in Kilima gefunden werden. Kann auch beim Sammeln in Kilima gefunden werden."
   },
   "BP_Bug_DragonflyC_C": {
     "name": "Pinselschweif-Libelle",
     "description": "Der Schwanz dieser Libelle ist so hell und leuchtend, dass einige frühe Majiri ihn als Pinsel benutzt haben sollen.\r\nKann rund um den See in Kilima sowie in den Flüssen und Teichen der Bahari-Bucht gefunden werden."
   },
   "BP_Bug_DragonflyE_C": {
-    "name": "Juwelenschwingen-Libelle",
+    "name": "Schmuckflügel-Libelle",
     "description": "Eine Libelle mit Flügeln, die so hell und farbenfroh sind wie ein Edelstein.\r\nKann in der Nähe eines Höhleneingangs auf einer Klippe in der Bahari-Bucht gefunden werden."
   },
   "BP_Bug_DragonflyR_C": {
@@ -92,8 +92,8 @@
     "description": "Diese unauffällige Libelle wird als Bestandteil verschiedener schwarzer Farbstoffe und Tinten verwendet.\r\nKann an Flüssen und Teichen in der Bahari-Bucht gefunden werden."
   },
   "BP_Bug_GlowbugC_C": {
-    "name": "Lampionwürmchen",
-    "description": "Dieser Käfer leuchtet so hell wie eine bunte Festtagslaterne, die in den palianischen Nachthimmel fliegt.\r\nKann abends und nachts entlang der Küste und in den Wäldern der Bahari-Bucht gefunden werden."
+    "name": "Papier-Lampionwürmchen",
+    "description": "Dieses Insekt leuchtet so hell wie eine bunte Festtagslaterne, die in den palianischen Nachthimmel fliegt.\r\nKann abends und nachts entlang der Küste und in den Wäldern der Bahari-Bucht gefunden werden."
   },
   "BP_Bug_GlowbugR_C": {
     "name": "Bahari-Glühwürmchen",
@@ -101,7 +101,7 @@
   },
   "BP_Bug_LadybugR_C": {
     "name": "Prinzessinnen-Marienkäfer",
-    "description": "Ein sehr königlich aussehender Marienkäfer, der durch das Kindermärchen \\„Die Prinzessin, die sich in einen Marienkäfer verwandelte\\“ bekannt wurde.\r\nKann rund um den See in Kilima gefunden werden."
+    "description": "Ein sehr königlich aussehender Marienkäfer, der durch das Kindermärchen „Die Prinzessin, die sich in einen Marienkäfer verwandelte“ bekannt wurde.\r\nKann rund um den See in Kilima gefunden werden."
   },
   "BP_Bug_LadybugU_C": {
     "name": "Garten-Marienkäfer",
@@ -113,7 +113,7 @@
   },
   "BP_Bug_MantisR1_C": {
     "name": "Gefleckte Gottesanbeterin",
-    "description": "Eine seltene Gottesanbeterin mit einer schönen Fleckenzeichnung.\nKann in der Nähe des Drachenschreins in Kilima gefunden werden."
+    "description": "Eine seltene Gottesanbeterin mit einer schönen Fleckenzeichnung.\r\nKann in der Nähe des Drachenschreins in Kilima gefunden werden."
   },
   "BP_Bug_MantisR2_C": {
     "name": "Blattwandler-Gottesanbeterin",
@@ -121,7 +121,7 @@
   },
   "BP_Bug_MantisU_C": {
     "name": "Garten-Gottesanbeterin",
-    "description": "Hier gibt es nichts zu sehen. Nur eine gewöhnliche Gottesanbeterin.\nKann rund um den See in Kilima gefunden werden. Kann auch beim Sammeln am See in Kilima gefunden werden."
+    "description": "Hier gibt es nichts zu sehen. Nur eine gewöhnliche Gottesanbeterin.\r\nKann rund um den See in Kilima gefunden werden. Kann auch beim Sammeln am See in Kilima gefunden werden."
   },
   "BP_Bug_MothC_C": {
     "name": "Kilima-Nachtmotte",
@@ -133,7 +133,7 @@
   },
   "BP_Bug_MothU_C": {
     "name": "Mondfee-Motte",
-    "description": "Der Mondfeenmotte wird eine ganz besondere Verbindung zum Drachenmond nachgesagt, und es heißt, dass sie nur zu besonderen Zeiten während seines Zyklus erscheint.\r\nKann abends und nachts in den Feldern und Wäldern der Bahari-Bucht gefunden werden."
+    "description": "Der Mondfee-Motte wird eine ganz besondere Verbindung zum Drachenmond nachgesagt, und es heißt, dass sie nur zu besonderen Zeiten während seines Zyklus erscheint.\r\nKann abends und nachts in den Feldern und Wäldern der Bahari-Bucht gefunden werden."
   },
   "BP_Bug_PedeR1_C": {
     "name": "Behaarter Tausendfüßler",
@@ -141,7 +141,7 @@
   },
   "BP_Bug_PedeR2_C": {
     "name": "Glänzender Hundertfüßler",
-    "description": "Ein seltener Tausendfüßler mit glänzender harter Schale.\r\nKann beim Abbau in der Bahari-Bucht gefunden werden."
+    "description": "Ein seltener Hundertfüßler mit glänzender harter Schale.\r\nKann beim Bergbau in der Bahari-Bucht gefunden werden."
   },
   "BP_Bug_PedeU_C": {
     "name": "Garten-Tausendfüßler",
@@ -153,7 +153,7 @@
   },
   "BP_Bug_SnailU_C": {
     "name": "Gartenschnecke",
-    "description": "Eine Schnecke, die sich im Laufe der Zeit so entwickelt hat, dass sie wie ein Blatt aussieht. Gut zum Verstecken vor Raubtieren, schlecht zum Verstecken vor der Blattstieligen Gottesanbeterin.\r\nKann entlang der Küste und in den Wäldern der Bahari-Bucht gefunden werden."
+    "description": "Eine Schnecke, die sich im Laufe der Zeit so entwickelt hat, dass sie wie ein Blatt aussieht. Gut zum Verstecken vor Raubtieren, schlecht zum Verstecken vor der Blattwandler-Gottesanbeterin.\r\nKann entlang der Küste und in den Wäldern der Bahari-Bucht gefunden werden."
   },
   "BP_ChapaaPile_C": {
     "name": "Rummage Pile",
@@ -169,7 +169,7 @@
   },
   "BP_Fish_Alligator_Gar_C": {
     "name": "Alligatorhecht",
-    "description": "Der Alligator Gar ist ein fleischfressender Fisch mit leuchtend violetten Schuppen und hat seinen Namen von seiner langen Schnauze und den Reihen großer Zähne.\r\nKann mithilfe von Glühwürmchen im Kilima-See gefunden werden."
+    "description": "Der Alligatorhecht ist ein fleischfressender Fisch mit leuchtend violetten Schuppen und hat seinen Namen von seiner langen Schnauze und den Reihen großer Zähne.\r\nKann mithilfe von Glühwürmchen im Kilima-See gefunden werden."
   },
   "BP_Fish_AncientFish_C": {
     "name": "Uralter Fisch",
@@ -221,18 +221,18 @@
   },
   "BP_Fish_CalicoKoi_C": {
     "name": "Glückskoi",
-    "description": "Ein Standard-Koi-Fisch mit einer schönen Kattun-Musterung.\r\nKann ohne Köder in Teichen gefunden werden."
+    "description": "Ein gewöhnlicher Koi-Fisch mit einer schönen Kattun-Musterung.\r\nKann ohne Köder in Teichen gefunden werden."
   },
   "BP_Fish_CantankerousKoi_C": {
-    "name": "Mürrischer Koi",
-    "description": "Einer lokalen Legende zufolge war der erste mürrische Koi ein schrulliger alter Mann, der von einer bösen Hexe verklärt wurde.\r\nKann ohne Köder tagsüber und nachts in Teichen gefunden werden"
+    "name": "Knurriger Koi",
+    "description": "Einer lokalen Legende zufolge war der erste knurrige Koi ein schrulliger alter Mann, der von einer bösen Hexe verklärt wurde.\r\nKann ohne Köder tagsüber und nachts in Teichen gefunden werden"
   },
   "BP_Fish_Channel_Catfish_C": {
-    "name": "Gabelwels",
-    "description": "Ein Flusswels, der in schnellen Strömungen zu Hause ist.\r\nKann ohne Köder in den Kilima-Flüssen gefunden werden."
+    "name": "Katzenwels",
+    "description": "Ein Fluss-Katzenwels, der in schnellen Strömungen zu Hause ist.\r\nKann ohne Köder in den Kilima-Flüssen gefunden werden."
   },
   "BP_Fish_Chub_C": {
-    "name": "Döbel",
+    "name": "Trottel",
     "description": "Ein kampfstarker Fisch, der für seinen großen Appetit bekannt ist.\r\nKann mithilfe von Glühwürmchen in Bahari-Flüssen gefunden werden."
   },
   "BP_Fish_Cloudfish_C": {
@@ -264,8 +264,8 @@
     "description": "Ein gefleckter, kohlefarbener Rochen, der in der Dämmerung jagt und mit dem Flussbett verschmilzt.\r\nKann ohne Köder abends in den Bahari-Flüssen gefunden werden."
   },
   "BP_Fish_Enchanted_Pupfish_C": {
-    "name": "Verwunschener Kärpfling",
-    "description": "Ein niedlicher kleiner Fisch, der Spuren von Flow in seine Schuppen aufnehmen kann.\r\nKann mithilfe von Glühwürmchen im Kilima-See gefunden werden."
+    "name": "Verzauberter Kärpfling",
+    "description": "Ein niedlicher kleiner Fisch, der Spuren von Strömung in seine Schuppen aufnehmen kann.\r\nKann mithilfe von Glühwürmchen im Kilima-See gefunden werden."
   },
   "BP_Fish_Energized_Piranha_C": {
     "name": "Energiegeladener Piranha",
@@ -288,7 +288,7 @@
     "description": "Ein seltener Flussrochen, der seinen Namen von den leuchtend orangen und roten Streifen auf seinem Rücken hat.\r\nKann mithilfe von Glühwürmchen morgens und tagsüber in den Kilima-Flüssen gefunden werden."
   },
   "BP_Fish_FreshwaterEel_C": {
-    "name": "Flussaal",
+    "name": "Fluss-Aal",
     "description": "Ein langer und geschmeidiger Flussfisch, der oft mit einer Schlange verwechselt wird.\r\nKann mithilfe von Würmern abends und nachts Im Kilima-Fluss gefunden werden."
   },
   "BP_Fish_Giant_Goldfish_C": {
@@ -300,7 +300,7 @@
     "description": "Der Herr des Kilima-Sees ist ein Stechrochen, dessen giftiger Stachel auch die Knochen seiner Beute durchbohren kann.\r\nKann mithilfe von Glühwürmchen von morgens bis abends im Kilima-See gefunden werden."
   },
   "BP_Fish_Gillyfin_C": {
-    "name": "Kiemflosse",
+    "name": "Gillyfin",
     "description": "Der häufigste Fisch in Palia.\r\nKann ohne Köder im Kilima-See gefunden werden."
   },
   "BP_Fish_GoldenSalmon_C": {
@@ -321,7 +321,7 @@
   },
   "BP_Fish_Kenjis_Carp_C": {
     "name": "Kenlis Karpfen",
-    "description": "Kenli entdeckte diesen Karpfen persönlich in der Nähe von Kilima Village. Er hat eine bemerkenswerte Ähnlichkeit mit einer Karausche ...\r\nKann mithilfe von Glühwürmchen in Kilima-Flüssen gefunden werden."
+    "description": "Kenli entdeckte diesen Karpfen persönlich in der Nähe von Kilima Village. Er hat eine bemerkenswerte Ähnlichkeit mit einer Karausche...\r\nKann mithilfe von Glühwürmchen in Kilima-Flüssen gefunden werden."
   },
   "BP_Fish_Kilima_Grayling_C": {
     "name": "Kilima-Äsche",
@@ -333,7 +333,7 @@
   },
   "BP_Fish_KilimaCatFish_C": {
     "name": "Kilima-Wels",
-    "description": "Eine einzigartige Welsart, die nur im Kilima-Tal vorkommt.\r\nKann mithilfe von Würmern in Teichen gefunden werden."
+    "description": "Eine einzigartige Katzenwelsart, die nur im Kilima-Tal vorkommt.\r\nKann mithilfe von Würmern in Teichen gefunden werden."
   },
   "BP_Fish_LargemouthBass_C": {
     "name": "Forellenbarsch",
@@ -364,12 +364,12 @@
     "description": "Ein schleimiger Fisch, den manche Majiri seltsam appetitlich finden.\r\nKann mithilfe von Würmern in den Flüssen der Bahari-Bucht gefunden werden."
   },
   "BP_Fish_Orange_Bluegill_C": {
-    "name": "Oranger Sonnenbarsch",
+    "name": "Oranger Blaukiemen",
     "description": "Ein Allesfresser, der Insekten bevorzugt, aber alles frisst, was in sein Maul passt.\r\nKann mithilfe von Würmern in Teichen gefunden werden."
   },
   "BP_Fish_Paddlefish_C": {
     "name": "Löffelstör",
-    "description": "Ein primitiver Fisch, der seit Millionen von Jahren überlebt hat.\r\nKann mithilfe von Würmern von morgens bis abends in den Flüssen der Bahari-Bucht gefunden werden"
+    "description": "Ein primitiver Fisch, der seit Millionen von Jahren überlebt hat.\r\nKann mithilfe von Würmern von morgens bis abends in den Flüssen der Bahari-Bucht gefunden werden."
   },
   "BP_Fish_PaintedPerch_C": {
     "name": "Klecksbarsch",
@@ -385,11 +385,11 @@
   },
   "BP_Fish_RadiantSunfish_C": {
     "name": "Strahlender Sonnenbarsch",
-    "description": "Ein wunderschön leuchtender Flussfisch, der einen blendenden Lichtstrahl aussendet, den viele mit dem direkten Blick in die Sonne vergleichen.\r\nKann mithilfe von Würmern in KilimaFlüssen gefunden werden.."
+    "description": "Ein wunderschön leuchtender Flussfisch, der einen blendenden Lichtstrahl aussendet, den viele mit dem direkten Blick in die Sonne vergleichen.\r\nKann mithilfe von Würmern in KilimaFlüssen gefunden werden."
   },
   "BP_Fish_Rainbow_Trout_C": {
     "name": "Regenbogenforelle",
-    "description": "Ein Flussfisch mit einem gedämpften mehrfarbigen Schuppenmuster.  Nicht klug genug, um auf die Prismenforelle eifersüchtig zu sein.\r\nKann ohne Köder in den Kilima-Flüssen gefunden werden."
+    "description": "Ein Flussfisch mit einem gedämpften mehrfarbigen Schuppenmuster. Nicht klug genug, um auf die Prismenforelle eifersüchtig zu sein.\r\nKann ohne Köder in den Kilima-Flüssen gefunden werden."
   },
   "BP_Fish_Red-bellied_piranha_C": {
     "name": "Roter Piranha",
@@ -397,7 +397,7 @@
   },
   "BP_Fish_RibbontailRay_C": {
     "name": "Fleckenstechrochen",
-    "description": "Der Bänderschwanzrochen, der bekanntlich häufig in tropischen Gewässern anzutreffen ist, ist vor kurzem überraschend von den Inseln Inyrevn an die Westküste der Republik Palia gewandert.\r\nKann mithilfe von Würmern morgens und abends vor der Küste der Bahari-Bucht gefunden werden."
+    "description": "Der Schleifenschwanz-Rochen, der bekanntlich häufig in tropischen Gewässern anzutreffen ist, ist vor kurzem überraschend von den Inseln Inyrevn an die Westküste der Republik Palia gewandert.\r\nKann mithilfe von Würmern morgens und abends vor der Küste der Bahari-Bucht gefunden werden."
   },
   "BP_Fish_Rosy_Bitterling_C": {
     "name": "Rosiger-Bitterling",
@@ -421,19 +421,19 @@
   },
   "BP_Fish_Silvery_Minnow_C": {
     "name": "Silber-Elritze",
-    "description": "Gewöhnliche Elritze mit silbrigen Schuppen, die in der Sonne funkeln.\r\nKann ohne Köder in den Bahari-Flüssen gefunden werden"
+    "description": "Gewöhnliche Elritze mit silbrigen Schuppen, die in der Sonne funkeln.\r\nKann ohne Köder in den Bahari-Flüssen gefunden werden."
   },
   "BP_Fish_SmallmouthBass_C": {
-    "name": "Schwarzbarsch",
+    "name": "Kleinmundbarsch",
     "description": "Ein gewöhnlicher Barsch über den es nicht viel zu sagen gibt, und der dafür bekannt ist, dass er gelegentlich aus dem Wasser springt.\r\nKann mithilfe von Würmern im Kilima-See gefunden werden."
   },
   "BP_Fish_SpottedBullhead_C": {
     "name": "Zwergwels",
-    "description": "Eine Groppe mit geflecktem Muster.\r\nKann ohne Köder in den Kilima-Flüssen gefunden werden."
+    "description": "Ein Wels mit geflecktem Muster.\r\nKann ohne Köder in den Kilima-Flüssen gefunden werden."
   },
   "BP_Fish_Stalking_Catfish_C": {
     "name": "Lauerwels",
-    "description": "Ein räuberischer blauer Wels, der schwache Fische in der Nähe angreift.\r\nKann mithilfe von Glühwürmchen abends und nachts in Teichen gefunden werden."
+    "description": "Ein räuberischer blauer Katzenwels, der schwache Fische in der Nähe angreift.\r\nKann mithilfe von Glühwürmchen abends und nachts in Teichen gefunden werden."
   },
   "BP_Fish_Stickleback_C": {
     "name": "Stichling",
@@ -460,7 +460,7 @@
     "description": "Ein Aal, der seinen eigenen Körper benutzt, um seine Beute zu zerlegen.\r\nKann mithilfe von Glühwürmchen in den Bahari-Flüssen gefunden werden."
   },
   "BP_Fish_Thundering_Eel_C": {
-    "name": "Blitzaal",
+    "name": "Blitz-Aal",
     "description": "Ein elektrisch geladener Aal, der seine Beute mit einem Schock in die Flucht schlagen kann.\r\nKann mithilfe von Würmern in den Flüssen der Bahari-Bucht gefunden werden."
   },
   "BP_Fish_UmbranCarp_C": {
@@ -487,9 +487,13 @@
     "name": "Gelbflossen-Thunfisch",
     "description": "Ein großer Thunfisch, der schneller schwimmen kann, als seine Größe vermuten lässt.\r\nKann mithilfe von Glühwürmchen vor der Küste der Bahari-Bucht gefunden werden."
   },
+  "BP_FishingJackpot_C": {
+    "name": "Durchnässte Truhe",
+    "description": "Öffne diese mysteriöse Truhe, um den Schatz darin zu bergen."
+  },
   "BP_FishingRecipeBook_C": {
     "name": "Rezept: Fischeintopf",
-    "description": "Verbrauchen, um das Rezept für Fischeintopf zu lernen."
+    "description": "Verbrauchen, um dieses Rezept zu lernen: Fischeintopf"
   },
   "BP_Gatherable_MushroomBlue_C": {
     "name": "Leuchtpilz",
@@ -500,8 +504,8 @@
     "description": "Die Bergmorchel ist ein weitverbreiteter Pilz, den man auch bei uns finden kann! Sehr beliebt, ob roh oder gekocht."
   },
   "BP_HeartdropLilly_C": {
-    "name": "Herztropfenlilie",
-    "description": "Die Herztropfenlilie ist eine seltene Blume, die für Palianer eine besondere Bedeutung hat: das Aufblühen romantischer Liebe."
+    "name": "Herztropfen-Lilie",
+    "description": "Die Herztropfen-Lilie ist eine seltene Blume, die für Palianer eine besondere Bedeutung hat: das Aufblühen romantischer Liebe."
   },
   "BP_Mining_Clay_C": {
     "name": "Lehm",
@@ -545,7 +549,7 @@
   },
   "BP_Mining_Stone_Large_C": {
     "name": "Stein (L)",
-    "description": "Ein gewöhnlicher Stein. Kann zu Ziegeln geschmolzen werden."
+    "description": "Ein gewöhnlicher Stein. Kann zu Ziegelsteinen geschmolzen werden."
   },
   "BP_Moss_DragonsBeard_C": {
     "name": "Drachenbarttorf",
@@ -565,11 +569,11 @@
   },
   "BP_QuestItem_CookBook_1_C": {
     "name": "Schickimicki-Kochbuch",
-    "description": "Auf dem Umschlag des Buches steht: \\„Crème de la Crème: Ein Kochbuch für die Majiri-Elite\\“"
+    "description": "Auf dem Umschlag des Buches steht: „Crème de la Crème: Ein Kochbuch für die Majiri-Elite“"
   },
   "BP_QuestItem_CookBook_2_C": {
     "name": "Dessert-Kochbuch",
-    "description": "Auf dem Umschlag des Buches steht: \\„Was Süßes für die Süßen: Ein Leitfaden zur Zubereitung von Nachspeisen zum Dahinschmelzen\\“"
+    "description": "Auf dem Umschlag des Buches steht: „Was Süßes für die Süßen: Ein Leitfaden zur Zubereitung von Nachspeisen zum Dahinschmelzen“"
   },
   "BP_Seashell_C": {
     "name": "Muschel",
@@ -580,16 +584,16 @@
     "description": "Die seltene Dari-Nelke ist ein bei Köchen und Alchemisten gleichermaßen beliebtes Gewürz. Ihr werden magische Eigenschaften nachgesagt."
   },
   "BP_Spice_HeatRoot_C": {
-    "name": "Feuerwurzel",
-    "description": "Keine Panik! Ob beim Kochen oder Heilen, die heiße Feuerwurzel wärmt von innen heraus. "
+    "name": "Hitzewurzel",
+    "description": "Keine Panik! Ob beim Kochen oder Heilen, die heiße Hitzewurzel wärmt von innen heraus."
   },
   "BP_Spiced_Sprouts_C": {
     "name": "Gewürzsprossen",
     "description": "Gewürzsprossen verleihen jedem Gericht eine satte Farbe und einen erdigen Geschmack. Dazu sind sie noch recht einfach zu finden …"
   },
   "BP_SundropLillies_C": {
-    "name": "Sonnentropfenlilie",
-    "description": "Die Sonnentropfenlilie wächst auf offenen Feldern, auf denen sie ihre Blütenblätter dem Sonnenlicht zuwenden kann."
+    "name": "Sonnentropfen-Lilie",
+    "description": "Die Sonnentropfen-Lilie wächst auf offenen Feldern, auf denen sie ihre Blütenblätter dem Sonnenlicht zuwenden kann."
   },
   "BP_SweetLeaves_C": {
     "name": "Süßblatt",
@@ -603,12 +607,16 @@
     "name": "Steuer",
     "description": "Ein gewöhnliches Stück Abfall, das in und um den Kristallsee gefunden werden kann. Es stammt vielleicht von einem Reisenden."
   },
+  "BP_Trash_WaterloggedBoot_C": {
+    "name": "Durchnässter Stiefel",
+    "description": "Ein gewöhnliches Stück Abfall, das im Spiegelteich gefunden werden kann."
+  },
   "BP_TreeChoppable_Birch_Large_C": {
     "name": "Birke (L)",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Large_CoOp_C": {
-    "name": "Strömung Birke (L)",
+    "name": "Flow Birke (L)",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Medium_C": {
@@ -616,11 +624,11 @@
     "description": ""
   },
   "BP_TreeChoppable_Birch_Medium_CoOp_C": {
-    "name": "Strömung Birke (M)",
+    "name": "Flow Birke (M)",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Sapling_CoOp_C": {
-    "name": "Strömung Birke (XS)",
+    "name": "Flow Birke (XS)",
     "description": ""
   },
   "BP_TreeChoppable_Birch_Small_C": {
@@ -628,7 +636,7 @@
     "description": ""
   },
   "BP_TreeChoppable_Birch_Small_CoOp_C": {
-    "name": "Strömung Birke (S)",
+    "name": "Flow Birke (S)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Large_C": {
@@ -636,7 +644,7 @@
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Large_CoOp_C": {
-    "name": "Strömung Wacholdersamen (L)",
+    "name": "Flow Wacholdersamen (L)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Medium_C": {
@@ -644,11 +652,11 @@
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Medium_CoOp_C": {
-    "name": "Strömung Wacholdersamen (M)",
+    "name": "Flow Wacholdersamen (M)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Sapling_CoOp_C": {
-    "name": "Strömung Wacholdersamen (XS)",
+    "name": "Flow Wacholdersamen (XS)",
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Small_C": {
@@ -656,7 +664,7 @@
     "description": ""
   },
   "BP_TreeChoppable_Juniper_Small_CoOp_C": {
-    "name": "Strömung Wacholdersamen (S)",
+    "name": "Flow Wacholdersamen (S)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Large_C": {
@@ -664,7 +672,7 @@
     "description": ""
   },
   "BP_TreeChoppable_Oak_Large_CoOp_C": {
-    "name": "Strömung Eiche (L)",
+    "name": "Flow Eiche (L)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Medium_C": {
@@ -672,11 +680,11 @@
     "description": ""
   },
   "BP_TreeChoppable_Oak_Medium_CoOp_C": {
-    "name": "Strömung Eiche (M)",
+    "name": "Flow Eiche (M)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Sapling_CoOp_C": {
-    "name": "Strömung Eiche (XS)",
+    "name": "Flow Eiche (XS)",
     "description": ""
   },
   "BP_TreeChoppable_Oak_Small_C": {
@@ -684,7 +692,7 @@
     "description": ""
   },
   "BP_TreeChoppable_Oak_Small_CoOp_C": {
-    "name": "Strömung Eiche (S)",
+    "name": "Flow Eiche (S)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Large_C": {
@@ -692,11 +700,11 @@
     "description": ""
   },
   "BP_TreeChoppable_Pine_Large_CoOp_C": {
-    "name": "Strömung Pine (L)",
+    "name": "Flow Pine (L)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Large2_CoOp_C": {
-    "name": "Strömung Pine (XL)",
+    "name": "Flow Pine (XL)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Medium_C": {
@@ -704,11 +712,11 @@
     "description": ""
   },
   "BP_TreeChoppable_Pine_Medium_CoOp_C": {
-    "name": "Strömung Pine (M)",
+    "name": "Flow Pine (M)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Sapling_CoOp_C": {
-    "name": "Strömung Pine (XS)",
+    "name": "Flow Pine (XS)",
     "description": ""
   },
   "BP_TreeChoppable_Pine_Small_C": {
@@ -716,48 +724,48 @@
     "description": ""
   },
   "BP_TreeChoppable_Pine_Small_CoOp_C": {
-    "name": "Strömung Pine (S)",
+    "name": "Flow Pine (S)",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Cearnuk_T1_C": {
-    "name": "Sernuk",
+    "name": "Searnuk",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Cearnuk_T2_C": {
-    "name": "Safran-Gestreifter-Sernuk",
+    "name": "Elder Searnuk",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Cearnuk_T3_C": {
-    "name": "Stolzgehörnter Sernuk",
+    "name": "Proudhorn Searnuk",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Chapaa_T1_C": {
-    "name": "Geflecktes Chapaa",
+    "name": "Spotted Chapaa",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Chapaa_T2_C": {
-    "name": "Weiß gestreifter Chapaa",
+    "name": "Striped Chapaa",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_Chapaa_T3_C": {
-    "name": "Schwarz gestreifter Chapaa",
+    "name": "Azure Chapaa",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_TreeClimber_T1_C": {
-    "name": "Muujin, Stufe. 1",
+    "name": "Muujin",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_TreeClimber_T2_C": {
-    "name": "Muujin, Stufe. 2",
+    "name": "Banded Muujin",
     "description": ""
   },
   "BP_ValeriaHuntingCreature_TreeClimber_T3_C": {
-    "name": "Muujin, Stufe. 3",
+    "name": "Bluebristle Muujin",
     "description": ""
   },
   "BP_WaterFlower_C": {
-    "name": "Kristallsee-Lotos",
-    "description": "Der Kristallsee-Lotos ist nach dem Ort benannt, an dem er entdeckt wurde, und wird heute zur Herstellung von Farbstoffen verwendet."
+    "name": "Kristallsee-Lotus",
+    "description": "Der Kristallsee-Lotus ist nach dem Ort benannt, an dem er entdeckt wurde, und wird heute zur Herstellung von Farbstoffen verwendet."
   },
   "BP_WaterPlane_Fishing_AZ1_Cave_SQ_C": {
     "name": "Cave Bay",
@@ -784,7 +792,7 @@
     "description": ""
   },
   "BP_WildGarlic_C": {
-    "name": "Knoblauch",
+    "name": "Wilder Knoblauch",
     "description": "Knoblauch ist eine köstliche Ergänzung für jedes Gericht! Er kann auch roh gegessen werden, um den Atem zu parfümieren."
   }
 }

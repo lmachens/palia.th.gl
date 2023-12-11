@@ -21,7 +21,11 @@ leaflet.Canvas.include({
     }
     layerContext.save();
 
-    if ("src" in icon && !("isText" in icon)) {
+    if (!("isText" in icon)) {
+      layerContext.shadowOffsetX = 0;
+      layerContext.shadowOffsetY = 0;
+      layerContext.shadowColor = "black";
+      layerContext.shadowBlur = 2;
       layerContext.drawImage(layer.imageElement, dx, dy, imageSize, imageSize);
       if (isStar) {
         layerContext.drawImage(
@@ -35,49 +39,25 @@ leaflet.Canvas.include({
       layerContext.restore();
       return;
     }
-    if (!("path" in icon)) {
-      const text = name ?? "";
-      layerContext.fillStyle = "#e6e5e3";
-      layerContext.textAlign = "center";
-      layerContext.strokeStyle = "#594f42";
+    const text = name ?? "";
+    layerContext.fillStyle = "#e6e5e3";
+    layerContext.textAlign = "center";
+    layerContext.strokeStyle = "#594f42";
 
-      layerContext.font = "normal 700 14px Arial";
+    layerContext.font = "normal 700 14px Arial";
 
-      const lineheight = 15;
+    const lineheight = 15;
 
-      text.split(" ").forEach((line, i) => {
-        layerContext.lineWidth = 3;
-        layerContext.strokeText(line, p.x, p.y - imageSize + i * lineheight);
-        layerContext.lineWidth = 1;
-        layerContext.fillText(line, p.x, p.y - imageSize + i * lineheight);
-      });
-      layerContext.restore();
-
-      return;
-    }
-
-    layerContext.lineWidth = icon.lineWidth - 1;
-    layerContext.translate(dx, dy);
-
-    const scale = imageSize / 100;
-    layerContext.scale(scale, scale);
-
-    if (isHighlighted) {
-      layerContext.shadowBlur = 4;
-      layerContext.shadowColor = "#999999";
-    }
-
-    layerContext.fillStyle = icon.color;
-    const path2D = new Path2D(icon.path);
-    layerContext.fill(path2D);
-    layerContext.strokeStyle = "black";
-    layerContext.lineWidth = icon.lineWidth + 1;
-    layerContext.stroke(path2D);
-    layerContext.lineWidth = icon.lineWidth;
-    layerContext.stroke(path2D);
+    text.split(" ").forEach((line, i) => {
+      layerContext.lineWidth = 3;
+      layerContext.strokeText(line, p.x, p.y - imageSize + i * lineheight);
+      layerContext.lineWidth = 1;
+      layerContext.fillText(line, p.x, p.y - imageSize + i * lineheight);
+    });
     layerContext.restore();
   },
 });
+
 const renderer = leaflet.canvas({ pane: "markerPane" }) as leaflet.Canvas & {
   updateCanvasImg: (layer: CanvasMarker) => void;
 };

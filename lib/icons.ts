@@ -86,11 +86,7 @@ export const SPAWN_ICONS = Object.entries(spawnGroups).reduce(
     });
     return acc;
   },
-  {} as Record<
-    string,
-    | { color: string; lineWidth: number; path: string; radius: number }
-    | { src: string; radius: number }
-  >
+  {} as Record<string, { src: string; radius: number }>
 );
 
 export const VILLAGER_ICONS = villagers.reduce((acc, villager) => {
