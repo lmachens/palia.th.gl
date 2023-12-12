@@ -59,8 +59,8 @@ export default function DiscordRPC() {
       "Palia Map・The Hidden Gaming Lair",
       true,
       0,
-      "Open Palia Map",
-      "https://palia.th.gl/",
+      "Get The App",
+      "https://www.th.gl/apps/Palia%20Map?ref=discordrpc",
       "",
       "",
       () => null
