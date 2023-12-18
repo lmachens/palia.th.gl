@@ -48,35 +48,30 @@ export default function Villagers() {
     }
     try {
       liveVillagers.forEach((villager) => {
-        if (!villagerMarkers.current[villager.className]) {
-          const villagerClassName = villager.className.split(" ")[0];
-          const iconDetails = VILLAGER_ICONS[villagerClassName];
+        if (!villagerMarkers.current[villager.type]) {
+          const iconDetails = VILLAGER_ICONS[villager.type];
           const icon = leaflet.icon({
             iconUrl: iconDetails.src ?? "/icons/T_Compass_Villager.png",
             className: "villager",
             iconSize: [24, 24],
           });
-          villagerMarkers.current[villager.className] = new PlayerMarker(
+          villagerMarkers.current[villager.type] = new PlayerMarker(
             [villager.position.y, villager.position.x],
             {
               icon,
             }
           );
-          villagerMarkers.current[villager.className].bindTooltip(
-            iconDetails?.name ?? villager.className
+          villagerMarkers.current[villager.type].bindTooltip(
+            iconDetails?.name ?? villager.type
           );
-          villagerMarkers.current[villager.className].rotation =
-            villager.rotation;
+          villagerMarkers.current[villager.type].rotation = villager.rotation;
         } else {
-          villagerMarkers.current[villager.className].updatePosition(
-            villager,
-            true
-          );
+          villagerMarkers.current[villager.type].updatePosition(villager, true);
         }
-        villagerMarkers.current[villager.className].addTo(map);
+        villagerMarkers.current[villager.type].addTo(map);
       });
       Object.keys(villagerMarkers.current).forEach((key) => {
-        if (!liveVillagers.some((v) => v.className === key)) {
+        if (!liveVillagers.some((v) => v.type === key)) {
           villagerMarkers.current[key].remove();
         }
       });
@@ -94,7 +89,7 @@ export default function Villagers() {
       if (mapName !== villager.mapName) {
         return;
       }
-      villagerMarkers.current[villager.className]?.updatePosition(villager);
+      villagerMarkers.current[villager.type]?.updatePosition(villager);
     });
   }, [isVisible, liveVillagers]);
 
