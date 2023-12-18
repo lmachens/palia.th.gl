@@ -12,6 +12,10 @@ export async function getVillagers() {
       timestamp: number;
     };
   };
+  const newestTimestamp = Object.values(result).reduce(
+    (acc, { timestamp }) => Math.max(acc, timestamp),
+    0
+  );
   const nodes = Object.entries(result).map(([type, { mapName, position }]) => {
     if (!villagers.find((villager) => villager.className === type)) {
       console.warn(`Unknown villager type: ${type}`);
@@ -25,7 +29,7 @@ export async function getVillagers() {
     };
     return node;
   });
-  return nodes;
+  return { nodes, newestTimestamp };
 }
 
 export async function sendWeeklyWantsToPaliaAPI(

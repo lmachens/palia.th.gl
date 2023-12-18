@@ -1,6 +1,5 @@
 "use client";
 
-import { ALL_FILTERS } from "@/lib/nodes";
 import { useGameInfoStore } from "@/lib/storage/game-info";
 import { useGlobalSettingsStore } from "@/lib/storage/global-settings";
 import { useParamsStore } from "@/lib/storage/params";
@@ -16,7 +15,7 @@ export default function Search({ hidden }: { hidden?: boolean }) {
   const dict = useDict();
   const search = useParamsStore((state) => state.search);
   const setParams = useParamsStore((state) => state.setParams);
-  const filters = useParamsStore((state) => state.filters);
+  const preset = useParamsStore((state) => state.preset);
   const settingsStore = useSettingsStore();
   const globalSettingsStore = useGlobalSettingsStore();
   const isOverlay = useGameInfoStore((state) => state.isOverlay);
@@ -108,9 +107,7 @@ export default function Search({ hidden }: { hidden?: boolean }) {
               viewBox="0 0 24 24"
               strokeWidth="2"
               stroke="currentColor"
-              fill={
-                filters.length !== ALL_FILTERS.length ? "currentColor" : "none"
-              }
+              fill={preset !== "init" ? "currentColor" : "none"}
               strokeLinecap="round"
               strokeLinejoin="round"
             >

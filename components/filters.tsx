@@ -3,7 +3,7 @@ import { isOverwolfApp } from "@/lib/env";
 import { filterGroups } from "@/lib/filter-groups";
 import { ICONS, SPAWN_ICONS } from "@/lib/icons";
 import type { spawnNodes } from "@/lib/nodes";
-import { ALL_FILTERS, hideOnWeb, staticNodes } from "@/lib/nodes";
+import { PRESETS, hideOnWeb, staticNodes } from "@/lib/nodes";
 import { spawnGroups } from "@/lib/spawn-groups";
 import { useGlobalSettingsStore } from "@/lib/storage/global-settings";
 import { useParamsStore } from "@/lib/storage/params";
@@ -57,7 +57,7 @@ export default function Filters() {
         <button
           className="p-2 uppercase hover:text-white w-1/2"
           onClick={() => {
-            setParams({ filters: ALL_FILTERS, dict });
+            setParams({ filters: PRESETS.all, dict });
           }}
         >
           {dict.nodes.showAll}

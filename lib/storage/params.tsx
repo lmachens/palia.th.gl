@@ -7,7 +7,7 @@ import { createStore, useStore } from "zustand";
 import { isOverwolfApp } from "../env";
 import type { DICT } from "../i18n";
 import type { NODE } from "../nodes";
-import { ALL_FILTERS, nodes, staticNodesWithType } from "../nodes";
+import { PRESETS, getPreset, nodes, staticNodesWithType } from "../nodes";
 import { getVillagers } from "../palia-api";
 import { useGameInfoStore } from "./game-info";
 import { useSettingsStore } from "./settings";
@@ -22,6 +22,7 @@ type ParamsProps = {
   visibleNodesByMap: Record<string, NODE[]>;
   highlightedNode?: NODE;
   filters: string[];
+  preset: string;
   nodes: NODE[];
   liveMode: boolean;
 };
@@ -40,7 +41,7 @@ const createParamsStore = (initProps: ParamsProps & { dict: DICT }) => {
     const coordinates = props.coordinates;
     const screenshot = props.screenshot;
     const search = props.search;
-    const filters = props.filters.filter((f) => ALL_FILTERS.includes(f));
+    const filters = props.filters.filter((f) => PRESETS.all.includes(f));
     const dict = props.dict;
 
     let highlightedNode: NODE | undefined = undefined;
@@ -110,8 +111,10 @@ const createParamsStore = (initProps: ParamsProps & { dict: DICT }) => {
       );
       changed = oldTotal !== newTotal;
     }
+    const preset = getPreset(props.filters);
     return {
       ...props,
+      preset,
       highlightedNode,
       visibleNodesByMap: changed ? visibleNodesByMap : props.visibleNodesByMap,
     };
@@ -135,27 +138,28 @@ const createParamsStore = (initProps: ParamsProps & { dict: DICT }) => {
             searchParams.delete("search");
           }
         }
-        if (props.filters.length === 0) {
-          searchParams.set("filters", "none");
-        } else if (props.filters.length !== ALL_FILTERS.length) {
+        const preset = getPreset(props.filters);
+        props.preset = preset;
+        if (preset === "init") {
+          searchParams.delete("filters");
+        } else if (preset === "custom") {
           searchParams.set("filters", props.filters.join(","));
         } else {
-          searchParams.delete("filters");
+          searchParams.set("filters", preset);
         }
+
         props.query = searchParams.toString();
-        if (props.query !== window.location.search) {
-          if (!isOverwolfApp) {
-            if (props.query) {
-              history.pushState(
-                null,
-                "",
-                window.location.pathname + "?" + props.query
-              );
-            } else {
-              history.pushState(null, "", window.location.pathname);
-            }
+        if (isOverwolfApp) {
+          localStorage.setItem("params", JSON.stringify(props));
+        } else if (props.query !== window.location.search) {
+          if (props.query) {
+            history.pushState(
+              null,
+              "",
+              window.location.pathname + "?" + props.query
+            );
           } else {
-            localStorage.setItem("params", JSON.stringify(props));
+            history.pushState(null, "", window.location.pathname);
           }
         }
 
@@ -193,11 +197,13 @@ export function ParamsProvider({ children }: { children: React.ReactNode }) {
   const spawnNodes = useGameInfoStore((state) => state.spawnNodes);
 
   const revalidateVillagers = !liveMode;
-  const { data: villagers } = useSWR("villagers", getVillagers, {
+  const {
+    data: { nodes: villagers, newestTimestamp },
+  } = useSWR("villagers", getVillagers, {
     refreshInterval: revalidateVillagers ? 30000 : 0,
     revalidateOnFocus: revalidateVillagers,
     revalidateOnMount: revalidateVillagers,
-    fallbackData: [],
+    fallbackData: { nodes: [], newestTimestamp: 0 },
   });
 
   if (!storeRef.current) {
@@ -229,8 +235,8 @@ export function ParamsProvider({ children }: { children: React.ReactNode }) {
       const screenshot = searchParams.get("screenshot") === "true";
       const { name, coordinates } = decodeNameAndCoordinates(params);
       const filtersString = searchParams.get("filters");
-      const filters = filtersString ? filtersString.split(",") : ALL_FILTERS;
-
+      const filters = filtersString ? filtersString.split(",") : PRESETS.init;
+      const preset = getPreset(filters);
       storeRef.current = createParamsStore({
         nodes: liveMode
           ? [...staticNodesWithType, ...spawnNodes]
@@ -244,6 +250,7 @@ export function ParamsProvider({ children }: { children: React.ReactNode }) {
         name,
         coordinates,
         filters,
+        preset,
         visibleNodesByMap: {
           "kilima-valley": [],
           "bahari-bay": [],
@@ -282,7 +289,7 @@ export function ParamsProvider({ children }: { children: React.ReactNode }) {
         : [...nodes, ...villagers],
       dict,
     });
-  }, [liveMode, spawnNodes, villagers]);
+  }, [liveMode, spawnNodes, newestTimestamp]);
 
   return (
     <ParamsContext.Provider value={storeRef.current}>

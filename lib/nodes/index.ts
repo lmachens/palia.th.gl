@@ -70,7 +70,27 @@ export const nodes: NODE[] = [
   ...spawnNodesWithType,
 ].reverse();
 
-export const ALL_FILTERS = [
-  ...Object.keys(staticNodes),
-  ...Object.keys(spawnNodes),
-];
+const ALL_FILTERS = [...Object.keys(staticNodes), ...Object.keys(spawnNodes)];
+
+export const PRESETS = {
+  none: [] as string[],
+  all: ALL_FILTERS,
+  init: [
+    "area",
+    "landmark",
+    "stable",
+    "location",
+    "zone",
+    "housingPlot",
+    "wardrobe",
+  ],
+};
+
+export const getPreset = (filters: string[]) => {
+  const sorted = filters.sort().join(",");
+  return (
+    Object.entries(PRESETS).find(
+      ([, preset]) => preset.sort().join(",") === sorted
+    )?.[0] || "custom"
+  );
+};

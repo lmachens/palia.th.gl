@@ -128,10 +128,16 @@ export default function Player() {
         );
       };
 
+      let hadNoActors = true;
       const getActors = () => {
         plugin.GetActors(
           (actors: Actor[]) => {
             try {
+              if (hadNoActors && actors.length === 0) {
+                return setTimeout(getActors, 500);
+              }
+              hadNoActors = actors.length === 0;
+
               if (lastActorsError) {
                 lastActorsError = "";
               }
