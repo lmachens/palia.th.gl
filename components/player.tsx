@@ -1,6 +1,6 @@
 import { useDict } from "@/components/(i18n)/i18n-provider";
 import PlayerMarker from "@/components/(map)/player-marker";
-import { getMapFromActor, modHousingCoords } from "@/lib/maps";
+import { modHousingCoords } from "@/lib/maps";
 import type { NODE, spawnNodes } from "@/lib/nodes";
 import {
   sendActorsToPaliaAPI,
@@ -54,7 +54,8 @@ export default function Player() {
         skillLevels: [],
         giftHistory: [],
         address: 0,
-        className: "",
+        type: "",
+        mapName: "",
         x: 0,
         y: 0,
         z: 0,
@@ -84,29 +85,28 @@ export default function Player() {
                 player.r !== prevPlayer.r
               ) {
                 prevPlayer = player;
-                const mapName = getMapFromActor(player);
-                if (mapName) {
+                if (player.mapName) {
                   const position =
-                    mapName === "housing"
+                    player.mapName === "housing"
                       ? modHousingCoords(player)
                       : { x: player.x, y: player.y, z: player.z };
                   gameInfo.setPlayer({
-                    className: player.className,
                     position: position,
                     rotation: player.r,
-                    mapName: mapName,
+                    type: player.type,
+                    mapName: player.mapName,
                     giftHistory: player.giftHistory,
                     skillLevels: player.skillLevels,
                     guid: player.guid,
                     name: player.name,
                   });
-                  if (mapName && mapName !== lastMapName) {
+                  if (player.mapName !== lastMapName) {
                     console.log(
-                      `Entering new map: ${mapName} on ${player.x},${player.y}`
+                      `Entering new map: ${player.mapName} on ${player.x},${player.y}`
                     );
-                    lastMapName = mapName;
+                    lastMapName = player.mapName;
                     setParams({
-                      mapName,
+                      mapName: player.mapName,
                       dict,
                     });
                   }
@@ -139,23 +139,18 @@ export default function Player() {
               const otherPlayers: ValeriaCharacter[] = [];
               const foundSpawnNodes: NODE[] = [];
               actors.forEach((actor) => {
-                const mapName = getMapFromActor(actor);
-                if (!mapName) {
-                  return;
-                }
                 const position =
-                  mapName === "housing"
+                  actor.mapName === "housing"
                     ? modHousingCoords(actor)
                     : { x: actor.x, y: actor.y, z: actor.z };
-                const className = actor.className.split(" ")[0];
-                const type = className.replace("+", "");
-                const isStar = className.includes("+");
+                const type = actor.type.replace("+", "");
+                const isStar = actor.type.includes("+");
                 if (type.startsWith("BP_Villager")) {
                   villagers.push({
-                    className: actor.className,
+                    type: actor.type,
                     position: position,
                     rotation: 0,
-                    mapName: mapName,
+                    mapName: actor.mapName,
                   });
                 } else if (
                   type.startsWith("BP_ValeriaCharacter") &&
@@ -167,10 +162,10 @@ export default function Player() {
                       guid: actor.guid!,
                       giftHistory: actor.giftHistory,
                       skillLevels: actor.skillLevels,
-                      className: actor.className,
                       position: position,
                       rotation: actor.r,
-                      mapName: mapName,
+                      type: actor.type,
+                      mapName: actor.mapName,
                     });
                   }
                 } else if (
@@ -183,7 +178,7 @@ export default function Player() {
                     id: actor.address.toString(),
                     x: actor.x,
                     y: actor.y,
-                    mapName: mapName,
+                    mapName: actor.mapName,
                     isSpawnNode: true,
                     isStar,
                   });
@@ -198,7 +193,7 @@ export default function Player() {
             } catch (err) {
               // ignore
             }
-            setTimeout(getActors, 100);
+            setTimeout(getActors, 50);
           },
           (err: string) => {
             if (err !== lastActorsError) {

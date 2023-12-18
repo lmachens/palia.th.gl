@@ -16,14 +16,16 @@ export type CurrentGiftPreferences = {
 
 export type ActorBase = {
   address: number;
-  className: string;
+  type: string;
+  mapName: string;
   x: number;
   y: number;
   z: number;
 };
 export type ActorValeriaCharacter = {
   address: number;
-  className: string;
+  type: string;
+  mapName: string;
   x: number;
   y: number;
   z: number;
@@ -37,14 +39,14 @@ export type ActorValeriaCharacter = {
 export type Actor = ActorBase | ActorValeriaCharacter;
 
 export type GameActor = {
-  className: string;
   position: {
     x: number;
     y: number;
     z: number;
   };
   rotation: number;
-  mapName: string | null;
+  type: string;
+  mapName: string;
 };
 
 export type ValeriaCharacter = {
