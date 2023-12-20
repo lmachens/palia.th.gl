@@ -106,7 +106,6 @@ export default function Filters() {
         {Object.entries(spawnGroups).map(([key, group]) => {
           return (
             <Fragment key={key}>
-              <div className={"flex basis-full h-0"}></div>
               <button
                 className={`flex gap-2 grow text-left items-left hover:bg-neutral-700 p-2 basis-1/5  ${
                   !filters.some((filter) => group.includes(filter))

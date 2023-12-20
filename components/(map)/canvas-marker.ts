@@ -50,9 +50,9 @@ leaflet.Canvas.include({
 
     text.split(" ").forEach((line, i) => {
       layerContext.lineWidth = 3;
-      layerContext.strokeText(line, p.x, p.y - imageSize + i * lineheight);
+      layerContext.strokeText(line, p.x, p.y + i * lineheight);
       layerContext.lineWidth = 1;
-      layerContext.fillText(line, p.x, p.y - imageSize + i * lineheight);
+      layerContext.fillText(line, p.x, p.y + i * lineheight);
     });
     layerContext.restore();
   },

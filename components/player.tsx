@@ -101,6 +101,7 @@ export default function Player() {
                     name: player.name,
                   });
                   if (player.mapName !== lastMapName) {
+                    firstData = false;
                     console.log(
                       `Entering new map: ${player.mapName} on ${player.x},${player.y}`
                     );
@@ -120,7 +121,7 @@ export default function Player() {
           (err: string) => {
             if (err !== lastPlayerError) {
               lastPlayerError = err;
-              firstData = false;
+
               console.error("Player Error: ", err);
             }
             setTimeout(getPlayer, 200);

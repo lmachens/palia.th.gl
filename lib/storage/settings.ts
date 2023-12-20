@@ -30,6 +30,8 @@ export const useSettingsStore = create(
     mapTransform: Record<string, string>;
     setMapTransform: (mapTransform: Record<string, string>) => void;
     resetTransform: () => void;
+    alwaysShowStarredNodes: boolean;
+    toggleAlwaysShowStarredNodes: () => void;
   }>(
     (set) => {
       const defaultMapTransform = {
@@ -78,6 +80,11 @@ export const useSettingsStore = create(
             mapTransform: defaultMapTransform,
           });
         },
+        alwaysShowStarredNodes: true,
+        toggleAlwaysShowStarredNodes: () =>
+          set((state) => ({
+            alwaysShowStarredNodes: !state.alwaysShowStarredNodes,
+          })),
       };
     },
     {

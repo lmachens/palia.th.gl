@@ -1,3 +1,4 @@
+"use client";
 import {
   Sheet,
   SheetContent,
@@ -95,6 +96,7 @@ export default function GlobalMenu({
           className={`overflow-auto pr-1 grow flex flex-col gap-2 ${
             isOverwolfApp ? "mb-[30px]" : ""
           }`}
+          onDoubleClick={(event) => event.stopPropagation()}
         >
           <SheetDescription>{dict.meta.description}</SheetDescription>
           <PatreonStatus />

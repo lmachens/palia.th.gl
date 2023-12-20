@@ -127,6 +127,7 @@
         "iconSize": "Taille de l'icône",
         "backup": "Sauvegarde",
         "restore": "Restaurer",
-        "reset": "Réinitialiser"
+        "reset": "Réinitialiser",
+        "alwaysShowStarredNodes": "Toujours Afficher les Nœuds Favoris"
     }
 }

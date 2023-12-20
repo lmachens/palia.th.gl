@@ -127,6 +127,7 @@
         "iconSize": "Tamaño del Icono",
         "backup": "Respaldar",
         "restore": "Restaurar",
-        "reset": "Restablecer"
+        "reset": "Restablecer",
+        "alwaysShowStarredNodes": "Mostrar Siempre Nodos Favoritos"
     }
 }

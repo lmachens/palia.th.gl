@@ -47,6 +47,9 @@ const createParamsStore = (initProps: ParamsProps & { dict: DICT }) => {
     let highlightedNode: NODE | undefined = undefined;
     let changed = props.liveMode;
     const visibleNodesByMap: Record<string, NODE[]> = {};
+    const alwaysShowStarredNodes =
+      useSettingsStore.getState().alwaysShowStarredNodes;
+
     props.nodes.forEach((node) => {
       let isHighlighted = false;
       if (!highlightedNode && name && coordinates) {
@@ -59,7 +62,8 @@ const createParamsStore = (initProps: ParamsProps & { dict: DICT }) => {
       }
 
       let isTrivial = false;
-      if (!isHighlighted) {
+      const forceVisible = alwaysShowStarredNodes && node.isStar;
+      if (!isHighlighted && !forceVisible) {
         if (search) {
           const lowerCaseSearch = search.toLowerCase();
           isTrivial = !(

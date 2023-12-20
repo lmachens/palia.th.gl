@@ -1,48 +1,60 @@
 "use client";
-import Toggle from "@/components/toggle";
 import { HOTKEYS } from "@/lib/config";
 import { useSettingsStore } from "@/lib/storage/settings";
+import { useDict } from "./(i18n)/i18n-provider";
 import Hotkey from "./hotkey";
+import { Button } from "./ui/button";
+import { Input } from "./ui/input";
+import { Label } from "./ui/label";
+import { Switch } from "./ui/switch";
 
 export default function AppSettings() {
   const settingsStore = useSettingsStore();
+  const dict = useDict();
 
   return (
     <>
-      <label className="flex">
-        <span className="w-1/2">Show/Hide app</span>
+      <Label className="flex items-center gap-2 justify-between">
+        Show/Hide app
         <Hotkey name={HOTKEYS.TOGGLE_APP} />
-      </label>
-      <label className="flex">
-        <span className="w-1/2">Zoom in map</span>
+      </Label>
+      <Label className="flex items-center gap-2 justify-between">
+        Zoom in map
         <Hotkey name={HOTKEYS.ZOOM_IN_APP} />
-      </label>
-      <label className="flex">
-        <span className="w-1/2">Zoom out map</span>
+      </Label>
+      <Label className="flex items-center gap-2 justify-between">
+        Zoom out map
         <Hotkey name={HOTKEYS.ZOOM_OUT_APP} />
-      </label>
-      <label className="flex">
-        <span className="w-1/2">Lock/Unlock app</span>
+      </Label>
+      <Label className="flex items-center gap-2 justify-between">
+        Lock/Unlock app
         <Hotkey name={HOTKEYS.TOGGLE_LOCK_APP} />
-      </label>
-      <label className="flex">
-        <span className="w-1/2">Follow Player position</span>
-        <Toggle
+      </Label>
+      <Label className="flex items-center gap-2 justify-between">
+        {dict.settings.alwaysShowStarredNodes}
+        <Switch
+          checked={settingsStore.alwaysShowStarredNodes}
+          onCheckedChange={settingsStore.toggleAlwaysShowStarredNodes}
+        />
+      </Label>
+      <Label className="flex items-center gap-2 justify-between">
+        Follow Player position
+        <Switch
           checked={settingsStore.followPlayerPosition}
-          onChange={settingsStore.toggleFollowPlayerPosition}
+          onCheckedChange={settingsStore.toggleFollowPlayerPosition}
         />
-      </label>
-      <label className="flex">
-        <span className="w-1/2">Show Trace Line</span>
-        <Toggle
+      </Label>
+      <Label className="flex items-center gap-2 justify-between">
+        Show Trace Line
+        <Switch
           checked={settingsStore.showTraceLine}
-          onChange={settingsStore.toggleShowTraceLine}
+          onCheckedChange={settingsStore.toggleShowTraceLine}
         />
-      </label>
-      <label className="flex">
-        <span className="w-1/2">Trace Line Length</span>
-        <input
-          className="rounded border text-white bg-neutral-800 p-1 text-xs font-mono"
+      </Label>
+      <Label className="flex items-center gap-2 justify-between">
+        Trace Line Length
+        <Input
+          className="w-32"
           type="number"
           value={settingsStore.traceLineLength}
           min={0}
@@ -52,15 +64,10 @@ export default function AppSettings() {
             settingsStore.setTraceLineLength(+event.target.value)
           }
         />
-      </label>
-      <div className="flex">
-        <span className="w-1/2">Reset UI positions</span>
-        <button
-          className="py-1 px-2 text-sm uppercase text-white bg-neutral-800 hover:bg-neutral-700"
-          onClick={settingsStore.resetTransform}
-        >
-          Reset
-        </button>
+      </Label>
+      <div className="flex items-center gap-2 justify-between">
+        Reset UI positions
+        <Button onClick={settingsStore.resetTransform}>Reset</Button>
       </div>
     </>
   );

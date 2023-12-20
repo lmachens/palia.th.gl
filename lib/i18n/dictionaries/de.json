@@ -127,6 +127,7 @@
         "iconSize": "Symbolgröße",
         "backup": "Sichern",
         "restore": "Wiederherstellen",
-        "reset": "Zurücksetzen"
+        "reset": "Zurücksetzen",
+        "alwaysShowStarredNodes": "Starred immer anzeigen"
     }
 }
