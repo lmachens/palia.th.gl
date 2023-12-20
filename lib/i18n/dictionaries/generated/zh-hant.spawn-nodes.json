@@ -1,0 +1,798 @@
+{
+  "BP_Bug_BeeR_C": {
+    "name": "金色輝煌蜜蜂",
+    "description": "一種從阿昆杜州輸入的稀有蜜蜂。據說該州的皇后和家人經常飲用這種蜜蜂的蜂蜜製成的蜂蜜酒。\r\n早上和白天，在吉力馬砍樹時有機會發現。"
+  },
+  "BP_Bug_BeetleC_C": {
+    "name": "斑點臭蟲",
+    "description": "比起鮮豔的體色，這種蟲子的濃烈麝香味更廣為人知。\r\n吉力馬和巴哈里灣一帶發現。\r"
+  },
+  "BP_Bug_BeetleE_C": {
+    "name": "上古琥珀甲蟲",
+    "description": "帕利亞已知最古老的昆蟲品種之一，據說從人類時代存續至今。\r\n可在巴哈里灣的森林發現。在巴哈里灣砍樹時也有機會發現。"
+  },
+  "BP_Bug_BeetleR_C": {
+    "name": "樹莓甲蟲",
+    "description": "一種甲蟲，僅以覆盆子為食物。\r\n可在吉力馬的巴德魯農場附近發現。"
+  },
+  "BP_Bug_BeetleU_C": {
+    "name": "傲角雄鹿甲蟲",
+    "description": "據說這種雄鹿甲蟲的角與傲角賽努克鹿的角很像。\r\n在吉力馬採礦時有機會發現。"
+  },
+  "BP_Bug_BeeU_C": {
+    "name": "巴哈里蜜蜂",
+    "description": "一種本地品種的蜜蜂，以生產美味的蜂蜜而聞名。\r\n在巴哈里灣砍樹時有機會發現。"
+  },
+  "BP_Bug_ButterflyC_C": {
+    "name": "常見藍蝴蝶",
+    "description": "一種永遠有彈性的蝴蝶，在帕利亞的幾乎所有氣候環境中都可以找到。\r\n早上和白天，在吉力馬和巴哈里灣附近可以發現。"
+  },
+  "BP_Bug_ButterflyE_C": {
+    "name": "彩虹邊蝴蝶",
+    "description": "一種稀有的蝴蝶，古老的傳說其將翅膀尖端浸入魔流井而獲得此等美麗色彩。\r\n早晨和白天，在巴哈里灣的田野可以發現。"
+  },
+  "BP_Bug_ButterflyR_C": {
+    "name": "亮眼蝴蝶",
+    "description": "每次太陽露臉，就能看到這隻圖案複雜的蝴蝶在環視著巴哈里灣。\r\n早晨和白天，可在巴哈里灣的森林發現。"
+  },
+  "BP_Bug_ButterflyU_C": {
+    "name": "黃昏翼蝶",
+    "description": "一種美麗的蝴蝶，翅膀帶著黃昏的色彩。吉力馬山谷獨有。\r\n早晨和白天可在吉力馬的龍神殿附近發現。"
+  },
+  "BP_Bug_CicadaC_C": {
+    "name": "普通樹蟬",
+    "description": "一種常見的蟬。\r\n早上和白天，可以發現它趴在巴哈里灣的樹木上。"
+  },
+  "BP_Bug_CicadaR_C": {
+    "name": "吐焰鳴蟬",
+    "description": "一種鳴聲響亮的蟬。不過其咬勁遠不如其音量。\r\n早晨和白天，可以發現它趴在巴哈里灣的樹木上。\r"
+  },
+  "BP_Bug_CicadaU_C": {
+    "name": "天藍鳴蟬",
+    "description": "這隻蟬的鳴聲輕緩，據說是阿雅娜第四交響曲的靈感來源。\r\n早晨和白天，可以發現它趴在巴哈里灣的樹木上。"
+  },
+  "BP_Bug_CrabC_C": {
+    "name": "巴哈里螃蟹",
+    "description": "一種本地品種的螃蟹，佐以奶油的料理滋味鮮美而聞名。\r\n可在巴哈里灣海岸發現。在巴哈里灣採集貝殼時也有機會發現。"
+  },
+  "BP_Bug_CrabR_C": {
+    "name": "吸血鬼螃蟹",
+    "description": "一種外來品種的螃蟹，有能力奪走當地居民的生命。\r\n傍晚和夜晚，可在巴哈里灣的淹沒堡壘發現。"
+  },
+  "BP_Bug_CrabU_C": {
+    "name": "棘殼蟹",
+    "description": "一種外殼多刺的螃蟹。\r\n可在巴哈里灣海岸發現。"
+  },
+  "BP_Bug_CricketC_C": {
+    "name": "常見田間蟋蟀",
+    "description": "一種在田間隨處可見的蟋蟀。\r\n可在吉力馬和巴哈里灣附近發現。"
+  },
+  "BP_Bug_CricketR_C": {
+    "name": "天藍石蟋蟀",
+    "description": "這種藍色小美人會將自己偽裝成閃亮藍色鵝卵石而廣為人知。\r\n可在巴哈里灣的田野發現。"
+  },
+  "BP_Bug_CricketU_C": {
+    "name": "花園浮塵子",
+    "description": "花園浮塵子在帕利亞非常受歡迎，許多孩子抓來當寵物飼養。據說可以帶來好運。\r\n可在吉力馬的田野和巴德魯農場發現。在吉力馬採集時也有機會發現。"
+  },
+  "BP_Bug_DragonflyC_C": {
+    "name": "尾刷蜻蜓",
+    "description": "這隻蜻蜓的尾巴是明亮而充滿活力，據說瑪基人早期用它當畫筆。\r\n在吉力馬湖附近以及巴哈里灣的河流和池塘可以找到。\r"
+  },
+  "BP_Bug_DragonflyE_C": {
+    "name": "寶石翼蜻蜓",
+    "description": "一種翅膀有如寶石明亮多彩的蜻蜓。\r\n可在巴哈里灣懸崖的洞穴入口附近發現。"
+  },
+  "BP_Bug_DragonflyR_C": {
+    "name": "焰息蜻蜓",
+    "description": "這隻蜻蜓出了名的難抓，部分原因是它的火焰般氣息。\r\n可在吉力馬的田野發現。"
+  },
+  "BP_Bug_DragonflyU_C": {
+    "name": "水墨蜻蜓",
+    "description": "這種隱形蜻蜓也是各種黑色染料和墨水的材料之一。\r\n可在巴哈里灣的河流和池塘附近發現。"
+  },
+  "BP_Bug_GlowbugC_C": {
+    "name": "燈籠蟲",
+    "description": "這隻蟲子發出的明亮光芒就像彩色節日燈籠，飛入帕利安的夜空。\r\n傍晚和夜晚，可在巴哈里灣的海岸和森林發現。"
+  },
+  "BP_Bug_GlowbugR_C": {
+    "name": "巴哈里螢火蟲",
+    "description": "一種本地品種的生物發光動物。由寶林·阿姆坡多教授所發現。\r\n傍晚和夜晚，可在巴哈里灣的田野發現。"
+  },
+  "BP_Bug_LadybugR_C": {
+    "name": "瓢蟲公主",
+    "description": "一種外觀非常高貴的瓢蟲，因童話《變成瓢蟲的公主》而廣受歡迎。\r\n可在吉力馬湖附近發現。"
+  },
+  "BP_Bug_LadybugU_C": {
+    "name": "花園瓢蟲",
+    "description": "一種體色黑紅相間的瓢蟲，常利用來控制花園害蟲。\r\n在巴哈里灣的田野採集時有機會發現。"
+  },
+  "BP_Bug_MantisE_C": {
+    "name": "仙女螳螂",
+    "description": "瑪基古老傳說中的螳螂，直到最近才被現代昆蟲學家證實其存在。據說具有神奇的特性。\r\n可在巴哈里灣的田野中發現。"
+  },
+  "BP_Bug_MantisR1_C": {
+    "name": "斑點螳螂",
+    "description": "一隻稀有的螳螂，有一組美麗的斑點。\r\n可在吉力馬的龍神殿附近發現。"
+  },
+  "BP_Bug_MantisR2_C": {
+    "name": "逐葉螳螂",
+    "description": "一種只吃樹葉的草食性螳螂。\r\n在巴哈里灣的森林採集時有機會發現。"
+  },
+  "BP_Bug_MantisU_C": {
+    "name": "花園螳螂",
+    "description": "這有多大看頭。只是你的花園品種螳螂。\r\n可在吉力馬湖附近發現，在吉力馬湖採集時也有機會發現。"
+  },
+  "BP_Bug_MothC_C": {
+    "name": "吉力馬夜蛾",
+    "description": "吉力馬夜蛾縱然美麗，在炎熱的夏夜不算稀罕，以至於有些人認為它是害蟲。請遠離存放的布料。\r\n傍晚和夜晚，可在吉力馬和巴哈里灣附近發現。"
+  },
+  "BP_Bug_MothR_C": {
+    "name": "薄紗飛蛾",
+    "description": "這種飛蛾的翅膀很薄，有人說可以透過它們看到龍界。\r\n傍晚和夜晚，可在吉力馬的田野發現。"
+  },
+  "BP_Bug_MothU_C": {
+    "name": "月仙蛾",
+    "description": "據說月仙蛾與龍月有極特殊的淵源，且據說只在週期中的特定時間出現。\r\n傍晚和夜晚，可在巴哈里灣的田野和森林發現。"
+  },
+  "BP_Bug_PedeR1_C": {
+    "name": "長毛千足蟲",
+    "description": "一種面臨毛髮生長問題的千足蟲。\r\n可在巴哈里灣的森林發現。\r"
+  },
+  "BP_Bug_PedeR2_C": {
+    "name": "閃爍蜈蚣",
+    "description": "一種稀有的蜈蚣，帶有閃亮的硬殼。\r\n在巴哈里灣採礦時有機會發現。"
+  },
+  "BP_Bug_PedeU_C": {
+    "name": "花園千足蟲",
+    "description": "一種體色棕綠相間的千足蟲，愛吃花園作物。\r\n可在吉力馬的田野找到。在吉力馬的田野進行採集時，也有機會發現它。"
+  },
+  "BP_Bug_SnailR_C": {
+    "name": "條紋蝸牛",
+    "description": "一種具有獨特條紋的蝸牛，其外殼早期被瑪基人中用作貨幣。\r\n可在巴哈里灣沿岸發現。"
+  },
+  "BP_Bug_SnailU_C": {
+    "name": "花園蝸牛",
+    "description": "一種經歷漫長年月而進化得像片葉子的蝸牛，能躲避捕食者，但不利於躲避逐葉螳螂。\r\n可在巴哈里灣的沿岸和森林發現。"
+  },
+  "BP_ChapaaPile_C": {
+    "name": "Rummage Pile",
+    "description": ""
+  },
+  "BP_Coral_C": {
+    "name": "珊瑚",
+    "description": "這塊珊瑚能為你的房間增添海洋氣息，珊瑚礁彷彿近在咫尺！"
+  },
+  "BP_Fish_AlbinoEeel_C": {
+    "name": "白化鰻魚",
+    "description": "一種不見任何色素沉著的鰻魚。\r\n在巴哈里灣的洞穴使用蠕蟲可以發現。"
+  },
+  "BP_Fish_Alligator_Gar_C": {
+    "name": "錘骨雀鱔",
+    "description": "一種掠食性魚類，錘骨雀鱔擁有亮麗的紫色鱗片，因其長口鼻部和成排的巨齒而得名。\r\n在吉力馬湖使用螢光蠕蟲可以發現。"
+  },
+  "BP_Fish_AncientFish_C": {
+    "name": "上古魚",
+    "description": "這些魚與帕利亞大陸本身一樣古老，本被認為已滅絕。我想你們有共同點。"
+  },
+  "BP_Fish_Bahari_Pike_C": {
+    "name": "巴哈里狗魚",
+    "description": "一種原產於巴哈里灣的深綠色梭子魚。\r\n在巴哈里河使用螢光蠕蟲可以發現。"
+  },
+  "BP_Fish_BahariBream_C": {
+    "name": "巴哈里鯛魚",
+    "description": "這些魚被廣泛認為是當地飲食的主要來源。\r\n在巴哈里灣海岸使用蠕蟲可以發現。"
+  },
+  "BP_Fish_Barracuda_C": {
+    "name": "金梭魚",
+    "description": "一種兇猛的海水掠食生物，用少許奶油稍微烤過，味道鮮美。\r\n傍晚和夜晚，在巴哈里灣海岸附近可以發現，不需要誘餌。"
+  },
+  "BP_Fish_BatRay_C": {
+    "name": "蝙蝠魟魚",
+    "description": "一種不吉祥的魟魚，會像飛行蝙蝠般躍出水面。\r\n在巴哈里灣的洞穴中使用蠕蟲可以發現。"
+  },
+  "BP_Fish_Beluga_Sturgeon_C": {
+    "name": "白鱘",
+    "description": "一種能夠持續生長直到死亡的大型鱘魚。\r\n在吉力馬湖使用螢光蠕蟲可以發現。"
+  },
+  "BP_Fish_Bigeye_Tuna_C": {
+    "name": "藍鰭鮪魚",
+    "description": "一種 普通、滑溜溜的魚，擅長在洋流中快速游動。\r\n在巴哈里灣海岸使用蠕蟲可以發現。"
+  },
+  "BP_Fish_Black_Sea_Bass_C": {
+    "name": "黑色海鱸",
+    "description": "一種以體表上的黑點聞名的鱸魚，性情溫和，對瑪基人和人類都沒有威脅。\r\n在巴哈里灣海岸附近使用螢光蠕蟲可以發現。"
+  },
+  "BP_Fish_Blobfish_C": {
+    "name": "胖胖魚",
+    "description": "一種外型臃腫、體表黏答答的魚，生活在洞穴水池的底部。\r\n在巴哈里灣的洞穴中使用螢光蠕蟲可以發現。"
+  },
+  "BP_Fish_Blue_Spotted_Ray_C": {
+    "name": "藍斑魟魚",
+    "description": "一種色彩繽紛的魟魚，體表有亮藍色斑點，尾巴上有藍色條紋。\r\n早上、白天和晚上，在巴哈里灣海岸使用螢光蠕蟲可以發現。"
+  },
+  "BP_Fish_BlueMarlin_C": {
+    "name": "藍色旗魚",
+    "description": "一種大而有彈性的魚。經驗最老道的漁夫也將藍色旗魚視為大獎。\r\n在巴哈里灣海岸附近使用蠕蟲可以發現。"
+  },
+  "BP_Fish_Cactus_Moray_C": {
+    "name": "仙人掌鯙魚",
+    "description": "一種用體表尖銳的刺阻擋捕食者的鰻魚。\r\n白天和夜晚，在巴哈里灣海岸附近使用螢光蠕蟲可以發現。"
+  },
+  "BP_Fish_CalicoKoi_C": {
+    "name": "三色錦鯉",
+    "description": "一種帶有美麗印花圖樣的標準錦鯉。\r\n在池塘使用任何誘餌均可發現。"
+  },
+  "BP_Fish_CantankerousKoi_C": {
+    "name": "狂躁錦鯉",
+    "description": "當地傳說第一條狂躁錦鯉是由脾氣暴躁的老人被邪惡女巫施法變形而來。\r\n白天和夜晚可在池塘發現，不需要誘餌。"
+  },
+  "BP_Fish_Channel_Catfish_C": {
+    "name": "斑真鮰",
+    "description": "一條淡水鯰魚，可在湍急水流中順暢游動。\r\n可在吉力馬河發現，不需要誘餌。"
+  },
+  "BP_Fish_Chub_C": {
+    "name": "鱲魚",
+    "description": "一種好鬥的魚，以其不挑食而聞名。\r\n在巴哈里河使用螢光蠕蟲可以發現。"
+  },
+  "BP_Fish_Cloudfish_C": {
+    "name": "雲魚",
+    "description": "一種底棲池塘魚，會打轉掀起池底沉積物來掩護自身。\r\n早晨和白天，在池塘使用螢光蠕蟲可以發現。"
+  },
+  "BP_Fish_Codfish_C": {
+    "name": "巴哈里鱸魚",
+    "description": "一種數量龐大的主食魚類，以其溫和的味道而知名。\r\n可在巴哈里灣海岸發現，不需要誘餌。"
+  },
+  "BP_Fish_Crimson_Fangtooth_C": {
+    "name": "深紅尖牙",
+    "description": "一種紅色的小魚，有著與其體型成比例的巨大牙齒。\r\n在巴哈里灣的洞穴中使用螢光蠕蟲可以發現。"
+  },
+  "BP_Fish_Crucian_Carp_C": {
+    "name": "黑鯽",
+    "description": "一種帶有銅金色鱗片的耐寒鯉魚。\r\n在吉力馬河使用螢光蠕蟲可以發現。"
+  },
+  "BP_Fish_Cutthroat_Trout_C": {
+    "name": "割喉鱒",
+    "description": "一種淡水鱒魚，因其長下巴和嘴巴而得名。\r\n在巴哈里灣的河流使用蠕蟲可以發現。"
+  },
+  "BP_Fish_Dawnray_C": {
+    "name": "清晨魟魚",
+    "description": "有在黎明時分捕食的習性，鱗片吸收太陽光而閃著金光。\r\r\n早晨時，可在巴哈里河發現，不需要誘餌。"
+  },
+  "BP_Fish_Duskray_C": {
+    "name": "黃昏魟魚",
+    "description": "有在傍晚捕食的習性，斑駁鱗片讓牠可以隱身河床。\r\n傍晚時可在巴哈里河發現，不需要誘餌。"
+  },
+  "BP_Fish_Enchanted_Pupfish_C": {
+    "name": "附魔鱂魚",
+    "description": "一種可愛的小魚，會用鱗片吸收微量的魔法流動。\r\n在吉力馬湖使用螢光蠕蟲可以發現"
+  },
+  "BP_Fish_Energized_Piranha_C": {
+    "name": "能量食人魚",
+    "description": "一種被喵靈飾品注入了魔法的食人魚。\r\n在吉力馬河使用蠕蟲可以發現。"
+  },
+  "BP_Fish_EyelessMinnow_C": {
+    "name": "無眼鰷魚",
+    "description": "一種完全不需要視力，生活在洞穴的魚。\r\n可在巴哈里灣的洞穴發現，不需要誘餌。"
+  },
+  "BP_Fish_FairyCarp_C": {
+    "name": "仙鯉",
+    "description": "一種害羞的魚，具有催眠般的半透明光澤。\r\n早晨和傍晚，在池塘使用蠕蟲可以發現。"
+  },
+  "BP_Fish_Fathead_Minnow_C": {
+    "name": "大頭鰷魚",
+    "description": "一種小型淡水鰻魚，以其超大的頭部而聞名。\r\n在巴哈里河使用螢光蠕蟲可以發現。"
+  },
+  "BP_Fish_Flametongue_Ray_C": {
+    "name": "火舌魟魚",
+    "description": "一種稀有的淡水魟魚，因其背上的亮橙和紅色相間的條紋而得名。\r\n在早晨和白天，在吉力馬河使用螢光蠕蟲可以發現。"
+  },
+  "BP_Fish_FreshwaterEel_C": {
+    "name": "淡水鰻魚",
+    "description": "一種體型細長，肉質柔軟的淡水魚，常被誤認為蛇。\r\n傍晚和夜晚，在吉力馬河使用蠕蟲可以發現。"
+  },
+  "BP_Fish_Giant_Goldfish_C": {
+    "name": "巨型金魚",
+    "description": "一種經歷重重困難而存活至傳奇般體型的金魚。\r\n在池塘使用螢光蠕蟲可以發現。"
+  },
+  "BP_Fish_Giant_Kilima_Stingray_C": {
+    "name": "巨型吉力馬魟魚",
+    "description": "吉力馬湖之主，這種黃貂魚的毒刺也能刺穿獵物的骨頭。\r\n早晨、白天和夜晚，在吉力馬湖使用螢光蠕蟲可以發現。"
+  },
+  "BP_Fish_Gillyfin_C": {
+    "name": "吉利分魚",
+    "description": "帕利亞最常見的魚。\r\n可在吉力馬湖發現，不需要誘餌。"
+  },
+  "BP_Fish_GoldenSalmon_C": {
+    "name": "金色鮭魚",
+    "description": "一種常見的鮭魚種類，受陽光照射可快速生長。\r\n早晨和白天，在吉力馬河使用蠕蟲可以發現。"
+  },
+  "BP_Fish_Honey_Loach_C": {
+    "name": "蜜蜂泥鰍",
+    "description": "一種帶有類似蜜蜂的黃黑相間條紋的淡水魚。\r\r\n傍晚和夜晚，在巴哈里河使用發光蠕蟲可以發現。"
+  },
+  "BP_Fish_Hypnotic_Moray_C": {
+    "name": "催眠鯙魚",
+    "description": "一種海鰻，結合其醒目的圖案和催眠動作來誘捕獵物。/r\n在巴哈里灣的洞穴中使用螢光蠕蟲可以發現。"
+  },
+  "BP_Fish_Indigo_Lamprey_C": {
+    "name": "深藍八目鰻",
+    "description": "帕利安人以前會收集這種魚的鱗片來製作靛藍染料。\r\n傍晚和夜晚，在吉力馬河使用螢光蠕蟲可以發現。"
+  },
+  "BP_Fish_Kenjis_Carp_C": {
+    "name": "肯利彩鯉",
+    "description": "一種與黑鯽非常相似的鯉魚，肯利本人在吉力馬村附近發現的。\r\n在吉力馬河使用螢光蠕蟲可以發現。"
+  },
+  "BP_Fish_Kilima_Grayling_C": {
+    "name": "吉力馬茴魚",
+    "description": "一種體型流線的魚，在海裡度過前半生，接著回到吉力馬山谷的河流。\r\n在吉力馬河使用螢光蠕蟲可以發現。"
+  },
+  "BP_Fish_Kilima_Redfin_C": {
+    "name": "吉力馬紅鰭魚",
+    "description": "一種極具侵略性的河中掠食者，幾乎所有生物都吃。\r\n在巴哈里灣的河流使用蠕蟲可以發現。"
+  },
+  "BP_Fish_KilimaCatFish_C": {
+    "name": "吉力馬鯰魚",
+    "description": "一種僅棲息在吉力馬山谷的獨特鯰魚。\r\n在池塘使用蠕蟲可以發現。"
+  },
+  "BP_Fish_LargemouthBass_C": {
+    "name": "大口黑鱸",
+    "description": "一種滔滔不絕的鱸魚，可以吞下超過自身體重50%。\r\n在吉力馬湖使用蠕蟲可以發現。"
+  },
+  "BP_Fish_Midnight_Paddlefish_C": {
+    "name": "午夜匙吻鱘",
+    "description": "一種稀有的匙吻鱘，有在夜間進食的習性，黑色鱗片有助於躲避捕食者。\r\n夜晚在吉力馬湖使用螢光蠕蟲可以發現。"
+  },
+  "BP_Fish_Mirror_Carp_C": {
+    "name": "鏡鯉",
+    "description": "一種鱗片光亮如鏡的銀色鯉魚。\r\n在池塘使用蠕蟲可以發現。"
+  },
+  "BP_Fish_Mottled_Gobi_C": {
+    "name": "斑點蝦虎魚",
+    "description": "一種被低估的魚，以過量的池塘藻類為食。\r\n在池塘使用螢光蠕蟲可以發現。"
+  },
+  "BP_Fish_Mudminnow_C": {
+    "name": "泥鰷魚",
+    "description": "一種常見的鰷魚，以其渾濁的體色而聞名。\r\n可在池塘中發現，不需要誘餌。"
+  },
+  "BP_Fish_MutatedAngler_C": {
+    "name": "變異鮟鱇魚",
+    "description": "一種可怕的怪物，據說自人類時代存續至今。\r\n在巴哈里灣洞穴使用蠕蟲可以發現。"
+  },
+  "BP_Fish_Oily_Anchovy_C": {
+    "name": "油漬鯷魚",
+    "description": "一種體表黏答答的魚，瑪基人認為異常美味。\r\n在巴哈里灣的河流使用蠕蟲可以發現。"
+  },
+  "BP_Fish_Orange_Bluegill_C": {
+    "name": "橘鰓太陽魚",
+    "description": "一種雜食性魚類，喜愛昆蟲，也吃任何能放進嘴裡的東西。\r\n在池塘使用蠕蟲可以發現。"
+  },
+  "BP_Fish_Paddlefish_C": {
+    "name": "匙吻鱘",
+    "description": "一種已經生存了數百萬年的原始魚類。\r\n早晨、白天和傍晚，在巴哈里灣的河流使用蠕蟲可以發現。"
+  },
+  "BP_Fish_PaintedPerch_C": {
+    "name": "彩繪河鱸",
+    "description": "一種體型嬌小的淡水魚，以其令人愉悅的體色而聞名。\r\n在吉力馬湖使用螢光蠕蟲可以發現。"
+  },
+  "BP_Fish_Platinum_Chad_C": {
+    "name": "白金西鯡",
+    "description": "白金西鯡的閃亮白金鱗片催生了漁夫的發財夢。\r\n在吉力馬河使用螢光蠕蟲可以發現。"
+  },
+  "BP_Fish_PrismTrout_C": {
+    "name": "稜鏡鱒魚",
+    "description": "一種外觀奢華的鱒魚，陽光下閃閃發光有如彩虹。\r\n早晨和白天，在吉力馬湖使用蠕蟲可以發現。"
+  },
+  "BP_Fish_RadiantSunfish_C": {
+    "name": "光彩翻車魚",
+    "description": "一種美麗且光芒四射的淡水魚，散發耀眼白光，就像在直視太陽。\r\n使用蠕蟲即可在吉力馬河中找到。"
+  },
+  "BP_Fish_Rainbow_Trout_C": {
+    "name": "彩虹鱒魚",
+    "description": "一種淡水魚，鱗片上具有色調柔和的多彩斑點。不甚聰明，不懂得嫉妒稜鏡鱒魚。\r\n可在吉力馬河發現，不需要誘餌。"
+  },
+  "BP_Fish_Red-bellied_piranha_C": {
+    "name": "紅腹食人魚",
+    "description": "一種極具侵略性的河中掠食者，幾乎所有生物都吃。\r\n在吉力馬河使用蠕蟲可以發現。"
+  },
+  "BP_Fish_RibbontailRay_C": {
+    "name": "條尾魟",
+    "description": "藍斑條尾魟經常出沒於熱帶水域，最近令人驚訝地從伊尼列夫群島遷徙到帕利亞共和國的西海岸。\r\n早上和夜晚，在巴哈里灣海岸附近使用蠕蟲可以發現。"
+  },
+  "BP_Fish_Rosy_Bitterling_C": {
+    "name": "玫紅高體鰟鮍",
+    "description": "一條背上有玫瑰色斑點的淡水魚。\r\n可在巴哈里河發現，不需要誘餌。"
+  },
+  "BP_Fish_Sardine_C": {
+    "name": "沙丁魚",
+    "description": "一種小而游動快速的餌料魚，瑪基人通常偏好醃製食用。\r\n可在巴哈里灣海岸發現，不需要誘餌。"
+  },
+  "BP_Fish_Scarlet_Koi_C": {
+    "name": "猩紅錦鯉",
+    "description": "一種滑溜溜的錦鯉，帶有深紅色圖樣。\r\n在池塘使用螢光蠕蟲可以發現。"
+  },
+  "BP_Fish_Shimmerfin_C": {
+    "name": "微光鰭",
+    "description": "一種神秘的魚，有時會同時出現在兩個地方。\r\n在吉力馬湖中使用蠕蟲可以發現。"
+  },
+  "BP_Fish_SilverSalmon_C": {
+    "name": "銀鮭魚",
+    "description": "常見的銀魚。\r\n傍晚和夜晚，在吉力馬河可以發現，不需要誘餌。"
+  },
+  "BP_Fish_Silvery_Minnow_C": {
+    "name": "銀鰷魚",
+    "description": "一種常見的鰷魚，帶有銀色鱗片，會反射陽光而發亮。\r\n可在巴哈里河發現，不需要誘餌。"
+  },
+  "BP_Fish_SmallmouthBass_C": {
+    "name": "小口黑鱸",
+    "description": "一種沒什麼好說的普通鱸魚，偶爾會從水中躍出。\r\n在吉力馬湖使用蠕蟲可以發現。"
+  },
+  "BP_Fish_SpottedBullhead_C": {
+    "name": "斑點鮰",
+    "description": "帶有斑點圖案的鮰魚。\r\n可在吉力馬河中發現，不需要誘餌。"
+  },
+  "BP_Fish_Stalking_Catfish_C": {
+    "name": "潛行鯰魚",
+    "description": "一種掠食性的藍色大型鯰魚，會攻擊附近的弱小魚類。\r\n在傍晚和夜晚，在池塘使用螢光蠕蟲可以發現。"
+  },
+  "BP_Fish_Stickleback_C": {
+    "name": "棘背魚",
+    "description": "一種掠食性魚類，喜食幼魚、昆蟲、甲殼類動物和漁夫腳趾。\r\n早晨和白天，在吉力馬河使用蠕蟲可以發現。"
+  },
+  "BP_Fish_Stonefish_C": {
+    "name": "石魚",
+    "description": "一種劇毒的石魚，可自然融入周圍環境，靜待獵物出現。\r\n在巴哈里灣洞穴使用螢光蠕蟲可以發現。"
+  },
+  "BP_Fish_Stormray_C": {
+    "name": "風暴射線",
+    "description": "一種體型雄偉的淡水魟魚，透過扭曲水流並用尾巴引導閃電來捕食。\r\n早晨和夜晚，在巴哈里河使用螢光蠕蟲可以發現。"
+  },
+  "BP_Fish_Striped_Dace_C": {
+    "name": "條紋鯪魚",
+    "description": "一種背上有條紋圖案的鯪魚。\r\n可在吉力馬河中發現，不需要誘餌。"
+  },
+  "BP_Fish_StripedSturgeon_C": {
+    "name": "條紋鱘魚",
+    "description": "一種底棲湖水魚，帶有淺色條紋，可在陽光下偽裝。\r\n傍晚和夜間，在吉力馬湖使用蠕蟲可以發現。"
+  },
+  "BP_Fish_Swordfin_Eel_C": {
+    "name": "劍鰭鰻",
+    "description": "一種頂級掠食者的鰻魚，善用自己的身體來捕食。\r\n在巴哈里河使用螢光蠕蟲可以發現。"
+  },
+  "BP_Fish_Thundering_Eel_C": {
+    "name": "雷電鰻",
+    "description": "一種帶電的鰻魚，可電擊制服獵物。\r\n在巴哈里灣的河流使用蠕蟲可以發現。"
+  },
+  "BP_Fish_UmbranCarp_C": {
+    "name": "本影鯉",
+    "description": "本影鯉的品種與仙鯉相近，但更偏好洞穴和地下湖等黑暗環境。\r\n可在巴哈里灣的洞穴發現，不需要誘餌。"
+  },
+  "BP_Fish_UnicornFish_C": {
+    "name": "長吻鼻魚",
+    "description": "獨角魚的角對於任何煉金術士或藥劑師來說都很有價值。但請注意，據傳它們擁有超能力，最熟練的漁夫也會失去方向。\r\n白天在巴哈里灣海岸使用螢光蠕蟲可以發現。"
+  },
+  "BP_Fish_Voidray_C": {
+    "name": "空幻魟魚",
+    "description": "一種既奇異又可怕的空幻魟魚，謠傳其有能力進入回音領域並尋找更小的回音為食。\r\n在巴哈里灣的洞穴使用螢光蠕蟲可以發現。"
+  },
+  "BP_Fish_Willow_Lamprey_C": {
+    "name": "垂柳八目鰻",
+    "description": "一種體型細長的七鰓鰻，因其相似於柳樹的樹枝而得名。\r\n夜晚在巴哈里灣河使用蠕蟲可以發現。"
+  },
+  "BP_Fish_Yellow_Perch_C": {
+    "name": "黃鱸魚",
+    "description": "河流中常見的鱸魚。\r\n可在巴哈里河中發現，不需要誘餌。"
+  },
+  "BP_Fish_Yellowfin_Tuna_C": {
+    "name": "黃鰭鮪魚",
+    "description": "一種大型鮪魚，游動速度是從其體型難以想像的快。\r\n在巴哈里灣海岸使用蠕蟲可以發現。"
+  },
+  "BP_FishingJackpot_C": {
+    "name": "進水的箱子",
+    "description": "開啟這個神祕的箱子，看看裡面有什麼好東西。"
+  },
+  "BP_FishingRecipeBook_C": {
+    "name": "食譜：魚湯",
+    "description": "使用即可學會製作魚湯的食譜。"
+  },
+  "BP_Gatherable_MushroomBlue_C": {
+    "name": "爍蘑菇",
+    "description": "亮菇能吸收魔流從而發光，因此有許多煉金用途。"
+  },
+  "BP_Gatherable_MushroomR_C": {
+    "name": "大山羊肚菌",
+    "description": "一種常見的蘑菇。大山羊肚菌在家附近就能找到！生吃或熟食皆可，是非常受歡迎的食材。"
+  },
+  "BP_HeartdropLilly_C": {
+    "name": "心動百合",
+    "description": "心動百合是一種稀有的花，對帕利亞人有著特殊的意義：浪漫之愛的綻放。"
+  },
+  "BP_Mining_Clay_C": {
+    "name": "黏土",
+    "description": "一種陶土材料，可以熔煉成陶瓷，用於製作物品。"
+  },
+  "BP_Mining_Copper_Large_C": {
+    "name": "銅礦 (L)",
+    "description": "含銅的岩石，可以熔煉成銅錠用於製作。"
+  },
+  "BP_Mining_Copper_Medium_C": {
+    "name": "銅礦 (M)",
+    "description": "含銅的岩石，可以熔煉成銅錠用於製作。"
+  },
+  "BP_Mining_Copper_Small_C": {
+    "name": "銅礦 (S)",
+    "description": "含銅的岩石，可以熔煉成銅錠用於製作。"
+  },
+  "BP_Mining_Iron_Large_C": {
+    "name": "鐵礦 (L)",
+    "description": "含鐵的岩石，可以熔煉成鐡錠用於製作。"
+  },
+  "BP_Mining_Iron_Medium_C": {
+    "name": "鐵礦 (M)",
+    "description": "含鐵的岩石，可以熔煉成鐡錠用於製作。"
+  },
+  "BP_Mining_Iron_Small_C": {
+    "name": "鐵礦 (S)",
+    "description": "含鐵的岩石，可以熔煉成鐡錠用於製作。"
+  },
+  "BP_Mining_Palium_Large_C": {
+    "name": "帕礦 (L)",
+    "description": "帕礦石，可以熔煉成帕礦錠用於製作。"
+  },
+  "BP_Mining_Palium_Medium_C": {
+    "name": "帕礦 (M)",
+    "description": "帕礦石，可以熔煉成帕礦錠用於製作。"
+  },
+  "BP_Mining_Palium_Small_C": {
+    "name": "帕礦 (S)",
+    "description": "帕礦石，可以熔煉成帕礦錠用於製作。"
+  },
+  "BP_Mining_Stone_Large_C": {
+    "name": "石頭 (L)",
+    "description": "一塊普通的石頭，可以熔煉成磚塊。"
+  },
+  "BP_Moss_DragonsBeard_C": {
+    "name": "龍鬚炭",
+    "description": "龍鬚炭是一種稀有的煉金苔蘚，因其顏色酷似瑪基而得名。"
+  },
+  "BP_Moss_EmeraldCarpet_C": {
+    "name": "翡翠地毯苔蘚",
+    "description": "據說在家裡擺滿翡翠地毯苔蘚，其明亮的色彩能為你帶來好運。"
+  },
+  "BP_Oyster_C": {
+    "name": "未開殼的牡蠣",
+    "description": "快打開這個牡蠣！就算沒有珍珠，至少可以吃掉！"
+  },
+  "BP_PoisonFlower_C": {
+    "name": "荊棘野菊",
+    "description": "生長在山區的荊棘野菊能在最惡劣的條件中生存下來。"
+  },
+  "BP_QuestItem_CookBook_1_C": {
+    "name": "《高級烹飪書》",
+    "description": "此書封面上寫著：「上層麵包皮：瑪基人上流社會烹飪指南」。"
+  },
+  "BP_QuestItem_CookBook_2_C": {
+    "name": "點心烘焙書",
+    "description": "此書封面上寫著：「甜蜜的糖果：製作令人垂涎欲滴的甜點之指南」。"
+  },
+  "BP_Seashell_C": {
+    "name": "貝殼",
+    "description": "沒有人會在海邊賣貝殼，你要自己去尋找。"
+  },
+  "BP_Spice_DariCloves_C": {
+    "name": "達里丁香",
+    "description": "稀有的達里丁香深受廚師和煉金術士的喜愛，據說它擁有魔法屬性。"
+  },
+  "BP_Spice_HeatRoot_C": {
+    "name": "熱根",
+    "description": "別擔心！不管用來烹飪還是治療，辛辣的熱根都會讓你從內暖到外。"
+  },
+  "BP_Spiced_Sprouts_C": {
+    "name": "香料芽",
+    "description": "香料芽能為任何菜餚帶來濃郁的色彩和清香的風味，而且隨手可得。"
+  },
+  "BP_SundropLillies_C": {
+    "name": "落日百合",
+    "description": "落日百合生長在開闊的田野裡，其花瓣會隨著太陽轉動。"
+  },
+  "BP_SweetLeaves_C": {
+    "name": "甜葉",
+    "description": "愛吃甜食的人最愛這種甜葉，這是帕利亞最受歡迎的甜點材料之一。"
+  },
+  "BP_Trash_Shipfragments_C": {
+    "name": "船隻碎片",
+    "description": "在海洋中發現的一件普通垃圾，近日沉船的證明。"
+  },
+  "BP_Trash_Wagonwheel_C": {
+    "name": "車輪",
+    "description": "在水晶湖及其周圍發現的一件普通垃圾，也許是路過的旅行者遺留下來的。"
+  },
+  "BP_Trash_WaterloggedBoot_C": {
+    "name": "進水的靴子",
+    "description": "在鏡池中找到普通垃圾。"
+  },
+  "BP_TreeChoppable_Birch_Large_C": {
+    "name": "undefined (L)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Large_CoOp_C": {
+    "name": "Flow undefined (L)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Medium_C": {
+    "name": "undefined (M)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Medium_CoOp_C": {
+    "name": "Flow undefined (M)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Sapling_CoOp_C": {
+    "name": "Flow undefined (XS)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Small_C": {
+    "name": "undefined (S)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Small_CoOp_C": {
+    "name": "Flow undefined (S)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Large_C": {
+    "name": "刺柏種子 (L)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Large_CoOp_C": {
+    "name": "Flow 刺柏種子 (L)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Medium_C": {
+    "name": "刺柏種子 (M)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Medium_CoOp_C": {
+    "name": "Flow 刺柏種子 (M)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Sapling_CoOp_C": {
+    "name": "Flow 刺柏種子 (XS)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Small_C": {
+    "name": "刺柏種子 (S)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Small_CoOp_C": {
+    "name": "Flow 刺柏種子 (S)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Large_C": {
+    "name": "undefined (L)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Large_CoOp_C": {
+    "name": "Flow undefined (L)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Medium_C": {
+    "name": "undefined (M)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Medium_CoOp_C": {
+    "name": "Flow undefined (M)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Sapling_CoOp_C": {
+    "name": "Flow undefined (XS)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Small_C": {
+    "name": "undefined (S)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Small_CoOp_C": {
+    "name": "Flow undefined (S)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Large_C": {
+    "name": "Pine (L)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Large_CoOp_C": {
+    "name": "Flow Pine (L)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Large2_CoOp_C": {
+    "name": "Flow Pine (XL)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Medium_C": {
+    "name": "Pine (M)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Medium_CoOp_C": {
+    "name": "Flow Pine (M)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Sapling_CoOp_C": {
+    "name": "Flow Pine (XS)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Small_C": {
+    "name": "Pine (S)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Small_CoOp_C": {
+    "name": "Flow Pine (S)",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Cearnuk_T1_C": {
+    "name": "Sernuk",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Cearnuk_T2_C": {
+    "name": "Elder Sernuk",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Cearnuk_T3_C": {
+    "name": "Proudhorn Sernuk",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Chapaa_T1_C": {
+    "name": "Spotted Chapaa",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Chapaa_T2_C": {
+    "name": "Striped Chapaa",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Chapaa_T3_C": {
+    "name": "Azure Chapaa",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_TreeClimber_T1_C": {
+    "name": "Muujin",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_TreeClimber_T2_C": {
+    "name": "Banded Muujin",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_TreeClimber_T3_C": {
+    "name": "Bluebristle Muujin",
+    "description": ""
+  },
+  "BP_WaterFlower_C": {
+    "name": "水晶湖蓮花",
+    "description": "這款水晶湖蓮花以其發現地命名，現在用於製作染料。"
+  },
+  "BP_WaterPlane_Fishing_AZ1_Cave_SQ_C": {
+    "name": "Cave Bay",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_LakeVillage_SQ_C": {
+    "name": "Lake Village",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_OceanAZ1_SQ_C": {
+    "name": "Ocean Bay",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_PondVillage_SQ_C": {
+    "name": "Pond Village",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_RiverAZ1_SQ_C": {
+    "name": "River Bay",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_RiverVillage_SQ_C": {
+    "name": "River Village",
+    "description": ""
+  },
+  "BP_WildGarlic_C": {
+    "name": "野生大蒜",
+    "description": "大蒜能為你烹飪的任何菜餚增添美味！也可以生吃，使口氣芬芳。"
+  }
+}

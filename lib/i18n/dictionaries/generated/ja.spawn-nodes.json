@@ -1,0 +1,798 @@
+{
+  "BP_Bug_BeeR_C": {
+    "name": "ゴールデングローリーバチ",
+    "description": "アクウィンドゥ州から輸入された、珍しいハチ。このハチのみつを使った蜂蜜酒は、アクウィンドゥ州の女王とその家族がこぞって飲むと言われている。\r\n朝から日中にかけてキリマで木を切っているときに見つかる可能性がある。"
+  },
+  "BP_Bug_BeetleC_C": {
+    "name": "マダラカメムシ",
+    "description": "その印象的な色よりも、強烈な臭いで知られる虫。\r\nキリマやバハリ湾のあちこちで見つかる。"
+  },
+  "BP_Bug_BeetleE_C": {
+    "name": "コダイコハククワガタ",
+    "description": "パリアで一番古くから知られている昆虫の種類で、人類の時代に存在していたと言われている。\r\nバハリ湾の森で見つかる。バハリ湾で木を切っている時にも見つかるかも。"
+  },
+  "BP_Bug_BeetleR_C": {
+    "name": "ラズベリーカブトムシ",
+    "description": "ラズベリーを主食とするカブトムシ。\r\nキリマのバッドルー農場周辺で見つかる。"
+  },
+  "BP_Bug_BeetleU_C": {
+    "name": "プラウドホーンクワガタ",
+    "description": "このクワガタの角はプラウドホーンセルヌークに似ていると言われている。\r\nキリマで採掘している時に見つかるかもしれない。"
+  },
+  "BP_Bug_BeeU_C": {
+    "name": "バハリバチ",
+    "description": "美味しいはちみつを作ることで知られる、地元に生息するミツバチの一種。\r\nバハリ湾で木を切っていると見つかる可能性がある。"
+  },
+  "BP_Bug_ButterflyC_C": {
+    "name": "コモンブルーチョウ",
+    "description": "とても快活。この種類のチョウはパリアのどの気候にでも生息できる。\r\n朝から昼にかけてキリマとバハリ湾で見つかる。"
+  },
+  "BP_Bug_ButterflyE_C": {
+    "name": "ニジフチチョウ",
+    "description": "古代伝説はこの珍しいチョウがフローの井戸に羽先をつけてその美しい色を手に入れたと言う。\r\n朝から昼にかけてバハリ湾の平原で見つかる。"
+  },
+  "BP_Bug_ButterflyR_C": {
+    "name": "ブライトアイチョウ",
+    "description": "太陽が出ている時、バハリ湾を見渡しているこの複雑な模様をしたチョウを見たことがあるだろう。\r\n朝から昼にかけてバハリ湾の森で見つかる。"
+  },
+  "BP_Bug_ButterflyU_C": {
+    "name": "タソガレチョウ",
+    "description": "夕暮れ色の羽を持つ美しい蝶。キリマ渓谷特有の虫。\r\n朝から日中にかけてキリマのドラゴンの祠周辺で見つかる。"
+  },
+  "BP_Bug_CicadaC_C": {
+    "name": "コクマルゼミ",
+    "description": "一般的なセミ。\r\nバハリ湾の木で、朝から日中まで鳴いている姿を見つけられる。"
+  },
+  "BP_Bug_CicadaR_C": {
+    "name": "ヒハキゼミ",
+    "description": "噛むより吠える方が悪い元気なセミ。\r\nバハリ湾の樹木に朝から日中まで生息している。"
+  },
+  "BP_Bug_CicadaU_C": {
+    "name": "セルリアンゼミ",
+    "description": "セミの鳴き声はとても心地良くて、アヤナの交響曲第4番の着想だと言われている。\r\n朝から昼にかけてバハリ湾の木に引っ付いている。"
+  },
+  "BP_Bug_CrabC_C": {
+    "name": "バハリガニ",
+    "description": "地元のカニ。溶かしバターで食べると美味しいらしい。\r\nバハリ湾沿岸で見られる。また、バハリ湾で貝を採っていると見つかることもある。"
+  },
+  "BP_Bug_CrabR_C": {
+    "name": "ヴァンパイアガニ",
+    "description": "在来種を食い物にする外来種のカニ。\r\n夕方から夜にかけてバハリ湾の浸水した要塞で見つかる。"
+  },
+  "BP_Bug_CrabU_C": {
+    "name": "トゲクリ蟹",
+    "description": "トゲの多い甲羅を持つカニ。\r\nバハリ湾の沿岸で見つかる。"
+  },
+  "BP_Bug_CricketC_C": {
+    "name": "コモンハタケコオロギ",
+    "description": "コオロギは平原のどこにでもいる。\r\nキリマとバハリ湾で見つかる。"
+  },
+  "BP_Bug_CricketR_C": {
+    "name": "アズール・ストーンホッパー",
+    "description": "この小さな青い美しいものは自身をキラキラな青い小石にカモフラージュさせるとして知られている。\r\nバハリ湾の平原で見つかる。"
+  },
+  "BP_Bug_CricketU_C": {
+    "name": "ガーデンバッタ",
+    "description": "ガーデンバッタはパリアでとても縁起が良いので、子供たちはよくペットとして飼っています。彼らは幸運をもたらしてくれると言われています。\r\nキリマのバッドルー農家の平原で見つかる。キリマで採集してても見つかるかも。"
+  },
+  "BP_Bug_DragonflyC_C": {
+    "name": "ブラッシュテールトンボ",
+    "description": "このトンボの尾はとても鮮やかで、初期のマジリはこれを絵筆として使ったと言われています。\r\nこの生物はキリマの湖周辺、バハリ湾の川や池に生息しています。"
+  },
+  "BP_Bug_DragonflyE_C": {
+    "name": "ジュエルウィングトンボ",
+    "description": "宝石のように色鮮やかな羽を持つトンボ。\r\nバハリ湾の崖にある洞窟の入り口付近で見つかる。"
+  },
+  "BP_Bug_DragonflyR_C": {
+    "name": "ヒフキトンボ",
+    "description": "このトンボは、火を吹くことから捕まえることがかなり難しい。\r\nキリマの畑で見つかる。"
+  },
+  "BP_Bug_DragonflyU_C": {
+    "name": "墨トンボ",
+    "description": "この忍びやかなトンボは色んな黒い染料やインクに使われている。\r\nバハリ湾の川と池で見つかる。"
+  },
+  "BP_Bug_GlowbugC_C": {
+    "name": "ランタンホタル",
+    "description": "この虫はパリアの夜空に打ち放たれたカラフルなお祭りの提灯のように眩しく輝く。\r\n夕方から夜にかけてバハリ湾の海岸沿いと森で見つかる。"
+  },
+  "BP_Bug_GlowbugR_C": {
+    "name": "バハリホタル",
+    "description": "地元の生物発光する動物相の一種。ボンリン・アメポンゴ教授によって発見された。\r\n夕方から夜にかけてバハリ湾の畑で見つかる。"
+  },
+  "BP_Bug_LadybugR_C": {
+    "name": "ヒメテントウムシ",
+    "description": "子供向けのおとぎ話、テントウムシになったプリンセスで有名になった、とても堂々としたテントウムシ。\r\nキリマの池の周りで見つかる。"
+  },
+  "BP_Bug_LadybugU_C": {
+    "name": "ガーデンテントウムシ",
+    "description": "庭の害虫駆除に人気の黒と赤のテントウムシ。\r\nバハリ湾の畑で採集するチャンスがある。"
+  },
+  "BP_Bug_MantisE_C": {
+    "name": "フェアリーカマキリ",
+    "description": "初期のマジリ伝説に登場するカマキリ。現代の昆虫学者によってその存在がつい最近確認された。魔力を持つと言われている。\r\nバハリ湾の畑で見つかる。"
+  },
+  "BP_Bug_MantisR1_C": {
+    "name": "マダラカマキリ",
+    "description": "まだら模様がきれいな珍しいカマキリ。\r\nキリマのドラゴンの祠周辺で見つかる。"
+  },
+  "BP_Bug_MantisR2_C": {
+    "name": "リーフストーカーカマキリ",
+    "description": "葉っぱしか食べない草食性のカマキリ。\r\nバハリ湾の森で採集していたら見つかるかも。"
+  },
+  "BP_Bug_MantisU_C": {
+    "name": "ガーデンカマキリ",
+    "description": "これは珍しくない。庭にいる通常のカマキリだ。\r\nキリマの池の周辺で見つかる。キリマの池の周辺で採集していても見つかるかも。"
+  },
+  "BP_Bug_MothC_C": {
+    "name": "キリマナイトガ",
+    "description": "美しいが、このキリマナイトガは熱い夏の夜に大量に発生するので、害虫だと思われている。しまってある布には近づけないで。\r\n夕方から夜にかけてキリマとバハリ湾で見つかる。"
+  },
+  "BP_Bug_MothR_C": {
+    "name": "クモノスベールガ",
+    "description": "このガの羽はとても薄いのでドラゴンの領域が透き通って見えるって言われている。\r\n夕方から夜にかけてキリマの平原で見つかる。"
+  },
+  "BP_Bug_MothU_C": {
+    "name": "ムーンフェアリーガ",
+    "description": "ムーンフェアリーガはドラゴンムーンと特別な関係があると言われていて、周期の特別な時にしか現れない。\r\n夕方から夜にかけてバハリ湾の平原と森で見つかる。"
+  },
+  "BP_Bug_PedeR1_C": {
+    "name": "フサフサヤスデ",
+    "description": "育毛の問題を抱えているヤスデ。\r\nバハリ湾の森で見つかる。"
+  },
+  "BP_Bug_PedeR2_C": {
+    "name": "キラヤカムカデ",
+    "description": "光沢のある硬い殻を持つ珍しいムカデ。\r\nバハリ湾での採掘で見つかる可能性がある。"
+  },
+  "BP_Bug_PedeU_C": {
+    "name": "ガーデンヤスデ",
+    "description": "庭の農作物を食べるのが大好きな、茶色と緑色のヤスデ。\r\nキリマの畑で見つかる。また、キリマの畑で採集しているときに見つかるチャンスもある。"
+  },
+  "BP_Bug_SnailR_C": {
+    "name": "タテジマカタツムリ",
+    "description": "初期のマジリたちがその殻を硬貨として使っていた、特徴的な縞模様を持ったカタツムリ。\r\nバハリ湾の海岸沿いで見つかる。"
+  },
+  "BP_Bug_SnailU_C": {
+    "name": "ガーデンカタツムリ",
+    "description": "葉っぱみたいに見えるように進化したカタツムリ。敵から隠れるのには適しているけど、リーフストーカーカマキリから隠れるのには適していない。\r\nバハリ湾の海岸沿いと森で見つかる。"
+  },
+  "BP_ChapaaPile_C": {
+    "name": "Rummage Pile",
+    "description": ""
+  },
+  "BP_Coral_C": {
+    "name": "サンゴ",
+    "description": "このサンゴを家に持ち帰って、自宅でもビーチの雰囲気を味わおう。サンゴ礁の香りがしてくるかも！？"
+  },
+  "BP_Fish_AlbinoEeel_C": {
+    "name": "アルビノウナギ",
+    "description": "色素がないうなぎ。\r\nミミズを使ってバハリ湾の洞窟で見つかる。"
+  },
+  "BP_Fish_Alligator_Gar_C": {
+    "name": "アリゲーターガー",
+    "description": "鮮やかな紫色の鱗を持つ肉食魚。長い鼻と大きな歯の列から、アリゲーターガーと名付けられた。\r\nキリマ湖でグロウワームを使うと見つかる。"
+  },
+  "BP_Fish_AncientFish_C": {
+    "name": "古代魚",
+    "description": "この魚はパリア大陸ほど古くて、絶滅していると思われていた。あなたと似ているとこがありますね。"
+  },
+  "BP_Fish_Bahari_Pike_C": {
+    "name": "バハリパイク",
+    "description": "バハリ湾に生息する深い緑色のパイク。\r\nバハリの川でグロウワームを使って見つかる。"
+  },
+  "BP_Fish_BahariBream_C": {
+    "name": "バハリブリーム",
+    "description": "地元の食事では定番の魚だと知られている。\r\nミミズを使ってバハリ湾の海岸沖で見つかる。"
+  },
+  "BP_Fish_Barracuda_C": {
+    "name": "バラクーダ",
+    "description": "少々のバターで焼くととてもおいしくなる悪質な海水の天敵。\r\n夕方と夜に餌なしでバハリ湾の海岸沖で見つかる。"
+  },
+  "BP_Fish_BatRay_C": {
+    "name": "コウモリエイ",
+    "description": "コウモリが飛ぶように水から飛び出てくる不吉なエイ。\r\nミミズを使ってバハリ湾の洞窟で見つかる。"
+  },
+  "BP_Fish_Beluga_Sturgeon_C": {
+    "name": "オオチョウザメ",
+    "description": "一生、成長する大型のチョウザメ。\r\nキリマ湖でグロウワームを使って見つかる。"
+  },
+  "BP_Fish_Bigeye_Tuna_C": {
+    "name": "クロマグロ",
+    "description": "海流の中を素早く泳ぐことに適応した、つやのある一般的な魚。\r\nバハリ湾沖でミミズを使って見つかる。"
+  },
+  "BP_Fish_Black_Sea_Bass_C": {
+    "name": "ブラックシーバス",
+    "description": "皮の黒い点で知られている、このバスは穏やかでマジリと人間に危害はない。\r\n発光ミミズを使ってバハリ湾の海岸沖で見つかる。"
+  },
+  "BP_Fish_Blobfish_C": {
+    "name": "ブロブフィッシュ",
+    "description": "洞窟のプールの底に生息する、肥大したぬるぬるした魚。\r\nグロウワームを使ってバハリ湾の洞窟で見つかる。"
+  },
+  "BP_Fish_Blue_Spotted_Ray_C": {
+    "name": "ルリイロエイ",
+    "description": "体全体に鮮やかな青い斑点、尾には青い縞模様があるカラフルなスティングレイ。\r\nバハリ湾沖で、朝・昼・晩にグロウワームを使って見つかる。"
+  },
+  "BP_Fish_BlueMarlin_C": {
+    "name": "アオカジキ",
+    "description": "大きくて、どんな死闘にも耐えてきた魚。熟練した漁師でさえもアオカジキを賞品とみなす。\r\nバハリ湾沖でミミズを使って見つかる。"
+  },
+  "BP_Fish_Cactus_Moray_C": {
+    "name": "サボテンウツボ",
+    "description": "天敵を抑止するために伸ばしている鋭い背骨を持ったうなぎ。\r\n昼と夜に発光ミミズを使ってバハリ湾の海岸沖で見つかる。"
+  },
+  "BP_Fish_CalicoKoi_C": {
+    "name": "キャラココイ",
+    "description": "美しいキャラコ模様の標準のコイ。\r\n餌を使わずに池で発見できる。"
+  },
+  "BP_Fish_CantankerousKoi_C": {
+    "name": "ブツクサコイ",
+    "description": "地元伝説によると、最初のブツクサコイは魔女に変身させられた不機嫌なおじいさんだった。\r\n日中と夜に、餌なしで池で見つかる。"
+  },
+  "BP_Fish_Channel_Catfish_C": {
+    "name": "ブチナマズ",
+    "description": "速い流れを通り抜ける川ナマズ。\r\n餌なしでキリマ川で見つかる。"
+  },
+  "BP_Fish_Chub_C": {
+    "name": "チャブ",
+    "description": "食欲旺盛で有名なとても捕まえにくい魚。\r\nバハリ川でグロウワームを使って見つかる。"
+  },
+  "BP_Fish_Cloudfish_C": {
+    "name": "クラウドフィッシュ",
+    "description": "身を隠すために、底の土で砂の雲のような渦巻きを作る底生魚の一種。\r\n朝と昼に池でグロウワームを使って見つかる。"
+  },
+  "BP_Fish_Codfish_C": {
+    "name": "バハリバス",
+    "description": "まろやかな味わいで知られる、地元でたくさん捕れる主食魚。\r\nバハリ湾沖で餌なしで見つかる。"
+  },
+  "BP_Fish_Crimson_Fangtooth_C": {
+    "name": "クリムゾンオニキンメ",
+    "description": "体の大きさに比べてデカすぎる歯を持った小さな赤い魚。\r\n発光ミミズを使ってバハリ湾の洞窟で見つかる。"
+  },
+  "BP_Fish_Crucian_Carp_C": {
+    "name": "フナ",
+    "description": "銅のような金色の鱗を持つ丈夫なコイ。\r\nキリマ川ではグロウワームで見つかる。"
+  },
+  "BP_Fish_Cutthroat_Trout_C": {
+    "name": "カットスロートマス",
+    "description": "その長い顎と口から名付けられた川ナマズ。\r\nミミズを使ってバハリ湾の川で見つかる。"
+  },
+  "BP_Fish_Dawnray_C": {
+    "name": "アカツキエイ",
+    "description": "夜明けに狩りをする金色のエイで、その鱗が太陽の光を吸収する。\r\n朝にバハリ川で餌なしで見つかる。"
+  },
+  "BP_Fish_Duskray_C": {
+    "name": "ユウヤミエイ",
+    "description": "夕暮れ時に川底に溶け込むように狩りをする、斑模様のチャコールエイ。\r\n夕方にバハリの川で餌なしで見つかる。"
+  },
+  "BP_Fish_Enchanted_Pupfish_C": {
+    "name": "魔法のメダカ",
+    "description": "フローをごくわずか鱗に吸収することができるかわいい小魚。\r\nキリマ湖でグロウワームを使って見つかる。"
+  },
+  "BP_Fish_Energized_Piranha_C": {
+    "name": "ギラギラピラニア",
+    "description": "魔法がかかったグリマルキンの小物を食べ、魔法を吹き込まれたピラニア。\r\nミミズを使ってキリマの川で見つかる。"
+  },
+  "BP_Fish_EyelessMinnow_C": {
+    "name": "メナシヒメハヤ",
+    "description": "目の必要性を失った洞窟に住む魚。\r\nバハリ湾の洞窟で餌なしで見つかる。"
+  },
+  "BP_Fish_FairyCarp_C": {
+    "name": "フェアリーコイ",
+    "description": "うっとりさせる半透明の光沢を持った恥ずかしがり屋の魚。\r\n朝と夕方にミミズを使って池で見つかる。"
+  },
+  "BP_Fish_Fathead_Minnow_C": {
+    "name": "デカヘッドミノウ",
+    "description": "大きすぎる頭で知られている小さな淡水魚。\r\n発光ミミズを使ってバハリ川で見つかる。"
+  },
+  "BP_Fish_Flametongue_Ray_C": {
+    "name": "フレイムタンエイ",
+    "description": "背中に鮮やかなオレンジと赤色の線があることから名付けられた、珍しい川エイ。\r\nキリマ川では朝と昼にグロウワームを使って見つかる。"
+  },
+  "BP_Fish_FreshwaterEel_C": {
+    "name": "タンスイウナギ",
+    "description": "ヘビと間違われることが多い、細長い川魚。\r\nキリマ川では夕方から夜にかけてミミズを使って見つかる。"
+  },
+  "BP_Fish_Giant_Goldfish_C": {
+    "name": "大きい金魚",
+    "description": "予想に反して、伝説的な大きさになる金魚もいる。\r\n発光ミミズを使って池で見つかる。"
+  },
+  "BP_Fish_Giant_Kilima_Stingray_C": {
+    "name": "ジャイアントキリマエイ",
+    "description": "キリマ池の主、このアカエイの毒性のある棘は獲物の骨にまで貫通する。\r\n朝と昼と夜に発光ミミズでキリマ池で見つかる。"
+  },
+  "BP_Fish_Gillyfin_C": {
+    "name": "ギルフィン",
+    "description": "パリアで最も一般的な魚。\r\n餌なしでキリマ池で見つかる。"
+  },
+  "BP_Fish_GoldenSalmon_C": {
+    "name": "オウゴンザケ",
+    "description": "太陽の光で成長することで知られる一般的なサケの一種。\r\nキリマ川では朝と昼にミミズを使って見つかる。"
+  },
+  "BP_Fish_Honey_Loach_C": {
+    "name": "ミツバチドジョウ",
+    "description": "ミツバチのような黄色と黒の縞模様の川魚。\r\n昼と夜に発光ミミズを使ってバハリ川で見つかる。"
+  },
+  "BP_Fish_Hypnotic_Moray_C": {
+    "name": "サイミンウツボ",
+    "description": "印象的な模様と、催眠術をかけるかのような動きを組み合わせて獲物をおびき寄せるウツボ。\r\nバハリ湾の洞窟でグロウワームを使って見つかる。"
+  },
+  "BP_Fish_Indigo_Lamprey_C": {
+    "name": "アイイロヤツメ",
+    "description": "昔のパリアの人々はこの魚の鱗を収穫して藍染めを作っていた。\r\n夕方と夜に発光ミミズを使ってキリマの川で見つかる。"
+  },
+  "BP_Fish_Kenjis_Carp_C": {
+    "name": "ケンリのコイ",
+    "description": "ケンリはキリマ村の近くでこのコイを見つけたらしい。フナにとても良く似ている…\r\nキリマ川でグローワームを使って見つかる。"
+  },
+  "BP_Fish_Kilima_Grayling_C": {
+    "name": "キリマカワヒメマス",
+    "description": "人生の半分を海で過ごしてからキリマ渓谷の川に帰る、流線型の魚。\r\n発光ミミズを使ってキリマの川で見つかる。"
+  },
+  "BP_Fish_Kilima_Redfin_C": {
+    "name": "キリマレッドフィン",
+    "description": "なんでも食べる強烈な川の天敵。\r\nミミズを使ってバハリ湾の川で見つかる。"
+  },
+  "BP_Fish_KilimaCatFish_C": {
+    "name": "キリマナマズ",
+    "description": "キリマ渓谷にしか生息していない珍しい種類のナマズ。\r\nミミズを使って池で見つかる。"
+  },
+  "BP_Fish_LargemouthBass_C": {
+    "name": "オオクチバス",
+    "description": "自身の体重の50％以上の生き物を飲み込めるとてもおしゃべりなバス。\r\nミミズを使ってキリマ池で見つかる。"
+  },
+  "BP_Fish_Midnight_Paddlefish_C": {
+    "name": "ミッドナイトパドルフィッシュ",
+    "description": "黒い鱗で敵から身を隠すことができる、夜に捕食する珍しいパドルフィッシュ。\r\n夜のキリマ湖でグロウワームを使って見つかる。"
+  },
+  "BP_Fish_Mirror_Carp_C": {
+    "name": "ミラーコイ",
+    "description": "鏡のような鱗を持った銀色のコイ。\r\nミミズを使って池で見つかる。"
+  },
+  "BP_Fish_Mottled_Gobi_C": {
+    "name": "斑点模様のゴビ",
+    "description": "余分な池の藻類を食べるあまり評価されていない魚。\r\n発光ミミズを使って池で見つかる。"
+  },
+  "BP_Fish_Mudminnow_C": {
+    "name": "ドロヒメハヤ",
+    "description": "泥のような色が特徴的なヒメハヤ。\r\n池で餌を使わなくても見つかる。"
+  },
+  "BP_Fish_MutatedAngler_C": {
+    "name": "ミュータントアンコウ",
+    "description": "人類の時代からの生き残りだと言われている、恐ろしい怪物。\r\nミミズを使ってバハリ湾の洞窟で見つかる。"
+  },
+  "BP_Fish_Oily_Anchovy_C": {
+    "name": "油多めのアンチョビ",
+    "description": "一部のマジリたちに変に食欲をそそるヌルヌルした魚。\r\nミミズを使ってバハリ湾の川で見つかる。"
+  },
+  "BP_Fish_Orange_Bluegill_C": {
+    "name": "オレンジブルーギル",
+    "description": "昆虫を好むが口に入ればなんでも食べる雑食性の魚。\r\nミミズを使って池で見つかる。"
+  },
+  "BP_Fish_Paddlefish_C": {
+    "name": "パドルフィッシュ",
+    "description": "数百万年前から生存している原始的な魚。\r\n朝、昼、晩にバハリ湾の川でミミズを使って見つかる。"
+  },
+  "BP_Fish_PaintedPerch_C": {
+    "name": "パレットペルカ",
+    "description": "きれいな色で知られる小さな川魚。\r\nキリマ湖でミミズを使って見つかる。"
+  },
+  "BP_Fish_Platinum_Chad_C": {
+    "name": "プラチナチャド",
+    "description": "このイケメンの素晴らしくプラチナな鱗は漁師を富の夢へと騙す。\r\n発光ミミズを使ってキリマの川で見つかる。"
+  },
+  "BP_Fish_PrismTrout_C": {
+    "name": "プリズムマス",
+    "description": "太陽の光を浴びて虹色に輝くゴージャスなサケ。\r\nキリマ川では朝と昼にミミズを使って見つかる。"
+  },
+  "BP_Fish_RadiantSunfish_C": {
+    "name": "ラディアントマンボウ",
+    "description": "太陽を直視した時のような眩しい光を放つ、まばゆい川魚。\r\nキリマの川ではミミズを使って見つかる。"
+  },
+  "BP_Fish_Rainbow_Trout_C": {
+    "name": "ニジマス",
+    "description": "落ち着いた虹色の鱗模様をした川魚。プリズムマスを羨むほど賢くはない。\r\n餌なしでキリマ川で見つかる。"
+  },
+  "BP_Fish_Red-bellied_piranha_C": {
+    "name": "ピラニア・ナッテリー",
+    "description": "なんでも食べる強烈な川の天敵。\r\nミミズを使ってキリマ川で見つかる。"
+  },
+  "BP_Fish_RibbontailRay_C": {
+    "name": "リボンテールエイ",
+    "description": "熱帯海域によく出現すると知られている、アオマダラエイは最近イナエフンの諸島からパリア共和国の西海岸に突然移動してきたんだ。\r\n朝と夕方に発光ミミズを使ってバハリ湾の海岸沖で見つかる。"
+  },
+  "BP_Fish_Rosy_Bitterling_C": {
+    "name": "タイリクバラタナゴ",
+    "description": "背中にバラ色の斑点がある淡水魚。\r\nバハリ川で餌なしで見つかる。"
+  },
+  "BP_Fish_Sardine_C": {
+    "name": "サーディン",
+    "description": "漬物にしたら多くのマジリたちに喜ばれる小さいけど簡単に釣れる魚。\r\n餌なしでバハリ湾の海岸沖で見つかる。"
+  },
+  "BP_Fish_Scarlet_Koi_C": {
+    "name": "ベニイロコイ",
+    "description": "濃い赤の模様が入ったスマートなコイ。\r\n発光ミミズを使って池で見つかる。"
+  },
+  "BP_Fish_Shimmerfin_C": {
+    "name": "カゲロウミノウ",
+    "description": "時々、2つの場所に同時にいることができる不思議な魚。\r\nキリマ湖でミミズを使って見つかる。"
+  },
+  "BP_Fish_SilverSalmon_C": {
+    "name": "ギンザケ",
+    "description": "一般的な銀色の魚。\r\n夕方から夜にかけてキリマ川で餌なしで見つかる。"
+  },
+  "BP_Fish_Silvery_Minnow_C": {
+    "name": "ギンヒメハヤ",
+    "description": "太陽に照らされて輝く、銀色の鱗を持つヒメハヤ。\r\nバハリ川で餌なしで見つかる。"
+  },
+  "BP_Fish_SmallmouthBass_C": {
+    "name": "コクチバス",
+    "description": "水からときどき飛び跳ねる以外、あまり言うことのない、どこにでもいるバス。\r\nキリマ湖でミミズを使って見つかる。"
+  },
+  "BP_Fish_SpottedBullhead_C": {
+    "name": "マダラブルヘッド",
+    "description": "マダラ模様が特徴的なブルヘッド。\r\nキリマ川で餌なしで見つかる。"
+  },
+  "BP_Fish_Stalking_Catfish_C": {
+    "name": "ストーキングナマズ",
+    "description": "青い肉食ナマズ。近くの弱った魚に襲いかかる。\r\n夕方から夜にかけてグロウワームを使って池で見られる。"
+  },
+  "BP_Fish_Stickleback_C": {
+    "name": "トゲウオ",
+    "description": "魚の卵や昆虫、甲殻類、釣り人の足指などを好んで食べる肉食魚。\r\n朝と昼にミミズを使ってキリマ川で見つかる。"
+  },
+  "BP_Fish_Stonefish_C": {
+    "name": "オコゼ",
+    "description": "毒性に強い、オコゼは普段周りに溶け込んで獲物を待つ。\r\n発光ミミズを使ってバハリ湾の洞窟で見つかる。"
+  },
+  "BP_Fish_Stormray_C": {
+    "name": "ストームエイ",
+    "description": "水流をねじり、尾に雷を流して狩りをする雄大なリバーレイ。\r\n朝と夕方にバハリの川でグロウワームを使って見つかる。"
+  },
+  "BP_Fish_Striped_Dace_C": {
+    "name": "シマシマデイス",
+    "description": "背中に縞模様のあるデイス。\r\nキリマ川で餌なしで見つかる。"
+  },
+  "BP_Fish_StripedSturgeon_C": {
+    "name": "シマシマチョウザメ",
+    "description": "日光の下でカモフラージュできる、明るい色のしま模様が特徴的な湖に生息する底生魚。\r\n夕方から夜にかけて、キリマ湖でミミズを使って見つかる。"
+  },
+  "BP_Fish_Swordfin_Eel_C": {
+    "name": "ツルギウナギ",
+    "description": "自分の体を使って獲物を断つ頂点捕食者のウナギ。\r\nバハリの川でグローワームを使って見るけることができます。"
+  },
+  "BP_Fish_Thundering_Eel_C": {
+    "name": "サンダーウナギ",
+    "description": "獲物に電流で一撃を取れる電気うなぎ。\r\nミミズを使ってバハリ湾の川で見つかる。"
+  },
+  "BP_Fish_UmbranCarp_C": {
+    "name": "アンブラコイ",
+    "description": "フェアリーコイの親戚で、洞窟や地底湖の暗い環境を好むアンブラコイ。\r\nバハリ湾の洞窟でエサなしで見つかる。"
+  },
+  "BP_Fish_UnicornFish_C": {
+    "name": "ナガバナユニコーンフィッシュ",
+    "description": "ユニコーンフィッシュの角はどんな錬金術師やポーションマスターにとっても貴重である。でも気をつけて、熟達した漁師でも左が右と思わせてしまうほどの超能力があると言われている。\r\n日中に発光ミミズを使ってバハリ湾の海岸沖で見つかる。"
+  },
+  "BP_Fish_Voidray_C": {
+    "name": "コクウエイ",
+    "description": "異世界からの恐怖。コクウエイはエコーの世界に入り小さなエコーを食べていると言われている。\r\nバハリ湾の洞窟でグローワームを使って見つかる。"
+  },
+  "BP_Fish_Willow_Lamprey_C": {
+    "name": "ヤナギヤツメ",
+    "description": "柳の枝に似ていることから名付けられた細長いヤツメウナギ。\r\n夜にバハリ湾の川でミミズを使って見つかる。"
+  },
+  "BP_Fish_Yellow_Perch_C": {
+    "name": "イエローペルカ",
+    "description": "川でよく見られるペルカ属の魚。\r\nバハリ川では餌なしで見つかる。"
+  },
+  "BP_Fish_Yellowfin_Tuna_C": {
+    "name": "キハダマグロ",
+    "description": "大きさと比べてもっと速く泳げる大きいマグロ。\r\nバハリ湾沖でグロウワームを使って見つかる。"
+  },
+  "BP_FishingJackpot_C": {
+    "name": "びしょ濡れのチェスト",
+    "description": "この不思議なチェストを開けて、中にある報酬を受け取ろう。"
+  },
+  "BP_FishingRecipeBook_C": {
+    "name": "レシピ：フィッシュシチュー",
+    "description": "消費して、フィッシュシチューの作り方を覚える。"
+  },
+  "BP_Gatherable_MushroomBlue_C": {
+    "name": "ブライトシュルーム",
+    "description": "コウセンキノコはフローを吸収することでその輝きを得るため、錬金術でよく使用される。"
+  },
+  "BP_Gatherable_MushroomR_C": {
+    "name": "マウンテンアミガサタケ",
+    "description": "一般的なキノコである山のアミガサタケは、家の庭でも見つけることができる！そのまま食べても、調理しても、大人気。"
+  },
+  "BP_HeartdropLilly_C": {
+    "name": "心百合",
+    "description": "心百合は珍しい花で、ロマンチックな愛の開花というパリア人にとって特別な意味を持っている。"
+  },
+  "BP_Mining_Clay_C": {
+    "name": "粘土",
+    "description": "土でできた素材。製錬して、クラフト用のセラミックを作ることができる。"
+  },
+  "BP_Mining_Copper_Large_C": {
+    "name": "銅鉱石 (L)",
+    "description": "銅を含む岩石。製錬して、クラフト用のインゴットを作ることができる。"
+  },
+  "BP_Mining_Copper_Medium_C": {
+    "name": "銅鉱石 (M)",
+    "description": "銅を含む岩石。製錬して、クラフト用のインゴットを作ることができる。"
+  },
+  "BP_Mining_Copper_Small_C": {
+    "name": "銅鉱石 (S)",
+    "description": "銅を含む岩石。製錬して、クラフト用のインゴットを作ることができる。"
+  },
+  "BP_Mining_Iron_Large_C": {
+    "name": "鉄の鉱石 (L)",
+    "description": "鉄を含む岩石。製錬して、クラフト用のインゴットを作ることができる。"
+  },
+  "BP_Mining_Iron_Medium_C": {
+    "name": "鉄の鉱石 (M)",
+    "description": "鉄を含む岩石。製錬して、クラフト用のインゴットを作ることができる。"
+  },
+  "BP_Mining_Iron_Small_C": {
+    "name": "鉄の鉱石 (S)",
+    "description": "鉄を含む岩石。製錬して、クラフト用のインゴットを作ることができる。"
+  },
+  "BP_Mining_Palium_Large_C": {
+    "name": "パリウム鉱石 (L)",
+    "description": "パリウムを含む岩石。製錬して、クラフト用のインゴットを作ることができる。"
+  },
+  "BP_Mining_Palium_Medium_C": {
+    "name": "パリウム鉱石 (M)",
+    "description": "パリウムを含む岩石。製錬して、クラフト用のインゴットを作ることができる。"
+  },
+  "BP_Mining_Palium_Small_C": {
+    "name": "パリウム鉱石 (S)",
+    "description": "パリウムを含む岩石。製錬して、クラフト用のインゴットを作ることができる。"
+  },
+  "BP_Mining_Stone_Large_C": {
+    "name": "石 (L)",
+    "description": "一般的な石。製錬してレンガにすることができる。"
+  },
+  "BP_Moss_DragonsBeard_C": {
+    "name": "ドラゴンのヒゲピート",
+    "description": "ドラゴンのヒゲピートは、その色がマジのものに似ていることから名付けられた、珍しい錬金術のコケである。"
+  },
+  "BP_Moss_EmeraldCarpet_C": {
+    "name": "エメラルドカーペットコケ",
+    "description": "エメラルドカーペットコケの鮮やかな色で家を埋め尽くすと、幸運が訪れると言われている。"
+  },
+  "BP_Oyster_C": {
+    "name": "閉じたままの牡蠣",
+    "description": "この牡蠣を開けてみて！中に真珠が入ってなくても、身を食べることはできる。"
+  },
+  "BP_PoisonFlower_C": {
+    "name": "ブライアー・デイジー",
+    "description": "山地に生息するブライアー・デイジーは、過酷な環境でも生きることができる。"
+  },
+  "BP_QuestItem_CookBook_1_C": {
+    "name": "エリート料理のレシピ本",
+    "description": "本の表紙には、「アッパークラスト：マジリエリートのための料理ガイド」と書かれてある。"
+  },
+  "BP_QuestItem_CookBook_2_C": {
+    "name": "デザートの料理本",
+    "description": "本の表紙には、「スイーツ・フォー・ザ・スウィート：よだれの出るようなデザートを作るためのガイドブック」と書かれてある。"
+  },
+  "BP_Seashell_C": {
+    "name": "貝殻",
+    "description": "海辺で貝殻を売っている人はいると思う？いや。自分で見つけるしかないよ。"
+  },
+  "BP_Spice_DariCloves_C": {
+    "name": "ダリクローブ",
+    "description": "珍しいダリ・クローブは、シェフや錬金術師に愛されるスパイス。魔力を持つと言われている。"
+  },
+  "BP_Spice_HeatRoot_C": {
+    "name": "火の根",
+    "description": "心配しないで！料理としても薬としても、スパイシーな火の根は体を内側から温めてくれる。"
+  },
+  "BP_Spiced_Sprouts_C": {
+    "name": "スパイスの芽",
+    "description": "スパイスの芽は、どんな料理にも深みのある色合いと自然の香りを加えてくれる。しかも簡単に手に入る。"
+  },
+  "BP_SundropLillies_C": {
+    "name": "陽百合",
+    "description": "陽百合は、花びらを日光に向けることができる広々とした野原で育つ。"
+  },
+  "BP_SweetLeaves_C": {
+    "name": "アマメシバ",
+    "description": "甘いものが好きな人は、きっとこのアマメシバが好きなはず。パリアで大人気のデザート材料のひとつ。"
+  },
+  "BP_Trash_Shipfragments_C": {
+    "name": "船の破片",
+    "description": "海でよく見かけるゴミ。最近、沈没した船の痕跡。"
+  },
+  "BP_Trash_Wagonwheel_C": {
+    "name": "ワゴンホイール",
+    "description": "クリスタル湖周辺でよく見かけるゴミ。旅人が落としていったお宝も？"
+  },
+  "BP_Trash_WaterloggedBoot_C": {
+    "name": "水浸しのブーツ",
+    "description": "ミラー池でよく見かけるゴミ。"
+  },
+  "BP_TreeChoppable_Birch_Large_C": {
+    "name": "M (L)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Large_CoOp_C": {
+    "name": "Flow M (L)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Medium_C": {
+    "name": "M (M)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Medium_CoOp_C": {
+    "name": "Flow M (M)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Sapling_CoOp_C": {
+    "name": "Flow M (XS)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Small_C": {
+    "name": "M (S)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Small_CoOp_C": {
+    "name": "Flow M (S)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Large_C": {
+    "name": "ジュニパーの種 (L)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Large_CoOp_C": {
+    "name": "Flow ジュニパーの種 (L)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Medium_C": {
+    "name": "ジュニパーの種 (M)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Medium_CoOp_C": {
+    "name": "Flow ジュニパーの種 (M)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Sapling_CoOp_C": {
+    "name": "Flow ジュニパーの種 (XS)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Small_C": {
+    "name": "ジュニパーの種 (S)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Small_CoOp_C": {
+    "name": "Flow ジュニパーの種 (S)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Large_C": {
+    "name": "M (L)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Large_CoOp_C": {
+    "name": "Flow M (L)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Medium_C": {
+    "name": "M (M)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Medium_CoOp_C": {
+    "name": "Flow M (M)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Sapling_CoOp_C": {
+    "name": "Flow M (XS)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Small_C": {
+    "name": "M (S)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Small_CoOp_C": {
+    "name": "Flow M (S)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Large_C": {
+    "name": "Pine (L)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Large_CoOp_C": {
+    "name": "Flow Pine (L)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Large2_CoOp_C": {
+    "name": "Flow Pine (XL)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Medium_C": {
+    "name": "Pine (M)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Medium_CoOp_C": {
+    "name": "Flow Pine (M)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Sapling_CoOp_C": {
+    "name": "Flow Pine (XS)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Small_C": {
+    "name": "Pine (S)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Small_CoOp_C": {
+    "name": "Flow Pine (S)",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Cearnuk_T1_C": {
+    "name": "Sernuk",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Cearnuk_T2_C": {
+    "name": "Elder Sernuk",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Cearnuk_T3_C": {
+    "name": "Proudhorn Sernuk",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Chapaa_T1_C": {
+    "name": "Spotted Chapaa",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Chapaa_T2_C": {
+    "name": "Striped Chapaa",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Chapaa_T3_C": {
+    "name": "Azure Chapaa",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_TreeClimber_T1_C": {
+    "name": "Muujin",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_TreeClimber_T2_C": {
+    "name": "Banded Muujin",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_TreeClimber_T3_C": {
+    "name": "Bluebristle Muujin",
+    "description": ""
+  },
+  "BP_WaterFlower_C": {
+    "name": "クリスタル湖の蓮",
+    "description": "クリスタル湖の蓮は発見された場所にちなんで名付けられ、現在では染料として使われている。"
+  },
+  "BP_WaterPlane_Fishing_AZ1_Cave_SQ_C": {
+    "name": "Cave Bay",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_LakeVillage_SQ_C": {
+    "name": "Lake Village",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_OceanAZ1_SQ_C": {
+    "name": "Ocean Bay",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_PondVillage_SQ_C": {
+    "name": "Pond Village",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_RiverAZ1_SQ_C": {
+    "name": "River Bay",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_RiverVillage_SQ_C": {
+    "name": "River Village",
+    "description": ""
+  },
+  "BP_WildGarlic_C": {
+    "name": "野生のニンニク",
+    "description": "ニンニクはどんな料理もおいしくする材料だ！生で食べてるのもあり。そうすれば口から素敵な臭いがするでしょう。"
+  }
+}

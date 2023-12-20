@@ -1,0 +1,134 @@
+{
+    "meta": {
+        "subtitle": "Palia 인터랙티브 맵",
+        "short": "팔리아 지도",
+        "description": "이 인터랙티브 Palia 맵으로 Palia 게임 플레이를 극대화하세요! 킬리마 밸리(Kilima Valley), 바하리 베이(Bahari Bay) 및 박람회장(Fairgrounds)을 발견하고 실시간 위치 추적으로 모든 위치를 찾으십시오. 주간 원함은 모든 마을 사람들이 사용할 수 있습니다.",
+        "locations": "위치"
+    },
+    "download": {
+        "metaTitle": "Palia Map 앱 다운로드",
+        "metaDescription": "Palia 세계를 탐험하기 위한 최고의 동반자인 Palia Map App을 다운로드하세요. 대화형 지도, 실시간 추적 등으로 게임 경험을 향상시키십시오.",
+        "backToTheMap": "지도로 돌아가기",
+        "title": "Palia 지도 앱: 최고의 Palia 동반자",
+        "realTimePosition": {
+            "title": "실시간 플레이어 포지션 트래킹",
+            "description": "실시간 추적으로 게임 내 캐릭터의 위치를 확인하세요. 탐험을 하든, 농사를 짓든, 사냥을 하든, 항상 지도에서 자신의 위치를 파악하세요."
+        },
+        "2ndScreenMode": {
+            "title": "두 번째 화면 모드",
+            "description": "2번째 화면 모드에서 신뢰할 수 있는 동반자로 지도와 함께 Palia를 경험하십시오. 마법의 세계를 탐험하는 동안 주변을 주시하세요."
+        },
+        "overlayMode": {
+            "title": "중첩 모드(미니맵)",
+            "description": "지도를 편리한 오버레이 모드로 변환하여 Palia 모험에 몰입하는 동안 미니맵으로 사용하기에 완벽합니다."
+        },
+        "weeklyWants": {
+            "title": "주간 수배",
+            "description": "Palia의 마을 사람들이 매주 원하는 것을 업데이트하고 그들의 욕구를 충족시켜 유대를 강화하십시오. 일부 아이템은 더 많은 사랑을 받기도 합니다! 💕"
+        },
+        "filteringOptions": {
+            "title": "필터링 옵션",
+            "description": "곤충, 채집, 채광, 사냥 등에 대한 필터를 포함한 다양한 필터로 Palia Map 경험을 손쉽게 사용자 정의하십시오. 탐색 기본 설정에 맞게 맵을 조정합니다."
+        },
+        "multiLanguageSupport": {
+            "title": "다국어 지원",
+            "description": "영어, 독일어, 스페인어, 프랑스어 및 이탈리아어를 지원하는 🇬🇧 원하는 언어로 Palia Map 앱에 액세스하십시오 🇮🇹. 🇩🇪 🇫🇷 🇪🇸"
+        },
+        "note": "Palia Map 앱은 대화형 지도, 실시간 플레이어 추적, 주간 요구 사항 등을 포함한 다양한 기능으로 Palia 모험을 향상시키도록 설계되었습니다. 전에 없던 방식으로 Palia를 탐험하고 이 마법의 세계에서 자신만의 독특한 경험을 만드십시오.",
+        "download": "응용 프로그램을 다운로드하십시오"
+    },
+    "leaderboard": {
+        "metaTitle": "Palia 앱 리더보드",
+        "metaDescription": "Palia 앱 순위표를 확인하고 누가 가장 높은 순위와 기술 수준을 가지고 있는지 확인하십시오.",
+        "title": "Palia 앱 순위표: 탐험하고, 정복하고, 정상에 오르세요!",
+        "description": "팔리아에서 스릴 넘치는 여행을 시작하고 팔리아 앱 리더보드로 동료 모험가들 사이에서 눈에 띄세요. 캐릭터 레벨, 스킬 숙련도에서 자신의 순위를 확인하고 캐릭터의 이름을 보여주세요. 이 독점 순위표에 참여하려면 게임 내 앱이 설치되어 있는지 확인하십시오. Palia의 세계로 뛰어들어 진행 상황을 추적하고 다른 플레이어와 최고의 자리를 놓고 경쟁하세요! 기술을 발휘하고, 도전을 정복하고, Palia 앱 리더보드에서 귀하의 업적을 축하하도록 하십시오. Palia의 엘리트 대열에 합류하십시오 - 당신의 모험이 곧 인정받을 것입니다!",
+        "level": "수준",
+        "name": "이름",
+        "skills": "기술",
+        "plotLevel": "플롯 수준"
+    },
+    "rummagePile": {
+        "metaTitle": "Palia에서 Rummage Piles를 발견하십시오 : 일일 보물이 기다리고 있습니다!",
+        "metaDescription": "킬리마 밸리(Kilima Valley)에 있는 Rummage Piles의 비밀 장소를 파헤치세요. 하루에 한 번 팔리아 일일 초기화 후 4:00 AM UTC에 멋진 보상을 획득하세요. 인터랙티브 지도로 탐험하고 팔리아에서 매일의 모험을 최대한 활용하세요! 🗺️✨",
+        "title": "Palia에서 Rummage Piles를 발견하십시오 : 일일 보물이 기다리고 있습니다!",
+        "description": "킬리마 밸리(Kilima Valley)에서 매일 모험을 떠나 Rummage Piles의 비밀 장소를 밝혀내세요. 이 독특한 채집품은 하루에 한 번 무작위 장소에 나타나 플레이어에게 흥미진진한 보상을 찾을 수 있는 기회를 제공합니다. 매일 오전 4:00 UTC에 팔리아가 초기화된 후 샅샅이 뒤진 더미와 상호작용하여 무작위 보상을 받으세요. 대화형 지도를 사용하여 숨겨진 보물의 위치를 정확히 찾아내고 Palia 경험을 향상시키십시오. 매일 깜짝 놀랄 만한 일들을 놓치지 마세요—Rummage Pile Map으로 Palia의 세계를 탐험하세요! 🌟"
+    },
+    "winterfestChallenge": {
+        "metaTitle": "제키의 겨울축제 챌린지 정복: 일곱 개의 겨울빛 상자의 비밀을 밝혀내세요!",
+        "metaDescription": "팔리아에서 제키의 축제 챌린지를 시작하세요! 마을 곳곳에 흩어져 있는 7개의 숨겨진 겨울빛 상자를 찾아 크리스마스 보물을 획득하세요. Zeki의 힌트를 해독하고, 경치 좋은 장소를 탐험하고, 스릴 넘치는 퀘스트로 Winterlights를 축하하세요. 팔리아에서 계절의 기쁨을 풀어보세요! 🎁✨",
+        "title": "제키의 겨울축제 챌린지 정복: 일곱 개의 겨울빛 상자의 비밀을 밝혀내세요!",
+        "description": "Zeki의 겨울축제 챌린지에 도전하여 팔리아의 축제 분위기에 동참하세요! 제키의 교활한 힌트를 따라 마을 곳곳에 흩어져 있는 7개의 숨겨진 겨울빛 상자를 찾으며 연말연시의 분위기에 흠뻑 빠져보세요. 여관의 웃음통부터 보트 하우스의 절벽 꼭대기 전망에 이르기까지, 각 상자에는 예리한 모험가를 위한 독특한 놀라움이 담겨 있습니다. Zeki가 만든 즐거운 퀘스트로 시즌을 탐험하고, 발견하고, 축하하세요. 친구들을 모아 수수께끼를 풀고 이 겨울빛을 팔리아에서 잊을 수 없는 추억으로 만들어 보세요! 🎄🔍"
+    },
+    "weeklyWants": {
+        "subtitle": "주간 수배 추적기: 팔리아의 주민 욕망을 밝혀내세요!",
+        "description": "Weekly Wants Tracker 기능을 사용하여 Palia의 활기찬 마을 사람들과의 관계를 강화하십시오. 일주일 동안 각 마을 사람들의 고유한 욕구를 파악하세요."
+    },
+    "menu": {
+        "status": "상태",
+        "previewAccess": "미리보기 액세스",
+        "eliteSupporters": "엘리트 서포터즈",
+        "previewAccessDesc": "미리 보기 액세스를 활성화하면 대중에게 공개되기 전에 최신 기능을 사용할 수 있습니다. 이 특전은 다음 경우에만 사용할 수 있습니다.",
+        "version": "버전",
+        "runningLatestVersion": "최신 버전의 앱을 실행하고 있습니다.",
+        "updateIsAvailable": "업데이트를 사용할 수 있습니다.",
+        "updateNow": "지금 업데이트!",
+        "isUpdating": "업데이트...",
+        "pendingRestart": "업데이트가 설치되었습니다. 업데이트를 적용하려면 앱을 다시 시작하세요.",
+        "restartNow": "지금 다시 시작하세요!",
+        "patronInfo": "Patreon에서 광고를 없애고 나를 지원해 주세요",
+        "becomePatron": "후원자가 되십시오",
+        "disconnectPatreon": "Patreon 계정 연결 해제하기",
+        "discoveredNodes": "검색된 노드",
+        "spawnNodes": "스폰 노드",
+        "settings": "설정",
+        "apps": "앱",
+        "community": "커뮤니티",
+        "discover": "발견하다",
+        "contribute": "기여하다",
+        "weeklyWants": "주간 수배",
+        "interactiveMap": "인터렉티브 맵",
+        "leaderboard": "리더보드(Leaderboard)",
+        "rummagePile": "샅샅이 뒤지는 말뚝",
+        "winterfestChallenge": "겨울축제 챌린지"
+    },
+    "search": {
+        "placeholder": "검색 노드",
+        "noResults": "결과를 찾을 수 없습니다."
+    },
+    "maps": {
+        "kilima-valley": "킬리마 밸리(Kilima Valley)",
+        "bahari-bay": "바하리 베이(Bahari Bay)",
+        "fairgrounds": "경기장",
+        "housing": "주택"
+    },
+    "nodes": {
+        "showAll": "모두 보기",
+        "hideAll": "모두 숨기기",
+        "location": "위치",
+        "area": "지역",
+        "landmark": "랜드마크",
+        "stable": "마구간",
+        "recipe": "처방",
+        "housingPlot": "주택 플롯",
+        "wardrobe": "옷장",
+        "zone": "구역",
+        "villager": "마을 사람",
+        "otherPlayer": "다른 플레이어"
+    },
+    "groups": {
+        "foraging": "구하고",
+        "mining": "광업",
+        "fishing": "낚시",
+        "hotspots": "핫스폿",
+        "hunting": "사냥",
+        "bugCatching": "곤충",
+        "lumberjacking": "벌목"
+    },
+    "settings": {
+        "iconSize": "아이콘 크기",
+        "backup": "백업",
+        "restore": "복원",
+        "reset": "재설정",
+        "alwaysShowStarredNodes": "항상 별표 표시된 노드 표시"
+    }
+}

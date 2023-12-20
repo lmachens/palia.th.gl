@@ -90,6 +90,10 @@
       "name": "Northern Mineshaft",
       "description": "\"Closed by order of the Mayor!\""
     },
+    "BP_InvisibleTeleporter_Parent_C_UAID_00BE43BC7D55E0B701_2107979866": {
+      "name": "Enter Ruins",
+      "description": "Needs Battery"
+    },
     "BP_InvisibleTeleporter_Parent_C_UAID_00BE43BC7D55F4AC01_1201166771": {
       "name": "???",
       "description": "The hatch won't budge."
@@ -256,28 +260,6 @@
       "name": "Kilima - Leafhopper Hills"
     }
   },
-  "zone": {
-    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE63137A01_1673725565": {
-      "name": "To Kilima Village",
-      "description": null
-    },
-    "BP_GateTeleporter_Parent_C_UAID_CC96E503E0F4C4A401_1919574119": {
-      "name": "To Housing Plot",
-      "description": null
-    },
-    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE630E7901_1573823092": {
-      "name": "To Kilima Village",
-      "description": null
-    },
-    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE634E7A01_1976701586": {
-      "name": "Fairgrounds",
-      "description": null
-    },
-    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE63627801_1776598294": {
-      "name": "To Bahari Bay",
-      "description": null
-    }
-  },
   "area": {
     "MapMarker_OldLighthouse_UAID_CC96E5156C5D3D9201_2102627787": {
       "name": "Lighthouse Lagoon",
@@ -389,6 +371,28 @@
     },
     "MapMarker_RemembranceGarden_UAID_CC96E5156C5D4A9101_1765151639": {
       "name": "Remembrance Beach",
+      "description": null
+    }
+  },
+  "zone": {
+    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE63137A01_1673725565": {
+      "name": "To Kilima Village",
+      "description": null
+    },
+    "BP_GateTeleporter_Parent_C_UAID_CC96E503E0F4C4A401_1919574119": {
+      "name": "To Housing Plot",
+      "description": null
+    },
+    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE630E7901_1573823092": {
+      "name": "To Kilima Village",
+      "description": null
+    },
+    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE634E7A01_1976701586": {
+      "name": "Fairgrounds",
+      "description": null
+    },
+    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE63627801_1776598294": {
+      "name": "To Bahari Bay",
       "description": null
     }
   },

@@ -13,6 +13,21 @@ const getFlagCode = (locale: string) => {
   if (locale === "en") {
     return "us";
   }
+  if (locale === "ja") {
+    return "jp";
+  }
+  if (locale === "ko") {
+    return "kr";
+  }
+  if (locale === "pt-br") {
+    return "br";
+  }
+  if (locale === "zh-hans") {
+    return "cn";
+  }
+  if (locale === "zh-hant") {
+    return "cn";
+  }
   return locale;
 };
 

@@ -1,0 +1,134 @@
+{
+    "meta": {
+        "subtitle": "Palia互動地圖",
+        "short": "帕利亞地圖",
+        "description": "使用這個互動式 Palia 地圖最大化您的 Palia 遊戲玩法！探索 Kilima Valley、Bahari Bay 和 Fairgrounds，通過即時位置跟蹤查找所有位置。所有村民都可以獲得每周的通緝令。",
+        "locations": "地點"
+    },
+    "download": {
+        "metaTitle": "Palia Map App 下載",
+        "metaDescription": "下載 Palia 地圖應用程式，這是您探索 Palia 世界的終極伴侶。通過互動式地圖、實時跟蹤等功能增強您的遊戲體驗。",
+        "backToTheMap": "返回地圖",
+        "title": "Palia 地圖應用程式：您的終極 Palia 伴侶",
+        "realTimePosition": {
+            "title": "即時玩家位置跟蹤",
+            "description": "通過即時跟蹤密切關注遊戲內角色的位置。無論您是在探險、耕種還是狩獵，請始終知道自己在地圖上的位置。"
+        },
+        "2ndScreenMode": {
+            "title": "第二屏模式",
+            "description": "在第二螢幕模式下，以地圖作為您值得信賴的夥伴體驗 Palia。在探索魔法世界的同時，請留意周圍的環境。"
+        },
+        "overlayMode": {
+            "title": "疊加模式（小地圖）",
+            "description": "將地圖轉換為方便的疊加模式，非常適合用作小地圖，同時沉浸在 Palia 冒險中。"
+        },
+        "weeklyWants": {
+            "title": "每周需求",
+            "description": "隨時瞭解帕利亞村民的每周需求，並通過滿足他們的願望來加強你們的聯繫。有些物品甚至會為您贏得額外的愛！💕"
+        },
+        "filteringOptions": {
+            "title": "過濾選項",
+            "description": "使用各種篩檢程式輕鬆自定義您的 Palia Map 體驗，包括昆蟲、覓食、採礦、狩獵等篩檢程式。根據您的探索偏好定製地圖。"
+        },
+        "multiLanguageSupport": {
+            "title": "多語言支援",
+            "description": "以您的首選語言訪問 Palia 地圖應用程式，支持🇬🇧英語、德語、西班牙語、 🇫🇷 🇪🇸 🇩🇪 法語和🇮🇹義大利語。"
+        },
+        "note": "Palia 地圖應用程式旨在通過一系列功能增強您的 Palia 冒險，包括互動式地圖、即時玩家跟蹤、每周需求等。以前所未有的方式探索帕利亞，在這個神奇的世界中創造自己獨特的體驗。",
+        "download": "下載應用程式"
+    },
+    "leaderboard": {
+        "metaTitle": "Palia 應用排行榜",
+        "metaDescription": "查看 Palia 應用排行榜，看看誰的排名和技能水準最高。",
+        "title": "Palia 應用排行榜：探索、征服並登上頂峰！",
+        "description": "在 Palia 踏上驚心動魄的旅程，並通過 Palia 應用程式排行榜在冒險家中脫穎而出。發現您在角色等級、技能熟練度方面的排名，並展示您的角色名稱。要加入這個獨家排行榜，請確保您已安裝遊戲內應用程式。潛入 Palia 的世界，跟蹤您的進度，並與其他玩家爭奪頭把交椅！釋放你的技能，征服挑戰，讓 Palia 應用排行榜慶祝你的成就。加入 Palia 的精英行列——您的冒險即將得到認可！",
+        "level": "水準",
+        "name": "名字",
+        "skills": "技能",
+        "plotLevel": "劇情級別"
+    },
+    "rummagePile": {
+        "metaTitle": "在帕利亞發現翻箱倒櫃的堆積物：每日寶藏等著您！",
+        "metaDescription": "揭開Kilima Valley的Rummage Piles的秘密位置。在UTC時間淩晨4：00的Palia每日重置後，每天清理一次令人興奮的獎勵。使用我們的互動式地圖進行探索，並充分利用您在帕利亞的日常冒險！🗺️✨",
+        "title": "在帕利亞發現翻箱倒櫃的堆積物：每日寶藏等著您！",
+        "description": "在Kilima Valley進行日常冒險，揭開Rummage Piles的秘密地點。這些獨特的可收集物品每天在隨機地點出現一次，讓玩家有機會尋找令人興奮的獎勵。每天在UTC時間淩晨4：00重置後，與翻箱倒櫃的翻箱倒櫃互動，領取隨機獎勵。使用我們的互動式地圖來確定這些隱藏寶藏的位置，並增強您的Palia體驗。不要錯過每日驚喜 - 使用 Rummage Pile Map 探索 Palia 的世界！🌟"
+    },
+    "winterfestChallenge": {
+        "metaTitle": "征服 Zeki 的 Winterfest 挑戰：揭開七個 Winterlights 寶箱的秘密！",
+        "metaDescription": "在帕利亞開始 Zeki 的節日挑戰！尋找散落在村莊各處的七個隱藏的冬光寶箱，領取您的節日寶藏。解碼 Zeki 的提示，探索風景名勝，並通過驚心動魄的任務慶祝冬日之光。在帕利亞（Palia）揭開這個季節的喜悅！🎁✨",
+        "title": "征服 Zeki 的 Winterfest 挑戰：揭開七個 Winterlights 寶箱的秘密！",
+        "description": "參加 Zeki 的 Winterfest 挑戰，加入 Palia 的節日氣氛！沉浸在節日的歡呼聲中，跟隨澤基的狡猾暗示，找到散落在村莊各處的七個隱藏的冬日之光寶箱。從客棧的笑聲到船庫的懸崖頂景觀，每個箱子都為熱衷於冒險的人提供了獨特的驚喜。探索、發現和慶祝這個季節，享受 Zeki 精心打造的歡樂任務。召集你的朋友，揭開謎團，讓這個冬光在帕利亞令人難忘！🎄🔍"
+    },
+    "weeklyWants": {
+        "subtitle": "每周需求追蹤器：揭開帕利亞的村民慾望！",
+        "description": "使用每周需求跟蹤器功能提升您與 Palia 充滿活力的村民的關係。瞭解每個村民在一周內的獨特願望。"
+    },
+    "menu": {
+        "status": "地位",
+        "previewAccess": "預覽訪問",
+        "eliteSupporters": "精英支援者",
+        "previewAccessDesc": "通過啟動預覽訪問許可權，你將在向公眾發佈最新功能之前獲得這些功能。此禮遇僅適用於",
+        "version": "版本",
+        "runningLatestVersion": "您正在執行最新版本的應用程式。",
+        "updateIsAvailable": "有可用的更新。",
+        "updateNow": "立即更新！",
+        "isUpdating": "更新。。。",
+        "pendingRestart": "已安裝更新。重新啟動應用程式以應用更新。",
+        "restartNow": "立即重啟！",
+        "patronInfo": "擺脫廣告，在 Patreon 上支援我",
+        "becomePatron": "成為贊助人",
+        "disconnectPatreon": "斷開您的 Patreon 帳戶",
+        "discoveredNodes": "發現的節點",
+        "spawnNodes": "生成節點",
+        "settings": "設置",
+        "apps": "應用程式",
+        "community": "社區",
+        "discover": "發現",
+        "contribute": "貢獻",
+        "weeklyWants": "每周需求",
+        "interactiveMap": "互動地圖",
+        "leaderboard": "排行榜",
+        "rummagePile": "翻找樁",
+        "winterfestChallenge": "Winterfest 挑戰賽"
+    },
+    "search": {
+        "placeholder": "搜索節點",
+        "noResults": "未找到結果"
+    },
+    "maps": {
+        "kilima-valley": "基利馬谷",
+        "bahari-bay": "巴哈裡灣",
+        "fairgrounds": "博覽會",
+        "housing": "住房"
+    },
+    "nodes": {
+        "showAll": "顯示全部",
+        "hideAll": "全部隱藏",
+        "location": "位置",
+        "area": "面積",
+        "landmark": "地標",
+        "stable": "穩定",
+        "recipe": "食譜",
+        "housingPlot": "住宅地塊",
+        "wardrobe": "衣櫃",
+        "zone": "區",
+        "villager": "村民",
+        "otherPlayer": "其他玩家"
+    },
+    "groups": {
+        "foraging": "覓食",
+        "mining": "採礦",
+        "fishing": "釣魚",
+        "hotspots": "熱點",
+        "hunting": "狩獵",
+        "bugCatching": "昆蟲",
+        "lumberjacking": "伐木"
+    },
+    "settings": {
+        "iconSize": "圖示大小",
+        "backup": "備份",
+        "restore": "恢復",
+        "reset": "重置",
+        "alwaysShowStarredNodes": "始終顯示已加星標的節點"
+    }
+}

@@ -1,0 +1,134 @@
+{
+    "meta": {
+        "subtitle": "Palia Mapa Interativo",
+        "short": "Palia Mapa",
+        "description": "Maximize sua jogabilidade Palia com este Mapa Palia Interativo! Descubra Kilima Valley, Bahari Bay e Fairgrounds, encontre todos os locais com rastreamento de posição em tempo real. Os desejos semanais também estão disponíveis para todos os moradores.",
+        "locations": "Locais"
+    },
+    "download": {
+        "metaTitle": "Palia Mapa App Baixar",
+        "metaDescription": "Baixe o Palia Map App, seu melhor companheiro para explorar o mundo Palia. Melhore sua experiência de jogo com mapas interativos, rastreamento em tempo real e muito mais.",
+        "backToTheMap": "Voltar ao mapa",
+        "title": "O aplicativo Palia Map: Seu Companheiro Palia Definitivo",
+        "realTimePosition": {
+            "title": "Acompanhamento da posição do jogador em tempo real",
+            "description": "Acompanhe a localização do seu personagem no jogo com rastreamento em tempo real. Se você está explorando, cultivando ou caçando, sempre saiba onde você está no mapa."
+        },
+        "2ndScreenMode": {
+            "title": "2º Modo de Tela",
+            "description": "Experimente Palia com o mapa como seu companheiro de confiança no modo de 2ª tela. Fique de olho nos arredores enquanto explora o mundo mágico."
+        },
+        "overlayMode": {
+            "title": "Modo de sobreposição (Minimapa)",
+            "description": "Transforme o mapa em um prático modo de sobreposição, perfeito para uso como um minimapa enquanto você mergulha na aventura Palia."
+        },
+        "weeklyWants": {
+            "title": "Desejos semanais",
+            "description": "Mantenha-se atualizado sobre os desejos semanais dos aldeões de Palia e fortaleça seus laços realizando seus desejos. Alguns itens até lhe rendem amor extra! 💕"
+        },
+        "filteringOptions": {
+            "title": "Opções de filtragem",
+            "description": "Personalize facilmente sua experiência no Palia Map com uma variedade de filtros, incluindo filtros para insetos, forrageamento, mineração, caça e muito mais. Adapte o mapa às suas preferências de exploração."
+        },
+        "multiLanguageSupport": {
+            "title": "Suporte a vários idiomas",
+            "description": "Acesse o aplicativo Palia Map em seu idioma preferido com suporte para 🇬🇧 inglês, 🇩🇪 alemão, espanhol, 🇫🇷 🇪🇸 francês e 🇮🇹 italiano."
+        },
+        "note": "O Palia Map App foi projetado para melhorar sua aventura Palia com uma variedade de recursos, incluindo mapas interativos, rastreamento de jogadores em tempo real, desejos semanais e muito mais. Explore Palia como nunca antes e crie suas próprias experiências únicas neste mundo mágico.",
+        "download": "Baixe o aplicativo"
+    },
+    "leaderboard": {
+        "metaTitle": "Tabela de classificação do aplicativo Palia",
+        "metaDescription": "Confira a tabela de classificação do aplicativo Palia e veja quem tem a classificação mais alta e os níveis de habilidade.",
+        "title": "Tabela de classificação do aplicativo Palia: explore, conquiste e suba ao topo!",
+        "description": "Embarque em uma jornada emocionante em Palia e destaque-se entre os companheiros de aventura com o Palia App Leaderboard. Descubra onde você se classifica em nível de personagem, proficiência em habilidades e mostre o nome do seu personagem. Para participar desta tabela de classificação exclusiva, certifique-se de ter o aplicativo no jogo instalado. Mergulhe no mundo de Palia, acompanhe seu progresso e compita com outros jogadores pelo primeiro lugar! Liberte as suas habilidades, conquiste desafios e deixe o Palia App Leaderboard celebrar as suas conquistas. Junte-se às fileiras da elite de Plaia - sua aventura está prestes a ser reconhecida!",
+        "level": "Nível",
+        "name": "Nome",
+        "skills": "Habilidades",
+        "plotLevel": "Nível do enredo"
+    },
+    "rummagePile": {
+        "metaTitle": "Descubra Rummage Piles em Palia: Tesouros diários aguardam!",
+        "metaDescription": "Descubra os locais secretos de Rummage Piles no Vale de Kilima. Colete uma vez por dia para obter recompensas emocionantes após o reinício diário do Palia às 4:00 AM UTC. Explore com o nosso mapa interativo e aproveite ao máximo as suas aventuras diárias em Palia! 🗺️✨",
+        "title": "Descubra Rummage Piles em Palia: Tesouros diários aguardam!",
+        "description": "Embarque em uma aventura diária no Vale de Kilima e descubra os locais secretos de Rummage Piles. Esses colecionáveis exclusivos aparecem uma vez por dia em um local aleatório, oferecendo aos jogadores a chance de buscar recompensas emocionantes. Interaja com um Rummage Pile todos os dias após a reinicialização diária do Palia às 4:00 AM UTC para reivindicar sua recompensa aleatória. Use nosso mapa interativo para identificar a posição desses tesouros escondidos e melhorar sua experiência Palia. Não perca as surpresas diárias - explore o mundo de Palia com o Rummage Pile Map! 🌟"
+    },
+    "winterfestChallenge": {
+        "metaTitle": "Conquiste o Desafio Winterfest de Zeki: Desvende os Segredos dos Sete Baús de Luzes de Inverno!",
+        "metaDescription": "Embarque no desafio festivo de Zeki em Palia! Caçar os sete Baús Winterlights escondidos espalhados pela vila para reivindicar seus tesouros de férias. Decodifice as dicas de Zeki, explore os locais cênicos e celebre Winterlights com uma missão emocionante. Desembrulhe a alegria da estação em Palia! 🎁✨",
+        "title": "Conquiste o Desafio Winterfest de Zeki: Desvende os Segredos dos Sete Baús de Luzes de Inverno!",
+        "description": "Junte-se ao espírito festivo em Palia enfrentando o Zeki's Winterfest Challenge! Mergulhe na alegria do feriado enquanto segue as dicas astutas de Zeki para localizar os sete Baús de Luzes de Inverno escondidos espalhados pela vila. Do barril de risos da pousada a uma vista do topo do penhasco da casa de barcos, cada baú guarda uma surpresa única para o aventureiro afiado. Explore, descubra e celebre a temporada com a alegre missão criada por Zeki. Reúna seus amigos, desvende os mistérios e torne este Winterlights inesquecível em Palia! 🎄🔍"
+    },
+    "weeklyWants": {
+        "subtitle": "Weekly Wants Tracker: Descubra os desejos dos aldeões de Palia!",
+        "description": "Eleve seus relacionamentos com os aldeões vibrantes de Palia usando o recurso Weekly Wants Tracker. Fique por dentro dos desejos únicos de cada aldeão para a semana."
+    },
+    "menu": {
+        "status": "Estado",
+        "previewAccess": "Acesso de visualização",
+        "eliteSupporters": "Apoiadores de elite",
+        "previewAccessDesc": "Ao ativar o acesso de visualização, você obterá os recursos mais recentes antes que eles sejam liberados para o público. Esta vantagem só está disponível para",
+        "version": "Versão",
+        "runningLatestVersion": "Você está executando a versão mais recente do aplicativo.",
+        "updateIsAvailable": "Uma atualização está disponível.",
+        "updateNow": "Atualizar agora!",
+        "isUpdating": "Atualização...",
+        "pendingRestart": "Uma atualização foi instalada. Reinicie o aplicativo para aplicar a atualização.",
+        "restartNow": "Reinicie agora!",
+        "patronInfo": "Livre-se de anúncios e apoie-me no Patreon",
+        "becomePatron": "Torne-se um Patrono",
+        "disconnectPatreon": "Desconecte sua conta do Patreon",
+        "discoveredNodes": "Nós descobertos",
+        "spawnNodes": "Nós de desova",
+        "settings": "Configurações",
+        "apps": "Apps",
+        "community": "Comunidade",
+        "discover": "Descobrir",
+        "contribute": "Contribuir",
+        "weeklyWants": "Desejos semanais",
+        "interactiveMap": "Mapa Interativo",
+        "leaderboard": "Tabela de classificação",
+        "rummagePile": "Pilha Rummage",
+        "winterfestChallenge": "Desafio Winterfest"
+    },
+    "search": {
+        "placeholder": "Nós de pesquisa",
+        "noResults": "Nenhum resultado encontrado"
+    },
+    "maps": {
+        "kilima-valley": "Vale do Kilima",
+        "bahari-bay": "Baía Bahari",
+        "fairgrounds": "Feiras",
+        "housing": "Habitação"
+    },
+    "nodes": {
+        "showAll": "Mostrar tudo",
+        "hideAll": "Ocultar tudo",
+        "location": "Localização",
+        "area": "Área",
+        "landmark": "Marco",
+        "stable": "Estábulo",
+        "recipe": "Receita",
+        "housingPlot": "Terreno para moradia",
+        "wardrobe": "Guarda-roupa",
+        "zone": "Zona",
+        "villager": "Aldeão",
+        "otherPlayer": "Outro Jogador"
+    },
+    "groups": {
+        "foraging": "Forrageamento",
+        "mining": "Mineração",
+        "fishing": "Pesca",
+        "hotspots": "Hotspots",
+        "hunting": "Caça",
+        "bugCatching": "Insetos",
+        "lumberjacking": "Lenhador"
+    },
+    "settings": {
+        "iconSize": "Tamanho do ícone",
+        "backup": "Backup",
+        "restore": "Restaurar",
+        "reset": "Repor",
+        "alwaysShowStarredNodes": "Sempre mostrar nós estrelados"
+    }
+}

@@ -90,6 +90,10 @@
       "name": "Северный Рудник",
       "description": "\"Закрыто по распоряжению мэра!\""
     },
+    "BP_InvisibleTeleporter_Parent_C_UAID_00BE43BC7D55E0B701_2107979866": {
+      "name": "Войти в Руины",
+      "description": "Требуется аккумулятор"
+    },
     "BP_InvisibleTeleporter_Parent_C_UAID_00BE43BC7D55F4AC01_1201166771": {
       "name": "???",
       "description": "Люк не сдвинется с места."
@@ -256,28 +260,6 @@
       "name": "Килима - Холмы Цикадок (Leafhopper Hills)"
     }
   },
-  "zone": {
-    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE63137A01_1673725565": {
-      "name": "В деревню Килима",
-      "description": null
-    },
-    "BP_GateTeleporter_Parent_C_UAID_CC96E503E0F4C4A401_1919574119": {
-      "name": "К Жилому Участку",
-      "description": null
-    },
-    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE630E7901_1573823092": {
-      "name": "В деревню Килима",
-      "description": null
-    },
-    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE634E7A01_1976701586": {
-      "name": "Выставочный центр",
-      "description": null
-    },
-    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE63627801_1776598294": {
-      "name": "К Бухте Бахари",
-      "description": null
-    }
-  },
   "area": {
     "MapMarker_OldLighthouse_UAID_CC96E5156C5D3D9201_2102627787": {
       "name": "Lighthouse Lagoon",
@@ -389,6 +371,28 @@
     },
     "MapMarker_RemembranceGarden_UAID_CC96E5156C5D4A9101_1765151639": {
       "name": "Remembrance Beach",
+      "description": null
+    }
+  },
+  "zone": {
+    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE63137A01_1673725565": {
+      "name": "В деревню Килима",
+      "description": null
+    },
+    "BP_GateTeleporter_Parent_C_UAID_CC96E503E0F4C4A401_1919574119": {
+      "name": "К Жилому Участку",
+      "description": null
+    },
+    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE630E7901_1573823092": {
+      "name": "В деревню Килима",
+      "description": null
+    },
+    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE634E7A01_1976701586": {
+      "name": "Выставочный центр",
+      "description": null
+    },
+    "BP_GateTeleporter_Parent_C_UAID_CC96E503DE63627801_1776598294": {
+      "name": "К Бухте Бахари",
       "description": null
     }
   },

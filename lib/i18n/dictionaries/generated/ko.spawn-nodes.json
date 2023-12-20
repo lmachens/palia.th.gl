@@ -1,0 +1,798 @@
+{
+  "BP_Bug_BeeR_C": {
+    "name": "황금 영광의 벌",
+    "description": "아크윈두 지역에서 온 희귀한 벌. 이 벌의 꿀로 만든 벌꿀 술은 그 지역 여왕과 왕족이 많이 사들인다고들 하죠.\r\n킬리마에서 아침과 낮에 나무를 벨 때 잡을 수 있습니다."
+  },
+  "BP_Bug_BeetleC_C": {
+    "name": "점박이 노린재",
+    "description": "매력적인 색깔보다는 강한 향으로 잘 알려져 있는 곤충.\r\n킬리마와 바하리만 전체에서 잡을 수 있어요."
+  },
+  "BP_Bug_BeetleE_C": {
+    "name": "고대 호박 딱정벌레",
+    "description": "인간 시대에 살던 것으로 전해진, 팔리아에서 알려진 곤충 중 가장 오래된 곤충.\r\n바하리만의 숲에서 잡을 수 있어요. 또 바하리만에서 나무를 벨 때도 잡을 수 있답니다."
+  },
+  "BP_Bug_BeetleR_C": {
+    "name": "라즈베리 딱정벌레",
+    "description": "라즈베리만 먹고 사는 사슴벌레.\r\n킬리마에 있는 바드루의 농장에서 잡을 수 있어요"
+  },
+  "BP_Bug_BeetleU_C": {
+    "name": "큰뿔 사슴벌레",
+    "description": "큰뿔세르눅의 뿔을 닮았다고들 하는 뿔을 가진 사슴벌레.\r\n킬리마에서 채굴을 할 때 잡을 수 있어요."
+  },
+  "BP_Bug_BeeU_C": {
+    "name": "바하리 벌",
+    "description": "맛있는 꿀을 생산하는 것으로 알려진 지역 벌 종.\r\n바하리만에서 나무를 벨 때 잡을 수 있어요."
+  },
+  "BP_Bug_ButterflyC_C": {
+    "name": "흔한 파란색 나비",
+    "description": "팔리아의 모든 기후에서 잡을 수 있는 그 무엇보다 회복력이 좋은 나비.\r\n킬리마와 바하리만 전체에서 아침과 낮에 잡을 수 있어요."
+  },
+  "BP_Bug_ButterflyE_C": {
+    "name": "무지개 날개 나비",
+    "description": "고대 전설에 따르면 흐름의 우물에 날개를 담가 아름다운 색을 얻게 되었다는 희귀한 나비.\r\n바하리만 들판에서 아침과 낮에 잡을 수 있어요."
+  },
+  "BP_Bug_ButterflyR_C": {
+    "name": "브라이트아이 나비",
+    "description": "해가 떠 있을 때마다 바하리만을 쳐다보고 있는 눈을 관찰할 수 있는, 정교한 패턴을 가진 나비.\r\n바하리만의 숲에서 아침과 낮에 잡을 수 있어요."
+  },
+  "BP_Bug_ButterflyU_C": {
+    "name": "황혼날개 나비",
+    "description": "황혼 색깔의 날개를 가진 아름다운 나비. 킬리마 골짜기에만 서식합니다.\r\n아침과 낮에 킬리마의 드래곤 신사 주변에서 발견됩니다."
+  },
+  "BP_Bug_CicadaC_C": {
+    "name": "흔한 나무껍질 매미",
+    "description": "흔한 매미.\r\n바하리만에서 아침과 낮에 나무에 붙어있는 것을 볼 수 있어요."
+  },
+  "BP_Bug_CicadaR_C": {
+    "name": "불꽃 매미",
+    "description": "무는 것보다 우는 소리를 듣는 것이 더 어려운 활발한 매미.\r\n바하리만의 나무에서 아침과 낮에 잡을 수 있어요."
+  },
+  "BP_Bug_CicadaU_C": {
+    "name": "짙은 파란색 매미",
+    "description": "아야나의 4번 교향곡에 영감을 주었다고 알려진 너무나 평온한 울음소리를 가진 매미.\r\n바하리만의 나무에서 아침과 낮에 잡을 수 있어요."
+  },
+  "BP_Bug_CrabC_C": {
+    "name": "바하리 게",
+    "description": "버터와 함께 먹으면 맛있다고 알려진 지역 게.\r\n바하리만 해안에서 잡을 수 있어요. 바하리만에서 조개를 수렵 채집할 때 찾을 수도 있답니다."
+  },
+  "BP_Bug_CrabR_C": {
+    "name": "흡혈 게",
+    "description": "지역 주민들을 힘들게 하고 있는 외래유입종 게.\r\n바하리만의 물에 잠긴 요새 근처에서 밤과 야간에 잡을 수 있어요."
+  },
+  "BP_Bug_CrabU_C": {
+    "name": "가시돌기 게",
+    "description": "아주 반짝이는 껍질을 가진 게.\r\n바하리만의 해변에서 잡을 수 있어요."
+  },
+  "BP_Bug_CricketC_C": {
+    "name": "흔한 초원 귀뚜라미",
+    "description": "들판이 있는 곳이라면 어디서든 잡을 수 있는 들판 귀뚜라미.\r\n킬리마와 바하리만 전체에서 잡을 수 있어요."
+  },
+  "BP_Bug_CricketR_C": {
+    "name": "푸른 돌메뚜기",
+    "description": "빛나는 파란색 조약돌로 위장할 수 있는 것으로 알려진 작고 파란 녀석.\r\n바하리만의 들판에서 잡을 수 있어요."
+  },
+  "BP_Bug_CricketU_C": {
+    "name": "정원 이파리메뚜기",
+    "description": "너무나 귀여워 팔리아에서 많은 아이들이 반려동물로 키우곤 하는 정원 이파리메뚜기. 행운을 불러온다고 알려져 있죠\r\n킬리마의 들판과 바드루의 농장에서 잡을 수 있어요. 또 킬리마에서 수렵 채집을 할 때도 잡을 수 있어요."
+  },
+  "BP_Bug_DragonflyC_C": {
+    "name": "붓꼬리 잠자리",
+    "description": "너무나 밝고 색이 뚜렷해서 초기 마지리인은 붓으로 쓰기도 했다는 꼬리를 가진 잠자리.\r\n킬리마의 호수와 바하리만의 강과 연못에서 잡을 수 있어요."
+  },
+  "BP_Bug_DragonflyE_C": {
+    "name": "보석날개 잠자리",
+    "description": "보석보다 찬란하고 다양한 색의 날개를 가진 잠자리.\r\n바하리만 절벽의 동굴 입구 근처에서 잡을 수 있어요."
+  },
+  "BP_Bug_DragonflyR_C": {
+    "name": "불을 내뿜는 잠자리",
+    "description": "화염을 뿜어 때문에 너무나 잡기 어려운 것으로 알려진 잠자리.\r\n킬리마의 들판에서 잡을 수 있어요."
+  },
+  "BP_Bug_DragonflyU_C": {
+    "name": "까만 잠자리",
+    "description": "다양한 검은색 염료와 잉크의 재료로 쓰이는, 잘 보이지 않는 잠자리.\r\n바하리만의 강과 연못에서 잡을 수 있어요."
+  },
+  "BP_Bug_GlowbugC_C": {
+    "name": "종이 전등 곤충",
+    "description": "팔리아의 밤하늘로 날아가는 찬란한 축제 랜턴처럼 밝게 빛나는 곤충.\r\n바하리만 해안과 숲에서 저녁과 야간에 잡을 수 있어요."
+  },
+  "BP_Bug_GlowbugR_C": {
+    "name": "바하리 불빛곤충",
+    "description": "빛을 내뿜는 지역 식물 종. 본린 아메퐁고 박사가 발견했습니다.\r\n바하리만의 들판에서 밤과 야간에 잡을 수 있어요."
+  },
+  "BP_Bug_LadybugR_C": {
+    "name": "공주 무당벌레",
+    "description": "‘무당벌레로 변해버린 공주’라는 어린이 동화의 소재가 된 화려한 무당벌레.\r\n킬리마 호수에서 잡을 수 있어요."
+  },
+  "BP_Bug_LadybugU_C": {
+    "name": "정원 무당벌레",
+    "description": "정원 해충을 잡을 때 좋은 검은색과 빨간색이 섞인 무당벌레.\r\n바하리만의 들판에서 수렵 채집을 할 때 잡을 수 있어요."
+  },
+  "BP_Bug_MantisE_C": {
+    "name": "요정 사마귀",
+    "description": "오래전 마지리 전설에 나오지만 현대 곤충학자들이 최근에서야 확인한 사마귀. 마법적 특성이 있다고 하죠.\r\n바하리만의 들판에서 잡을 수 있어요."
+  },
+  "BP_Bug_MantisR1_C": {
+    "name": "점박이 사마귀",
+    "description": "아름다운 반점이 있는 희귀 사마귀.\r\n킬리마의 드래곤 신사 주변에서 발견됩니다."
+  },
+  "BP_Bug_MantisR2_C": {
+    "name": "리프스토커 사마귀",
+    "description": "잎만 먹고 사는 채식 사마귀.\r\n바하리만의 숲에서 수렵 채집을 할 때 잡을 수 있어요."
+  },
+  "BP_Bug_MantisU_C": {
+    "name": "정원 사마귀",
+    "description": "어디서든 볼 수 있는 평범한 사마귀.\r\n킬리마의 호수 주변에서 잡을 수 있어요. 바하리만의 호수에서 수렵 채집을 할 때도 잡을 수 있답니다."
+  },
+  "BP_Bug_MothC_C": {
+    "name": "킬리마 밤나방",
+    "description": "아름답지만 해충으로 생각하는 사람들이 있을 만큼 더운 여름날 너무나 개체수가 많아지는 킬리마 밤나방. 보관된 옷을 조심하세요.\r\n킬리마와 바하리만 주변에서 저녁과 야간에 잡을 수 있어요."
+  },
+  "BP_Bug_MothR_C": {
+    "name": "얇은 베일 날개 나방",
+    "description": "쳐다보기만 해도 드래곤 영토를 엿볼 수 있다고들 하는 얇은 날개를 가진 나방.\r\n킬리마의 들판에서 저녁과 야간에 잡을 수 있어요."
+  },
+  "BP_Bug_MothU_C": {
+    "name": "달의 요정 나방",
+    "description": "드래곤 달과 특별한 연결이 되어 있다고 알려져 있는 달의 요정 나방. 주기 중에 특별한 시기에만 나타난다고들 합니다.\r\n바하리만의 들판과 숲에서 저녁과 야간에 잡을 수 있어요."
+  },
+  "BP_Bug_PedeR1_C": {
+    "name": "털 많은 노래기",
+    "description": "털이 잘 자라지 않는 노래기.\r\n바하리만의 숲에서 잡을 수 있습니다."
+  },
+  "BP_Bug_PedeR2_C": {
+    "name": "반짝이 지네",
+    "description": "반짝이는 단단한 껍질을 가진 희귀한 지네.\r\n바하리만에서 채굴을 하면 찾아볼 수 있습니다."
+  },
+  "BP_Bug_PedeU_C": {
+    "name": "정원 노래기",
+    "description": "정원의 농작물을 먹어 치우는 걸 좋아하는 갈색과 초록색의 노래기.\r\n킬리마의 들판에서 잡을 수 있어요. 바하리만의 들판에서 수렵 채집을 할 때 잡을 수 있어요."
+  },
+  "BP_Bug_SnailR_C": {
+    "name": "줄무늬 껍데기 달팽이",
+    "description": "너무나 눈에 잘 띄는 줄무늬를 가져서 그 껍질을 옛 마지리인들이 화폐로 쓰곤 했던 달팽이.\r\n바하리만의 해변에서 잡을 수 있어요."
+  },
+  "BP_Bug_SnailU_C": {
+    "name": "정원 달팽이",
+    "description": "시간이 지나며 잎처럼 진화한 달팽이. 포식자로부터 숨는 데는 좋지만 리프스토커 사마귀로부터 숨기는 어려운 생물이죠.\r\n바하리만의 해안과 숲에서 잡을 수 있어요."
+  },
+  "BP_ChapaaPile_C": {
+    "name": "Rummage Pile",
+    "description": ""
+  },
+  "BP_Coral_C": {
+    "name": "산호",
+    "description": "산호 조각으로 집에서 해변 분위기를 연출하세요. 암초 냄새를 맡을 수 있을 정도예요!"
+  },
+  "BP_Fish_AlbinoEeel_C": {
+    "name": "백색증 장어",
+    "description": "색이 없는 장어.\r\n바하리만 동굴에서 벌레를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_Alligator_Gar_C": {
+    "name": "악어 동갈치",
+    "description": "빛나는 보라색 비늘을 가진 육식 물고기인 악어 동갈치의 이름은 긴 주둥이와 큰 이빨에서 따왔어요.\r\n킬리마 호수에서 반딧불이를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_AncientFish_C": {
+    "name": "고대 물고기",
+    "description": "이 물고기는 팔리아 대륙만큼 오래된 물고기로, 멸종했다고 알려져 있었죠. 당신과 공통점이 있네요."
+  },
+  "BP_Fish_Bahari_Pike_C": {
+    "name": "바하리 강꼬치고기",
+    "description": "바하리만에서만 볼 수 있는 짙은 초록색의 강꼬치고기.\r\n바하리 강에서 반딧불이를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_BahariBream_C": {
+    "name": "바하리 도미",
+    "description": "지역 먹거리에 아주 중요한 역할을 하는 것으로 알려진 물고기.\r\n바하리만의 해안에서 벌레를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_Barracuda_C": {
+    "name": "창꼬치",
+    "description": "약간의 버터와 함께 살짝 구우면 맛이 좋은 악명 높은 바다 포식자.\r\n바하리만의 해변에서 저녁과 밤에 미끼 없이 잡을 수 있어요."
+  },
+  "BP_Fish_BatRay_C": {
+    "name": "박쥐 가오리",
+    "description": "날갯짓하는 박쥐처럼 물 위로 날아오른다고 알려진 기분 나쁘게 생긴 가오리.\r\n바하리만 동굴에서 벌레를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_Beluga_Sturgeon_C": {
+    "name": "벨루가 철갑상어",
+    "description": "죽을 때까지 자라는 커다란 철갑상어.\r\n킬리마 호수에서 반딧불이를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_Bigeye_Tuna_C": {
+    "name": "참다랑어",
+    "description": "해류를 따라 빠르게 헤엄치며 흔하게 볼 수 있는 날렵한 물고기.\r\n바하리만에서 벌레를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_Black_Sea_Bass_C": {
+    "name": "검은 바다 농어",
+    "description": "마지리인과 인간 모두에게 위협적이지 않고 온화한, 피부에 검은 점박이 무늬가 있는 농어.\r\n바하리만 해안에서 반딧불이를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_Blobfish_C": {
+    "name": "블롭피쉬",
+    "description": "동굴에 있는 연못의 바닥에 사는 배가 불룩한 미끄러운 물고기.\r\n반딧불이를 사용해 바하리만 동굴에서 잡을 수 있어요."
+  },
+  "BP_Fish_Blue_Spotted_Ray_C": {
+    "name": "파란 점 가오리",
+    "description": "몸 전체에 밝은 청색의 점박이 무늬가 있고 꼬리에는 청색 줄무늬가 있는 다양한 색감의 가오리.\r\n바하리만의 해변에서 아침, 낮, 저녁에 반딧불이를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_BlueMarlin_C": {
+    "name": "청새치",
+    "description": "크고 회복력이 좋은 물고기. 청새치는 가장 노련한 낚시꾼도 잡기 힘든 물고기입니다.\r\n바하리만 해안에서 벌레를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_Cactus_Moray_C": {
+    "name": "가시 장어",
+    "description": "포식자로부터 방어하기 위해 길고 날카로운 등뼈가 자라난 장어.\r\n바하리만의 해안에서 낮과 밤에 반딧불이를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_CalicoKoi_C": {
+    "name": "칼리코 비단 잉어",
+    "description": "예쁜 삼색 패턴을 가진 표준 비단 잉어.\r\n연못에서 미끼 없이 잡을 수 있어요."
+  },
+  "BP_Fish_CantankerousKoi_C": {
+    "name": "성질 나쁜 비단 잉어",
+    "description": "지역 전설에 따르면 못된 마녀가 성질 나쁜 늙은이를 변신시켜 최초로 생긴 것으로 알려진 성질 나쁜 비단 잉어입니다.\r\n연못에서 낮과 밤에 미끼 없이 잡을 수 있어요."
+  },
+  "BP_Fish_Channel_Catfish_C": {
+    "name": "얼룩메기",
+    "description": "빠른 물살을 거슬러 오르는 강 메기.\r\n킬리마 강에서 미끼 없이 잡을 수 있어요."
+  },
+  "BP_Fish_Chub_C": {
+    "name": "처브",
+    "description": "다양한 식성을 가진 것으로 알려져 있고 잘 잡히지 않는 물고기.\r\n바하리 강에서 반딧불이를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_Cloudfish_C": {
+    "name": "구름물고기",
+    "description": "위장을 위해 퇴적물로 소용돌이치는 구름을 만드는 저어족 연못 물고기.\r\n연못에서 아침과 낮에 반딧불이를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_Codfish_C": {
+    "name": "바하리 농어",
+    "description": "맛이 강하지 않은 물고기로 알려져 있고 아주 자주 잡히는 물고기.\r\n바하리만의 해변에서 미끼 없이 잡을 수 있어요."
+  },
+  "BP_Fish_Crimson_Fangtooth_C": {
+    "name": "붉은 귀신고기",
+    "description": "몸집에 비해 너무나 큰 이빨을 가지고 있는 작은 빨간색 물고기.\r\n바하리만 동굴에서 반딧불이를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_Crucian_Carp_C": {
+    "name": "붕어",
+    "description": "황동색의 비늘을 가진 커다란 잉어.\r\n킬리마 강에서 반딧불이를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_Cutthroat_Trout_C": {
+    "name": "컷스로트 송어",
+    "description": "긴 턱과 주둥이 때문에 이름 붙여진 강 송어.\r\n바하리만 강에서 벌레를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_Dawnray_C": {
+    "name": "새벽황금가오리",
+    "description": "햇빛을 흡수하는 비늘이 있고 해질녘이면 사냥에 나서는 금색 가오리.\r\n바하리 강에서 아침에 미끼 없이 잡을 수 있어요."
+  },
+  "BP_Fish_Duskray_C": {
+    "name": "땅거미가오리",
+    "description": "동틀녘이면 사냥에 나서고 강바닥으로 위장하는 얼룩 회색 가오리.\r\n바하리 강에서 저녁에 미끼 없이 잡을 수 있어요."
+  },
+  "BP_Fish_Enchanted_Pupfish_C": {
+    "name": "마법에 걸린 송사리",
+    "description": "비늘로 약간의 흐름을 흡수할 수 있는 작고 귀여운 물고기.\r\n킬리마 호수에서 반딧불이를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_Energized_Piranha_C": {
+    "name": "기운찬 피라냐",
+    "description": "그리말킨의 마법 장신구를 먹고 마법이 스며든 피라냐.\r\n킬리마 강에서 벌레를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_EyelessMinnow_C": {
+    "name": "눈 없는 피라미",
+    "description": "눈을 사용할 필요가 없는 동굴 서식 생물.\r\n바하리만 동굴에서 미끼 없이 잡을 수 있어요."
+  },
+  "BP_Fish_FairyCarp_C": {
+    "name": "요정 잉어",
+    "description": "눈을 현혹시킬 정도로 투명한 빛을 띠는 보기 힘든 물고기.\r\n연못에서 아침과 밤에 벌레를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_Fathead_Minnow_C": {
+    "name": "큰머리 피라미",
+    "description": "큰 머리로 유명한 작은 민물고기.\r\n바하리 강에서 반딧불이를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_Flametongue_Ray_C": {
+    "name": "불꽃 가오리",
+    "description": "등에 있는 밝은 주황색과 빨간색의 줄무늬 때문에 이름이 붙여진 희귀한 강 가오리.\r\n킬리마 강에서 아침과 낮에 반딧불이를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_FreshwaterEel_C": {
+    "name": "뱀장어",
+    "description": "뱀으로 착각하곤 하는 길고 유연한 강 물고기.\r\n킬리마 강에서 밤과 야간에 벌레를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_Giant_Goldfish_C": {
+    "name": "거대 금붕어",
+    "description": "온갖 악조건 속에도 전설적인 크기로 진화한 금붕어.\r\n연못에서 반딧불이를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_Giant_Kilima_Stingray_C": {
+    "name": "거대 킬리마 가오리",
+    "description": "먹잇감의 뼈를 관통할 수 있는 독성의 가시를 가진, 킬리마 호수의 왕이라고 불리는 노랑가오리.\r\n킬리마 호수에서 아침과 낮, 저녁에 반딧불이를 사용해 잠을 수 있어요."
+  },
+  "BP_Fish_Gillyfin_C": {
+    "name": "길리핀",
+    "description": "팔리아에서 가장 흔한 물고기.\r\n킬리마 호수에서 미끼 없이 잡을 수 있어요."
+  },
+  "BP_Fish_GoldenSalmon_C": {
+    "name": "황금 연어",
+    "description": "햇빛을 쬐어야 잘 사는 것으로 알려진 흔한 연어.\r\n킬리마 강에서 아침과 낮에 벌레를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_Honey_Loach_C": {
+    "name": "꿀벌 미꾸라지",
+    "description": "벌을 닮은 노란색과 검은색 줄무늬를 가진 강 물고기.\r\n바하리 강에서 낮과 밤에 반딧불이를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_Hypnotic_Moray_C": {
+    "name": "최면술사 곰치",
+    "description": "눈에 띄는 무늬와 먹이를 끌어들이기 위해 현혹하듯 움직이는 곰치 장어.\r\n바하리만 동굴에서 반딧불이를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_Indigo_Lamprey_C": {
+    "name": "남색 칠성장어",
+    "description": "과거 팔리아인들이 진한 인디고 염료를 만들기 위해 비늘을 수확하곤 했던 물고기.\r\n킬리마 강에서 밤과 야간에 반딧불이를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_Kenjis_Carp_C": {
+    "name": "켄리의 잉어",
+    "description": "켄리는 이 잉어를 킬리마 마을 주변에서 발견했습니다. 붕어와 놀랍도록 닮아있네요...\r\n킬리마 강에서 반딧불이를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_Kilima_Grayling_C": {
+    "name": "킬리마 살기",
+    "description": "생애의 절반은 바다에 살다가 다시 킬리마 골짜기로 돌아오는 날씬한 물고기.\r\n킬리마 강에서 반딧불이를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_Kilima_Redfin_C": {
+    "name": "킬리마 붉은 지느러미 물고기",
+    "description": "무엇이든 먹어 치울 공격적인 강의 포식자.\r\n바하리만 강에서 벌레를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_KilimaCatFish_C": {
+    "name": "킬리마 메기",
+    "description": "킬리마 골짜기에서만 볼 수 있는 특이한 메기.\r\n연못에서 벌레를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_LargemouthBass_C": {
+    "name": "큰입우럭",
+    "description": "몸집의 절반이 넘는 생물을 삼킬 수 있는 우렁찬 농어.\r\n킬리마 호수에서 벌레를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_Midnight_Paddlefish_C": {
+    "name": "미드나잇 주걱철갑상어",
+    "description": "밤에 사냥하곤 하는 포식자로부터 숨을 수 있는 어두운 비늘을 가진 희귀한 주걱철갑상어.\r\n킬리마 호수에서 밤에 반딧불이를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_Mirror_Carp_C": {
+    "name": "거울 잉어",
+    "description": "거울을 닮은 비늘을 가진 은색 잉어.\r\n연못에서 벌레를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_Mottled_Gobi_C": {
+    "name": "얼룩 고비",
+    "description": "과도한 연못 조류를 먹어 치워 주지만 그 이로움은 잘 알려지지 않은 물고기.\r\n연못에서 반딧불이를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_Mudminnow_C": {
+    "name": "진흙 피라미",
+    "description": "진흙같은 색으로 알려져 있는 흔한 피라미.\r\n연못에서 미끼 없이 잡을 수 있어요."
+  },
+  "BP_Fish_MutatedAngler_C": {
+    "name": "돌연변이 아귀",
+    "description": "인간 시대에서 생존한 것으로 알려져 있는 아주 무섭고 끔찍한 생물.\r\n바하리만 동굴에서 벌레를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_Oily_Anchovy_C": {
+    "name": "기름진 멸치",
+    "description": "일부 마지리인들은 묘하게 먹음직스럽다고 생각하는 미끄러운 물고기.\r\n바하리만 강에서 벌레를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_Orange_Bluegill_C": {
+    "name": "주홍빛 블루길",
+    "description": "곤충을 좋아하지만 입에 들어가는 건 모두 먹어 치울 수 있는 잡식 물고기.\r\n연못에서 벌레를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_Paddlefish_C": {
+    "name": "주걱철갑상어",
+    "description": "몇백 만년 동안 살아남아온 고대의 물고기.\r\n바하리만 강에서 아침, 낮, 저녁에 벌레를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_PaintedPerch_C": {
+    "name": "페인티드 퍼치",
+    "description": "기분 좋은 색으로 유명한 작은 강 물고기입니다.\r\n킬리마 호수에서 벌레를 사용하여 발견됩니다."
+  },
+  "BP_Fish_Platinum_Chad_C": {
+    "name": "백금빛 청어",
+    "description": "낚시꾼이 부귀영화를 꿈꾸게 할 만한 백금빛 비늘을 가진 청어.\r\n킬리마 강에서 반딧불이를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_PrismTrout_C": {
+    "name": "프리즘 송어",
+    "description": "햇빛을 받으면 무지개처럼 빛나는 예쁜 송어.\r\n킬리마 호수에서 아침과 낮에 벌레를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_RadiantSunfish_C": {
+    "name": "빛나는 개복치",
+    "description": "해를 바라보는 것 같이 눈부신 빛을 내뿜는 아름답게 빛나는 강 물고기.\r\n킬리마 강에서 벌레를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_Rainbow_Trout_C": {
+    "name": "무지개 송어",
+    "description": "다양한 옅은 색의 비늘 패턴을 가지고 있는 강 물고기. 프리즘 송어에 뒤지지 않죠.\r\n킬리마 강에서 미끼 없이 잡을 수 있어요."
+  },
+  "BP_Fish_Red-bellied_piranha_C": {
+    "name": "붉은배 피라냐",
+    "description": "무엇이든 먹어 치울 공격적인 강의 포식자.\r\n킬리마 강에서 벌레를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_RibbontailRay_C": {
+    "name": "리본꼬리 가오리",
+    "description": "놀랍게도 이니레븐의 섬에서 팔리아 공화국 서쪽 해안으로 이동한, 열대 수원지에서 출몰한다고 알려진 리본 꼬리 가오리.\r\n바하리만 해안에서 아침과 밤에 벌레를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_Rosy_Bitterling_C": {
+    "name": "흰줄 납줄개",
+    "description": "끝부분에 장미꽃 같은 무늬가 있는 민물고기.\r\n바하리 강에서 미끼 없이 잡을 수 있어요."
+  },
+  "BP_Fish_Sardine_C": {
+    "name": "정어리",
+    "description": "많은 마지리인들이 절여서 먹곤 하는 작지만 재빠른 섭이 물고기.\r\n바하리만의 해안에서 미끼 없이 잡을 수 있어요."
+  },
+  "BP_Fish_Scarlet_Koi_C": {
+    "name": "새빨간 비단 잉어",
+    "description": "어두운 빨간색 패턴을 가진 날렵한 비단 잉어.\r\n연못에서 반딧불이를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_Shimmerfin_C": {
+    "name": "시머핀",
+    "description": "동시에 두 곳에서 모습을 비추곤 하는 신비로운 물고기.\r\n킬리마 호수에서 벌레를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_SilverSalmon_C": {
+    "name": "은빛 연어",
+    "description": "흔한 은색 물고기.\r\n킬리마 강에서 저녁과 야간에 미끼 없이 잡을 수 있어요."
+  },
+  "BP_Fish_Silvery_Minnow_C": {
+    "name": "은빛 피라미",
+    "description": "햇빛 아래에서 반짝이는 은색 비늘을 가진 흔한 피라미.\r\n바하리 강에서 미끼 없이 잡을 수 있어요."
+  },
+  "BP_Fish_SmallmouthBass_C": {
+    "name": "작은입우럭",
+    "description": "물에서 뛰어오를 때가 있다는 것을 빼면 특별할 것이 없는 흔한 농어.\r\n킬리마 호수에서 벌레를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_SpottedBullhead_C": {
+    "name": "점박이 동자개",
+    "description": "점박이 무늬가 있는 동자개.\r\n킬리마 강에서 미끼 없이 잡을 수 있어요."
+  },
+  "BP_Fish_Stalking_Catfish_C": {
+    "name": "포식자 푸른 메기",
+    "description": "근처의 약한 물고기를 공격하는 포식성의 푸른 메기.\r\n연못에서 저녁과 야간에 반딧불이를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_Stickleback_C": {
+    "name": "큰가시고기",
+    "description": "생선알, 곤충, 갑각류와 낚시꾼의 발가락을 먹는 걸 좋아하는 육식 물고기. \r\n킬리마 호수에서 아침과 낮에 벌레를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_Stonefish_C": {
+    "name": "쏨뱅이",
+    "description": "먹잇감을 기다릴 때면 주변에 완벽히 숨어버리는 맹독성의 쏨뱅이.\r\n반딧불이를 사용해 바하리만 동굴에서 잡을 수 있어요."
+  },
+  "BP_Fish_Stormray_C": {
+    "name": "폭풍 가오리",
+    "description": "물 흐름을 바꾸고 꼬리로 번개를 내뿜어 사냥하는 장대한 강 가오리.\r\n아침과 밤에 빛나는 지렁이를 사용해 바하리의 강에서 찾아볼 수 있습니다."
+  },
+  "BP_Fish_Striped_Dace_C": {
+    "name": "줄무늬 황어",
+    "description": "등에 줄무늬가 있는 황어.\r\n킬리마 강에서 미끼 없이 잡을 수 있어요."
+  },
+  "BP_Fish_StripedSturgeon_C": {
+    "name": "줄무늬 철갑상어",
+    "description": "옅은 색깔의 줄무늬가 있어 햇빛이 있을 때 위장할 수 있는 저어족 호수 물고기.\r\n킬리마 호수에서 밤과 야간에 벌레를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_Swordfin_Eel_C": {
+    "name": "칼날지느러미 장어",
+    "description": "몸통을 사용해 먹잇감을 토막 내는 최상위 포식자 장어.\r\n바하리 강에서 반딧불이를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_Thundering_Eel_C": {
+    "name": "천둥 장어",
+    "description": "먹잇감을 감전시켜 항복하게 만드는 전기 장어.\r\n바하리만 강에서 벌레를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_UmbranCarp_C": {
+    "name": "엄브란 잉어",
+    "description": "요정 잉어의 사촌과도 같은 엄브란 잉어는 동굴과 호수 지하의 어두운 환경을 좋아합니다.\r\n바하리만 동굴에서 미끼 없이 잡을 수 있어요."
+  },
+  "BP_Fish_UnicornFish_C": {
+    "name": "긴코 유니콘 물고기",
+    "description": "어떤 연금술사나 물약 마스터도 귀하게 여기는 유니콘 물고기의 뿔. 하지만 조심하세요. 가장 뛰어난 낚시꾼조차도 사리를 분간할 수 없게 만드는 초자연적인 능력이 있다고들 합니다.\r\n바하리만 해안에서 낮에 반딧불이를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_Voidray_C": {
+    "name": "보이드 가오리",
+    "description": "에코 영토에 들어가 작은 에코를 먹고 산다는 무시무시한 보이드 가오리.\r\n바하리만 동굴에서 반딧불이를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_Willow_Lamprey_C": {
+    "name": "버드나무 칠성장어",
+    "description": "버드나무 가지와 비슷해서 이름이 붙여진 길고 얇은 칠성장어.\r\n바하리만 강에서 야간에 벌레를 사용해 잡을 수 있어요."
+  },
+  "BP_Fish_Yellow_Perch_C": {
+    "name": "노란 퍼치",
+    "description": "강에서 흔히 볼 수 있는 퍼치.\r\n미끼없이 바하리의 강에서 발견됩니다."
+  },
+  "BP_Fish_Yellowfin_Tuna_C": {
+    "name": "황다랑어",
+    "description": "보기보다 빠르게 헤엄칠 수 있는 커다란 참치.\r\n바하리만 해안에서 반딧불이를 사용해 잡을 수 있어요."
+  },
+  "BP_FishingJackpot_C": {
+    "name": "물에 젖은 보관함",
+    "description": "이 수수께끼의 보관함을 열어 안에 있는 보상을 받으세요."
+  },
+  "BP_FishingRecipeBook_C": {
+    "name": "제조법: 생선 스튜",
+    "description": "생선 스튜 제조법을 배우는 데 사용합니다."
+  },
+  "BP_Gatherable_MushroomBlue_C": {
+    "name": "발광버섯",
+    "description": "발광버섯은 흐름을 흡수해 빛을 얻죠! 그렇게 해서 많은 연금술에 쓰입니다."
+  },
+  "BP_Gatherable_MushroomR_C": {
+    "name": "산곰보버섯",
+    "description": "흔한 버섯인 산에서 나는 곰보버섯은 집 바로 앞에서 발견됩니다! 날 것으로도, 요리해서도 먹을 수 있고 아주 유명하죠!"
+  },
+  "BP_HeartdropLilly_C": {
+    "name": "하트드롭 백합",
+    "description": "희귀한 하트드롭 백합은 팔리아인들에게 꽃피는 낭만적 사랑이라는 특별한 의미가 있습니다."
+  },
+  "BP_Mining_Clay_C": {
+    "name": "점토",
+    "description": "흙으로 된 재료입니다. 세라믹으로 제련하여 제작에 사용할 수 있습니다."
+  },
+  "BP_Mining_Copper_Large_C": {
+    "name": "구리 광석 (L)",
+    "description": "구리를 함유한 바위입니다. 제작에 사용되는 주괴로 제련할 수 있습니다."
+  },
+  "BP_Mining_Copper_Medium_C": {
+    "name": "구리 광석 (M)",
+    "description": "구리를 함유한 바위입니다. 제작에 사용되는 주괴로 제련할 수 있습니다."
+  },
+  "BP_Mining_Copper_Small_C": {
+    "name": "구리 광석 (S)",
+    "description": "구리를 함유한 바위입니다. 제작에 사용되는 주괴로 제련할 수 있습니다."
+  },
+  "BP_Mining_Iron_Large_C": {
+    "name": "철광석 (L)",
+    "description": "철을 함유한 바위입니다. 제작에 사용되는 주괴로 제련할 수 있습니다."
+  },
+  "BP_Mining_Iron_Medium_C": {
+    "name": "철광석 (M)",
+    "description": "철을 함유한 바위입니다. 제작에 사용되는 주괴로 제련할 수 있습니다."
+  },
+  "BP_Mining_Iron_Small_C": {
+    "name": "철광석 (S)",
+    "description": "철을 함유한 바위입니다. 제작에 사용되는 주괴로 제련할 수 있습니다."
+  },
+  "BP_Mining_Palium_Large_C": {
+    "name": "팔리움 광석 (L)",
+    "description": "팔리움을 함유한 바위입니다. 제작에 사용되는 주괴로 제련할 수 있습니다."
+  },
+  "BP_Mining_Palium_Medium_C": {
+    "name": "팔리움 광석 (M)",
+    "description": "팔리움을 함유한 바위입니다. 제작에 사용되는 주괴로 제련할 수 있습니다."
+  },
+  "BP_Mining_Palium_Small_C": {
+    "name": "팔리움 광석 (S)",
+    "description": "팔리움을 함유한 바위입니다. 제작에 사용되는 주괴로 제련할 수 있습니다."
+  },
+  "BP_Mining_Stone_Large_C": {
+    "name": "돌 (L)",
+    "description": "흔한 돌입니다. 제련해서 벽돌로 쓸 수 있습니다."
+  },
+  "BP_Moss_DragonsBeard_C": {
+    "name": "드래곤 수염 토탄",
+    "description": "드래곤 수염 토탄은 희귀하고, 신기한 힘을 가진 이끼입니다. 마지의 수염을 닮은 색 덕분에 이름이 붙었죠."
+  },
+  "BP_Moss_EmeraldCarpet_C": {
+    "name": "에메랄드 카펫 이끼",
+    "description": "에메랄드 카펫 이끼의 빛나는 색으로 집을 채우면 행운이 온다고 해요."
+  },
+  "BP_Oyster_C": {
+    "name": "입이 닫힌 굴",
+    "description": "이 굴을 열어 보세요! 진주가 없더라도 최소한 먹을 수는 있잖아요."
+  },
+  "BP_PoisonFlower_C": {
+    "name": "야생 데이지",
+    "description": "산더미처럼 쌓인 야생 데이지는 가장 혹독한 조건에서도 살아남을 수 있어요."
+  },
+  "BP_QuestItem_CookBook_1_C": {
+    "name": "근사한 요리책",
+    "description": "책 표지에 \"상류층: 마지리 엘리트를 위한 요리 가이드\"라고 쓰여 있습니다."
+  },
+  "BP_QuestItem_CookBook_2_C": {
+    "name": "디저트 요리책",
+    "description": "책 표지에 \"달콤한 이들을 위한 달콤한 음식: 침 흘릴만한 디저트를 만드는 법\"이라고 쓰여 있습니다."
+  },
+  "BP_Seashell_C": {
+    "name": "조개 껍데기",
+    "description": "해변에서 조개 껍데기를 누가 팔아요? 아무도 안 팔죠. 직접 찾아야 해요."
+  },
+  "BP_Spice_DariCloves_C": {
+    "name": "다리 정향",
+    "description": "희귀한 다리 정향은 요리사와 연금술사 같은 이들에게 사랑받는 향신료입니다. 마법적 특성이 있다고 하죠."
+  },
+  "BP_Spice_HeatRoot_C": {
+    "name": "열뿌리",
+    "description": "걱정하지 마세요! 요리로 쓰든, 약으로 쓰든, 매운 열뿌리는 속부터 따뜻하게 데워줍니다."
+  },
+  "BP_Spiced_Sprouts_C": {
+    "name": "향신료 새싹",
+    "description": "향신료 새싹은 어떤 요리에나 풍부한 색과 흙의 풍미를 더해주죠. 그리고 찾기도 쉽습니다."
+  },
+  "BP_SundropLillies_C": {
+    "name": "선드롭 백합",
+    "description": "선드롭 백합은 꽃잎으로 햇빛을 바라볼 수 있는 넓은 들판에서 자랍니다."
+  },
+  "BP_SweetLeaves_C": {
+    "name": "달콤한 이파리",
+    "description": "단 걸 좋아하는 사람들은 달콤한 이파리를 좋아할 거예요. 팔리아에서 가장 사랑받는 디저트 재료로 꼽힙니다."
+  },
+  "BP_Trash_Shipfragments_C": {
+    "name": "선박 파편",
+    "description": "바다에서 발견되는 흔한 쓰레기 조각입니다. 최근에 난파가 있었다는 증거죠."
+  },
+  "BP_Trash_Wagonwheel_C": {
+    "name": "마차 바퀴",
+    "description": "크리스털 호수 안이나 근처에서 발견되는 흔한 쓰레기 조각입니다. 지나가던 여행객의 유물일 수도 있겠죠."
+  },
+  "BP_Trash_WaterloggedBoot_C": {
+    "name": "물에 젖은 부츠",
+    "description": "거울 연못에서 발견되는 흔한 쓰레기 조각입니다."
+  },
+  "BP_TreeChoppable_Birch_Large_C": {
+    "name": "M (L)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Large_CoOp_C": {
+    "name": "Flow M (L)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Medium_C": {
+    "name": "M (M)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Medium_CoOp_C": {
+    "name": "Flow M (M)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Sapling_CoOp_C": {
+    "name": "Flow M (XS)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Small_C": {
+    "name": "M (S)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Small_CoOp_C": {
+    "name": "Flow M (S)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Large_C": {
+    "name": "향나무 (L)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Large_CoOp_C": {
+    "name": "Flow 향나무 (L)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Medium_C": {
+    "name": "향나무 (M)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Medium_CoOp_C": {
+    "name": "Flow 향나무 (M)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Sapling_CoOp_C": {
+    "name": "Flow 향나무 (XS)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Small_C": {
+    "name": "향나무 (S)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Small_CoOp_C": {
+    "name": "Flow 향나무 (S)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Large_C": {
+    "name": "나무 (L)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Large_CoOp_C": {
+    "name": "Flow 나무 (L)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Medium_C": {
+    "name": "나무 (M)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Medium_CoOp_C": {
+    "name": "Flow 나무 (M)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Sapling_CoOp_C": {
+    "name": "Flow 나무 (XS)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Small_C": {
+    "name": "나무 (S)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Small_CoOp_C": {
+    "name": "Flow 나무 (S)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Large_C": {
+    "name": "Pine (L)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Large_CoOp_C": {
+    "name": "Flow Pine (L)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Large2_CoOp_C": {
+    "name": "Flow Pine (XL)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Medium_C": {
+    "name": "Pine (M)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Medium_CoOp_C": {
+    "name": "Flow Pine (M)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Sapling_CoOp_C": {
+    "name": "Flow Pine (XS)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Small_C": {
+    "name": "Pine (S)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Small_CoOp_C": {
+    "name": "Flow Pine (S)",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Cearnuk_T1_C": {
+    "name": "Sernuk",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Cearnuk_T2_C": {
+    "name": "Elder Sernuk",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Cearnuk_T3_C": {
+    "name": "Proudhorn Sernuk",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Chapaa_T1_C": {
+    "name": "Spotted Chapaa",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Chapaa_T2_C": {
+    "name": "Striped Chapaa",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Chapaa_T3_C": {
+    "name": "Azure Chapaa",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_TreeClimber_T1_C": {
+    "name": "Muujin",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_TreeClimber_T2_C": {
+    "name": "Banded Muujin",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_TreeClimber_T3_C": {
+    "name": "Bluebristle Muujin",
+    "description": ""
+  },
+  "BP_WaterFlower_C": {
+    "name": "크리스털 호수 연꽃",
+    "description": "크리스털 호수 연꽃은 발견된 장소를 따라 이름을 지었어요. 지금은 염료를 만드는 곳으로 사용되죠."
+  },
+  "BP_WaterPlane_Fishing_AZ1_Cave_SQ_C": {
+    "name": "Cave Bay",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_LakeVillage_SQ_C": {
+    "name": "Lake Village",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_OceanAZ1_SQ_C": {
+    "name": "Ocean Bay",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_PondVillage_SQ_C": {
+    "name": "Pond Village",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_RiverAZ1_SQ_C": {
+    "name": "River Bay",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_RiverVillage_SQ_C": {
+    "name": "River Village",
+    "description": ""
+  },
+  "BP_WildGarlic_C": {
+    "name": "달래",
+    "description": "마늘은 모든 요리에 맛있게 어울리는 향신료죠! 아니면 생으로 먹어서 입 냄새를 좋게 할 수도 있습니다."
+  }
+}

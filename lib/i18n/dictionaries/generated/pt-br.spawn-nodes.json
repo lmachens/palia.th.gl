@@ -1,0 +1,798 @@
+{
+  "BP_Bug_BeeR_C": {
+    "name": "Abelha glória dourada",
+    "description": "Uma abelha rara, importada da província de Akwindu. Diz-se que o hidromel feito com o mel desta abelha é muito consumido pela Rainha da província e sua família.\r\nTem a chance de ser encontrada ao cortar árvores em Kilima durante a manhã e o dia."
+  },
+  "BP_Bug_BeetleC_C": {
+    "name": "Percevejo com Manchas",
+    "description": "Um inseto conhecido mais pelo cheiro forte do que pelas cores impactantes.\r\nEncontrado por toda Kilima e Baía Bahari."
+  },
+  "BP_Bug_BeetleE_C": {
+    "name": "Besouro Âmbar Antigo",
+    "description": "Dizia-se que uma das espécies de insetos mais antigas conhecidas em Palia existia na época dos humanos.\r\nEncontrado nas florestas da Baía Bahari. Também tem uma chance de ser encontrado ao cortar árvores na Baía Bahari."
+  },
+  "BP_Bug_BeetleR_C": {
+    "name": "Besouro-Framboesa",
+    "description": "Um besouro cuja dieta consiste inteiramente de framboesas.\r \nEncontrado próximo à Fazenda do Badruu em Kilima."
+  },
+  "BP_Bug_BeetleU_C": {
+    "name": "Besouro vaca-loira",
+    "description": "Dizem que os chifres deste besouro-veado se assemelham aos do Orgulhoso Sernuk.\r\nTem uma chance de ser encontrado durante a mineração em Kilima."
+  },
+  "BP_Bug_BeeU_C": {
+    "name": "Abelha Bahari",
+    "description": "Uma espécie local de abelha conhecida por produzir um mel delicioso.\r\nTem uma chance de ser encontrada ao cortar árvores na Baía Bahari."
+  },
+  "BP_Bug_ButterflyC_C": {
+    "name": "Borboleta Azul Comum",
+    "description": "Sempre resiliente. Borboletas desse tipo podem ser encontradas em quase todos os climas de Palia.\r\nEncontrada por toda Kilima e Baía Bahari durante a manhã e o dia."
+  },
+  "BP_Bug_ButterflyE_C": {
+    "name": "Borboleta arco-íris",
+    "description": "Lendas antigas dizem que esta borboleta rara obteve sua bela coloração ao mergulhar a ponta de suas asas em um Poço de Fluxo.\r\nEncontrada nos Campos da Baía Bahari durante a manhã e o dia."
+  },
+  "BP_Bug_ButterflyR_C": {
+    "name": "Borboleta de Olhos Reluzentes",
+    "description": "Sempre que você vê o sol, você pode ver os olhos desta borboleta com padrões complexos olhando ao redor da Baía Bahari.\r\nEncontrada nas Florestas da Baía Bahari durante a manhã e o dia."
+  },
+  "BP_Bug_ButterflyU_C": {
+    "name": "Borboleta Asa do Crepúsculo",
+    "description": "Uma linda borboleta com asas da cor do crepúsculo. Exclusiva do Vale Kilima.\r\nPode ser encontrada durante a manhã e o dia em Kilima próxima ao Santuário do Dragão."
+  },
+  "BP_Bug_CicadaC_C": {
+    "name": "Cigarra Comum",
+    "description": "Uma cigarra comum.\r\nEncontrada presa a árvores na Baía Bahari durante a manhã e o dia."
+  },
+  "BP_Bug_CicadaR_C": {
+    "name": "Cigarra cospe-Fogo",
+    "description": "Uma cigarra espirituosa, cujo latido é pior que a mordida.\r\nEncontrada presa a árvores na Baía Bahari durante a manhã e o dia."
+  },
+  "BP_Bug_CicadaU_C": {
+    "name": "Cigarra cerúlea",
+    "description": "O canto desta cigarra é tão reconfortante que dizem que foi a inspiração para a quarta sinfonia de Ayana.\r\nEncontrada presa a árvores na Baía Bahari durante a manhã e o dia."
+  },
+  "BP_Bug_CrabC_C": {
+    "name": "Caranguejo Bahari",
+    "description": "Um caranguejo local, conhecido por ficar bem com manteiga desenhada.\r\nEncontrado ao longo da costa da Baía Bahari. Também tem a chance de ser encontrado ao procurar conchas na Baía Bahari."
+  },
+  "BP_Bug_CrabR_C": {
+    "name": "Caranguejo Vampiro",
+    "description": "Uma espécie invasora de caranguejo que suga a vida da população local.\r\nEncontrado ao redor da Fortaleza Inundada na Baía Bahari durante o entardecer e à noite."
+  },
+  "BP_Bug_CrabU_C": {
+    "name": "Caranguejo capaespinho",
+    "description": "Um caranguejo com uma carapaça muito espinhosa.\r\nEncontrado ao longo da costa da Baía Bahari."
+  },
+  "BP_Bug_CricketC_C": {
+    "name": "Grilo-do-Campo Comum",
+    "description": "Os grilos de campo podem ser encontrados em qualquer lugar onde haja um campo.\r\nEncontrado por toda Kilima e na Baía Bahari."
+  },
+  "BP_Bug_CricketR_C": {
+    "name": "Pula-pedra azul",
+    "description": "Esta pequena beleza azul é conhecida por se camuflar como uma pedra azul brilhante.\r\nEncontrada nos campos da Baía Bahari."
+  },
+  "BP_Bug_CricketU_C": {
+    "name": "Pula-folha de jardim",
+    "description": "A cigarrinha de jardim é uma delícia em Palia que muitas crianças a mantêm como animal de estimação. Dizem que trazem boa sorte.\r\nEncontrado nos campos e na Fazenda de Badruu em Kilima. Também tem a chance de ser encontrado ao procurar alimentos em Kilima."
+  },
+  "BP_Bug_DragonflyC_C": {
+    "name": "Libélula rabo-de-pincel",
+    "description": "A cauda desta libélula é tão brilhante e vibrante que alguns dos primeiros Majiri a usaram como pincel.\r\nEncontrada ao redor do lago em Kilima, bem como em rios e lagoas na Baía Bahari."
+  },
+  "BP_Bug_DragonflyE_C": {
+    "name": "Libélula asa de joia",
+    "description": "Uma libélula com asas tão brilhantes e coloridas quanto qualquer pedra preciosa.\r\nEncontrada perto da entrada de uma caverna em um penhasco na Baía Bahari."
+  },
+  "BP_Bug_DragonflyR_C": {
+    "name": "Libélula Cospe-Fogo",
+    "description": "Esta libélula é notoriamente difícil de capturar, em parte devido ao seu hálito ardente.\r\nEncontrado nos campos de Kilima."
+  },
+  "BP_Bug_DragonflyU_C": {
+    "name": "Libélula escura",
+    "description": "Esta libélula furtiva é usada como componente em vários corantes e tintas pretas.\r\nEncontrada ao redor de rios e lagoas na Baía Bahari."
+  },
+  "BP_Bug_GlowbugC_C": {
+    "name": "Inseto da lanterna de papel",
+    "description": "Este inseto brilha tão intensamente quanto uma lanterna colorida de um dia de festa voando para o céu noturno Paliano.\r\nEncontrado ao longo da costa e nas florestas da Baía Bahari durante o entardecer e à noite."
+  },
+  "BP_Bug_GlowbugR_C": {
+    "name": "Inseto brilhante de Bahari",
+    "description": "Uma espécie local de fauna bioluminescente. Descoberto pelo Professor Bonlin Amepongo.\r\nEncontrado nos campos da Baía Bahari durante o entardecer e à noite."
+  },
+  "BP_Bug_LadybugR_C": {
+    "name": "Princesa Joaninha",
+    "description": "Uma joaninha de aparência muito majestosa, popularizada pelo conto de fadas infantil \"A Princesa Que Se Transformou Em Joaninha\".\r\nEncontrado ao redor do lago em Kilima."
+  },
+  "BP_Bug_LadybugU_C": {
+    "name": "Joaninha de jardim",
+    "description": "Uma joaninha preta e vermelha conhecida por controlar pragas de jardim.\r\nVocê tem chances de encontrá-la ao procurar alimentos nos campos da Baía Bahari."
+  },
+  "BP_Bug_MantisE_C": {
+    "name": "Louva-a-deus fada",
+    "description": "Um louva-a-deus da antiga lenda de Majiri, cuja existência só recentemente foi confirmada por entomologistas modernos. Diz-se que tem propriedades mágicas.\r\nEncontrado nos campos da Baía Bahari."
+  },
+  "BP_Bug_MantisR1_C": {
+    "name": "Louva-a-deus com Manchas",
+    "description": "Um louva-a-deus raro com um belo conjunto de manchas.\r\nEncontrado próximo ao Santuário do Dragão em Kilima."
+  },
+  "BP_Bug_MantisR2_C": {
+    "name": "Louva-a-deus perseguidor",
+    "description": "Um louva-a-deus herbívoro que come exclusivamente folhas.\r\nTem uma chance de ser encontrado ao procurar alimentos nas florestas da Baía Bahari."
+  },
+  "BP_Bug_MantisU_C": {
+    "name": "Louva-a-deus de jardim",
+    "description": "Nada para ver aqui. Apenas a sua variedade de jardim de louva-a-deus.\r\nEncontrado ao redor do lago em Kilima. Também tem a chance de ser encontrado ao procurar comida ao redor do lago em Kilima."
+  },
+  "BP_Bug_MothC_C": {
+    "name": "Mariposa noturna de Kilima",
+    "description": "Embora bonita, a mariposa noturna de Kilima é tão comum nas noites quentes de verão que alguns a consideram uma praga. Mantenha longe de panos armazenados.\r\nEncontrada ao redor de Kilima e Baía Bahari durante o entardecer e à noite."
+  },
+  "BP_Bug_MothR_C": {
+    "name": "Mariposa de véu transparente",
+    "description": "As asas desta mariposa são tão finas que alguns dizem que você pode espiar o Reino do Dragão olhando através delas.\r\nEncontrada nos campos de Kilima durante o entardecer e à noite."
+  },
+  "BP_Bug_MothU_C": {
+    "name": "Mariposa fada lunar",
+    "description": "Dizem que a Mariposa Fada Lunar tem uma conexão muito especial com a Lua do Dragão e só aparece em momentos especiais durante seu ciclo.\r\nEncontrada nos campos e florestas da Baía Bahari durante o entardecer e à noite."
+  },
+  "BP_Bug_PedeR1_C": {
+    "name": "Diplópode Peludo",
+    "description": "Uma milípede com problema de crescimento de cabelo.\r\nEncontrado nas florestas da Baía Bahari."
+  },
+  "BP_Bug_PedeR2_C": {
+    "name": "Centopeia cintilante",
+    "description": "Uma centopéia rara com uma casca dura e brilhante.\r\nTem uma chance de ser encontrada durante a mineração na Baía Bahari."
+  },
+  "BP_Bug_PedeU_C": {
+    "name": "Centopeia de jardim",
+    "description": "Uma centopeia marrom e verde que adora se banquetear nos jardins.\r\nEncontrada nos campos de Kilima. Também pode ser encontrada ao procurar alimentos nos campos de Kilima."
+  },
+  "BP_Bug_SnailR_C": {
+    "name": "Caramujo de concha listrada",
+    "description": "Um caracol com listras tão distintas que sua concha já foi usada como moeda entre os primeiros Majiri.\r\nEncontrado ao longo da costa na Baía Bahari."
+  },
+  "BP_Bug_SnailU_C": {
+    "name": "Caramujo de jardim",
+    "description": "Um caracol que evoluiu ao longo do tempo para se parecer com uma folha. Bom para se esconder de predadores, ruim para se esconder do Louva-a-Deus Perseguidor.\r\nEncontrado ao longo da costa e nas florestas da Baía Bahari."
+  },
+  "BP_ChapaaPile_C": {
+    "name": "Rummage Pile",
+    "description": ""
+  },
+  "BP_Coral_C": {
+    "name": "Coral",
+    "description": "Leve a praia para casa com este pedaço de coral. Quase dá para sentir o cheiro do recife!"
+  },
+  "BP_Fish_AlbinoEeel_C": {
+    "name": "Enguia Albina",
+    "description": "Uma enguia sem pigmentação.\r\nEncontrada nas cavernas da Baía Bahari usando minhocas."
+  },
+  "BP_Fish_Alligator_Gar_C": {
+    "name": "Peixe-Jacaré",
+    "description": "Um peixe carnívoro com escamas roxas brilhantes. O nome peixe-jacaré foi inspirado no seu nariz comprido e dentes grandes.\r\nEncontrado no Lago Kilima usando vaga-lumes."
+  },
+  "BP_Fish_AncientFish_C": {
+    "name": "Peixe antigo",
+    "description": "esses peixes são tão antigos quanto o próprio continente de Palia e foram considerados extintos. Acho que você tem algo em comum."
+  },
+  "BP_Fish_Bahari_Pike_C": {
+    "name": "Peixe Lúcio de Bahari",
+    "description": "Um lúcio de tonalidade verde profundo nativo da Baía Bahari.\r\nEncontrado nos rios de Bahari usando vaga-lumes."
+  },
+  "BP_Fish_BahariBream_C": {
+    "name": "Brema Bahari",
+    "description": "Esses peixes são amplamente considerados um alimento básico da dieta local.\r\nEncontrado na costa da Baía Bahari usando minhocas."
+  },
+  "BP_Fish_Barracuda_C": {
+    "name": "Barracuda",
+    "description": "Um cruel predador de água salgada que fica ótimo grelhado levemente com um pouco de manteiga.\r\nEncontrado na costa da Baía Bahari sem isca no entardecer e à noite."
+  },
+  "BP_Fish_BatRay_C": {
+    "name": "Arraia-Morcego",
+    "description": "Uma arraia sinistra que salta da água como um morcego voador.\r\nEncontrada nas cavernas da Baía Bahari usando minhocas."
+  },
+  "BP_Fish_Beluga_Sturgeon_C": {
+    "name": "Esturjão Beluga",
+    "description": "Um grande esturjão que cresce durante toda a sua vida.\r\nEncontrado no Lago Kilima usando vaga-lumes."
+  },
+  "BP_Fish_Bigeye_Tuna_C": {
+    "name": "Atum-Rabilho",
+    "description": "Um peixe comum e elegante, adaptado para nadar rapidamente nas correntes oceânicas.\r\nEncontrado na costa da Baía Bahari usando minhocas."
+  },
+  "BP_Fish_Black_Sea_Bass_C": {
+    "name": "Robalo do Mar Negro",
+    "description": "Conhecidos pelas manchas pretas na pele, esses bagres são gentis e não ameaçam tanto Majiri quanto os humanos.\r\nEncontrado na costa da Baía Bahari usando vaga-lumes."
+  },
+  "BP_Fish_Blobfish_C": {
+    "name": "Peixe-Bolha",
+    "description": "Um peixe inflado e pegajoso que vive no fundo das piscinas de cavernas.\r\nEncontrado na Baía Bahari usando vaga-lumes."
+  },
+  "BP_Fish_Blue_Spotted_Ray_C": {
+    "name": "Arraia Azul",
+    "description": "Uma arraia colorida com manchas azuis brilhantes em todo o corpo e listras azuis ao longo da cauda.\r\nEncontrada na costa da Baía Bahari usando vaga-lumes pela manhã, dia e entardecer."
+  },
+  "BP_Fish_BlueMarlin_C": {
+    "name": "Marlin Azul",
+    "description": "Um peixe grande e resistente. O Marlin Azul é considerado um prêmio até pelos pescadores mais experientes.\r\nEncontrado na costa da Baía Bahari usando minhocas."
+  },
+  "BP_Fish_Cactus_Moray_C": {
+    "name": "Moreia-Cacto",
+    "description": "Uma enguia com espinhos afiados crescendo ao longo de seu comprimento para deter predadores.\r\nEncontrada na costa da Baía Bahari usando vaga-lumes de dia e noite."
+  },
+  "BP_Fish_CalicoKoi_C": {
+    "name": "Carpa Tricolor",
+    "description": "Um peixe koi padrão com um lindo padrão de chita.\r\nEncontrado em lagoas sem uso de isca."
+  },
+  "BP_Fish_CantankerousKoi_C": {
+    "name": "Koi Intratável",
+    "description": "Diz a lenda local que o primeiro Koi rabugento era um velho mal-humorado transfigurado por uma bruxa malvada.\r\nEncontrado em lagoas sem uso de isca durante o dia e à noite."
+  },
+  "BP_Fish_Channel_Catfish_C": {
+    "name": "Bagre do Canal",
+    "description": "Um bagre de rio em casa navegando em correntes rápidas.\r\nEncontrado nos rios Kilima sem isca."
+  },
+  "BP_Fish_Chub_C": {
+    "name": "Chub",
+    "description": "Um peixe lutador famoso por seu amplo apetite.\r\nEncontrado nos rios de Bahari usando vaga-lumes."
+  },
+  "BP_Fish_Cloudfish_C": {
+    "name": "Peixe Nuvem",
+    "description": "Um peixe que se alimenta no fundo da lagoa e cria redemoinhos de sedimento para se esconder.\r\nEncontrado durante o dia em lagoas usando vaga-lumes."
+  },
+  "BP_Fish_Codfish_C": {
+    "name": "Robalo de Bahari",
+    "description": "Um peixe abundante que é um ingrediente básico da culinária e é conhecido por seu sabor suave.\r\nEncontrado na costa da Baía Bahari sem usar isca."
+  },
+  "BP_Fish_Crimson_Fangtooth_C": {
+    "name": "Peixe-Ogro Carmim",
+    "description": "Um pequeno peixe vermelho com dentes enormes em proporção ao seu tamanho.\r\nEncontrado nas cavernas da Baía Bahari usando vaga-lumes."
+  },
+  "BP_Fish_Crucian_Carp_C": {
+    "name": "Carpa Cruciana",
+    "description": "Uma carpa resistente com escamas douradas acobreadas.\r\nEncontrado nos rios de Kilima usando vaga-lumes."
+  },
+  "BP_Fish_Cutthroat_Trout_C": {
+    "name": "Truta-azul",
+    "description": "Uma truta de rio que leva o nome de sua longa mandíbula e boca.\r\nEncontrada nos rios da Baía Bahari usando minhocas."
+  },
+  "BP_Fish_Dawnray_C": {
+    "name": "Arraia-do-Amanhecer",
+    "description": "Um raio dourado que caça ao amanhecer, suas escamas absorvem a luz do sol.\r\nEncontrado nos rios de Bahari sem isca pela manhã."
+  },
+  "BP_Fish_Duskray_C": {
+    "name": "Arraia-Crepúsculo",
+    "description": "Uma arraia manchada de carvão que caça ao anoitecer, misturando-se ao leito do rio.\r\nEncontrada nos rios de Bahari sem isca no entardecer."
+  },
+  "BP_Fish_Enchanted_Pupfish_C": {
+    "name": "Ciprinodonte Encantado",
+    "description": "Um peixinho fofo que pode absorver vestígios de Fluxo em suas escamas.\r\nEncontrado no Lago Kilima usando vaga-lumes."
+  },
+  "BP_Fish_Energized_Piranha_C": {
+    "name": "Piranha Energizada",
+    "description": "Uma piranha infundida com magia após consumir uma bugiganga mágica Grimalkin.\r\nEncontrada nos rios de Kilima usando minhocas."
+  },
+  "BP_Fish_EyelessMinnow_C": {
+    "name": "Vairão-Sem-Olhos",
+    "description": "Uma criatura habitante de cavernas e que perdeu a necessidade de ter olhos.\r\nEncontrada na Baía Bahari sem usar isca."
+  },
+  "BP_Fish_FairyCarp_C": {
+    "name": "Carpa-Fada",
+    "description": "Um peixe tímido com um brilho hipnoticamente translúcido.\r\nEncontrado em lagoas com minhocas pela manhã e no entardecer."
+  },
+  "BP_Fish_Fathead_Minnow_C": {
+    "name": "Vairão-da-Cabeça-Grande",
+    "description": "Um pequeno peixe de água doce conhecido por sua cabeça enorme.\r\nEncontrado nos rios de Bahari usando vaga-lumes."
+  },
+  "BP_Fish_Flametongue_Ray_C": {
+    "name": "Arraia Língua-de-Fogo",
+    "description": "Uma arraia de rio rara cujo nome deve-se às listras laranja e vermelhas brilhantes em suas costas.\r\nEncontrada nos rios de Kilima usando vaga-lumes pela manhã e durante o dia."
+  },
+  "BP_Fish_FreshwaterEel_C": {
+    "name": "Enguia de Água Doce",
+    "description": "Um peixe de rio longo e ágil, muitas vezes confundido com uma cobra.\r\nEncontrado nos rios de Kilima usando minhocas no entardecer e à noite."
+  },
+  "BP_Fish_Giant_Goldfish_C": {
+    "name": "Peixe Dourado Gigante",
+    "description": "Contra todas as probabilidades, alguns peixes dourados vivem até se tornarem lendários em tamanho.\r\nEncontrado em lagoas usando vaga-lumes."
+  },
+  "BP_Fish_Giant_Kilima_Stingray_C": {
+    "name": "Arraia Kilima Gigante",
+    "description": "Senhora do Lago Kilima. A ponta venenosa desta arraia também pode perfurar os ossos de suas presas.\r\nEncontrada no Lago Kilima usando vaga-lumes pela manhã, dia e entardecer."
+  },
+  "BP_Fish_Gillyfin_C": {
+    "name": "Barbatana Comum",
+    "description": "O peixe mais comum em Palia.\r\nEncontrado no Lago Kilima sem usar isca."
+  },
+  "BP_Fish_GoldenSalmon_C": {
+    "name": "Salmão Dourado",
+    "description": "Um tipo comum de salmão conhecido por prosperar à luz do sol.\r\nEncontrado nos rios de Kilima usando minhocas pela manhã e durante o dia."
+  },
+  "BP_Fish_Honey_Loach_C": {
+    "name": "Botia-Mel",
+    "description": "Peixe de rio cujas listras amarelas e pretas lembram uma abelha.\r\nEncontrado nos rios de Bahari usando vaga-lumes de dia e noite."
+  },
+  "BP_Fish_Hypnotic_Moray_C": {
+    "name": "Moreia Hipnótica",
+    "description": "Uma moreia que combina seu padrão impressionante e movimentos hipnóticos para atrair presas.\r\nEncontrada nas cavernas da Baía Bahari usando vaga-lumes."
+  },
+  "BP_Fish_Indigo_Lamprey_C": {
+    "name": "Lampreia-Índigo",
+    "description": "No passado, os Palianos colhiam as escamas deste peixe para fazer um corante índigo profundo.\r\nEncontrado nos rios de Kilima usando vaga-lumes no entardecer e à noite."
+  },
+  "BP_Fish_Kenjis_Carp_C": {
+    "name": "Carpa do Kenli",
+    "description": "Kenli descobriu pessoalmente esta carpa perto da Vila Kilima. Tem uma notável semelhança com uma Carpa Cruciana...\r\nEncontrada nos rios de Kilima usando vaga-lumes."
+  },
+  "BP_Fish_Kilima_Grayling_C": {
+    "name": "Peixe-Sombra de Kilima",
+    "description": "Um peixe aerodinâmico que passa a primeira parte da sua vida no mar antes de regressar aos rios do Vale Kilima.\r\nEncontrado nos rios de Kilima usando vaga-lumes."
+  },
+  "BP_Fish_Kilima_Redfin_C": {
+    "name": "Barbatana-vermelha de Kilima",
+    "description": "Um predador de rio agressivo que come literalmente qualquer coisa.\r\nEncontrado nos rios da Baía Bahari usando minhocas."
+  },
+  "BP_Fish_KilimaCatFish_C": {
+    "name": "Bagre de Kilima",
+    "description": "Um tipo único de bagre encontrado apenas no Vale do Kilima.\r\nEncontrado em lagoas usando minhocas."
+  },
+  "BP_Fish_LargemouthBass_C": {
+    "name": "Achigã-Boca-Grande",
+    "description": "Um baixo muito falante que pode engolir criaturas com mais de 50% do seu peso corporal.\r\nEncontrado no Lago Kilima usando minhocas."
+  },
+  "BP_Fish_Midnight_Paddlefish_C": {
+    "name": "Peixe-Espátula da Meia-Noite",
+    "description": "Um peixe-remo raro que se alimenta à noite, e suas escamas escuras o mantêm escondido dos predadores.\r\nEncontrado no Lago Kilima usando vaga-lumes à noite."
+  },
+  "BP_Fish_Mirror_Carp_C": {
+    "name": "Carpa-Espelho",
+    "description": "Uma carpa prateada com escamas que lembram espelhos.\r\nEncontrado em lagoas usando minhocas."
+  },
+  "BP_Fish_Mottled_Gobi_C": {
+    "name": "Gobi Malhado",
+    "description": "Um peixe pouco apreciado que se alimenta do excesso de algas do lago.\r\nEncontrado em lagoas usando vaga-lumes."
+  },
+  "BP_Fish_Mudminnow_C": {
+    "name": "Vairão",
+    "description": "Um vairão comum conhecido por sua cor lamacenta.\r\nEncontrado em lagoas sem uso de isca."
+  },
+  "BP_Fish_MutatedAngler_C": {
+    "name": "Peixe-Diabo Mutante",
+    "description": "Uma monstruosidade aterrorizante considerada uma sobrevivente da época dos humanos.\r\nEncontrada nas cavernas da Baía Bahari usando minhocas."
+  },
+  "BP_Fish_Oily_Anchovy_C": {
+    "name": "Anchova Gordurosa",
+    "description": "Um peixe viscoso que alguns Majiri acham estranhamente apetitoso.\r\nEncontrado nos rios da Baía Bahari usando minhocas."
+  },
+  "BP_Fish_Orange_Bluegill_C": {
+    "name": "Perca-Sol Laranja de Guelras Azuis",
+    "description": "Um peixe onívoro que prefere insetos, mas come qualquer coisa que caiba na boca.\r\nEncontrado em lagoas usando minhocas."
+  },
+  "BP_Fish_Paddlefish_C": {
+    "name": "Peixe-Espátula",
+    "description": "Um peixe primitivo que sobreviveu durante milhões de anos.\r\nEncontrado nos rios da Baía Bahari usando minhocas pela manhã, dia e no entardecer."
+  },
+  "BP_Fish_PaintedPerch_C": {
+    "name": "Perca Pintada",
+    "description": "Pequeno peixe de rio conhecido por suas cores agradáveis.\r\nEncontrado no Lago Kilima usando minhocas."
+  },
+  "BP_Fish_Platinum_Chad_C": {
+    "name": "Sável Platinado",
+    "description": "As brilhantes escamas de platina deste sável podem enganar os pescadores e fazê-los sonhar com riqueza.\r\nEncontrado nos rios de Kilima usando vaga-lumes."
+  },
+  "BP_Fish_PrismTrout_C": {
+    "name": "Truta Prisma",
+    "description": "Uma linda truta que brilha como arco-íris à luz do sol.\r\nEncontrado no Lago Kilima usando minhocas pela manhã e durante o dia."
+  },
+  "BP_Fish_RadiantSunfish_C": {
+    "name": "Peixe-Lua Radiante",
+    "description": "Um peixe radiante de rio que emite um raio de luz ofuscante que muitos comparam à sensação de olhar diretamente para o sol.\r\nEncontrado nos rios de Kilima usando minhoca."
+  },
+  "BP_Fish_Rainbow_Trout_C": {
+    "name": "Truta Arco-Íris",
+    "description": "Um peixe de rio exibindo um padrão de escala multicolorido discreto. Não é inteligente o suficiente para ter ciúmes da Truta Prisma.\r\nEncontrado nos rios Kilima sem isca."
+  },
+  "BP_Fish_Red-bellied_piranha_C": {
+    "name": "Piranha-Vermelha",
+    "description": "Um predador de rio agressivo que come literalmente qualquer coisa.\r\nEncontrado nos rios de Kilima usando minhocas."
+  },
+  "BP_Fish_RibbontailRay_C": {
+    "name": "Arraia-Uge-Manchas-Azuis",
+    "description": "Conhecido por frequentar águas tropicais, a Arraia-Uge-Manchas-Azuis fez recentemente uma migração surpreendente das ilhas de Inyrevn para a costa oeste da República Paliana.\r\nEncontrada na costa da Baía Bahari usando minhocas pela manhã e no entardecer."
+  },
+  "BP_Fish_Rosy_Bitterling_C": {
+    "name": "Rhodeus ocellatus",
+    "description": "Um peixe de água doce com uma mancha rosada na parte traseira.\r\nEncontrado nos rios de Bahari sem isca."
+  },
+  "BP_Fish_Sardine_C": {
+    "name": "Sardinha",
+    "description": "Um peixe pequeno, mas rápido, que muitos Majiri gostam de comer quando em conserva.\r\nEncontrado na costa da Baía Bahari sem isca."
+  },
+  "BP_Fish_Scarlet_Koi_C": {
+    "name": "Carpa Escarlate",
+    "description": "Uma carpa elegante com um padrão vermelho profundo.\r\nEncontrada em lagoas usando vaga-lumes."
+  },
+  "BP_Fish_Shimmerfin_C": {
+    "name": "Barbatana Reluzente",
+    "description": "Um peixe misterioso que às vezes pode estar em dois lugares ao mesmo tempo.\r\nEncontrado no Lago Kilima usando minhocas."
+  },
+  "BP_Fish_SilverSalmon_C": {
+    "name": "Salmão Prateado",
+    "description": "Um peixe prateado comum.\r\nEncontrado nos rios de Kilima sem isca no entardecer e à noite."
+  },
+  "BP_Fish_Silvery_Minnow_C": {
+    "name": "Vairão Prateado",
+    "description": "Um vairão comum com escamas prateadas que brilham ao sol.\r\nEncontrado nos rios de Bahari sem isca."
+  },
+  "BP_Fish_SmallmouthBass_C": {
+    "name": "Achigã-Boca-Pequena",
+    "description": "Um robalo comum com muito pouco a dizer e que ocasionalmente salta da água.\r\nEncontrado no Lago Kilima usando minhocas."
+  },
+  "BP_Fish_SpottedBullhead_C": {
+    "name": "Peixe-Escorpião com Manchas",
+    "description": "Um peixe-escorpião com manchas.\r\nEncontrado nos rios de Kilima sem usar isca."
+  },
+  "BP_Fish_Stalking_Catfish_C": {
+    "name": "Bagre Perseguidor",
+    "description": "Um bagre azul predador que atacará peixes vulneráveis próximos.\r\nEncontrado em lagoas usando vaga-lumes no entardecer e à noite."
+  },
+  "BP_Fish_Stickleback_C": {
+    "name": "Espinhela",
+    "description": "Um peixe carnívoro que gosta de comer ovas, insetos, crustáceos e dedos de pescadores.\r\nEncontrado durante o dia nos rios de Kilima usando minhoca."
+  },
+  "BP_Fish_Stonefish_C": {
+    "name": "Peixe-Pedra",
+    "description": "Extremamente venenoso, o Peixe-Pedra se mistura naturalmente ao ambiente enquanto espera pela presa.\r\nEncontrado nas cavernas da Baía Bahari usando vaga-lumes."
+  },
+  "BP_Fish_Stormray_C": {
+    "name": "Arraiarraio",
+    "description": "Uma majestosa arraia fluvial que caça contorcendo as correntes de água e canalizando raios pela cauda.\r\nEncontrado nos rios de Bahari usando vaga-lumes pela manhã e no entardecer."
+  },
+  "BP_Fish_Striped_Dace_C": {
+    "name": "Escalo Listrado",
+    "description": "Um Escalo Listrado nas costas.\r\nEncontrado nos rios de Kilima sem isca."
+  },
+  "BP_Fish_StripedSturgeon_C": {
+    "name": "Esturjão Listrado",
+    "description": "Um peixe com listras coloridas que o permite se camuflar na luz do sol e que se alimenta no fundo do lago.\r\nEncontrado no entardecer e à noite no Lago Kilima usando minhocas."
+  },
+  "BP_Fish_Swordfin_Eel_C": {
+    "name": "Enguia-Espada",
+    "description": "Uma enguia predadora de ponta que usa seu próprio corpo para abater as presas.\r\nEncontrado nos rios de Bahari usando vaga-lumes."
+  },
+  "BP_Fish_Thundering_Eel_C": {
+    "name": "Enguia Trovejante",
+    "description": "Uma enguia eletricamente carregada que pode eletrocutar sua presa até a submissão.\r\nEncontrada nos rios da Baía Bahari usando minhocas."
+  },
+  "BP_Fish_UmbranCarp_C": {
+    "name": "Carpa Umbrana",
+    "description": "Parente da Carpa Fada, a Carpa Umbrana prefere os ambientes escuros de cavernas e sistemas de lagos subterrâneos.\r\nEncontrada nas cavernas da Baía Bahari sem isca."
+  },
+  "BP_Fish_UnicornFish_C": {
+    "name": "Peixe-Unicórnio-de-Nariz-Comprido",
+    "description": "O chifre do peixe unicórnio é valioso para qualquer alquimista ou mestre de poções. Mas cuidado: há rumores de que eles têm habilidades psíquicas que podem fazer até o pescador mais talentoso pensar que a esquerda é a direita.\r\nEncontrado na costa da Baía Bahari usando vaga-lumes durante o dia."
+  },
+  "BP_Fish_Voidray_C": {
+    "name": "Arraia-Nula",
+    "description": "Alienígena e aterrorizante, alguns dizem que a Arraia-Nula pode entrar no reino Eco e se alimentar de ecos menores que encontrar.\r\nEncontrada nas cavernas da Baía Bahari usando vaga-lumes."
+  },
+  "BP_Fish_Willow_Lamprey_C": {
+    "name": "Lampreia-Salgueiro",
+    "description": "Uma lampreia longa e fina que leva esse nome devido à sua semelhança com os galhos de um salgueiro.\r\nEncontrada nos rios da Baía Bahari usando minhocas à noite."
+  },
+  "BP_Fish_Yellow_Perch_C": {
+    "name": "Perca Amarela",
+    "description": "Poleiro comum encontrado em rios.\r\nEncontrado nos rios de Bahari sem isca."
+  },
+  "BP_Fish_Yellowfin_Tuna_C": {
+    "name": "Albacora",
+    "description": "Um atum grande que pode nadar mais rápido do que seu tamanho indica.\r\nEncontrado na costa da Baía Bahari usando vaga-lumes."
+  },
+  "BP_FishingJackpot_C": {
+    "name": "Baú Ensopado",
+    "description": "Abra esse baú misterioso para receber o prêmio dentro dele."
+  },
+  "BP_FishingRecipeBook_C": {
+    "name": "Receita: Ensopado de Peixe",
+    "description": "Consuma para aprender a receita de Ensopado de Peixe."
+  },
+  "BP_Gatherable_MushroomBlue_C": {
+    "name": "Cogumelo Reluzente",
+    "description": "Os cogumelos brilhantes obtêm seu brilho ao absorver Fluxo e, por isso, têm muitos usos na alquimia."
+  },
+  "BP_Gatherable_MushroomR_C": {
+    "name": "Morel da montanha",
+    "description": "Um cogumelo comum chamado morel da montanha e que pode ser encontrado em casa! É extremamente popular, cru ou cozido."
+  },
+  "BP_HeartdropLilly_C": {
+    "name": "Lírio Pingo-de-Coração",
+    "description": "O Lírio Pingo-de-Coração é uma flor rara com um significado especial para os palianos: o florescimento do amor."
+  },
+  "BP_Mining_Clay_C": {
+    "name": "Argila",
+    "description": "Um material de terra. Pode ser fundido em cerâmica para fabricação de itens."
+  },
+  "BP_Mining_Copper_Large_C": {
+    "name": "Minério de Cobre (L)",
+    "description": "Uma pedra que contém cobre. Pode ser fundida em barras para fabricação de itens."
+  },
+  "BP_Mining_Copper_Medium_C": {
+    "name": "Minério de Cobre (M)",
+    "description": "Uma pedra que contém cobre. Pode ser fundida em barras para fabricação de itens."
+  },
+  "BP_Mining_Copper_Small_C": {
+    "name": "Minério de Cobre (S)",
+    "description": "Uma pedra que contém cobre. Pode ser fundida em barras para fabricação de itens."
+  },
+  "BP_Mining_Iron_Large_C": {
+    "name": "Minério de Ferro (L)",
+    "description": "Uma pedra que contém ferro. Pode ser fundida em barras para fabricação de itens."
+  },
+  "BP_Mining_Iron_Medium_C": {
+    "name": "Minério de Ferro (M)",
+    "description": "Uma pedra que contém ferro. Pode ser fundida em barras para fabricação de itens."
+  },
+  "BP_Mining_Iron_Small_C": {
+    "name": "Minério de Ferro (S)",
+    "description": "Uma pedra que contém ferro. Pode ser fundida em barras para fabricação de itens."
+  },
+  "BP_Mining_Palium_Large_C": {
+    "name": "Minério de Palium (L)",
+    "description": "Uma pedra que contém palium. Pode ser fundida em barras fabricação de itens."
+  },
+  "BP_Mining_Palium_Medium_C": {
+    "name": "Minério de Palium (M)",
+    "description": "Uma pedra que contém palium. Pode ser fundida em barras fabricação de itens."
+  },
+  "BP_Mining_Palium_Small_C": {
+    "name": "Minério de Palium (S)",
+    "description": "Uma pedra que contém palium. Pode ser fundida em barras fabricação de itens."
+  },
+  "BP_Mining_Stone_Large_C": {
+    "name": "Pedra (L)",
+    "description": "Uma pedra comum. Pode ser fundida em tijolos."
+  },
+  "BP_Moss_DragonsBeard_C": {
+    "name": "Turfa da Barba do Dragão",
+    "description": "A Turfa da Barba do Dragão é um musgo raro, alquímico, batizado por sua cor, que se assemelha à do Maji."
+  },
+  "BP_Moss_EmeraldCarpet_C": {
+    "name": "Tapete de Musgo Esmeralda",
+    "description": "Dizem que encher a casa com a cor vibrante do tapete de musgo esmeralda traz boa sorte."
+  },
+  "BP_Oyster_C": {
+    "name": "Ostra Fechada",
+    "description": "Abra esta ostra! Se não encontrar uma pérola, pelo menos você pode comê-la."
+  },
+  "BP_PoisonFlower_C": {
+    "name": "Margarida Espinhosa",
+    "description": "A margarida espinhosa da montanha sobrevive até mesmo nas condições mais difíceis."
+  },
+  "BP_QuestItem_CookBook_1_C": {
+    "name": "Livro de Receitas Elegante",
+    "description": "A capa do livro diz: \"Aristocracia: um Guia para Cozinhar para a Elite Majiri\"."
+  },
+  "BP_QuestItem_CookBook_2_C": {
+    "name": "Livro de Receitas de Sobremesas",
+    "description": "A capa do livro diz: \"Doces para um Doce: um Guia para Preparar Sobremesas de Babar\"."
+  },
+  "BP_Seashell_C": {
+    "name": "Concha",
+    "description": "Quem vende conchas à beira-mar? Ninguém. Você teve que encontrar isso sem nenhuma ajuda."
+  },
+  "BP_Spice_DariCloves_C": {
+    "name": "Dentes de dari",
+    "description": "O raro dente de Dari é uma especiaria adorada por chefes e alquimistas. Dizem que tem propriedades mágicas."
+  },
+  "BP_Spice_HeatRoot_C": {
+    "name": "Raiz quente",
+    "description": "Não se preocupe! Seja como remédio ou alimento, a Raiz Quente picante vai te esquentar de dentro para fora."
+  },
+  "BP_Spiced_Sprouts_C": {
+    "name": "Brotos de Pimenta",
+    "description": "Os Brotos de Pimenta dão uma cor forte e um sabor terroso a qualquer prato. Também são muito fáceis de encontrar."
+  },
+  "BP_SundropLillies_C": {
+    "name": "Lírio Pingo-de-Sol",
+    "description": "O Lírio Pingo-de-Sol cresce em campos abertos, onde pode virar as pétalas para a luz do sol."
+  },
+  "BP_SweetLeaves_C": {
+    "name": "Folha Doce",
+    "description": "Quem gosta de doces adora a folha doce, um dos ingredientes de sobremesa preferidos de Palia."
+  },
+  "BP_Trash_Shipfragments_C": {
+    "name": "Fragmentos de Navio",
+    "description": "Lixo comum encontrado no mar. Evidência de um naufrágio recente."
+  },
+  "BP_Trash_Wagonwheel_C": {
+    "name": "Roda de Carroça",
+    "description": "Um pedaço de lixo comum encontrado dentro e nos arredores do Lago de Cristal. Talvez uma relíquia de viajantes de passagem pelo local."
+  },
+  "BP_Trash_WaterloggedBoot_C": {
+    "name": "Bota Ensopada",
+    "description": "Lixo comum encontrado na Lagoa dos Espelhos."
+  },
+  "BP_TreeChoppable_Birch_Large_C": {
+    "name": "Vegetação (L)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Large_CoOp_C": {
+    "name": "Flow Vegetação (L)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Medium_C": {
+    "name": "Vegetação (M)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Medium_CoOp_C": {
+    "name": "Flow Vegetação (M)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Sapling_CoOp_C": {
+    "name": "Flow Vegetação (XS)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Small_C": {
+    "name": "Vegetação (S)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Small_CoOp_C": {
+    "name": "Flow Vegetação (S)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Large_C": {
+    "name": "Semente (L)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Large_CoOp_C": {
+    "name": "Flow Semente (L)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Medium_C": {
+    "name": "Semente (M)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Medium_CoOp_C": {
+    "name": "Flow Semente (M)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Sapling_CoOp_C": {
+    "name": "Flow Semente (XS)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Small_C": {
+    "name": "Semente (S)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Small_CoOp_C": {
+    "name": "Flow Semente (S)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Large_C": {
+    "name": "Vegetação (L)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Large_CoOp_C": {
+    "name": "Flow Vegetação (L)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Medium_C": {
+    "name": "Vegetação (M)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Medium_CoOp_C": {
+    "name": "Flow Vegetação (M)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Sapling_CoOp_C": {
+    "name": "Flow Vegetação (XS)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Small_C": {
+    "name": "Vegetação (S)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Small_CoOp_C": {
+    "name": "Flow Vegetação (S)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Large_C": {
+    "name": "Pine (L)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Large_CoOp_C": {
+    "name": "Flow Pine (L)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Large2_CoOp_C": {
+    "name": "Flow Pine (XL)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Medium_C": {
+    "name": "Pine (M)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Medium_CoOp_C": {
+    "name": "Flow Pine (M)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Sapling_CoOp_C": {
+    "name": "Flow Pine (XS)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Small_C": {
+    "name": "Pine (S)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Small_CoOp_C": {
+    "name": "Flow Pine (S)",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Cearnuk_T1_C": {
+    "name": "Sernuk",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Cearnuk_T2_C": {
+    "name": "Elder Sernuk",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Cearnuk_T3_C": {
+    "name": "Proudhorn Sernuk",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Chapaa_T1_C": {
+    "name": "Spotted Chapaa",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Chapaa_T2_C": {
+    "name": "Striped Chapaa",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Chapaa_T3_C": {
+    "name": "Azure Chapaa",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_TreeClimber_T1_C": {
+    "name": "Muujin",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_TreeClimber_T2_C": {
+    "name": "Banded Muujin",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_TreeClimber_T3_C": {
+    "name": "Bluebristle Muujin",
+    "description": ""
+  },
+  "BP_WaterFlower_C": {
+    "name": "Lótus da Lagoa de Cristal",
+    "description": "O lótus da Lagoa de Cristal leva o nome do lugar onde foi descoberto e agora é usado para fazer corantes."
+  },
+  "BP_WaterPlane_Fishing_AZ1_Cave_SQ_C": {
+    "name": "Cave Bay",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_LakeVillage_SQ_C": {
+    "name": "Lake Village",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_OceanAZ1_SQ_C": {
+    "name": "Ocean Bay",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_PondVillage_SQ_C": {
+    "name": "Pond Village",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_RiverAZ1_SQ_C": {
+    "name": "River Bay",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_RiverVillage_SQ_C": {
+    "name": "River Village",
+    "description": ""
+  },
+  "BP_WildGarlic_C": {
+    "name": "Alho Selvagem",
+    "description": "O alho dá um toque delicioso a qualquer prato... ou pode ser comido cru para perfumar o hálito."
+  }
+}

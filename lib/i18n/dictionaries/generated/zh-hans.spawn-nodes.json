@@ -1,0 +1,798 @@
+{
+  "BP_Bug_BeeR_C": {
+    "name": "金色荣耀蜜蜂",
+    "description": "一种从阿奎度省引进的稀有蜜蜂。据说阿奎度省的女王和她的家族很爱喝用这种蜜蜂的蜂蜜酿成的蜜酒。\r\n清晨和白天的时候，可在基利马砍树时有机会发现。"
+  },
+  "BP_Bug_BeetleC_C": {
+    "name": "斑点臭虫",
+    "description": "这种昆虫发出的浓烈气味比它花花绿绿的颜色还要出名。\r\n在基利马和巴哈利湾随处可见。"
+  },
+  "BP_Bug_BeetleE_C": {
+    "name": "远古琥珀甲虫",
+    "description": "帕利亚已知最古老的昆虫物种之一，据说存在于人类时代。\r\n可在巴哈利湾的森林里发现。在巴哈里湾砍树时也有机会发现。"
+  },
+  "BP_Bug_BeetleR_C": {
+    "name": "树莓甲虫",
+    "description": "一种平时只以树莓为食的甲虫。\r\n可以在基利马的巴德鲁农场找到。"
+  },
+  "BP_Bug_BeetleU_C": {
+    "name": "角傲锹甲虫",
+    "description": "据说这种锹甲虫的角和角傲瑟努可的角相似。\r\n在基利马采矿时有机会发现。"
+  },
+  "BP_Bug_BeeU_C": {
+    "name": "巴哈利蜜蜂",
+    "description": "一种知名的当地蜜蜂，生产的美味蜂蜜有口皆碑。\r\n在巴哈利湾砍树时有机会发现。"
+  },
+  "BP_Bug_ButterflyC_C": {
+    "name": "常见蓝蝶",
+    "description": "适应力极强。帕利亚的各种气候条件下几乎都可以见到这种蝴蝶。\r\n清晨和白天的时候，可在基利马和巴哈利湾附近发现。"
+  },
+  "BP_Bug_ButterflyE_C": {
+    "name": "七彩翅尖蝴蝶",
+    "description": "根据古老的传说，这种稀有的蝴蝶将自己的翅尖浸在了灵流之井里，才有了这般美丽的颜色。\r\n清晨和白天的时候，可在巴哈利湾野外发现。"
+  },
+  "BP_Bug_ButterflyR_C": {
+    "name": "大眼蝴蝶",
+    "description": "有着复杂花纹的蝴蝶。凡是有太阳的晴天，你都能看到它在山谷间游荡。\r\n清晨和白天的时候，可巴哈利湾树林发现。"
+  },
+  "BP_Bug_ButterflyU_C": {
+    "name": "暮翼蝴蝶",
+    "description": "一种有暮色双翅的美丽蝴蝶。基利马谷的独有物种。\r\n清晨和白天的时候，可在基利马的龙之神龛周围发现。"
+  },
+  "BP_Bug_CicadaC_C": {
+    "name": "常见树蝉",
+    "description": "一种常见的蝉。\r\n清晨和白天的时候，可在巴哈利湾的树上发现。"
+  },
+  "BP_Bug_CicadaR_C": {
+    "name": "炎息蝉",
+    "description": "精神饱满的蝉，虽然会咬人，但叫声更令人烦躁。\r\n清晨和白天的时候，可在巴哈利湾的树上发现。"
+  },
+  "BP_Bug_CicadaU_C": {
+    "name": "蔚蓝蝉",
+    "description": "这种蝉的叫声让人很放松，据说阿亚纳就是听到这种声音后创作了《第四交响曲》。\r\n清晨和白天的时候，可在巴哈利湾的树上发现。"
+  },
+  "BP_Bug_CrabC_C": {
+    "name": "巴哈利螃蟹",
+    "description": "一种广富盛名的当地螃蟹，搭配黄油非常美味。\r\n可在巴哈利湾沿岸发现，在巴哈利湾采集贝壳时也有机会看到。"
+  },
+  "BP_Bug_CrabR_C": {
+    "name": "吸血螃蟹",
+    "description": "外来的入侵螃蟹，以本土的生物为食。\r\n傍晚和夜间的时候，可在巴哈利湾的洪水堡垒附近发现。"
+  },
+  "BP_Bug_CrabU_C": {
+    "name": "锥壳蟹",
+    "description": "一种外壳多刺的螃蟹。\r\n在巴哈利湾沿岸活动。"
+  },
+  "BP_Bug_CricketC_C": {
+    "name": "常见田野蟋蟀",
+    "description": "只要有田地的地方，就能找到田螽蟋蟀。\r\n在基利马和巴哈利湾随处可见。"
+  },
+  "BP_Bug_CricketR_C": {
+    "name": "湛蓝蟋蟀",
+    "description": "这个蓝色小美人因常常会伪装成一块闪亮的蓝鹅卵石而被人所知。\r\n可在巴哈利湾野外发现。"
+  },
+  "BP_Bug_CricketU_C": {
+    "name": "花园叶蝉",
+    "description": "花园叶蝉在帕利亚很受欢迎，许多孩子把它们当宠物饲养。据说它们能带来好运。\r\n可在基利马的巴德鲁家农场发现。在基利马采集时也有机会发现。"
+  },
+  "BP_Bug_DragonflyC_C": {
+    "name": "刷尾蜻蜓",
+    "description": "这只蜻蜓的尾部明亮而生动，据说早期的马吉尼曾将其用作画笔。\r\n可在基利马的湖泊附近以及巴哈利湾的河流和池塘中发现。"
+  },
+  "BP_Bug_DragonflyE_C": {
+    "name": "宝石翼蜻蜓",
+    "description": "翅膀如宝石般光彩夺目的蜻蜓。\r\n可在巴哈利湾悬崖的洞穴入口附近发现。"
+  },
+  "BP_Bug_DragonflyR_C": {
+    "name": "炎息蜻蜓",
+    "description": "这种蜻蜓相当难以捕捉，部分原因在于其烈火般的气息。\r\n可在基利马野外找到。"
+  },
+  "BP_Bug_DragonflyU_C": {
+    "name": "乌黑蜻蜓",
+    "description": "这只潜行的蜻蜓是各种黑色染料和墨水的重要组成部分。\r\n可在巴哈利湾的河流和池塘中发现。"
+  },
+  "BP_Bug_GlowbugC_C": {
+    "name": "纸灯虫",
+    "description": "这只虫子像节日里五彩缤纷的灯笼一样闪闪发光，飞向帕利亚的夜空。\r\n傍晚和深夜的时候，可在巴哈利湾沿岸和树林间发现。"
+  },
+  "BP_Bug_GlowbugR_C": {
+    "name": "巴哈利萤火虫",
+    "description": "一种会发出生灵之光的当地动物。由波林·阿朋哥教授发现。\r\n可在傍晚和深夜的巴哈利湾发现。"
+  },
+  "BP_Bug_LadybugR_C": {
+    "name": "瓢虫公主",
+    "description": "一种外形十分高贵的瓢虫，因童话《公主变瓢虫》而广为人知。\r\n在基利马的湖边活动。"
+  },
+  "BP_Bug_LadybugU_C": {
+    "name": "花园瓢虫",
+    "description": "黑红相间的瓢虫，常用于防治花园虫害。\r\n在巴哈利湾野外采集时有机会发现。"
+  },
+  "BP_Bug_MantisE_C": {
+    "name": "螳螂精灵",
+    "description": "早期马吉尼传说中的螳螂，直到最近才被昆虫学家确认存在。据说拥有魔法属性。\r\n可在巴哈利湾发现。"
+  },
+  "BP_Bug_MantisR1_C": {
+    "name": "斑点螳螂",
+    "description": "十分稀有的螳螂，身上有漂亮的斑点。\r\n可在基利马的龙之神龛附近发现。"
+  },
+  "BP_Bug_MantisR2_C": {
+    "name": "追叶螳螂",
+    "description": "一种草食性螳螂，只以树叶为食。\r\n有机会在巴哈利湾的树林中采集时发现。"
+  },
+  "BP_Bug_MantisU_C": {
+    "name": "花园螳螂",
+    "description": "没什么好看的。就是你花园里的螳螂。\r\n可在基利马湖边找到。在基利马湖周围采集时也有机会发现。"
+  },
+  "BP_Bug_MothC_C": {
+    "name": "基利马夜蛾",
+    "description": "基利马夜蛾虽然有着美丽的外表，但在炎热的夏夜里过于常见，有人甚至将它当作害虫。存放布料时注意和它保持距离。\r\n傍晚和深夜的时候，可在基利马和巴哈利湾周边发现。"
+  },
+  "BP_Bug_MothR_C": {
+    "name": "薄面纱蛾",
+    "description": "这种飞蛾的翅膀非常轻薄，有人说你可以透过它们一睹龙之界域。\r\n傍晚和深夜的时候，可在巴哈利湾野外发现。"
+  },
+  "BP_Bug_MothU_C": {
+    "name": "月精灵蛾",
+    "description": "据说这种月精灵蛾与龙之月有非常特殊的联系，而且只会在其运行周期的特殊时段出现。\r\n傍晚和深夜的时候，可在巴哈利湾野外和树林间发现。"
+  },
+  "BP_Bug_PedeR1_C": {
+    "name": "多毛千足虫",
+    "description": "有毛发生长问题的千足虫。\r\n可在巴哈利湾的树林中发现。"
+  },
+  "BP_Bug_PedeR2_C": {
+    "name": "闪光蜈蚣",
+    "description": "一只有闪亮硬壳的稀有蜈蚣。\r\n会在巴哈利湾钻洞。"
+  },
+  "BP_Bug_PedeU_C": {
+    "name": "花园千足虫",
+    "description": "一种棕绿色千足虫，喜欢以园中作物为食。\r\n可在基利马的野外发现。在基利玛野外采集时也有机会发现。"
+  },
+  "BP_Bug_SnailR_C": {
+    "name": "斑纹壳蜗牛",
+    "description": "一种拥有独特条纹的蜗牛，早期马吉尼曾把它的壳当作货币使用。\r\n可在巴哈利湾沿岸发现。"
+  },
+  "BP_Bug_SnailU_C": {
+    "name": "花园蜗牛",
+    "description": "随着时间的推移进化出叶形拟态的蜗牛。善于躲避掠食者，却不善躲避追叶螳螂。\r\n可在巴哈利湾沿岸和树林中发现。"
+  },
+  "BP_ChapaaPile_C": {
+    "name": "Rummage Pile",
+    "description": ""
+  },
+  "BP_Coral_C": {
+    "name": "珊瑚",
+    "description": "充满海洋气息的珊瑚，把它带回家吧。仿佛能闻到珊瑚礁的味道！"
+  },
+  "BP_Fish_AlbinoEeel_C": {
+    "name": "白化鳗鱼",
+    "description": "没有颜色的鳗鱼。\r\n可在巴哈利湾的洞穴中使用蠕虫饵垂钓。"
+  },
+  "BP_Fish_Alligator_Gar_C": {
+    "name": "鳄雀鳝",
+    "description": "鳄雀鳝是一种有亮紫色鳞片的肉食性鱼类，因长长的吻部和多排大牙齿而得名。\r\n可在基利马湖中用萤火虫饵垂钓。"
+  },
+  "BP_Fish_AncientFish_C": {
+    "name": "远古的鱼",
+    "description": "这些鱼和帕利亚大陆本身一样古老，曾被认为已经绝迹。猜猜你们有什么共同点。"
+  },
+  "BP_Fish_Bahari_Pike_C": {
+    "name": "巴哈利狗鱼",
+    "description": "一种原产于巴哈利湾的深绿色狗鱼。\r\n可在巴哈利河用萤火虫饵垂钓。"
+  },
+  "BP_Fish_BahariBream_C": {
+    "name": "巴哈利鲷",
+    "description": "这类鱼通常被视为当地饮食的基本食材。\r\n可在巴哈利湾沿岸用蠕虫饵垂钓。"
+  },
+  "BP_Fish_Barracuda_C": {
+    "name": "梭子鱼",
+    "description": "一种凶猛的海洋掠食者。用黄油小烤一下，味道棒极了。\r\n可在傍晚和深夜巴哈利湾沿岸发现，无需鱼饵即可捕捉。"
+  },
+  "BP_Fish_BatRay_C": {
+    "name": "蝠鲼",
+    "description": "跃出水面时就像一只飞扑的蝙蝠般阴森可怖的鱼。\r\n可在巴哈利湾使用鱼饵垂钓。"
+  },
+  "BP_Fish_Beluga_Sturgeon_C": {
+    "name": "白鲸鲟鱼",
+    "description": "体型庞大的鲟鱼，一生都在长大。\r\n可在基利马湖使用萤火虫饵垂钓。"
+  },
+  "BP_Fish_Bigeye_Tuna_C": {
+    "name": "蓝鳍金枪鱼",
+    "description": "一种常见的鲜亮鱼类，可在洋流中快速穿梭。\r\n可在巴哈利湾沿岸使用蠕虫饵垂钓。"
+  },
+  "BP_Fish_Black_Sea_Bass_C": {
+    "name": "黑海黑鲈鱼",
+    "description": "这种黑鲈以皮肤上的黑斑而闻名，对和人类都马吉尼都是温和无害的。\r\n可在巴哈利湾沿岸使用萤火虫鱼饵垂钓。"
+  },
+  "BP_Fish_Blobfish_C": {
+    "name": "水滴鱼",
+    "description": "一种生活在洞穴池底的鱼类，外形臃肿，摸起来十分滑腻。\r\n可在巴哈利湾的洞穴使用萤火虫饵垂钓。"
+  },
+  "BP_Fish_Blue_Spotted_Ray_C": {
+    "name": "蓝斑魟",
+    "description": "一种颜色鲜艳的刺魟鱼，身上有亮蓝色斑点，尾巴上有蓝色条纹。\r\n清晨、白天和傍晚的时候，可在巴哈利湾沿岸使用萤火虫饵垂钓。"
+  },
+  "BP_Fish_BlueMarlin_C": {
+    "name": "蓝枪鱼",
+    "description": "一种适应力强的大型鱼类。即使经验最丰富的渔民也把蓝枪鱼当成珍贵的渔获。\r\n可在巴哈利湾沿岸使用蠕虫饵垂钓。"
+  },
+  "BP_Fish_Cactus_Moray_C": {
+    "name": "仙人掌海鳗",
+    "description": "一种鳗鱼，全身尖刺让掠食者望而却步。\r\n白天和深夜的时候，可在巴哈利湾沿岸使用萤火虫饵垂钓。"
+  },
+  "BP_Fish_CalicoKoi_C": {
+    "name": "花斑锦鲤",
+    "description": "有着美丽杂色图案的普通锦鲤。\r\n常见于池塘，无需鱼饵即可捕捉。"
+  },
+  "BP_Fish_CantankerousKoi_C": {
+    "name": "暴躁锦鲤",
+    "description": "据当地传说，第一条暴躁锦鲤是一个被邪恶女巫变形的古怪老头。\r\n在白天和深夜的时候，不用任何鱼饵都能在池塘里垂钓。"
+  },
+  "BP_Fish_Channel_Catfish_C": {
+    "name": "钳鱼",
+    "description": "一种擅长在快速的水流中游动的河鲶。\r\n在基利马河活动，无需鱼饵即可捕捉。"
+  },
+  "BP_Fish_Chub_C": {
+    "name": "白鲑",
+    "description": "一种很难捕捉的鱼，以广泛的食源而著称。\r\n可在巴哈利河使用萤火虫饵垂钓。"
+  },
+  "BP_Fish_Cloudfish_C": {
+    "name": "云鱼",
+    "description": "一种在水底觅食的池塘鱼，可以搅动一层层的沉淀物来作为掩护。\r\n清晨和白天的时候，可在池塘使用萤火虫饵垂钓。"
+  },
+  "BP_Fish_Codfish_C": {
+    "name": "巴哈利黑鲈鱼",
+    "description": "数量繁多的常见鱼类，以柔和的口感闻名。\r\n在巴哈利湾沿海活动，无需鱼饵即可捕捉。"
+  },
+  "BP_Fish_Crimson_Fangtooth_C": {
+    "name": "深红毒牙",
+    "description": "一种小红鱼，外形娇小，牙齿却很大\r。\n可在巴哈利湾用萤火虫饵垂钓。"
+  },
+  "BP_Fish_Crucian_Carp_C": {
+    "name": "鲫鱼",
+    "description": "生命力顽强的鲤鱼，鳞片呈铜金色。\r\n可在基利马河使用萤火虫饵垂钓。"
+  },
+  "BP_Fish_Cutthroat_Trout_C": {
+    "name": "割喉鳟",
+    "description": "一种因长下颌和嘴部而得名的鳟鱼。\r\n可在巴哈利湾使用蠕虫饵垂钓。"
+  },
+  "BP_Fish_Dawnray_C": {
+    "name": "黎明魟",
+    "description": "在黎明时分猎食的金色魟鱼，利用鳞片吸收阳光。\r\n清晨的时候，可在巴哈利河捕捉，无需使用鱼饵。"
+  },
+  "BP_Fish_Duskray_C": {
+    "name": "薄暮鳐",
+    "description": "一种在傍晚捕猎的深灰斑点鳐鱼，能与河床融为一体。\r\n傍晚的时候，可在巴哈利河捕捉，无需使用鱼饵。"
+  },
+  "BP_Fish_Enchanted_Pupfish_C": {
+    "name": "魔力鳉鱼",
+    "description": "一种可爱的小鱼，可以将微量灵流吸入自己的鳞片。\r\n可在基利马湖使用萤火虫饵垂钓。"
+  },
+  "BP_Fish_Energized_Piranha_C": {
+    "name": "魔能食人鱼",
+    "description": "在吞掉猫灵魔法饰品后充盈着魔力的食人鱼。\r\n可在基利马河用蠕虫饵垂钓。"
+  },
+  "BP_Fish_EyelessMinnow_C": {
+    "name": "无眼鲦鱼",
+    "description": "不再需要眼睛的穴居生物。\r\n在巴哈利湾的洞穴活动，无需鱼饵即可捕捉。"
+  },
+  "BP_Fish_FairyCarp_C": {
+    "name": "精灵鲤",
+    "description": "十分害羞的鱼，浑身半透明的光泽令人迷醉。\r\n清晨和傍晚的时候，可在池塘用蠕虫饵垂钓。"
+  },
+  "BP_Fish_Fathead_Minnow_C": {
+    "name": "胖头鲦鱼",
+    "description": "一种以超大头部而闻名的小型淡水鱼。\r\n可在巴哈利河用萤火虫饵垂钓。"
+  },
+  "BP_Fish_Flametongue_Ray_C": {
+    "name": "火舌鳐",
+    "description": "一种稀有的河鳐，因其背上的亮橙色和红色条纹得名。\r\n清晨和白天的时候，可在基利马河使用萤火虫饵垂钓。"
+  },
+  "BP_Fish_FreshwaterEel_C": {
+    "name": "淡水鳗鱼",
+    "description": "一种河鱼，身形长而柔软，常常有人将它误认为蛇。\r\n傍晚和深夜的时候，可在基利马河用蠕虫饵垂钓。"
+  },
+  "BP_Fish_Giant_Goldfish_C": {
+    "name": "巨无霸金鱼",
+    "description": "虽然可能性很小，但有些金鱼能长到惊人的尺寸。\r\n可在池塘用萤火虫饵垂钓。"
+  },
+  "BP_Fish_Giant_Kilima_Stingray_C": {
+    "name": "巨型基利马魔鬼鱼",
+    "description": "基利马湖的主宰，这种魔鬼鱼的毒刺甚至能刺穿猎物的骨头。\r\n清晨、白天和傍晚的时候，可在基利马湖使用蠕虫饵垂钓。"
+  },
+  "BP_Fish_Gillyfin_C": {
+    "name": "吉利鱼",
+    "description": "帕利亚最常见的一种鱼。\r\n在基利马湖活动，无需鱼饵即可捕捉。"
+  },
+  "BP_Fish_GoldenSalmon_C": {
+    "name": "金鲑",
+    "description": "一种常见的鲑鱼，因喜好阳光充足的环境而闻名。\r\n清晨和白天的时候，可在基利马河用蠕虫饵垂钓。"
+  },
+  "BP_Fish_Honey_Loach_C": {
+    "name": "蜂蜜泥鳅",
+    "description": "一种河鱼，有类似蜜蜂的黄黑相间条纹。\r\n白天和深夜的时候，可在巴哈利河用萤火虫饵垂钓。"
+  },
+  "BP_Fish_Hypnotic_Moray_C": {
+    "name": "催眠海鳗",
+    "description": "一种海鳗，会利用其显眼的花纹和具有催眠效果的动作来引诱猎物。\r\n可在巴哈利湾用萤火虫饵垂钓。"
+  },
+  "BP_Fish_Indigo_Lamprey_C": {
+    "name": "靛蓝七鳃鳗",
+    "description": "过去的帕利亚人会收获这种鱼的鳞片来制作靛蓝色染料。\r\n傍晚和深夜的时候，可在基利马河用萤火虫饵垂钓。"
+  },
+  "BP_Fish_Kenjis_Carp_C": {
+    "name": "肯利的鲤鱼",
+    "description": "肯利亲自在基利马村附近发现了这条鲤鱼。与鲫鱼相似度惊人……\r\n可在基利马河使用萤火虫鱼饵垂钓。"
+  },
+  "BP_Fish_Kilima_Grayling_C": {
+    "name": "基利马茴鱼",
+    "description": "一种身形纤长的鱼，前半生生活在海里，然后会回到基利马谷中的河流。\r\n可在基利马河用萤火虫饵垂钓。"
+  },
+  "BP_Fish_Kilima_Redfin_C": {
+    "name": "基利马红鳍鱼",
+    "description": "栖息于河中的凶猛掠食者，会吞噬一切。\r\n可在巴哈利湾使用蠕虫饵垂钓。"
+  },
+  "BP_Fish_KilimaCatFish_C": {
+    "name": "基利马鲶鱼",
+    "description": "一种只分布在基利马谷的罕见鲶鱼。\r\n可在池塘用蠕虫饵垂钓。"
+  },
+  "BP_Fish_LargemouthBass_C": {
+    "name": "大口黑鲈鱼",
+    "description": "一种大嘴黑鲈，可以吞下超过自己体重一半的生物。\r\n可在基利马湖用蠕虫饵垂钓。"
+  },
+  "BP_Fish_Midnight_Paddlefish_C": {
+    "name": "午夜鲟鱼",
+    "description": "一种在晚上进食的稀有鲟鱼，能利用自己的黑色鳞片躲开掠食者。\r\n深夜的时候，可在基利马用萤火虫饵垂钓。"
+  },
+  "BP_Fish_Mirror_Carp_C": {
+    "name": "镜鲤",
+    "description": "一种鳞片形似镜子的银色鲤鱼。\r\n可在池塘使用蠕虫饵垂钓。"
+  },
+  "BP_Fish_Mottled_Gobi_C": {
+    "name": "杂色牛尾鱼",
+    "description": "一种鲜为人知的鱼，专门清除池塘中的多余藻类。\r\n可在池塘使用萤火虫鱼饵垂钓。"
+  },
+  "BP_Fish_Mudminnow_C": {
+    "name": "泥巴鲦鱼",
+    "description": "一种常见鲦鱼，以其类似泥巴的颜色而闻名。\r\n常见于池塘，无需鱼饵即可捕捉。"
+  },
+  "BP_Fish_MutatedAngler_C": {
+    "name": "变异鮟鱇鱼",
+    "description": "据说是从人类时代幸存下来的可怕怪物。\r\n可在巴哈利湾用蠕虫饵捕捉。"
+  },
+  "BP_Fish_Oily_Anchovy_C": {
+    "name": "油浸鳀鱼",
+    "description": "黏糊糊的鱼，一些马吉尼觉得异常开胃。\r\n可在巴哈利湾使用蠕虫饵垂钓。"
+  },
+  "BP_Fish_Orange_Bluegill_C": {
+    "name": "橙黄蓝腮鱼",
+    "description": "一种杂食性鱼类，偏爱昆虫，但会吃一切能塞进嘴里的东西。\r\n可在池塘使用鱼饵垂钓。"
+  },
+  "BP_Fish_Paddlefish_C": {
+    "name": "鲟鱼",
+    "description": "一种存活了数百万年的远古鱼类。\r\n清晨、白天和傍晚的时候，可在巴哈利湾使用蠕虫饵垂钓。"
+  },
+  "BP_Fish_PaintedPerch_C": {
+    "name": "油彩鲈鱼",
+    "description": "一种体型较小的河鱼，以其鲜艳的颜色闻名。\r\n可在基利马湖用蠕虫饵垂钓。"
+  },
+  "BP_Fish_Platinum_Chad_C": {
+    "name": "白金鲥鱼",
+    "description": "白金鲥鱼全身闪闪发光的白金鳞片，会让渔夫幻想大富大贵。\r\n可在基利马河使用萤火虫鱼饵垂钓。"
+  },
+  "BP_Fish_PrismTrout_C": {
+    "name": "稜鳟",
+    "description": "一种在阳光下会闪耀七彩光芒的绚丽鳟鱼。\r\n清晨和白天的时候，可在基利马河用蠕虫饵垂钓。"
+  },
+  "BP_Fish_RadiantSunfish_C": {
+    "name": "璀璨太阳鱼",
+    "description": "一种璀璨夺目、能发出刺眼光线的河鱼，许多人觉得注视它就像直视太阳。\r\n可在基利马河使用蠕虫饵垂钓。"
+  },
+  "BP_Fish_Rainbow_Trout_C": {
+    "name": "彩虹鳟鱼",
+    "description": "一种拥有浅淡多彩鳞片花纹的河鱼。智商还不足以嫉妒稜鳟。\r\n在基利马河活动，无需鱼饵即可捕捉。"
+  },
+  "BP_Fish_Red-bellied_piranha_C": {
+    "name": "红腹食人鱼",
+    "description": "栖息于河中的凶猛掠食者，会吞噬一切。\r\n可在基利马河使用蠕虫饵垂钓。"
+  },
+  "BP_Fish_RibbontailRay_C": {
+    "name": "条尾魟",
+    "description": "条尾魟常出没于热带水域，最近竟然从伊尼莱文群岛迁移到帕利亚共和国西海岸，令人惊讶。\r\n早晨和晚上的时候，可在巴哈利湾沿岸使用萤火虫鱼饵垂钓。"
+  },
+  "BP_Fish_Rosy_Bitterling_C": {
+    "name": "粉红鳑鲏鱼",
+    "description": "一种背上有粉红色斑块的淡水鱼。\r\n在巴哈利河活动，无需鱼饵即可捕捉。"
+  },
+  "BP_Fish_Sardine_C": {
+    "name": "沙丁鱼",
+    "description": "一种体型较小但觅食速度很快的鱼，许多马吉尼喜欢在腌制后食用。\r\n在巴哈利湾沿岸活动，无需鱼饵即可捕捉。"
+  },
+  "BP_Fish_Scarlet_Koi_C": {
+    "name": "猩红锦鲤",
+    "description": "一种有深红色花纹的鲜亮锦鲤。\r\n可在池塘用萤火虫饵垂钓。"
+  },
+  "BP_Fish_Shimmerfin_C": {
+    "name": "闪鳍鱼",
+    "description": "一种偶尔能同时出现在两个地方的神秘鱼类。\r\n可在基利马湖用蠕虫饵垂钓。"
+  },
+  "BP_Fish_SilverSalmon_C": {
+    "name": "银鲑",
+    "description": "一种常见的银色鱼类。\r\n傍晚和深夜的时候，在巴哈利河无需鱼饵即可捕捉。"
+  },
+  "BP_Fish_Silvery_Minnow_C": {
+    "name": "银鲦鱼",
+    "description": "一种常见鲦鱼，银色鳞片在阳光下闪闪发光。\r\n在巴哈利河活动，无需鱼饵即可捕捉。"
+  },
+  "BP_Fish_SmallmouthBass_C": {
+    "name": "小口黑鲈鱼",
+    "description": "一种很常见的黑鲈，据说偶尔会跳出水面。\r\n可在基利马湖中使用蠕虫饵垂钓。"
+  },
+  "BP_Fish_SpottedBullhead_C": {
+    "name": "斑点大头鱼",
+    "description": "一种有斑点花纹的大头鱼。\r\n在基利马河活动，无需鱼饵即可捕捉。"
+  },
+  "BP_Fish_Stalking_Catfish_C": {
+    "name": "潜踪鲶鱼",
+    "description": "一种掠食性蓝鲶鱼，会攻击附近弱小的鱼类。\r\n傍晚和深夜的时候，可在池塘用萤火虫饵垂钓。"
+  },
+  "BP_Fish_Stickleback_C": {
+    "name": "刺鱼",
+    "description": "一种食肉鱼类，喜欢以鱼卵、昆虫、甲壳动物和渔民的脚趾为食。\r\n清晨和白天的时候，可在基利马河中用蠕虫饵垂钓。"
+  },
+  "BP_Fish_Stonefish_C": {
+    "name": "石鱼",
+    "description": "极具毒性，石鱼在伺机猎物时会自然地与周围环境融为一体。\r\n可使用萤火虫在巴哈利湾的洞穴里找到。"
+  },
+  "BP_Fish_Stormray_C": {
+    "name": "风暴鳐鱼",
+    "description": "令人惊叹的江鳐，可通过转动水流和用尾巴引导闪电来捕猎。\r\n傍晚和深夜的时候，可在巴哈利河用萤火虫饵垂钓。"
+  },
+  "BP_Fish_Striped_Dace_C": {
+    "name": "条纹雅罗鱼",
+    "description": "一种背部有条纹的雅罗鱼。\r\n在基利马河活动，无需鱼饵即可捕捉。"
+  },
+  "BP_Fish_StripedSturgeon_C": {
+    "name": "条纹鲟鱼",
+    "description": "一种在水底觅食的湖鱼，可以利用身上的浅色条纹在阳光下伪装自己。\r\n傍晚和深夜的时候，可在基利马湖使用蠕虫饵垂钓。"
+  },
+  "BP_Fish_Swordfin_Eel_C": {
+    "name": "剑鳍鳗鱼",
+    "description": "一种在食物链顶端的鳗鱼，能用身体杀死猎物。\r\n可在巴哈利河用萤火虫饵垂钓。"
+  },
+  "BP_Fish_Thundering_Eel_C": {
+    "name": "雷电鳗鱼",
+    "description": "一种可以通过电击使猎物服从的电荷鳗鱼。\r\n可在巴哈利湾使用鱼饵垂钓。"
+  },
+  "BP_Fish_UmbranCarp_C": {
+    "name": "幽灵鲤",
+    "description": "幽灵鲤是精灵鲤的近亲，喜好洞穴和地下湖泊水系等阴暗环境。\r\n在巴哈利湾活动，无需鱼饵即可捕捉。"
+  },
+  "BP_Fish_UnicornFish_C": {
+    "name": "长吻独角鱼",
+    "description": "独角鱼的角对于任何炼金师或药剂大师都是宝贵的。但要小心，据说它们拥有心灵感应的能力，甚至能让最有经验的渔夫分不清左右。\r\n全天都可在巴哈利湾沿岸使用萤火虫饵垂钓。"
+  },
+  "BP_Fish_Voidray_C": {
+    "name": "虚空鳐",
+    "description": "有人说虚空鳐可以进入回声界域，并以里面发现的更小的回声为食，听起来既神秘又让人感到恐惧。\r\n可在巴哈利湾用萤火虫饵垂钓。"
+  },
+  "BP_Fish_Willow_Lamprey_C": {
+    "name": "柳条七鳃鳗",
+    "description": "一种纤长的七鳃鳗，因外形类似柳枝而得名。\r\n深夜的时候，可在巴哈利湾用蠕虫饵垂钓。"
+  },
+  "BP_Fish_Yellow_Perch_C": {
+    "name": "黄鲈鱼",
+    "description": "河中的常见鲈鱼。\r\n在巴哈利河活动，无需鱼饵即可捕捉。"
+  },
+  "BP_Fish_Yellowfin_Tuna_C": {
+    "name": "黄鳍金枪鱼",
+    "description": "一种大型金枪鱼，虽然体型庞大，却能快速游动。\r\n可在巴哈利湾使用萤火虫饵垂钓。"
+  },
+  "BP_FishingJackpot_C": {
+    "name": "湿透的箱子",
+    "description": "打开这个神秘的箱子来获得里面的奖品。"
+  },
+  "BP_FishingRecipeBook_C": {
+    "name": "食谱：炖鱼",
+    "description": "使用后可掌握炖鱼食谱。"
+  },
+  "BP_Gatherable_MushroomBlue_C": {
+    "name": "发光蘑菇",
+    "description": "发光蘑菇的光来自于其吸收的灵流，因此有多种炼金术用途。"
+  },
+  "BP_Gatherable_MushroomR_C": {
+    "name": "山区羊肚菌",
+    "description": "山区羊肚菌是一种常见蘑菇，在家园周围就有分布！生吃或烹饪均可，是大家十分喜爱的食材。"
+  },
+  "BP_HeartdropLilly_C": {
+    "name": "倾心百合",
+    "description": "倾心百合是一种罕见的花，对帕利亚人有着特殊含义，它代表着浪漫之爱的绽放。"
+  },
+  "BP_Mining_Clay_C": {
+    "name": "黏土",
+    "description": "一种土质材料，可熔炼成用于制作的陶瓷。"
+  },
+  "BP_Mining_Copper_Large_C": {
+    "name": "铜矿石 (L)",
+    "description": "一种铜矿石。可熔炼成用于制作的铜锭。"
+  },
+  "BP_Mining_Copper_Medium_C": {
+    "name": "铜矿石 (M)",
+    "description": "一种铜矿石。可熔炼成用于制作的铜锭。"
+  },
+  "BP_Mining_Copper_Small_C": {
+    "name": "铜矿石 (S)",
+    "description": "一种铜矿石。可熔炼成用于制作的铜锭。"
+  },
+  "BP_Mining_Iron_Large_C": {
+    "name": "铁矿石 (L)",
+    "description": "一种铁矿石。可熔炼成用于制作的铁锭。"
+  },
+  "BP_Mining_Iron_Medium_C": {
+    "name": "铁矿石 (M)",
+    "description": "一种铁矿石。可熔炼成用于制作的铁锭。"
+  },
+  "BP_Mining_Iron_Small_C": {
+    "name": "铁矿石 (S)",
+    "description": "一种铁矿石。可熔炼成用于制作的铁锭。"
+  },
+  "BP_Mining_Palium_Large_C": {
+    "name": "帕利亚矿 (L)",
+    "description": "一种帕利亚矿石。可熔炼成用于制作的帕利亚锭。"
+  },
+  "BP_Mining_Palium_Medium_C": {
+    "name": "帕利亚矿 (M)",
+    "description": "一种帕利亚矿石。可熔炼成用于制作的帕利亚锭。"
+  },
+  "BP_Mining_Palium_Small_C": {
+    "name": "帕利亚矿 (S)",
+    "description": "一种帕利亚矿石。可熔炼成用于制作的帕利亚锭。"
+  },
+  "BP_Mining_Stone_Large_C": {
+    "name": "石头 (L)",
+    "description": "一种常见石头，可以熔炼成砖块。"
+  },
+  "BP_Moss_DragonsBeard_C": {
+    "name": "龙须泥炭",
+    "description": "龙须泥炭是一种稀有的炼金苔藓，因其颜色酷似巨龙马吉而得名。"
+  },
+  "BP_Moss_EmeraldCarpet_C": {
+    "name": "翡翠地毯苔",
+    "description": "翡翠地毯苔有着明亮的色彩。据说能为家里能带来好运。"
+  },
+  "BP_Oyster_C": {
+    "name": "未打开的牡蛎",
+    "description": "把这只牡蛎撬开吧！即使里面没有珍珠，至少还可以食用。"
+  },
+  "BP_PoisonFlower_C": {
+    "name": "荆棘雏菊",
+    "description": "即使在最恶劣的条件下，荆棘雏菊也能存活下来。"
+  },
+  "BP_QuestItem_CookBook_1_C": {
+    "name": "《精致烹饪手册》",
+    "description": "这本书的封面上写着“上等烹饪：马吉尼精英烹饪指南”。"
+  },
+  "BP_QuestItem_CookBook_2_C": {
+    "name": "甜点烹饪手册",
+    "description": "这本书的封面上写着“甜蜜的糖送给甜蜜的TA：让人口水直流的甜点指南。”"
+  },
+  "BP_Seashell_C": {
+    "name": "贝壳",
+    "description": "有人在海边卖贝壳吗？没有。你得自己去找。"
+  },
+  "BP_Spice_DariCloves_C": {
+    "name": "达里丁香",
+    "description": "达里丁香十分稀有，深受厨师和炼金术士喜爱。据说具有魔法属性。"
+  },
+  "BP_Spice_HeatRoot_C": {
+    "name": "热根",
+    "description": "别担心，无论是烹饪还是治疗，热根都能让你的身子暖和起来。"
+  },
+  "BP_Spiced_Sprouts_C": {
+    "name": "芳香甘蓝",
+    "description": "芳香甘蓝是常见的食材，能为菜肴增色，更添泥土的气息。"
+  },
+  "BP_SundropLillies_C": {
+    "name": "落日百合",
+    "description": "落日百合生长在开阔的田野里，会随阳光转向。"
+  },
+  "BP_SweetLeaves_C": {
+    "name": "甜叶片",
+    "description": "甜叶片是帕利亚最受欢迎的甜点配料之一，喜欢甜食的人一定会爱上它。"
+  },
+  "BP_Trash_Shipfragments_C": {
+    "name": "船只碎片",
+    "description": "在海中发现的常见垃圾。看来近期有船只失事。"
+  },
+  "BP_Trash_Wagonwheel_C": {
+    "name": "马车轮子",
+    "description": "在水晶湖及其周围发现的常见垃圾。也许是过路旅行者的遗物。"
+  },
+  "BP_Trash_WaterloggedBoot_C": {
+    "name": "湿透的靴子",
+    "description": "在镜池发现的常见垃圾。"
+  },
+  "BP_TreeChoppable_Birch_Large_C": {
+    "name": "undefined (L)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Large_CoOp_C": {
+    "name": "Flow undefined (L)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Medium_C": {
+    "name": "undefined (M)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Medium_CoOp_C": {
+    "name": "Flow undefined (M)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Sapling_CoOp_C": {
+    "name": "Flow undefined (XS)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Small_C": {
+    "name": "undefined (S)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Birch_Small_CoOp_C": {
+    "name": "Flow undefined (S)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Large_C": {
+    "name": "杜松种子 (L)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Large_CoOp_C": {
+    "name": "Flow 杜松种子 (L)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Medium_C": {
+    "name": "杜松种子 (M)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Medium_CoOp_C": {
+    "name": "Flow 杜松种子 (M)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Sapling_CoOp_C": {
+    "name": "Flow 杜松种子 (XS)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Small_C": {
+    "name": "杜松种子 (S)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Juniper_Small_CoOp_C": {
+    "name": "Flow 杜松种子 (S)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Large_C": {
+    "name": "undefined (L)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Large_CoOp_C": {
+    "name": "Flow undefined (L)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Medium_C": {
+    "name": "undefined (M)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Medium_CoOp_C": {
+    "name": "Flow undefined (M)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Sapling_CoOp_C": {
+    "name": "Flow undefined (XS)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Small_C": {
+    "name": "undefined (S)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Oak_Small_CoOp_C": {
+    "name": "Flow undefined (S)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Large_C": {
+    "name": "Pine (L)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Large_CoOp_C": {
+    "name": "Flow Pine (L)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Large2_CoOp_C": {
+    "name": "Flow Pine (XL)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Medium_C": {
+    "name": "Pine (M)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Medium_CoOp_C": {
+    "name": "Flow Pine (M)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Sapling_CoOp_C": {
+    "name": "Flow Pine (XS)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Small_C": {
+    "name": "Pine (S)",
+    "description": ""
+  },
+  "BP_TreeChoppable_Pine_Small_CoOp_C": {
+    "name": "Flow Pine (S)",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Cearnuk_T1_C": {
+    "name": "Sernuk",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Cearnuk_T2_C": {
+    "name": "Elder Sernuk",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Cearnuk_T3_C": {
+    "name": "Proudhorn Sernuk",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Chapaa_T1_C": {
+    "name": "Spotted Chapaa",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Chapaa_T2_C": {
+    "name": "Striped Chapaa",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_Chapaa_T3_C": {
+    "name": "Azure Chapaa",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_TreeClimber_T1_C": {
+    "name": "Muujin",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_TreeClimber_T2_C": {
+    "name": "Banded Muujin",
+    "description": ""
+  },
+  "BP_ValeriaHuntingCreature_TreeClimber_T3_C": {
+    "name": "Bluebristle Muujin",
+    "description": ""
+  },
+  "BP_WaterFlower_C": {
+    "name": "水晶湖莲",
+    "description": "水晶湖莲因其发现地而得名，可用于制作染料。"
+  },
+  "BP_WaterPlane_Fishing_AZ1_Cave_SQ_C": {
+    "name": "Cave Bay",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_LakeVillage_SQ_C": {
+    "name": "Lake Village",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_OceanAZ1_SQ_C": {
+    "name": "Ocean Bay",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_PondVillage_SQ_C": {
+    "name": "Pond Village",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_RiverAZ1_SQ_C": {
+    "name": "River Bay",
+    "description": ""
+  },
+  "BP_WaterPlane_Fishing_RiverVillage_SQ_C": {
+    "name": "River Village",
+    "description": ""
+  },
+  "BP_WildGarlic_C": {
+    "name": "野生大蒜",
+    "description": "大蒜对于任何菜品而言都是美味的配料！也可以生吃，收获满口芬芳。"
+  }
+}

@@ -17,9 +17,30 @@ import { default as frSpawnNodesGenerated } from "./dictionaries/generated/fr.sp
 import { default as itDBGenerated } from "./dictionaries/generated/it.db.json";
 import { default as itGenerated } from "./dictionaries/generated/it.json";
 import { default as itSpawnNodesGenerated } from "./dictionaries/generated/it.spawn-nodes.json";
+import { default as jaDBGenerated } from "./dictionaries/generated/ja.db.json";
+import { default as jaGenerated } from "./dictionaries/generated/ja.json";
+import { default as jaSpawnNodesGenerated } from "./dictionaries/generated/ja.spawn-nodes.json";
+import { default as koDBGenerated } from "./dictionaries/generated/ko.db.json";
+import { default as koGenerated } from "./dictionaries/generated/ko.json";
+import { default as koSpawnNodesGenerated } from "./dictionaries/generated/ko.spawn-nodes.json";
+import { default as ptBrDBGenerated } from "./dictionaries/generated/pt-br.db.json";
+import { default as ptBrGenerated } from "./dictionaries/generated/pt-br.json";
+import { default as ptBrSpawnNodesGenerated } from "./dictionaries/generated/pt-br.spawn-nodes.json";
 import { default as ruDBGenerated } from "./dictionaries/generated/ru.db.json";
 import { default as ruGenerated } from "./dictionaries/generated/ru.json";
 import { default as ruSpawnNodesGenerated } from "./dictionaries/generated/ru.spawn-nodes.json";
+import { default as zhHansDBGenerated } from "./dictionaries/generated/zh-hans.db.json";
+import { default as zhHansGenerated } from "./dictionaries/generated/zh-hans.json";
+import { default as zhHansSpawnNodesGenerated } from "./dictionaries/generated/zh-hans.spawn-nodes.json";
+import { default as zhHantDBGenerated } from "./dictionaries/generated/zh-hant.db.json";
+import { default as zhHantGenerated } from "./dictionaries/generated/zh-hant.json";
+import { default as zhHantSpawnNodesGenerated } from "./dictionaries/generated/zh-hant.spawn-nodes.json";
+import ja from "./dictionaries/ja.json";
+import ko from "./dictionaries/ko.json";
+import ptBr from "./dictionaries/pt-br.json";
+import zhHans from "./dictionaries/zh-hans.json";
+import zhHant from "./dictionaries/zh-hant.json";
+
 import it from "./dictionaries/it.json";
 import ru from "./dictionaries/ru.json";
 
@@ -34,6 +55,11 @@ const DICTIONARIES: {
   fr: DICT;
   it: DICT;
   ru: DICT;
+  ja: DICT;
+  ko: DICT;
+  "pt-br": DICT;
+  "zh-hans": DICT;
+  "zh-hant": DICT;
 } = {
   en: { ...en, generated: enGenerated, spawnNodes: enSpawnNodesGenerated },
   de: { ...de, generated: deGenerated, spawnNodes: deSpawnNodesGenerated },
@@ -41,6 +67,23 @@ const DICTIONARIES: {
   fr: { ...fr, generated: frGenerated, spawnNodes: frSpawnNodesGenerated },
   it: { ...it, generated: itGenerated, spawnNodes: itSpawnNodesGenerated },
   ru: { ...ru, generated: ruGenerated, spawnNodes: ruSpawnNodesGenerated },
+  ja: { ...ja, generated: jaGenerated, spawnNodes: jaSpawnNodesGenerated },
+  ko: { ...ko, generated: koGenerated, spawnNodes: koSpawnNodesGenerated },
+  "pt-br": {
+    ...ptBr,
+    generated: ptBrGenerated,
+    spawnNodes: ptBrSpawnNodesGenerated,
+  },
+  "zh-hans": {
+    ...zhHans,
+    generated: zhHansGenerated,
+    spawnNodes: zhHansSpawnNodesGenerated,
+  },
+  "zh-hant": {
+    ...zhHant,
+    generated: zhHantGenerated,
+    spawnNodes: zhHantSpawnNodesGenerated,
+  },
 };
 
 const DB_DICTIONARIES: {
@@ -50,6 +93,11 @@ const DB_DICTIONARIES: {
   fr: DICT;
   it: DICT;
   ru: DICT;
+  ja: DICT;
+  ko: DICT;
+  "pt-br": DICT;
+  "zh-hans": DICT;
+  "zh-hant": DICT;
 } = {
   en: enDBGenerated,
   de: deDBGenerated,
@@ -57,6 +105,11 @@ const DB_DICTIONARIES: {
   fr: frDBGenerated,
   it: itDBGenerated,
   ru: ruDBGenerated,
+  ja: jaDBGenerated,
+  ko: koDBGenerated,
+  "pt-br": ptBrDBGenerated,
+  "zh-hans": zhHansDBGenerated,
+  "zh-hant": zhHantDBGenerated,
 };
 
 export const LOCALES = Object.keys(DICTIONARIES);

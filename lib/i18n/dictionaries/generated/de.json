@@ -88,7 +88,11 @@
   "location": {
     "BP_DoorTeleporter_Parent_C_UAID_B04F1306E948198801_1687213524": {
       "name": "Nördlicher Minenschacht",
-      "description": "\\„Auf Anordnung des Bürgermeisters geschlossen!\\“"
+      "description": "„Auf Anordnung des Bürgermeisters geschlossen!“"
+    },
+    "BP_InvisibleTeleporter_Parent_C_UAID_00BE43BC7D55E0B701_2107979866": {
+      "name": "Ruinen betreten",
+      "description": "Benötigt Batterie"
     },
     "BP_InvisibleTeleporter_Parent_C_UAID_00BE43BC7D55F4AC01_1201166771": {
       "name": "???",
@@ -103,7 +107,7 @@
       "description": "Du brauchst einen Schlüssel von Najuma, um einzutreten."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63147A01_1804531996": {
-      "name": "Hassians Hain",
+      "name": "Hassians Wäldchen",
       "description": "Du brauchst einen Schlüssel von Hassian, um einzutreten."
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63147A01_1934212997": {
@@ -217,43 +221,157 @@
   },
   "stable": {
     "BP_Stables_Sign_UAID_6C02E03F65D9C66301_1698475622": {
-      "name": "Bahari - Zentrale Stallungen",
+      "name": "Bahari – Zentrale Stallungen",
       "description": "Nicht verfügbar, bis die Tutorial-Quests abgeschlossen sind."
     },
     "BP_Stables_Sign_UAID_B04F1306EDBFF17501_2051031162": {
-      "name": "Bahari - Korallenküste"
+      "name": "Bahari – Korallenküste"
     },
     "BP_Stables_Sign_UAID_B04F1306EDBFF27501_1076227339": {
-      "name": "Bahari - Der Stadtrand"
+      "name": "Bahari – Der Stadtrand"
     },
     "BP_Stables_Sign_UAID_B04F1306EDBFF27501_1104149340": {
-      "name": "Bahari - Pulswasser-Ebene"
+      "name": "Bahari – Pulswasser-Ebene"
     },
     "BP_Stables_Sign_UAID_B04F1306EDBFF27501_1135505341": {
-      "name": "Bahari - Strandwogenbucht"
+      "name": "Bahari – Strandwogenbucht"
     },
     "BP_Stables_Sign_UAID_B04F1306EDBFF27501_1164310342": {
-      "name": "Bahari - Versteckte Klippen"
+      "name": "Bahari – Versteckte Klippen"
     },
     "BP_Stables_Sign_UAID_7486E2271DBF409B01_2003868107": {
       "name": "Kirmes des Dorfes Kilima",
       "description": "Nicht verfügbar, bis die Tutorial-Quests abgeschlossen sind."
     },
     "BP_Stables_Sign_UAID_6C02E03F65D9936101_1437950312": {
-      "name": "Kilima - Zentrale Stallungen"
+      "name": "Kilima – Zentrale Ställe"
     },
     "BP_Stables_Sign_UAID_6C02E03F66F2966401_1438105510": {
       "name": "Maji-Markt",
       "description": "Nicht verfügbar, bis die Tutorial-Quests abgeschlossen sind."
     },
     "BP_Stables_Sign_UAID_B04F1306EDBFF47501_2055973898": {
-      "name": "Kilima - Spiegelfelder"
+      "name": "Kilima – Spiegelfelder"
     },
     "BP_Stables_Sign_UAID_B04F1306EDBFF47501_2116097899": {
-      "name": "Kilima - Flüsternde Banken"
+      "name": "Kilima – Flüsternde Banken"
     },
     "BP_Stables_Sign_UAID_B04F1306EDBFF47501_2119042900": {
-      "name": "Kilima - Leafhopper Hills"
+      "name": "Kilima – Blattgrillenhügel"
+    }
+  },
+  "area": {
+    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3D9201_2102627787": {
+      "name": "Leuchtturm Lagune",
+      "description": null
+    },
+    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3D9201_2130131788": {
+      "name": "Korallenküste",
+      "description": null
+    },
+    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1104990965": {
+      "name": "Antikes Aquadukt",
+      "description": null
+    },
+    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1136480966": {
+      "name": "Überfluteten Festung",
+      "description": null
+    },
+    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1169627967": {
+      "name": "Pavel-Minen",
+      "description": null
+    },
+    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1196462968": {
+      "name": "Dorniges Dickicht",
+      "description": null
+    },
+    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1218807969": {
+      "name": "Versteckte Klippen",
+      "description": null
+    },
+    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1251673970": {
+      "name": "Pulswasser-Ebene",
+      "description": null
+    },
+    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1275559971": {
+      "name": "Strandwogenbucht",
+      "description": null
+    },
+    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1547700974": {
+      "name": "Windige Ruinen",
+      "description": null
+    },
+    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1601927976": {
+      "name": "Stolzhorn-Pass",
+      "description": null
+    },
+    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1649469977": {
+      "name": "Überschwemmte Treppe",
+      "description": null
+    },
+    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1668547978": {
+      "name": "Statuen-Garten",
+      "description": null
+    },
+    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1912837980": {
+      "name": "Der Stadtrand",
+      "description": null
+    },
+    "MapMarker_Apothecary_UAID_CC96E5156C5D4B9101_1701465443": {
+      "name": "Spiegelteich-Ruinen",
+      "description": null
+    },
+    "MapMarker_MayorsEstate_UAID_6C02E03F65D9936101_1437953322": {
+      "name": "Anwesen des Bürgermeisters",
+      "description": null
+    },
+    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1821434640": {
+      "name": "Fischerlagune",
+      "description": null
+    },
+    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1856820641": {
+      "name": "Flüsternde Banken",
+      "description": null
+    },
+    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1893206642": {
+      "name": "Majis Höhle",
+      "description": null
+    },
+    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1928571643": {
+      "name": "Chapaa-Kreuzung",
+      "description": null
+    },
+    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1972807644": {
+      "name": "Phönix-Fälle",
+      "description": null
+    },
+    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1999525645": {
+      "name": "Dorf Kilima",
+      "description": null
+    },
+    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_2035310646": {
+      "name": "Blattgrillenhügel",
+      "description": null
+    },
+    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_2068254647": {
+      "name": "Kiemflosse Bucht",
+      "description": null
+    },
+    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_2094865648": {
+      "name": "Spiegelfelder",
+      "description": null
+    },
+    "MapMarker_RemembranceGarden_UAID_6C02E03F65D9936101_1437953320": {
+      "name": "Gedenkgarten",
+      "description": null
+    },
+    "MapMarker_RemembranceGarden_UAID_CC96E5156C5D479101_1753509996": {
+      "name": "Reflexionsfelder",
+      "description": null
+    },
+    "MapMarker_RemembranceGarden_UAID_CC96E5156C5D4A9101_1765151639": {
+      "name": "Remembrance Beach",
+      "description": null
     }
   },
   "zone": {
@@ -270,125 +388,11 @@
       "description": null
     },
     "BP_GateTeleporter_Parent_C_UAID_CC96E503DE634E7A01_1976701586": {
-      "name": "Messegelände",
+      "name": "Kirmesgelände",
       "description": null
     },
     "BP_GateTeleporter_Parent_C_UAID_CC96E503DE63627801_1776598294": {
       "name": "Zur Bahari-Bucht",
-      "description": null
-    }
-  },
-  "area": {
-    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3D9201_2102627787": {
-      "name": "Lighthouse Lagoon",
-      "description": null
-    },
-    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3D9201_2130131788": {
-      "name": "Coral Shores",
-      "description": null
-    },
-    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1104990965": {
-      "name": "Ancient Aquaduct",
-      "description": null
-    },
-    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1136480966": {
-      "name": "Flooded Fortress",
-      "description": null
-    },
-    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1169627967": {
-      "name": "Pavel Mines",
-      "description": null
-    },
-    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1196462968": {
-      "name": "Thorny Thicket",
-      "description": null
-    },
-    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1218807969": {
-      "name": "Hideaway Bluffs",
-      "description": null
-    },
-    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1251673970": {
-      "name": "Pulsewater Plains",
-      "description": null
-    },
-    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1275559971": {
-      "name": "Beachcomber Cove",
-      "description": null
-    },
-    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1547700974": {
-      "name": "Windy Ruins",
-      "description": null
-    },
-    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1601927976": {
-      "name": "Proudhorn Pass",
-      "description": null
-    },
-    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1649469977": {
-      "name": "Flooded Steps",
-      "description": null
-    },
-    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1668547978": {
-      "name": "Statue Garden",
-      "description": null
-    },
-    "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1912837980": {
-      "name": "The Outskirts",
-      "description": null
-    },
-    "MapMarker_Apothecary_UAID_CC96E5156C5D4B9101_1701465443": {
-      "name": "Mirror Pond Ruins",
-      "description": null
-    },
-    "MapMarker_MayorsEstate_UAID_6C02E03F65D9936101_1437953322": {
-      "name": "Mayor's Estate",
-      "description": null
-    },
-    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1821434640": {
-      "name": "Fisherman's Lagoon",
-      "description": null
-    },
-    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1856820641": {
-      "name": "Whispering Banks",
-      "description": null
-    },
-    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1893206642": {
-      "name": "Maji's Hollow",
-      "description": null
-    },
-    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1928571643": {
-      "name": "Chapaa Crossing",
-      "description": null
-    },
-    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1972807644": {
-      "name": "Phoenix Falls",
-      "description": null
-    },
-    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1999525645": {
-      "name": "Kilima Village",
-      "description": null
-    },
-    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_2035310646": {
-      "name": "Leafhopper Hills",
-      "description": null
-    },
-    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_2068254647": {
-      "name": "Gillyfin Cove",
-      "description": null
-    },
-    "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_2094865648": {
-      "name": "Mirror Fields",
-      "description": null
-    },
-    "MapMarker_RemembranceGarden_UAID_6C02E03F65D9936101_1437953320": {
-      "name": "Remembrance Garden",
-      "description": null
-    },
-    "MapMarker_RemembranceGarden_UAID_CC96E5156C5D479101_1753509996": {
-      "name": "Reflection Fields",
-      "description": null
-    },
-    "MapMarker_RemembranceGarden_UAID_CC96E5156C5D4A9101_1765151639": {
-      "name": "Remembrance Beach",
       "description": null
     }
   },

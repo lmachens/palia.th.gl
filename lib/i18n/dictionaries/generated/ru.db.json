@@ -109,6 +109,9 @@
   "DA_CCI_FaceAcc_Glasses04_Base_Parent": {
     "name": "Рамки"
   },
+  "DA_CCI_FaceAcc_GlassesPalCat01_Base_Parent": {
+    "name": "Palcat Glasses"
+  },
   "DA_CCI_FaceAcc_RegalBlazer01_Base_Parent": {
     "name": "Королевский"
   },
@@ -184,6 +187,9 @@
   "DA_CCI_Glider_Basic_12": {
     "name": "Планер"
   },
+  "DA_CCI_Glider_Basic_Cloud01": {
+    "name": "Планер"
+  },
   "DA_CCI_Glider_Basic_Dragon01": {
     "name": "Планер Дракона"
   },
@@ -199,8 +205,17 @@
   "DA_CCI_Glider_Default": {
     "name": "Планер по Умолчанию"
   },
+  "DA_CCI_Glider_Festive01": {
+    "name": "Festive Glider"
+  },
   "DA_CCI_Glider_Mushroom01": {
     "name": "Грибной Глайдер"
+  },
+  "DA_CCI_GliderTrail_Basic": {
+    "name": "Basic"
+  },
+  "DA_CCI_GliderTrail_Snow": {
+    "name": "Snow"
   },
   "DA_CCI_Hat_Carpenter01_Base": {
     "name": "Небоскреб"
@@ -238,6 +253,24 @@
   "DA_CCI_Hat_Fairy01_Variant02_Parent": {
     "name": "Яркоцвет"
   },
+  "DA_CCI_Hat_FestiveDragon01_Base_Parent": {
+    "name": "Dragonscale"
+  },
+  "DA_CCI_Hat_FestiveDragon01_Variant01_Parent": {
+    "name": "Dragonsmoke"
+  },
+  "DA_CCI_Hat_FestiveDragon01_Variant02_Parent": {
+    "name": "Dragonsbreath"
+  },
+  "DA_CCI_Hat_FestiveDragon02_Base_Parent": {
+    "name": "Prosperity"
+  },
+  "DA_CCI_Hat_FestiveDragon02_Variant01_Parent": {
+    "name": "Longevity"
+  },
+  "DA_CCI_Hat_FestiveDragon02_Variant02_Parent": {
+    "name": "Harmony"
+  },
   "DA_CCI_Hat_FestiveSweater01_Variant03_Parent": {
     "name": "Високосный"
   },
@@ -264,6 +297,15 @@
   },
   "DA_CCI_Hat_Hoodie01_Variant03_Parent": {
     "name": "S6 Starfield"
+  },
+  "DA_CCI_Hat_HypebeastRunner01_Base_Parent": {
+    "name": "To the Depths"
+  },
+  "DA_CCI_Hat_HypebeastRunner01_Variant01_Parent": {
+    "name": "To the Summit"
+  },
+  "DA_CCI_Hat_HypebeastRunner01_Variant02_Parent": {
+    "name": "To the Tropics"
   },
   "DA_CCI_Hat_JollyBaker01_Base_Parent": {
     "name": "Веселый пекарь"
@@ -372,6 +414,15 @@
   },
   "DA_CCI_Hat_RiverGuardian01_Variant02_Parent": {
     "name": "Моль"
+  },
+  "DA_CCI_Hat_RuneMaster01_Base_Parent": {
+    "name": "Rune Writer"
+  },
+  "DA_CCI_Hat_RuneMaster01_Variant01_Parent": {
+    "name": "Mantid Mastermind"
+  },
+  "DA_CCI_Hat_RuneMaster01_Variant02_Parent": {
+    "name": "GrimTech Genius"
   },
   "DA_CCI_Hat_Skateboarder01_Base_Parent": {
     "name": "Яркая долина"
@@ -538,6 +589,24 @@
   "DA_CCI_Legs_Farmer01_Variant02_Parent": {
     "name": "Энтузиаст Ормуу"
   },
+  "DA_CCI_Legs_FestiveDragon01_Base_Parent": {
+    "name": "Dragonscale"
+  },
+  "DA_CCI_Legs_FestiveDragon01_Variant01_Parent": {
+    "name": "Dragonsmoke"
+  },
+  "DA_CCI_Legs_FestiveDragon01_Variant02_Parent": {
+    "name": "Dragonsbreath"
+  },
+  "DA_CCI_Legs_FestiveDragon02_Base_Parent": {
+    "name": "Prosperity"
+  },
+  "DA_CCI_Legs_FestiveDragon02_Variant01_Parent": {
+    "name": "Longevity"
+  },
+  "DA_CCI_Legs_FestiveDragon02_Variant02_Parent": {
+    "name": "Harmony"
+  },
   "DA_CCI_Legs_FestiveSweater01_Base_Parent": {
     "name": "Натуральная Шерсть"
   },
@@ -612,6 +681,15 @@
   },
   "DA_CCI_Legs_Hoodie01_Variant03_Parent": {
     "name": "S6 Starfield"
+  },
+  "DA_CCI_Legs_HypebeastRunner01_Base_Parent": {
+    "name": "To the Depths"
+  },
+  "DA_CCI_Legs_HypebeastRunner01_Variant01_Parent": {
+    "name": "To the Summit"
+  },
+  "DA_CCI_Legs_HypebeastRunner01_Variant02_Parent": {
+    "name": "To the Tropics"
   },
   "DA_CCI_Legs_JollyBaker01_Base_Parent": {
     "name": "Веселый пекарь"
@@ -792,6 +870,15 @@
   },
   "DA_CCI_Legs_Rogue02_Variant02_Parent": {
     "name": "Slickster"
+  },
+  "DA_CCI_Legs_RuneMaster01_Base_Parent": {
+    "name": "Rune Writer"
+  },
+  "DA_CCI_Legs_RuneMaster01_Variant01_Parent": {
+    "name": "Mantid Mastermind"
+  },
+  "DA_CCI_Legs_RuneMaster01_Variant02_Parent": {
+    "name": "GrimTech Genius"
   },
   "DA_CCI_Legs_Shophand01_Base_Parent": {
     "name": "Килима Клерк"
@@ -1075,6 +1162,24 @@
   "DA_CCI_Torso_Farmer01_Variant02_Parent": {
     "name": "Энтузиаст Ормуу"
   },
+  "DA_CCI_Torso_FestiveDragon01_Base_Parent": {
+    "name": "Dragonscale"
+  },
+  "DA_CCI_Torso_FestiveDragon01_Variant01_Parent": {
+    "name": "Dragonscale"
+  },
+  "DA_CCI_Torso_FestiveDragon01_Variant02_Parent": {
+    "name": "Dragonscale"
+  },
+  "DA_CCI_Torso_FestiveDragon02_Base_Parent": {
+    "name": "Prosperity"
+  },
+  "DA_CCI_Torso_FestiveDragon02_Variant01_Parent": {
+    "name": "Longevity"
+  },
+  "DA_CCI_Torso_FestiveDragon02_Variant02_Parent": {
+    "name": "Harmony"
+  },
   "DA_CCI_Torso_FestiveSweater01_Base_Parent": {
     "name": "Натуральная Шерсть"
   },
@@ -1158,6 +1263,15 @@
   },
   "DA_CCI_Torso_Hoodie01_Variant03_Parent": {
     "name": "S6 Starfield"
+  },
+  "DA_CCI_Torso_HypebeastRunner01_Base_Parent": {
+    "name": "To the Depths"
+  },
+  "DA_CCI_Torso_HypebeastRunner01_Variant01_Parent": {
+    "name": "To the Summit"
+  },
+  "DA_CCI_Torso_HypebeastRunner01_Variant02_Parent": {
+    "name": "To the Tropics"
   },
   "DA_CCI_Torso_JollyBaker01_Base_Parent": {
     "name": "Веселый пекарь"
@@ -1362,6 +1476,15 @@
   },
   "DA_CCI_Torso_Rogue02_Variant02_Parent": {
     "name": "Slickster"
+  },
+  "DA_CCI_Torso_RuneMaster01_Base_Parent": {
+    "name": "Rune Writer"
+  },
+  "DA_CCI_Torso_RuneMaster01_Variant01_Parent": {
+    "name": "Mantid Mastermind"
+  },
+  "DA_CCI_Torso_RuneMaster01_Variant02_Parent": {
+    "name": "GrimTech Genius"
   },
   "DA_CCI_Torso_ShopHand01_Base_Parent": {
     "name": "Килима Клерк"
@@ -1726,7 +1849,7 @@
   },
   "DA_ItemType_SnowBall": {
     "name": "Снежный Шар",
-    "description": "Снежный Шар"
+    "description": "Have you ever seen a more perfect snowball? Whoever you throw it at won't have either."
   },
   "DA_ItemType_Ammo_Arrow_Fireworks_Random": {
     "name": "Стрела с Фейерверком",
@@ -2163,6 +2286,22 @@
   "DA_ItemType_C_CabbageRolls": {
     "name": "Голубцы",
     "description": "Может быть приготовлен с любым типом белка"
+  },
+  "DA_ItemType_C_CandyEgg_B": {
+    "name": "Blue Candy Egg",
+    "description": "A gift from the Silverwings. Where do you think they found it?"
+  },
+  "DA_ItemType_C_CandyEgg_G": {
+    "name": "Green Candy Egg",
+    "description": "A gift from the Silverwings. Where do you think they found it?"
+  },
+  "DA_ItemType_C_CandyEgg_R": {
+    "name": "Red Candy Egg",
+    "description": "A gift from the Silverwings. Where do you think they found it?"
+  },
+  "DA_ItemType_C_CandyEgg_Y": {
+    "name": "Yellow Candy Egg",
+    "description": "A gift from the Silverwings. Where do you think they found it?"
   },
   "DA_ItemType_C_ChapaaAsadaTacos": {
     "name": "Чапаа Тако Асада",
@@ -4263,6 +4402,114 @@
     "name": "Подушка Chapaa Hut \"Ниина\"",
     "description": "Подушка в виде жадного чапаа, Ниина. Не очень хорошая для спины, но очень милая!"
   },
+  "DA_ItemType_Decor_MajiMarket_40_WallBanner": {
+    "name": "New Year Wall Banner",
+    "description": "Welcome the joy of Luna New Year with this elegant, Maji-themed wall tapestry. Its gold threads shimmer especially brightly in the moonlight."
+  },
+  "DA_ItemType_Decor_MajiMarket_41_WallDeco_Blue": {
+    "name": "New Year Blue Wall Decor",
+    "description": "Paste this on your wall, especially by doors and windows, to invite happiness and good fortune in the coming year."
+  },
+  "DA_ItemType_Decor_MajiMarket_41_WallDeco_Orange": {
+    "name": "New Year Orange Wall Decor",
+    "description": "Paste this on your wall, especially by doors and windows, to invite prosperity and success in the coming year."
+  },
+  "DA_ItemType_Decor_MajiMarket_41_WallDeco_Pink": {
+    "name": "New Year Pink Wall Decor",
+    "description": "Paste this on your wall, especially by doors and windows, to invite good connections with others in the coming year."
+  },
+  "DA_ItemType_Decor_MajiMarket_42_HangingDeco_Blue": {
+    "name": "New Year Blue Ornament",
+    "description": "Celebrate Luna New Year with this blue hanging ornament, which represents happiness and good fortune."
+  },
+  "DA_ItemType_Decor_MajiMarket_42_HangingDeco_Orange": {
+    "name": "New Year Orange Ornament",
+    "description": "Celebrate Luna New Year with this blue hanging ornament, which represents prosperity and success."
+  },
+  "DA_ItemType_Decor_MajiMarket_42_HangingDeco_Pink": {
+    "name": "New Year Pink Ornament",
+    "description": "Celebrate Luna New Year with this pink hanging ornament, which represents good connections with others."
+  },
+  "DA_ItemType_Decor_MajiMarket_43_CandyBox": {
+    "name": "New Year Candy Box",
+    "description": "What better way to celebrate Luna New Year than with a box of assorted candies? Crack it open at any social gathering to instantly become everyone's favorite person."
+  },
+  "DA_ItemType_Decor_MajiMarket_44_LampPost_big": {
+    "name": "New Year Tall Lamp Post",
+    "description": "A tall and elegant lamp post, painted in the colors of the Dragon himself. Its lantern emits a warm and enticing glow."
+  },
+  "DA_ItemType_Decor_MajiMarket_44_LampPost_Big_Corner": {
+    "name": "New Year Corner Lamp Post",
+    "description": "A tall and elegant lamp post, painted in the colors of the Dragon himself. Made to slot perfectly in any corner space."
+  },
+  "DA_ItemType_Decor_MajiMarket_44_LampPost_Small": {
+    "name": "New Year Short Lamp Post",
+    "description": "A short and elegant lamp post, painted in the colors of the Dragon himself. Keeps the ground well-lit and bathed in warmth."
+  },
+  "DA_ItemType_Decor_MajiMarket_46_Bench": {
+    "name": "New Year Bench",
+    "description": "A sturdy, Maji-themed bench painted with care and precision. Even a short rest on it will soothe both your mind and your body."
+  },
+  "DA_ItemType_Decor_MajiMarket_47_DecorativeFruit": {
+    "name": "New Year Decorative Fruit",
+    "description": "A decorative plate of Majifruit with a lucky envelope on top. Place this in your home to invite good fortune in."
+  },
+  "DA_ItemType_Decor_MajiMarket_48_LuckyTree": {
+    "name": "New Year Lucky Wish Tree",
+    "description": "Relive fond memories of the new year and welcome in the coming one's blessings with your own personal wish tree."
+  },
+  "DA_ItemType_Decor_MajiMarket_49_BanquetTable": {
+    "name": "New Year Banquet Table",
+    "description": "Dine in luxury on this fancy banquet table. Ideal for long dinners with family and friends, or several rounds of chezuu."
+  },
+  "DA_ItemType_Decor_MajiMarket_50_BanquetChair": {
+    "name": "New Year Banquet Chair",
+    "description": "This lacquered wood chair has a seat made of upholstered fabric designed to provide comfort for long family dinners."
+  },
+  "DA_ItemType_Decor_MajiMarket_51_GiftEnvelope": {
+    "name": "New Year Lucky Envelope",
+    "description": "A lovely envelope with a delightful surprise inside of it. Open it up and see how lucky you get!"
+  },
+  "DA_ItemType_Decor_MajiMarket_52_AlmondCookie_01": {
+    "name": "Delaila's Almond Cookies",
+    "description": "Nutty, buttery, and crumbly, this dense cookie is topped with an almond that breaks in your mouth with a satisfying snap. Sold at Delaila's Sweet Treats."
+  },
+  "DA_ItemType_Decor_MajiMarket_52_AlmondCookie_02": {
+    "name": "Delaila's Almond Cookies",
+    "description": "Nutty, buttery, and crumbly, this dense cookie is topped with an almond that breaks in your mouth with a satisfying snap. Sold at Delaila's Sweet Treats."
+  },
+  "DA_ItemType_Decor_MajiMarket_54_EightTreasureRice": {
+    "name": "Delaila's Eight Treasure Rice",
+    "description": "A festive pudding made out of sweet sticky rice, bean paste, and candied fruits and seeds. Sold at Delaila's Sweet Treats."
+  },
+  "DA_ItemType_Decor_MajiMarket_55_NianGao": {
+    "name": "Delaila's Nian Gao",
+    "description": "Made purely from sugar, water, and rice flour, this sweet and sticky rice cake pairs perfectly with a hot cup of tea. Slice and fry it for an extra crispy snack. Sold at Delaila's Sweet Treats."
+  },
+  "DA_ItemType_Decor_MajiMarket_56_Hopia_01": {
+    "name": "Delaila's Hopia",
+    "description": "A flaky dessert with two layers of puff pastry and a sweet, mouth-watering filling. Sold at Delaila's Sweet Treats."
+  },
+  "DA_ItemType_Decor_MajiMarket_56_Hopia_02": {
+    "name": "Delaila's Hopia",
+    "description": "A flaky dessert with two layers of puff pastry and a sweet, mouth-watering filling. Sold at Delaila's Sweet Treats."
+  },
+  "DA_ItemType_Decor_MajiMarket_60_FriedSesameBalls": {
+    "name": "Delaila's Fried Sesame Balls",
+    "description": "A delightfully chewy, deep fried dough ball peppered with sesame seeds and stuffed with a delectable filling. Sold at Delaila's Sweet Treats."
+  },
+  "DA_ItemType_Decor_MajiMarket_61_HotPotSm": {
+    "name": "New Year Personal Hot Pot",
+    "description": "Bring the joy of hotpot home with your own personal pot! Not only does it keep your soup hot, but it's portable too, with sturdy heat-resistant handles for ease of carry."
+  },
+  "DA_ItemType_Decor_MajiMarket_62_hotpotrug": {
+    "name": "Maji Market Hotpot Rug",
+    "description": "Keep your floor clean and feet comfy on this decorative rug, which is equally as plush as it is firm."
+  },
+  "DA_ItemType_Decor_MajiMarket_64_Poster_02": {
+    "name": "Luna New Year Poster",
+    "description": "A poster commemorating the Luna New Year celebrations. The smooth print shimmers in the moonlight."
+  },
   "DA_ItemType_Decor_Makeshift_Birdbath": {
     "name": "Самодельная Поилка для Птиц",
     "description": "Самодельная ванночка для птиц, достаточно глубокая, чтобы служить чашей для пунша. Убить двух зайцев одним выстрелом."
@@ -4764,7 +5011,20 @@
     "description": "Баночка с мерцающими мухами, подаренная вам Ауни в благодарность за снятие его проклятия."
   },
   "DA_ItemType_Decor_Narrative_220_Decor_Silverwing_Plush": {
-    "name": "Плюшевая Серебрянка"
+    "name": "Ancient Silverwing Plush",
+    "description": "A cute plush based on the legendary Silverwing. Do you think they exist?"
+  },
+  "DA_ItemType_Decor_Narrative_222_Furniture_SernukPlushA": {
+    "name": "Sernuk Plush",
+    "description": "The soft horns on this plush sernuk may look sharp, but they're super squishy. Safe enough for infants!"
+  },
+  "DA_ItemType_Decor_Narrative_222_Furniture_SernukPlushB": {
+    "name": "Proudhorned Sernuk Plush",
+    "description": "Sick of chasing magical sernuk through Bahari Bay? Now you can take one home by buying this plush."
+  },
+  "DA_ItemType_Decor_Narrative_222_Furniture_SernukPlushC": {
+    "name": "The Order Sernuk Plush",
+    "description": "This plush sernuk can't pull a carriage, but it can be your faithful companion as you regale tales of the Order's mighty Watchers."
   },
   "DA_ItemType_Decor_Narrative_25_Deco_Phoenix_Statue": {
     "name": "Статуя Феникса",
@@ -4850,6 +5110,10 @@
     "name": "Весенний Венок Принятия",
     "description": "Венок для тех, чьи мысли глубоки, как океан. Получен в подарок от Эш во время Церемонии Принятия."
   },
+  "DA_ItemType_Decor_Phoenix_04_furniture_bookshelf": {
+    "name": "Emberborn Bookshelf",
+    "description": "This Phoenix-themed bookshelf is perfect for holding all your documents on ancient Human civilizations."
+  },
   "DA_ItemType_Decor_Phoenix_08_furniture_nightstand": {
     "name": "Тумбочка \"Эмбра\"",
     "description": "Держите будильник на этой тумбочке, и на следующее утро вы обязательно восстанете, как Феникс."
@@ -4857,6 +5121,10 @@
   "DA_ItemType_Decor_Phoenix_11_furniture_bed": {
     "name": "Кровать \"Эмбра\"",
     "description": "Матрас этой кровати набит перьями, такими же теплыми, как пух Феникса. Отлично подходит для зимы, не так хорошо для лета."
+  },
+  "DA_ItemType_Decor_Phoenix_12_deco_large_wall": {
+    "name": "Emberborn Wall Decor",
+    "description": "Hang this ancient stone carving in your house, and be reassured the Phoenix watching over you."
   },
   "DA_ItemType_Decor_Phoenix_15_lighting_chandelier": {
     "name": "Подвесной Светильник \"Эмбра\"",
@@ -4878,6 +5146,34 @@
     "name": "Жаровня \"Эмбра\"",
     "description": "Эта стоячая лампа осветит дом маленьким пламенем Феникса. Только осторожно, не сожгите её дотла."
   },
+  "DA_ItemType_Decor_Phoenix_28_furniture_dresser": {
+    "name": "Emberborn Dresser",
+    "description": "You can store all your ancient Human treasures in this dresser, along with your ordinary clothes "
+  },
+  "DA_ItemType_Decor_Phoenix_30_Outdoor_fence": {
+    "name": "Emberborn Fence",
+    "description": "With enough of this stone fencing, you can create your own maze! Lava not included."
+  },
+  "DA_ItemType_Decor_Phoenix_30_Outdoor_Fence_Column": {
+    "name": "Small Emberborn Column",
+    "description": "Don't take offence to this simple, Phoenix-inspired column. Its a classic design has stood the test of time."
+  },
+  "DA_ItemType_Decor_Phoenix_30_Outdoor_Fence_Column_2": {
+    "name": "Large Emberborn Column",
+    "description": "These large, stone columns are sure to make a statement that lasts hundreds, if not thousands, of years."
+  },
+  "DA_ItemType_Decor_Phoenix_30_Outdoor_Fence_DoubleGate": {
+    "name": "Emberborn Double Gate",
+    "description": "Open these oversized gates to get a glimpse of what it may have been like to see the Phoenix spread her wings."
+  },
+  "DA_ItemType_Decor_Phoenix_30_Outdoor_Fence_Gate": {
+    "name": "Emberborn Swing Gate",
+    "description": "Maybe there are secret puzzles hidden behind this ancient Human gate! Or maybe it's just your house."
+  },
+  "DA_ItemType_Decor_Phoenix_32_furniture_standing_mirror": {
+    "name": "Emberborn Mirror",
+    "description": "Check out this mirror because you're looking hot today! Don't worry, you're not actually on fire."
+  },
   "DA_ItemType_Decor_Phoenix_33_furniture_lamp": {
     "name": "Настольная Лампа \"Эмбра\"",
     "description": "Эта маленькая лампа - все равно что маленькая жар-птица на столе, которая составит компанию на всю ночь."
@@ -4889,6 +5185,10 @@
   "DA_ItemType_Decor_AuniPortrait": {
     "name": "Портрет Ауни",
     "description": "Автопортрет, выполненный Ауни."
+  },
+  "DA_ItemType_Decor_GoldEgg": {
+    "name": "The Golden Egg",
+    "description": "Forbidden. Cursed. Delicious. Dare you open the chest and place it down?"
   },
   "DA_ItemType_Decor_Golem_Stone": {
     "name": "Камень Голема",
@@ -4989,6 +5289,10 @@
   "DA_ItemType_Decor_ShinyPebble": {
     "name": "Декор из Блестящей Гальки",
     "description": "Подарок от Эйнара, чтобы ваш день прошел более гладко. Это для украшения вашего дома, а не для повторного дарения."
+  },
+  "DA_ItemType_Decor_Rewards_Discord_01_Wumpus": {
+    "name": "Finding Friends Wumpus Plush",
+    "description": "Bored? The plush Wumpus will sew a little discord into your life. Don't worry, it's just trying to liven things up."
   },
   "DA_ItemType_Decor_Rewards_External_01_Windmill": {
     "name": "Декоративная Ветряная Мельница Основателя Килимы",
@@ -5460,9 +5764,144 @@
     "name": "Золотой Трофей Размера Участка",
     "description": "Невозможно потерять свой участок, если вы купили всю землю в округе! Награда за то, что весь участок под застройку - ваш."
   },
-  "DA_ItemType_Decor_ValTech_06_furniture_RecordPlayer": {
-    "name": "Проигрыватель Пластинок Кеньятты",
-    "description": "Проигрыватель пластинок, подаренный вам Кеньяттой."
+  "DA_ItemType_Decor_TwitchDrops_01_deco_Palcat_Rug_01": {
+    "name": "Palcat Party Small Rug",
+    "description": "Send your pals into a jealous furrenzy with this small palcat rug. They'll be so in love they'll beg for one of their own! "
+  },
+  "DA_ItemType_Decor_TwitchDrops_01_deco_Palcat_Rug_02": {
+    "name": "Palcat Party Large Rug",
+    "description": "What's better than one palcat? Six! This plush rug is certified soft, purrfect for lounging in the sun or making bread. Hairballs not included."
+  },
+  "DA_ItemType_Wallpaper_Palcat_01": {
+    "name": "Palcat Party Wallpaper",
+    "description": "This bold wall pattern will make all your guests paws to admire your taste. The only thing better than a room covered in this wallpaper is an entire house."
+  },
+  "DA_ItemType_Decor_ValTech_01_furniture_fridge": {
+    "name": "PalTech Icebox",
+    "description": "Ever wanted to chill a beverage without being arrested by every Watcher on Bahari Island? Now you can, with Zeki's Patented Totally Legal PalTech Icebox."
+  },
+  "DA_ItemType_Decor_ValTech_03_decor_coffeemachine": {
+    "name": "PalTech Drink Dispenser",
+    "description": "Finally a machine to meet all your bean juice needs. Sassy mug with a cursive phrase complaining about everyday inconveniences not included."
+  },
+  "DA_ItemType_Decor_ValTech_04_decor_kettle": {
+    "name": "PalTech Kettle",
+    "description": "For those who prefer leaf juice to bean juice. Or want easy access to instant soup!"
+  },
+  "DA_ItemType_Decor_ValTech_05_furniture_kitchenventhood": {
+    "name": "PalTech Range Hood",
+    "description": "You could stop cooking bacon all day, every day- or you could install this Paltech Range Hood and continue living your greasy, greasy dreams."
+  },
+  "DA_ItemType_Decor_ValTech_07_furniture_Radio": {
+    "name": "PalTech Radio"
+  },
+  "DA_ItemType_Decor_ValTech_08_furniture_shelf_01": {
+    "name": "PalTech Wall Shelf",
+    "description": "Zeki insists this shelf can hold twice the weight compared to other shelves of similar size. If it ain't sturdy, it ain't PalTech!"
+  },
+  "DA_ItemType_Decor_ValTech_09_furniture_shelf_02": {
+    "name": "PalTech Double Wall Shelf",
+    "description": "With twice the space to store all the plushies you've collected from Zeki's Wondrous Machine (TM). You ARE using Zeki's Wondrous Machine (TM), aren't you?"
+  },
+  "DA_ItemType_Decor_ValTech_10_furniture_sink": {
+    "name": "PalTech Sink",
+    "description": "Guaranteed to provide fresh, pure, 99% flow free water at the flick of the wrist, thanks to Zeki's Patented PalTech PureFlow Purifier."
+  },
+  "DA_ItemType_Decor_ValTech_11_furniture_smalltable_01": {
+    "name": "PalTech Square End Table",
+    "description": "This end table has interior storage protected by a lock, perfect for hiding away any... incriminating items you might have lying around."
+  },
+  "DA_ItemType_Decor_ValTech_12_furniture_smalltable_02": {
+    "name": "PalTech Round End Table",
+    "description": "Thanks to its all-metal design, this end table can also serve as a makeshift oven if you get really, really desperate. And don't mind third-degree burns!"
+  },
+  "DA_ItemType_Decor_ValTech_13_furniture_smalltable_03": {
+    "name": "PalTech Coffee Table",
+    "description": "Kick your feet up and relax in front of this PalTech Coffee Table. Doubles as the perfect centerpiece to plan a heist around, with ample surface to lay out blueprints and other ill-gotten materials."
+  },
+  "DA_ItemType_Decor_ValTech_14_decor_ProstheticHand": {
+    "name": "PalTech Glove",
+    "description": "Need an oven mitt? A helping hand around the house? Someone to high five? This PalTech Glove's got it all, with a guaranteed battery life of over ten seconds! "
+  },
+  "DA_ItemType_Decor_ValTech_15_decor_Microscope": {
+    "name": "PalTech Microscope",
+    "description": "Experience a whole new world through this microscope, which can magnify slides up to 40x! Careful application advised- once you see it, you can't un-see it!"
+  },
+  "DA_ItemType_Decor_ValTech_16_lighting_tablelamp": {
+    "name": "PalTech Desk Lamp",
+    "description": "Other lamps use pesky lampshades to keep light out of your eyes. This lamp knows what you really need- pure, unfiltered, blinding brilliance."
+  },
+  "DA_ItemType_Decor_ValTech_17_decor_wallhangings01": {
+    "name": "PalTech Picture Frame",
+    "description": "Some people will show off all their blueprints to any chump who walks in the room. You know the only way to keep your real inventions safe is to hang this dummy schematic in prominent view of the front door. Good luck trying to get THIS one to work!"
+  },
+  "DA_ItemType_Decor_ValTech_18_decor_wallhangings02": {
+    "name": "PalTech Wall Clock",
+    "description": "This wall clock has been calibrated to always be five minutes ahead. A good inventor is constantly late- a great one lies to themselves until they show up on time."
+  },
+  "DA_ItemType_Decor_ValTech_19_lighting_walllamp": {
+    "name": "PalTech Medium Pipe",
+    "description": "What's it attached to? Where does it lead? That's on a need-to-know basis. All YOU need to know is that it'll look great in your home!"
+  },
+  "DA_ItemType_Decor_ValTech_20_decor_WallPipe_01": {
+    "name": "PalTech Medium Pipe",
+    "description": "What's it attached to? Where does it lead? That's on a need-to-know basis. All YOU need to know is that it'll look great in your home!"
+  },
+  "DA_ItemType_Decor_ValTech_21_decor_WallPipe_02": {
+    "name": "PalTech Short Pipe",
+    "description": "Is it a pipe, or the perfect handle to give yourself a lift when you've fallen and can't get up?"
+  },
+  "DA_ItemType_Decor_ValTech_22_decor_WallVent_01": {
+    "name": "PalTech Medium Wall Vent",
+    "description": "Emits the perfect amount of heat to keep a home warm all year- or to cook a steak really, really slowly."
+  },
+  "DA_ItemType_Decor_ValTech_23_decor_FloorVent_01": {
+    "name": "PalTech Square Floor Vent",
+    "description": "It is not advised to stand directly over this floor vent, unless your feet are extremely cold."
+  },
+  "DA_ItemType_Decor_ValTech_24_decor_WallPipe_03": {
+    "name": "PalTech Flange Pipe",
+    "description": "Somehow, Zeki has kept this flange pipe from spewing red-hot fuel all over your belongings. Apparently, it is a Grimalkin trade secret."
+  },
+  "DA_ItemType_Decor_ValTech_25_decor_WallPipe_04": {
+    "name": "PalTech Long Pipe",
+    "description": "Despite its appearances, this pipe is not the periscope of a massive underground submersible... or is it?"
+  },
+  "DA_ItemType_Decor_ValTech_26_decor_WallVent_02": {
+    "name": "PalTech Large Wall Vent",
+    "description": "Some people would place a vent on the outside of their house, but you know better. This one's even got handles for easier access!"
+  },
+  "DA_ItemType_Decor_ValTech_27_decor_FloorVent_02": {
+    "name": "PalTech Round Floor Vent",
+    "description": "You could stand over this vent for the perfect photo op, but it's not advised- unless your dress is fireproof!"
+  },
+  "DA_ItemType_Decor_ValTech_28_decor_FloorVent_03": {
+    "name": "PalTech Long Floor Vent",
+    "description": "Progress takes a lotta energy, and a LOTTA vents. Make sure you've got about twenty of these scattered across the floor, just so your guests know you take this inventing thing seriously."
+  },
+  "DA_ItemType_Decor_ValTech_29_decor_FloorVent_04": {
+    "name": "PalTech Large Floor Vent",
+    "description": "Dropping your keys around this vent is not advised, unless you have a lot of spares lying about the house."
+  },
+  "DA_ItemType_Decor_ValTech_30_decor_WallVent_03": {
+    "name": "PalTech Small Wall Vent",
+    "description": "For when you need to vent, but only a little bit."
+  },
+  "DA_ItemType_Decor_ValTech_31_decor_deskgyro": {
+    "name": "PalTech Gyroscope",
+    "description": "Mostly used for navigation on the high seas, or as a great paperweight in a stationary home!"
+  },
+  "DA_ItemType_Decor_ValTech_32_lighting_lantern": {
+    "name": "PalTech Lantern",
+    "description": "This portable light is the perfect tool to conduct your business in the dead of night. Throw a cloth on top and you can even disappear if you need to."
+  },
+  "DA_ItemType_Decor_ValTech_33_decor_deskfan": {
+    "name": "PalTech Desk Fan",
+    "description": "A helpful little steampowered fan perfect for keeping you cool with all those vents blasting heat everywhere."
+  },
+  "DA_ItemType_Decor_ValTech_34_decor_ceilingfan": {
+    "name": "PalTech Ceiling Fan",
+    "description": "You can sit and stare at those blades rotate for hours. Go on, no one's stopping you but yourself."
   },
   "DA_ItemType_Decor_village_01_blacksmith_oldwheel": {
     "name": "Колесо от Килимской Повозки",
@@ -5623,6 +6062,134 @@
   "DA_ItemType_Decor_Village_FrogDeposit_Red": {
     "name": "Депозит Лягушки",
     "description": "Вклад лягушки"
+  },
+  "DA_ItemType_Decor_Winter_01_furniture_HolidayTree": {
+    "name": "Winterlights Tree",
+    "description": "Your Winterlights tree is guaranteed evergreen, and ever festive. Just don't chop it down! "
+  },
+  "DA_ItemType_Decor_Winter_01_furniture_HolidayTree_Bell": {
+    "name": "Winterlights Bell Ornament",
+    "description": "Didn't you see Zeki playing with this bell ornament earlier? Hopefully he doesn't come knock it off the tree."
+  },
+  "DA_ItemType_Decor_Winter_01_furniture_HolidayTree_Candle": {
+    "name": "Winterlights Candle Ornament",
+    "description": "There are many fire hazards to hang on your Winterlights tree, but this one is yours."
+  },
+  "DA_ItemType_Decor_Winter_01_furniture_HolidayTree_Ornament_01": {
+    "name": "Winterlights Wood Ornament",
+    "description": "This beautiful ornament was crafted with love by someone who cares about you."
+  },
+  "DA_ItemType_Decor_Winter_01_furniture_HolidayTree_Ornament_02": {
+    "name": "Winterlights Ball Ornament",
+    "description": "A lovely ornament that reminds you of the great times you've had this year with the friend who gave it to you."
+  },
+  "DA_ItemType_Decor_Winter_01_furniture_HolidayTree_Topper": {
+    "name": "Winterlights Tree Topper",
+    "description": "This tree topper is a Kilima tradition, and represents the village's founding family."
+  },
+  "DA_ItemType_Decor_Winter_01_furniture_HolidayTree_Treeskirt": {
+    "name": "Winterlights Tree Skirt",
+    "description": "A lovely tree skirt for those who prefer their floor without pine needles, or their pine needles without floor."
+  },
+  "DA_ItemType_Decor_Winter_02_Deco_SnowShoes": {
+    "name": "Winterlights Snowshoes",
+    "description": "It isn't quite snowy enough for these snowshoes down in Kilima village, but adventurers often take them when scaling the nearby mountain. "
+  },
+  "DA_ItemType_Decor_Winter_03_Deco_HangingMittens": {
+    "name": "Winterlights Mitten Decor",
+    "description": "A cozy spot to hang your mittens after an epic snowball fight."
+  },
+  "DA_ItemType_Decor_Winter_04_Deco_HangingSkates": {
+    "name": "Winterlights Skates Decor",
+    "description": "Everything's better on ice! Except for falling on your skates - maybe hang them up for a while and recover."
+  },
+  "DA_ItemType_Decor_Winter_05_Deco_HangingStockings_01": {
+    "name": "Winterlights Stockings",
+    "description": "Hang these stockings by the chimney with care - or don't. Zeki won't tell anyone."
+  },
+  "DA_ItemType_Decor_Winter_05_Deco_HangingStockings_02": {
+    "name": "Winterlights Trinket Decor",
+    "description": "These ornaments symbolize the good memories made during Winterlights past and future!"
+  },
+  "DA_ItemType_Decor_Winter_06_furniture_CoatRack": {
+    "name": "Winterlights Coat Rack",
+    "description": "This coat rack is the perfect place for your Winterlights visitors to hang their gear before they gather around the fire. "
+  },
+  "DA_ItemType_Decor_Winter_07_Deco_HolidayAntlers": {
+    "name": "Winterlights Antler Mount",
+    "description": "Legend has it that these special antlers come from rare sernuk with glowing red noses. "
+  },
+  "DA_ItemType_Decor_Winter_08_Deco_Wreath_01": {
+    "name": "Winterlights Gold Wreath",
+    "description": "A celebratory wreath with a gold tinge. It represents the warm opportunities the season presents - or maybe just the desire for shiny presents!"
+  },
+  "DA_ItemType_Decor_Winter_08_Deco_Wreath_02": {
+    "name": "Winterlights Silver Wreath",
+    "description": "A celebratory wreath with a silver tinge. It represents the winter moon overlooking the celebration. "
+  },
+  "DA_ItemType_Decor_Winter_09_Deco_PreservesGift": {
+    "name": "Winterlights Charcuterie",
+    "description": "Nothing preserves the holiday spirit better than some preserves and charcuterie."
+  },
+  "DA_ItemType_Decor_Winter_10_Deco_FancyPlate_01": {
+    "name": "Winterlights Gold Plate",
+    "description": "This plate is almost too nice to eat off of! Maybe just display this one..."
+  },
+  "DA_ItemType_Decor_Winter_10_Deco_FancyPlate_02": {
+    "name": "Winterlights Silver Plate",
+    "description": "This plate is made for sharing! What are you cooking this Winterlights?"
+  },
+  "DA_ItemType_Decor_Winter_11_Deco_Rug_01": {
+    "name": "Jolly Ormuu Rug",
+    "description": "This ormuu rug is really getting into the spirit! Do you think we could get one of these hats on Butterball?"
+  },
+  "DA_ItemType_Decor_Winter_11_Deco_Rug_02": {
+    "name": "Snowy Ormuu Rug",
+    "description": "This ormuu rug came ready for the Winterfest snow - although this rug isn't snow-proof."
+  },
+  "DA_ItemType_Decor_Winter_12_Deco_Rug_01": {
+    "name": "Jolly Chapaa Rug",
+    "description": "A festive chapaa rug, likely based on one of the chapaas that Kenli dresses up for the holiday."
+  },
+  "DA_ItemType_Decor_Winter_12_Deco_Rug_02": {
+    "name": "Snowy Chapaa Rug",
+    "description": "This chapaa is nice and cozy in his nest - just like you'll be when you add this rug to your house!"
+  },
+  "DA_ItemType_Decor_WinterPopupStore_LeafPile_01": {
+    "name": "Winterlights Leaf Pile",
+    "description": "As the trees begin to change, they drop beautiful orange leaves for you to rake up. With this permanent leaf pile, you can feel that satisfaction year round."
+  },
+  "DA_ItemType_Decor_WinterPopupStore_LeafPile_02": {
+    "name": "Winterlights Fall Leaves",
+    "description": "A few leaves that have fallen from the trees. The perfect accent for your plot."
+  },
+  "DA_ItemType_Decor_WinterPopupStore_Present_01": {
+    "name": "Winterlights Red Present",
+    "description": "Give this present a shake, see whether it might break!"
+  },
+  "DA_ItemType_Decor_WinterPopupStore_Present_02": {
+    "name": "Winterlights Green Present",
+    "description": "Give this present a shake, do you think it's a fake?"
+  },
+  "DA_ItemType_Decor_WinterPopupStore_Present_03": {
+    "name": "Winterlights Blue present",
+    "description": "Give this present a shake, a rattle it'll make."
+  },
+  "DA_ItemType_Decor_WinterPopupStore_SnowPile_01": {
+    "name": "Winterlights Snowbank",
+    "description": "This snowbank is perfect for depositing and withdrawing snowballs in case of a wintery ambush - hopefully they don't charge interest!"
+  },
+  "DA_ItemType_Decor_WinterPopupStore_SnowPile_02": {
+    "name": "Winterlights Snowdrift",
+    "description": "This snowdrift was roaming around trying to find itself, but it seems like it's finally found a home on your plot."
+  },
+  "DA_ItemType_Decor_WinterPopupStore_SnowPile_03": {
+    "name": "Winterlights Snow Mound",
+    "description": "This snow mound is hours of frosty fun! As long as it doesn't get too hot..."
+  },
+  "DA_ItemType_Decor_WinterPopupStore_SnowPile_04": {
+    "name": "Winterlights Ice Patch",
+    "description": "An ice patch, for those among us who feel like the ground in their plot isn't quite dangerous enough."
   },
   "DA_ItemType_Decor_Bed_Cot": {
     "name": "Самодельная Кроватка",
@@ -6275,6 +6842,10 @@
     "name": "Маленький Ящик",
     "description": "Пустой ящик для добычи из ваших путешествий."
   },
+  "DA_ItemType_LootCrate_Winterlights": {
+    "name": "Winterlights Chest",
+    "description": "An empty Winterlights chest from your celebrations."
+  },
   "DA_ItemType_LootCrate_Large_Human": {
     "name": "Древний сундук с сокровищами",
     "description": "Пустой сундук для сокровищ из ваших путешествий."
@@ -6697,6 +7268,10 @@
   "DA_ItemType_Reward_CommunityPoints_1": {
     "name": "Репутация",
     "description": "Ваша репутация в сообществе."
+  },
+  "DA_ItemType_RouletteCoin": {
+    "name": "Roulette Coin",
+    "description": "Used for a chance to win great prizes at the Grimalkin Roulette during Luna New Year."
   },
   "DA_ItemType_Trash_Broken_Pan": {
     "name": "Сломанная Сковорода",
@@ -7622,6 +8197,18 @@
     "name": "Упавшая Бумажка с Желанием",
     "description": "Одна из бумажек с пожеланиями, упавших с дерева желаний. Желание гласит: \"В этом году я очень надеюсь, что мой папа найдет своего особенного человека. Может быть, тогда он перестанет быть все время таким ворчуном\"."
   },
+  "DA_ItemType_Questitem_MMLNY_QL3_CandyBox": {
+    "name": "Zeki's Surprise Candy Box",
+    "description": "A candy box filled with mouth-watering sweets and kind messages for Zeki. The perfect Luna New Year's surprise!"
+  },
+  "DA_ItemType_Questitem_MMLNY_QL3_Journal": {
+    "name": "Chayne's Journal",
+    "description": "One of the wish papers that fell off of the wish tree. The wish reads: \"This year, I really hope my dad finds his special someone. Maybe then he'll stop being such a grump all the time.\""
+  },
+  "DA_ItemType_Questitem_MMLNY_QL3_ZekisWish": {
+    "name": "Zeki's Wish",
+    "description": "Zeki's Luna New Year wish. It reads: \"I wish to celebrate the Luna New Year with my family again- whether from Kilima or beyond. Who knows what surprises next year has for lucky ol' Zeki?\""
+  },
   "DA_ItemType_Questitem_MoonTablet": {
     "name": "Лунные Таблички",
     "description": "Древние таблички, показывающие активность лун Феникса."
@@ -8473,6 +9060,10 @@
     "name": "Древний Сад Камней",
     "description": "Этот древний каменный алтарь хранит множество тайн... в том числе и знакомого друга. Следите за оставленными подарками!"
   },
+  "DA_ItemType_TimedDrop_YoungSilverwingNest": {
+    "name": "Young Silverwing Nest",
+    "description": "You get the sense that a visitor will come to this nest soon... one you helped bring back to Palia. "
+  },
   "DA_Tint_Alabastor": {
     "name": "Алебастр"
   },
@@ -8831,6 +9422,42 @@
     "name": "Шестигранный смешанный пол",
     "description": "Не можете выбрать между деревом и плиткой? Этот пол сочетает в себе и то, и другое в инновационном шестиугольном узоре."
   },
+  "DA_ItemType_Roof_ClaySlates": {
+    "name": "Clean Slates Roof",
+    "description": "Are you craving change in your life? Time to start over with a new slate roof!"
+  },
+  "DA_ItemType_Roof_HarvestShingle_02": {
+    "name": "Blueberry Kilima Roof",
+    "description": "These shingles are the traditional roofing for Kilima Valley. This one has been painted to resemble local blueberries"
+  },
+  "DA_ItemType_Roof_HarvestShingle_03": {
+    "name": "Leaf Kilima Roof",
+    "description": "These shingles are the traditional roofing for Kilima Valley. This one has been painted to resemble local sweet leaf."
+  },
+  "DA_ItemType_Roof_HarvestShingle_04": {
+    "name": "Morel Kilima Roof",
+    "description": "These shingles are the traditional roofing for Kilima Valley. This one has been painted to resemble local morels."
+  },
+  "DA_ItemType_Roof_HarvestShingle_05": {
+    "name": "Iron Kilima Roof",
+    "description": "These shingles are the traditional roofing for Kilima Valley. This one has been painted to resemble local iron ore."
+  },
+  "DA_ItemType_Roof_HarvestShingle_06": {
+    "name": "Iron Kilima Roof",
+    "description": "These shingles are the traditional roofing for Kilima Valley. This one has been painted to resemble local iron ore."
+  },
+  "DA_ItemType_Roof_KawaraTiles": {
+    "name": "Glazed Grooves Tile Roof",
+    "description": "Centuries of artisans worked to perfect the slope of these glazed tiles for warding off rain ...and evil spirits. "
+  },
+  "DA_ItemType_Roof_SpanishTiles": {
+    "name": "Burnt Barrel Tile Roof",
+    "description": "Artists bake clay at super high temperature to make these barrel tiles, which then bake even more on your roof!"
+  },
+  "DA_ItemType_Roof_StraightMetalPlates": {
+    "name": "Steely Sheet Roof",
+    "description": "Steel is an inexpensive, practical, and durable roofing material. Until it rains. And it rusts."
+  },
   "DA_ItemType_Wallpaper_Animated_BambooForest": {
     "name": "Обои \"Бамбуковая Роща\"",
     "description": "Окружите себя качающимся бамбуком, а поскольку это обои, то заблудиться в лесу невозможно!"
@@ -8879,6 +9506,10 @@
     "name": "Обои \"Детали Печи\"",
     "description": "В доме шахтёра никогда не бывает слишком холодно. Согрейте свой очаг тёплым светом этих обоев, вдохнавлённой печью."
   },
+  "DA_ItemType_Wallpaper_Ankara_01": {
+    "name": "Riveting Twines Wallpaper",
+    "description": "A lively wallpaper full of colors, intricacies, and abstractions to fascinate any curious eye."
+  },
   "DA_ItemType_Wallpaper_Apothecary": {
     "name": "Панели из Витражного Дерева",
     "description": "Сделайте свою отделку более интересной с помощью краски. В этом случае никто не сможет определить, из какой древесины она сделана."
@@ -8895,9 +9526,21 @@
     "name": "Обои \"Рог Ормуу\"",
     "description": "Если вам недостаточно рога Ормуу, вы можете хотя бы скопировать вкус Ашуры к обоям."
   },
+  "DA_ItemType_Wallpaper_CherryBlossom_01": {
+    "name": "Spring Blossoms Wallpaper",
+    "description": "Bright, cheerful, and aromatic, this blossom-covered wallpaper will not only liven up your home, but make it smell good, too."
+  },
+  "DA_ItemType_Wallpaper_Chrysanthemum": {
+    "name": "Noble Bloom Wallpaper",
+    "description": "Bask in nobility with this elegant wallpaper, which will transform any ordinary space into one fit for royalty."
+  },
   "DA_ItemType_Wallpaper_Cityhall": {
     "name": "Обои \"Поместье Бахари\"",
     "description": "Проверенный временем узор, который можно встретить во владениях семьи Бахари. Вы тоже можете почувствовать себя мировым судьей!"
+  },
+  "DA_ItemType_Wallpaper_Coin_01": {
+    "name": "Lucky Coin Wallpaper",
+    "description": "Welcome fortune into your home with this lucky wallpaper, which is said to invite prosperity to those who decorate their homes with it."
   },
   "DA_ItemType_Wallpaper_Cross": {
     "name": "Обои I'm Rather Cross",
@@ -8911,9 +9554,21 @@
     "name": "Шиферная обшивка",
     "description": "Шиферная облицовка не только прекрасно выглядит, но и защищает стены от царапин. Но только нижнюю половину."
   },
+  "DA_ItemType_Wallpaper_Dancheong_01": {
+    "name": "Vermillion Tile Wallpaper",
+    "description": "A decorative wallpaper with vibrant tiles. Surround your home with it to create a feeling of majesty, or just to liven up your space."
+  },
   "DA_ItemType_Wallpaper_Default": {
     "name": "Средство для удаления поверхностного слоя",
     "description": "Удаляет любые наклеенные обои или напольные покрытия, возвращая поверхности первоначальный вид."
+  },
+  "DA_ItemType_Wallpaper_Diamond_01": {
+    "name": "Simple Diamond Wallpaper",
+    "description": "Simple yet elegant, this diamond wallpaper adds depth to your home without taking attention away from its main attractions."
+  },
+  "DA_ItemType_Wallpaper_DryBricks": {
+    "name": "Mudbrick Mortar Wallpaper",
+    "description": "This ancient wall has been repaired so many times, you can barely see the mudbrick under all the layers of mortar."
   },
   "DA_ItemType_Wallpaper_Exterior_Old_Planks_01": {
     "name": "Охлаждающий рустикальный сайдинг",
@@ -8934,6 +9589,10 @@
   "DA_ItemType_Wallpaper_GeneralStore": {
     "name": "Обои из Лавки Зеки",
     "description": "Для новаторов, которым нравятся технологии и эстетика Грималкинов. Используйте те же обои, что и у Зеки!"
+  },
+  "DA_ItemType_Wallpaper_Ginko_01": {
+    "name": "Fanning Leaves Wallpaper",
+    "description": "Surround yourself with the tranquil sight of fanning leaves with this wallpaper. Its muted tones and design make it a perfect addition to any home."
   },
   "DA_ItemType_Wallpaper_Harvest": {
     "name": "Обои \"Загородный Уют\"",
@@ -9019,6 +9678,22 @@
     "name": "Розово-Гранатовая Штукатурная Стена",
     "description": "Делайла считает, что к вашему позитивному настрою можно добавить розовую штукатурную стену. Как только она будет нанесена, все вокруг заиграет розами!"
   },
+  "DA_ItemType_Wallpaper_Hibiscus_01": {
+    "name": "Wading Hibiscus Wallpaper",
+    "description": "The life cycle of a hibiscus flower may be just a drop in the sea of time, but this wallpaper captures their beauty in perpetuity."
+  },
+  "DA_ItemType_Wallpaper_Ivys": {
+    "name": "Infinite Ivy Wallpaper",
+    "description": "Cover your wall with claimbing ivy leaves as far as the eye can see. Hope none of it is poison!"
+  },
+  "DA_ItemType_Wallpaper_Kalamkari_01": {
+    "name": "Floral Felicity Wallpaper",
+    "description": "Bring the peaceful touch of nature indoors with this floral wallpaper, which carries the light fragrance of the wildflowers depicted on it."
+  },
+  "DA_ItemType_Wallpaper_LaiThai_01": {
+    "name": "Painted Scroll Wallpaper",
+    "description": "This hand-painted wallpaper features bold colors and a design that flows seamlessly from wall to wall, just as the rivers do into the sea."
+  },
   "DA_ItemType_Wallpaper_Mid_Wall_Crown_Molding_01": {
     "name": "Пасторальная Деревянная Обшивка",
     "description": "Придайте идиллию своей комнате с помощью деревянных панелей, окрашенных в цвета сельской местности."
@@ -9035,6 +9710,10 @@
     "name": "Морская Деревянная Обшивка",
     "description": "Добавьте морскую изысканность своей комнате с помощью деревянных панелей, окрашенных в цвет океанских глубин."
   },
+  "DA_ItemType_Wallpaper_Mughal_01": {
+    "name": "Flowering Field Wallpaper",
+    "description": "Stop and smell the flowers with this beautiful wallpaper, which will take you someplace where tranquility knows no bounds."
+  },
   "DA_ItemType_Wallpaper_Phoenix": {
     "name": "Обои Феникса",
     "description": "Обои Феникса"
@@ -9042,6 +9721,14 @@
   "DA_ItemType_Wallpaper_Phoenix_25": {
     "name": "Обои Феникса",
     "description": "Обои Феникса"
+  },
+  "DA_ItemType_Wallpaper_RiverGuardian_01": {
+    "name": "River Guardian Wallpaper",
+    "description": "Ancient tales speak of a graceful giant who waded the waters of Kilima Valley, keeping it safe. Perhaps furnishing your walls with this wallpaper will protect your home, too."
+  },
+  "DA_ItemType_Wallpaper_ShoujiScreen_01": {
+    "name": "Paper Screen Wallpaper",
+    "description": "These paper screen walls are excellent for airflow and light, but not so good with water."
   },
   "DA_ItemType_Wallpaper_Stained_Glass_01": {
     "name": "Окна \"Морские Волны\"",
@@ -9071,6 +9758,10 @@
     "name": "Обои \"Звездное Море\"",
     "description": "Были ли эти обои вдохновлены звездами, отражающимися в море? Или художник просто нарисовал очень крупные водяные искры?"
   },
+  "DA_ItemType_Wallpaper_Tapa_01": {
+    "name": "Woven Barkcloth Wallpaper",
+    "description": "Decorate the walls of your home with this natural wallpaper, which is hand-woven from barkcloth and painted with precision."
+  },
   "DA_ItemType_Wallpaper_Tavern": {
     "name": "Панели из Натурального Дерева",
     "description": "За каждой стеной - ряд деревянных досок. Настолько классический стиль, что даже обои не нужны."
@@ -9078,6 +9769,22 @@
   "DA_ItemType_Wallpaper_WallTile": {
     "name": "Немного Неровная Стена из Плитки",
     "description": "Облицуйте стену полупрозрачным камнем. Надеюсь, вам не надоест видеть их повсюду."
+  },
+  "DA_ItemType_Wallpaper_Winter_01": {
+    "name": "Let It Snowflake Wallpaper",
+    "description": "Some say Winterlights is the best time of the year - with this wallpaper, you can live it year round!"
+  },
+  "DA_ItemType_Wallpaper_Winter_02": {
+    "name": "Jolly Holly Wallpaper",
+    "description": "This Wallpaper is so festive, you'll feel like your entire room is a Winterlights present!"
+  },
+  "DA_ItemType_Wallpaper_WoodPlank": {
+    "name": "Wood Shingle Siding",
+    "description": "We make furniture out of wood. We make houses out of wood. Why not make shingles out of wood, too?"
+  },
+  "DA_ItemType_Wallpaper_Zellige_01": {
+    "name": "Mirthful Mosaic Wallpaper",
+    "description": "An eye-catching mosaic wallpaper painted in the colors of the great Dragon himself."
   },
   "DA_ItemType_Trash_Scrap_Wood": {
     "name": "Древесные Обрезки",
@@ -9140,6 +9847,21 @@
   "DA_Store_Inn": {
     "name": "Таверна"
   },
+  "DA_Store_LNY_ChapaaBooth": {
+    "name": "Chapaa Hut"
+  },
+  "DA_Store_LNY_ChapaaChase": {
+    "name": "Chapaa Chase Prizes"
+  },
+  "DA_Store_LNY_Delaila": {
+    "name": "Delaila's Sweet Treats"
+  },
+  "DA_Store_LNY_ExperimentalFood": {
+    "name": "Reth's Street Specialties"
+  },
+  "DA_Store_LNY_ZekiSnacks": {
+    "name": "Zeki's Snacks"
+  },
   "DA_Store_MajiMarket_ChapaaBooth": {
     "name": "Лавка \"Chapaa Hut\""
   },
@@ -9154,6 +9876,9 @@
   },
   "DA_Store_MajiMarket_Fireworks": {
     "name": "Фейерверки с Ярмарки Маджи"
+  },
+  "DA_Store_Winter": {
+    "name": "Winterlights Store"
   },
   "DA_Store_BugCatching": {
     "name": "Магазин Гильдии Ловли Жуков"

@@ -1,372 +1,372 @@
 {
   "landmark": {
     "MapMarker_AncientRuins": {
-      "name": "Ruines antiques",
+      "name": "远古遗迹",
       "description": null
     },
     "MapMarker_MiningFamily": {
-      "name": "Maison de Hodari & Najuma",
+      "name": "奥达里和纳洁玛的家",
       "description": null
     },
     "MapMarker_OldLighthouse": {
-      "name": "Le vieux phare",
+      "name": "老灯塔",
       "description": null
     },
     "MapMarker_Tamalas": {
-      "name": "Maison de Tamala",
+      "name": "塔玛拉的家",
       "description": null
     },
     "BP_Register_MajiMarket_ChapaaChase_2_C_0": {
-      "name": "Hutte des chapaas",
+      "name": "猹帕小屋",
       "description": null
     },
     "BP_Register_MajiMarket_Delaila_2_C_0": {
-      "name": "Aux friandises de Delaïla",
+      "name": "德莱拉的甜品店",
       "description": null
     },
     "BP_Register_MajiMarket_ExperimentalFood_C_0": {
-      "name": "Stand de street food de Reth",
+      "name": "雷斯的街边特卖店",
       "description": null
     },
     "BP_Register_MajiMarket_Fireworks_2_C_0": {
-      "name": "Feu d’artifice",
+      "name": "烟花",
       "description": null
     },
     "MapMarker_Apothecary": {
-      "name": "Apothicaire",
+      "name": "药师",
       "description": null
     },
     "MapMarker_Blacksmith": {
-      "name": "Forgeronne",
+      "name": "铁匠铺",
       "description": null
     },
     "MapMarker_CityHall": {
-      "name": "Hôtel de ville",
+      "name": "市政厅",
       "description": null
     },
     "MapMarker_DragonShrine": {
-      "name": "Sanctuaire du Dragon",
+      "name": "龙之神龛",
       "description": null
     },
     "MapMarker_FamilyFarm": {
-      "name": "Ferme familiale",
+      "name": "家庭农场",
       "description": null
     },
     "MapMarker_FurnitureStore": {
-      "name": "Magasin de meubles",
+      "name": "家具商店",
       "description": null
     },
     "MapMarker_GeneralStore": {
-      "name": "Bazar",
+      "name": "杂货店",
       "description": null
     },
     "MapMarker_Library": {
-      "name": "Bibliothèque",
+      "name": "图书馆",
       "description": null
     },
     "MapMarker_MayorsEstate": {
-      "name": "Domaine du maire",
+      "name": "镇长的庄园",
       "description": null
     },
     "MapMarker_PhoenixFalls": {
-      "name": "Cascade du Phénix",
+      "name": "凤凰瀑布",
       "description": null
     },
     "MapMarker_RemembranceGarden": {
-      "name": "Jardin du souvenir",
+      "name": "纪念花园",
       "description": null
     },
     "MapMarker_Tailor": {
-      "name": "Tailleur",
+      "name": "裁缝",
       "description": null
     },
     "MapMarker_Tavern": {
-      "name": "Taverne",
+      "name": "酒馆",
       "description": null
     }
   },
   "location": {
     "BP_DoorTeleporter_Parent_C_UAID_B04F1306E948198801_1687213524": {
-      "name": "Puits de mine du nord",
-      "description": "« Fermé par ordre du maire ! »"
+      "name": "北部矿井",
+      "description": "“奉镇长之命关闭！”"
     },
     "BP_InvisibleTeleporter_Parent_C_UAID_00BE43BC7D55E0B701_2107979866": {
-      "name": "Entrer dans les ruines",
-      "description": "Besoin de batterie"
+      "name": "进入遗迹",
+      "description": "需要电池"
     },
     "BP_InvisibleTeleporter_Parent_C_UAID_00BE43BC7D55F4AC01_1201166771": {
-      "name": "???",
-      "description": "Le trappe ne bouge pas d'un pouce."
+      "name": "？？？",
+      "description": "孵化时不会动。"
     },
     "BP_InvisibleTeleporter_Parent_C_UAID_00BE43BC7D55F9A101_1768487034": {
-      "name": "Entrer dans les ruines",
-      "description": "Besoin de batterie"
+      "name": "进入遗迹",
+      "description": "需要电池"
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63147A01_2092305998": {
-      "name": "La chambre de Najuma",
-      "description": "Il te faut la clé de Najuma pour entrer."
+      "name": "纳洁玛的房间",
+      "description": "你得找纳洁玛拿钥匙才能进入。"
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63147A01_1804531996": {
-      "name": "Bosquet de Hassian",
-      "description": "Il te faut la clé de Hassian pour entrer."
+      "name": "哈桑的树林",
+      "description": "你得找哈桑拿钥匙才能进入。"
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63147A01_1934212997": {
-      "name": "Chambre de Hodari",
-      "description": "Il te faut la clé de Hodari pour entrer."
+      "name": "奥达里的房间",
+      "description": "你得找奥达里拿钥匙才能进入。"
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63157A01_1109767176": {
-      "name": "La chambre de Tamala",
-      "description": "Il te faut la clé de Tamala pour entrer."
+      "name": "塔玛拉的房间",
+      "description": "你得找塔玛拉拿钥匙才能进入。"
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE630D7901_2065472831": {
-      "name": "Sortir le livre en vrac",
-      "description": "Il révèle une serrure cachée. Peut-être avez-vous besoin d’une clé ?"
+      "name": "抽出松散的书",
+      "description": "一个隐藏的锁出现了。也许你需要一把钥匙？"
     },
     "BP_DoorTeleporter_Chayne_C_UAID_CC96E503DD7EDC7701_1659484090": {
-      "name": "Chambre de Chayne",
-      "description": "Il te faut la clé de Chayne pour entrer."
+      "name": "查恩的房间",
+      "description": "你得找查恩拿钥匙才能进入。"
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63027A01_1846573965": {
-      "name": "Salle des archives de Kenli",
-      "description": "Il te faut la clé de Kenli pour entrer."
+      "name": "肯利的档案室",
+      "description": "你得找肯利拿钥匙才能进入。"
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE630D7901_1180776852": {
-      "name": "Les égouts",
-      "description": "Termine d’abord le didacticiel sur l’intrigue de la parcelle résidentielle"
+      "name": "下水道",
+      "description": "请先完成房屋地块教程"
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63107901_1465714255": {
-      "name": "Chambre de Sifuu",
-      "description": "Il te faut la clé de Sifuu pour entrer."
+      "name": "西芙的房间",
+      "description": "你得找西芙拿钥匙才能进入。"
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63117A01_1306167092": {
-      "name": "La chambre de Zeki",
-      "description": "Il te faut la clé de Zeki pour entrer."
+      "name": "泽基的房间",
+      "description": "你得找泽基拿钥匙才能进入。"
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63117A01_1565504093": {
-      "name": "Entrer dans les ruines",
-      "description": "Il te faut la clé de Jina pour entrer."
+      "name": "进入遗迹",
+      "description": "你得找吉娜拿钥匙才能进入。"
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63117A01_1634586094": {
-      "name": "La tente de Hekla",
-      "description": "Il te faut la clé de Hekla pour entrer."
+      "name": "赫克拉的帐篷",
+      "description": "你得找赫克拉拿钥匙才能进入。"
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63117A01_1765929095": {
-      "name": "Grange de Badruu",
-      "description": "Il te faut la clé de Badruu pour entrer."
+      "name": "巴德鲁的谷仓",
+      "description": "你得找巴德鲁拿钥匙才能进入。"
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63117A01_1905855096": {
-      "name": "La cabane dans les arbres d’Auni",
-      "description": "Il te faut la clé d’Auni pour entrer."
+      "name": "奥尼的树屋",
+      "description": "你得找奥尼拿钥匙才能进入。"
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63117A01_2054381097": {
-      "name": "Chambre de Nai'o et Auni",
-      "description": "Il te faut la clé de Nai’o pour entrer."
+      "name": "奈奥和奥尼的房间",
+      "description": "你得找奈奥拿钥匙才能进入。"
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63127A01_1110902274": {
-      "name": "Chambre de Delaïla et Badruu",
-      "description": "Il te faut la clé de Delaïla pour entrer."
+      "name": "德莱拉和巴德鲁的房间",
+      "description": "你得找德莱拉拿钥匙才能进入。"
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63147901_1235260488": {
-      "name": "Grotte d’Einar",
-      "description": "Il te faut la clé d’Einar pour entrer."
+      "name": "艾纳的洞穴",
+      "description": "你得找艾纳拿钥匙才能进入。"
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63177A01_1613718543": {
-      "name": "Entrer dans les ruines",
-      "description": "Batterie nécessaire"
+      "name": "进入遗迹",
+      "description": "需要电池"
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63197A01_1883867172": {
-      "name": "Réserve de l’hôtel de ville",
-      "description": "Il te faut une clé pour entrer."
+      "name": "市政厅储藏室",
+      "description": "你需要一把钥匙才能进入。"
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63197A01_2067513173": {
-      "name": "Hall de l’hôtel de ville",
-      "description": "Il te faut une clé !"
+      "name": "市政厅大堂",
+      "description": "你需要一把钥匙！"
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE631B7A01_2127635217": {
-      "name": "Temple du ciel nocturne",
-      "description": "Termine d’abord le didacticiel sur l’intrigue de la parcelle résidentielle"
+      "name": "夜空神殿",
+      "description": "请先完成房屋地块教程"
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63F77901_1205368166": {
-      "name": "Chambre d’Élouisa",
-      "description": "Il te faut la clé d’Élouisa pour entrer."
+      "name": "艾路易莎的房间",
+      "description": "你得找艾路易莎拿钥匙才能进入。"
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63F77901_1545949167": {
-      "name": "La chambre de Tish",
-      "description": "Il te faut la clé de Tish pour entrer."
+      "name": "缇茜的房间",
+      "description": "你得找缇茜拿钥匙才能进入。"
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63F77901_1705194168": {
-      "name": "Débarras de Reth",
-      "description": "Il te faut la clé de Reth pour entrer."
+      "name": "雷斯的储藏室",
+      "description": "你得找雷斯拿钥匙才能进入。"
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63F77901_1825970169": {
-      "name": "Chambrle d’Ashura",
-      "description": "Il te faut la clé d’Ashura pour entrer."
+      "name": "阿舒亚的房间",
+      "description": "你得找阿舒亚拿钥匙才能进入。"
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63F87901_1276917346": {
-      "name": "Chambre de Jel",
-      "description": "Il te faut la clé de Jel pour entrer."
+      "name": "耶尔的房间",
+      "description": "你得找耶尔拿钥匙才能进入。"
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63FC7901_1561438987": {
-      "name": "Chambre de Kenyatta",
-      "description": "Il te faut la clé de Kenyatta pour entrer."
+      "name": "肯雅塔的房间",
+      "description": "你得找肯雅塔拿钥匙才能进入。"
     },
     "BP_DoorTeleporter_Parent_C_UAID_CC96E503DE63FC7901_1912430989": {
-      "name": "Chambre d’Eshe",
-      "description": "Il te faut la clé d’Eshe pour entrer."
+      "name": "艾希的房间",
+      "description": "你得找艾希拿钥匙才能进入。"
     },
     "BP_DoorTeleporter_Parent_C_UAID_00BE43BC7D5532AD01_1839565916": {
-      "name": "Chambre de Subira",
-      "description": "Il te faut la clé de Subira pour entrer."
+      "name": "苏碧拉的房间",
+      "description": "你得找苏碧拉拿钥匙才能进入。"
     }
   },
   "stable": {
     "BP_Stables_Sign_UAID_6C02E03F65D9C66301_1698475622": {
-      "name": "Bahari - Écuries centrales",
-      "description": "Non disponible tant que les quêtes du didacticiel ne sont pas terminées."
+      "name": "巴哈利：中央马厩",
+      "description": "新手任务完成后解锁。"
     },
     "BP_Stables_Sign_UAID_B04F1306EDBFF17501_2051031162": {
-      "name": "Bahari - Rivages de Corail"
+      "name": "巴哈利：珊瑚海岸"
     },
     "BP_Stables_Sign_UAID_B04F1306EDBFF27501_1076227339": {
-      "name": "Bahari - Les Extérieurs"
+      "name": "巴哈利：郊外"
     },
     "BP_Stables_Sign_UAID_B04F1306EDBFF27501_1104149340": {
-      "name": "Bahari - Plaines d’Eaubattante"
+      "name": "巴哈利：脉流平原"
     },
     "BP_Stables_Sign_UAID_B04F1306EDBFF27501_1135505341": {
-      "name": "Bahari - Anse de Valaplage"
+      "name": "巴哈利：浪花湾"
     },
     "BP_Stables_Sign_UAID_B04F1306EDBFF27501_1164310342": {
-      "name": "Bahari - Falaises du Refuge"
+      "name": "巴哈利：隐匿悬崖"
     },
     "BP_Stables_Sign_UAID_7486E2271DBF409B01_2003868107": {
-      "name": "Parc des expositions du village de Kilima",
-      "description": "Non disponible tant que les quêtes du didacticiel ne sont pas terminées."
+      "name": "基利马村集市场",
+      "description": "新手任务完成后解锁。"
     },
     "BP_Stables_Sign_UAID_6C02E03F65D9936101_1437950312": {
-      "name": "Kilima - Écuries centrales"
+      "name": "基利马：中央马厩"
     },
     "BP_Stables_Sign_UAID_6C02E03F66F2966401_1438105510": {
-      "name": "Marché de Maji",
-      "description": "Non disponible tant que les quêtes du didacticiel ne sont pas terminées."
+      "name": "马吉市场",
+      "description": "新手任务完成后解锁。"
     },
     "BP_Stables_Sign_UAID_B04F1306EDBFF47501_2055973898": {
-      "name": "Kilima - Champs miroirs"
+      "name": "基利马：镜像场"
     },
     "BP_Stables_Sign_UAID_B04F1306EDBFF47501_2116097899": {
-      "name": "Kilima - Les berges des murmures"
+      "name": "基利马：轻语河岸"
     },
     "BP_Stables_Sign_UAID_B04F1306EDBFF47501_2119042900": {
-      "name": "Kilima - Collines des Sautefeuilles"
+      "name": "基利马：叶蝉山"
     }
   },
   "area": {
     "MapMarker_OldLighthouse_UAID_CC96E5156C5D3D9201_2102627787": {
-      "name": "Lagon du Phare",
+      "name": "灯塔泻湖",
       "description": null
     },
     "MapMarker_OldLighthouse_UAID_CC96E5156C5D3D9201_2130131788": {
-      "name": "Rivages de Corail",
+      "name": "珊瑚海岸",
       "description": null
     },
     "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1104990965": {
-      "name": "Aquaduc Antique",
+      "name": "古代水道",
       "description": null
     },
     "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1136480966": {
-      "name": "Forteresse Engloutie",
+      "name": "水淹的堡垒",
       "description": null
     },
     "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1169627967": {
-      "name": "Pavel Mines",
+      "name": "帕维尔矿井",
       "description": null
     },
     "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1196462968": {
-      "name": "Fourrés épineux",
+      "name": "荆棘丛",
       "description": null
     },
     "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1218807969": {
-      "name": "Falaises du Refuge",
+      "name": "隐匿悬崖",
       "description": null
     },
     "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1251673970": {
-      "name": "Plaines d’Eaubattante",
+      "name": "脉流平原",
       "description": null
     },
     "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1275559971": {
-      "name": "Anse de Valaplage",
+      "name": "浪花湾",
       "description": null
     },
     "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1547700974": {
-      "name": "Ruines Venteuses",
+      "name": "风之墟",
       "description": null
     },
     "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1601927976": {
-      "name": "Col du Grande Ramure",
+      "name": "角傲角山口",
       "description": null
     },
     "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1649469977": {
-      "name": "Marches Inondées",
+      "name": "淹没的台阶",
       "description": null
     },
     "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1668547978": {
-      "name": "Jardin des Statues",
+      "name": "雕像花园",
       "description": null
     },
     "MapMarker_OldLighthouse_UAID_CC96E5156C5D3E9201_1912837980": {
-      "name": "Les Extérieurs",
+      "name": "郊外",
       "description": null
     },
     "MapMarker_Apothecary_UAID_CC96E5156C5D4B9101_1701465443": {
-      "name": "Ruines de l’étang miroir",
+      "name": "镜池遗址",
       "description": null
     },
     "MapMarker_MayorsEstate_UAID_6C02E03F65D9936101_1437953322": {
-      "name": "Domaine du maire",
+      "name": "镇长的庄园",
       "description": null
     },
     "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1821434640": {
-      "name": "Lagon du pêcheur",
+      "name": "渔夫泻湖",
       "description": null
     },
     "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1856820641": {
-      "name": "Les berges des murmures",
+      "name": "轻语河岸",
       "description": null
     },
     "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1893206642": {
-      "name": "Creux de Maji",
+      "name": "马吉山谷",
       "description": null
     },
     "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1928571643": {
-      "name": "Traversée de Chapaa",
+      "name": "猹帕交叉路口",
       "description": null
     },
     "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1972807644": {
-      "name": "Cascade du Phénix",
+      "name": "凤凰瀑布",
       "description": null
     },
     "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_1999525645": {
-      "name": "Village de Kilima",
+      "name": "基利马村",
       "description": null
     },
     "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_2035310646": {
-      "name": "Collines des Sautefeuilles",
+      "name": "叶蝉山",
       "description": null
     },
     "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_2068254647": {
-      "name": "Anse de titécailles ",
+      "name": "吉利鱼湾",
       "description": null
     },
     "MapMarker_MayorsEstate_UAID_CC96E5156C5D4A9101_2094865648": {
-      "name": "Champs miroirs",
+      "name": "镜像场",
       "description": null
     },
     "MapMarker_RemembranceGarden_UAID_6C02E03F65D9936101_1437953320": {
-      "name": "Jardin du souvenir",
+      "name": "纪念花园",
       "description": null
     },
     "MapMarker_RemembranceGarden_UAID_CC96E5156C5D479101_1753509996": {
-      "name": "Champs de réflexion",
+      "name": "反射场",
       "description": null
     },
     "MapMarker_RemembranceGarden_UAID_CC96E5156C5D4A9101_1765151639": {
@@ -376,29 +376,29 @@
   },
   "zone": {
     "BP_GateTeleporter_Parent_C_UAID_CC96E503DE63137A01_1673725565": {
-      "name": "Vers le village de Kilima",
+      "name": "前往基利马村",
       "description": null
     },
     "BP_GateTeleporter_Parent_C_UAID_CC96E503E0F4C4A401_1919574119": {
-      "name": "Vers la parcelle résidentielle",
+      "name": "前往房屋地块",
       "description": null
     },
     "BP_GateTeleporter_Parent_C_UAID_CC96E503DE630E7901_1573823092": {
-      "name": "Vers le village de Kilima",
+      "name": "前往基利马村",
       "description": null
     },
     "BP_GateTeleporter_Parent_C_UAID_CC96E503DE634E7A01_1976701586": {
-      "name": "Parc des expositions",
+      "name": "集市场",
       "description": null
     },
     "BP_GateTeleporter_Parent_C_UAID_CC96E503DE63627801_1776598294": {
-      "name": "Vers la baie du Bahari",
+      "name": "前往巴哈利湾",
       "description": null
     }
   },
   "housingPlot": {
     "BP_GateTeleporter_Parent_C_UAID_CC96E503E0F4C4A401_1919574119": {
-      "name": "Vers la parcelle résidentielle",
+      "name": "前往房屋地块",
       "description": null
     }
   }
