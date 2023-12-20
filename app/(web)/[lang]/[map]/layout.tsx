@@ -11,6 +11,7 @@ import { ParamsProvider } from "@/lib/storage/params";
 import { fetchWeeklyWants } from "@/lib/weekly-wants";
 import dynamic from "next/dynamic";
 import { notFound } from "next/navigation";
+import { Suspense } from "react";
 
 export { generateMetadata } from "@/lib/meta";
 
@@ -71,10 +72,12 @@ async function Layout({
       <WebHeader lang={lang} page={map} dict={dict}>
         <WeeklyWants data={weeklyWants} />
       </WebHeader>
-      <ParamsProvider>
-        {content}
-        {children}
-      </ParamsProvider>
+      <Suspense>
+        <ParamsProvider>
+          {content}
+          {children}
+        </ParamsProvider>
+      </Suspense>
     </>
   );
 }

@@ -13,8 +13,7 @@ import { isMap } from "@/lib/maps";
 import { ParamsProvider } from "@/lib/storage/params";
 import dynamic from "next/dynamic";
 import { notFound } from "next/navigation";
-
-export { generateMetadata } from "@/lib/meta";
+import { Suspense } from "react";
 
 const Map = dynamic(() => import("@/components/(map)/map"), {
   ssr: false,
@@ -57,15 +56,17 @@ function Layout({
             locales: LOCALES,
           }}
         >
-          <ParamsProvider>
-            <Map>
-              <Tiles />
-              <Nodes />
-              <Search hidden />
-            </Map>
-            <EmbedLink />
-            {children}
-          </ParamsProvider>
+          <Suspense>
+            <ParamsProvider>
+              <Map>
+                <Tiles />
+                <Nodes />
+                <Search hidden />
+              </Map>
+              <EmbedLink />
+              {children}
+            </ParamsProvider>
+          </Suspense>
         </I18NProvider>
 
         <PlausibleTracker
