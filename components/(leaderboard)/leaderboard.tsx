@@ -23,6 +23,7 @@ type Players = {
     skillLevels: SkillLevels[];
     mapName: string;
     position: [number, number, number];
+    lastKnownPrimaryHousingPlotValue?: number;
     timestamp: number;
   };
 };
@@ -61,6 +62,8 @@ export default async function Leaderboard({ dict }: { dict: DICT }) {
         skillLevels: player.skillLevels.filter(
           (skillLevel) => skillLevel.type in SKILL_ICONS
         ),
+        lastKnownPrimaryHousingPlotValue:
+          player.lastKnownPrimaryHousingPlotValue,
       };
     })
     .sort((a, b) => b.level - a.level)
@@ -81,6 +84,7 @@ export default async function Leaderboard({ dict }: { dict: DICT }) {
               <th>{dict.leaderboard.name}</th>
               <th>{dict.leaderboard.level}</th>
               <th className="hidden sm:block">{dict.leaderboard.skills}</th>
+              <th>{dict.leaderboard.plotLevel}</th>
             </tr>
           </thead>
           <tbody>
@@ -109,6 +113,7 @@ export default async function Leaderboard({ dict }: { dict: DICT }) {
                     </div>
                   ))}
                 </td>
+                <td>{player.lastKnownPrimaryHousingPlotValue ?? "-"}</td>
               </tr>
             ))}
           </tbody>

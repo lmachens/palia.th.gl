@@ -44,7 +44,8 @@
     "description": "Embark on a thrilling journey in Palia and stand out among fellow adventurers with the Palia App Leaderboard. Discover where you rank in character level, skill proficiency, and showcase your character's name. To join this exclusive leaderboard, ensure you have the In-Game App installed. Dive into the world of Palia, track your progress, and compete with other players for the top spot! Unleash your skills, conquer challenges, and let the Palia App Leaderboard celebrate your achievements. Join the ranks of Palia's elite—your adventure is about to be recognized!",
     "level": "Level",
     "name": "Name",
-    "skills": "Skills"
+    "skills": "Skills",
+    "plotLevel": "Plot level"
   },
   "rummagePile": {
     "metaTitle": "Discover Rummage Piles in Palia: Daily Treasures Await!",

@@ -44,7 +44,8 @@
         "description": "Embárcate en una emocionante aventura en Palia y destácate entre los compañeros aventureros con la Clasificación de la Aplicación Palia. Descubre dónde te encuentras en el nivel del personaje, la destreza de habilidades y muestra el nombre de tu personaje. Para unirte a esta exclusiva clasificación, asegúrate de tener instalada la aplicación In-Game. Sumérgete en el mundo de Palia, sigue tu progreso y compite con otros jugadores por el primer lugar. Desata tus habilidades, conquista desafíos y deja que la Clasificación de la Aplicación Palia celebre tus logros. Únete a las filas de la élite de Palia, ¡tu aventura está a punto de ser reconocida!",
         "level": "Nivel",
         "name": "Nombre",
-        "skills": "Habilidades"
+        "skills": "Habilidades",
+        "plotLevel": "Nivel de Parcela"
     },
     "rummagePile": {
         "metaTitle": "Descubre los Rummage Piles en Palia: ¡Tesores diarios te esperan!",
