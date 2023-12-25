@@ -47,7 +47,7 @@ async function initController() {
     }
     if (userId) {
       const accountStore = useAccountStore.getState();
-      const response = await fetch(`https://www.th.gl/api/patreon/overwolf`, {
+      const response = await fetch("https://www.th.gl/api/patreon/overwolf", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

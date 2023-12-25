@@ -16,15 +16,20 @@ export async function fetchWeeklyWants(
     const weeklyWants = Object.entries(data.preferences).reduce(
       (acc, [key, wants]) => {
         acc[key] = wants
-          .map((value) => {
+          .flatMap((value) => {
+            if (!value) {
+              return [];
+            }
             const terms = dict[value.objectId as keyof typeof dict];
-            return {
-              id: value.itemPersistId,
-              item: value.objectId,
-              name: terms?.name ?? value.objectId,
-              description: terms?.description,
-              rewardLevel: value.rewardLevel as REWARD_LEVEL,
-            };
+            return [
+              {
+                id: value.itemPersistId,
+                item: value.objectId,
+                name: terms?.name ?? value.objectId,
+                description: terms?.description,
+                rewardLevel: value.rewardLevel as REWARD_LEVEL,
+              },
+            ];
           })
           .sort((a, b) => a.name.localeCompare(b.name));
         return acc;
