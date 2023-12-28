@@ -12,7 +12,7 @@ export default function Anchor({ id }: { id: string }) {
       anchorBgColor: "none",
       mediaQuery: "(min-width: 320px)",
       demo:
-        process.env.NEXT_PUBLIC_NITRO_PAY_DEMO === "true" ? "false" : "true",
+        process.env.NEXT_PUBLIC_NITRO_PAY_DEMO === "true" ? "true" : "false",
       debug: "silent",
     });
   }, []);
