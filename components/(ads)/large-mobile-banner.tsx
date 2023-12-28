@@ -9,7 +9,8 @@ export default function LargeMobileBanner({ id }: { id: string }) {
       renderVisibleOnly: false,
       sizes: [["320", "100"]],
       mediaQuery: "(min-width: 320px) and (max-width: 767px)",
-      demo: process.env.VERCEL_ENV === "production" ? "false" : "true",
+      demo:
+        process.env.NEXT_PUBLIC_NITRO_PAY_DEMO === "true" ? "false" : "true",
       debug: "silent",
     });
   }, []);

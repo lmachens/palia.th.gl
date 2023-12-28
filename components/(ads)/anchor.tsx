@@ -11,7 +11,8 @@ export default function Anchor({ id }: { id: string }) {
       anchorPersistClose: false,
       anchorBgColor: "none",
       mediaQuery: "(min-width: 320px)",
-      demo: process.env.VERCEL_ENV === "production" ? "false" : "true",
+      demo:
+        process.env.NEXT_PUBLIC_NITRO_PAY_DEMO === "true" ? "false" : "true",
       debug: "silent",
     });
   }, []);
