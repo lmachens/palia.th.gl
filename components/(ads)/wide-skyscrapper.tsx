@@ -9,7 +9,7 @@ export default function WideSkyscraper({ id }: { id: string }) {
       renderVisibleOnly: false,
       sizes: [["160", "600"]],
       mediaQuery: "(min-width: 768px)",
-      demo: process.env.NODE_ENV === "development" ? "true" : "false",
+      demo: process.env.VERCEL_ENV === "production" ? "false" : "true",
       debug: "silent",
     });
   }, []);

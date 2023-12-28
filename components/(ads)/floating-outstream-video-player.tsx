@@ -10,7 +10,7 @@ export default function FloatingOutstreamVideoPlayer({ id }: { id: string }) {
         reduceMobileSize: true,
       },
       mediaQuery: "(min-width: 320px) and (max-width: 767px)",
-      demo: process.env.NODE_ENV === "development" ? "true" : "false",
+      demo: process.env.VERCEL_ENV === "production" ? "false" : "true",
       debug: "silent",
     });
   }, []);
