@@ -10,8 +10,7 @@ export default function FloatingOutstreamVideoPlayer({ id }: { id: string }) {
         reduceMobileSize: true,
       },
       mediaQuery: "(min-width: 320px) and (max-width: 767px)",
-      demo:
-        process.env.NEXT_PUBLIC_NITRO_PAY_DEMO === "true" ? "true" : "false",
+      demo: process.env.NEXT_PUBLIC_NITRO_PAY_DEMO === "true",
       debug: "silent",
     });
   }, []);

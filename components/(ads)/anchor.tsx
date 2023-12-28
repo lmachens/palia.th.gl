@@ -11,8 +11,7 @@ export default function Anchor({ id }: { id: string }) {
       anchorPersistClose: false,
       anchorBgColor: "none",
       mediaQuery: "(min-width: 320px)",
-      demo:
-        process.env.NEXT_PUBLIC_NITRO_PAY_DEMO === "true" ? "true" : "false",
+      demo: process.env.NEXT_PUBLIC_NITRO_PAY_DEMO === "true",
       debug: "silent",
     });
   }, []);
