@@ -1,8 +1,10 @@
 "use client";
 import { cn } from "@/lib/utils";
 import { useParams } from "next/navigation";
-import FloatingVideo from "./(ads)/floating-video";
+import Anchor from "./(ads)/anchor";
+import FloatingOutstreamVideoPlayer from "./(ads)/floating-outstream-video-player";
 import NitroAds from "./(ads)/nitro-ads";
+import NitroPayVideoPlayer from "./(ads)/nitropay-video-player";
 import TwitchEmbed from "./(ads)/twitch-embed";
 
 export default function Footer() {
@@ -28,7 +30,9 @@ export default function Footer() {
       </div>
       <div className="fixed z-[11001] bottom-[-100%]">
         <NitroAds fallback={<TwitchEmbed />}>
-          <FloatingVideo />
+          <NitroPayVideoPlayer id="palia-video-player" />
+          <FloatingOutstreamVideoPlayer id="palia-floating-outstream-video-player" />
+          <Anchor id="palia-anchor" />
         </NitroAds>
       </div>
     </footer>

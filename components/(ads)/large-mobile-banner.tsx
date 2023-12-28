@@ -2,13 +2,13 @@
 import { getNitroAds } from "@/lib/nitro-pay";
 import { useEffect } from "react";
 
-export default function WideSkyscraper({ id }: { id: string }) {
+export default function LargeMobileBanner({ id }: { id: string }) {
   useEffect(() => {
     getNitroAds().createAd(id, {
       refreshTime: 30,
       renderVisibleOnly: false,
-      sizes: [["160", "600"]],
-      mediaQuery: "(min-width: 768px)",
+      sizes: [["320", "100"]],
+      mediaQuery: "(min-width: 320px) and (max-width: 767px)",
       demo: process.env.NODE_ENV === "development" ? "true" : "false",
       debug: "silent",
     });
@@ -17,7 +17,7 @@ export default function WideSkyscraper({ id }: { id: string }) {
   return (
     <div
       id={id}
-      className="md:flex hidden bg-zinc-800/30 text-gray-400 flex-col justify-center text-center"
+      className="md:hidden rounded h-[100px] bg-zinc-800/30 flex flex-col justify-center text-gray-400"
     >
       Loading Ad
     </div>

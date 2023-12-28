@@ -26,7 +26,6 @@ export default function NitroAds({
       clearTimeout(timeoutId);
     };
   }, [state]);
-
   if (accountStore.isPatron) {
     return <></>;
   }
@@ -35,7 +34,7 @@ export default function NitroAds({
     <>
       <Script
         src="https://s.nitropay.com/ads-1487.js"
-        onLoad={() => setState("ready")}
+        onReady={() => setState("ready")}
         onError={() => {
           setState("error");
         }}
