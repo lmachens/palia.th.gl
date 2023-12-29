@@ -1,7 +1,6 @@
 import type { DICT } from "@/lib/i18n";
 import Image from "next/image";
-import NitroAds from "../(ads)/nitro-ads";
-import WideSkyscraper from "../(ads)/wide-skyscrapper";
+import ContentPage from "../(layouts)/content-page";
 
 type VillagerGiftHistory = {
   villagerCoreId: number;
@@ -70,58 +69,56 @@ export default async function Leaderboard({ dict }: { dict: DICT }) {
     .slice(0, 100);
 
   return (
-    <div className="grow flex justify-center pt-[50px]">
-      <NitroAds>
-        <WideSkyscraper id="palia-wide-skyscraper-1" />
-      </NitroAds>
-      <div className="container mx-auto p-4 text-center">
+    <ContentPage
+      header={
         <h1 className="text-3xl font-bold mb-4">{dict.leaderboard.title}</h1>
-        <p>{dict.leaderboard.description}</p>
-        <table className="table-fixed mx-auto border-separate border-spacing-4">
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>{dict.leaderboard.name}</th>
-              <th>{dict.leaderboard.level}</th>
-              <th className="hidden sm:block">{dict.leaderboard.skills}</th>
-              <th>{dict.leaderboard.plotLevel}</th>
-            </tr>
-          </thead>
-          <tbody>
-            {players.map((player, index) => (
-              <tr key={player.id}>
-                <td className="text-gray-400">{index + 1}</td>
-                <td className="truncate max-w-[180px]">{player.name}</td>
-                <td>{player.level}</td>
-                <td className="gap-1 flex-wrap hidden sm:flex">
-                  {player.skillLevels.map((skillLevel) => (
-                    <div key={skillLevel.type} className="relative w-12 h-12">
-                      <Image
-                        src={`/icons/skills/${
-                          SKILL_ICONS[
-                            skillLevel.type as keyof typeof SKILL_ICONS
-                          ]
-                        }`}
-                        width={20}
-                        height={20}
-                        alt={skillLevel.type}
-                        className="inline-block object-contain"
-                      />
-                      <span className="absolute bottom-0 left-0 right-0 w-8 mx-auto bg-gray-800 border border-gray-600 rounded px-0.5 text-xs">
-                        {skillLevel.level}
-                      </span>
-                    </div>
-                  ))}
-                </td>
-                <td>{player.lastKnownPrimaryHousingPlotValue ?? "-"}</td>
+      }
+      content={
+        <>
+          <p>{dict.leaderboard.description}</p>
+          <table className="table-fixed mx-auto border-separate border-spacing-4">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>{dict.leaderboard.name}</th>
+                <th>{dict.leaderboard.level}</th>
+                <th className="hidden sm:block">{dict.leaderboard.skills}</th>
+                <th>{dict.leaderboard.plotLevel}</th>
               </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-      <NitroAds>
-        <WideSkyscraper id="palia-wide-skyscraper-2" />
-      </NitroAds>
-    </div>
+            </thead>
+            <tbody>
+              {players.map((player, index) => (
+                <tr key={player.id}>
+                  <td className="text-gray-400">{index + 1}</td>
+                  <td className="truncate max-w-[180px]">{player.name}</td>
+                  <td>{player.level}</td>
+                  <td className="gap-1 flex-wrap hidden sm:flex">
+                    {player.skillLevels.map((skillLevel) => (
+                      <div key={skillLevel.type} className="relative w-12 h-12">
+                        <Image
+                          src={`/icons/skills/${
+                            SKILL_ICONS[
+                              skillLevel.type as keyof typeof SKILL_ICONS
+                            ]
+                          }`}
+                          width={20}
+                          height={20}
+                          alt={skillLevel.type}
+                          className="inline-block object-contain"
+                        />
+                        <span className="absolute bottom-0 left-0 right-0 w-8 mx-auto bg-gray-800 border border-gray-600 rounded px-0.5 text-xs">
+                          {skillLevel.level}
+                        </span>
+                      </div>
+                    ))}
+                  </td>
+                  <td>{player.lastKnownPrimaryHousingPlotValue ?? "-"}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </>
+      }
+    />
   );
 }

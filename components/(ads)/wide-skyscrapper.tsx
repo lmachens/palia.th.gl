@@ -17,7 +17,7 @@ export default function WideSkyscraper({ id }: { id: string }) {
   return (
     <div
       id={id}
-      className="md:flex hidden bg-zinc-800/30 text-gray-400 flex-col justify-center text-center"
+      className="md:flex hidden bg-zinc-800/30 text-gray-400 flex-col justify-center text-center h-[600px] w-[160px]"
     >
       Loading Ad
     </div>

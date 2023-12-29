@@ -42,9 +42,7 @@ export default async function RummagePile({ dict }: { dict: DICT }) {
   return (
     <ContentPage
       header={
-        <>
-          <h1 className="text-3xl font-bold mb-4">{dict.rummagePile.title}</h1>
-        </>
+        <h1 className="text-3xl font-bold mb-4">{dict.rummagePile.title}</h1>
       }
       content={
         <>

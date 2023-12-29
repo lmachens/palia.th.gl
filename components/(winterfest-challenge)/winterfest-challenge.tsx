@@ -2,8 +2,7 @@ import type { DICT } from "@/lib/i18n";
 import type { NODE } from "@/lib/nodes";
 import { winterlightsChest } from "@/lib/nodes/winterlightsChest";
 import dynamic from "next/dynamic";
-import NitroAds from "../(ads)/nitro-ads";
-import WideSkyscraper from "../(ads)/wide-skyscrapper";
+import ContentPage from "../(layouts)/content-page";
 const Tiles = dynamic(() => import("@/components/(map)/tiles"), {
   ssr: false,
 });
@@ -29,25 +28,23 @@ export default function WinterfestChallenge({ dict }: { dict: DICT }) {
   );
 
   return (
-    <div className="grow flex justify-center pt-[50px]">
-      <NitroAds>
-        <WideSkyscraper id="palia-wide-skyscraper-1" />
-      </NitroAds>
-      <div className="container p-4 text-center space-y-2">
+    <ContentPage
+      header={
         <h1 className="text-3xl font-bold mb-4">
           {dict.winterfestChallenge.title}
         </h1>
-        <p>{dict.winterfestChallenge.description}</p>
-        <div className="h-96 mt-4">
-          <Map>
-            <Tiles />
-            <SpecialNodes nodes={nodes} />
-          </Map>
-        </div>
-      </div>
-      <NitroAds>
-        <WideSkyscraper id="palia-wide-skyscraper-2" />
-      </NitroAds>
-    </div>
+      }
+      content={
+        <>
+          <p>{dict.winterfestChallenge.description}</p>
+          <div className="h-96 mt-4">
+            <Map>
+              <Tiles />
+              <SpecialNodes nodes={nodes} />
+            </Map>
+          </div>
+        </>
+      }
+    />
   );
 }

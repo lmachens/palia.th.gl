@@ -72,7 +72,7 @@ async function Layout({
       <WebHeader lang={lang} page={map} dict={dict}>
         <WeeklyWants data={weeklyWants} />
       </WebHeader>
-      <Suspense>
+      <Suspense fallback={<div className="grow" />}>
         <ParamsProvider>
           {content}
           {children}

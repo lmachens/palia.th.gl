@@ -11,19 +11,23 @@ export default function ContentPage({
   content: React.ReactNode;
 }) {
   return (
-    <div className="grow flex justify-center pt-[50px]">
-      <NitroAds>
-        <WideSkyscraper id="palia-wide-skyscraper-1" />
-      </NitroAds>
+    <div className="flex grow pt-[50px]">
+      <div>
+        <NitroAds>
+          <WideSkyscraper id="palia-wide-skyscraper-1" />
+        </NitroAds>
+      </div>
       <div className="container p-4 text-center space-y-4">
         {header}
         <LargeMobileBanner id="palia-large-mobile-banner" />
         {content}
         <MobileBanner id="palia-mobile-banner" />
       </div>
-      <NitroAds>
-        <WideSkyscraper id="palia-wide-skyscraper-2" />
-      </NitroAds>
+      <div>
+        <NitroAds>
+          <WideSkyscraper id="palia-wide-skyscraper-2" />
+        </NitroAds>
+      </div>
     </div>
   );
 }
