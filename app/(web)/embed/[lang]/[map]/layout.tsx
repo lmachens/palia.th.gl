@@ -41,13 +41,13 @@ function Layout({
   const dict = loadDictionary(lang);
   let content: JSX.Element;
   if (map === "download") {
-    content = <Download />;
+    content = <Download isScreenshot />;
   } else if (map === "leaderboard") {
-    content = <Leaderboard dict={dict} />;
+    content = <Leaderboard dict={dict} isScreenshot />;
   } else if (map === "rummage-pile") {
-    content = <RummagePile dict={dict} mapOnly />;
+    content = <RummagePile dict={dict} isScreenshot />;
   } else if (map === "winterfest-challenge") {
-    content = <WinterfestChallenge dict={dict} />;
+    content = <WinterfestChallenge dict={dict} isScreenshot />;
   } else {
     const mapTitle = decodeURIComponent(map);
     const mapEntry = Object.entries(dict.maps).find(([, value]) => {

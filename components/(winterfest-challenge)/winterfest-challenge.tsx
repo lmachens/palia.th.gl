@@ -13,7 +13,13 @@ const SpecialNodes = dynamic(() => import("@/components/(map)/special-nodes"), {
   ssr: false,
 });
 
-export default function WinterfestChallenge({ dict }: { dict: DICT }) {
+export default function WinterfestChallenge({
+  dict,
+  isScreenshot,
+}: {
+  dict: DICT;
+  isScreenshot?: boolean;
+}) {
   const nodes: NODE[] = Object.entries(winterlightsChest).flatMap(
     ([id, more]) =>
       Object.entries(more).flatMap(([key, nodes]) => {
@@ -26,6 +32,15 @@ export default function WinterfestChallenge({ dict }: { dict: DICT }) {
         }));
       })
   );
+
+  if (isScreenshot) {
+    return (
+      <Map>
+        <Tiles />
+        <SpecialNodes nodes={nodes} />
+      </Map>
+    );
+  }
 
   return (
     <ContentPage

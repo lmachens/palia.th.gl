@@ -23,10 +23,10 @@ type TimedLootPiles = {
 
 export default async function RummagePile({
   dict,
-  mapOnly,
+  isScreenshot,
 }: {
   dict: DICT;
-  mapOnly?: boolean;
+  isScreenshot?: boolean;
 }) {
   const respone = await fetch(
     "https://palia-api.th.gl/nodes?type=timedLootPiles",
@@ -47,7 +47,7 @@ export default async function RummagePile({
     return `${date.toLocaleDateString()} ${date.toLocaleTimeString()}`;
   }
 
-  if (mapOnly) {
+  if (isScreenshot) {
     return (
       <Map>
         <Tiles />

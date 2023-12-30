@@ -17,6 +17,18 @@ export function generateMetadata({
   const dict = loadDictionary(lang);
   let canonical = API_BASE_URI + `/${lang}`;
 
+  let screenshotUrl = canonical + "/screenshot";
+  if (searchParams) {
+    Object.entries(searchParams).forEach(([key, value], index) => {
+      if (index === 0) {
+        screenshotUrl += "?";
+      } else {
+        screenshotUrl += "&";
+      }
+      screenshotUrl += `${key}=${value}`;
+    });
+  }
+
   if (map === "download") {
     const metaTitle = dict.download.metaTitle;
     const description = dict.download.metaDescription;
@@ -35,12 +47,14 @@ export function generateMetadata({
       },
       twitter: {
         card: "summary_large_image",
+        images: screenshotUrl,
       },
       openGraph: {
         title: metaTitle,
         description: description,
         type: "website",
-        url: "https://palia.th.gl",
+        url: canonical + "/download",
+        images: screenshotUrl,
       },
       ...DEFAULT_META,
     };
@@ -63,12 +77,14 @@ export function generateMetadata({
       },
       twitter: {
         card: "summary_large_image",
+        images: screenshotUrl,
       },
       openGraph: {
         title: metaTitle,
         description: description,
         type: "website",
-        url: "https://palia.th.gl",
+        url: canonical + "/leaderboard",
+        images: screenshotUrl,
       },
       ...DEFAULT_META,
     };
@@ -91,12 +107,14 @@ export function generateMetadata({
       },
       twitter: {
         card: "summary_large_image",
+        images: screenshotUrl,
       },
       openGraph: {
         title: metaTitle,
         description: description,
         type: "website",
-        url: "https://palia.th.gl",
+        url: canonical + "/rummage-pile",
+        images: screenshotUrl,
       },
       ...DEFAULT_META,
     };
@@ -119,12 +137,14 @@ export function generateMetadata({
       },
       twitter: {
         card: "summary_large_image",
+        images: screenshotUrl,
       },
       openGraph: {
         title: metaTitle,
         description: description,
         type: "website",
-        url: "https://palia.th.gl",
+        url: canonical + "/winterfest-challenge",
+        images: screenshotUrl,
       },
       ...DEFAULT_META,
     };
@@ -202,18 +222,6 @@ export function generateMetadata({
   const metaTitle = title
     ? `${title}${subtitle} | ${mapTitle} | palia.th.gl`
     : `${mapTitle}${subtitle} | ${dict.meta.subtitle} | palia.th.gl`;
-
-  let screenshotUrl = canonical + "/screenshot";
-  if (searchParams) {
-    Object.entries(searchParams).forEach(([key, value], index) => {
-      if (index === 0) {
-        screenshotUrl += "?";
-      } else {
-        screenshotUrl += "&";
-      }
-      screenshotUrl += `${key}=${value}`;
-    });
-  }
 
   return {
     metadataBase: new URL(canonical),

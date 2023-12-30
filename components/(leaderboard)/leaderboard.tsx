@@ -43,7 +43,13 @@ const SKILL_ICONS = {
   // Blacksmithing:"Icon_Skill_Bug_01.webp",
   // Master:"Icon_Skill_Bug_01.webp",
 };
-export default async function Leaderboard({ dict }: { dict: DICT }) {
+export default async function Leaderboard({
+  dict,
+  isScreenshot,
+}: {
+  dict: DICT;
+  isScreenshot?: boolean;
+}) {
   const respone = await fetch("https://palia-api.th.gl/nodes?type=players", {
     next: { tags: [LEADERBOARD_TAG] },
   });
@@ -66,9 +72,50 @@ export default async function Leaderboard({ dict }: { dict: DICT }) {
           player.lastKnownPrimaryHousingPlotValue,
       };
     })
-    .sort((a, b) => b.level - a.level)
-    .slice(0, 100);
-
+    .sort((a, b) => b.level - a.level);
+  if (isScreenshot) {
+    return (
+      <table className="table-fixed mx-auto border-separate border-spacing-4">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>{dict.leaderboard.name}</th>
+            <th>{dict.leaderboard.level}</th>
+            <th className="hidden sm:block">{dict.leaderboard.skills}</th>
+            <th>{dict.leaderboard.plotLevel}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {players.slice(0, 10).map((player, index) => (
+            <tr key={player.id}>
+              <td className="text-gray-400">{index + 1}</td>
+              <td className="truncate max-w-[180px]">{player.name}</td>
+              <td>{player.level}</td>
+              <td className="gap-1 flex-wrap hidden sm:flex">
+                {player.skillLevels.map((skillLevel) => (
+                  <div key={skillLevel.type} className="relative w-12 h-12">
+                    <Image
+                      src={`/icons/skills/${
+                        SKILL_ICONS[skillLevel.type as keyof typeof SKILL_ICONS]
+                      }`}
+                      width={20}
+                      height={20}
+                      alt={skillLevel.type}
+                      className="inline-block object-contain"
+                    />
+                    <span className="absolute bottom-0 left-0 right-0 w-8 mx-auto bg-gray-800 border border-gray-600 rounded px-0.5 text-xs">
+                      {skillLevel.level}
+                    </span>
+                  </div>
+                ))}
+              </td>
+              <td>{player.lastKnownPrimaryHousingPlotValue ?? "-"}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    );
+  }
   return (
     <ContentPage
       header={
@@ -88,7 +135,7 @@ export default async function Leaderboard({ dict }: { dict: DICT }) {
               </tr>
             </thead>
             <tbody>
-              {players.map((player, index) => (
+              {players.slice(0, 100).map((player, index) => (
                 <tr key={player.id}>
                   <td className="text-gray-400">{index + 1}</td>
                   <td className="truncate max-w-[180px]">{player.name}</td>
