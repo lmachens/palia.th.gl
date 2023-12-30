@@ -7,6 +7,7 @@ import { PRESETS, hideOnWeb, staticNodes } from "@/lib/nodes";
 import { spawnGroups } from "@/lib/spawn-groups";
 import { useGlobalSettingsStore } from "@/lib/storage/global-settings";
 import { useParamsStore } from "@/lib/storage/params";
+import { cn } from "@/lib/utils";
 import Image from "next/image";
 import { Fragment, useCallback } from "react";
 import { useDict } from "./(i18n)/i18n-provider";
@@ -102,16 +103,19 @@ export default function Filters() {
           );
         })}
       </div>
-      <div className="flex flex-wrap justify-start">
-        {Object.entries(spawnGroups).map(([key, group]) => {
-          return (
-            <Fragment key={key}>
+      {Object.entries(spawnGroups).map(([key, group]) => {
+        return (
+          <div className="flex flex-wrap justify-start" key={key}>
+            <div className="grow flex w-full">
               <button
-                className={`flex gap-2 grow text-left items-left hover:bg-neutral-700 p-2 basis-1/5  ${
-                  !filters.some((filter) => group.includes(filter))
-                    ? "text-gray-500"
-                    : ""
-                }`}
+                className={cn(
+                  "grow flex gap-2 text-left items-left hover:bg-neutral-700 p-2 uppercase",
+                  {
+                    "text-gray-500": !filters.some((filter) =>
+                      group.includes(filter)
+                    ),
+                  }
+                )}
                 onClick={() => {
                   toggleFilter(group);
                 }}
@@ -137,43 +141,43 @@ export default function Filters() {
                     </button>
                   );
                 })}
-              {group
-                .sort((a, b) =>
-                  dict.spawnNodes[a].name.localeCompare(dict.spawnNodes[b].name)
-                )
-                .map((_key) => {
-                  const key = _key as keyof typeof spawnNodes;
-                  const icon = SPAWN_ICONS[key];
+            </div>
+            {group
+              .sort((a, b) =>
+                dict.spawnNodes[a].name.localeCompare(dict.spawnNodes[b].name)
+              )
+              .map((_key) => {
+                const key = _key as keyof typeof spawnNodes;
+                const icon = SPAWN_ICONS[key];
 
-                  return (
-                    <button
-                      key={key}
-                      className={`flex gap-2 items-center hover:bg-neutral-700 p-2 basis-1/2 truncate ${
-                        !filters.includes(key) ? "text-gray-500" : ""
-                      }`}
-                      onClick={() => {
-                        toggleFilter(key);
-                      }}
-                      title={dict.spawnNodes[key].name}
-                    >
-                      <Image
-                        src={icon.src as string}
-                        width={20}
-                        height={20}
-                        alt=""
-                        className="h-5 w-5 shrink-0"
-                        unoptimized={isOverwolfApp}
-                      />
-                      <span className="truncate">
-                        {dict.spawnNodes[key].name}
-                      </span>
-                    </button>
-                  );
-                })}
-            </Fragment>
-          );
-        })}
-      </div>
+                return (
+                  <button
+                    key={key}
+                    className={`flex gap-2 items-center hover:bg-neutral-700 p-2 basis-1/2 truncate ${
+                      !filters.includes(key) ? "text-gray-500" : ""
+                    }`}
+                    onClick={() => {
+                      toggleFilter(key);
+                    }}
+                    title={dict.spawnNodes[key].name}
+                  >
+                    <Image
+                      src={icon.src as string}
+                      width={20}
+                      height={20}
+                      alt=""
+                      className="h-5 w-5 shrink-0"
+                      unoptimized={isOverwolfApp}
+                    />
+                    <span className="truncate">
+                      {dict.spawnNodes[key].name}
+                    </span>
+                  </button>
+                );
+              })}
+          </div>
+        );
+      })}
     </div>
   );
 }
