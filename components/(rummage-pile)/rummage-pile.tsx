@@ -1,5 +1,6 @@
 import type { DICT } from "@/lib/i18n";
 import type { NODE } from "@/lib/nodes";
+import { RUMMAGE_PILE_TAG } from "@/lib/revalidate";
 import dynamic from "next/dynamic";
 import ContentPage from "../(layouts)/content-page";
 const Tiles = dynamic(() => import("@/components/(map)/tiles"), {
@@ -24,7 +25,7 @@ export default async function RummagePile({ dict }: { dict: DICT }) {
   const respone = await fetch(
     "https://palia-api.th.gl/nodes?type=timedLootPiles",
     {
-      next: { revalidate: 60 },
+      next: { tags: [RUMMAGE_PILE_TAG] },
     }
   );
   const data = (await respone.json()) as TimedLootPiles;

@@ -1,4 +1,5 @@
 import type { DICT } from "@/lib/i18n";
+import { LEADERBOARD_TAG } from "@/lib/revalidate";
 import Image from "next/image";
 import ContentPage from "../(layouts)/content-page";
 
@@ -44,7 +45,7 @@ const SKILL_ICONS = {
 };
 export default async function Leaderboard({ dict }: { dict: DICT }) {
   const respone = await fetch("https://palia-api.th.gl/nodes?type=players", {
-    next: { revalidate: 60 },
+    next: { tags: [LEADERBOARD_TAG] },
   });
   const data = (await respone.json()) as Players;
 

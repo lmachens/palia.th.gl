@@ -1,4 +1,5 @@
 import { loadDBDictionary } from "./i18n";
+import { WEEKLY_WANTS_TAG } from "./revalidate";
 
 export async function fetchWeeklyWants(
   locale: string
@@ -6,7 +7,7 @@ export async function fetchWeeklyWants(
   const dict = loadDBDictionary(locale);
   try {
     const response = await fetch("https://palia-api.th.gl/weekly-wants", {
-      next: { revalidate: 600 },
+      next: { tags: [WEEKLY_WANTS_TAG] },
     });
     if (!response.ok) {
       console.error(response.status, response.statusText);
