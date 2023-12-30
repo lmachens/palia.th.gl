@@ -21,7 +21,13 @@ type TimedLootPiles = {
   };
 };
 
-export default async function RummagePile({ dict }: { dict: DICT }) {
+export default async function RummagePile({
+  dict,
+  mapOnly,
+}: {
+  dict: DICT;
+  mapOnly?: boolean;
+}) {
   const respone = await fetch(
     "https://palia-api.th.gl/nodes?type=timedLootPiles",
     {
@@ -39,6 +45,15 @@ export default async function RummagePile({ dict }: { dict: DICT }) {
 
   function formatDate(date: Date) {
     return `${date.toLocaleDateString()} ${date.toLocaleTimeString()}`;
+  }
+
+  if (mapOnly) {
+    return (
+      <Map>
+        <Tiles />
+        <SpecialNodes nodes={[node]} />
+      </Map>
+    );
   }
   return (
     <ContentPage

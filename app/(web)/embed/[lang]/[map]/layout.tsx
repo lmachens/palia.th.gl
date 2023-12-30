@@ -3,9 +3,13 @@ import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
+import Download from "@/components/(download)/download";
 import { I18NProvider } from "@/components/(i18n)/i18n-provider";
+import Leaderboard from "@/components/(leaderboard)/leaderboard";
 import Nodes from "@/components/(map)/nodes";
 import Tiles from "@/components/(map)/tiles";
+import RummagePile from "@/components/(rummage-pile)/rummage-pile";
+import WinterfestChallenge from "@/components/(winterfest-challenge)/winterfest-challenge";
 import EmbedLink from "@/components/embed-link";
 import PlausibleTracker from "@/components/plausible-tracker";
 import { DEFAULT_LOCALE, LOCALES, isLang, loadDictionary } from "@/lib/i18n";
@@ -35,13 +39,34 @@ function Layout({
   }
 
   const dict = loadDictionary(lang);
-  const mapTitle = decodeURIComponent(map);
-  const mapEntry = Object.entries(dict.maps).find(([, value]) => {
-    return value === mapTitle;
-  });
+  let content: JSX.Element;
+  if (map === "download") {
+    content = <Download />;
+  } else if (map === "leaderboard") {
+    content = <Leaderboard dict={dict} />;
+  } else if (map === "rummage-pile") {
+    content = <RummagePile dict={dict} mapOnly />;
+  } else if (map === "winterfest-challenge") {
+    content = <WinterfestChallenge dict={dict} />;
+  } else {
+    const mapTitle = decodeURIComponent(map);
+    const mapEntry = Object.entries(dict.maps).find(([, value]) => {
+      return value === mapTitle;
+    });
 
-  if (!mapEntry || !isMap(mapEntry[0])) {
-    notFound();
+    if (!mapEntry || !isMap(mapEntry[0])) {
+      notFound();
+    }
+    content = (
+      <>
+        <Map>
+          <Tiles />
+          <Nodes />
+          <Search hidden />
+        </Map>
+        <EmbedLink />
+      </>
+    );
   }
   return (
     <html lang={lang}>
@@ -58,12 +83,7 @@ function Layout({
         >
           <Suspense>
             <ParamsProvider>
-              <Map>
-                <Tiles />
-                <Nodes />
-                <Search hidden />
-              </Map>
-              <EmbedLink />
+              {content}
               {children}
             </ParamsProvider>
           </Suspense>
