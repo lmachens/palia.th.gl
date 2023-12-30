@@ -16,6 +16,7 @@ export function generateMetadata({
 }): Metadata {
   const dict = loadDictionary(lang);
   let canonical = API_BASE_URI + `/${lang}`;
+  const now = Date.now();
 
   if (map === "download") {
     const metaTitle = dict.download.metaTitle;
@@ -65,14 +66,14 @@ export function generateMetadata({
       },
       twitter: {
         card: "summary_large_image",
-        images: canonical + "/leaderboard/screenshot",
+        images: canonical + "/leaderboard/screenshot?t=" + now,
       },
       openGraph: {
         title: metaTitle,
         description: description,
         type: "website",
         url: canonical + "/leaderboard",
-        images: canonical + "/leaderboard/screenshot",
+        images: canonical + "/leaderboard/screenshot?t=" + now,
       },
       ...DEFAULT_META,
     };
@@ -95,14 +96,14 @@ export function generateMetadata({
       },
       twitter: {
         card: "summary_large_image",
-        images: canonical + "/rummage-pile/screenshot",
+        images: canonical + "/rummage-pile/screenshot?t=" + now,
       },
       openGraph: {
         title: metaTitle,
         description: description,
         type: "website",
         url: canonical + "/rummage-pile",
-        images: canonical + "/rummage-pile/screenshot",
+        images: canonical + "/rummage-pile/screenshot?t=" + now,
       },
       ...DEFAULT_META,
     };
@@ -125,14 +126,14 @@ export function generateMetadata({
       },
       twitter: {
         card: "summary_large_image",
-        images: canonical + "/winterfest-challenge/screenshot",
+        images: canonical + "/winterfest-challenge/screenshot?t=" + now,
       },
       openGraph: {
         title: metaTitle,
         description: description,
         type: "website",
         url: canonical + "/winterfest-challenge",
-        images: canonical + "/winterfest-challenge/screenshot",
+        images: canonical + "/winterfest-challenge/screenshot?t=" + now,
       },
       ...DEFAULT_META,
     };
@@ -207,15 +208,10 @@ export function generateMetadata({
     }
   }
 
-  let screenshotUrl = canonical + "/screenshot";
+  let screenshotUrl = canonical + "/screenshot?t=" + now;
   if (searchParams) {
-    Object.entries(searchParams).forEach(([key, value], index) => {
-      if (index === 0) {
-        screenshotUrl += "?";
-      } else {
-        screenshotUrl += "&";
-      }
-      screenshotUrl += `${key}=${value}`;
+    Object.entries(searchParams).forEach(([key, value]) => {
+      screenshotUrl += `&${key}=${value}`;
     });
   }
 
