@@ -71,6 +71,9 @@ export default function Player() {
         plugin.GetPlayer(
           (player: ActorValeriaCharacter) => {
             try {
+              if (hasExponent(player)) {
+                return;
+              }
               if (!firstData) {
                 firstData = true;
                 console.log("Got first data", JSON.stringify(player));
