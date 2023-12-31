@@ -58,3 +58,11 @@ export function modHousingCoords(coords: { x: number; y: number; z: number }) {
   }
   return { x, y, z: coords.z };
 }
+
+export function hasExponent(coords: { x: number; y: number; z: number }) {
+  return (
+    coords.x.toString().includes("e-") ||
+    coords.y.toString().includes("e-") ||
+    coords.z.toString().includes("e-")
+  );
+}

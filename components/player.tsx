@@ -1,6 +1,6 @@
 import { useDict } from "@/components/(i18n)/i18n-provider";
 import PlayerMarker from "@/components/(map)/player-marker";
-import { modHousingCoords } from "@/lib/maps";
+import { hasExponent, modHousingCoords } from "@/lib/maps";
 import type { NODE, spawnNodes } from "@/lib/nodes";
 import {
   sendActorsToPaliaAPI,
@@ -146,6 +146,10 @@ export default function Player() {
               const otherPlayers: ValeriaCharacter[] = [];
               const foundSpawnNodes: NODE[] = [];
               actors.forEach((actor) => {
+                if (hasExponent(actor)) {
+                  return;
+                }
+
                 const position =
                   actor.mapName === "housing"
                     ? modHousingCoords(actor)
