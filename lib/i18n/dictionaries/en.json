@@ -101,6 +101,22 @@
     "fairgrounds": "Fairgrounds",
     "housing": "Housing"
   },
+  "routes":{
+    "create": "Create",
+    "import": "Import",
+    "addLine": "Add Line",
+    "addText": "Add Text",
+    "editMode": "Edit Mode",
+    "moveText": "Move Text",
+    "deleteText": "Delete Text",
+    "hoverFirstStep": "Click to place first vertex",
+    "hoverMiddleStep": "Click to continue drawing",
+    "hoverEndStep": "Click any existing marker to finish",
+    "cancel": "Cancel",
+    "save": "Save",
+    "explanatoryNameTooltip": "Give this route an explanatory name",
+    "informationText": "You can add multiple lines and connect every node on the map. Right-click in edit mode removes a vertex."
+  },
   "nodes": {
     "showAll": "Show All",
     "hideAll": "Hide All",
