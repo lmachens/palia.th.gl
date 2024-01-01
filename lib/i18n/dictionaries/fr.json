@@ -115,7 +115,10 @@
         "cancel": "Annuler",
         "save": "Sauver",
         "explanatoryNameTooltip": "Nommer cette route",
-        "informationText": "Vous pouvez ajouter plusieurs lignes et connecter tout les points existant sur la carte. Clic droit pour supprimer un point."
+        "informationText": "Vous pouvez ajouter plusieurs lignes et connecter tout les points existant sur la carte. Clic droit pour supprimer un point.",
+        "discordInvite1":"Rejoingnez le",
+        "discordInvite2":"Serveur Discord",
+        "discordInvide3": "pour explorer et partager les routes avec d'autres joueurs. Vous pouvez aussi importer et exporter les routes ici."
     },
     "nodes": {
         "showAll": "Tout Afficher",
