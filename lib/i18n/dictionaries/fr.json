@@ -101,6 +101,22 @@
         "fairgrounds": "Champ de Foire",
         "housing": "Logements"
     },
+    "routes":{
+        "create": "Créer",
+        "import": "Importer",
+        "addLine": "Ajouter Ligne",
+        "addText": "Ajouter Texte",
+        "editMode": "Edition",
+        "moveText": "Déplacer Texte",
+        "deleteText": "Supprimer Texte",
+        "hoverFirstStep": "Clicker pour ajouter le premier point",
+        "hoverMiddleStep": "Clicker pour continuer la route",
+        "hoverEndStep": "Clicker un point existant pour terminer",
+        "cancel": "Annuler",
+        "save": "Sauver",
+        "explanatoryNameTooltip": "Nommer cette route",
+        "informationText": "Vous pouvez ajouter plusieurs lignes et connecter tout les points existant sur la carte. Clic droit pour supprimer un point."
+    },
     "nodes": {
         "showAll": "Tout Afficher",
         "hideAll": "Tout Masquer",
