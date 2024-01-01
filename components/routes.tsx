@@ -240,7 +240,7 @@ export default function Routes() {
             }}
           >
             <div className="control-icon leaflet-pm-icon-drag !w-5 !h-5" />
-            <span>{dict.routes.dragText}</span>
+            <span>{dict.routes.moveText}</span>
           </button>
           <button
             className={`flex gap-1 p-2 uppercase hover:text-white w-1/2 justify-center ${
@@ -368,15 +368,14 @@ export default function Routes() {
         </label>
       </div>
       <p className="text-xs text-neutral-400 p-2">
-      {dict.routes.discordInvide1}{" "}
+        {dict.routes.discordInvite1}{" "}
         <Link
           target="_blank"
           href="https://discord.com/invite/NTZu8Px"
-          className="text-neutral-300 hover:text-white"
-        >
-          {dict.routes.discordInvide2}
-        </Link>{" "}
-        {dict.routes.discordInvide3}
+          className="text-neutral-300 hover:text-white">
+          {dict.routes.discordInvite2}{" "}
+        </Link>
+{dict.routes.discordInvite3}
       </p>
       <div className="overflow-auto max-h-full">
         <RoutesList />

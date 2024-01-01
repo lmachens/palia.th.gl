@@ -109,16 +109,13 @@
     "editMode": "Edit Mode",
     "moveText": "Move Text",
     "deleteText": "Delete Text",
-    "hoverFirstStep": "Click to place first vertex",
-    "hoverMiddleStep": "Click to continue drawing",
-    "hoverEndStep": "Click any existing marker to finish",
     "cancel": "Cancel",
     "save": "Save",
     "explanatoryNameTooltip": "Give this route an explanatory name",
     "informationText": "You can add multiple lines and connect every node on the map. Right-click in edit mode removes a vertex.",
     "discordInvite1":"Join the",
     "discordInvite2":"Discord server",
-    "discordInvide3": "to explore and share routes with other players. You can also import and export routes here."
+    "discordInvite3": "to explore and share routes with other players. You can also import and export routes here."
   },
   "nodes": {
     "showAll": "Show All",

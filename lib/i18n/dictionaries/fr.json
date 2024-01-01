@@ -109,16 +109,13 @@
         "editMode": "Edition",
         "moveText": "Déplacer Texte",
         "deleteText": "Supprimer Texte",
-        "hoverFirstStep": "Clicker pour ajouter le premier point",
-        "hoverMiddleStep": "Clicker pour continuer la route",
-        "hoverEndStep": "Clicker un point existant pour terminer",
         "cancel": "Annuler",
         "save": "Sauver",
         "explanatoryNameTooltip": "Nommer cette route",
         "informationText": "Vous pouvez ajouter plusieurs lignes et connecter tout les points existant sur la carte. Clic droit pour supprimer un point.",
         "discordInvite1":"Rejoingnez le",
         "discordInvite2":"Serveur Discord",
-        "discordInvide3": "pour explorer et partager les routes avec d'autres joueurs. Vous pouvez aussi importer et exporter les routes ici."
+        "discordInvite3": "pour explorer et partager les routes avec d'autres joueurs. Vous pouvez aussi importer et exporter les routes ici."
     },
     "nodes": {
         "showAll": "Tout Afficher",
