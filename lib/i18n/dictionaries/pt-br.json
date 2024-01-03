@@ -101,22 +101,22 @@
         "fairgrounds": "Feiras",
         "housing": "Habitação"
     },
-    "routes":{
-        "create": "Create",
-        "import": "Import",
-        "addLine": "Add Line",
-        "addText": "Add Text",
-        "editMode": "Edit Mode",
-        "moveText": "Move Text",
-        "deleteText": "Delete Text",
-        "cancel": "Cancel",
-        "save": "Save",
-        "explanatoryNameTooltip": "Give this route an explanatory name",
-        "informationText": "You can add multiple lines and connect every node on the map. Right-click in edit mode removes a vertex.",
-        "discordInvite1":"Join the",
-        "discordInvite2":"Discord server",
-        "discordInvite3": "to explore and share routes with other players. You can also import and export routes here."
-      },
+    "routes": {
+        "create": "Criar",
+        "import": "Importar",
+        "addLine": "Adicionar Linha",
+        "addText": "Adicionar Texto",
+        "editMode": "Modo de Edição",
+        "moveText": "Mover Texto",
+        "deleteText": "Excluir Texto",
+        "cancel": "Cancelar",
+        "save": "Salvar",
+        "explanatoryNameTooltip": "Dê a esta rota um nome explicativo",
+        "informationText": "Você pode adicionar várias linhas e conectar cada nó no mapa. Clique com o botão direito no modo de edição para remover um vértice.",
+        "discordInvite1": "Junte-se ao",
+        "discordInvite2": "servidor do Discord",
+        "discordInvite3": "para explorar e compartilhar rotas com outros jogadores. Você também pode importar e exportar rotas aqui."
+    },
     "nodes": {
         "showAll": "Mostrar tudo",
         "hideAll": "Ocultar tudo",

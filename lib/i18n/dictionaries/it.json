@@ -101,22 +101,22 @@
         "fairgrounds": "Luna Park",
         "housing": "Alloggi"
     },
-    "routes":{
-        "create": "Create",
-        "import": "Import",
-        "addLine": "Add Line",
-        "addText": "Add Text",
-        "editMode": "Edit Mode",
-        "moveText": "Move Text",
-        "deleteText": "Delete Text",
-        "cancel": "Cancel",
-        "save": "Save",
-        "explanatoryNameTooltip": "Give this route an explanatory name",
-        "informationText": "You can add multiple lines and connect every node on the map. Right-click in edit mode removes a vertex.",
-        "discordInvite1":"Join the",
-        "discordInvite2":"Discord server",
-        "discordInvite3": "to explore and share routes with other players. You can also import and export routes here."
-      },
+    "routes": {
+        "create": "Crea",
+        "import": "Importa",
+        "addLine": "Aggiungi Linea",
+        "addText": "Aggiungi Testo",
+        "editMode": "Modalità Modifica",
+        "moveText": "Sposta Testo",
+        "deleteText": "Elimina Testo",
+        "cancel": "Annulla",
+        "save": "Salva",
+        "explanatoryNameTooltip": "Dai a questa rotta un nome esplicativo",
+        "informationText": "Puoi aggiungere più linee e collegare ogni nodo sulla mappa. Clic destro in modalità modifica rimuove un vertice.",
+        "discordInvite1": "Unisciti al",
+        "discordInvite2": "server Discord",
+        "discordInvite3": "per esplorare e condividere percorsi con altri giocatori. Puoi anche importare ed esportare percorsi qui."
+    },
     "nodes": {
         "showAll": "Mostra Tutti",
         "hideAll": "Nascondi Tutti",

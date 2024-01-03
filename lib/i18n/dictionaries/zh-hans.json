@@ -101,22 +101,22 @@
         "fairgrounds": "博览会",
         "housing": "住房"
     },
-    "routes":{
-        "create": "Create",
-        "import": "Import",
-        "addLine": "Add Line",
-        "addText": "Add Text",
-        "editMode": "Edit Mode",
-        "moveText": "Move Text",
-        "deleteText": "Delete Text",
-        "cancel": "Cancel",
-        "save": "Save",
-        "explanatoryNameTooltip": "Give this route an explanatory name",
-        "informationText": "You can add multiple lines and connect every node on the map. Right-click in edit mode removes a vertex.",
-        "discordInvite1":"Join the",
-        "discordInvite2":"Discord server",
-        "discordInvite3": "to explore and share routes with other players. You can also import and export routes here."
-      },
+    "routes": {
+        "create": "创建",
+        "import": "导入",
+        "addLine": "添加线路",
+        "addText": "添加文本",
+        "editMode": "编辑模式",
+        "moveText": "移动文本",
+        "deleteText": "删除文本",
+        "cancel": "取消",
+        "save": "保存",
+        "explanatoryNameTooltip": "给这条路线起一个解释性的名字",
+        "informationText": "您可以添加多条线路并连接地图上的每个节点。在编辑模式下右键单击可删除顶点。",
+        "discordInvite1": "加入",
+        "discordInvite2": "Discord 服务器",
+        "discordInvite3": "与其他玩家一起探索和分享路线。您还可以在此导入和导出路线。"
+    },
     "nodes": {
         "showAll": "显示全部",
         "hideAll": "全部隐藏",

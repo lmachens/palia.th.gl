@@ -101,22 +101,22 @@
         "fairgrounds": "フェアグラウンズ",
         "housing": "ハウジング"
     },
-    "routes":{
-        "create": "Create",
-        "import": "Import",
-        "addLine": "Add Line",
-        "addText": "Add Text",
-        "editMode": "Edit Mode",
-        "moveText": "Move Text",
-        "deleteText": "Delete Text",
-        "cancel": "Cancel",
-        "save": "Save",
-        "explanatoryNameTooltip": "Give this route an explanatory name",
-        "informationText": "You can add multiple lines and connect every node on the map. Right-click in edit mode removes a vertex.",
-        "discordInvite1":"Join the",
-        "discordInvite2":"Discord server",
-        "discordInvite3": "to explore and share routes with other players. You can also import and export routes here."
-      },
+    "routes": {
+        "create": "作成",
+        "import": "インポート",
+        "addLine": "ラインを追加",
+        "addText": "テキストを追加",
+        "editMode": "編集モード",
+        "moveText": "テキストを移動",
+        "deleteText": "テキストを削除",
+        "cancel": "キャンセル",
+        "save": "保存",
+        "explanatoryNameTooltip": "このルートに説明的な名前を付ける",
+        "informationText": "複数のラインを追加し、マップ上のすべてのノードを接続できます。編集モードで右クリックすると頂点が削除されます。",
+        "discordInvite1": "参加して",
+        "discordInvite2": "Discordサーバー",
+        "discordInvite3": "で他のプレイヤーとルートを探索・共有しましょう。ここではルートのインポートやエクスポートもできます。"
+    },
     "nodes": {
         "showAll": "全て表示",
         "hideAll": "すべて隠す",
