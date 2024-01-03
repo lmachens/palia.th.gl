@@ -11,6 +11,7 @@ import { cn } from "@/lib/utils";
 import Image from "next/image";
 import { useCallback } from "react";
 import { useDict } from "./(i18n)/i18n-provider";
+import FiltersPreset from "./filters-preset";
 
 const rarityStars = {
   common: "★",
@@ -71,6 +72,9 @@ export default function Filters() {
         >
           {dict.nodes.hideAll}
         </button>
+      </div>
+      <div className="overflow-auto max-h-full">
+        <FiltersPreset />
       </div>
       <div className="flex flex-wrap">
         {Object.keys(staticNodes).map((_key) => {

@@ -146,5 +146,13 @@
     "restore": "Restore",
     "reset": "Reset",
     "alwaysShowStarredNodes": "Always show starred nodes"
+  },
+  "filters": {
+    "addPreset": "Add Preset",
+    "deletePreset": "Delete Preset",
+    "maskPresetName": "Filters Preset Name",
+    "promptPresetName": "Enter a meaningful name for the current filters",
+    "noPresetsWarning": "No presets created",
+    "confirmDelete" : "Are you sure you want to delete this preset ?"
   }
 }
