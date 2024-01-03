@@ -101,6 +101,22 @@
         "fairgrounds": "Champ de Foire",
         "housing": "Logements"
     },
+    "routes":{
+        "create": "Créer",
+        "import": "Importer",
+        "addLine": "Ajouter Ligne",
+        "addText": "Ajouter Texte",
+        "editMode": "Edition",
+        "moveText": "Déplacer Texte",
+        "deleteText": "Supprimer Texte",
+        "cancel": "Annuler",
+        "save": "Sauver",
+        "explanatoryNameTooltip": "Nommer cette route",
+        "informationText": "Vous pouvez ajouter plusieurs lignes et connecter tout les points existant sur la carte. Clic droit pour supprimer un point.",
+        "discordInvite1":"Rejoingnez le",
+        "discordInvite2":"Serveur Discord",
+        "discordInvite3": "pour explorer et partager les routes avec d'autres joueurs. Vous pouvez aussi importer et exporter les routes ici."
+    },
     "nodes": {
         "showAll": "Tout Afficher",
         "hideAll": "Tout Masquer",

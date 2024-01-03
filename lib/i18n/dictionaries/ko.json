@@ -101,6 +101,22 @@
         "fairgrounds": "경기장",
         "housing": "주택"
     },
+    "routes": {
+        "create": "생성",
+        "import": "가져오기",
+        "addLine": "선 추가",
+        "addText": "텍스트 추가",
+        "editMode": "편집 모드",
+        "moveText": "텍스트 이동",
+        "deleteText": "텍스트 삭제",
+        "cancel": "취소",
+        "save": "저장",
+        "explanatoryNameTooltip": "이 루트에 설명적인 이름을 지정하세요",
+        "informationText": "여러 라인을 추가하고 지도 상의 모든 노드를 연결할 수 있습니다. 편집 모드에서 우클릭으로 정점을 제거할 수 있습니다.",
+        "discordInvite1": "가입하여",
+        "discordInvite2": "Discord 서버",
+        "discordInvite3": "에서 다른 플레이어들과 루트를 탐험하고 공유하세요. 여기에서 루트를 가져오고 내보낼 수도 있습니다."
+    },
     "nodes": {
         "showAll": "모두 보기",
         "hideAll": "모두 숨기기",

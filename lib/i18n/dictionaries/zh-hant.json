@@ -101,6 +101,22 @@
         "fairgrounds": "博覽會",
         "housing": "住房"
     },
+    "routes": {
+        "create": "創建",
+        "import": "導入",
+        "addLine": "添加線路",
+        "addText": "添加文本",
+        "editMode": "編輯模式",
+        "moveText": "移動文本",
+        "deleteText": "刪除文本",
+        "cancel": "取消",
+        "save": "保存",
+        "explanatoryNameTooltip": "給這條路線一個解釋性的名字",
+        "informationText": "您可以添加多條線路並連接地圖上的每個節點。在編輯模式下右鍵單擊可刪除頂點。",
+        "discordInvite1": "加入",
+        "discordInvite2": "Discord 伺服器",
+        "discordInvite3": "與其他玩家一起探索和分享路線。您還可以在此導入和導出路線。"
+    },
     "nodes": {
         "showAll": "顯示全部",
         "hideAll": "全部隱藏",

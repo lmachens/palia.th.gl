@@ -101,6 +101,22 @@
         "fairgrounds": "Recinto Ferial",
         "housing": "Viviendas"
     },
+    "routes": {
+        "create": "Crear",
+        "import": "Importar",
+        "addLine": "Agregar línea",
+        "addText": "Agregar texto",
+        "editMode": "Modo de edición",
+        "moveText": "Mover texto",
+        "deleteText": "Eliminar texto",
+        "cancel": "Cancelar",
+        "save": "Guardar",
+        "explanatoryNameTooltip": "Dale a esta ruta un nombre explicativo",
+        "informationText": "Puedes agregar varias líneas y conectar cada nodo en el mapa. En el modo de edición, hacer clic derecho elimina un vértice.",
+        "discordInvite1": "Únete al",
+        "discordInvite2": "servidor de Discord",
+        "discordInvite3": "para explorar y compartir rutas con otros jugadores. También puedes importar y exportar rutas aquí."
+    },
     "nodes": {
         "showAll": "Mostrar Todos",
         "hideAll": "Ocultar Todos",

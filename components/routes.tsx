@@ -11,6 +11,7 @@ import { nanoid } from "nanoid";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
+import { useDict } from "./(i18n)/i18n-provider";
 
 const RoutesList = dynamic(() => import("./routes-list"), {
   ssr: false,
@@ -18,6 +19,7 @@ const RoutesList = dynamic(() => import("./routes-list"), {
 
 export default function Routes() {
   const map = useMap();
+  const dict = useDict();
   const routes = useRoutesStore();
   const showRoutes = useGlobalSettingsStore((state) => state.showRoutes);
 
@@ -202,7 +204,7 @@ export default function Routes() {
             }}
           >
             <div className="control-icon leaflet-pm-icon-polyline !w-5 !h-5" />
-            <span>Add Line</span>
+            <span>{dict.routes.addLine}</span>
           </button>
           <button
             className={`flex gap-1 p-2 uppercase hover:text-white w-1/2 justify-center ${
@@ -214,7 +216,7 @@ export default function Routes() {
             }}
           >
             <div className="control-icon leaflet-pm-icon-text !w-5 !h-5" />
-            <span>Add Text</span>
+            <span>{dict.routes.addText}</span>
           </button>
           <button
             className={`flex gap-1 p-2 uppercase hover:text-white w-1/2 justify-center ${
@@ -226,7 +228,7 @@ export default function Routes() {
             }}
           >
             <div className="control-icon leaflet-pm-icon-edit !w-5 !h-5" />
-            <span>Edit Mode</span>
+            <span>{dict.routes.editMode}</span>
           </button>
           <button
             className={`flex gap-1 p-2 uppercase hover:text-white w-1/2 justify-center ${
@@ -238,7 +240,7 @@ export default function Routes() {
             }}
           >
             <div className="control-icon leaflet-pm-icon-drag !w-5 !h-5" />
-            <span>Drag Text</span>
+            <span>{dict.routes.moveText}</span>
           </button>
           <button
             className={`flex gap-1 p-2 uppercase hover:text-white w-1/2 justify-center ${
@@ -250,14 +252,14 @@ export default function Routes() {
             }}
           >
             <div className="control-icon leaflet-pm-icon-delete !w-5 !h-5" />
-            <span>Delete Text</span>
+            <span>{dict.routes.deleteText}</span>
           </button>
         </div>
         <div className="flex flex-col p-2 gap-1">
           <input
             className="bg-neutral-900 text-gray-200 text-sm px-2 py-1 w-full border border-gray-600 md:rounded-lg outline-none"
             type="text"
-            placeholder="Give this route an explanatory name"
+            placeholder={dict.routes.explanatoryNameTooltip}
             required
             autoFocus
             value={routes.tempRoute.name}
@@ -266,8 +268,7 @@ export default function Routes() {
             }
           />
           <p className="text-xs text-neutral-400">
-            You can add multiple lines and connect every node on the map.
-            Right-click in edit mode removes a vertex.
+            {dict.routes.informationText}
           </p>
         </div>
         <div className="flex">
@@ -277,7 +278,7 @@ export default function Routes() {
               routes.setIsCreating(false);
             }}
           >
-            Cancel
+            {dict.routes.cancel}
           </button>
           <button
             className={`p-2 uppercase w-1/2 ${
@@ -298,7 +299,7 @@ export default function Routes() {
             }}
             disabled={routes.tempRoute.name.length === 0}
           >
-            Save
+            {dict.routes.save}
           </button>
         </div>
       </div>
@@ -322,7 +323,7 @@ export default function Routes() {
             routes.setIsCreating(true);
           }}
         >
-          Create
+          {dict.routes.create}
         </button>
         <label className="p-2 uppercase hover:text-white w-1/2 text-center">
           <input
@@ -363,20 +364,18 @@ export default function Routes() {
               reader.readAsText(file);
             }}
           />
-          Import
+          {dict.routes.import}
         </label>
       </div>
       <p className="text-xs text-neutral-400 p-2">
-        Join the{" "}
+        {dict.routes.discordInvite1}{" "}
         <Link
           target="_blank"
           href="https://discord.com/invite/NTZu8Px"
-          className="text-neutral-300 hover:text-white"
-        >
-          Discord server
-        </Link>{" "}
-        to explore and share routes with other players. You can also import and
-        export routes here.
+          className="text-neutral-300 hover:text-white">
+          {dict.routes.discordInvite2}{" "}
+        </Link>
+{dict.routes.discordInvite3}
       </p>
       <div className="overflow-auto max-h-full">
         <RoutesList />

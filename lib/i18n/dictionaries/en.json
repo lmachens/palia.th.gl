@@ -101,6 +101,22 @@
     "fairgrounds": "Fairgrounds",
     "housing": "Housing"
   },
+  "routes":{
+    "create": "Create",
+    "import": "Import",
+    "addLine": "Add Line",
+    "addText": "Add Text",
+    "editMode": "Edit Mode",
+    "moveText": "Move Text",
+    "deleteText": "Delete Text",
+    "cancel": "Cancel",
+    "save": "Save",
+    "explanatoryNameTooltip": "Give this route an explanatory name",
+    "informationText": "You can add multiple lines and connect every node on the map. Right-click in edit mode removes a vertex.",
+    "discordInvite1":"Join the",
+    "discordInvite2":"Discord server",
+    "discordInvite3": "to explore and share routes with other players. You can also import and export routes here."
+  },
   "nodes": {
     "showAll": "Show All",
     "hideAll": "Hide All",

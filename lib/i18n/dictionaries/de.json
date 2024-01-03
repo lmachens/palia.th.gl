@@ -101,6 +101,22 @@
         "fairgrounds": "Jahrmarkt",
         "housing": "Wohngebiet"
     },
+    "routes": {
+        "create": "Erstellen",
+        "import": "Importieren",
+        "addLine": "Linie hinzufügen",
+        "addText": "Text hinzufügen",
+        "editMode": "Bearbeitungsmodus",
+        "moveText": "Text verschieben",
+        "deleteText": "Text löschen",
+        "cancel": "Abbrechen",
+        "save": "Speichern",
+        "explanatoryNameTooltip": "Geben Sie dieser Route einen erklärenden Namen",
+        "informationText": "Sie können mehrere Linien hinzufügen und jede Knotenpunkt auf der Karte verbinden. Im Bearbeitungsmodus entfernt ein Rechtsklick einen Knotenpunkt.",
+        "discordInvite1": "Treten Sie dem",
+        "discordInvite2": "Discord-Server",
+        "discordInvite3": "bei, um Routen mit anderen Spielern zu erkunden und zu teilen. Hier können Sie auch Routen importieren und exportieren."
+    },
     "nodes": {
         "showAll": "Alle anzeigen",
         "hideAll": "Alle ausblenden",

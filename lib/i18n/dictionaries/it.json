@@ -101,6 +101,22 @@
         "fairgrounds": "Luna Park",
         "housing": "Alloggi"
     },
+    "routes": {
+        "create": "Crea",
+        "import": "Importa",
+        "addLine": "Aggiungi Linea",
+        "addText": "Aggiungi Testo",
+        "editMode": "Modalità Modifica",
+        "moveText": "Sposta Testo",
+        "deleteText": "Elimina Testo",
+        "cancel": "Annulla",
+        "save": "Salva",
+        "explanatoryNameTooltip": "Dai a questa rotta un nome esplicativo",
+        "informationText": "Puoi aggiungere più linee e collegare ogni nodo sulla mappa. Clic destro in modalità modifica rimuove un vertice.",
+        "discordInvite1": "Unisciti al",
+        "discordInvite2": "server Discord",
+        "discordInvite3": "per esplorare e condividere percorsi con altri giocatori. Puoi anche importare ed esportare percorsi qui."
+    },
     "nodes": {
         "showAll": "Mostra Tutti",
         "hideAll": "Nascondi Tutti",
