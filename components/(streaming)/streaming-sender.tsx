@@ -2,7 +2,7 @@
 import { cn } from "@/lib/utils";
 import type { DataConnection } from "peerjs";
 import Peer from "peerjs";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import {
   Dialog,
   DialogContent,
@@ -16,6 +16,8 @@ import { Button } from "../ui/button";
 import { ReloadIcon } from "@radix-ui/react-icons";
 import QR from "./streaming-qr";
 import { create } from "zustand";
+import { useGameInfoStore } from "@/lib/storage/game-info";
+import { useShallow } from "zustand/react/shallow";
 
 const useConnectionStore = create<{
   connections: Record<string, DataConnection>;
@@ -60,6 +62,39 @@ export default function StreamingSender({ className }: { className?: string }) {
   const peerRef = useRef<Peer | null>(null);
   const [appId, setAppId] = useState("");
   const [isLoading, setIsLoading] = useState(false);
+  const liveGameInfo = useGameInfoStore(
+    useShallow((state) => ({
+      player: state.player,
+      villagers: state.villagers,
+      otherPlayers: state.otherPlayers,
+      spawnNodes: state.spawnNodes,
+      currentGiftPreferences: state.currentGiftPreferences,
+    }))
+  );
+
+  function sendToConnections(data: any) {
+    Object.values(connectionStore.connections).forEach((conn) => {
+      conn.send(data);
+    });
+  }
+
+  useEffect(() => {
+    sendToConnections({ player: liveGameInfo.player });
+  }, [liveGameInfo.player]);
+  useEffect(() => {
+    sendToConnections({ villagers: liveGameInfo.villagers });
+  }, [liveGameInfo.villagers]);
+  useEffect(() => {
+    sendToConnections({ otherPlayers: liveGameInfo.otherPlayers });
+  }, [liveGameInfo.otherPlayers]);
+  useEffect(() => {
+    sendToConnections({ spawnNodes: liveGameInfo.spawnNodes });
+  }, [liveGameInfo.spawnNodes]);
+  useEffect(() => {
+    sendToConnections({
+      currentGiftPreferences: liveGameInfo.currentGiftPreferences,
+    });
+  }, [liveGameInfo.currentGiftPreferences]);
 
   function closeConnectionToPeerServer() {
     setErrorMessage("");

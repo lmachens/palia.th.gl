@@ -21,8 +21,6 @@ export const staticNodes = {
   otherPlayer: {},
 } as const;
 
-export const hideOnWeb = ["otherPlayer"];
-
 export type NODE = {
   id: string;
   x: number;

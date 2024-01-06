@@ -10,11 +10,9 @@ import Filters from "./filters";
 import Maps from "./maps";
 import Routes from "./routes";
 import SearchResults from "./search-results";
-import StreamingReceiver from "./(streaming)/streaming-receiver";
-import { isOverwolfApp } from "@/lib/env";
-import StreamingSender from "./(streaming)/streaming-sender";
+import type { ReactNode } from "react";
 
-export default function Search({ hidden }: { hidden?: boolean }) {
+export default function Search({ children }: { children?: ReactNode }) {
   const dict = useDict();
   const search = useParamsStore((state) => state.search);
   const setParams = useParamsStore((state) => state.setParams);
@@ -23,10 +21,6 @@ export default function Search({ hidden }: { hidden?: boolean }) {
   const globalSettingsStore = useGlobalSettingsStore();
   const isOverlay = useGameInfoStore((state) => state.isOverlay);
   const mapName = useParamsStore((state) => state.mapName);
-
-  if (hidden) {
-    return <></>;
-  }
 
   return (
     <div
@@ -150,19 +144,7 @@ export default function Search({ hidden }: { hidden?: boolean }) {
               <path d="M18 4l3 3l-3 3"></path>
             </svg>
           </button>
-          {isOverwolfApp ? (
-            <StreamingSender
-              className={cn(
-                "absolute right-1 pr-2 inset-y-0 flex items-center"
-              )}
-            />
-          ) : (
-            <StreamingReceiver
-              className={cn(
-                "absolute right-1 pr-2 inset-y-0 flex items-center"
-              )}
-            />
-          )}
+          {children}
 
           <div
             className={cn(

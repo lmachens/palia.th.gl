@@ -1,3 +1,4 @@
+"use client";
 import { VILLAGER_ICONS } from "@/lib/icons";
 import { useGameInfoStore } from "@/lib/storage/game-info";
 import { useMapStore } from "@/lib/storage/map";

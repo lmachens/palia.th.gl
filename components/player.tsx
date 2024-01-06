@@ -1,3 +1,4 @@
+"use client";
 import { useDict } from "@/components/(i18n)/i18n-provider";
 import PlayerMarker from "@/components/(map)/player-marker";
 import { hasExponent, modHousingCoords } from "@/lib/maps";
@@ -21,6 +22,7 @@ import { useSettingsStore } from "@/lib/storage/settings";
 import leaflet from "leaflet";
 import { useEffect, useRef } from "react";
 import useOtherPlayers from "./useOtherPlayers";
+import { isOverwolfApp } from "@/lib/env";
 
 export default function Player() {
   const { map, mapName } = useMapStore();
@@ -35,6 +37,9 @@ export default function Player() {
   useOtherPlayers();
 
   useEffect(() => {
+    if (!isOverwolfApp) {
+      return;
+    }
     if (mounted.current) return;
     mounted.current = true;
 

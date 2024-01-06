@@ -1,13 +1,18 @@
 import Download from "@/components/(download)/download";
 import Leaderboard from "@/components/(leaderboard)/leaderboard";
+import Villagers from "@/components/(map)/villagers";
 import RummagePile from "@/components/(rummage-pile)/rummage-pile";
+import StreamingReceiver from "@/components/(streaming)/streaming-receiver";
 import WeeklyWants from "@/components/(weekly-wants)/weekly-wants";
 import WinterfestChallenge from "@/components/(winterfest-challenge)/winterfest-challenge";
+import Player from "@/components/player";
 import Search from "@/components/search";
+import TraceLine from "@/components/trace-line";
 import WebHeader from "@/components/web-header";
 import { loadDictionary } from "@/lib/i18n";
 import { isMap } from "@/lib/maps";
 import { ParamsProvider } from "@/lib/storage/params";
+import { cn } from "@/lib/utils";
 import { fetchWeeklyWants } from "@/lib/weekly-wants";
 import dynamic from "next/dynamic";
 import { notFound } from "next/navigation";
@@ -62,8 +67,15 @@ async function Layout({
           <Tiles />
           <Nodes />
           <ActiveRoutes />
+          <Player />
+          <Villagers />
+          <TraceLine />
         </Map>
-        <Search />
+        <Search>
+          <StreamingReceiver
+            className={cn("absolute right-1 pr-2 inset-y-0 flex items-center")}
+          />
+        </Search>
       </div>
     );
   }

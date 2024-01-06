@@ -1,7 +1,7 @@
 "use client";
 import { cn } from "@/lib/utils";
 import type { DataConnection } from "peerjs";
-import Peer from "peerjs";
+import type Peer from "peerjs";
 import { useEffect, useRef, useState } from "react";
 import {
   Dialog,
@@ -17,18 +17,38 @@ import { Input } from "../ui/input";
 import { Button } from "../ui/button";
 import { ReloadIcon } from "@radix-ui/react-icons";
 import Link from "next/link";
+import type { GameActor, ValeriaCharacter } from "@/lib/storage/game-info";
+import { useGameInfoStore } from "@/lib/storage/game-info";
+import { useShallow } from "zustand/react/shallow";
+import type { NODE } from "@/lib/nodes";
+import type { CurrentGiftPreferences } from "../(map)/villagers";
+import { useSettingsStore } from "@/lib/storage/settings";
 
 export default function StreamingReceiver({
   className,
 }: {
   className?: string;
 }) {
+  const setLiveMode = useSettingsStore((state) => state.setLiveMode);
   const [isConnected, setIsConnected] = useState(false);
   const [connection, setConnection] = useState<DataConnection | null>(null);
   const [errorMessage, setErrorMessage] = useState("");
   const peerRef = useRef<Peer | null>(null);
   const [appId, setAppId] = useState("");
   const [isLoading, setIsLoading] = useState(false);
+  const gameInfo = useGameInfoStore(
+    useShallow((state) => ({
+      setPlayer: state.setPlayer,
+      setVillagers: state.setVillagers,
+      setOtherPlayers: state.setOtherPlayers,
+      setSpawnNodes: state.setSpawnNodes,
+      setCurrentGiftPreferences: state.setCurrentGiftPreferences,
+    }))
+  );
+
+  useEffect(() => {
+    setLiveMode(!!connection);
+  }, [connection]);
 
   function closeConnectionToPeerServer() {
     setErrorMessage("");
@@ -54,6 +74,26 @@ export default function StreamingReceiver({
     });
     conn.on("data", (data) => {
       console.log("DATA", data);
+      if (typeof data !== "object" || data === null) {
+        return;
+      }
+      if ("player" in data) {
+        gameInfo.setPlayer(data.player as ValeriaCharacter);
+      }
+      if ("villagers" in data) {
+        gameInfo.setVillagers(data.villagers as GameActor[]);
+      }
+      if ("otherPlayers" in data) {
+        gameInfo.setOtherPlayers(data.otherPlayers as ValeriaCharacter[]);
+      }
+      if ("spawnNodes" in data) {
+        gameInfo.setSpawnNodes(data.spawnNodes as NODE[]);
+      }
+      if ("currentGiftPreferences" in data) {
+        gameInfo.setCurrentGiftPreferences(
+          data.currentGiftPreferences as CurrentGiftPreferences
+        );
+      }
     });
     conn.on("close", () => {
       setConnection(null);
@@ -68,31 +108,35 @@ export default function StreamingReceiver({
     if (peerRef.current) {
       peerRef.current.destroy();
     }
-    peerRef.current = new Peer();
-    peerRef.current.on("close", () => {
-      console.log("peer close");
-      setIsConnected(false);
-      closeExistingConnection();
-    });
-    peerRef.current.on("error", (error) => {
-      setErrorMessage(error.message);
-      console.log("peer error", error, error.name, error.message);
-    });
-    peerRef.current.on("open", (id) => {
-      console.log("peer open", id);
-      setIsConnected(true);
-      if (onOpen) {
-        onOpen();
-      }
-    });
-    peerRef.current.on("connection", (conn) => {
-      console.log("peer connection", conn);
-      initializeConnection(conn);
-    });
-    peerRef.current.on("disconnected", (connectionId) => {
-      console.log("peer disconnected", connectionId);
-      setIsConnected(false);
-    });
+    const fn = async () => {
+      const PeerJs = (await import("peerjs")).default;
+      peerRef.current = new PeerJs();
+      peerRef.current.on("close", () => {
+        console.log("peer close");
+        setIsConnected(false);
+        closeExistingConnection();
+      });
+      peerRef.current.on("error", (error) => {
+        setErrorMessage(error.message);
+        console.log("peer error", error, error.name, error.message);
+      });
+      peerRef.current.on("open", (id) => {
+        console.log("peer open", id);
+        setIsConnected(true);
+        if (onOpen) {
+          onOpen();
+        }
+      });
+      peerRef.current.on("connection", (conn) => {
+        console.log("peer connection", conn);
+        initializeConnection(conn);
+      });
+      peerRef.current.on("disconnected", (connectionId) => {
+        console.log("peer disconnected", connectionId);
+        setIsConnected(false);
+      });
+    };
+    fn();
   }
 
   function handleId(id: string) {

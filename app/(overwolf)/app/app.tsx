@@ -7,6 +7,7 @@ import Map from "@/components/(map)/map";
 import Nodes from "@/components/(map)/nodes";
 import Tiles from "@/components/(map)/tiles";
 import Villagers from "@/components/(map)/villagers";
+import StreamingSender from "@/components/(streaming)/streaming-sender";
 import Ads from "@/components/ads";
 import MapContainer from "@/components/map-container";
 import Player from "@/components/player";
@@ -18,6 +19,7 @@ import { DEFAULT_LOCALE, LOCALES, loadDictionary } from "@/lib/i18n";
 import { useGameInfoStore } from "@/lib/storage/game-info";
 import { ParamsProvider } from "@/lib/storage/params";
 import { useSettingsStore } from "@/lib/storage/settings";
+import { cn } from "@/lib/utils";
 import { getCurrentWindow } from "@/lib/windows";
 import { useEffect, useState } from "react";
 
@@ -60,7 +62,11 @@ export default function App() {
             <TraceLine />
           </Map>
         </MapContainer>
-        <Search />
+        <Search>
+          <StreamingSender
+            className={cn("absolute right-1 pr-2 inset-y-0 flex items-center")}
+          />
+        </Search>
       </ParamsProvider>
       <ResizeBorders />
       <Ads />
