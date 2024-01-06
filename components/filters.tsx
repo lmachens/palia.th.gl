@@ -9,7 +9,7 @@ import { useGlobalSettingsStore } from "@/lib/storage/global-settings";
 import { useParamsStore } from "@/lib/storage/params";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
-import { Fragment, useCallback } from "react";
+import { useCallback } from "react";
 import { useDict } from "./(i18n)/i18n-provider";
 
 const rarityStars = {
