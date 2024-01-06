@@ -10,6 +10,9 @@ import Filters from "./filters";
 import Maps from "./maps";
 import Routes from "./routes";
 import SearchResults from "./search-results";
+import StreamingReceiver from "./(streaming)/streaming-receiver";
+import { isOverwolfApp } from "@/lib/env";
+import StreamingSender from "./(streaming)/streaming-sender";
 
 export default function Search({ hidden }: { hidden?: boolean }) {
   const dict = useDict();
@@ -36,7 +39,7 @@ export default function Search({ hidden }: { hidden?: boolean }) {
           className={`relative pointer-events-auto flex md:w-fit min-w-[300px]`}
         >
           <input
-            className="bg-neutral-900 text-gray-200 text-sm pl-4 pr-16 py-2.5 w-full md:border md:border-gray-600 md:rounded-lg outline-none search"
+            className="bg-neutral-900 text-gray-200 text-sm pl-4 pr-22 py-2.5 w-full md:border md:border-gray-600 md:rounded-lg outline-none search"
             type="text"
             placeholder={dict.search.placeholder}
             value={search}
@@ -49,7 +52,7 @@ export default function Search({ hidden }: { hidden?: boolean }) {
           />
           {search ? (
             <button
-              className="flex absolute inset-y-0 right-12 items-center pr-2 text-gray-400 hover:text-gray-200"
+              className="flex absolute inset-y-0 right-20 items-center pr-2 text-gray-400 hover:text-gray-200"
               onClick={() => setParams({ search: "", dict })}
               type="button"
             >
@@ -67,7 +70,7 @@ export default function Search({ hidden }: { hidden?: boolean }) {
               <div className="h-3/6 w-px bg-gray-600 mx-1.5" />
             </button>
           ) : (
-            <div className="flex absolute inset-y-0 right-12 items-center pr-2 text-gray-400">
+            <div className="flex absolute inset-y-0 right-20 items-center pr-2 text-gray-400">
               <svg
                 className="block w-5"
                 fill="none"
@@ -86,7 +89,7 @@ export default function Search({ hidden }: { hidden?: boolean }) {
             </div>
           )}
           <button
-            className={`flex absolute inset-y-0 right-6 items-center pr-2 text-gray-400 hover:text-gray-200 md:text-white`}
+            className={`flex absolute inset-y-0 right-14 items-center pr-2 text-gray-400 hover:text-gray-200 md:text-white`}
             style={
               globalSettingsStore.showFilters !== null
                 ? {
@@ -116,7 +119,9 @@ export default function Search({ hidden }: { hidden?: boolean }) {
             </svg>
           </button>
           <button
-            className={`flex absolute inset-y-0 right-0 items-center pr-2 text-gray-400 hover:text-gray-200 md:text-white`}
+            className={cn(
+              "flex absolute inset-y-0 right-8 items-center pr-2 text-gray-400 hover:text-gray-200 md:text-white"
+            )}
             style={
               globalSettingsStore.showRoutes !== null
                 ? {
@@ -131,7 +136,7 @@ export default function Search({ hidden }: { hidden?: boolean }) {
             aria-expanded={!!globalSettingsStore.showRoutes}
           >
             <svg
-              className="block w-5 h-5"
+              className="block w-5"
               viewBox="0 0 24 24"
               strokeWidth="2"
               stroke="currentColor"
@@ -145,6 +150,20 @@ export default function Search({ hidden }: { hidden?: boolean }) {
               <path d="M18 4l3 3l-3 3"></path>
             </svg>
           </button>
+          {isOverwolfApp ? (
+            <StreamingSender
+              className={cn(
+                "absolute right-1 pr-2 inset-y-0 flex items-center"
+              )}
+            />
+          ) : (
+            <StreamingReceiver
+              className={cn(
+                "absolute right-1 pr-2 inset-y-0 flex items-center"
+              )}
+            />
+          )}
+
           <div
             className={cn(
               `absolute top-full text-sm w-full md:mt-1 max-h-[calc(100vh-90px)] md:max-h-[calc(100vh-120px)] flex flex-col md:gap-2`
