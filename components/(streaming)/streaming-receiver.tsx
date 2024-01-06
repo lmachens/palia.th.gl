@@ -73,7 +73,6 @@ export default function StreamingReceiver({
       console.log("conn open", conn.connectionId);
     });
     conn.on("data", (data) => {
-      console.log("DATA", data);
       if (typeof data !== "object" || data === null) {
         return;
       }

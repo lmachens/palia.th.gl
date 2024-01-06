@@ -112,9 +112,6 @@ export default function StreamingSender({ className }: { className?: string }) {
       connectionStore.addConnection(conn);
       console.log("conn open", conn.connectionId);
     });
-    conn.on("data", (data) => {
-      console.log("DATA", data);
-    });
     conn.on("close", () => {
       connectionStore.closeExistingConnection(conn.peer);
       console.log("conn close", conn.connectionId);
