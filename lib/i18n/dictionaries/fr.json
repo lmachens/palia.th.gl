@@ -146,5 +146,13 @@
         "restore": "Restaurer",
         "reset": "Réinitialiser",
         "alwaysShowStarredNodes": "Toujours Afficher les Nœuds Favoris"
-    }
+    },
+    "filters": {
+        "addPreset": "Sauvegarder Filtres",
+        "deletePreset": "Supprimer ce filtre",
+        "maskPresetName": "Nom du filtre",
+        "promptPresetName": "Enter un nom significatif pour ce filtre",
+        "noPresetsWarning": "Pas de filtres sauvegardés",
+        "confirmDelete" : "Êtes-vous sûr de supprimer ce filtre ?"
+      }
 }
