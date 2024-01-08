@@ -1,6 +1,6 @@
 "use client";
 import { useGameInfoStore } from "@/lib/storage/game-info";
-import { useMap } from "@/lib/storage/map";
+import { useMapStore } from "@/lib/storage/map";
 import { useSettingsStore } from "@/lib/storage/settings";
 import leaflet from "leaflet";
 import { useEffect, useRef } from "react";
@@ -14,7 +14,7 @@ function createCircle(position: { x: number; y: number; z: number }) {
 }
 
 export default function TraceLine() {
-  const map = useMap();
+  const { map, mapName } = useMapStore();
   const player = useGameInfoStore((state) => state.player);
   const lastPosition = useRef<{ x: number; y: number; z: number }>({
     x: 0,
@@ -29,12 +29,11 @@ export default function TraceLine() {
   if (!layerGroup.current) {
     layerGroup.current = new leaflet.LayerGroup();
   }
-  const lastMapName = useRef(player?.mapName);
 
   const settingsStore = useSettingsStore();
 
   useEffect(() => {
-    if (!settingsStore.showTraceLine || !map) {
+    if (!settingsStore.showTraceLine || !map || mapName !== player?.mapName) {
       return;
     }
     const targetLayerGroup = layerGroup.current!;
@@ -44,18 +43,17 @@ export default function TraceLine() {
     return () => {
       targetLayerGroup.removeFrom(map);
     };
-  }, [settingsStore.showTraceLine, map]);
+  }, [settingsStore.showTraceLine, map, mapName, player?.mapName]);
+
+  useEffect(() => {
+    layerGroup.current?.clearLayers();
+  }, [player?.mapName]);
 
   useEffect(() => {
     if (!player?.position) {
       return;
     }
     const targetLayerGroup = layerGroup.current!;
-
-    if (player.mapName !== lastMapName.current) {
-      lastMapName.current = player.mapName;
-      targetLayerGroup.clearLayers();
-    }
 
     const distance = Math.sqrt(
       Math.pow(player.position.x - lastPosition.current.x, 2) +

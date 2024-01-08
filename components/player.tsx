@@ -43,8 +43,6 @@ export default function Player() {
     if (mounted.current) return;
     mounted.current = true;
 
-    let lastMapName = mapName;
-
     overwolf.extensions.current.getExtraObject("palia", (result) => {
       if (!result.success) {
         console.error("failed to create object: ", result);
@@ -108,17 +106,6 @@ export default function Player() {
                     guid: player.guid,
                     name: player.name,
                   });
-                  if (player.mapName !== lastMapName) {
-                    firstData = false;
-                    console.log(
-                      `Entering new map: ${player.mapName} on ${player.x},${player.y}`
-                    );
-                    lastMapName = player.mapName;
-                    setParams({
-                      mapName: player.mapName,
-                      dict,
-                    });
-                  }
                 }
               }
             } catch (err) {
@@ -129,7 +116,6 @@ export default function Player() {
           (err: string) => {
             if (err !== lastPlayerError) {
               lastPlayerError = err;
-
               console.error("Player Error: ", err);
             }
             setTimeout(getPlayer, 200);
@@ -292,6 +278,19 @@ export default function Player() {
       marker.current = null;
     };
   }, [map, mapName, gameInfo.player?.mapName]);
+
+  useEffect(() => {
+    if (!gameInfo.player?.mapName || gameInfo.player.mapName === mapName) {
+      return;
+    }
+    console.log(
+      `Entering new map: ${gameInfo.player.mapName} on ${gameInfo.player.position.x},${gameInfo.player.position.y}`
+    );
+    setParams({
+      mapName: gameInfo.player.mapName,
+      dict,
+    });
+  }, [gameInfo.player?.mapName]);
 
   const lastAnimation = useRef(0);
 

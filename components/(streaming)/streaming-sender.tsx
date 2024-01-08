@@ -18,6 +18,8 @@ import QR from "./streaming-qr";
 import { create } from "zustand";
 import { useGameInfoStore } from "@/lib/storage/game-info";
 import { useShallow } from "zustand/react/shallow";
+import { Input } from "../ui/input";
+import { useSettingsStore } from "@/lib/storage/settings";
 
 const useConnectionStore = create<{
   connections: Record<string, DataConnection>;
@@ -57,10 +59,14 @@ const useConnectionStore = create<{
 export default function StreamingSender({ className }: { className?: string }) {
   const connectionStore = useConnectionStore();
   const [isConnected, setIsConnected] = useState(false);
-
+  const { appId, setAppId } = useSettingsStore(
+    useShallow((state) => ({
+      appId: state.appId,
+      setAppId: state.setAppId,
+    }))
+  );
   const [errorMessage, setErrorMessage] = useState("");
   const peerRef = useRef<Peer | null>(null);
-  const [appId, setAppId] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const liveGameInfo = useGameInfoStore(
     useShallow((state) => ({
@@ -71,6 +77,12 @@ export default function StreamingSender({ className }: { className?: string }) {
       currentGiftPreferences: state.currentGiftPreferences,
     }))
   );
+
+  useEffect(() => {
+    if (!appId && liveGameInfo.player?.name) {
+      setAppId(`palia-th-gl-${liveGameInfo.player.name}`);
+    }
+  }, [liveGameInfo.player?.name]);
 
   function sendToConnections(data: any) {
     Object.values(connectionStore.connections).forEach((conn) => {
@@ -125,7 +137,7 @@ export default function StreamingSender({ className }: { className?: string }) {
     if (peerRef.current) {
       peerRef.current.destroy();
     }
-    peerRef.current = new Peer();
+    peerRef.current = new Peer(appId);
     peerRef.current.on("close", () => {
       console.log("peer close");
       setIsConnected(false);
@@ -161,6 +173,8 @@ export default function StreamingSender({ className }: { className?: string }) {
       setIsLoading(false);
     });
   }
+
+  const hasConnections = Object.keys(connectionStore.connections).length > 0;
 
   return (
     <Dialog>
@@ -207,39 +221,44 @@ export default function StreamingSender({ className }: { className?: string }) {
         <section className="space-y-2">
           <p className="flex items-center gap-2">
             <span
-              className={cn(
-                "w-3 h-3 inline-block rounded-xl",
-                Object.keys(connectionStore.connections).length > 0
-                  ? "bg-green-400"
-                  : isConnected
-                  ? "bg-yellow-500"
-                  : "bg-orange-500"
-              )}
+              className={cn("w-3 h-3 inline-block rounded-xl", {
+                "bg-green-400": appId && hasConnections,
+                "bg-yellow-500": appId && !hasConnections && isConnected,
+                "bg-orange-500": appId && !hasConnections && !isConnected,
+                "bg-red-500": !appId,
+              })}
             ></span>
             <span>
-              {Object.keys(connectionStore.connections).length > 0
-                ? `Connected to ${
-                    Object.keys(connectionStore.connections).length
-                  } browser`
-                : isConnected
-                ? "Waiting for a browser to connect"
-                : "Not ready to connect"}
+              {appId &&
+                hasConnections &&
+                `Connected to ${
+                  Object.keys(connectionStore.connections).length
+                } browser`}
+              {appId &&
+                !hasConnections &&
+                isConnected &&
+                "Waiting for a browser to connect"}
+              {appId &&
+                !hasConnections &&
+                !isConnected &&
+                "Not connected to streaming server"}
+              {!appId && "Can not detect character name"}
             </span>
           </p>
           <p className="uppercase text-orange-500 h-6">{errorMessage}</p>
-
           <form className="space-y-2" onSubmit={handleSubmit}>
             <div className="grid w-full max-w-sm items-center gap-1.5">
               <Label htmlFor="appId">App ID (click to copy)</Label>
-              <Button
-                type="button"
+              <Input
                 id="appId"
-                variant="ghost"
+                type="text"
+                value={appId}
                 onClick={() => navigator.clipboard.writeText(appId)}
-                disabled={!appId}
-              >
-                {appId || "No app ID"}
-              </Button>
+                onChange={(event) => setAppId(event.target.value)}
+                required
+                placeholder="This ID is used to identify this app"
+                disabled={isConnected}
+              />
               <QR
                 value={
                   appId
@@ -249,7 +268,11 @@ export default function StreamingSender({ className }: { className?: string }) {
               />
             </div>
 
-            <Button type="submit" disabled={isLoading} className="w-full">
+            <Button
+              type="submit"
+              disabled={isLoading || !appId || isConnected}
+              className="w-full"
+            >
               {isLoading && (
                 <ReloadIcon className="mr-2 h-4 w-4 animate-spin" />
               )}

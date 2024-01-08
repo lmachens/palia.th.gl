@@ -18,19 +18,25 @@ export default function Tiles() {
       return;
     }
     const config = CONFIGS[mapName as keyof typeof CONFIGS];
-    const canvasLayer = createCanvasLayer(`/maps/${mapName}/{z}/{y}/{x}.webp`, {
-      minNativeZoom: config.minNativeZoom,
-      maxNativeZoom: config.maxNativeZoom,
-      minZoom: map.getMinZoom(),
-      maxZoom: map.getMaxZoom(),
-      bounds: config.bounds,
-      tileSize: 512,
-      filter: isOverlay ? mapFilter : "none",
-    }).addTo(map);
-
-    return () => {
-      canvasLayer.removeFrom(map);
-    };
+    try {
+      const canvasLayer = createCanvasLayer(
+        `/maps/${mapName}/{z}/{y}/{x}.webp`,
+        {
+          minNativeZoom: config.minNativeZoom,
+          maxNativeZoom: config.maxNativeZoom,
+          minZoom: map.getMinZoom(),
+          maxZoom: map.getMaxZoom(),
+          bounds: config.bounds,
+          tileSize: 512,
+          filter: isOverlay ? mapFilter : "none",
+        }
+      ).addTo(map);
+      return () => {
+        canvasLayer.removeFrom(map);
+      };
+    } catch (e) {
+      //
+    }
   }, [mapFilter, map]);
 
   return <></>;

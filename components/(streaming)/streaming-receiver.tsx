@@ -29,12 +29,17 @@ export default function StreamingReceiver({
 }: {
   className?: string;
 }) {
-  const setLiveMode = useSettingsStore((state) => state.setLiveMode);
+  const { setLiveMode, appId, setAppId } = useSettingsStore(
+    useShallow((state) => ({
+      setLiveMode: state.setLiveMode,
+      appId: state.appId,
+      setAppId: state.setAppId,
+    }))
+  );
   const [isConnected, setIsConnected] = useState(false);
   const [connection, setConnection] = useState<DataConnection | null>(null);
   const [errorMessage, setErrorMessage] = useState("");
   const peerRef = useRef<Peer | null>(null);
-  const [appId, setAppId] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const gameInfo = useGameInfoStore(
     useShallow((state) => ({
@@ -268,7 +273,11 @@ export default function StreamingReceiver({
               />
             </div>
 
-            <Button type="submit" disabled={isLoading} className="w-full">
+            <Button
+              type="submit"
+              disabled={isLoading || !!connection}
+              className="w-full"
+            >
               {isLoading && (
                 <ReloadIcon className="mr-2 h-4 w-4 animate-spin" />
               )}
